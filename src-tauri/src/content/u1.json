@@ -1,0 +1,369 @@
+{
+  "id": "u1",
+  "title": "Primeros pasos",
+  "emoji": "👋",
+  "color": "#7C5CFF",
+  "lessons": [
+    {
+      "id": "u1l1",
+      "title": "Saludos",
+      "goal": "Saluda, despide y di tu nombre",
+      "tip": [
+        "«Hi» es informal, «Hello» vale en cualquier situación.",
+        "Para despedirte: «Bye», «Goodbye» o «See you» (nos vemos)."
+      ],
+      "phrases": [
+        { "es": "¡Hola! ¿Cómo estás?", "en": "Hi! How are you?" },
+        { "es": "Bien, gracias. ¿Y tú?", "en": "Good, thanks. And you?" },
+        { "es": "Nos vemos mañana", "en": "See you tomorrow" }
+      ],
+      "exercises": [
+        {
+          "id": "u1l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «hola»?",
+          "options": ["Hello", "Bye", "Please", "Sorry"],
+          "answer": 0,
+          "pair": { "es": "hola", "en": "hello" },
+          "explain": "«Hello» y «Hi» significan hola."
+        },
+        {
+          "id": "u1l1e2",
+          "type": "choice",
+          "prompt": "«Good morning» es…",
+          "options": ["Buenos días", "Buenas noches", "Buenas tardes", "Hasta luego"],
+          "answer": 0,
+          "pair": { "es": "buenos días", "en": "good morning" }
+        },
+        {
+          "id": "u1l1e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Good morning! How are you?",
+          "options": [
+            "¡Buenos días! ¿Cómo estás?",
+            "¡Buenas noches! ¿Qué tal?",
+            "Hasta luego, nos vemos"
+          ],
+          "answer": 0,
+          "pair": { "es": "¡buenos días! ¿cómo estás?", "en": "good morning! how are you?" }
+        },
+        {
+          "id": "u1l1e4",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ Ana.",
+          "options": ["am", "is", "are"],
+          "answer": 0,
+          "explain": "Con «I» el verbo «to be» es «am»: I am (I'm) Ana."
+        },
+        {
+          "id": "u1l1e5",
+          "type": "build",
+          "prompt": "Traduce: «Nos vemos mañana»",
+          "solution": "See you tomorrow",
+          "distractors": ["today", "goodbye"],
+          "pair": { "es": "nos vemos mañana", "en": "see you tomorrow" }
+        },
+        {
+          "id": "u1l1e6",
+          "type": "type",
+          "prompt": "Escribe en inglés: «gracias»",
+          "solution": "thank you",
+          "accept": ["thank you", "thanks", "thank you!"],
+          "pair": { "es": "gracias", "en": "thank you" },
+          "explain": "«Thanks» es más informal que «thank you»."
+        },
+        {
+          "id": "u1l1e7",
+          "type": "choice",
+          "prompt": "¿Cuál de estas es una despedida?",
+          "options": ["Goodbye", "Hello", "Good morning", "Nice to meet you"],
+          "answer": 0,
+          "pair": { "es": "adiós", "en": "goodbye" }
+        },
+        {
+          "id": "u1l1e8",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            { "es": "hola", "en": "hello" },
+            { "es": "adiós", "en": "goodbye" },
+            { "es": "buenos días", "en": "good morning" },
+            { "es": "gracias", "en": "thank you" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u1l2",
+      "title": "Mi nombre es…",
+      "goal": "Preséntate: nombre, edad y origen",
+      "tip": [
+        "«My name is Ana» = Me llamo Ana. También vale «I'm Ana».",
+        "Para la edad: «I am 20 years old» o «I'm 20»."
+      ],
+      "phrases": [
+        { "es": "Me llamo Ana", "en": "My name is Ana" },
+        { "es": "Soy de España", "en": "I'm from Spain" },
+        { "es": "Encantado de conocerte", "en": "Nice to meet you" }
+      ],
+      "exercises": [
+        {
+          "id": "u1l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Me llamo Ana»?",
+          "options": ["My name is Ana", "I have Ana", "You are Ana", "Ana is me"],
+          "answer": 0,
+          "pair": { "es": "me llamo ana", "en": "my name is ana" }
+        },
+        {
+          "id": "u1l2e2",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ from Spain.",
+          "options": ["am", "is", "are"],
+          "answer": 0,
+          "explain": "«I am from…» significa «Soy de…»."
+        },
+        {
+          "id": "u1l2e3",
+          "type": "build",
+          "prompt": "Traduce: «Encantado de conocerte»",
+          "solution": "Nice to meet you",
+          "distractors": ["meet", "too", "good"],
+          "pair": { "es": "encantado de conocerte", "en": "nice to meet you" }
+        },
+        {
+          "id": "u1l2e4",
+          "type": "type",
+          "prompt": "Escribe en inglés: «¿Cómo te llamas?»",
+          "solution": "What is your name",
+          "accept": ["what is your name", "what's your name", "whats your name"],
+          "pair": { "es": "¿cómo te llamas?", "en": "what is your name?" }
+        },
+        {
+          "id": "u1l2e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "My name is Carlos. I'm from Mexico.",
+          "options": [
+            "Me llamo Carlos. Soy de México.",
+            "Me llamo Carla. Soy de Madrid.",
+            "Tengo 20 años. Soy de México."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "u1l2e6",
+          "type": "choice",
+          "prompt": "«I'm 20 years old» significa…",
+          "options": ["Tengo 20 años", "Soy el número 20", "Tengo 20 euros", "Cumplo años en 20 días"],
+          "answer": 0,
+          "pair": { "es": "tengo 20 años", "en": "i am 20 years old" }
+        },
+        {
+          "id": "u1l2e7",
+          "type": "match",
+          "prompt": "Empareja cada expresión",
+          "pairs": [
+            { "es": "me llamo…", "en": "my name is…" },
+            { "es": "soy de…", "en": "I am from…" },
+            { "es": "encantado de conocerte", "en": "nice to meet you" },
+            { "es": "¿cómo te llamas?", "en": "what is your name?" }
+          ]
+        },
+        {
+          "id": "u1l2e8",
+          "type": "fill",
+          "prompt": "Completa la pregunta",
+          "sentence": "Where ___ you from?",
+          "options": ["are", "is", "am"],
+          "answer": 0,
+          "explain": "«Where are you from?» = ¿De dónde eres?"
+        }
+      ]
+    },
+    {
+      "id": "u1l3",
+      "title": "Por favor y gracias",
+      "goal": "Usa las palabras mágicas de la cortesía",
+      "tip": [
+        "«Sorry» = lo siento / perdón. «Excuse me» = permiso (para pasar o llamar la atención).",
+        "«You're welcome» responde a «Thank you»."
+      ],
+      "phrases": [
+        { "es": "Perdón, ¿me puedes ayudar?", "en": "Excuse me, can you help me?" },
+        { "es": "Muchas gracias", "en": "Thank you very much" },
+        { "es": "De nada", "en": "You're welcome" }
+      ],
+      "exercises": [
+        {
+          "id": "u1l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «por favor»?",
+          "options": ["Please", "Thanks", "Sorry", "Welcome"],
+          "answer": 0,
+          "pair": { "es": "por favor", "en": "please" }
+        },
+        {
+          "id": "u1l3e2",
+          "type": "choice",
+          "prompt": "«You're welcome» se usa cuando…",
+          "options": [
+            "Alguien te da las gracias",
+            "Alguien te saluda",
+            "Te despides",
+            "Pides perdón"
+          ],
+          "answer": 0,
+          "pair": { "es": "de nada", "en": "you're welcome" }
+        },
+        {
+          "id": "u1l3e3",
+          "type": "type",
+          "prompt": "Escribe en inglés: «perdón / lo siento»",
+          "solution": "sorry",
+          "accept": ["sorry", "i am sorry", "i'm sorry"],
+          "pair": { "es": "lo siento", "en": "sorry" }
+        },
+        {
+          "id": "u1l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Perdón, ¿me puedes ayudar?»",
+          "solution": "Excuse me can you help me",
+          "distractors": ["sorry", "halp"],
+          "pair": { "es": "perdón, ¿me puedes ayudar?", "en": "excuse me, can you help me?" }
+        },
+        {
+          "id": "u1l3e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Thank you very much!",
+          "options": ["¡Muchas gracias!", "¡De nada!", "¡Lo siento mucho!"],
+          "answer": 0,
+          "pair": { "es": "muchas gracias", "en": "thank you very much" }
+        },
+        {
+          "id": "u1l3e6",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ me, where is the bathroom?",
+          "options": ["Excuse", "Sorry", "Please"],
+          "answer": 0,
+          "explain": "«Excuse me» se usa para llamar la atención de alguien."
+        },
+        {
+          "id": "u1l3e7",
+          "type": "choice",
+          "prompt": "«No problem» significa…",
+          "options": ["No hay problema", "No entiendo", "Nunca", "No es posible"],
+          "answer": 0,
+          "pair": { "es": "no hay problema", "en": "no problem" }
+        },
+        {
+          "id": "u1l3e8",
+          "type": "match",
+          "prompt": "Empareja cada expresión",
+          "pairs": [
+            { "es": "por favor", "en": "please" },
+            { "es": "de nada", "en": "you're welcome" },
+            { "es": "lo siento", "en": "sorry" },
+            { "es": "no hay problema", "en": "no problem" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u1l4",
+      "title": "¿Entiendes inglés?",
+      "goal": "Pide ayuda y di que no entiendes",
+      "tip": [
+        "Para pedir que repitan: «Can you repeat, please?»",
+        "Si no entiendes: «I don't understand». Si sabes poco: «I speak a little English»."
+      ],
+      "phrases": [
+        { "es": "¿Hablas inglés?", "en": "Do you speak English?" },
+        { "es": "No entiendo", "en": "I don't understand" },
+        { "es": "¿Puedes repetir, por favor?", "en": "Can you repeat, please?" }
+      ],
+      "exercises": [
+        {
+          "id": "u1l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «no entiendo»?",
+          "options": [
+            "I don't understand",
+            "I don't know",
+            "I can't hear",
+            "I understand"
+          ],
+          "answer": 0,
+          "pair": { "es": "no entiendo", "en": "i don't understand" },
+          "explain": "«I don't know» significa «no sé»."
+        },
+        {
+          "id": "u1l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Do you speak English?",
+          "options": ["¿Hablas inglés?", "¿Estudias inglés?", "¿Entiendes inglés?"],
+          "answer": 0,
+          "pair": { "es": "¿hablas inglés?", "en": "do you speak english?" }
+        },
+        {
+          "id": "u1l4e3",
+          "type": "build",
+          "prompt": "Traduce: «¿Puedes repetir, por favor?»",
+          "solution": "Can you repeat please",
+          "distractors": ["say", "speak"],
+          "pair": { "es": "¿puedes repetir, por favor?", "en": "can you repeat, please?" }
+        },
+        {
+          "id": "u1l4e4",
+          "type": "type",
+          "prompt": "Escribe en inglés: «un poco»",
+          "solution": "a little",
+          "accept": ["a little", "a bit"],
+          "pair": { "es": "un poco", "en": "a little" }
+        },
+        {
+          "id": "u1l4e5",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I speak ___ English.",
+          "options": ["a little", "a few", "many"],
+          "answer": 0,
+          "explain": "«A little» = un poco. «A few» se usa con cosas contables: a few words."
+        },
+        {
+          "id": "u1l4e6",
+          "type": "choice",
+          "prompt": "«What does it mean?» significa…",
+          "options": ["¿Qué significa?", "¿Qué quieres decir?", "¿Qué hora es?", "¿Qué haces?"],
+          "answer": 0,
+          "pair": { "es": "¿qué significa?", "en": "what does it mean?" }
+        },
+        {
+          "id": "u1l4e7",
+          "type": "match",
+          "prompt": "Empareja cada expresión",
+          "pairs": [
+            { "es": "¿entiendes?", "en": "do you understand?" },
+            { "es": "no sé", "en": "I don't know" },
+            { "es": "hablo un poco", "en": "I speak a little" },
+            { "es": "¿puedes repetir?", "en": "can you repeat?" }
+          ]
+        },
+        {
+          "id": "u1l4e8",
+          "type": "choice",
+          "prompt": "«I don't know» es…",
+          "options": ["No sé", "No entiendo", "No quiero", "No puedo"],
+          "answer": 0,
+          "pair": { "es": "no sé", "en": "i don't know" }
+        }
+      ]
+    }
+  ]
+}
