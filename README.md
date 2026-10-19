@@ -4,10 +4,12 @@ Aprende inglés desde el español con lecciones cortas e interactivas. App móvi
 
 ## Funcionalidad
 
-- 4 unidades / 16 lecciones con ~130 ejercicios (opción múltiple, escucha, construir frases, emparejar, escribir, rellenar huecos)
+- **12 unidades / 48 lecciones / ~350 ejercicios** que cubren de A1 a B2 (pasados, perfectos, condicionales, pasiva, estilo indirecto, phrasal verbs, collocations de examen…)
+- Unidad final «Rumbo al B2» con estructuras típicas de examen (transformaciones, coletillas, inversión, condicionales mixtas)
 - Repaso inteligente con repetición espaciada (SRS tipo Anki, planificado en Rust)
 - XP, niveles, rachas diarias, meta diaria y estrellas por lección
-- **Voz neuronal incorporada**: 190 clips (Piper, mp3+ogg) empaquetados en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
+- **Tema oscuro** en toda la interfaz (y en la status bar de Android)
+- **Voz neuronal incorporada**: clips (Piper, mp3+ogg) empaquetados en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
 - Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
 - 100% offline: el contenido y las voces van en el binario y el progreso se guarda en JSON
 

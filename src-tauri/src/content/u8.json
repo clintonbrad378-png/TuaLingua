@@ -1,0 +1,104 @@
+{
+  "id": "u8",
+  "title": "Trabajo y estudios",
+  "emoji": "💼",
+  "color": "#6C7BFF",
+  "lessons": [
+    {
+      "id": "u8l1",
+      "title": "Presente perfecto continuo",
+      "goal": "Habla de acciones que llevan tiempo ocurriendo",
+      "tip": [
+        "have/has been + verbo en -ing: I have been studying.",
+        "Se usa con for/since: I have been working here since 2020.",
+        "Si está terminado y completo, usa el simple: I have written three reports."
+      ],
+      "phrases": [
+        { "es": "Llevo dos horas buscando trabajo", "en": "I have been looking for a job for two hours" },
+        { "es": "Ha estado lloviendo toda la mañana", "en": "It has been raining all morning" },
+        { "es": "¿Cuánto tiempo llevas trabajando aquí?", "en": "How long have you been working here?" }
+      ],
+      "exercises": [
+        { "id": "u8l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ been working here since 2020.", "options": ["has", "have", "is"], "answer": 0, "explain": "Con «she»: has been + -ing." },
+        { "id": "u8l1e2", "type": "choice", "prompt": "I'm tired because I ___ all day.", "options": ["have been studying", "studied", "study"], "answer": 0, "explain": "Acción que continúa todo el día: perfecto continuo." },
+        { "id": "u8l1e3", "type": "build", "prompt": "Traduce: «Llevo esperando desde las nueve»", "solution": "I have been waiting since nine", "distractors": ["wait", "for"], "pair": { "es": "llevo esperando desde las nueve", "en": "i have been waiting since nine" } },
+        { "id": "u8l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "He has been learning English for three years.", "options": ["Lleva tres años aprendiendo inglés.", "Aprendió inglés hace tres años.", "Aprenderá inglés durante tres años."], "answer": 0 },
+        { "id": "u8l1e5", "type": "type", "prompt": "Escribe «he estado estudiando»", "solution": "I have been studying", "accept": ["i have been studying", "i've been studying", "ive been studying"], "pair": { "es": "he estado estudiando", "en": "i have been studying" } },
+        { "id": "u8l1e6", "type": "match", "prompt": "Empareja los marcadores", "pairs": [{ "es": "desde", "en": "since" }, { "es": "durante (periodo)", "en": "for" }, { "es": "todo el día", "en": "all day" }, { "es": "últimamente", "en": "lately" }] },
+        { "id": "u8l1e7", "type": "choice", "prompt": "How long ___ you been learning German?", "options": ["have", "has", "did"], "answer": 0, "explain": "Con «you»: have been + -ing." }
+      ]
+    },
+    {
+      "id": "u8l2",
+      "title": "Gerundio o infinitivo",
+      "goal": "Elige bien entre -ing y «to» tras cada verbo",
+      "tip": [
+        "enjoy, finish, suggest, avoid + -ing: I enjoy working in a team.",
+        "want, decide, hope, need + to: I decided to change jobs.",
+        "Tras preposición siempre -ing: I'm thinking of moving."
+      ],
+      "phrases": [
+        { "es": "Disfruto trabajando en equipo", "en": "I enjoy working in a team" },
+        { "es": "He decidido cambiar de trabajo", "en": "I have decided to change jobs" },
+        { "es": "Estoy pensando en mudarme", "en": "I'm thinking of moving" }
+      ],
+      "exercises": [
+        { "id": "u8l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I enjoy ___ new languages.", "options": ["learning", "to learn", "learn"], "answer": 0, "explain": "«Enjoy» + -ing, siempre." },
+        { "id": "u8l2e2", "type": "choice", "prompt": "She decided ___ a new course.", "options": ["to start", "starting", "start"], "answer": 0, "explain": "«Decide» + to + infinitivo." },
+        { "id": "u8l2e3", "type": "build", "prompt": "Traduce: «He decidido buscar un nuevo trabajo»", "solution": "I have decided to look for a new job", "distractors": ["looking", "deciding"], "pair": { "es": "he decidido buscar un nuevo trabajo", "en": "i have decided to look for a new job" } },
+        { "id": "u8l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "They suggested going to the meeting together.", "options": ["Sugirieron ir juntos a la reunión.", "Decidieron ir juntos a la reunión.", "Se negaron a ir juntos a la reunión."], "answer": 0 },
+        { "id": "u8l2e5", "type": "type", "prompt": "Completa: I enjoy ___ (aprender) new things.", "solution": "learning", "accept": ["learning"], "pair": { "es": "aprender (tras enjoy)", "en": "learning" } },
+        { "id": "u8l2e6", "type": "choice", "prompt": "I'm thinking ___ changing my career.", "options": ["of", "to", "for"], "answer": 0, "explain": "«Think of/about» + -ing." },
+        { "id": "u8l2e7", "type": "match", "prompt": "Empareja el patrón verbal", "pairs": [{ "es": "disfrutar (enjoy + -ing)", "en": "enjoy" }, { "es": "decidir (decide + to)", "en": "decide" }, { "es": "querer (want + to)", "en": "want" }, { "es": "terminar (finish + -ing)", "en": "finish" }] }
+      ]
+    },
+    {
+      "id": "u8l3",
+      "title": "Phrasal verbs de trabajo",
+      "goal": "Domina los verbos compuestos básicos del mundo laboral",
+      "tip": [
+        "apply for a job = solicitar un puesto; fill in a form = rellenar un formulario.",
+        "hand in = entregar; take on = contratar; set up = montar (una empresa).",
+        "carry out = llevar a cabo (un plan, un proyecto)."
+      ],
+      "phrases": [
+        { "es": "Voy a solicitar ese puesto", "en": "I'm going to apply for that position" },
+        { "es": "Rellena el formulario y entrégalo", "en": "Fill in the form and hand it in" },
+        { "es": "Llevó a cabo el proyecto él solo", "en": "He carried out the project on his own" }
+      ],
+      "exercises": [
+        { "id": "u8l3e1", "type": "match", "prompt": "Empareja cada phrasal verb", "pairs": [{ "es": "solicitar", "en": "apply for" }, { "es": "buscar", "en": "look for" }, { "es": "rellenar", "en": "fill in" }, { "es": "entregar", "en": "hand in" }] },
+        { "id": "u8l3e2", "type": "fill", "prompt": "Completa la frase", "sentence": "I want to ___ for the manager position.", "options": ["apply", "look", "fill"], "answer": 0, "explain": "«Apply for» = solicitar un puesto." },
+        { "id": "u8l3e3", "type": "choice", "prompt": "«Llevar a cabo un plan» es…", "options": ["carry out", "carry on", "set up"], "answer": 0, "explain": "carry out a plan/project." },
+        { "id": "u8l3e4", "type": "build", "prompt": "Traduce: «Ella montó su propia empresa»", "solution": "She set up her own company", "distractors": ["sit", "up to"], "pair": { "es": "ella montó su propia empresa", "en": "she set up her own company" } },
+        { "id": "u8l3e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Please fill in this form and hand it in before Friday.", "options": ["Rellena este formulario y entrégalo antes del viernes.", "Rellena este formulario y envíalo por correo el viernes.", "Guarda este formulario hasta el viernes."], "answer": 0 },
+        { "id": "u8l3e6", "type": "type", "prompt": "Escribe «buscar (un trabajo)»", "solution": "look for", "accept": ["look for"], "pair": { "es": "buscar (un trabajo)", "en": "look for" } },
+        { "id": "u8l3e7", "type": "choice", "prompt": "The company will ___ five new engineers.", "options": ["take on", "take off", "take up"], "answer": 0, "explain": "«Take on» = contratar." }
+      ]
+    },
+    {
+      "id": "u8l4",
+      "title": "Collocations para entrevistas",
+      "goal": "Habla de tu perfil profesional con combinaciones naturales",
+      "tip": [
+        "responsible for = responsable de; in charge of = a cargo de.",
+        "good at + -ing = se me da bien; interested in = interesado en.",
+        "deal with = tratar con / gestionar (clientes, problemas, presión)."
+      ],
+      "phrases": [
+        { "es": "Soy responsable de tres proyectos", "en": "I am responsible for three projects" },
+        { "es": "Se me dan bien los idiomas", "en": "I'm good at languages" },
+        { "es": "Sé tratar con clientes difíciles", "en": "I can deal with difficult clients" }
+      ],
+      "exercises": [
+        { "id": "u8l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She is responsible ___ the marketing team.", "options": ["for", "of", "at"], "answer": 0, "explain": "Colocación: responsible for." },
+        { "id": "u8l4e2", "type": "choice", "prompt": "I'm good ___ solving problems.", "options": ["at", "in", "on"], "answer": 0, "explain": "Colocación: good at + -ing." },
+        { "id": "u8l4e3", "type": "build", "prompt": "Traduce: «Estoy interesado en el puesto»", "solution": "I am interested in the position", "distractors": ["interesting", "for"], "pair": { "es": "estoy interesado en el puesto", "en": "i am interested in the position" } },
+        { "id": "u8l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "In my last job I was in charge of customer service.", "options": ["En mi último trabajo estaba a cargo de atención al cliente.", "En mi último trabajo trabajé con atención al cliente.", "En mi último trabajo dirigí toda la empresa."], "answer": 0 },
+        { "id": "u8l4e5", "type": "type", "prompt": "Escribe «se me da bien»", "solution": "I'm good at", "accept": ["i'm good at", "im good at", "i am good at"], "pair": { "es": "se me da bien", "en": "i'm good at" } },
+        { "id": "u8l4e6", "type": "match", "prompt": "Empareja las colocaciones", "pairs": [{ "es": "responsable de", "en": "responsible for" }, { "es": "bueno en", "en": "good at" }, { "es": "a cargo de", "en": "in charge of" }, { "es": "tratar con", "en": "deal with" }] },
+        { "id": "u8l4e7", "type": "choice", "prompt": "We need someone who can ___ with pressure.", "options": ["deal", "do", "make"], "answer": 0, "explain": "«Deal with pressure» = gestionar la presión." }
+      ]
+    }
+  ]
+}

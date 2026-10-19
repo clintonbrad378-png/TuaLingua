@@ -1,0 +1,104 @@
+{
+  "id": "u9",
+  "title": "Opiniones y sociedad",
+  "emoji": "🗣️",
+  "color": "#B05CFF",
+  "lessons": [
+    {
+      "id": "u9l1",
+      "title": "Segunda condicional",
+      "goal": "Habla de situaciones hipotéticas y da consejos",
+      "tip": [
+        "If + pasado simple, would + infinitivo: If I had more time, I would travel.",
+        "«If I were you, I would…» es la fórmula para dar consejos.",
+        "Describe situaciones poco probables o imaginarias, no reales."
+      ],
+      "phrases": [
+        { "es": "Si tuviera más tiempo, viajaría más", "en": "If I had more time, I would travel more" },
+        { "es": "Yo de ti hablaría con ella", "en": "If I were you, I would talk to her" },
+        { "es": "¿Qué harías si ganaras la lotería?", "en": "What would you do if you won the lottery?" }
+      ],
+      "exercises": [
+        { "id": "u9l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If I ___ more money, I would travel.", "options": ["had", "have", "would have"], "answer": 0, "explain": "Tras «if» en la 2ª condicional: pasado simple." },
+        { "id": "u9l1e2", "type": "choice", "prompt": "If I ___ you, I would apologise.", "options": ["were", "was being", "am"], "answer": 0, "explain": "«If I were you» es la fórmula fija del consejo." },
+        { "id": "u9l1e3", "type": "build", "prompt": "Traduce: «¿Qué harías si pudieras vivir en cualquier país?»", "solution": "What would you do if you could live in any country", "distractors": ["can", "will"], "pair": { "es": "¿qué harías si pudieras vivir en cualquier país?", "en": "what would you do if you could live in any country" } },
+        { "id": "u9l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If I were you, I would study harder.", "options": ["Yo de ti estudiaría más.", "Si hubiera estudiado más, habría aprobado.", "Estudio más porque tú me lo dices."], "answer": 0 },
+        { "id": "u9l1e5", "type": "type", "prompt": "Escribe «si yo fuera tú»", "solution": "if I were you", "accept": ["if i were you"], "pair": { "es": "si yo fuera tú", "en": "if i were you" } },
+        { "id": "u9l1e6", "type": "choice", "prompt": "She would be happier if she ___ her job.", "options": ["changed", "would change", "changes"], "answer": 0, "explain": "Parte del «if» en pasado simple, nunca «would»." },
+        { "id": "u9l1e7", "type": "match", "prompt": "Empareja los elementos de la 2ª condicional", "pairs": [{ "es": "yo de ti", "en": "if I were you" }, { "es": "haría (condicional)", "en": "would" }, { "es": "si (hipótesis)", "en": "if" }, { "es": "poco probable", "en": "unlikely" }] }
+      ]
+    },
+    {
+      "id": "u9l2",
+      "title": "Oraciones de relativo",
+      "goal": "Define y añade información con who, which, that, where y whose",
+      "tip": [
+        "who = personas; which = cosas; that = ambos (sin coma).",
+        "where = lugares; whose = posesión (cuyo).",
+        "El relativo sustituye al pronombre repetido: the man who called me ✓ / the man who he called me ✗."
+      ],
+      "phrases": [
+        { "es": "Es la profesora que me ayudó", "en": "She's the teacher who helped me" },
+        { "es": "Es una app que uso cada día", "en": "It's an app that I use every day" },
+        { "es": "La ciudad donde nací", "en": "The city where I was born" }
+      ],
+      "exercises": [
+        { "id": "u9l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "That's the man ___ helped me.", "options": ["who", "which", "whose"], "answer": 0, "explain": "Persona como sujeto: who." },
+        { "id": "u9l2e2", "type": "choice", "prompt": "This is the book ___ changed my life.", "options": ["which", "who", "where"], "answer": 0, "explain": "Cosa: which (o that)." },
+        { "id": "u9l2e3", "type": "build", "prompt": "Traduce: «La ciudad donde vivimos es pequeña»", "solution": "The city where we live is small", "distractors": ["that", "who"], "pair": { "es": "la ciudad donde vivimos es pequeña", "en": "the city where we live is small" } },
+        { "id": "u9l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "She's the colleague whose office is next to mine.", "options": ["Es la compañera cuyo despacho está al lado del mío.", "Es la compañera que trabaja al lado de mi despacho.", "Es la compañera a la que no le gusta mi despacho."], "answer": 0 },
+        { "id": "u9l2e5", "type": "type", "prompt": "Escribe «cuyo/a»", "solution": "whose", "accept": ["whose"], "pair": { "es": "cuyo/a", "en": "whose" } },
+        { "id": "u9l2e6", "type": "choice", "prompt": "I met a girl ___ speaks five languages.", "options": ["who", "which", "where"], "answer": 0, "explain": "Persona: who (sujeto del verbo speaks)." },
+        { "id": "u9l2e7", "type": "match", "prompt": "Empareja los relativos", "pairs": [{ "es": "quien (personas)", "en": "who" }, { "es": "que (cosas)", "en": "which" }, { "es": "donde", "en": "where" }, { "es": "cuyo/a", "en": "whose" }] }
+      ]
+    },
+    {
+      "id": "u9l3",
+      "title": "Modales de deducción",
+      "goal": "Haz deducciones sobre el presente con must, might y can't",
+      "tip": [
+        "must be = seguro que es; can't be = es imposible que sea.",
+        "might / may be = puede que sea (posibilidad).",
+        "No se usan con «to»: She must be at home ✓ / She must to be at home ✗."
+      ],
+      "phrases": [
+        { "es": "Debe de estar en casa, las luces están encendidas", "en": "He must be at home, the lights are on" },
+        { "es": "Puede que llueva mañana", "en": "It might rain tomorrow" },
+        { "es": "No puede ser verdad", "en": "It can't be true" }
+      ],
+      "exercises": [
+        { "id": "u9l3e1", "type": "fill", "prompt": "Completa la deducción", "sentence": "The lights are on. She ___ be at home.", "options": ["must", "can't", "should"], "answer": 0, "explain": "Evidencia clara: must be." },
+        { "id": "u9l3e2", "type": "choice", "prompt": "That ___ be John — he's in Brazil!", "options": ["can't", "must", "might"], "answer": 0, "explain": "Es imposible: can't be." },
+        { "id": "u9l3e3", "type": "build", "prompt": "Traduce: «Puede que vayamos a Grecia este año»", "solution": "We might go to Greece this year", "distractors": ["maybe", "must"], "pair": { "es": "puede que vayamos a grecia este año", "en": "we might go to greece this year" } },
+        { "id": "u9l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "It can't be true, I don't believe it.", "options": ["No puede ser verdad, no me lo creo.", "Debe de ser verdad, aunque no me lo crea.", "Puede que sea verdad, no estoy seguro."], "answer": 0 },
+        { "id": "u9l3e5", "type": "type", "prompt": "Escribe «debe de ser» (deducción)", "solution": "it must be", "accept": ["it must be", "must be"], "pair": { "es": "debe de ser", "en": "it must be" } },
+        { "id": "u9l3e6", "type": "choice", "prompt": "I'm not sure. She ___ still be asleep.", "options": ["might", "must", "can't"], "answer": 0, "explain": "Duda: might be." },
+        { "id": "u9l3e7", "type": "match", "prompt": "Empareja el grado de certeza", "pairs": [{ "es": "debe de ser", "en": "must be" }, { "es": "puede que sea", "en": "might be" }, { "es": "no puede ser", "en": "can't be" }, { "es": "seguro", "en": "sure" }] }
+      ]
+    },
+    {
+      "id": "u9l4",
+      "title": "Conectores de opinión",
+      "goal": "Estructura una opinión como en un writing B2",
+      "tip": [
+        "however = sin embargo; therefore = por lo tanto.",
+        "On the one hand… on the other hand… = por un lado… por otro…",
+        "In my opinion / I'd say / It seems to me that… para introducir opinión."
+      ],
+      "phrases": [
+        { "es": "En mi opinión, es una buena idea", "en": "In my opinion, it's a good idea" },
+        { "es": "Por un lado es útil; por otro, es caro", "en": "On the one hand it's useful; on the other hand, it's expensive" },
+        { "es": "Sin embargo, mucha gente piensa lo contrario", "en": "However, many people think the opposite" }
+      ],
+      "exercises": [
+        { "id": "u9l4e1", "type": "match", "prompt": "Empareja los conectores", "pairs": [{ "es": "sin embargo", "en": "however" }, { "es": "por lo tanto", "en": "therefore" }, { "es": "en mi opinión", "en": "in my opinion" }, { "es": "por otro lado", "en": "on the other hand" }] },
+        { "id": "u9l4e2", "type": "fill", "prompt": "Completa el texto", "sentence": "It's expensive. ___ , it's the best option.", "options": ["However", "For example", "Because"], "answer": 0, "explain": "Contraste entre las dos ideas: however." },
+        { "id": "u9l4e3", "type": "choice", "prompt": "«Por lo tanto» es…", "options": ["therefore", "purpose", "precisely"], "answer": 0, "explain": "«Therefore» introduce consecuencia." },
+        { "id": "u9l4e4", "type": "build", "prompt": "Traduce: «En mi opinión, el examen fue justo»", "solution": "In my opinion the exam was fair", "distractors": ["opinions", "since"], "pair": { "es": "en mi opinión, el examen fue justo", "en": "in my opinion the exam was fair" } },
+        { "id": "u9l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "On the one hand it's cheap; on the other hand, it's far away.", "options": ["Por un lado es barato; por otro, está lejos.", "No solo es barato sino que además está lejos.", "Es barato, por lo tanto está lejos."], "answer": 0 },
+        { "id": "u9l4e6", "type": "type", "prompt": "Escribe «sin embargo»", "solution": "however", "accept": ["however"], "pair": { "es": "sin embargo", "en": "however" } },
+        { "id": "u9l4e7", "type": "choice", "prompt": "He didn't study. ___ , he failed.", "options": ["Therefore", "Although", "Despite"], "answer": 0, "explain": "Consecuencia lógica: therefore." }
+      ]
+    }
+  ]
+}

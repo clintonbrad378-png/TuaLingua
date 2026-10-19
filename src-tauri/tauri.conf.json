@@ -14,7 +14,8 @@
       {
         "title": "TuaLingua",
         "width": 430,
-        "height": 860
+        "height": 860,
+        "backgroundColor": "#100E1B"
       }
     ],
     "security": {

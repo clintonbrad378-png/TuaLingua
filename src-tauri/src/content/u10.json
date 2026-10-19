@@ -1,0 +1,104 @@
+{
+  "id": "u10",
+  "title": "Mundo real",
+  "emoji": "🌍",
+  "color": "#00A7C4",
+  "lessons": [
+    {
+      "id": "u10l1",
+      "title": "Voz pasiva",
+      "goal": "Cuenta qué se hizo sin decir quién lo hizo",
+      "tip": [
+        "be + participio: The letter was sent. These cars are made in Japan.",
+        "Se usa cuando el agente es obvio, desconocido o poco importante.",
+        "«By» solo si necesitas mencionar al agente: written by Orwell."
+      ],
+      "phrases": [
+        { "es": "La carta fue enviada ayer", "en": "The letter was sent yesterday" },
+        { "es": "Estos coches se fabrican en Japón", "en": "These cars are made in Japan" },
+        { "es": "La casa fue construida en 1920", "en": "The house was built in 1920" }
+      ],
+      "exercises": [
+        { "id": "u10l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "The letter ___ sent yesterday.", "options": ["was", "were", "did"], "answer": 0, "explain": "La carta (singular) + was + participio." },
+        { "id": "u10l1e2", "type": "choice", "prompt": "This bridge ___ built in 1890.", "options": ["was", "is", "were"], "answer": 0, "explain": "Pasado pasivo: was built." },
+        { "id": "u10l1e3", "type": "build", "prompt": "Traduce: «Estos teléfonos se fabrican en China»", "solution": "These phones are made in China", "distractors": ["making", "was"], "pair": { "es": "estos teléfonos se fabrican en china", "en": "these phones are made in china" } },
+        { "id": "u10l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "The results will be published tomorrow.", "options": ["Los resultados se publicarán mañana.", "Los resultados se publicaron ayer.", "Los resultados se están publicando ahora."], "answer": 0 },
+        { "id": "u10l1e5", "type": "type", "prompt": "Escribe «fue hecho»", "solution": "was made", "accept": ["was made", "it was made"], "pair": { "es": "fue hecho", "en": "was made" } },
+        { "id": "u10l1e6", "type": "choice", "prompt": "Cada mañana limpian la habitación (rutina). The room ___ cleaned every morning.", "options": ["is", "was", "has"], "answer": 0, "explain": "Rutina presente: is cleaned." },
+        { "id": "u10l1e7", "type": "match", "prompt": "Empareja la pasiva", "pairs": [{ "es": "fue construido", "en": "was built" }, { "es": "se fabrican", "en": "are made" }, { "es": "se usa", "en": "is used" }, { "es": "se vendieron", "en": "were sold" }] }
+      ]
+    },
+    {
+      "id": "u10l2",
+      "title": "Estilo indirecto",
+      "goal": "Cuenta lo que otra persona dijo",
+      "tip": [
+        "say + lo que se dice; tell + a quién: He told me… / He said that…",
+        "Backshift: am → was, will → would, can → could, have done → had done.",
+        "Cambian las referencias: today → that day, tomorrow → the next day."
+      ],
+      "phrases": [
+        { "es": "Dijo que estaba cansado", "en": "He said he was tired" },
+        { "es": "Me contó que había vivido en Canadá", "en": "She told me she had lived in Canada" },
+        { "es": "Dijeron que vendrían más tarde", "en": "They said they would come later" }
+      ],
+      "exercises": [
+        { "id": "u10l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She said she ___ tired.", "options": ["was", "is", "were"], "answer": 0, "explain": "Backshift: «I am» → she was." },
+        { "id": "u10l2e2", "type": "choice", "prompt": "He ___ me he was busy.", "options": ["told", "said", "talked"], "answer": 0, "explain": "«Tell» necesita destinatario: told me." },
+        { "id": "u10l2e3", "type": "build", "prompt": "Traduce: «Dijo que llegaría pronto»", "solution": "He said he would arrive soon", "distractors": ["will", "arrives"], "pair": { "es": "dijo que llegaría pronto", "en": "he said he would arrive soon" } },
+        { "id": "u10l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "She told me she had finished the report.", "options": ["Me dijo que había terminado el informe.", "Me dijo que terminaría el informe.", "Me dijo que está terminando el informe."], "answer": 0 },
+        { "id": "u10l2e5", "type": "type", "prompt": "Escribe «me dijo» (contar a alguien)", "solution": "told me", "accept": ["told me", "he told me", "she told me"], "pair": { "es": "me dijo", "en": "told me" } },
+        { "id": "u10l2e6", "type": "choice", "prompt": "«I am happy» → He said he ___ happy.", "options": ["was", "is", "be"], "answer": 0, "explain": "Presente → pasado en el estilo indirecto." },
+        { "id": "u10l2e7", "type": "match", "prompt": "Empareja el estilo indirecto", "pairs": [{ "es": "dijo (sin destinatario)", "en": "said" }, { "es": "me dijo", "en": "told me" }, { "es": "llegaría (futuro del pasado)", "en": "would arrive" }, { "es": "había hecho", "en": "had done" }] }
+      ]
+    },
+    {
+      "id": "u10l3",
+      "title": "Tercera condicional",
+      "goal": "Expresa arrepentimientos y críticas sobre el pasado",
+      "tip": [
+        "If + had + participio, would have + participio.",
+        "If I had studied, I would have passed = Si hubiera estudiado, habría aprobado.",
+        "Negativo: If we hadn't left late… (si no hubiéramos salido tarde…)."
+      ],
+      "phrases": [
+        { "es": "Si hubiera estudiado, habría aprobado", "en": "If I had studied, I would have passed" },
+        { "es": "Si no hubiéramos salido tarde, no habríamos perdido el tren", "en": "If we hadn't left late, we wouldn't have missed the train" },
+        { "es": "¿Qué habrías hecho tú?", "en": "What would you have done?" }
+      ],
+      "exercises": [
+        { "id": "u10l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If I ___ known, I would have helped.", "options": ["had", "have", "would"], "answer": 0, "explain": "3ª condicional: if + had + participio." },
+        { "id": "u10l3e2", "type": "choice", "prompt": "If we had left earlier, we ___ the train.", "options": ["wouldn't have missed", "wouldn't miss", "hadn't missed"], "answer": 0, "explain": "Consecuencia pasada: would(n't) have + participio." },
+        { "id": "u10l3e3", "type": "build", "prompt": "Traduce: «Si hubiera sabido la respuesta, te la habría dicho»", "solution": "If I had known the answer I would have told you", "distractors": ["knew", "will"], "pair": { "es": "si hubiera sabido la respuesta, te la habría dicho", "en": "if i had known the answer i would have told you" } },
+        { "id": "u10l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If she had studied more, she would have passed.", "options": ["Si hubiera estudiado más, habría aprobado.", "Si estudia más, aprobará.", "Estudió más y por eso aprobó."], "answer": 0 },
+        { "id": "u10l3e5", "type": "type", "prompt": "Escribe «habría ido»", "solution": "I would have gone", "accept": ["i would have gone", "i'd have gone", "id have gone"], "pair": { "es": "habría ido", "en": "i would have gone" } },
+        { "id": "u10l3e6", "type": "choice", "prompt": "I ___ have called you if I had known.", "options": ["would", "will", "had"], "answer": 0, "explain": "would have + participio." },
+        { "id": "u10l3e7", "type": "match", "prompt": "Empareja los elementos", "pairs": [{ "es": "habría", "en": "would have" }, { "es": "hubiera hecho", "en": "had done" }, { "es": "arrepentimiento", "en": "regret" }, { "es": "ojalá", "en": "if only" }] }
+      ]
+    },
+    {
+      "id": "u10l4",
+      "title": "Expresiones de negocios y noticias",
+      "goal": "Entiende titulares y habla de decisiones de empresa",
+      "tip": [
+        "put off = posponer; come up with = ocurrírsele (una idea); look into = investigar.",
+        "bring up = sacar un tema; carry out = llevar a cabo; break out = estallar (una guerra).",
+        "«According to…» = según… para citar fuentes."
+      ],
+      "phrases": [
+        { "es": "Vamos a posponer la reunión", "en": "We are going to put off the meeting" },
+        { "es": "Necesitamos una idea nueva: ¿se te ocurre algo?", "en": "We need a new idea: can you come up with something?" },
+        { "es": "La empresa investigará el problema", "en": "The company will look into the problem" }
+      ],
+      "exercises": [
+        { "id": "u10l4e1", "type": "match", "prompt": "Empareja los phrasal verbs", "pairs": [{ "es": "posponer", "en": "put off" }, { "es": "ocurrírsele (una idea)", "en": "come up with" }, { "es": "investigar", "en": "look into" }, { "es": "sacar (un tema)", "en": "bring up" }] },
+        { "id": "u10l4e2", "type": "fill", "prompt": "Completa la frase", "sentence": "We had to ___ the meeting until Friday.", "options": ["put off", "put on", "put out"], "answer": 0, "explain": "«Put off» = posponer." },
+        { "id": "u10l4e3", "type": "choice", "prompt": "She ___ a brilliant idea.", "options": ["came up with", "came across", "came back"], "answer": 0, "explain": "«Come up with an idea» = ocurrírsele." },
+        { "id": "u10l4e4", "type": "build", "prompt": "Traduce: «Investigarán el problema pronto»", "solution": "They will look into the problem soon", "distractors": ["looking", "after"], "pair": { "es": "investigarán el problema pronto", "en": "they will look into the problem soon" } },
+        { "id": "u10l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "According to the report, sales have increased.", "options": ["Según el informe, las ventas han aumentado.", "A pesar del informe, las ventas han bajado.", "El informe dice que venderemos más."], "answer": 0 },
+        { "id": "u10l4e6", "type": "type", "prompt": "Escribe «posponer»", "solution": "put off", "accept": ["put off"], "pair": { "es": "posponer", "en": "put off" } },
+        { "id": "u10l4e7", "type": "choice", "prompt": "The war ___ out in 1939.", "options": ["broke", "took", "put"], "answer": 0, "explain": "«Break out» = estallar (guerra, incendio)." }
+      ]
+    }
+  ]
+}

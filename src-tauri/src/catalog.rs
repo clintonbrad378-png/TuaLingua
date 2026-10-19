@@ -68,11 +68,19 @@ pub struct Unit {
     pub lessons: Vec<Lesson>,
 }
 
-const SOURCES: [&str; 4] = [
+const SOURCES: [&str; 12] = [
     include_str!("content/u1.json"),
     include_str!("content/u2.json"),
     include_str!("content/u3.json"),
     include_str!("content/u4.json"),
+    include_str!("content/u5.json"),
+    include_str!("content/u6.json"),
+    include_str!("content/u7.json"),
+    include_str!("content/u8.json"),
+    include_str!("content/u9.json"),
+    include_str!("content/u10.json"),
+    include_str!("content/u11.json"),
+    include_str!("content/u12.json"),
 ];
 
 static CATALOG: OnceLock<Vec<Unit>> = OnceLock::new();
@@ -93,7 +101,7 @@ mod tests {
     #[test]
     fn catalog_is_valid() {
         let units = catalog();
-        assert_eq!(units.len(), 4);
+        assert_eq!(units.len(), 12);
         let mut ids = std::collections::HashSet::new();
         let mut exercises = 0usize;
         for unit in units {
@@ -117,6 +125,6 @@ mod tests {
                 }
             }
         }
-        assert!(exercises >= 100, "se esperaban al menos 100 ejercicios, hay {exercises}");
+        assert!(exercises >= 250, "se esperaban al menos 250 ejercicios, hay {exercises}");
     }
 }

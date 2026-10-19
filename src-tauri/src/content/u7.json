@@ -1,0 +1,104 @@
+{
+  "id": "u7",
+  "title": "Planes y futuro",
+  "emoji": "🚀",
+  "color": "#35C4A0",
+  "lessons": [
+    {
+      "id": "u7l1",
+      "title": "Going to",
+      "goal": "Expresa planes, intenciones y predicciones con evidencia",
+      "tip": [
+        "be going to + infinitivo para planes decididos: I'm going to study medicine.",
+        "También para predicciones basadas en lo que ves: Look at the clouds! It's going to rain.",
+        "Recuerda conjugar «be»: am / is / are going to."
+      ],
+      "phrases": [
+        { "es": "Voy a estudiar medicina", "en": "I'm going to study medicine" },
+        { "es": "¿Qué vas a hacer este verano?", "en": "What are you going to do this summer?" },
+        { "es": "Va a llover, hay nubes negras", "en": "It's going to rain, there are black clouds" }
+      ],
+      "exercises": [
+        { "id": "u7l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ going to call you tonight.", "options": ["am", "is", "are"], "answer": 0, "explain": "Con «I»: am going to." },
+        { "id": "u7l1e2", "type": "choice", "prompt": "Look at those clouds! It ___ rain.", "options": ["is going to", "will going to", "goes to"], "answer": 0, "explain": "Predicción con evidencia visible: going to." },
+        { "id": "u7l1e3", "type": "build", "prompt": "Traduce: «¿Qué vas a hacer mañana?»", "solution": "What are you going to do tomorrow", "distractors": ["will", "does"], "pair": { "es": "¿qué vas a hacer mañana?", "en": "what are you going to do tomorrow" } },
+        { "id": "u7l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "We are going to move to a bigger flat next month.", "options": ["Vamos a mudarnos a un piso más grande el mes que viene.", "Nos mudamos a un piso más grande el mes pasado.", "Nos mudaríamos a un piso más grande si pudiéramos."], "answer": 0 },
+        { "id": "u7l1e5", "type": "type", "prompt": "Escribe «voy a» (intención)", "solution": "going to", "accept": ["going to"], "pair": { "es": "voy a", "en": "going to" } },
+        { "id": "u7l1e6", "type": "match", "prompt": "Empareja las expresiones de futuro", "pairs": [{ "es": "plan", "en": "plan" }, { "es": "mañana", "en": "tomorrow" }, { "es": "el mes que viene", "en": "next month" }, { "es": "pronto", "en": "soon" }] },
+        { "id": "u7l1e7", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ going to sell her car.", "options": ["is", "am", "are"], "answer": 0, "explain": "Con «she»: is going to." }
+      ]
+    },
+    {
+      "id": "u7l2",
+      "title": "Will y won't",
+      "goal": "Predice, promete y decide en el momento",
+      "tip": [
+        "«Will» para decisiones espontáneas: The phone is ringing — I'll answer it!",
+        "También para promesas y predicciones con «I think / probably»: I think she will pass.",
+        "Contracción «'ll» en positivo y «won't» en negativo."
+      ],
+      "phrases": [
+        { "es": "Te ayudaré con eso", "en": "I'll help you with that" },
+        { "es": "Creo que aprobaré el examen", "en": "I think I will pass the exam" },
+        { "es": "No te arrepentirás", "en": "You won't regret it" }
+      ],
+      "exercises": [
+        { "id": "u7l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I think robots ___ do all the housework.", "options": ["will", "would", "wills"], "answer": 0, "explain": "Predicción: will + infinitivo." },
+        { "id": "u7l2e2", "type": "choice", "prompt": "El teléfono suena. — OK, I ___ answer it.", "options": ["will", "am going to", "am answering"], "answer": 0, "explain": "Decisión espontánea: will." },
+        { "id": "u7l2e3", "type": "build", "prompt": "Traduce: «No te preocupes, te llamaré»", "solution": "Don't worry I will call you", "distractors": ["worrying", "called"], "pair": { "es": "no te preocupes, te llamaré", "en": "don't worry i will call you" } },
+        { "id": "u7l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "I promise I won't be late again.", "options": ["Prometo que no volveré a llegar tarde.", "Prometí que no llegaría tarde.", "Espero que no llegues tarde otra vez."], "answer": 0 },
+        { "id": "u7l2e5", "type": "type", "prompt": "Escribe «no lo haré» (contracción)", "solution": "won't", "accept": ["won't", "will not"], "pair": { "es": "no lo haré", "en": "won't" } },
+        { "id": "u7l2e6", "type": "choice", "prompt": "She probably ___ come — she's exhausted.", "options": ["won't", "will", "is"], "answer": 0, "explain": "«Probably + won't»: probablemente no venga." },
+        { "id": "u7l2e7", "type": "fill", "prompt": "Completa la frase", "sentence": "Don't worry, I ___ tell anyone your secret.", "options": ["won't", "will", "don't"], "answer": 0, "explain": "Promesa negativa: won't tell." }
+      ]
+    },
+    {
+      "id": "u7l3",
+      "title": "Primera condicional",
+      "goal": "Habla de consecuencias reales y usa «unless»",
+      "tip": [
+        "Estructura: If + presente simple, will + infinitivo. If you study, you will pass.",
+        "No uses «will» en la parte del «if»: If you will study ✗.",
+        "«Unless» = if not: We won't go unless it stops raining."
+      ],
+      "phrases": [
+        { "es": "Si estudias, aprobarás", "en": "If you study, you will pass" },
+        { "es": "No iremos a menos que deje de llover", "en": "We won't go unless it stops raining" },
+        { "es": "Si tienes tiempo, llámame", "en": "If you have time, call me" }
+      ],
+      "exercises": [
+        { "id": "u7l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If it ___ tomorrow, we will stay at home.", "options": ["rains", "will rain", "rained"], "answer": 0, "explain": "Tras «if»: presente simple." },
+        { "id": "u7l3e2", "type": "choice", "prompt": "I won't go ___ you come with me.", "options": ["unless", "if", "when"], "answer": 0, "explain": "«Unless» = a menos que." },
+        { "id": "u7l3e3", "type": "build", "prompt": "Traduce: «Si terminas pronto, iremos al cine»", "solution": "If you finish early we will go to the cinema", "distractors": ["finished", "would"], "pair": { "es": "si terminas pronto, iremos al cine", "en": "if you finish early we will go to the cinema" } },
+        { "id": "u7l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If you don't hurry, you will miss the train.", "options": ["Si no te das prisa, perderás el tren.", "Si te das prisa, cogerás el tren.", "Perdiste el tren por no darte prisa."], "answer": 0 },
+        { "id": "u7l3e5", "type": "type", "prompt": "Escribe «a menos que»", "solution": "unless", "accept": ["unless"], "pair": { "es": "a menos que", "en": "unless" } },
+        { "id": "u7l3e6", "type": "choice", "prompt": "If you study hard, you ___ the exam.", "options": ["will pass", "pass", "passed"], "answer": 0, "explain": "Consecuencia: will + infinitivo." },
+        { "id": "u7l3e7", "type": "match", "prompt": "Empareja las estructuras condicionales", "pairs": [{ "es": "si", "en": "if" }, { "es": "a menos que", "en": "unless" }, { "es": "futuro (will + verbo)", "en": "will + verb" }, { "es": "si no", "en": "if not" }] }
+      ]
+    },
+    {
+      "id": "u7l4",
+      "title": "Cláusulas de tiempo e invitaciones",
+      "goal": "Combina futuro con when/until y haz invitaciones corteses",
+      "tip": [
+        "Tras when, until, before, after, as soon as se usa presente, no «will».",
+        "«Would you like to…?» es la forma cortés de invitar.",
+        "«I'll call you when I get home» — nunca «when I will get»."
+      ],
+      "phrases": [
+        { "es": "Te llamo cuando llegue al hotel", "en": "I'll call you when I get to the hotel" },
+        { "es": "Espera aquí hasta que vuelva", "en": "Wait here until I come back" },
+        { "es": "¿Te apetece cenar el viernes?", "en": "Would you like to have dinner on Friday?" }
+      ],
+      "exercises": [
+        { "id": "u7l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I will call you when I ___ home.", "options": ["get", "will get", "got"], "answer": 0, "explain": "Tras «when»: presente simple." },
+        { "id": "u7l4e2", "type": "choice", "prompt": "Wait until the light ___ green.", "options": ["turns", "will turn", "turned"], "answer": 0, "explain": "Tras «until»: presente simple." },
+        { "id": "u7l4e3", "type": "build", "prompt": "Traduce: «Te enviaré un mensaje en cuanto llegue»", "solution": "I will send you a message as soon as I arrive", "distractors": ["arrived", "sending"], "pair": { "es": "te enviaré un mensaje en cuanto llegue", "en": "i will send you a message as soon as i arrive" } },
+        { "id": "u7l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Would you like to come to the cinema with us?", "options": ["¿Te apetece venir al cine con nosotros?", "¿Viniste al cine con nosotros?", "¿Vendrás al cine con nosotros a la fuerza?"], "answer": 0 },
+        { "id": "u7l4e5", "type": "type", "prompt": "Escribe «en cuanto»", "solution": "as soon as", "accept": ["as soon as"], "pair": { "es": "en cuanto", "en": "as soon as" } },
+        { "id": "u7l4e6", "type": "choice", "prompt": "We won't leave ___ the rain stops.", "options": ["until", "while", "since"], "answer": 0, "explain": "«Until» = hasta que." },
+        { "id": "u7l4e7", "type": "fill", "prompt": "Completa la invitación", "sentence": "___ you like to join us for dinner?", "options": ["Would", "Will", "Do"], "answer": 0, "explain": "«Would you like to…?»: invitación cortés." }
+      ]
+    }
+  ]
+}

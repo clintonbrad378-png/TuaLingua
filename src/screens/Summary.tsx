@@ -51,7 +51,7 @@ export default function Summary({
       <Confetti />
       <div className="ring-wrap">
         <svg width="160" height="160" viewBox="0 0 160 160">
-          <circle cx="80" cy="80" r={R} fill="none" stroke="#EFEBFF" strokeWidth="13" />
+          <circle cx="80" cy="80" r={R} fill="none" stroke="#262146" strokeWidth="13" />
           <circle
             cx="80"
             cy="80"

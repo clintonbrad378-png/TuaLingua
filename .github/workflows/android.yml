@@ -46,6 +46,16 @@ jobs:
         with:
           workspaces: src-tauri -> target
 
+      - name: Instalar Tauri CLI (necesario para Gradle)
+        run: |
+          curl -sSL -o /tmp/cargo-tauri.tgz \
+            https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.11.4/cargo-tauri-x86_64-unknown-linux-gnu.tgz
+          tar -xzf /tmp/cargo-tauri.tgz -C /tmp
+          mkdir -p "$HOME/.cargo/bin"
+          mv /tmp/cargo-tauri "$HOME/.cargo/bin/cargo-tauri"
+          chmod +x "$HOME/.cargo/bin/cargo-tauri"
+          cargo tauri --version
+
       - name: Instalar NDK ${{ env.NDK_VERSION }}
         run: |
           SDKMGR="$(command -v sdkmanager || echo "${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager")"
