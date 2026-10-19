@@ -471,6 +471,15 @@ textarea {
   line-height: 1.4;
 }
 
+.fb-spk {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 19px;
+}
+
 /* ---------- home ---------- */
 
 .home-head {

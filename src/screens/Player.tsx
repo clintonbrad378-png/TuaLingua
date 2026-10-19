@@ -31,28 +31,20 @@ export default function Player({
   const correctRef = useRef(0);
   const comboMaxRef = useRef(0);
   const roundsRef = useRef<RoundResult[]>([]);
-  const timerRef = useRef<number | null>(null);
   const finishedRef = useRef(false);
   const comboRef = useRef(0);
   const ex = exercises[idx];
-
-  useEffect(
-    () => () => {
-      if (timerRef.current !== null) clearTimeout(timerRef.current);
-    },
-    [],
-  );
 
   function speakFor(example: Exercise) {
     if (example.type === "listen") speak(example.audio);
     else if (example.pair) speak(example.pair.en);
   }
 
+  function canReplay(example: Exercise) {
+    return example.type === "listen" || !!example.pair;
+  }
+
   function advance() {
-    if (timerRef.current !== null) {
-      clearTimeout(timerRef.current);
-      timerRef.current = null;
-    }
     if (finishedRef.current) return;
     if (idx + 1 >= exercises.length) {
       finishedRef.current = true;
@@ -76,7 +68,6 @@ export default function Player({
       sfx.correct();
       vibrate(18);
       speakFor(ex);
-      timerRef.current = window.setTimeout(advance, 1150);
     } else {
       comboRef.current = 0;
       setCombo(0);
@@ -150,6 +141,15 @@ export default function Player({
               )}
               {info.explain && <p className="fb-explain">{info.explain}</p>}
             </div>
+            {canReplay(ex) && (
+              <button
+                className="spk fb-spk"
+                onClick={() => speakFor(ex)}
+                aria-label="Escuchar de nuevo"
+              >
+                🔊
+              </button>
+            )}
           </div>
           <button
             className={`btn big ${phase === "ok" ? "btn-good" : "btn-bad"}`}
