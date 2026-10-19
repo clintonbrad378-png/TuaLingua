@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, RoundResult } from "../types";
-import { sfx, speak, vibrate } from "../lib/audio";
+import { sfx, preloadClip, speak, vibrate } from "../lib/audio";
 import { normalize, seedOf, shuffled, tokenize } from "../lib/text";
 import Mascot from "../components/Mascot";
 
@@ -231,6 +231,7 @@ function ListenExercise({
     [ex.id, ex.options],
   );
   useEffect(() => {
+    preloadClip(ex.audio);
     const t = window.setTimeout(() => speak(ex.audio), 420);
     return () => clearTimeout(t);
   }, [ex.id, ex.audio]);

@@ -7,8 +7,19 @@ Aprende inglés desde el español con lecciones cortas e interactivas. App móvi
 - 4 unidades / 16 lecciones con ~130 ejercicios (opción múltiple, escucha, construir frases, emparejar, escribir, rellenar huecos)
 - Repaso inteligente con repetición espaciada (SRS tipo Anki, planificado en Rust)
 - XP, niveles, rachas diarias, meta diaria y estrellas por lección
-- Pronunciación con text-to-speech del sistema y audio/web-haptics sin assets externos
-- 100% offline: el contenido va compilado en el binario y el progreso se guarda en JSON
+- **Voz neuronal incorporada**: 190 clips (Piper, mp3+ogg) empaquetados en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
+- Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
+- 100% offline: el contenido y las voces van en el binario y el progreso se guarda en JSON
+
+## Voces
+
+Los clips viven en `public/audio/en/` (nombre = hash FNV-1a del texto). Para regenerarlos o añadir voces de contenido nuevo:
+
+```bash
+python3 scripts/generate_audio.py --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx
+```
+
+Solo genera los clips que falten (idempotente). Necesita `piper` y `ffmpeg`.
 
 ## Desarrollo
 
