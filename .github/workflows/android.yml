@@ -48,8 +48,13 @@ jobs:
 
       - name: Instalar Tauri CLI (necesario para Gradle)
         run: |
+          # La versión del CLI debe coincidir con la crate `tauri` de Cargo.lock.
+          # Si no coinciden, el "app server" aborta (SIGABRT) y el build falla
+          # con "failed to read missing addr file .../app-server-addr".
+          CLI_VERSION=$(awk '/^name = "tauri"$/ {f=1} f && /^version = / {gsub(/"/, "", $3); print $3; exit}' src-tauri/Cargo.lock)
+          echo "tauri-cli $CLI_VERSION"
           curl -sSL -o /tmp/cargo-tauri.tgz \
-            https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v2.11.4/cargo-tauri-x86_64-unknown-linux-gnu.tgz
+            "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v${CLI_VERSION}/cargo-tauri-x86_64-unknown-linux-gnu.tgz"
           tar -xzf /tmp/cargo-tauri.tgz -C /tmp
           mkdir -p "$HOME/.cargo/bin"
           mv /tmp/cargo-tauri "$HOME/.cargo/bin/cargo-tauri"
