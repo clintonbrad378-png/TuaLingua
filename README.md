@@ -9,7 +9,7 @@ Aprende inglés desde el español con lecciones cortas e interactivas. App móvi
 - Repaso inteligente con repetición espaciada (SRS tipo Anki, planificado en Rust)
 - XP, niveles, rachas diarias, meta diaria y estrellas por lección
 - **Tema oscuro** en toda la interfaz (y en la status bar de Android)
-- **Voz neuronal incorporada**: clips (Piper, mp3+ogg) empaquetados en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
+- **Voz neuronal incorporada**: 609 frases (Piper, mp3+ogg) empaquetadas en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
 - Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
 - 100% offline: el contenido y las voces van en el binario y el progreso se guarda en JSON
 
@@ -18,10 +18,18 @@ Aprende inglés desde el español con lecciones cortas e interactivas. App móvi
 Los clips viven en `public/audio/en/` (nombre = hash FNV-1a del texto). Para regenerarlos o añadir voces de contenido nuevo:
 
 ```bash
-python3 scripts/generate_audio.py --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx
+python3 scripts/generate_audio.py --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx --prune
 ```
 
-Solo genera los clips que falten (idempotente). Necesita `piper` y `ffmpeg`.
+Solo genera los clips que falten (idempotente) y, con `--prune`, borra los que ya no corresponden a ningún texto del contenido. Necesita `piper` y `ffmpeg`.
+
+Para comprobar la cobertura sin sintetizar (esto es lo que ejecuta la CI):
+
+```bash
+npm run audio:check
+```
+
+Ojo: el hash depende del texto **exacto**, así que cambiar mayúsculas o puntuación de un texto invalida su clip y obliga a regenerarlo. Si falta un clip, la app usa el TTS del sistema como respaldo (en Android, el WebView puede no tener TTS: sin regenerar, esos textos quedan mudos a menos que长途el sistema provea Google TTS).
 
 ## Desarrollo
 

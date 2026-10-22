@@ -88,6 +88,11 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--piper", required=True)
     parser.add_argument("--model", required=True)
+    parser.add_argument(
+        "--prune",
+        action="store_true",
+        help="borra los clips cuyo texto ya no existe en el contenido",
+    )
     args = parser.parse_args()
 
     piper = Path(args.piper).resolve()
@@ -114,8 +119,18 @@ def main() -> int:
             generated += 1
             print(f"[{i}/{len(strings)}] {text}", flush=True)
 
+    removed = 0
+    if args.prune:
+        needed = {clip_key(text) for text in strings}
+        for path in sorted(OUT.iterdir()):
+            if path.stem not in needed:
+                path.unlink()
+                removed += 1
+
     total = sum(f.stat().st_size for f in OUT.iterdir())
     print(f"listo: {generated} generados, {skipped} ya existían, {len(strings)} únicos, {total / 1e6:.1f} MB")
+    if args.prune:
+        print(f"purga: {removed} clips huérfanos eliminados")
     return 0
 
 
