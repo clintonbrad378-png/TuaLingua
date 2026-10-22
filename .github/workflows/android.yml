@@ -75,6 +75,9 @@ jobs:
       - name: Instalar dependencias JS
         run: npm ci
 
+      - name: Verificar clips de audio
+        run: python3 scripts/check_audio.py
+
       - name: Build APK (debug)
         run: npm run tauri -- android build --debug --apk --target aarch64
 
