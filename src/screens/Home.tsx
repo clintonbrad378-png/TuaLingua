@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Lesson, ProgressState, Unit } from "../types";
-import { speak } from "../lib/audio";
+import { setMuted, speak } from "../lib/audio";
 import Mascot from "../components/Mascot";
 
 export default function Home({
@@ -17,6 +17,12 @@ export default function Home({
   onStats: () => void;
 }) {
   const [preview, setPreview] = useState<{ unit: Unit; lesson: Lesson } | null>(null);
+  const [muted, setMutedUi] = useState(() => localStorage.getItem("tl-muted") === "1");
+
+  useEffect(() => {
+    setMuted(muted);
+    localStorage.setItem("tl-muted", muted ? "1" : "0");
+  }, [muted]);
 
   const done = (id: string) => (progress.lessons[id]?.stars ?? 0) > 0;
   const starsOf = (id: string) => progress.lessons[id]?.stars ?? 0;
@@ -45,6 +51,13 @@ export default function Home({
         <div className="chip-stat">
           🏅 <b>Nv {progress.level}</b>
         </div>
+        <button
+          className="mute-btn"
+          onClick={() => setMutedUi((m) => !m)}
+          aria-label={muted ? "Activar sonidos" : "Silenciar"}
+        >
+          {muted ? "🔇" : "🔊"}
+        </button>
         <button className="avatar-btn" onClick={onStats} aria-label="Estadísticas">
           <Mascot mood="idle" size={44} />
         </button>

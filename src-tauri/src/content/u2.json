@@ -24,17 +24,17 @@
           "prompt": "¿Cuál es «cinco»?",
           "options": ["Five", "Four", "Nine", "Fifteen"],
           "answer": 0,
-          "pair": { "es": "cinco", "en": "five" }
+          "pair": { "es": "Cinco", "en": "Five" }
         },
         {
           "id": "u2l1e2",
           "type": "match",
           "prompt": "Empareja los números",
           "pairs": [
-            { "es": "uno", "en": "one" },
-            { "es": "tres", "en": "three" },
-            { "es": "siete", "en": "seven" },
-            { "es": "diez", "en": "ten" }
+            { "es": "Uno", "en": "One" },
+            { "es": "Tres", "en": "Three" },
+            { "es": "Siete", "en": "Seven" },
+            { "es": "Diez", "en": "Ten" }
           ]
         },
         {
@@ -44,7 +44,7 @@
           "audio": "I have three brothers.",
           "options": ["Tengo tres hermanos.", "Tengo trece hermanos.", "Tengo dos hermanos."],
           "answer": 0,
-          "pair": { "es": "tengo tres hermanos", "en": "i have three brothers" }
+          "pair": { "es": "Tengo tres hermanos", "en": "I have three brothers" }
         },
         {
           "id": "u2l1e4",
@@ -52,7 +52,7 @@
           "prompt": "Completa la frase",
           "sentence": "There are ___ days in a week.",
           "options": ["seven", "six", "seventeen"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "Hay siete días en una semana.", "en": "There are seven days in a week." },
           "explain": "Una semana tiene 7 días: seven."
         },
         {
@@ -61,7 +61,7 @@
           "prompt": "Escribe «doce» en inglés",
           "solution": "twelve",
           "accept": ["twelve", "12"],
-          "pair": { "es": "doce", "en": "twelve" }
+          "pair": { "es": "Doce", "en": "Twelve" }
         },
         {
           "id": "u2l1e6",
@@ -69,7 +69,7 @@
           "prompt": "Traduce: «Tengo dos hermanas»",
           "solution": "I have two sisters",
           "distractors": ["has", "three"],
-          "pair": { "es": "tengo dos hermanas", "en": "i have two sisters" }
+          "pair": { "es": "Tengo dos hermanas", "en": "I have two sisters" }
         },
         {
           "id": "u2l1e7",
@@ -77,7 +77,7 @@
           "prompt": "«Eighteen» es…",
           "options": ["18", "80", "8", "11"],
           "answer": 0,
-          "pair": { "es": "dieciocho", "en": "eighteen" },
+          "pair": { "es": "Dieciocho", "en": "Eighteen" },
           "explain": "«-teen» termina en 13–19; «eighty» (terminado en -ty) es 80."
         },
         {
@@ -86,7 +86,7 @@
           "prompt": "Completa la serie: eleven, twelve, ___, fourteen",
           "options": ["thirteen", "fifteen", "thirty", "forty"],
           "answer": 0,
-          "pair": { "es": "trece", "en": "thirteen" }
+          "pair": { "es": "Trece", "en": "Thirteen" }
         }
       ]
     },
@@ -110,7 +110,7 @@
           "prompt": "«Thirty» es…",
           "options": ["30", "13", "3", "300"],
           "answer": 0,
-          "pair": { "es": "treinta", "en": "thirty" }
+          "pair": { "es": "Treinta", "en": "Thirty" }
         },
         {
           "id": "u2l2e2",
@@ -119,7 +119,7 @@
           "audio": "That's one hundred dollars.",
           "options": ["Son cien dólares.", "Son mil dólares.", "Son diez dólares."],
           "answer": 0,
-          "pair": { "es": "cien dólares", "en": "one hundred dollars" }
+          "pair": { "es": "Cien dólares", "en": "One hundred dollars" }
         },
         {
           "id": "u2l2e3",
@@ -127,7 +127,7 @@
           "prompt": "Escribe «cincuenta» en inglés",
           "solution": "fifty",
           "accept": ["fifty", "50"],
-          "pair": { "es": "cincuenta", "en": "fifty" }
+          "pair": { "es": "Cincuenta", "en": "Fifty" }
         },
         {
           "id": "u2l2e4",
@@ -135,7 +135,7 @@
           "prompt": "Completa la pregunta",
           "sentence": "___ much is it?",
           "options": ["How", "What", "Who"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "¿Cuánto es?", "en": "How much is it?" },
           "explain": "«How much…?» = ¿Cuánto…? (para precios y cantidades)."
         },
         {
@@ -144,7 +144,7 @@
           "prompt": "Traduce: «Es veinte dólares»",
           "solution": "It is twenty dollars",
           "distractors": ["are", "thirty"],
-          "pair": { "es": "son veinte dólares", "en": "it is twenty dollars" }
+          "pair": { "es": "Son veinte dólares", "en": "It is twenty dollars" }
         },
         {
           "id": "u2l2e6",
@@ -152,17 +152,17 @@
           "prompt": "«One thousand» es…",
           "options": ["1000", "100", "10000", "10"],
           "answer": 0,
-          "pair": { "es": "mil", "en": "one thousand" }
+          "pair": { "es": "Mil", "en": "One thousand" }
         },
         {
           "id": "u2l2e7",
           "type": "match",
           "prompt": "Empareja los números",
           "pairs": [
-            { "es": "veinte", "en": "twenty" },
-            { "es": "cien", "en": "one hundred" },
-            { "es": "mil", "en": "one thousand" },
-            { "es": "noventa", "en": "ninety" }
+            { "es": "Veinte", "en": "Twenty" },
+            { "es": "Cien", "en": "One hundred" },
+            { "es": "Mil", "en": "One thousand" },
+            { "es": "Noventa", "en": "Ninety" }
           ]
         },
         {
@@ -170,7 +170,7 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «45»?",
           "options": ["Forty-five", "Fourteen-five", "Four-five", "Fifty-four"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "Cuarenta y cinco", "en": "Forty-five" },
           "explain": "45 = forty-five. Cuarenta y cinco."
         }
       ]
@@ -194,10 +194,10 @@
           "type": "match",
           "prompt": "Empareja los días",
           "pairs": [
-            { "es": "lunes", "en": "Monday" },
-            { "es": "miércoles", "en": "Wednesday" },
-            { "es": "viernes", "en": "Friday" },
-            { "es": "domingo", "en": "Sunday" }
+            { "es": "Lunes", "en": "Monday" },
+            { "es": "Miércoles", "en": "Wednesday" },
+            { "es": "Viernes", "en": "Friday" },
+            { "es": "Domingo", "en": "Sunday" }
           ]
         },
         {
@@ -206,7 +206,7 @@
           "prompt": "«Thursday» es…",
           "options": ["jueves", "martes", "sábado", "miércoles"],
           "answer": 0,
-          "pair": { "es": "jueves", "en": "Thursday" }
+          "pair": { "es": "Jueves", "en": "Thursday" }
         },
         {
           "id": "u2l3e3",
@@ -215,7 +215,7 @@
           "audio": "It's half past seven.",
           "options": ["Son las siete y media.", "Son las seis y media.", "Son las siete menos cuarto."],
           "answer": 0,
-          "pair": { "es": "las siete y media", "en": "half past seven" }
+          "pair": { "es": "Las siete y media", "en": "Half past seven" }
         },
         {
           "id": "u2l3e4",
@@ -223,7 +223,7 @@
           "prompt": "Completa la frase",
           "sentence": "See you ___ Monday!",
           "options": ["on", "in", "at"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "¡Nos vemos el lunes!", "en": "See you on Monday!" },
           "explain": "Con días de la semana se usa «on»: on Monday."
         },
         {
@@ -232,7 +232,7 @@
           "prompt": "Escribe «hoy» en inglés",
           "solution": "today",
           "accept": ["today"],
-          "pair": { "es": "hoy", "en": "today" }
+          "pair": { "es": "Hoy", "en": "Today" }
         },
         {
           "id": "u2l3e6",
@@ -240,7 +240,7 @@
           "prompt": "Traduce: «¿Qué hora es?»",
           "solution": "What time is it",
           "distractors": ["hour", "now"],
-          "pair": { "es": "¿qué hora es?", "en": "what time is it?" }
+          "pair": { "es": "¿Qué hora es?", "en": "What time is it?" }
         },
         {
           "id": "u2l3e7",
@@ -248,7 +248,7 @@
           "prompt": "«In the morning» significa…",
           "options": ["Por la mañana", "Por la tarde", "Por la noche", "Al mediodía"],
           "answer": 0,
-          "pair": { "es": "por la mañana", "en": "in the morning" }
+          "pair": { "es": "Por la mañana", "en": "In the morning" }
         },
         {
           "id": "u2l3e8",
@@ -256,7 +256,7 @@
           "prompt": "«Tomorrow» y «yesterday» son…",
           "options": ["mañana y ayer", "ayer y mañana", "hoy y ayer", "mañana y ahora"],
           "answer": 0,
-          "pair": { "es": "mañana", "en": "tomorrow" }
+          "pair": { "es": "Mañana", "en": "Tomorrow" }
         }
       ]
     },
@@ -280,7 +280,7 @@
           "prompt": "¿Cómo se dice «la semana que viene»?",
           "options": ["Next week", "Last week", "This week", "Tomorrow week"],
           "answer": 0,
-          "pair": { "es": "la semana que viene", "en": "next week" }
+          "pair": { "es": "La semana que viene", "en": "Next week" }
         },
         {
           "id": "u2l4e2",
@@ -288,7 +288,7 @@
           "prompt": "Completa la frase",
           "sentence": "I'm ___ right now.",
           "options": ["busy", "occupied", "working"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "Ahora mismo estoy ocupado.", "en": "I'm busy right now." },
           "explain": "«Busy» = ocupado. Es la forma natural en inglés."
         },
         {
@@ -297,7 +297,7 @@
           "prompt": "Traduce: «Quedamos a las cinco»",
           "solution": "Let's meet at five",
           "distractors": ["in", "to"],
-          "pair": { "es": "quedamos a las cinco", "en": "let's meet at five" }
+          "pair": { "es": "Quedamos a las cinco", "en": "Let's meet at five" }
         },
         {
           "id": "u2l4e4",
@@ -305,7 +305,7 @@
           "prompt": "Escribe en inglés: «mañana» (el día siguiente)",
           "solution": "tomorrow",
           "accept": ["tomorrow"],
-          "pair": { "es": "mañana", "en": "tomorrow" }
+          "pair": { "es": "Mañana", "en": "Tomorrow" }
         },
         {
           "id": "u2l4e5",
@@ -314,7 +314,7 @@
           "audio": "Sorry, I'm busy today.",
           "options": ["Lo siento, hoy estoy ocupado.", "Lo siento, hoy no puedo.", "Perdona, estoy cansado."],
           "answer": 0,
-          "pair": { "es": "hoy estoy ocupado", "en": "i'm busy today" }
+          "pair": { "es": "Hoy estoy ocupado", "en": "I'm busy today" }
         },
         {
           "id": "u2l4e6",
@@ -326,17 +326,17 @@
             "¿Trabajas el viernes?",
             "¿Vienes el viernes?"
           ],
-          "answer": 0
+          "answer": 0, "pair": { "es": "¿Tienes tiempo el viernes?", "en": "Do you have time on Friday?" }
         },
         {
           "id": "u2l4e7",
           "type": "match",
           "prompt": "Empareja las palabras de tiempo",
           "pairs": [
-            { "es": "hoy", "en": "today" },
-            { "es": "mañana", "en": "tomorrow" },
-            { "es": "ayer", "en": "yesterday" },
-            { "es": "ahora", "en": "now" }
+            { "es": "Hoy", "en": "Today" },
+            { "es": "Mañana", "en": "Tomorrow" },
+            { "es": "Ayer", "en": "Yesterday" },
+            { "es": "Ahora", "en": "Now" }
           ]
         },
         {
@@ -345,7 +345,7 @@
           "prompt": "Completa la frase",
           "sentence": "Let's meet ___ six.",
           "options": ["at", "on", "in"],
-          "answer": 0,
+          "answer": 0, "pair": { "es": "Quedamos a las seis.", "en": "Let's meet at six." },
           "explain": "Con horas se usa «at»: at six (a las seis)."
         }
       ]

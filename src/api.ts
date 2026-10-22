@@ -74,43 +74,49 @@ export function buildReview(cards: SrsCard[], pool: Phrase[]): Exercise[] {
     return a;
   };
   const exercises: Exercise[] = [];
+  const canonEs = (c: SrsCard) =>
+    pool.find((p) => p.es.toLowerCase() === c.es.toLowerCase())?.es ?? c.es;
+  const canonEn = (c: SrsCard) =>
+    pool.find((p) => p.en.toLowerCase() === c.en.toLowerCase())?.en ?? c.en;
   cards.forEach((card, i) => {
+    const es = canonEs(card);
+    const en = canonEn(card);
     const mode = i % 3;
     if (mode === 0) {
       const wrong = shuffle(
-        pool.filter((p) => p.en.toLowerCase() !== card.en.toLowerCase()).map((p) => p.en),
+        pool.filter((p) => p.en.toLowerCase() !== en.toLowerCase()).map((p) => p.en),
       ).slice(0, 3);
-      const options = shuffle([card.en, ...wrong]);
+      const options = shuffle([en, ...wrong]);
       exercises.push({
         id: `rev-${i}`,
         type: "choice",
-        prompt: `¿Cómo se dice «${card.es}»?`,
+        prompt: `¿Cómo se dice «${es}»?`,
         options,
-        answer: options.indexOf(card.en),
-        pair: { es: card.es, en: card.en },
+        answer: options.indexOf(en),
+        pair: { es, en },
       });
     } else if (mode === 1) {
       exercises.push({
         id: `rev-${i}`,
         type: "type",
-        prompt: `Escribe en inglés: «${card.es}»`,
-        solution: card.en,
-        accept: [card.en],
-        pair: { es: card.es, en: card.en },
+        prompt: `Escribe en inglés: «${es}»`,
+        solution: en,
+        accept: [en],
+        pair: { es, en },
       });
     } else {
       const wrong = shuffle(
-        pool.filter((p) => p.es.toLowerCase() !== card.es.toLowerCase()).map((p) => p.es),
+        pool.filter((p) => p.es.toLowerCase() !== es.toLowerCase()).map((p) => p.es),
       ).slice(0, 3);
-      const options = shuffle([card.es, ...wrong]);
+      const options = shuffle([es, ...wrong]);
       exercises.push({
         id: `rev-${i}`,
         type: "listen",
         prompt: "Escucha y elige la traducción",
-        audio: card.en,
+        audio: en,
         options,
-        answer: options.indexOf(card.es),
-        pair: { es: card.es, en: card.en },
+        answer: options.indexOf(es),
+        pair: { es, en },
       });
     }
   });

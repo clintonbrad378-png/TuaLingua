@@ -19,13 +19,13 @@
         { "es": "¿Alguna vez has visto esta película?", "en": "Have you ever seen this film?" }
       ],
       "exercises": [
-        { "id": "u6l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "Have you ___ been to Japan?", "options": ["ever", "never", "yet"], "answer": 0, "explain": "«Ever» = alguna vez, solo en preguntas." },
-        { "id": "u6l1e2", "type": "choice", "prompt": "I have ___ eaten octopus.", "options": ["never", "ever", "already"], "answer": 0, "explain": "«Never» = nunca, en negativas." },
-        { "id": "u6l1e3", "type": "build", "prompt": "Traduce: «Nunca he visto la nieve»", "solution": "I have never seen snow", "distractors": ["saw", "ever"], "pair": { "es": "nunca he visto la nieve", "en": "i have never seen snow" } },
-        { "id": "u6l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Have you ever travelled by train at night?", "options": ["¿Has viajado alguna vez en tren de noche?", "¿Viajaste en tren anoche?", "¿Vas a viajar en tren esta noche?"], "answer": 0 },
-        { "id": "u6l1e5", "type": "type", "prompt": "Escribe «nunca» en inglés", "solution": "never", "accept": ["never"], "pair": { "es": "nunca", "en": "never" } },
-        { "id": "u6l1e6", "type": "match", "prompt": "Empareja las palabras", "pairs": [{ "es": "nunca", "en": "never" }, { "es": "alguna vez", "en": "ever" }, { "es": "estado (en)", "en": "been (to)" }, { "es": "probado", "en": "tried" }] },
-        { "id": "u6l1e7", "type": "choice", "prompt": "¿Cómo se dice «¿Has estado en París?»?", "options": ["Have you been to Paris?", "Have you went to Paris?", "Did you ever been to Paris?"], "answer": 0, "explain": "«Has estado» = have been (participio de be)." }
+        { "id": "u6l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "Have you ___ been to Japan?", "options": ["ever", "never", "yet"], "answer": 0, "pair": { "es": "¿Has estado alguna vez en Japón?", "en": "Have you ever been to Japan?" }, "explain": "«Ever» = alguna vez, solo en preguntas." },
+        { "id": "u6l1e2", "type": "choice", "prompt": "I have ___ eaten octopus.", "options": ["never", "ever", "already"], "answer": 0, "pair": { "es": "Nunca he comido pulpo.", "en": "I have never eaten octopus." }, "explain": "«Never» = nunca, en negativas." },
+        { "id": "u6l1e3", "type": "build", "prompt": "Traduce: «Nunca he visto la nieve»", "solution": "I have never seen snow", "distractors": ["saw", "ever"], "pair": { "es": "Nunca he visto la nieve", "en": "I have never seen snow" } },
+        { "id": "u6l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Have you ever travelled by train at night?", "options": ["¿Has viajado alguna vez en tren de noche?", "¿Viajaste en tren anoche?", "¿Vas a viajar en tren esta noche?"], "answer": 0, "pair": { "es": "¿Has viajado alguna vez en tren de noche?", "en": "Have you ever travelled by train at night?" } },
+        { "id": "u6l1e5", "type": "type", "prompt": "Escribe «nunca» en inglés", "solution": "never", "accept": ["never"], "pair": { "es": "Nunca", "en": "Never" } },
+        { "id": "u6l1e6", "type": "match", "prompt": "Empareja las palabras", "pairs": [{ "es": "Nunca", "en": "Never" }, { "es": "Alguna vez", "en": "Ever" }, { "es": "Estado (en)", "en": "Been (to)" }, { "es": "Probado", "en": "Tried" }] },
+        { "id": "u6l1e7", "type": "choice", "prompt": "¿Cómo se dice «¿Has estado en París?»?", "options": ["Have you been to Paris?", "Have you went to Paris?", "Did you ever been to Paris?"], "answer": 0, "pair": { "es": "¿Has estado en París?", "en": "Have you been to Paris?" }, "explain": "«Has estado» = have been (participio de be)." }
       ]
     },
     {
@@ -43,13 +43,13 @@
         { "es": "Ana se ha ido a Lisboa (sigue allí)", "en": "Ana has gone to Lisbon" }
       ],
       "exercises": [
-        { "id": "u6l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have ___ finished — just now!", "options": ["just", "yet", "since"], "answer": 0, "explain": "«Just» justo con lo que acaba de ocurrir." },
-        { "id": "u6l2e2", "type": "choice", "prompt": "Have you done your homework ___?", "options": ["yet", "just", "already"], "answer": 0, "explain": "En preguntas: «yet» al final." },
-        { "id": "u6l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "Tom has ___ to Rome. He'll be back on Friday.", "options": ["gone", "been", "went"], "answer": 0, "explain": "«Has gone» = está allí ahora mismo." },
-        { "id": "u6l2e4", "type": "build", "prompt": "Traduce: «Ya he visto esta película»", "solution": "I have already seen this film", "distractors": ["yet", "saw"], "pair": { "es": "ya he visto esta película", "en": "i have already seen this film" } },
-        { "id": "u6l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Sorry, I haven't finished yet.", "options": ["Lo siento, todavía no he terminado.", "Lo siento, ya he terminado.", "Lo siento, acabo de terminar."], "answer": 0 },
-        { "id": "u6l2e6", "type": "type", "prompt": "Escribe «todavía» (en preguntas y negativas)", "solution": "yet", "accept": ["yet"], "pair": { "es": "todavía", "en": "yet" } },
-        { "id": "u6l2e7", "type": "choice", "prompt": "He ___ to Paris twice.", "options": ["has been", "has gone", "is gone"], "answer": 0, "explain": "Con «twice» (ha ido y ha vuelto): has been." }
+        { "id": "u6l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have ___ finished — just now!", "options": ["just", "yet", "since"], "answer": 0, "pair": { "es": "Acabo de terminar.", "en": "I have just finished." }, "explain": "«Just» justo con lo que acaba de ocurrir." },
+        { "id": "u6l2e2", "type": "choice", "prompt": "Have you done your homework ___?", "options": ["yet", "just", "already"], "answer": 0, "pair": { "es": "¿Ya has hecho los deberes?", "en": "Have you done your homework yet?" }, "explain": "En preguntas: «yet» al final." },
+        { "id": "u6l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "Tom has ___ to Rome. He'll be back on Friday.", "options": ["gone", "been", "went"], "answer": 0, "pair": { "es": "Tom se ha ido a Roma. Volverá el viernes.", "en": "Tom has gone to Rome. He will be back on Friday." }, "explain": "«Has gone» = está allí ahora mismo." },
+        { "id": "u6l2e4", "type": "build", "prompt": "Traduce: «Ya he visto esta película»", "solution": "I have already seen this film", "distractors": ["yet", "saw"], "pair": { "es": "Ya he visto esta película", "en": "I have already seen this film" } },
+        { "id": "u6l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Sorry, I haven't finished yet.", "options": ["Lo siento, todavía no he terminado.", "Lo siento, ya he terminado.", "Lo siento, acabo de terminar."], "answer": 0, "pair": { "es": "Lo siento, todavía no he terminado.", "en": "Sorry, I haven't finished yet." } },
+        { "id": "u6l2e6", "type": "type", "prompt": "Escribe «todavía» (en preguntas y negativas)", "solution": "yet", "accept": ["yet"], "pair": { "es": "Todavía", "en": "Yet" } },
+        { "id": "u6l2e7", "type": "choice", "prompt": "He ___ to Paris twice.", "options": ["has been", "has gone", "is gone"], "answer": 0, "pair": { "es": "Ha estado en París dos veces.", "en": "He has been to Paris twice." }, "explain": "Con «twice» (ha ido y ha vuelto): has been." }
       ]
     },
     {
@@ -67,13 +67,13 @@
         { "es": "No es tan caro como parece", "en": "It isn't as expensive as it looks" }
       ],
       "exercises": [
-        { "id": "u6l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She is ___ than her brother.", "options": ["taller", "more tall", "tallest"], "answer": 0, "explain": "Adjetivo corto: taller than." },
-        { "id": "u6l3e2", "type": "choice", "prompt": "This is the ___ book I've read.", "options": ["most interesting", "more interesting", "most interestingly"], "answer": 0, "explain": "Superlativo largo: the most + adjetivo." },
-        { "id": "u6l3e3", "type": "build", "prompt": "Traduce: «Madrid no es tan grande como Tokio»", "solution": "Madrid isn't as big as Tokyo", "distractors": ["that", "more"], "pair": { "es": "madrid no es tan grande como tokio", "en": "madrid isn't as big as tokyo" } },
-        { "id": "u6l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "This is the worst film I have ever seen.", "options": ["Es la peor película que he visto nunca.", "Es la mejor película que he visto nunca.", "Es una película peor que la anterior."], "answer": 0 },
-        { "id": "u6l3e5", "type": "type", "prompt": "Escribe «mejor» (comparativo)", "solution": "better", "accept": ["better"], "pair": { "es": "mejor", "en": "better" } },
-        { "id": "u6l3e6", "type": "match", "prompt": "Empareja los comparativos", "pairs": [{ "es": "mejor", "en": "better" }, { "es": "peor", "en": "worse" }, { "es": "el mejor", "en": "the best" }, { "es": "tan … como", "en": "as … as" }] },
-        { "id": "u6l3e7", "type": "choice", "prompt": "It's ___ than I thought.", "options": ["easier", "more easy", "easiest"], "answer": 0, "explain": "easy → easier (y final cambia a i)." }
+        { "id": "u6l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She is ___ than her brother.", "options": ["taller", "more tall", "tallest"], "answer": 0, "pair": { "es": "Es más alta que su hermano.", "en": "She is taller than her brother." }, "explain": "Adjetivo corto: taller than." },
+        { "id": "u6l3e2", "type": "choice", "prompt": "This is the ___ book I've read.", "options": ["most interesting", "more interesting", "most interestingly"], "answer": 0, "pair": { "es": "Es el libro más interesante que he leído.", "en": "This is the most interesting book I have read." }, "explain": "Superlativo largo: the most + adjetivo." },
+        { "id": "u6l3e3", "type": "build", "prompt": "Traduce: «Madrid no es tan grande como Tokio»", "solution": "Madrid isn't as big as Tokyo", "distractors": ["that", "more"], "pair": { "es": "Madrid no es tan grande como tokio", "en": "Madrid isn't as big as Tokyo" } },
+        { "id": "u6l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "This is the worst film I have ever seen.", "options": ["Es la peor película que he visto nunca.", "Es la mejor película que he visto nunca.", "Es una película peor que la anterior."], "answer": 0, "pair": { "es": "Es la peor película que he visto nunca.", "en": "This is the worst film I have ever seen." } },
+        { "id": "u6l3e5", "type": "type", "prompt": "Escribe «mejor» (comparativo)", "solution": "better", "accept": ["better"], "pair": { "es": "Mejor", "en": "Better" } },
+        { "id": "u6l3e6", "type": "match", "prompt": "Empareja los comparativos", "pairs": [{ "es": "Mejor", "en": "Better" }, { "es": "Peor", "en": "Worse" }, { "es": "El mejor", "en": "The best" }, { "es": "Tan … como", "en": "As … as" }] },
+        { "id": "u6l3e7", "type": "choice", "prompt": "It's ___ than I thought.", "options": ["easier", "more easy", "easiest"], "answer": 0, "pair": { "es": "Es más fácil de lo que pensaba.", "en": "It is easier than I thought." }, "explain": "easy → easier (y final cambia a i)." }
       ]
     },
     {
@@ -91,13 +91,13 @@
         { "es": "¿Cuánto tiempo has trabajado allí?", "en": "How long have you worked there?" }
       ],
       "exercises": [
-        { "id": "u6l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have known her ___ ten years.", "options": ["for", "since", "during"], "answer": 0, "explain": "«For» + periodo de tiempo." },
-        { "id": "u6l4e2", "type": "choice", "prompt": "We have been friends ___ primary school.", "options": ["since", "for", "from"], "answer": 0, "explain": "«Since» + momento de inicio." },
-        { "id": "u6l4e3", "type": "build", "prompt": "Traduce: «Llevo dos meses aprendiendo italiano»", "solution": "I have studied Italian for two months", "distractors": ["since", "studying"], "pair": { "es": "llevo dos meses aprendiendo italiano", "en": "i have studied italian for two months" } },
-        { "id": "u6l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "How long have you lived in this city?", "options": ["¿Cuánto tiempo has vivido en esta ciudad?", "¿Cuándo te mudaste a esta ciudad?", "¿Vives en esta ciudad desde hace poco?"], "answer": 0 },
-        { "id": "u6l4e5", "type": "type", "prompt": "Escribe «desde» (punto en el tiempo)", "solution": "since", "accept": ["since"], "pair": { "es": "desde", "en": "since" } },
-        { "id": "u6l4e6", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "durante (periodo)", "en": "for" }, { "es": "desde (momento)", "en": "since" }, { "es": "cuánto tiempo", "en": "how long" }, { "es": "hace (periodo)", "en": "ago" }] },
-        { "id": "u6l4e7", "type": "choice", "prompt": "How long ___ you known him?", "options": ["have", "has", "did"], "answer": 0, "explain": "How long + have + you: presente perfecto." }
+        { "id": "u6l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have known her ___ ten years.", "options": ["for", "since", "during"], "answer": 0, "pair": { "es": "La conozco desde hace diez años.", "en": "I have known her for ten years." }, "explain": "«For» + periodo de tiempo." },
+        { "id": "u6l4e2", "type": "choice", "prompt": "We have been friends ___ primary school.", "options": ["since", "for", "from"], "answer": 0, "pair": { "es": "Somos amigos desde la escuela primaria.", "en": "We have been friends since primary school." }, "explain": "«Since» + momento de inicio." },
+        { "id": "u6l4e3", "type": "build", "prompt": "Traduce: «Llevo dos meses aprendiendo italiano»", "solution": "I have studied Italian for two months", "distractors": ["since", "studying"], "pair": { "es": "Llevo dos meses aprendiendo italiano", "en": "I have studied Italian for two months" } },
+        { "id": "u6l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "How long have you lived in this city?", "options": ["¿Cuánto tiempo has vivido en esta ciudad?", "¿Cuándo te mudaste a esta ciudad?", "¿Vives en esta ciudad desde hace poco?"], "answer": 0, "pair": { "es": "¿Cuánto tiempo has vivido en esta ciudad?", "en": "How long have you lived in this city?" } },
+        { "id": "u6l4e5", "type": "type", "prompt": "Escribe «desde» (punto en el tiempo)", "solution": "since", "accept": ["since"], "pair": { "es": "Desde", "en": "Since" } },
+        { "id": "u6l4e6", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "Durante (periodo)", "en": "For" }, { "es": "Desde (momento)", "en": "Since" }, { "es": "Cuánto tiempo", "en": "How long" }, { "es": "Hace (periodo)", "en": "Ago" }] },
+        { "id": "u6l4e7", "type": "choice", "prompt": "How long ___ you known him?", "options": ["have", "has", "did"], "answer": 0, "pair": { "es": "¿Cuánto tiempo hace que lo conoces?", "en": "How long have you known him?" }, "explain": "How long + have + you: presente perfecto." }
       ]
     }
   ]

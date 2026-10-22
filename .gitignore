@@ -18,6 +18,10 @@ src-tauri/gen/android/keystore.properties
 src-tauri/gen/android/local.properties
 src-tauri/icon-source.png
 
+# Python
+__pycache__/
+*.pyc
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

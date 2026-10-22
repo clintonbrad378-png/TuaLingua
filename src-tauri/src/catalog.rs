@@ -98,6 +98,15 @@ pub fn catalog() -> &'static Vec<Unit> {
 mod tests {
     use super::*;
 
+    fn assert_capitalized(es: &str, en: &str, label: &str) {
+        if let Some(c) = es.chars().next() {
+            assert!(!c.is_lowercase(), "pair.es minúscula en {label}: {es}");
+        }
+        if let Some(c) = en.chars().next() {
+            assert!(!c.is_lowercase(), "pair.en minúscula en {label}: {en}");
+        }
+    }
+
     #[test]
     fn catalog_is_valid() {
         let units = catalog();
@@ -107,14 +116,27 @@ mod tests {
         for unit in units {
             assert!(!unit.lessons.is_empty());
             for lesson in &unit.lessons {
-                assert!(ids.insert(lesson.id.clone()), "lección duplicada {}", lesson.id);
+                assert!(
+                    ids.insert(lesson.id.clone()),
+                    "lección duplicada {}",
+                    lesson.id
+                );
                 assert!(!lesson.phrases.is_empty());
                 assert!(lesson.exercises.len() >= 6);
+                for phrase in &lesson.phrases {
+                    assert_capitalized(&phrase.es, &phrase.en, &lesson.id);
+                }
                 for ex in &lesson.exercises {
                     assert!(ids.insert(ex.id.clone()), "ejercicio duplicado {}", ex.id);
                     exercises += 1;
                     match &ex.kind {
-                        ExerciseKind::Choice { options, answer } | ExerciseKind::Listen { options, answer, .. } | ExerciseKind::Fill { options, answer, .. } => {
+                        ExerciseKind::Choice { options, answer }
+                        | ExerciseKind::Listen {
+                            options, answer, ..
+                        }
+                        | ExerciseKind::Fill {
+                            options, answer, ..
+                        } => {
                             assert!(*answer < options.len());
                             assert!(options.len() >= 2);
                         }
@@ -122,9 +144,31 @@ mod tests {
                         ExerciseKind::Type { solution, .. } => assert!(!solution.is_empty()),
                         ExerciseKind::Match { pairs } => assert!(pairs.len() >= 3),
                     }
+                    if let Some(pair) = &ex.pair {
+                        assert_capitalized(&pair.es, &pair.en, &ex.id);
+                        assert!(!pair.es.trim().is_empty());
+                        assert!(!pair.en.trim().is_empty());
+                    }
+                    match &ex.kind {
+                        ExerciseKind::Choice { .. }
+                        | ExerciseKind::Fill { .. }
+                        | ExerciseKind::Listen { .. }
+                        | ExerciseKind::Build { .. }
+                        | ExerciseKind::Type { .. } => {
+                            assert!(ex.pair.is_some(), "{} sin pair", ex.id);
+                        }
+                        ExerciseKind::Match { pairs } => {
+                            for pair in pairs {
+                                assert_capitalized(&pair.es, &pair.en, &ex.id);
+                            }
+                        }
+                    }
                 }
             }
         }
-        assert!(exercises >= 250, "se esperaban al menos 250 ejercicios, hay {exercises}");
+        assert!(
+            exercises >= 340,
+            "se esperaban al menos 340 ejercicios, hay {exercises}"
+        );
     }
 }

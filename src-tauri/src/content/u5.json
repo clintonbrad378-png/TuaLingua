@@ -19,13 +19,13 @@
         { "es": "¿Qué hiciste el fin de semana?", "en": "What did you do at the weekend?" }
       ],
       "exercises": [
-        { "id": "u5l1e1", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "ayer", "en": "yesterday" }, { "es": "la semana pasada", "en": "last week" }, { "es": "hace dos días", "en": "two days ago" }, { "es": "el fin de semana", "en": "at the weekend" }] },
-        { "id": "u5l1e2", "type": "choice", "prompt": "We ___ TV last night.", "options": ["watched", "visited", "played"], "answer": 0, "explain": "Ver la tele es «watch TV»: watched." },
-        { "id": "u5l1e3", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ for the exam yesterday.", "options": ["studied", "studies", "studying"], "answer": 0, "explain": "study termina en consonante + y: studied." },
-        { "id": "u5l1e4", "type": "build", "prompt": "Traduce: «Trabajé en un hotel el año pasado»", "solution": "I worked in a hotel last year", "distractors": ["works", "next"], "pair": { "es": "trabajé en un hotel el año pasado", "en": "i worked in a hotel last year" } },
-        { "id": "u5l1e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "We visited my grandparents last weekend.", "options": ["Visitamos a mis abuelos el fin de semana pasado.", "Visitaremos a mis abuelos el próximo fin de semana.", "Mis abuelos nos visitaron ayer."], "answer": 0 },
-        { "id": "u5l1e6", "type": "type", "prompt": "Escribe «ayer» en inglés", "solution": "yesterday", "accept": ["yesterday"], "pair": { "es": "ayer", "en": "yesterday" } },
-        { "id": "u5l1e7", "type": "choice", "prompt": "¿Qué pregunta es correcta?", "options": ["Did you go to the party?", "Did you went to the party?", "Did you goes to the party?"], "answer": 0, "explain": "Tras «did» el verbo va en infinitivo: Did you go…?" }
+        { "id": "u5l1e1", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "Ayer", "en": "Yesterday" }, { "es": "La semana pasada", "en": "Last week" }, { "es": "Hace dos días", "en": "Two days ago" }, { "es": "El fin de semana", "en": "At the weekend" }] },
+        { "id": "u5l1e2", "type": "choice", "prompt": "We ___ TV last night.", "options": ["watched", "visited", "played"], "answer": 0, "pair": { "es": "Vimos la tele anoche.", "en": "We watched TV last night." }, "explain": "Ver la tele es «watch TV»: watched." },
+        { "id": "u5l1e3", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ for the exam yesterday.", "options": ["studied", "studies", "studying"], "answer": 0, "pair": { "es": "Estudió para el examen ayer.", "en": "She studied for the exam yesterday." }, "explain": "study termina en consonante + y: studied." },
+        { "id": "u5l1e4", "type": "build", "prompt": "Traduce: «Trabajé en un hotel el año pasado»", "solution": "I worked in a hotel last year", "distractors": ["works", "next"], "pair": { "es": "Trabajé en un hotel el año pasado", "en": "I worked in a hotel last year" } },
+        { "id": "u5l1e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "We visited my grandparents last weekend.", "options": ["Visitamos a mis abuelos el fin de semana pasado.", "Visitaremos a mis abuelos el próximo fin de semana.", "Mis abuelos nos visitaron ayer."], "answer": 0, "pair": { "es": "Visitamos a mis abuelos el fin de semana pasado.", "en": "We visited my grandparents last weekend." } },
+        { "id": "u5l1e6", "type": "type", "prompt": "Escribe «ayer» en inglés", "solution": "yesterday", "accept": ["yesterday"], "pair": { "es": "Ayer", "en": "Yesterday" } },
+        { "id": "u5l1e7", "type": "choice", "prompt": "¿Qué pregunta es correcta?", "options": ["Did you go to the party?", "Did you went to the party?", "Did you goes to the party?"], "answer": 0, "pair": { "es": "¿Fuiste a la fiesta?", "en": "Did you go to the party?" }, "explain": "Tras «did» el verbo va en infinitivo: Did you go…?" }
       ]
     },
     {
@@ -43,13 +43,13 @@
         { "es": "Llegué tarde porque perdí el autobús", "en": "I arrived late because I missed the bus" }
       ],
       "exercises": [
-        { "id": "u5l2e1", "type": "match", "prompt": "Empareja el verbo con su pasado", "pairs": [{ "es": "ir", "en": "went" }, { "es": "ver", "en": "saw" }, { "es": "tomar", "en": "took" }, { "es": "hacer", "en": "made" }] },
-        { "id": "u5l2e2", "type": "choice", "prompt": "She ___ dinner for everyone.", "options": ["made", "took", "did"], "answer": 0, "explain": "«Make dinner»: preparar la cena." },
-        { "id": "u5l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to Rome two years ago.", "options": ["went", "goed", "gone"], "answer": 0, "explain": "El pasado de «go» es «went»." },
-        { "id": "u5l2e4", "type": "build", "prompt": "Traduce: «Perdí el tren esta mañana»", "solution": "I missed the train this morning", "distractors": ["lose", "losed"], "pair": { "es": "perdí el tren esta mañana", "en": "i missed the train this morning" }, "explain": "«Miss the bus/train» = perderlo por llegar tarde." },
-        { "id": "u5l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "He took a taxi because he was late.", "options": ["Tomó un taxi porque llegaba tarde.", "Perdió el taxi porque era tarde.", "Tomará un taxi porque es tarde."], "answer": 0 },
-        { "id": "u5l2e6", "type": "type", "prompt": "Escribe «anoche» en inglés", "solution": "last night", "accept": ["last night"], "pair": { "es": "anoche", "en": "last night" } },
-        { "id": "u5l2e7", "type": "choice", "prompt": "I ___ watch TV yesterday.", "options": ["didn't", "don't", "not"], "answer": 0, "explain": "Negativa en pasado: didn't + infinitivo." }
+        { "id": "u5l2e1", "type": "match", "prompt": "Empareja el verbo con su pasado", "pairs": [{ "es": "Ir", "en": "Went" }, { "es": "Ver", "en": "Saw" }, { "es": "Tomar", "en": "Took" }, { "es": "Hacer", "en": "Made" }] },
+        { "id": "u5l2e2", "type": "choice", "prompt": "She ___ dinner for everyone.", "options": ["made", "took", "did"], "answer": 0, "pair": { "es": "Hizo la cena para todos.", "en": "She made dinner for everyone." }, "explain": "«Make dinner»: preparar la cena." },
+        { "id": "u5l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to Rome two years ago.", "options": ["went", "goed", "gone"], "answer": 0, "pair": { "es": "Fui a Roma hace dos años.", "en": "I went to Rome two years ago." }, "explain": "El pasado de «go» es «went»." },
+        { "id": "u5l2e4", "type": "build", "prompt": "Traduce: «Perdí el tren esta mañana»", "solution": "I missed the train this morning", "distractors": ["lose", "losed"], "pair": { "es": "Perdí el tren esta mañana", "en": "I missed the train this morning" }, "explain": "«Miss the bus/train» = perderlo por llegar tarde." },
+        { "id": "u5l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "He took a taxi because he was late.", "options": ["Tomó un taxi porque llegaba tarde.", "Perdió el taxi porque era tarde.", "Tomará un taxi porque es tarde."], "answer": 0, "pair": { "es": "Tomó un taxi porque llegaba tarde.", "en": "He took a taxi because he was late." } },
+        { "id": "u5l2e6", "type": "type", "prompt": "Escribe «anoche» en inglés", "solution": "last night", "accept": ["last night"], "pair": { "es": "Anoche", "en": "Last night" } },
+        { "id": "u5l2e7", "type": "choice", "prompt": "I ___ watch TV yesterday.", "options": ["didn't", "don't", "not"], "answer": 0, "pair": { "es": "No vi la tele ayer.", "en": "I didn't watch TV yesterday." }, "explain": "Negativa en pasado: didn't + infinitivo." }
       ]
     },
     {
@@ -67,13 +67,13 @@
         { "es": "¿Qué estabas haciendo a las ocho?", "en": "What were you doing at eight?" }
       ],
       "exercises": [
-        { "id": "u5l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ reading when she arrived.", "options": ["was", "were", "am"], "answer": 0, "explain": "Con «I»: was + -ing." },
-        { "id": "u5l3e2", "type": "choice", "prompt": "While we ___ , we saw a deer.", "options": ["were walking", "walked", "walk"], "answer": 0, "explain": "«While» + pasado continuo para la acción larga." },
-        { "id": "u5l3e3", "type": "build", "prompt": "Traduce: «Estaba durmiendo cuando sonó el teléfono»", "solution": "I was sleeping when the phone rang", "distractors": ["sounds", "slept"], "pair": { "es": "estaba durmiendo cuando sonó el teléfono", "en": "i was sleeping when the phone rang" } },
-        { "id": "u5l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "They were playing football when it started to rain.", "options": ["Estaban jugando al fútbol cuando empezó a llover.", "Jugaron al fútbol después de la lluvia.", "Están jugando al fútbol aunque llueve."], "answer": 0 },
-        { "id": "u5l3e5", "type": "type", "prompt": "Escribe «mientras» en inglés", "solution": "while", "accept": ["while"], "pair": { "es": "mientras", "en": "while" } },
-        { "id": "u5l3e6", "type": "choice", "prompt": "What ___ you doing at nine?", "options": ["were", "was", "did"], "answer": 0, "explain": "Con «you»: were + -ing." },
-        { "id": "u5l3e7", "type": "match", "prompt": "Empareja los conectores de tiempo", "pairs": [{ "es": "mientras", "en": "while" }, { "es": "cuando", "en": "when" }, { "es": "de repente", "en": "suddenly" }, { "es": "en ese momento", "en": "at that moment" }] }
+        { "id": "u5l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ reading when she arrived.", "options": ["was", "were", "am"], "answer": 0, "pair": { "es": "Estaba leyendo cuando llegó.", "en": "I was reading when she arrived." }, "explain": "Con «I»: was + -ing." },
+        { "id": "u5l3e2", "type": "choice", "prompt": "While we ___ , we saw a deer.", "options": ["were walking", "walked", "walk"], "answer": 0, "pair": { "es": "Mientras caminábamos, vimos un ciervo.", "en": "While we were walking, we saw a deer." }, "explain": "«While» + pasado continuo para la acción larga." },
+        { "id": "u5l3e3", "type": "build", "prompt": "Traduce: «Estaba durmiendo cuando sonó el teléfono»", "solution": "I was sleeping when the phone rang", "distractors": ["sounds", "slept"], "pair": { "es": "Estaba durmiendo cuando sonó el teléfono", "en": "I was sleeping when the phone rang" } },
+        { "id": "u5l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "They were playing football when it started to rain.", "options": ["Estaban jugando al fútbol cuando empezó a llover.", "Jugaron al fútbol después de la lluvia.", "Están jugando al fútbol aunque llueve."], "answer": 0, "pair": { "es": "Estaban jugando al fútbol cuando empezó a llover.", "en": "They were playing football when it started to rain." } },
+        { "id": "u5l3e5", "type": "type", "prompt": "Escribe «mientras» en inglés", "solution": "while", "accept": ["while"], "pair": { "es": "Mientras", "en": "While" } },
+        { "id": "u5l3e6", "type": "choice", "prompt": "What ___ you doing at nine?", "options": ["were", "was", "did"], "answer": 0, "pair": { "es": "¿Qué estabas haciendo a las nueve?", "en": "What were you doing at nine?" }, "explain": "Con «you»: were + -ing." },
+        { "id": "u5l3e7", "type": "match", "prompt": "Empareja los conectores de tiempo", "pairs": [{ "es": "Mientras", "en": "While" }, { "es": "Cuando", "en": "When" }, { "es": "De repente", "en": "Suddenly" }, { "es": "En ese momento", "en": "At that moment" }] }
       ]
     },
     {
@@ -91,13 +91,13 @@
         { "es": "Al final, todos volvimos a casa", "en": "Finally, we all went back home" }
       ],
       "exercises": [
-        { "id": "u5l4e1", "type": "match", "prompt": "Empareja los conectores del relato", "pairs": [{ "es": "primero", "en": "first" }, { "es": "luego", "en": "then" }, { "es": "después de eso", "en": "after that" }, { "es": "finalmente", "en": "finally" }] },
-        { "id": "u5l4e2", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to live in Madrid.", "options": ["used", "use", "using"], "answer": 0, "explain": "Hábito pasado: used to + infinitivo." },
-        { "id": "u5l4e3", "type": "choice", "prompt": "«Solía correr por las mañanas» es…", "options": ["I used to run in the mornings", "I use to ran in the mornings", "I am used run in the mornings"], "answer": 0, "explain": "used to + verbo en infinitivo, siempre." },
-        { "id": "u5l4e4", "type": "build", "prompt": "Traduce: «Primero fuimos al mercado y luego comimos»", "solution": "First we went to the market and then we ate", "distractors": ["than", "lately"], "pair": { "es": "primero fuimos al mercado y luego comimos", "en": "first we went to the market and then we ate" } },
-        { "id": "u5l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "First we visited the museum, and after that we had lunch.", "options": ["Primero visitamos el museo y después de eso comimos.", "Primero comimos y después visitamos el museo.", "Visitamos el museo después de comer."], "answer": 0 },
-        { "id": "u5l4e6", "type": "type", "prompt": "Escribe «solía» (hábito pasado)", "solution": "used to", "accept": ["used to"], "pair": { "es": "solía", "en": "used to" } },
-        { "id": "u5l4e7", "type": "choice", "prompt": "Elige el conector para CERRAR una historia", "options": ["Finally", "First", "Suddenly"], "answer": 0, "explain": "«Finally» cierra el relato." }
+        { "id": "u5l4e1", "type": "match", "prompt": "Empareja los conectores del relato", "pairs": [{ "es": "Primero", "en": "First" }, { "es": "Luego", "en": "Then" }, { "es": "Después de eso", "en": "After that" }, { "es": "Finalmente", "en": "Finally" }] },
+        { "id": "u5l4e2", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to live in Madrid.", "options": ["used", "use", "using"], "answer": 0, "pair": { "es": "Solía vivir en Madrid.", "en": "I used to live in Madrid." }, "explain": "Hábito pasado: used to + infinitivo." },
+        { "id": "u5l4e3", "type": "choice", "prompt": "«Solía correr por las mañanas» es…", "options": ["I used to run in the mornings", "I use to ran in the mornings", "I am used run in the mornings"], "answer": 0, "pair": { "es": "Solía correr por las mañanas.", "en": "I used to run in the mornings." }, "explain": "used to + verbo en infinitivo, siempre." },
+        { "id": "u5l4e4", "type": "build", "prompt": "Traduce: «Primero fuimos al mercado y luego comimos»", "solution": "First we went to the market and then we ate", "distractors": ["than", "lately"], "pair": { "es": "Primero fuimos al mercado y luego comimos", "en": "First we went to the market and then we ate" } },
+        { "id": "u5l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "First we visited the museum, and after that we had lunch.", "options": ["Primero visitamos el museo y después de eso comimos.", "Primero comimos y después visitamos el museo.", "Visitamos el museo después de comer."], "answer": 0, "pair": { "es": "Primero visitamos el museo y después de eso comimos.", "en": "First we visited the museum, and after that we had lunch." } },
+        { "id": "u5l4e6", "type": "type", "prompt": "Escribe «solía» (hábito pasado)", "solution": "used to", "accept": ["used to"], "pair": { "es": "Solía", "en": "Used to" } },
+        { "id": "u5l4e7", "type": "choice", "prompt": "Elige el conector para CERRAR una historia", "options": ["Finally", "First", "Suddenly"], "answer": 0, "pair": { "es": "Finalmente", "en": "Finally" }, "explain": "«Finally» cierra el relato." }
       ]
     }
   ]

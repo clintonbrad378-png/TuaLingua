@@ -4,7 +4,6 @@ use std::collections::HashMap;
 use std::path::Path;
 
 pub const DAILY_GOAL: u32 = 60;
-const LEVEL_STEP: u32 = 400;
 const TITLES: [&str; 7] = [
     "Novato",
     "Curioso",
@@ -113,10 +112,22 @@ fn today() -> NaiveDate {
     Local::now().date_naive()
 }
 
+fn level_needed(level: u32) -> u32 {
+    (level - 1)
+        .saturating_mul(150)
+        .min(1100)
+        .saturating_add(400)
+}
+
 fn level_of(xp: u32) -> (u32, String, u32) {
-    let level = xp / LEVEL_STEP + 1;
+    let mut level: u32 = 1;
+    let mut rest = xp;
+    while rest >= level_needed(level) {
+        rest -= level_needed(level);
+        level += 1;
+    }
     let idx = (level as usize - 1).min(TITLES.len() - 1);
-    (level, TITLES[idx].to_string(), xp % LEVEL_STEP)
+    (level, TITLES[idx].to_string(), rest)
 }
 
 fn stars_for(accuracy: u32) -> u32 {
@@ -160,11 +171,7 @@ impl Db {
 
     pub fn due_cards(&self, limit: usize) -> Vec<SrsCardDto> {
         let t = today().to_string();
-        let mut cards: Vec<&SrsCard> = self
-            .srs
-            .values()
-            .filter(|c| c.due <= t && c.reps > 0)
-            .collect();
+        let mut cards: Vec<&SrsCard> = self.srs.values().filter(|c| c.due <= t).collect();
         cards.sort_by(|a, b| a.due.cmp(&b.due).then(b.lapses.cmp(&a.lapses)));
         cards
             .into_iter()
@@ -185,7 +192,7 @@ impl Db {
             level,
             level_title,
             level_xp,
-            level_needed: LEVEL_STEP,
+            level_needed: level_needed(level),
             streak: self.streak,
             best_streak: self.best_streak,
             active_today: self.last_active.as_deref() == Some(&today().to_string()),
@@ -211,9 +218,22 @@ impl Db {
         combo_max: u32,
         rounds: &[RoundResult],
     ) -> SessionSummary {
-        let accuracy = if total > 0 { correct * 100 / total } else { 0 };
-        let mut xp_gained = correct * 10 + combo_max * 2;
-        if total > 0 && accuracy == 100 {
+        let rounds_ok = rounds.iter().filter(|r| r.correct).count() as u32;
+        let rounds_total = rounds
+            .iter()
+            .filter(|r| !r.es.trim().is_empty() && !r.en.trim().is_empty())
+            .count() as u32;
+        let (answers_correct, answers_total) = if rounds_total > 0 {
+            (rounds_ok, rounds_total)
+        } else {
+            (correct, total)
+        };
+        let accuracy = answers_correct
+            .checked_mul(100)
+            .and_then(|v| v.checked_div(answers_total))
+            .unwrap_or(0);
+        let mut xp_gained = answers_correct * 10 + combo_max * 2;
+        if answers_total > 0 && accuracy == 100 {
             xp_gained += 25;
         } else if accuracy >= 80 {
             xp_gained += 10;
@@ -243,8 +263,8 @@ impl Db {
         }
         self.last_active = Some(tstr);
         self.best_streak = self.best_streak.max(self.streak);
-        self.total_correct += correct;
-        self.total_answers += total;
+        self.total_correct += answers_correct;
+        self.total_answers += answers_total;
 
         let stars = stars_for(accuracy);
         if let Some(id) = lesson_id {
@@ -267,10 +287,10 @@ impl Db {
             level_title,
             level_up: level > level_before,
             level_xp,
-            level_needed: LEVEL_STEP,
+            level_needed: level_needed(level),
             accuracy,
-            correct,
-            total,
+            correct: answers_correct,
+            total: answers_total,
             combo_max,
             stars,
             new_words,
@@ -324,5 +344,143 @@ impl Db {
             }
         }
         fresh
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn level_curve_is_progressive() {
+        assert_eq!(level_needed(1), 400);
+        assert_eq!(level_needed(2), 550);
+        assert_eq!(level_needed(8), 1450);
+        assert_eq!(level_needed(9), 1500);
+        assert_eq!(level_needed(100), 1500);
+    }
+
+    #[test]
+    fn level_of_walks_the_curve() {
+        let (l, _, x) = level_of(0);
+        assert_eq!((l, x), (1, 0));
+        let (l, _, x) = level_of(399);
+        assert_eq!((l, x), (1, 399));
+        let (l, _, x) = level_of(400);
+        assert_eq!((l, x), (2, 0));
+        let (l, _, x) = level_of(949);
+        assert_eq!((l, x), (2, 549));
+        let (l, _, x) = level_of(950);
+        assert_eq!((l, x), (3, 0));
+    }
+
+    #[test]
+    fn level_title_caps_at_last() {
+        let huge = u32::MAX;
+        let (level, title, _) = level_of(huge);
+        assert!(level > TITLES.len() as u32);
+        assert_eq!(title, TITLES[TITLES.len() - 1]);
+    }
+
+    #[test]
+    fn due_cards_include_first_try_lapses() {
+        let mut db = Db::default();
+        let t = today().to_string();
+        db.srs.insert(
+            "k".to_string(),
+            SrsCard {
+                es: "ayer".to_string(),
+                en: "yesterday".to_string(),
+                ease: 2.0,
+                interval: 0,
+                reps: 0,
+                lapses: 1,
+                due: t,
+            },
+        );
+        assert_eq!(db.due_count(), 1);
+        assert_eq!(db.due_cards(10).len(), 1);
+        assert_eq!(db.words_learned(), 0);
+    }
+
+    #[test]
+    fn bug_flag_due_count_must_match_due_cards() {
+        let mut db = Db::default();
+        let t = today().to_string();
+        for i in 0..5 {
+            db.srs.insert(
+                format!("k{i}"),
+                SrsCard {
+                    es: format!("es{i}"),
+                    en: format!("en{i}"),
+                    ease: 2.0,
+                    interval: 0,
+                    reps: 0,
+                    lapses: 1,
+                    due: t.clone(),
+                },
+            );
+        }
+        assert_eq!(db.due_count() as usize, db.due_cards(100).len());
+    }
+
+    #[test]
+    fn accuracy_uses_rounds_when_present() {
+        let mut db = Db::default();
+        let rounds = vec![
+            RoundResult {
+                es: "a".into(),
+                en: "b".into(),
+                correct: true,
+            },
+            RoundResult {
+                es: "c".into(),
+                en: "d".into(),
+                correct: true,
+            },
+            RoundResult {
+                es: "e".into(),
+                en: "f".into(),
+                correct: false,
+            },
+        ];
+        let s = db.session(Some("u1l1"), 2, 2, 1, &rounds);
+        assert_eq!((s.correct, s.total, s.accuracy), (2, 3, 66));
+        assert_eq!(db.total_correct, 2);
+        assert_eq!(db.total_answers, 3);
+    }
+
+    #[test]
+    fn accuracy_falls_back_without_rounds() {
+        let mut db = Db::default();
+        let s = db.session(None, 3, 4, 0, &[]);
+        assert_eq!((s.correct, s.total, s.accuracy), (3, 4, 75));
+        assert_eq!(db.total_correct, 3);
+        assert_eq!(db.total_answers, 4);
+    }
+
+    #[test]
+    fn srs_intervals_remember_lapses() {
+        let mut db = Db::default();
+        let rounds_success = vec![RoundResult {
+            es: "a".into(),
+            en: "b".into(),
+            correct: true,
+        }];
+        db.session(None, 1, 1, 0, &rounds_success);
+        let card = db.srs.values().next().unwrap().clone();
+        assert_eq!(card.interval, 1);
+        assert_eq!(card.reps, 1);
+
+        let rounds_fail = vec![RoundResult {
+            es: "a".into(),
+            en: "b".into(),
+            correct: false,
+        }];
+        db.session(None, 0, 1, 0, &rounds_fail);
+        let card = db.srs.values().next().unwrap().clone();
+        assert_eq!(card.interval, 0);
+        assert_eq!(card.lapses, 1);
+        assert!(card.ease >= 1.3);
     }
 }

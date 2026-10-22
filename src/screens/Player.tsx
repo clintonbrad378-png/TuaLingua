@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, RoundResult } from "../types";
 import { sfx, preloadClip, speak, vibrate } from "../lib/audio";
 import { normalize, seedOf, shuffled, tokenize } from "../lib/text";
@@ -7,6 +7,36 @@ import Mascot from "../components/Mascot";
 type Info = { answerText?: string; explain?: string; rounds?: RoundResult[]; praise?: string };
 
 const PRAISES = ["¡Perfecto!", "¡Genial!", "¡Muy bien!", "¡Exacto!", "¡Así se hace!", "¡Eres un crack!"];
+
+function answerOf(ex: Exercise): string | undefined {
+  switch (ex.type) {
+    case "choice":
+    case "listen":
+    case "fill":
+      return ex.options[ex.answer];
+    case "build":
+      return ex.solution;
+    case "type":
+      return ex.solution;
+    default:
+      return undefined;
+  }
+}
+
+function useDigitKeys(count: number, enabled: boolean, onDigit: (displayIdx: number) => void) {
+  useEffect(() => {
+    if (!enabled) return;
+    const onKey = (e: KeyboardEvent) => {
+      const n = Number(e.key);
+      if (Number.isInteger(n) && n >= 1 && n <= count) {
+        e.preventDefault();
+        onDigit(n - 1);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [count, enabled, onDigit]);
+}
 
 export default function Player({
   mode,
@@ -44,7 +74,7 @@ export default function Player({
     return example.type === "listen" || !!example.pair;
   }
 
-  function advance() {
+  const advance = useCallback(() => {
     if (finishedRef.current) return;
     if (idx + 1 >= exercises.length) {
       finishedRef.current = true;
@@ -54,7 +84,7 @@ export default function Player({
       setPhase("answer");
       setIdx((i) => i + 1);
     }
-  }
+  }, [idx, exercises.length, onFinish]);
 
   function handleResult(correct: boolean, extra?: Info) {
     if (phase !== "answer" || finishedRef.current) return;
@@ -87,6 +117,22 @@ export default function Player({
     }
     onExit();
   }
+
+  function skip() {
+    if (phase !== "answer" || finishedRef.current) return;
+    handleResult(false, { answerText: answerOf(ex), explain: ex.explain });
+  }
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Enter" && phase !== "answer" && !finishedRef.current) {
+        e.preventDefault();
+        advance();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [phase, idx, exercises.length, advance]);
 
   if (!ex) return null;
 
@@ -129,6 +175,12 @@ export default function Player({
           <FillExercise ex={ex} locked={phase !== "answer"} onResult={handleResult} />
         )}
       </div>
+
+      {phase === "answer" && ex.type !== "match" && (
+        <button className="skip-btn" onClick={skip}>
+          No lo sé
+        </button>
+      )}
 
       {phase !== "answer" && (
         <footer className={`feedback ${phase === "ok" ? "good" : "bad"}`}>
@@ -182,6 +234,19 @@ function ChoiceExercise({
     () => shuffled(ex.options.map((_, i) => i), seedOf(ex.id)),
     [ex.id, ex.options],
   );
+
+  function pick(oi: number) {
+    setPicked(oi);
+    sfx.tap();
+    onResult(oi === ex.answer, {
+      answerText: ex.options[ex.answer],
+      explain: ex.explain,
+      praise: praise.current,
+    });
+  }
+
+  useDigitKeys(order.length, !locked && picked === null, (n) => pick(order[n]));
+
   return (
     <div className="opts">
       {order.map((oi) => {
@@ -196,16 +261,7 @@ function ChoiceExercise({
             key={oi}
             className={`opt ${cls}`}
             disabled={locked || picked !== null}
-            onClick={() => {
-              setPicked(oi);
-              sfx.tap();
-              const ok = oi === ex.answer;
-              onResult(ok, {
-                answerText: ex.options[ex.answer],
-                explain: ex.explain,
-                praise: praise.current,
-              });
-            }}
+            onClick={() => pick(oi)}
           >
             {ex.options[oi]}
           </button>
@@ -235,6 +291,19 @@ function ListenExercise({
     const t = window.setTimeout(() => speak(ex.audio), 420);
     return () => clearTimeout(t);
   }, [ex.id, ex.audio]);
+
+  function pick(oi: number) {
+    setPicked(oi);
+    sfx.tap();
+    onResult(oi === ex.answer, {
+      answerText: ex.options[ex.answer],
+      explain: ex.explain,
+      praise: praise.current,
+    });
+  }
+
+  useDigitKeys(order.length, !locked && picked === null, (n) => pick(order[n]));
+
   return (
     <>
       <div className="audio-row">
@@ -258,15 +327,7 @@ function ListenExercise({
               key={oi}
               className={`opt ${cls}`}
               disabled={locked || picked !== null}
-              onClick={() => {
-                setPicked(oi);
-                sfx.tap();
-                onResult(oi === ex.answer, {
-                  answerText: ex.options[ex.answer],
-                  explain: ex.explain,
-                  praise: praise.current,
-                });
-              }}
+              onClick={() => pick(oi)}
             >
               {ex.options[oi]}
             </button>
@@ -299,15 +360,28 @@ function BuildExercise({
   const bank = tokens.filter((t) => !chosen.includes(t.id));
   const textOf = (id: string) => tokens.find((t) => t.id === id)?.text ?? "";
 
-  function check() {
-    const value = chosen.map(textOf).join(" ");
+  const check = useCallback(() => {
+    const value = chosen
+      .map((id) => tokens.find((t) => t.id === id)?.text ?? "")
+      .join(" ");
     const ok = normalize(value) === normalize(ex.solution);
     onResult(ok, {
       answerText: ex.solution,
       explain: ex.explain,
       praise: praise.current,
     });
-  }
+  }, [chosen, ex.solution, ex.explain, tokens, onResult]);
+
+  useEffect(() => {
+    if (locked || chosen.length === 0) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Enter") return;
+      e.preventDefault();
+      check();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [locked, chosen.length, check]);
 
   return (
     <>
@@ -521,6 +595,23 @@ function FillExercise({
     () => shuffled(ex.options.map((_, i) => i), seedOf(ex.id)),
     [ex.id, ex.options],
   );
+
+  function pick(oi: number) {
+    setPicked(oi);
+    sfx.tap();
+    window.setTimeout(
+      () =>
+        onResult(oi === ex.answer, {
+          answerText: ex.options[ex.answer],
+          explain: ex.explain,
+          praise: praise.current,
+        }),
+      340,
+    );
+  }
+
+  useDigitKeys(order.length, !locked && picked === null, (n) => pick(order[n]));
+
   return (
     <>
       <p className="sentence">
@@ -543,19 +634,7 @@ function FillExercise({
               key={oi}
               className={`opt ${cls}`}
               disabled={locked || picked !== null}
-              onClick={() => {
-                setPicked(oi);
-                sfx.tap();
-                window.setTimeout(
-                  () =>
-                    onResult(oi === ex.answer, {
-                      answerText: ex.options[ex.answer],
-                      explain: ex.explain,
-                      praise: praise.current,
-                    }),
-                  340,
-                );
-              }}
+              onClick={() => pick(oi)}
             >
               {ex.options[oi]}
             </button>

@@ -2,6 +2,11 @@ const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
 let ctx: AudioContext | null = null;
 let muted = false;
+let activated = false;
+
+export function markActivated() {
+  activated = true;
+}
 
 export function setMuted(value: boolean) {
   muted = value;
@@ -98,10 +103,31 @@ export function clipKey(text: string): string {
 }
 
 const clips = new Map<string, HTMLAudioElement>();
+const MAX_CLIPS = 64;
 let current: HTMLAudioElement | null = null;
 
 function clipUrl(text: string, ext: string): string {
   return `${BASE}/audio/en/${clipKey(text)}.${ext}`;
+}
+
+function evictStaleClips() {
+  while (clips.size > MAX_CLIPS) {
+    let stale: string | null = null;
+    for (const key of clips.keys()) {
+      if (!current || current.src !== clips.get(key)?.src) {
+        stale = key;
+        break;
+      }
+    }
+    if (!stale) break;
+    const el = clips.get(stale);
+    if (el) {
+      el.pause();
+      el.removeAttribute("src");
+      el.load();
+    }
+    clips.delete(stale);
+  }
 }
 
 function clipEl(url: string): HTMLAudioElement {
@@ -111,6 +137,7 @@ function clipEl(url: string): HTMLAudioElement {
     el.preload = "auto";
     el.src = url;
     clips.set(url, el);
+    evictStaleClips();
   }
   return el;
 }
@@ -178,7 +205,7 @@ function playChain(text: string, rate: number) {
 }
 
 export function speak(text: string, rate = 1) {
-  if (muted || !text) return;
+  if (muted || !text || !activated) return;
   stopSpeech();
   playChain(text, rate);
 }

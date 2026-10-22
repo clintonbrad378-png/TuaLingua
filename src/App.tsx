@@ -8,7 +8,7 @@ import type {
   Unit,
 } from "./types";
 import { api, buildReview, poolOf } from "./api";
-import { warmUpVoices } from "./lib/audio";
+import { markActivated, warmUpVoices } from "./lib/audio";
 import Home from "./screens/Home";
 import Player from "./screens/Player";
 import Summary from "./screens/Summary";
@@ -44,8 +44,11 @@ export default function App() {
   }, [load]);
 
   useEffect(() => {
-    const warm = () => warmUpVoices();
-    window.addEventListener("pointerdown", warm, { once: true });
+    const warm = () => {
+      markActivated();
+      warmUpVoices();
+    };
+    window.addEventListener("pointerdown", warm);
     return () => window.removeEventListener("pointerdown", warm);
   }, []);
 
@@ -139,6 +142,21 @@ export default function App() {
 
   return (
     <div className="app">
+      {error && (
+        <div className="error-banner" role="alert">
+          <span>⚠️ {error}</span>
+          <button
+            className="btn banner-btn"
+            onClick={() => void load()}
+            aria-label="Reintentar"
+          >
+            Reintentar
+          </button>
+          <button className="icon-btn" onClick={() => setError(null)} aria-label="Cerrar">
+            ✕
+          </button>
+        </div>
+      )}
       {screen.name === "home" && (
         <Home
           units={units}
