@@ -13,9 +13,9 @@
         "«I'm hungry» = Tengo hambre. «I'm thirsty» = Tengo sed."
       ],
       "phrases": [
-        { "es": "Me gusta el café", "en": "I like coffee" },
-        { "es": "¿Quieres agua?", "en": "Do you want water?" },
-        { "es": "Tengo hambre", "en": "I'm hungry" }
+        { "es": "Me gusta el café", "t": "I like coffee" },
+        { "es": "¿Quieres agua?", "t": "Do you want water?" },
+        { "es": "Tengo hambre", "t": "I'm hungry" }
       ],
       "exercises": [
         {
@@ -23,10 +23,10 @@
           "type": "match",
           "prompt": "Empareja los alimentos",
           "pairs": [
-            { "es": "Agua", "en": "Water" },
-            { "es": "Pan", "en": "Bread" },
-            { "es": "Leche", "en": "Milk" },
-            { "es": "Manzana", "en": "Apple" }
+            { "es": "Agua", "t": "Water" },
+            { "es": "Pan", "t": "Bread" },
+            { "es": "Leche", "t": "Milk" },
+            { "es": "Manzana", "t": "Apple" }
           ]
         },
         {
@@ -35,7 +35,7 @@
           "prompt": "«Chicken» es…",
           "options": ["pollo", "queso", "carne", "pescado"],
           "answer": 0,
-          "pair": { "es": "Pollo", "en": "Chicken" }
+          "pair": { "es": "Pollo", "t": "Chicken" }
         },
         {
           "id": "u3l1e3",
@@ -44,7 +44,7 @@
           "audio": "I would like some water, please.",
           "options": ["Quisiera agua, por favor.", "Quisiera un café, por favor.", "No quiero agua, gracias."],
           "answer": 0,
-          "pair": { "es": "Quisiera agua, por favor", "en": "I would like some water, please" }
+          "pair": { "es": "Quisiera agua, por favor", "t": "I would like some water, please" }
         },
         {
           "id": "u3l1e4",
@@ -52,7 +52,7 @@
           "prompt": "Completa la frase",
           "sentence": "I ___ coffee.",
           "options": ["like", "likes", "liking"],
-          "answer": 0, "pair": { "es": "Me gusta el café.", "en": "I like coffee." },
+          "answer": 0, "pair": { "es": "Me gusta el café.", "t": "I like coffee." },
           "explain": "Con «I» se usa «like». «He likes» lleva la -s."
         },
         {
@@ -61,7 +61,7 @@
           "prompt": "Escribe «té» en inglés",
           "solution": "tea",
           "accept": ["tea"],
-          "pair": { "es": "Té", "en": "Tea" }
+          "pair": { "es": "Té", "t": "Tea" }
         },
         {
           "id": "u3l1e6",
@@ -69,7 +69,7 @@
           "prompt": "Traduce: «Me gusta el queso»",
           "solution": "I like cheese",
           "distractors": ["likes", "the"],
-          "pair": { "es": "Me gusta el queso", "en": "I like cheese" }
+          "pair": { "es": "Me gusta el queso", "t": "I like cheese" }
         },
         {
           "id": "u3l1e7",
@@ -77,7 +77,7 @@
           "prompt": "«I'm hungry» significa…",
           "options": ["Tengo hambre", "Tengo sed", "Estoy cansado", "Quiero cocinar"],
           "answer": 0,
-          "pair": { "es": "Tengo hambre", "en": "I'm hungry" }
+          "pair": { "es": "Tengo hambre", "t": "I'm hungry" }
         },
         {
           "id": "u3l1e8",
@@ -85,7 +85,7 @@
           "prompt": "¿Cuál de estas NO es comida?",
           "options": ["Table", "Rice", "Egg", "Bread"],
           "answer": 0,
-          "pair": { "es": "Arroz", "en": "Rice" },
+          "pair": { "es": "Arroz", "t": "Rice" },
           "explain": "«Table» es una mesa. «Rice» = arroz, «egg» = huevo, «bread» = pan."
         }
       ]
@@ -99,9 +99,9 @@
         "«The bill, please» (UK) o «the check, please» (US) = la cuenta, por favor."
       ],
       "phrases": [
-        { "es": "Una mesa para dos, por favor", "en": "A table for two, please" },
-        { "es": "Quisiera un café, por favor", "en": "I would like a coffee, please" },
-        { "es": "La cuenta, por favor", "en": "The bill, please" }
+        { "es": "Una mesa para dos, por favor", "t": "A table for two, please" },
+        { "es": "Quisiera un café, por favor", "t": "I would like a coffee, please" },
+        { "es": "La cuenta, por favor", "t": "The bill, please" }
       ],
       "exercises": [
         {
@@ -110,7 +110,7 @@
           "prompt": "¿Cómo pides la cuenta?",
           "options": ["The bill, please", "The menu, please", "A table, please", "The ticket, please"],
           "answer": 0,
-          "pair": { "es": "La cuenta", "en": "The bill" },
+          "pair": { "es": "La cuenta", "t": "The bill" },
           "explain": "En Estados Unidos también se dice «the check»."
         },
         {
@@ -120,7 +120,7 @@
           "audio": "A table for two, please.",
           "options": ["Una mesa para dos, por favor.", "Una mesa para cuatro, por favor.", "La cuenta para dos, por favor."],
           "answer": 0,
-          "pair": { "es": "Una mesa para dos", "en": "A table for two" }
+          "pair": { "es": "Una mesa para dos", "t": "A table for two" }
         },
         {
           "id": "u3l2e3",
@@ -128,7 +128,7 @@
           "prompt": "Traduce: «Quisiera un café, por favor»",
           "solution": "I would like a coffee please",
           "distractors": ["want", "the"],
-          "pair": { "es": "Quisiera un café", "en": "I would like a coffee" }
+          "pair": { "es": "Quisiera un café", "t": "I would like a coffee" }
         },
         {
           "id": "u3l2e4",
@@ -136,7 +136,7 @@
           "prompt": "Completa la frase",
           "sentence": "Can I have the ___, please?",
           "options": ["menu", "letter", "paper"],
-          "answer": 0, "pair": { "es": "¿Me trae la carta, por favor?", "en": "Can I have the menu, please?" },
+          "answer": 0, "pair": { "es": "¿Me trae la carta, por favor?", "t": "Can I have the menu, please?" },
           "explain": "«Menu» = la carta / el menú del restaurante."
         },
         {
@@ -145,7 +145,7 @@
           "prompt": "Escribe en inglés: «camarero»",
           "solution": "waiter",
           "accept": ["waiter", "waitress"],
-          "pair": { "es": "Camarero", "en": "Waiter" }
+          "pair": { "es": "Camarero", "t": "Waiter" }
         },
         {
           "id": "u3l2e6",
@@ -153,17 +153,17 @@
           "prompt": "«It's delicious» significa…",
           "options": ["Está delicioso", "Está frío", "Está picante", "Es caro"],
           "answer": 0,
-          "pair": { "es": "Delicioso", "en": "Delicious" }
+          "pair": { "es": "Delicioso", "t": "Delicious" }
         },
         {
           "id": "u3l2e7",
           "type": "match",
           "prompt": "Empareja los objetos de la mesa",
           "pairs": [
-            { "es": "Mesa", "en": "Table" },
-            { "es": "Tenedor", "en": "Fork" },
-            { "es": "Cuchillo", "en": "Knife" },
-            { "es": "Vaso", "en": "Glass" }
+            { "es": "Mesa", "t": "Table" },
+            { "es": "Tenedor", "t": "Fork" },
+            { "es": "Cuchillo", "t": "Knife" },
+            { "es": "Vaso", "t": "Glass" }
           ]
         },
         {
@@ -172,7 +172,7 @@
           "prompt": "Completa la pregunta",
           "sentence": "___ you have a table for two?",
           "options": ["Do", "Are", "Have"],
-          "answer": 0, "pair": { "es": "¿Tienen mesa para dos?", "en": "Do you have a table for two?" },
+          "answer": 0, "pair": { "es": "¿Tienen mesa para dos?", "t": "Do you have a table for two?" },
           "explain": "Las preguntas con «have» usan «Do»: Do you have…?"
         }
       ]
@@ -186,9 +186,9 @@
         "«Snack» = tentempié o merienda."
       ],
       "phrases": [
-        { "es": "Desayuno a las ocho", "en": "I have breakfast at eight" },
-        { "es": "¿Qué desayunas?", "en": "What do you have for breakfast?" },
-        { "es": "Ceno a las nueve", "en": "I have dinner at nine" }
+        { "es": "Desayuno a las ocho", "t": "I have breakfast at eight" },
+        { "es": "¿Qué desayunas?", "t": "What do you have for breakfast?" },
+        { "es": "Ceno a las nueve", "t": "I have dinner at nine" }
       ],
       "exercises": [
         {
@@ -196,10 +196,10 @@
           "type": "match",
           "prompt": "Empareja las comidas",
           "pairs": [
-            { "es": "Desayuno", "en": "Breakfast" },
-            { "es": "Almuerzo / comida", "en": "Lunch" },
-            { "es": "Cena", "en": "Dinner" },
-            { "es": "Tentempié", "en": "Snack" }
+            { "es": "Desayuno", "t": "Breakfast" },
+            { "es": "Almuerzo / comida", "t": "Lunch" },
+            { "es": "Cena", "t": "Dinner" },
+            { "es": "Tentempié", "t": "Snack" }
           ]
         },
         {
@@ -208,7 +208,7 @@
           "prompt": "«Breakfast» es…",
           "options": ["desayuno", "cena", "postre", "comida"],
           "answer": 0,
-          "pair": { "es": "Desayuno", "en": "Breakfast" }
+          "pair": { "es": "Desayuno", "t": "Breakfast" }
         },
         {
           "id": "u3l3e3",
@@ -217,7 +217,7 @@
           "audio": "I have lunch at two.",
           "options": ["Como a las dos.", "Ceno a las dos.", "Desayuno a las dos."],
           "answer": 0,
-          "pair": { "es": "Como a las dos", "en": "I have lunch at two" }
+          "pair": { "es": "Como a las dos", "t": "I have lunch at two" }
         },
         {
           "id": "u3l3e4",
@@ -225,7 +225,7 @@
           "prompt": "Completa la frase",
           "sentence": "I ___ dinner at nine.",
           "options": ["have", "eat", "take"],
-          "answer": 0, "pair": { "es": "Ceno a las nueve.", "en": "I have dinner at nine." },
+          "answer": 0, "pair": { "es": "Ceno a las nueve.", "t": "I have dinner at nine." },
           "explain": "Lo natural es «have dinner». «Eat dinner» también existe, pero menos común."
         },
         {
@@ -234,7 +234,7 @@
           "prompt": "Escribe en inglés: «sed» (como en «tengo sed»)",
           "solution": "thirsty",
           "accept": ["thirsty"],
-          "pair": { "es": "Sed", "en": "Thirsty" }
+          "pair": { "es": "Sed", "t": "Thirsty" }
         },
         {
           "id": "u3l3e6",
@@ -242,7 +242,7 @@
           "prompt": "Traduce: «Desayuno a las ocho»",
           "solution": "I have breakfast at eight",
           "distractors": ["eat", "in"],
-          "pair": { "es": "Desayuno a las ocho", "en": "I have breakfast at eight" }
+          "pair": { "es": "Desayuno a las ocho", "t": "I have breakfast at eight" }
         },
         {
           "id": "u3l3e7",
@@ -250,14 +250,14 @@
           "prompt": "«I'm thirsty» significa…",
           "options": ["Tengo sed", "Tengo hambre", "Estoy cansado", "Quiero dormir"],
           "answer": 0,
-          "pair": { "es": "Tengo sed", "en": "I'm thirsty" }
+          "pair": { "es": "Tengo sed", "t": "I'm thirsty" }
         },
         {
           "id": "u3l3e8",
           "type": "choice",
           "prompt": "¿Qué se desayuna normalmente? Elige en inglés:",
           "options": ["Eggs and toast", "Steak and salad", "Soup and rice"],
-          "answer": 0, "pair": { "es": "Huevos y tostadas", "en": "Eggs and toast" },
+          "answer": 0, "pair": { "es": "Huevos y tostadas", "t": "Eggs and toast" },
           "explain": "«Eggs and toast» = huevos con tostadas."
         }
       ]
@@ -271,9 +271,9 @@
         "«Spicy» = picante. «Sweet» = dulce. «Salty» = salado."
       ],
       "phrases": [
-        { "es": "No como carne", "en": "I don't eat meat" },
-        { "es": "Soy vegetariano", "en": "I'm vegetarian" },
-        { "es": "¿Es picante?", "en": "Is it spicy?" }
+        { "es": "No como carne", "t": "I don't eat meat" },
+        { "es": "Soy vegetariano", "t": "I'm vegetarian" },
+        { "es": "¿Es picante?", "t": "Is it spicy?" }
       ],
       "exercises": [
         {
@@ -282,7 +282,7 @@
           "prompt": "«I don't eat meat» significa…",
           "options": ["No como carne", "No me gusta la carne", "No quiero carne hoy", "Como poca carne"],
           "answer": 0,
-          "pair": { "es": "No como carne", "en": "I don't eat meat" }
+          "pair": { "es": "No como carne", "t": "I don't eat meat" }
         },
         {
           "id": "u3l4e2",
@@ -290,7 +290,7 @@
           "prompt": "Escribe en inglés: «picante»",
           "solution": "spicy",
           "accept": ["spicy", "hot"],
-          "pair": { "es": "Picante", "en": "Spicy" }
+          "pair": { "es": "Picante", "t": "Spicy" }
         },
         {
           "id": "u3l4e3",
@@ -298,7 +298,7 @@
           "prompt": "Completa la frase",
           "sentence": "I ___ eat meat.",
           "options": ["don't", "no", "not"],
-          "answer": 0, "pair": { "es": "No como carne.", "en": "I don't eat meat." },
+          "answer": 0, "pair": { "es": "No como carne.", "t": "I don't eat meat." },
           "explain": "Para negar en presente se usa «don't» + verbo."
         },
         {
@@ -307,7 +307,7 @@
           "prompt": "Traduce: «¿Es picante?»",
           "solution": "Is it spicy",
           "distractors": ["Does", "hot"],
-          "pair": { "es": "¿Es picante?", "en": "Is it spicy?" }
+          "pair": { "es": "¿Es picante?", "t": "Is it spicy?" }
         },
         {
           "id": "u3l4e5",
@@ -320,7 +320,7 @@
             "Como verdura. ¿Tienen ensalada?"
           ],
           "answer": 0,
-          "pair": { "es": "Soy vegetariano", "en": "I'm vegetarian" }
+          "pair": { "es": "Soy vegetariano", "t": "I'm vegetarian" }
         },
         {
           "id": "u3l4e6",
@@ -328,17 +328,17 @@
           "prompt": "«Sweet» y «salty» son…",
           "options": ["dulce y salado", "salado y dulce", "ácido y dulce", "picante y dulce"],
           "answer": 0,
-          "pair": { "es": "Dulce", "en": "Sweet" }
+          "pair": { "es": "Dulce", "t": "Sweet" }
         },
         {
           "id": "u3l4e7",
           "type": "match",
           "prompt": "Empareja los sabores",
           "pairs": [
-            { "es": "Dulce", "en": "Sweet" },
-            { "es": "Salado", "en": "Salty" },
-            { "es": "Picante", "en": "Spicy" },
-            { "es": "Sano", "en": "Healthy" }
+            { "es": "Dulce", "t": "Sweet" },
+            { "es": "Salado", "t": "Salty" },
+            { "es": "Picante", "t": "Spicy" },
+            { "es": "Sano", "t": "Healthy" }
           ]
         },
         {
@@ -347,7 +347,7 @@
           "prompt": "«I prefer tea» significa…",
           "options": ["Prefiero el té", "Odio el té", "Quiero té", "No quiero té"],
           "answer": 0,
-          "pair": { "es": "Prefiero", "en": "I prefer" }
+          "pair": { "es": "Prefiero", "t": "I prefer" }
         }
       ]
     }

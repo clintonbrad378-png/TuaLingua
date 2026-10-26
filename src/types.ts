@@ -1,4 +1,26 @@
-export type Phrase = { es: string; en: string };
+export type Phrase = { es: string; t: string };
+
+export type LanguageInfo = {
+  id: string;
+  title: string;
+  emoji: string;
+  bcp47: string;
+  level: string;
+};
+
+export type DictEntry = {
+  t: string;
+  es: string;
+  pos?: string | null;
+  ex?: Phrase | null;
+};
+
+export type DictCategory = {
+  id: string;
+  title: string;
+  emoji: string;
+  words: DictEntry[];
+};
 
 type Base = {
   id: string;
@@ -54,6 +76,8 @@ export type ProgressState = {
   words_learned: number;
   due_count: number;
   lessons: Record<string, LessonProgress>;
+  deck_count: number;
+  lang: string;
 };
 
 export type SessionSummary = {
@@ -79,13 +103,13 @@ export type SessionSummary = {
 
 export type SrsCard = {
   es: string;
-  en: string;
+  t: string;
   due: string;
   reps: number;
 };
 
 export type RoundResult = {
   es: string;
-  en: string;
+  t: string;
   correct: boolean;
 };

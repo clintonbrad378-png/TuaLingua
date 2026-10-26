@@ -1,8 +1,10 @@
 mod catalog;
+mod dictionary;
 mod progress;
 
-use catalog::Unit;
-use progress::{Db, ProgressState, RoundResult, SessionSummary, SrsCardDto};
+use catalog::{LanguageInfo, Unit};
+use dictionary::DictCategory;
+use progress::{Db, PhraseDto, ProgressState, RoundResult, SessionSummary, SrsCardDto};
 use std::path::PathBuf;
 use std::sync::Mutex;
 use tauri::{Manager, State};
@@ -13,8 +15,52 @@ pub struct AppState {
 }
 
 #[tauri::command]
-fn get_catalog() -> Vec<Unit> {
-    catalog::catalog().clone()
+fn get_languages() -> Vec<LanguageInfo> {
+    catalog::languages().to_vec()
+}
+
+#[tauri::command]
+fn get_catalog(state: State<'_, AppState>) -> Vec<Unit> {
+    let lang = state.db.lock().unwrap().lang().to_string();
+    catalog::catalog(&lang).to_vec()
+}
+
+#[tauri::command]
+fn get_dictionary(state: State<'_, AppState>) -> Vec<DictCategory> {
+    let lang = state.db.lock().unwrap().lang().to_string();
+    dictionary::dictionary(&lang).to_vec()
+}
+
+#[tauri::command]
+fn set_language(lang: String, state: State<'_, AppState>) -> Result<ProgressState, String> {
+    let mut db = state.db.lock().unwrap();
+    if db.set_language(&lang) {
+        db.save(&state.path);
+        Ok(db.snapshot())
+    } else {
+        Err(format!("idioma desconocido: {lang}"))
+    }
+}
+
+#[tauri::command]
+fn get_deck(state: State<'_, AppState>) -> Vec<PhraseDto> {
+    state.db.lock().unwrap().deck_cards()
+}
+
+#[tauri::command]
+fn toggle_deck_card(es: String, t: String, state: State<'_, AppState>) -> Vec<PhraseDto> {
+    let mut db = state.db.lock().unwrap();
+    db.toggle_deck(&es, &t);
+    db.save(&state.path);
+    db.deck_cards()
+}
+
+#[tauri::command]
+fn clear_deck(state: State<'_, AppState>) -> Vec<PhraseDto> {
+    let mut db = state.db.lock().unwrap();
+    db.clear_deck();
+    db.save(&state.path);
+    db.deck_cards()
 }
 
 #[tauri::command]
@@ -60,6 +106,7 @@ fn get_review(state: State<'_, AppState>, limit: u32) -> Vec<SrsCardDto> {
 fn reset_progress(state: State<'_, AppState>) -> ProgressState {
     let mut db = state.db.lock().unwrap();
     *db = Db::default();
+    db.lang = catalog::EN.to_string();
     db.save(&state.path);
     db.snapshot()
 }
@@ -79,7 +126,13 @@ pub fn run() {
             Ok(())
         })
         .invoke_handler(tauri::generate_handler![
+            get_languages,
             get_catalog,
+            get_dictionary,
+            set_language,
+            get_deck,
+            toggle_deck_card,
+            clear_deck,
             get_progress,
             complete_lesson,
             submit_review,

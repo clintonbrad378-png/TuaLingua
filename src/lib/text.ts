@@ -42,10 +42,6 @@ export function tokenize(sentence: string): string[] {
   return sentence.trim().split(/\s+/);
 }
 
-export function isEnglish(text: string): boolean {
-  return /^[a-zA-Z0-9 '’",.?!$-]+$/.test(text);
-}
-
 export function newId(): string {
   return Math.random().toString(36).slice(2, 10);
 }

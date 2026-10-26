@@ -11,8 +11,12 @@ const TITLES: [&str; 7] = [
     "Viajero",
     "Conversador",
     "Casi bilingüe",
-    "Maestro del inglés",
+    "Maestro del idioma",
 ];
+
+fn default_lang() -> String {
+    "en".to_string()
+}
 
 #[derive(Serialize, Deserialize, Clone, Default)]
 pub struct LessonProgress {
@@ -24,7 +28,10 @@ pub struct LessonProgress {
 #[derive(Serialize, Deserialize, Clone)]
 pub struct SrsCard {
     pub es: String,
-    pub en: String,
+    #[serde(alias = "en")]
+    pub t: String,
+    #[serde(default)]
+    pub lang: String,
     pub ease: f32,
     pub interval: u32,
     pub reps: u32,
@@ -32,7 +39,7 @@ pub struct SrsCard {
     pub due: String,
 }
 
-#[derive(Serialize, Deserialize, Clone, Default)]
+#[derive(Serialize, Deserialize, Clone)]
 pub struct Db {
     pub xp: u32,
     pub xp_today: u32,
@@ -44,19 +51,44 @@ pub struct Db {
     pub srs: HashMap<String, SrsCard>,
     pub total_correct: u32,
     pub total_answers: u32,
+    #[serde(default)]
+    pub deck: Vec<PhraseDto>,
+    #[serde(default = "default_lang")]
+    pub lang: String,
+}
+
+impl Default for Db {
+    fn default() -> Self {
+        Self {
+            xp: 0,
+            xp_today: 0,
+            xp_day: None,
+            streak: 0,
+            best_streak: 0,
+            last_active: None,
+            lessons: HashMap::new(),
+            srs: HashMap::new(),
+            total_correct: 0,
+            total_answers: 0,
+            deck: Vec::new(),
+            lang: "en".to_string(),
+        }
+    }
 }
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct RoundResult {
     pub es: String,
-    pub en: String,
+    #[serde(alias = "en")]
+    pub t: String,
     pub correct: bool,
 }
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct SrsCardDto {
     pub es: String,
-    pub en: String,
+    #[serde(alias = "en")]
+    pub t: String,
     pub due: String,
     pub reps: u32,
 }
@@ -78,6 +110,8 @@ pub struct ProgressState {
     pub words_learned: u32,
     pub due_count: u32,
     pub lessons: HashMap<String, LessonProgress>,
+    pub deck_count: u32,
+    pub lang: String,
 }
 
 #[derive(Serialize, Deserialize, Clone)]
@@ -102,14 +136,36 @@ pub struct SessionSummary {
     pub words_learned: u32,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub struct PhraseDto {
     pub es: String,
-    pub en: String,
+    #[serde(alias = "en")]
+    pub t: String,
+    #[serde(default = "default_lang")]
+    pub lang: String,
+}
+
+impl PhraseDto {
+    pub fn new(lang: &str, es: &str, t: &str) -> Self {
+        Self {
+            es: es.trim().to_string(),
+            t: t.trim().to_string(),
+            lang: lang.to_string(),
+        }
+    }
 }
 
 fn today() -> NaiveDate {
     Local::now().date_naive()
+}
+
+fn card_key(lang: &str, es: &str, t: &str) -> String {
+    format!(
+        "{}|{}|{}",
+        lang.trim().to_lowercase(),
+        es.trim().to_lowercase(),
+        t.trim().to_lowercase()
+    )
 }
 
 fn level_needed(level: u32) -> u32 {
@@ -141,10 +197,30 @@ fn stars_for(accuracy: u32) -> u32 {
 }
 
 impl Db {
+    fn sanitize(mut db: Db) -> Self {
+        db.lang = crate::catalog::normalize_lang(&db.lang).to_string();
+        let mut migrated: HashMap<String, SrsCard> = HashMap::with_capacity(db.srs.len());
+        for (_, mut card) in db.srs.drain() {
+            if card.lang.is_empty() {
+                card.lang = "en".to_string();
+            }
+            migrated.insert(card_key(&card.lang, &card.es, &card.t), card);
+        }
+        db.srs = migrated;
+        db
+    }
+
     pub fn load(path: &Path) -> Self {
         std::fs::read_to_string(path)
             .ok()
             .and_then(|raw| serde_json::from_str(&raw).ok())
+            .map(Self::sanitize)
+            .unwrap_or_default()
+    }
+
+    pub fn load_from_str(raw: &str) -> Self {
+        serde_json::from_str(raw)
+            .map(Self::sanitize)
             .unwrap_or_default()
     }
 
@@ -160,29 +236,88 @@ impl Db {
         }
     }
 
-    pub fn due_count(&self) -> u32 {
-        let t = today().to_string();
-        self.srs.values().filter(|c| c.due <= t).count() as u32
+    pub fn lang(&self) -> &str {
+        &self.lang
     }
 
-    pub fn words_learned(&self) -> u32 {
-        self.srs.values().filter(|c| c.reps > 0).count() as u32
+    pub fn set_language(&mut self, lang: &str) -> bool {
+        let norm = crate::catalog::normalize_lang(lang);
+        if norm != lang {
+            return false;
+        }
+        self.lang = norm.to_string();
+        true
+    }
+
+    pub fn due_count(&self) -> u32 {
+        let t = today().to_string();
+        self.srs
+            .values()
+            .filter(|c| c.lang == self.lang && c.due <= t)
+            .count() as u32
+    }
+
+    pub fn words_learned(&self, lang: &str) -> u32 {
+        self.srs
+            .values()
+            .filter(|c| c.lang == lang && c.reps > 0)
+            .count() as u32
     }
 
     pub fn due_cards(&self, limit: usize) -> Vec<SrsCardDto> {
         let t = today().to_string();
-        let mut cards: Vec<&SrsCard> = self.srs.values().filter(|c| c.due <= t).collect();
+        let mut cards: Vec<&SrsCard> = self
+            .srs
+            .values()
+            .filter(|c| c.lang == self.lang && c.due <= t)
+            .collect();
         cards.sort_by(|a, b| a.due.cmp(&b.due).then(b.lapses.cmp(&a.lapses)));
         cards
             .into_iter()
             .take(limit)
             .map(|c| SrsCardDto {
                 es: c.es.clone(),
-                en: c.en.clone(),
+                t: c.t.clone(),
                 due: c.due.clone(),
                 reps: c.reps,
             })
             .collect()
+    }
+
+    pub fn deck_cards(&self) -> Vec<PhraseDto> {
+        self.deck
+            .iter()
+            .filter(|c| c.lang == self.lang)
+            .cloned()
+            .collect()
+    }
+
+    pub fn deck_count(&self) -> u32 {
+        self.deck.iter().filter(|c| c.lang == self.lang).count() as u32
+    }
+
+    pub fn has_deck_card(&self, es: &str, t: &str) -> bool {
+        self.deck.iter().any(|c| {
+            c.lang == self.lang
+                && card_key(&c.lang, &c.es, &c.t) == card_key(self.lang(), es, t)
+        })
+    }
+
+    pub fn toggle_deck(&mut self, es: &str, t: &str) -> bool {
+        if let Some(idx) = self.deck.iter().position(|c| {
+            c.lang == self.lang
+                && card_key(&c.lang, &c.es, &c.t) == card_key(self.lang(), es, t)
+        }) {
+            self.deck.remove(idx);
+            return false;
+        }
+        self.deck
+            .push(PhraseDto::new(self.lang(), es, t));
+        true
+    }
+
+    pub fn clear_deck(&mut self) {
+        self.deck.retain(|c| c.lang != self.lang);
     }
 
     pub fn snapshot(&self) -> ProgressState {
@@ -190,7 +325,7 @@ impl Db {
         ProgressState {
             xp: self.xp,
             level,
-            level_title,
+            level_title: level_title.clone(),
             level_xp,
             level_needed: level_needed(level),
             streak: self.streak,
@@ -204,9 +339,11 @@ impl Db {
             daily_goal: DAILY_GOAL,
             total_correct: self.total_correct,
             total_answers: self.total_answers,
-            words_learned: self.words_learned(),
+            words_learned: self.words_learned(self.lang()),
             due_count: self.due_count(),
             lessons: self.lessons.clone(),
+            deck_count: self.deck_count(),
+            lang: self.lang.clone(),
         }
     }
 
@@ -221,7 +358,7 @@ impl Db {
         let rounds_ok = rounds.iter().filter(|r| r.correct).count() as u32;
         let rounds_total = rounds
             .iter()
-            .filter(|r| !r.es.trim().is_empty() && !r.en.trim().is_empty())
+            .filter(|r| !r.es.trim().is_empty() && !r.t.trim().is_empty())
             .count() as u32;
         let (answers_correct, answers_total) = if rounds_total > 0 {
             (rounds_ok, rounds_total)
@@ -295,25 +432,27 @@ impl Db {
             stars,
             new_words,
             due_count: self.due_count(),
-            words_learned: self.words_learned(),
+            words_learned: self.words_learned(self.lang()),
         }
     }
 
     fn apply_rounds(&mut self, rounds: &[RoundResult]) -> Vec<PhraseDto> {
         let tstr = today().to_string();
+        let lang = self.lang().to_string();
         let mut fresh: Vec<PhraseDto> = Vec::new();
         let mut seen: Vec<String> = Vec::new();
         for r in rounds {
             let es = r.es.trim();
-            let en = r.en.trim();
-            if es.is_empty() || en.is_empty() {
+            let t = r.t.trim();
+            if es.is_empty() || t.is_empty() {
                 continue;
             }
-            let key = format!("{}|{}", es.to_lowercase(), en.to_lowercase());
+            let key = card_key(&lang, es, t);
             let is_new = !self.srs.contains_key(&key);
             let card = self.srs.entry(key.clone()).or_insert_with(|| SrsCard {
                 es: es.to_string(),
-                en: en.to_string(),
+                t: t.to_string(),
+                lang: lang.clone(),
                 ease: 2.0,
                 interval: 0,
                 reps: 0,
@@ -333,7 +472,8 @@ impl Db {
                     seen.push(key);
                     fresh.push(PhraseDto {
                         es: card.es.clone(),
-                        en: card.en.clone(),
+                        t: card.t.clone(),
+                        lang: card.lang.clone(),
                     });
                 }
             } else {
@@ -350,6 +490,14 @@ impl Db {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    fn round(es: &str, t: &str, correct: bool) -> RoundResult {
+        RoundResult {
+            es: es.into(),
+            t: t.into(),
+            correct,
+        }
+    }
 
     #[test]
     fn level_curve_is_progressive() {
@@ -390,7 +538,8 @@ mod tests {
             "k".to_string(),
             SrsCard {
                 es: "ayer".to_string(),
-                en: "yesterday".to_string(),
+                t: "yesterday".to_string(),
+                lang: "en".to_string(),
                 ease: 2.0,
                 interval: 0,
                 reps: 0,
@@ -400,7 +549,7 @@ mod tests {
         );
         assert_eq!(db.due_count(), 1);
         assert_eq!(db.due_cards(10).len(), 1);
-        assert_eq!(db.words_learned(), 0);
+        assert_eq!(db.words_learned("en"), 0);
     }
 
     #[test]
@@ -412,7 +561,8 @@ mod tests {
                 format!("k{i}"),
                 SrsCard {
                     es: format!("es{i}"),
-                    en: format!("en{i}"),
+                    t: format!("t{i}"),
+                    lang: "en".to_string(),
                     ease: 2.0,
                     interval: 0,
                     reps: 0,
@@ -428,21 +578,9 @@ mod tests {
     fn accuracy_uses_rounds_when_present() {
         let mut db = Db::default();
         let rounds = vec![
-            RoundResult {
-                es: "a".into(),
-                en: "b".into(),
-                correct: true,
-            },
-            RoundResult {
-                es: "c".into(),
-                en: "d".into(),
-                correct: true,
-            },
-            RoundResult {
-                es: "e".into(),
-                en: "f".into(),
-                correct: false,
-            },
+            round("a", "b", true),
+            round("c", "d", true),
+            round("e", "f", false),
         ];
         let s = db.session(Some("u1l1"), 2, 2, 1, &rounds);
         assert_eq!((s.correct, s.total, s.accuracy), (2, 3, 66));
@@ -462,25 +600,107 @@ mod tests {
     #[test]
     fn srs_intervals_remember_lapses() {
         let mut db = Db::default();
-        let rounds_success = vec![RoundResult {
-            es: "a".into(),
-            en: "b".into(),
-            correct: true,
-        }];
-        db.session(None, 1, 1, 0, &rounds_success);
+        db.session(None, 1, 1, 0, &[round("a", "b", true)]);
         let card = db.srs.values().next().unwrap().clone();
         assert_eq!(card.interval, 1);
         assert_eq!(card.reps, 1);
 
-        let rounds_fail = vec![RoundResult {
-            es: "a".into(),
-            en: "b".into(),
-            correct: false,
-        }];
-        db.session(None, 0, 1, 0, &rounds_fail);
+        db.session(None, 0, 1, 0, &[round("a", "b", false)]);
         let card = db.srs.values().next().unwrap().clone();
         assert_eq!(card.interval, 0);
         assert_eq!(card.lapses, 1);
         assert!(card.ease >= 1.3);
+    }
+
+    #[test]
+    fn srs_keys_separate_languages() {
+        let mut db = Db::default();
+        db.session(None, 1, 2, 0, &[round("la pizza", "pizza", true)]);
+        assert!(db.set_language("ru"));
+        db.session(None, 1, 2, 0, &[round("la pizza", "пицца", true)]);
+        assert_eq!(db.srs.len(), 2);
+        assert!(db.srs.values().any(|c| c.t == "pizza" && c.lang == "en"));
+        assert!(db.srs
+            .values()
+            .any(|c| c.t == "пицца" && c.lang == "ru"));
+    }
+
+    #[test]
+    fn deck_toggles_case_insensitive_and_per_lang() {
+        let mut db = Db::default();
+        assert!(db.toggle_deck("Perro", "Dog"));
+        assert_eq!(db.deck_count(), 1);
+        assert_eq!(db.snapshot().deck_count, 1);
+        assert!(!db.toggle_deck("perro", "dog"));
+        assert_eq!(db.deck_count(), 0);
+
+        assert!(db.set_language("ru"));
+        assert!(db.toggle_deck("el perro", "собака"));
+        assert_eq!(db.deck_count(), 1);
+        db.deck.iter().for_each(|c| assert_eq!(c.lang, "ru"));
+        assert!(db.set_language("en"));
+        assert_eq!(db.deck_count(), 0);
+        assert_eq!(db.deck.len(), 1);
+    }
+
+    #[test]
+    fn clear_deck_keeps_other_languages() {
+        let mut db = Db::default();
+        db.toggle_deck("hello", "hola");
+        assert!(db.set_language("ru"));
+        db.toggle_deck("hola", "привет");
+        db.set_language("ru");
+        db.clear_deck();
+        assert_eq!(db.deck.len(), 1);
+        assert_eq!(db.deck[0].lang, "en");
+    }
+
+    #[test]
+    fn progress_json_with_old_files_still_parses() {
+        let raw = r#"{
+            "xp": 5, "xp_today": 2, "xp_day": "2026-10-20",
+            "streak": 3, "best_streak": 4, "last_active": "2026-10-20",
+            "lessons": {}, "srs": {}, "total_correct": 10, "total_answers": 12
+        }"#;
+        let db: Db = serde_json::from_str(raw).unwrap();
+        assert_eq!(db.xp, 5);
+        assert_eq!(db.deck_count(), 0);
+        assert_eq!(db.lang, "en");
+    }
+
+    #[test]
+    fn old_srs_and_deck_with_en_field_migrate() {
+        let raw = r#"{
+            "xp": 0, "xp_today": 0, "xp_day": null,
+            "streak": 0, "best_streak": 0, "last_active": null,
+            "lessons": {}, "total_correct": 0, "total_answers": 0,
+            "srs": {
+                "hola|hello": {
+                    "es": "Hola", "en": "Hello", "ease": 2.5,
+                    "interval": 3, "reps": 2, "lapses": 0, "due": "2026-10-20"
+                }
+            },
+            "deck": [{ "es": "Hola", "en": "Hello" }]
+        }"#;
+        let db = Db::load_from_str(raw);
+        assert_eq!(db.srs.len(), 1);
+        let card = db.srs.values().next().unwrap();
+        assert_eq!(card.t, "Hello");
+        assert_eq!(card.lang, "en");
+        assert!(db.srs.contains_key("en|hola|hello"));
+        assert_eq!(db.deck.len(), 1);
+        assert_eq!(db.deck[0].t, "Hello");
+        assert_eq!(db.deck[0].lang, "en");
+    }
+
+    #[test]
+    fn set_language_validates() {
+        let mut db = Db::default();
+        assert!(db.set_language("ru"));
+        assert_eq!(db.lang, "ru");
+        assert!(!db.set_language("xx"));
+        assert_eq!(db.lang, "ru");
+        assert!(db.set_language("en"));
+        assert_eq!(db.lang, "en");
     }
 }

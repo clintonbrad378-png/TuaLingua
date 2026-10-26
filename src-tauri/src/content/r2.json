@@ -1,0 +1,679 @@
+{
+ "id": "r2",
+ "title": "Los números y las compras",
+ "emoji": "🛒",
+ "color": "#60A5FA",
+ "lessons": [
+  {
+   "id": "r2l1",
+   "title": "De cero a cinco",
+   "goal": "Cuenta del cero al cinco en ruso",
+   "tip": [
+    "«Два» suena «dva» y «Три» suena «tri»: casi el español.",
+    "«Четыре» lleva el acento en la última sílaba: четы-РЕ."
+   ],
+   "phrases": [
+    {
+     "es": "Cero",
+     "t": "Ноль"
+    },
+    {
+     "es": "Uno",
+     "t": "Один"
+    },
+    {
+     "es": "Dos",
+     "t": "Два"
+    },
+    {
+     "es": "Tres",
+     "t": "Три"
+    },
+    {
+     "es": "Cuatro",
+     "t": "Четыре"
+    },
+    {
+     "es": "Cinco",
+     "t": "Пять"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r2l1e1",
+     "type": "choice",
+     "prompt": "«Три» es el número…",
+     "options": [
+      "Tres",
+      "Dos",
+      "Uno",
+      "Cinco"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Tres",
+      "t": "Три"
+     }
+    },
+    {
+     "id": "r2l1e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Один, два, три",
+     "options": [
+      "Uno, dos, tres",
+      "Tres, dos, uno",
+      "Cinco, cuatro, tres"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Uno, dos, tres",
+      "t": "Один, два, три"
+     }
+    },
+    {
+     "id": "r2l1e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Два ___ два — четыре",
+     "options": [
+      "и",
+      "а ты",
+      "не"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Dos y dos son cuatro.",
+      "t": "Два и два — четыре"
+     }
+    },
+    {
+     "id": "r2l1e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «dos»",
+     "solution": "Два",
+     "accept": [
+      "Два",
+      "два"
+     ],
+     "pair": {
+      "es": "Dos",
+      "t": "Два"
+     }
+    },
+    {
+     "id": "r2l1e5",
+     "type": "choice",
+     "prompt": "«Пять» es…",
+     "options": [
+      "Cinco",
+      "Cuatro",
+      "Tres",
+      "Seis"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Cinco",
+      "t": "Пять"
+     }
+    },
+    {
+     "id": "r2l1e6",
+     "type": "build",
+     "prompt": "Traduce: «Tengo dos billetes»",
+     "solution": "У меня два билета",
+     "distractors": [
+      "есть",
+      "спасибо"
+     ],
+     "pair": {
+      "es": "Tengo dos billetes",
+      "t": "У меня два билета"
+     }
+    },
+    {
+     "id": "r2l1e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "Uno",
+       "t": "Один"
+      },
+      {
+       "es": "Dos",
+       "t": "Два"
+      },
+      {
+       "es": "Tres",
+       "t": "Три"
+      },
+      {
+       "es": "Cinco",
+       "t": "Пять"
+      }
+     ]
+    },
+    {
+     "id": "r2l1e8",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Четыре",
+     "options": [
+      "Cuatro",
+      "Tres",
+      "Cinco"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Cuatro",
+      "t": "Четыре"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r2l2",
+   "title": "Hasta diez",
+   "goal": "Sube hasta el diez y pregunta «¿cuántos?»",
+   "tip": [
+    "«Пятница» (viernes) y «пять» (cinco) comparten la raíz пят-.",
+    "«Сколько?» sirve para cuántos, cuánta y cuánto."
+   ],
+   "phrases": [
+    {
+     "es": "Seis",
+     "t": "Шесть"
+    },
+    {
+     "es": "Siete",
+     "t": "Семь"
+    },
+    {
+     "es": "Ocho",
+     "t": "Восемь"
+    },
+    {
+     "es": "Nueve",
+     "t": "Девять"
+    },
+    {
+     "es": "Diez",
+     "t": "Десять"
+    },
+    {
+     "es": "¿Cuántos?",
+     "t": "Сколько?"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r2l2e1",
+     "type": "choice",
+     "prompt": "«Десять» es…",
+     "options": [
+      "Diez",
+      "Cien",
+      "Nueve",
+      "Once"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Diez",
+      "t": "Десять"
+     }
+    },
+    {
+     "id": "r2l2e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Семь, восемь, девять, десять",
+     "options": [
+      "Siete, ocho, nueve, diez",
+      "Seis, cinco, cuatro, tres",
+      "Una, dos, tres, cuatro"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Siete, ocho, nueve, diez",
+      "t": "Семь, восемь, девять, десять"
+     }
+    },
+    {
+     "id": "r2l2e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "В кафе было ___ человек.",
+     "options": [
+      "десять",
+      "спасибо",
+      "всегда"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "En el café había diez personas.",
+      "t": "В кафе было десять человек."
+     }
+    },
+    {
+     "id": "r2l2e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «nueve»",
+     "solution": "Девять",
+     "accept": [
+      "Девять",
+      "девять"
+     ],
+     "pair": {
+      "es": "Nueve",
+      "t": "Девять"
+     }
+    },
+    {
+     "id": "r2l2e5",
+     "type": "choice",
+     "prompt": "«Сколько?» significa…",
+     "options": [
+      "¿Cuántos?",
+      "¿Dónde?",
+      "¿Por qué?",
+      "¡Qué bien!"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cuántos?",
+      "t": "Сколько?"
+     }
+    },
+    {
+     "id": "r2l2e6",
+     "type": "build",
+     "prompt": "Traduce: «Tengo siete años»",
+     "solution": "Мне семь лет",
+     "distractors": [
+      "я",
+      "пять"
+     ],
+     "pair": {
+      "es": "Tengo siete años",
+      "t": "Мне семь лет"
+     }
+    },
+    {
+     "id": "r2l2e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "Seis",
+       "t": "Шесть"
+      },
+      {
+       "es": "Siete",
+       "t": "Семь"
+      },
+      {
+       "es": "Ocho",
+       "t": "Восемь"
+      },
+      {
+       "es": "Diez",
+       "t": "Десять"
+      }
+     ]
+    },
+    {
+     "id": "r2l2e8",
+     "type": "choice",
+     "prompt": "«У меня два билета» significa…",
+     "options": [
+      "Tengo dos billetes",
+      "Tengo dos hijos",
+      "Soy el número dos",
+      "Faltan dos"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Tengo dos billetes",
+      "t": "У меня два билета"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r2l3",
+   "title": "¿Cuánto cuesta?",
+   "goal": "Pregunta precios y formas de pago",
+   "tip": [
+    "«Сколько стоит…?» pregunta el precio de un objeto.",
+    "«Можно…?» es el comodín educado para «¿puedo…?»."
+   ],
+   "phrases": [
+    {
+     "es": "¿Cuánto cuesta?",
+     "t": "Сколько стоит?"
+    },
+    {
+     "es": "Es caro",
+     "t": "Это дорого"
+    },
+    {
+     "es": "Es barato",
+     "t": "Это дёшево"
+    },
+    {
+     "es": "En efectivo",
+     "t": "Наличными"
+    },
+    {
+     "es": "¿Puedo pagar con tarjeta?",
+     "t": "Можно заплатить картой?"
+    },
+    {
+     "es": "El ticket, por favor",
+     "t": "Чек, пожалуйста"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r2l3e1",
+     "type": "choice",
+     "prompt": "«Сколько стоит?» significa…",
+     "options": [
+      "¿Cuánto cuesta?",
+      "¿Dónde está?",
+      "¿Quién es?",
+      "¿Cuánto tiempo?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cuánto cuesta?",
+      "t": "Сколько стоит?"
+     }
+    },
+    {
+     "id": "r2l3e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Это слишком дорого",
+     "options": [
+      "Esto es demasiado caro",
+      "Esto es muy barato",
+      "¿Cuánto es?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Esto es demasiado caro",
+      "t": "Это слишком дорого"
+     }
+    },
+    {
+     "id": "r2l3e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "___ заплатить картой?",
+     "options": [
+      "Можно",
+      "Дорого",
+      "Медленно"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Puedo pagar con tarjeta?",
+      "t": "Можно заплатить картой?"
+     }
+    },
+    {
+     "id": "r2l3e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «en efectivo»",
+     "solution": "Наличными",
+     "accept": [
+      "Наличными",
+      "наличными"
+     ],
+     "pair": {
+      "es": "En efectivo",
+      "t": "Наличными"
+     }
+    },
+    {
+     "id": "r2l3e5",
+     "type": "build",
+     "prompt": "Traduce: «El ticket, por favor»",
+     "solution": "Чек, пожалуйста",
+     "distractors": [
+      "дорого",
+      "вода"
+     ],
+     "pair": {
+      "es": "El ticket, por favor",
+      "t": "Чек, пожалуйста"
+     }
+    },
+    {
+     "id": "r2l3e6",
+     "type": "choice",
+     "prompt": "«Это дёшево» quiere decir…",
+     "options": [
+      "Es barato",
+      "Es caro",
+      "Es grande",
+      "Es pequeño"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Es barato",
+      "t": "Это дёшево"
+     }
+    },
+    {
+     "id": "r2l3e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "¿Cuánto cuesta?",
+       "t": "Сколько стоит?"
+      },
+      {
+       "es": "Es caro",
+       "t": "Это дорого"
+      },
+      {
+       "es": "Es barato",
+       "t": "Это дёшево"
+      },
+      {
+       "es": "En efectivo",
+       "t": "Наличными"
+      }
+     ]
+    },
+    {
+     "id": "r2l3e8",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Сколько?",
+     "options": [
+      "¿Cuánto?",
+      "¿Dónde?",
+      "¿Cuándo?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cuánto?",
+      "t": "Сколько?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r2l4",
+   "title": "En la tienda y el café",
+   "goal": "Pide lo que necesitas con frases útiles",
+   "tip": [
+    "«У вас есть…?» pregunta si tienen algo: el vendedor es «ustedes».",
+    "«Счёт, пожалуйста» es el «la cuenta, por favor» del restaurante."
+   ],
+   "phrases": [
+    {
+     "es": "¿Tiene agua?",
+     "t": "У вас есть вода?"
+    },
+    {
+     "es": "Quiero esto, por favor",
+     "t": "Я хочу это, пожалуйста"
+    },
+    {
+     "es": "La cuenta, por favor",
+     "t": "Счёт, пожалуйста"
+    },
+    {
+     "es": "No entiendo",
+     "t": "Я не понимаю"
+    },
+    {
+     "es": "Más despacio, por favor",
+     "t": "Медленнее, пожалуйста"
+    },
+    {
+     "es": "¿Cómo se escribe?",
+     "t": "Как это пишется?"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r2l4e1",
+     "type": "choice",
+     "prompt": "«Счёт, пожалуйста» significa…",
+     "options": [
+      "La cuenta, por favor",
+      "La carta, por favor",
+      "El agua, por favor",
+      "El pan, por favor"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "La cuenta, por favor",
+      "t": "Счёт, пожалуйста"
+     }
+    },
+    {
+     "id": "r2l4e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Я не понимаю",
+     "options": [
+      "No entiendo",
+      "No quiero",
+      "No sé"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "No entiendo",
+      "t": "Я не понимаю"
+     }
+    },
+    {
+     "id": "r2l4e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "У нас нет ___.",
+     "options": [
+      "воды",
+      "вода",
+      "по воде"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "No tenemos agua.",
+      "t": "У нас нет воды."
+     },
+     "explain": "Tras «нет» el sustantivo va en genitivo: нет воды."
+    },
+    {
+     "id": "r2l4e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «más despacio, por favor»",
+     "solution": "Медленнее, пожалуйста",
+     "accept": [
+      "Медленнее, пожалуйста",
+      "медленнее, пожалуйста"
+     ],
+     "pair": {
+      "es": "Más despacio, por favor",
+      "t": "Медленнее, пожалуйста"
+     }
+    },
+    {
+     "id": "r2l4e5",
+     "type": "build",
+     "prompt": "Traduce: «¿Cómo se escribe»",
+     "solution": "Как это пишется?",
+     "distractors": [
+      "где",
+      "спасибо"
+     ],
+     "pair": {
+      "es": "¿Cómo se escribe?",
+      "t": "Как это пишется?"
+     }
+    },
+    {
+     "id": "r2l4e6",
+     "type": "choice",
+     "prompt": "«У вас есть вода?» pregunta…",
+     "options": [
+      "Si hay agua",
+      "Si está fría",
+      "Si es caro",
+      "Si tiene gas"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Tiene agua?",
+      "t": "У вас есть вода?"
+     }
+    },
+    {
+     "id": "r2l4e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "No entiendo",
+       "t": "Я не понимаю"
+      },
+      {
+       "es": "Más despacio, por favor",
+       "t": "Медленнее, пожалуйста"
+      },
+      {
+       "es": "¿Cómo se escribe?",
+       "t": "Как это пишется?"
+      },
+      {
+       "es": "La cuenta, por favor",
+       "t": "Счёт, пожалуйста"
+      }
+     ]
+    },
+    {
+     "id": "r2l4e8",
+     "type": "type",
+     "prompt": "Escribe en ruso: «quiero esto, por favor»",
+     "solution": "Я хочу это, пожалуйста",
+     "accept": [
+      "Я хочу это, пожалуйста",
+      "я хочу это, пожалуйста"
+     ],
+     "pair": {
+      "es": "Quiero esto, por favor",
+      "t": "Я хочу это, пожалуйста"
+     }
+    }
+   ]
+  }
+ ]
+}

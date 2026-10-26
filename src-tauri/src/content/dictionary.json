@@ -1,0 +1,3894 @@
+[
+  {
+    "id": "cat-animals",
+    "title": "Animales",
+    "emoji": "🦁",
+    "words": [
+      {
+        "t": "the dog",
+        "es": "el perro",
+        "pos": "n",
+        "ex": {
+          "t": "The dog is my best friend",
+          "es": "El perro es mi mejor amigo"
+        }
+      },
+      {
+        "t": "the cat",
+        "es": "el gato",
+        "pos": "n",
+        "ex": {
+          "t": "The cat sleeps all day",
+          "es": "El gato duerme todo el día"
+        }
+      },
+      {
+        "t": "the bird",
+        "es": "el pájaro",
+        "pos": "n",
+        "ex": {
+          "t": "A bird sings outside the window",
+          "es": "Un pájaro canta fuera de la ventana"
+        }
+      },
+      {
+        "t": "the fish",
+        "es": "el pez",
+        "pos": "n",
+        "ex": {
+          "t": "There are fish in the lake",
+          "es": "Hay peces en el lago"
+        }
+      },
+      {
+        "t": "the horse",
+        "es": "el caballo",
+        "pos": "n",
+        "ex": {
+          "t": "She rides the horse every morning",
+          "es": "Ella monta el caballo cada mañana"
+        }
+      },
+      {
+        "t": "the cow",
+        "es": "la vaca",
+        "pos": "n",
+        "ex": {
+          "t": "The cow gives us milk",
+          "es": "La vaca nos da leche"
+        }
+      },
+      {
+        "t": "the pig",
+        "es": "el cerdo",
+        "pos": "n",
+        "ex": {
+          "t": "The pig rolls in the mud",
+          "es": "El cerdo se revuelca en el barro"
+        }
+      },
+      {
+        "t": "the sheep",
+        "es": "la oveja",
+        "pos": "n",
+        "ex": {
+          "t": "The sheep eats grass",
+          "es": "La oveja come hierba"
+        }
+      },
+      {
+        "t": "the chicken",
+        "es": "la gallina",
+        "pos": "n",
+        "ex": {
+          "t": "The chicken lays eggs",
+          "es": "La gallina pone huevos"
+        }
+      },
+      {
+        "t": "the mouse",
+        "es": "el ratón",
+        "pos": "n",
+        "ex": {
+          "t": "A mouse lived in the old house",
+          "es": "Vivía un ratón en la casa vieja"
+        }
+      },
+      {
+        "t": "the rabbit",
+        "es": "el conejo",
+        "pos": "n",
+        "ex": {
+          "t": "The rabbit is very fast",
+          "es": "El conejo es muy rápido"
+        }
+      },
+      {
+        "t": "the bear",
+        "es": "el oso",
+        "pos": "n",
+        "ex": {
+          "t": "The bear sleeps in winter",
+          "es": "El oso duerme en invierno"
+        }
+      },
+      {
+        "t": "the wolf",
+        "es": "el lobo",
+        "pos": "n",
+        "ex": {
+          "t": "We heard a wolf at night",
+          "es": "Oímos un lobo de noche"
+        }
+      },
+      {
+        "t": "the lion",
+        "es": "el león",
+        "pos": "n",
+        "ex": {
+          "t": "The lion is the king of the jungle",
+          "es": "El león es el rey de la selva"
+        }
+      },
+      {
+        "t": "the tiger",
+        "es": "el tigre",
+        "pos": "n",
+        "ex": {
+          "t": "A tiger has stripes",
+          "es": "Un tigre tiene rayas"
+        }
+      },
+      {
+        "t": "the elephant",
+        "es": "el elefante",
+        "pos": "n",
+        "ex": {
+          "t": "The elephant never forgets",
+          "es": "El elefante nunca olvida"
+        }
+      },
+      {
+        "t": "the monkey",
+        "es": "el mono",
+        "pos": "n",
+        "ex": {
+          "t": "The monkey climbs trees",
+          "es": "El mono trepa árboles"
+        }
+      },
+      {
+        "t": "the snake",
+        "es": "la serpiente",
+        "pos": "n",
+        "ex": {
+          "t": "The snake moves without legs",
+          "es": "La serpiente se mueve sin patas"
+        }
+      },
+      {
+        "t": "the frog",
+        "es": "la rana",
+        "pos": "n",
+        "ex": {
+          "t": "The frog jumps on the stone",
+          "es": "La rana salta sobre la piedra"
+        }
+      },
+      {
+        "t": "the duck",
+        "es": "el pato",
+        "pos": "n",
+        "ex": {
+          "t": "The duck swims in the pond",
+          "es": "El pato nada en el estanque"
+        }
+      },
+      {
+        "t": "the turtle",
+        "es": "la tortuga",
+        "pos": "n",
+        "ex": {
+          "t": "The turtle lives many years",
+          "es": "La tortuga vive muchos años"
+        }
+      },
+      {
+        "t": "the shark",
+        "es": "el tiburón",
+        "pos": "n",
+        "ex": {
+          "t": "The shark hunts in deep water",
+          "es": "El tiburón caza en aguas profundas"
+        }
+      },
+      {
+        "t": "the whale",
+        "es": "la ballena",
+        "pos": "n",
+        "ex": {
+          "t": "The whale is the biggest animal",
+          "es": "La ballena es el animal más grande"
+        }
+      },
+      {
+        "t": "the butterfly",
+        "es": "la mariposa",
+        "pos": "n",
+        "ex": {
+          "t": "The butterfly flies over the flowers",
+          "es": "La mariposa vuela sobre las flores"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-food",
+    "title": "Comida y bebida",
+    "emoji": "🍽️",
+    "words": [
+      {
+        "t": "the apple",
+        "es": "la manzana",
+        "pos": "n",
+        "ex": {
+          "t": "She eats an apple for breakfast",
+          "es": "Ella come una manzana en el desayuno"
+        }
+      },
+      {
+        "t": "the banana",
+        "es": "el plátano",
+        "pos": "n",
+        "ex": {
+          "t": "The banana is yellow",
+          "es": "El plátano es amarillo"
+        }
+      },
+      {
+        "t": "the orange",
+        "es": "la naranja",
+        "pos": "n",
+        "ex": {
+          "t": "I squeeze the orange for juice",
+          "es": "Escurro la naranja para el zumo"
+        }
+      },
+      {
+        "t": "the grape",
+        "es": "la uva",
+        "pos": "n",
+        "ex": {
+          "t": "The grapes grow in the vineyard",
+          "es": "Las uvas crecen en el viñedo"
+        }
+      },
+      {
+        "t": "the strawberry",
+        "es": "la fresa",
+        "pos": "n",
+        "ex": {
+          "t": "This strawberry is very sweet",
+          "es": "Esta fresa es muy dulce"
+        }
+      },
+      {
+        "t": "the bread",
+        "es": "el pan",
+        "pos": "n",
+        "ex": {
+          "t": "We buy bread every day",
+          "es": "Compramos pan todos los días"
+        }
+      },
+      {
+        "t": "the rice",
+        "es": "el arroz",
+        "pos": "n",
+        "ex": {
+          "t": "The rice is ready",
+          "es": "El arroz está listo"
+        }
+      },
+      {
+        "t": "the egg",
+        "es": "el huevo",
+        "pos": "n",
+        "ex": {
+          "t": "I want two eggs, please",
+          "es": "Quiero dos huevos, por favor"
+        }
+      },
+      {
+        "t": "the milk",
+        "es": "la leche",
+        "pos": "n",
+        "ex": {
+          "t": "The baby drinks milk",
+          "es": "El bebé bebe leche"
+        }
+      },
+      {
+        "t": "the cheese",
+        "es": "el queso",
+        "pos": "n",
+        "ex": {
+          "t": "This cheese is very strong",
+          "es": "Este queso es muy fuerte"
+        }
+      },
+      {
+        "t": "the meat",
+        "es": "la carne",
+        "pos": "n",
+        "ex": {
+          "t": "He does not eat meat",
+          "es": "Él no come carne"
+        }
+      },
+      {
+        "t": "the fish (food)",
+        "es": "el pescado",
+        "pos": "n",
+        "ex": {
+          "t": "The fish is cooked with lemon",
+          "es": "El pescado se cocina con limón"
+        }
+      },
+      {
+        "t": "the soup",
+        "es": "la sopa",
+        "pos": "n",
+        "ex": {
+          "t": "My soup is too hot",
+          "es": "Mi sopa está demasiado caliente"
+        }
+      },
+      {
+        "t": "the salad",
+        "es": "la ensalada",
+        "pos": "n",
+        "ex": {
+          "t": "The salad has tomato and lettuce",
+          "es": "La ensalada lleva tomate y lechuga"
+        }
+      },
+      {
+        "t": "the sugar",
+        "es": "el azúcar",
+        "pos": "n",
+        "ex": {
+          "t": "No sugar in my coffee, please",
+          "es": "Sin azúcar en mi café, por favor"
+        }
+      },
+      {
+        "t": "the salt",
+        "es": "la sal",
+        "pos": "n",
+        "ex": {
+          "t": "Add a little salt",
+          "es": "Añade un poco de sal"
+        }
+      },
+      {
+        "t": "the water",
+        "es": "el agua",
+        "pos": "n",
+        "ex": {
+          "t": "Can I have water, please?",
+          "es": "¿Me da agua, por favor?"
+        }
+      },
+      {
+        "t": "the juice",
+        "es": "el zumo",
+        "pos": "n",
+        "ex": {
+          "t": "Orange juice for the children",
+          "es": "Zumo de naranja para los niños"
+        }
+      },
+      {
+        "t": "the coffee",
+        "es": "el café",
+        "pos": "n",
+        "ex": {
+          "t": "Coffee with milk in the morning",
+          "es": "Café con leche por la mañana"
+        }
+      },
+      {
+        "t": "the tea",
+        "es": "el té",
+        "pos": "n",
+        "ex": {
+          "t": "Green tea after lunch",
+          "es": "Té verde después de la comida"
+        }
+      },
+      {
+        "t": "the wine",
+        "es": "el vino",
+        "pos": "n",
+        "ex": {
+          "t": "Red wine goes with the meat",
+          "es": "El vino tinto va con la carne"
+        }
+      },
+      {
+        "t": "the beer",
+        "es": "la cerveza",
+        "pos": "n",
+        "ex": {
+          "t": "A cold beer, please",
+          "es": "Una cerveza fría, por favor"
+        }
+      },
+      {
+        "t": "the cake",
+        "es": "pastel",
+        "pos": "n",
+        "ex": {
+          "t": "The cake is for the party",
+          "es": "El pastel es para la fiesta"
+        }
+      },
+      {
+        "t": "the chocolate",
+        "es": "el chocolate",
+        "pos": "n",
+        "ex": {
+          "t": "The kids love chocolate",
+          "es": "A los niños les encanta el chocolate"
+        }
+      },
+      {
+        "t": "the fruit",
+        "es": "la fruta",
+        "pos": "n",
+        "ex": {
+          "t": "Eat five fruits a day",
+          "es": "Come cinco frutas al día"
+        }
+      },
+      {
+        "t": "the vegetables",
+        "es": "las verduras",
+        "pos": "n",
+        "ex": {
+          "t": "Vegetables are good for you",
+          "es": "Las verduras te sientan bien"
+        }
+      },
+      {
+        "t": "the sandwich",
+        "es": "el sándwich",
+        "pos": "n",
+        "ex": {
+          "t": "I take a sandwich to work",
+          "es": "Me llevo un sándwich al trabajo"
+        }
+      },
+      {
+        "t": "the butter",
+        "es": "la mantequilla",
+        "pos": "n",
+        "ex": {
+          "t": "Butter on the bread",
+          "es": "Mantequilla en el pan"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-family",
+    "title": "Familia y gente",
+    "emoji": "👨‍👩‍👧",
+    "words": [
+      {
+        "t": "the mother",
+        "es": "la madre",
+        "pos": "n",
+        "ex": {
+          "t": "My mother calls me every day",
+          "es": "Mi madre me llama cada día"
+        }
+      },
+      {
+        "t": "the father",
+        "es": "el padre",
+        "pos": "n",
+        "ex": {
+          "t": "My father is a doctor",
+          "es": "Mi padre es médico"
+        }
+      },
+      {
+        "t": "the son",
+        "es": "el hijo",
+        "pos": "n",
+        "ex": {
+          "t": "Their son is six years old",
+          "es": "Su hijo tiene seis años"
+        }
+      },
+      {
+        "t": "the daughter",
+        "es": "la hija",
+        "pos": "n",
+        "ex": {
+          "t": "Her daughter studies in Madrid",
+          "es": "Su hija estudia en Madrid"
+        }
+      },
+      {
+        "t": "the brother",
+        "es": "el hermano",
+        "pos": "n",
+        "ex": {
+          "t": "My brother is younger than me",
+          "es": "Mi hermano es menor que yo"
+        }
+      },
+      {
+        "t": "the sister",
+        "es": "la hermana",
+        "pos": "n",
+        "ex": {
+          "t": "She is my big sister",
+          "es": "Ella es mi hermana mayor"
+        }
+      },
+      {
+        "t": "the grandmother",
+        "es": "la abuela",
+        "pos": "n",
+        "ex": {
+          "t": "Grandmother cooks on Sundays",
+          "es": "La abuela cocina los domingos"
+        }
+      },
+      {
+        "t": "the grandfather",
+        "es": "el abuelo",
+        "pos": "n",
+        "ex": {
+          "t": "Grandfather tells old stories",
+          "es": "El abuelo cuenta historias viejas"
+        }
+      },
+      {
+        "t": "the uncle",
+        "es": "el tío",
+        "pos": "n",
+        "ex": {
+          "t": "My uncle lives in Canada",
+          "es": "Mi tío vive en Canadá"
+        }
+      },
+      {
+        "t": "the aunt",
+        "es": "la tía",
+        "pos": "n",
+        "ex": {
+          "t": "Aunt Anna buys us pizza",
+          "es": "La tía Anna nos compra pizza"
+        }
+      },
+      {
+        "t": "the cousin",
+        "es": "el primo",
+        "pos": "n",
+        "ex": {
+          "t": "My cousin is coming this weekend",
+          "es": "Mi primo viene este fin de semana"
+        }
+      },
+      {
+        "t": "the wife",
+        "es": "la esposa",
+        "pos": "n",
+        "ex": {
+          "t": "His wife is a teacher",
+          "es": "Su esposa es profesora"
+        }
+      },
+      {
+        "t": "the husband",
+        "es": "el marido",
+        "pos": "n",
+        "ex": {
+          "t": "Her husband drives a taxi",
+          "es": "Su marido conduce un taxi"
+        }
+      },
+      {
+        "t": "the baby",
+        "es": "el bebé",
+        "pos": "n",
+        "ex": {
+          "t": "The baby sleeps at nine",
+          "es": "El bebé duerme a las nueve"
+        }
+      },
+      {
+        "t": "the child",
+        "es": "el niño",
+        "pos": "n",
+        "ex": {
+          "t": "The child plays in the garden",
+          "es": "El niño juega en el jardín"
+        }
+      },
+      {
+        "t": "the friend",
+        "es": "el amigo",
+        "pos": "n",
+        "ex": {
+          "t": "My best friend is here",
+          "es": "Mi mejor amigo está aquí"
+        }
+      },
+      {
+        "t": "the boy",
+        "es": "el chico",
+        "pos": "n",
+        "ex": {
+          "t": "The boy is ten years old",
+          "es": "El chico tiene diez años"
+        }
+      },
+      {
+        "t": "the girl",
+        "es": "la chica",
+        "pos": "n",
+        "ex": {
+          "t": "The girl rides her bike",
+          "es": "La chica monta su bici"
+        }
+      },
+      {
+        "t": "the man",
+        "es": "el hombre",
+        "pos": "n",
+        "ex": {
+          "t": "The man at the door is my neighbor",
+          "es": "El hombre de la puerta es mi vecino"
+        }
+      },
+      {
+        "t": "the woman",
+        "es": "la mujer",
+        "pos": "n",
+        "ex": {
+          "t": "The woman works in a bank",
+          "es": "La mujer trabaja en un banco"
+        }
+      },
+      {
+        "t": "the person",
+        "es": "la persona",
+        "pos": "n",
+        "ex": {
+          "t": "One person is missing",
+          "es": "Falta una persona"
+        }
+      },
+      {
+        "t": "the family",
+        "es": "la familia",
+        "pos": "n",
+        "ex": {
+          "t": "The family meets at Christmas",
+          "es": "La familia se reúne en Navidad"
+        }
+      },
+      {
+        "t": "the couple",
+        "es": "la pareja",
+        "pos": "n",
+        "ex": {
+          "t": "The couple dances every night",
+          "es": "La pareja baila cada noche"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-body",
+    "title": "Cuerpo y salud",
+    "emoji": "🩺",
+    "words": [
+      {
+        "t": "the head",
+        "es": "la cabeza",
+        "pos": "n",
+        "ex": {
+          "t": "My head hurts",
+          "es": "Me duele la cabeza"
+        }
+      },
+      {
+        "t": "the hair",
+        "es": "el pelo",
+        "pos": "n",
+        "ex": {
+          "t": "She has long hair",
+          "es": "Ella tiene el pelo largo"
+        }
+      },
+      {
+        "t": "the face",
+        "es": "la cara",
+        "pos": "n",
+        "ex": {
+          "t": "Wash your face two times a day",
+          "es": "Lávate la cara dos veces al día"
+        }
+      },
+      {
+        "t": "the eye",
+        "es": "el ojo",
+        "pos": "n",
+        "ex": {
+          "t": "Close one eye and read",
+          "es": "Cierra un ojo y lee"
+        }
+      },
+      {
+        "t": "the ear",
+        "es": "la oreja",
+        "pos": "n",
+        "ex": {
+          "t": "Whisper in my ear",
+          "es": "Susúrrame al oído"
+        }
+      },
+      {
+        "t": "the nose",
+        "es": "la nariz",
+        "pos": "n",
+        "ex": {
+          "t": "The cold freezes your nose",
+          "es": "El frío congela la nariz"
+        }
+      },
+      {
+        "t": "the mouth",
+        "es": "la boca",
+        "pos": "n",
+        "ex": {
+          "t": "Do not eat with your mouth open",
+          "es": "No comas con la boca abierta"
+        }
+      },
+      {
+        "t": "the tooth",
+        "es": "el diente",
+        "pos": "n",
+        "ex": {
+          "t": "My tooth is broken",
+          "es": "Tengo un diente roto"
+        }
+      },
+      {
+        "t": "the tongue",
+        "es": "la lengua",
+        "pos": "n",
+        "ex": {
+          "t": "The tongue tastes sweet and salty",
+          "es": "La lengua nota lo dulce y lo salado"
+        }
+      },
+      {
+        "t": "the neck",
+        "es": "el cuello",
+        "pos": "n",
+        "ex": {
+          "t": "My neck is stiff today",
+          "es": "Hoy tengo el cuello rígido"
+        }
+      },
+      {
+        "t": "the shoulder",
+        "es": "el hombro",
+        "pos": "n",
+        "ex": {
+          "t": "The bag hurts my shoulder",
+          "es": "El bolso me duele en el hombro"
+        }
+      },
+      {
+        "t": "the arm",
+        "es": "el brazo",
+        "pos": "n",
+        "ex": {
+          "t": "He broke his arm in the football game",
+          "es": "Se rompió el brazo en el partido de fútbol"
+        }
+      },
+      {
+        "t": "the hand",
+        "es": "la mano",
+        "pos": "n",
+        "ex": {
+          "t": "Give me your hand",
+          "es": "Dame la mano"
+        }
+      },
+      {
+        "t": "the finger",
+        "es": "el dedo",
+        "pos": "n",
+        "ex": {
+          "t": "I cut my finger with the paper",
+          "es": "Me corté el dedo con el papel"
+        }
+      },
+      {
+        "t": "the leg",
+        "es": "la pierna",
+        "pos": "n",
+        "ex": {
+          "t": "My legs are tired",
+          "es": "Tengo las piernas cansadas"
+        }
+      },
+      {
+        "t": "the knee",
+        "es": "la rodilla",
+        "pos": "n",
+        "ex": {
+          "t": "The knee bends when you sit",
+          "es": "La rodilla se dobla al sentarse"
+        }
+      },
+      {
+        "t": "the foot",
+        "es": "el pie",
+        "pos": "n",
+        "ex": {
+          "t": "My feet are wet",
+          "es": "Tengo los pies mojados"
+        }
+      },
+      {
+        "t": "the heart",
+        "es": "el corazón",
+        "pos": "n",
+        "ex": {
+          "t": "Sport is good for the heart",
+          "es": "El deporte es bueno para el corazón"
+        }
+      },
+      {
+        "t": "the stomach",
+        "es": "el estómago",
+        "pos": "n",
+        "ex": {
+          "t": "My stomach wants food",
+          "es": "Mi estómago pide comida"
+        }
+      },
+      {
+        "t": "the skin",
+        "es": "la piel",
+        "pos": "n",
+        "ex": {
+          "t": "Use cream for your skin",
+          "es": "Usa crema para tu piel"
+        }
+      },
+      {
+        "t": "the doctor",
+        "es": "el médico",
+        "pos": "n",
+        "ex": {
+          "t": "The doctor is busy this morning",
+          "es": "El médico está ocupado esta mañana"
+        }
+      },
+      {
+        "t": "the nurse",
+        "es": "el enfermero",
+        "pos": "n",
+        "ex": {
+          "t": "The nurse takes your temperature",
+          "es": "El enfermero te toma la temperatura"
+        }
+      },
+      {
+        "t": "the medicine",
+        "es": "la medicina",
+        "pos": "n",
+        "ex": {
+          "t": "Take the medicine with water",
+          "es": "Toma la medicina con agua"
+        }
+      },
+      {
+        "t": "the hospital",
+        "es": "el hospital",
+        "pos": "n",
+        "ex": {
+          "t": "The hospital is two streets away",
+          "es": "El hospital está a dos calles"
+        }
+      },
+      {
+        "t": "the pain",
+        "es": "el dolor",
+        "pos": "n",
+        "ex": {
+          "t": "The pain goes away with rest",
+          "es": "El dolor se va con descanso"
+        }
+      },
+      {
+        "t": "the fever",
+        "es": "la fiebre",
+        "pos": "n",
+        "ex": {
+          "t": "She has fever and headache",
+          "es": "Ella tiene fiebre y dolor de cabeza"
+        }
+      },
+      {
+        "t": "healthy",
+        "es": "sano",
+        "pos": "adj",
+        "ex": {
+          "t": "Be healthy and sleep well",
+          "es": "Sé sano y duerme bien"
+        }
+      },
+      {
+        "t": "tired",
+        "es": "cansado",
+        "pos": "adj",
+        "ex": {
+          "t": "I am tired after the gym",
+          "es": "Estoy cansado después del gimnasio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-clothes",
+    "title": "Ropa y accesorios",
+    "emoji": "👕",
+    "words": [
+      {
+        "t": "the shirt",
+        "es": "la camisa",
+        "pos": "n",
+        "ex": {
+          "t": "Iron the shirt for the meeting",
+          "es": "Plancha la camisa para la reunión"
+        }
+      },
+      {
+        "t": "the t-shirt",
+        "es": "la camiseta",
+        "pos": "n",
+        "ex": {
+          "t": "This t-shirt has a cool design",
+          "es": "Esta camiseta tiene un diseño guay"
+        }
+      },
+      {
+        "t": "the trousers",
+        "es": "los pantalones",
+        "pos": "n",
+        "ex": {
+          "t": "The trousers are too long",
+          "es": "Los pantalones son demasiado largos"
+        }
+      },
+      {
+        "t": "the jeans",
+        "es": "los vaqueros",
+        "pos": "n",
+        "ex": {
+          "t": "Blue jeans never go out of style",
+          "es": "Los vaqueros azules nunca pasan de moda"
+        }
+      },
+      {
+        "t": "the dress",
+        "es": "el vestido",
+        "pos": "n",
+        "ex": {
+          "t": "She bought a red dress",
+          "es": "Se compró un vestido rojo"
+        }
+      },
+      {
+        "t": "the skirt",
+        "es": "la falda",
+        "pos": "n",
+        "ex": {
+          "t": "The skirt has a zipper",
+          "es": "La falda lleva cremallera"
+        }
+      },
+      {
+        "t": "the jacket",
+        "es": "la chaqueta",
+        "pos": "n",
+        "ex": {
+          "t": "Take the jacket, it is cold outside",
+          "es": "Llévate la chaqueta, hace frío fuera"
+        }
+      },
+      {
+        "t": "the coat",
+        "es": "el abrigo",
+        "pos": "n",
+        "ex": {
+          "t": "The coat hangs on the hook",
+          "es": "El abrigo cuelga del gancho"
+        }
+      },
+      {
+        "t": "the sweater",
+        "es": "el suéter",
+        "pos": "n",
+        "ex": {
+          "t": "A wool sweater for winter",
+          "es": "Un suéter de lana para el invierno"
+        }
+      },
+      {
+        "t": "the shoes",
+        "es": "los zapatos",
+        "pos": "n",
+        "ex": {
+          "t": "My new shoes are very comfortable",
+          "es": "Mis zapatos nuevos son muy cómodos"
+        }
+      },
+      {
+        "t": "the sneakers",
+        "es": "las zapatillas",
+        "pos": "n",
+        "ex": {
+          "t": "Clean sneakers on Monday",
+          "es": "Zapatillas limpias el lunes"
+        }
+      },
+      {
+        "t": "the socks",
+        "es": "los calcetines",
+        "pos": "n",
+        "ex": {
+          "t": "One sock is missing",
+          "es": "Falta un calcetín"
+        }
+      },
+      {
+        "t": "the hat",
+        "es": "el sombrero",
+        "pos": "n",
+        "ex": {
+          "t": "That hat covers your face",
+          "es": "Ese sombrero cubre tu cara"
+        }
+      },
+      {
+        "t": "the scarf",
+        "es": "la bufanda",
+        "pos": "n",
+        "ex": {
+          "t": "A scarf protects from the wind",
+          "es": "Una bufanda protege del viento"
+        }
+      },
+      {
+        "t": "the gloves",
+        "es": "los guantes",
+        "pos": "n",
+        "ex": {
+          "t": "My gloves are in the car",
+          "es": "Mis guantes están en el coche"
+        }
+      },
+      {
+        "t": "the belt",
+        "es": "el cinturón",
+        "pos": "n",
+        "ex": {
+          "t": "This belt is too tight",
+          "es": "Este cinturón es muy estrecho"
+        }
+      },
+      {
+        "t": "the watch",
+        "es": "el reloj",
+        "pos": "n",
+        "ex": {
+          "t": "The watch is a birthday gift",
+          "es": "El reloj es un regalo de cumpleaños"
+        }
+      },
+      {
+        "t": "the glasses",
+        "es": "las gafas",
+        "pos": "n",
+        "ex": {
+          "t": "I read better with glasses",
+          "es": "Leo mejor con gafas"
+        }
+      },
+      {
+        "t": "the bag",
+        "es": "el bolso",
+        "pos": "n",
+        "ex": {
+          "t": "The bag is heavy",
+          "es": "El bolso es pesado"
+        }
+      },
+      {
+        "t": "the keys",
+        "es": "las llaves",
+        "pos": "n",
+        "ex": {
+          "t": "The keys are on the table",
+          "es": "Las llaves están en la mesa"
+        }
+      },
+      {
+        "t": "the wallet",
+        "es": "la cartera",
+        "pos": "n",
+        "ex": {
+          "t": "My wallet is empty",
+          "es": "Mi cartera está vacía"
+        }
+      },
+      {
+        "t": "the umbrella",
+        "es": "el paraguas",
+        "pos": "n",
+        "ex": {
+          "t": "Take the umbrella, it may rain",
+          "es": "Llévate el paraguas, puede llover"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-home",
+    "title": "La casa",
+    "emoji": "🏠",
+    "words": [
+      {
+        "t": "the house",
+        "es": "la casa",
+        "pos": "n",
+        "ex": {
+          "t": "The house has two floors",
+          "es": "La casa tiene dos plantas"
+        }
+      },
+      {
+        "t": "the flat",
+        "es": "el piso",
+        "pos": "n",
+        "ex": {
+          "t": "Our flat is small but sunny",
+          "es": "Nuestro piso es pequeño pero luminoso"
+        }
+      },
+      {
+        "t": "the room",
+        "es": "la habitación",
+        "pos": "n",
+        "ex": {
+          "t": "This room is for guests",
+          "es": "Esta habitación es para invitados"
+        }
+      },
+      {
+        "t": "the kitchen",
+        "es": "la cocina",
+        "pos": "n",
+        "ex": {
+          "t": "The kitchen smells of garlic",
+          "es": "La cocina huele a ajo"
+        }
+      },
+      {
+        "t": "the bedroom",
+        "es": "el dormitorio",
+        "pos": "n",
+        "ex": {
+          "t": "The bedroom is upstairs",
+          "es": "El dormitorio está arriba"
+        }
+      },
+      {
+        "t": "the bathroom",
+        "es": "el baño",
+        "pos": "n",
+        "ex": {
+          "t": "The bathroom needs soap",
+          "es": "El baño necesita jabón"
+        }
+      },
+      {
+        "t": "the living room",
+        "es": "el salón",
+        "pos": "n",
+        "ex": {
+          "t": "We watch TV in the living room",
+          "es": "Vemos la tele en el salón"
+        }
+      },
+      {
+        "t": "the door",
+        "es": "la puerta",
+        "pos": "n",
+        "ex": {
+          "t": "Close the door, please",
+          "es": "Cierra la puerta, por favor"
+        }
+      },
+      {
+        "t": "the window",
+        "es": "la ventana",
+        "pos": "n",
+        "ex": {
+          "t": "The window opens to the street",
+          "es": "La ventana da a la calle"
+        }
+      },
+      {
+        "t": "the wall",
+        "es": "la pared",
+        "pos": "n",
+        "ex": {
+          "t": "Paint the wall in white",
+          "es": "Pinta la pared de blanco"
+        }
+      },
+      {
+        "t": "the floor",
+        "es": "el suelo",
+        "pos": "n",
+        "ex": {
+          "t": "The floor squeaks at night",
+          "es": "El suelo cruje de noche"
+        }
+      },
+      {
+        "t": "the roof",
+        "es": "el tejado",
+        "pos": "n",
+        "ex": {
+          "t": "The roof leaked last winter",
+          "es": "El tejado goteó el invierno pasado"
+        }
+      },
+      {
+        "t": "the stairs",
+        "es": "las escaleras",
+        "pos": "n",
+        "ex": {
+          "t": "Do not run on the stairs",
+          "es": "No corras por las escaleras"
+        }
+      },
+      {
+        "t": "the table",
+        "es": "la mesa",
+        "pos": "n",
+        "ex": {
+          "t": "The table is set for dinner",
+          "es": "La mesa está puesta para la cena"
+        }
+      },
+      {
+        "t": "the chair",
+        "es": "la silla",
+        "pos": "n",
+        "ex": {
+          "t": "This chair is my favorite",
+          "es": "Esta silla es mi favorita"
+        }
+      },
+      {
+        "t": "the sofa",
+        "es": "el sofá",
+        "pos": "n",
+        "ex": {
+          "t": "The cat sleeps on the sofa",
+          "es": "El gato duerme en el sofá"
+        }
+      },
+      {
+        "t": "the bed",
+        "es": "la cama",
+        "pos": "n",
+        "ex": {
+          "t": "Make the bed before you go",
+          "es": "Haz la cama antes de irte"
+        }
+      },
+      {
+        "t": "the mirror",
+        "es": "el espejo",
+        "pos": "n",
+        "ex": {
+          "t": "The mirror shows my new haircut",
+          "es": "El espejo muestra mi corte nuevo"
+        }
+      },
+      {
+        "t": "the lamp",
+        "es": "la lámpara",
+        "pos": "n",
+        "ex": {
+          "t": "Turn on the lamp for reading",
+          "es": "Enciende la lámpara para leer"
+        }
+      },
+      {
+        "t": "the fridge",
+        "es": "la nevera",
+        "pos": "n",
+        "ex": {
+          "t": "The fridge is almost empty",
+          "es": "La nevera está casi vacía"
+        }
+      },
+      {
+        "t": "the oven",
+        "es": "el horno",
+        "pos": "n",
+        "ex": {
+          "t": "The oven is at 180 degrees",
+          "es": "El horno está a 180 grados"
+        }
+      },
+      {
+        "t": "the plate",
+        "es": "el plato",
+        "pos": "n",
+        "ex": {
+          "t": "This plate is hot",
+          "es": "Este plato está caliente"
+        }
+      },
+      {
+        "t": "the cup",
+        "es": "la taza",
+        "pos": "n",
+        "ex": {
+          "t": "A cup of coffee in the balcony",
+          "es": "Una taza de café en el balcón"
+        }
+      },
+      {
+        "t": "the glass (drink)",
+        "es": "el vaso",
+        "pos": "n",
+        "ex": {
+          "t": "A glass of water with ice",
+          "es": "Un vaso de agua con hielo"
+        }
+      },
+      {
+        "t": "the fork",
+        "es": "el tenedor",
+        "pos": "n",
+        "ex": {
+          "t": "The fork fell on the floor",
+          "es": "El tenedor se cayó al suelo"
+        }
+      },
+      {
+        "t": "the knife",
+        "es": "el cuchillo",
+        "pos": "n",
+        "ex": {
+          "t": "Careful with that knife",
+          "es": "Cuidado con ese cuchillo"
+        }
+      },
+      {
+        "t": "the spoon",
+        "es": "la cuchara",
+        "pos": "n",
+        "ex": {
+          "t": "Eat the soup with the spoon",
+          "es": "Come la sopa con la cuchara"
+        }
+      },
+      {
+        "t": "the towel",
+        "es": "la toalla",
+        "pos": "n",
+        "ex": {
+          "t": "Grab a clean towel",
+          "es": "Coge una toalla limpia"
+        }
+      },
+      {
+        "t": "the garden",
+        "es": "el jardín",
+        "pos": "n",
+        "ex": {
+          "t": "The garden needs rain",
+          "es": "El jardín necesita lluvia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-city",
+    "title": "Ciudad y lugares",
+    "emoji": "🌆",
+    "words": [
+      {
+        "t": "the city",
+        "es": "la ciudad",
+        "pos": "n",
+        "ex": {
+          "t": "The city wakes up early",
+          "es": "La ciudad despierta temprano"
+        }
+      },
+      {
+        "t": "the town",
+        "es": "el pueblo",
+        "pos": "n",
+        "ex": {
+          "t": "A quiet town in the mountains",
+          "es": "Un pueblo tranquilo en las montañas"
+        }
+      },
+      {
+        "t": "the street",
+        "es": "la calle",
+        "pos": "n",
+        "ex": {
+          "t": "Cross the street at the lights",
+          "es": "Cruza la calle en el semáforo"
+        }
+      },
+      {
+        "t": "the road",
+        "es": "la carretera",
+        "pos": "n",
+        "ex": {
+          "t": "The road to the beach is closed",
+          "es": "La carretera a la playa está cerrada"
+        }
+      },
+      {
+        "t": "the square",
+        "es": "la plaza",
+        "pos": "n",
+        "ex": {
+          "t": "The square is full of people",
+          "es": "La plaza está llena de gente"
+        }
+      },
+      {
+        "t": "the shop",
+        "es": "la tienda",
+        "pos": "n",
+        "ex": {
+          "t": "The shop closes at nine",
+          "es": "La tienda cierra a las nueve"
+        }
+      },
+      {
+        "t": "the supermarket",
+        "es": "el supermercado",
+        "pos": "n",
+        "ex": {
+          "t": "The supermarket is cheaper",
+          "es": "El supermercado es más barato"
+        }
+      },
+      {
+        "t": "the market",
+        "es": "el mercado",
+        "pos": "n",
+        "ex": {
+          "t": "Fresh fish at the market",
+          "es": "Pescado fresco en el mercado"
+        }
+      },
+      {
+        "t": "the restaurant",
+        "es": "el restaurante",
+        "pos": "n",
+        "ex": {
+          "t": "This restaurant is excellent",
+          "es": "Este restaurante es excelente"
+        }
+      },
+      {
+        "t": "the bar",
+        "es": "el bar",
+        "pos": "n",
+        "ex": {
+          "t": "A coffee at the corner bar",
+          "es": "Un café en el bar de la esquina"
+        }
+      },
+      {
+        "t": "the hotel",
+        "es": "el hotel",
+        "pos": "n",
+        "ex": {
+          "t": "The hotel is next to the beach",
+          "es": "El hotel está junto a la playa"
+        }
+      },
+      {
+        "t": "the bank",
+        "es": "el banco",
+        "pos": "n",
+        "ex": {
+          "t": "The bank opens at nine",
+          "es": "El banco abre a las nueve"
+        }
+      },
+      {
+        "t": "the post office",
+        "es": "la oficina de correos",
+        "pos": "n",
+        "ex": {
+          "t": "Send it from the post office",
+          "es": "Envíalo desde la oficina de correos"
+        }
+      },
+      {
+        "t": "the school",
+        "es": "la escuela",
+        "pos": "n",
+        "ex": {
+          "t": "The school starts in September",
+          "es": "La escuela empieza en septiembre"
+        }
+      },
+      {
+        "t": "the university",
+        "es": "la universidad",
+        "pos": "n",
+        "ex": {
+          "t": "She studies history at university",
+          "es": "Ella estudia historia en la universidad"
+        }
+      },
+      {
+        "t": "the library",
+        "es": "la biblioteca",
+        "pos": "n",
+        "ex": {
+          "t": "Find me in the library",
+          "es": "Búscame en la biblioteca"
+        }
+      },
+      {
+        "t": "the museum",
+        "es": "el museo",
+        "pos": "n",
+        "ex": {
+          "t": "The museum is free on Sundays",
+          "es": "El museo es gratis los domingos"
+        }
+      },
+      {
+        "t": "the church",
+        "es": "la iglesia",
+        "pos": "n",
+        "ex": {
+          "t": "The church bells ring at noon",
+          "es": "Las campanas de la iglesia suenan al mediodía"
+        }
+      },
+      {
+        "t": "the cinema",
+        "es": "el cine",
+        "pos": "n",
+        "ex": {
+          "t": "The cinema has a new movie",
+          "es": "El cine tiene una película nueva"
+        }
+      },
+      {
+        "t": "the theatre",
+        "es": "el teatro",
+        "pos": "n",
+        "ex": {
+          "t": "The theatre plays a comedy today",
+          "es": "El teatro representa una comedia hoy"
+        }
+      },
+      {
+        "t": "the park",
+        "es": "el parque",
+        "pos": "n",
+        "ex": {
+          "t": "The park has old trees",
+          "es": "El parque tiene árboles viejos"
+        }
+      },
+      {
+        "t": "the office",
+        "es": "la oficina",
+        "pos": "n",
+        "ex": {
+          "t": "The office is ten minutes away",
+          "es": "La oficina está a diez minutos"
+        }
+      },
+      {
+        "t": "the building",
+        "es": "el edificio",
+        "pos": "n",
+        "ex": {
+          "t": "That building is very tall",
+          "es": "Ese edificio es muy alto"
+        }
+      },
+      {
+        "t": "the bridge",
+        "es": "el puente",
+        "pos": "n",
+        "ex": {
+          "t": "The bridge crosses the river",
+          "es": "El puente cruza el río"
+        }
+      },
+      {
+        "t": "the airport",
+        "es": "el aeropuerto",
+        "pos": "n",
+        "ex": {
+          "t": "The airport is an hour away",
+          "es": "El aeropuerto está a una hora"
+        }
+      },
+      {
+        "t": "the station",
+        "es": "la estación",
+        "pos": "n",
+        "ex": {
+          "t": "Meet me at the station at six",
+          "es": "Encuéntrame en la estación a las seis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-work",
+    "title": "Trabajo y estudios",
+    "emoji": "💼",
+    "words": [
+      {
+        "t": "the job",
+        "es": "el trabajo",
+        "pos": "n",
+        "ex": {
+          "t": "I look for a new job",
+          "es": "Busco un trabajo nuevo"
+        }
+      },
+      {
+        "t": "the work",
+        "es": "el trabajo (tarea)",
+        "pos": "n",
+        "ex": {
+          "t": "The work must be done today",
+          "es": "El trabajo debe estar hecho hoy"
+        }
+      },
+      {
+        "t": "the boss",
+        "es": "el jefe",
+        "pos": "n",
+        "ex": {
+          "t": "My boss says the meeting moves",
+          "es": "Mi jefe dice que la reunión se muda"
+        }
+      },
+      {
+        "t": "the colleague",
+        "es": "el compañero",
+        "pos": "n",
+        "ex": {
+          "t": "My colleague helps with the report",
+          "es": "Mi compañero ayuda con el informe"
+        }
+      },
+      {
+        "t": "the company",
+        "es": "la empresa",
+        "pos": "n",
+        "ex": {
+          "t": "The company grows fast",
+          "es": "La empresa crece rápido"
+        }
+      },
+      {
+        "t": "the salary",
+        "es": "el sueldo",
+        "pos": "n",
+        "ex": {
+          "t": "The salary goes up next year",
+          "es": "El sueldo sube el año que viene"
+        }
+      },
+      {
+        "t": "the meeting",
+        "es": "la reunión",
+        "pos": "n",
+        "ex": {
+          "t": "The meeting starts at ten",
+          "es": "La reunión empieza a las diez"
+        }
+      },
+      {
+        "t": "the report",
+        "es": "el informe",
+        "pos": "n",
+        "ex": {
+          "t": "Send the report by email",
+          "es": "Manda el informe por correo"
+        }
+      },
+      {
+        "t": "the desk",
+        "es": "el escritorio",
+        "pos": "n",
+        "ex": {
+          "t": "My desk is near the window",
+          "es": "Mi escritorio está junto a la ventana"
+        }
+      },
+      {
+        "t": "the paper",
+        "es": "el papel",
+        "pos": "n",
+        "ex": {
+          "t": "Print it on paper",
+          "es": "Imprímelo en papel"
+        }
+      },
+      {
+        "t": "the pen",
+        "es": "el bolígrafo",
+        "pos": "n",
+        "ex": {
+          "t": "This pen does not write anymore",
+          "es": "Este bolígrafo ya no escribe"
+        }
+      },
+      {
+        "t": "the pencil",
+        "es": "el lápiz",
+        "pos": "n",
+        "ex": {
+          "t": "A pencil for the exam",
+          "es": "Un lápiz para el examen"
+        }
+      },
+      {
+        "t": "the book",
+        "es": "el libro",
+        "pos": "n",
+        "ex": {
+          "t": "This book changed my life",
+          "es": "Este libro me cambió la vida"
+        }
+      },
+      {
+        "t": "the notebook",
+        "es": "el cuaderno",
+        "pos": "n",
+        "ex": {
+          "t": "Write it down in your notebook",
+          "es": "Escríbelo en tu cuaderno"
+        }
+      },
+      {
+        "t": "the letter",
+        "es": "la carta",
+        "pos": "n",
+        "ex": {
+          "t": "Grandpa writes letters by hand",
+          "es": "El abuelo escribe cartas a mano"
+        }
+      },
+      {
+        "t": "the letter (alphabet)",
+        "es": "la letra",
+        "pos": "n",
+        "ex": {
+          "t": "The letter J is his favorite",
+          "es": "La letra J es su favorita"
+        }
+      },
+      {
+        "t": "the exam",
+        "es": "el examen",
+        "pos": "n",
+        "ex": {
+          "t": "The exam is on Friday",
+          "es": "El examen es el viernes"
+        }
+      },
+      {
+        "t": "the homework",
+        "es": "los deberes",
+        "pos": "n",
+        "ex": {
+          "t": "Do your homework before dinner",
+          "es": "Haz los deberes antes de cenar"
+        }
+      },
+      {
+        "t": "the class",
+        "es": "la clase",
+        "pos": "n",
+        "ex": {
+          "t": "The class starts at eight",
+          "es": "La clase empieza a las ocho"
+        }
+      },
+      {
+        "t": "the teacher",
+        "es": "el profesor",
+        "pos": "n",
+        "ex": {
+          "t": "The teacher speaks three languages",
+          "es": "El profesor habla tres idiomas"
+        }
+      },
+      {
+        "t": "the student",
+        "es": "el estudiante",
+        "pos": "n",
+        "ex": {
+          "t": "The student answers without fear",
+          "es": "El estudiante responde sin miedo"
+        }
+      },
+      {
+        "t": "the word",
+        "es": "la palabra",
+        "pos": "n",
+        "ex": {
+          "t": "This word is hard to say",
+          "es": "Esta palabra es difícil de decir"
+        }
+      },
+      {
+        "t": "the question",
+        "es": "la pregunta",
+        "pos": "n",
+        "ex": {
+          "t": "Ask a question if you do not understand",
+          "es": "Haz una pregunta si no entiendes"
+        }
+      },
+      {
+        "t": "the answer",
+        "es": "la respuesta",
+        "pos": "n",
+        "ex": {
+          "t": "Her answer surprised everyone",
+          "es": "Su respuesta sorprendió a todos"
+        }
+      },
+      {
+        "t": "the mistake",
+        "es": "el error",
+        "pos": "n",
+        "ex": {
+          "t": "Every mistake teaches something",
+          "es": "Cada error enseña algo"
+        }
+      },
+      {
+        "t": "the holiday",
+        "es": "las vacaciones",
+        "pos": "n",
+        "ex": {
+          "t": "The holiday starts in July",
+          "es": "Las vacaciones empiezan en julio"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-tech",
+    "title": "Tecnología",
+    "emoji": "📱",
+    "words": [
+      {
+        "t": "the phone",
+        "es": "el teléfono",
+        "pos": "n",
+        "ex": {
+          "t": "The phone rings in class",
+          "es": "El teléfono suena en clase"
+        }
+      },
+      {
+        "t": "the computer",
+        "es": "el ordenador",
+        "pos": "n",
+        "ex": {
+          "t": "The computer runs all night",
+          "es": "El ordenador corre toda la noche"
+        }
+      },
+      {
+        "t": "the laptop",
+        "es": "el portátil",
+        "pos": "n",
+        "ex": {
+          "t": "My laptop battery is low",
+          "es": "La batería de mi portátil está baja"
+        }
+      },
+      {
+        "t": "the screen",
+        "es": "la pantalla",
+        "pos": "n",
+        "ex": {
+          "t": "The screen is too bright",
+          "es": "La pantalla es demasiado brillante"
+        }
+      },
+      {
+        "t": "the keyboard",
+        "es": "el teclado",
+        "pos": "n",
+        "ex": {
+          "t": "The keyboard has Spanish letters",
+          "es": "El teclado tiene letras españolas"
+        }
+      },
+      {
+        "t": "the mouse (computer)",
+        "es": "el ratón (ordenador)",
+        "pos": "n",
+        "ex": {
+          "t": "The mouse stopped working",
+          "es": "El ratón dejó de funcionar"
+        }
+      },
+      {
+        "t": "the internet",
+        "es": "internet",
+        "pos": "n",
+        "ex": {
+          "t": "The internet is slow today",
+          "es": "Internet va lento hoy"
+        }
+      },
+      {
+        "t": "the website",
+        "es": "la página web",
+        "pos": "n",
+        "ex": {
+          "t": "This website is full of ideas",
+          "es": "Esta página web está llena de ideas"
+        }
+      },
+      {
+        "t": "the password",
+        "es": "la contraseña",
+        "pos": "n",
+        "ex": {
+          "t": "Change your password every few months",
+          "es": "Cambia tu contraseña cada pocos meses"
+        }
+      },
+      {
+        "t": "the message",
+        "es": "el mensaje",
+        "pos": "n",
+        "ex": {
+          "t": "Your message arrived in the morning",
+          "es": "Tu mensaje llegó por la mañana"
+        }
+      },
+      {
+        "t": "the email",
+        "es": "el correo",
+        "pos": "n",
+        "ex": {
+          "t": "Check the email before lunch",
+          "es": "Mira el correo antes de comer"
+        }
+      },
+      {
+        "t": "the photo",
+        "es": "la foto",
+        "pos": "n",
+        "ex": {
+          "t": "That photo is from 2019",
+          "es": "Esa foto es de 2019"
+        }
+      },
+      {
+        "t": "the video",
+        "es": "el vídeo",
+        "pos": "n",
+        "ex": {
+          "t": "The video explains it well",
+          "es": "El vídeo lo explica bien"
+        }
+      },
+      {
+        "t": "the song",
+        "es": "la canción",
+        "pos": "n",
+        "ex": {
+          "t": "This song repeats in my head",
+          "es": "Esta canción se repite en mi cabeza"
+        }
+      },
+      {
+        "t": "the application",
+        "es": "la aplicación",
+        "pos": "n",
+        "ex": {
+          "t": "Install the application from the store",
+          "es": "Instala la aplicación desde la tienda"
+        }
+      },
+      {
+        "t": "the battery",
+        "es": "la batería",
+        "pos": "n",
+        "ex": {
+          "t": "Charge the battery before the trip",
+          "es": "Carga la batería antes del viaje"
+        }
+      },
+      {
+        "t": "the charger",
+        "es": "el cargador",
+        "pos": "n",
+        "ex": {
+          "t": "The charger is in the living room",
+          "es": "El cargador está en el salón"
+        }
+      },
+      {
+        "t": "the headphones",
+        "es": "los auriculares",
+        "pos": "n",
+        "ex": {
+          "t": "Headphones on, homework done",
+          "es": "Auriculares puestos, deberes hechos"
+        }
+      },
+      {
+        "t": "the camera",
+        "es": "la cámara",
+        "pos": "n",
+        "ex": {
+          "t": "The camera captures great colors",
+          "es": "La cámara captura colores geniales"
+        }
+      },
+      {
+        "t": "the game",
+        "es": "el juego",
+        "pos": "n",
+        "ex": {
+          "t": "This game teaches English",
+          "es": "Este juego enseña inglés"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-travel",
+    "title": "Viajes y transporte",
+    "emoji": "✈️",
+    "words": [
+      {
+        "t": "the car",
+        "es": "el coche",
+        "pos": "n",
+        "ex": {
+          "t": "The car needs petrol",
+          "es": "El coche necesita gasolina"
+        }
+      },
+      {
+        "t": "the bus",
+        "es": "el autobús",
+        "pos": "n",
+        "ex": {
+          "t": "The bus arrives every ten minutes",
+          "es": "El autobús llega cada diez minutos"
+        }
+      },
+      {
+        "t": "the train",
+        "es": "el tren",
+        "pos": "n",
+        "ex": {
+          "t": "The train leaves at seven",
+          "es": "El tren sale a las siete"
+        }
+      },
+      {
+        "t": "the plane",
+        "es": "el avión",
+        "pos": "n",
+        "ex": {
+          "t": "The plane lands at noon",
+          "es": "El avión aterriza al mediodía"
+        }
+      },
+      {
+        "t": "the taxi",
+        "es": "el taxi",
+        "pos": "n",
+        "ex": {
+          "t": "A taxi to the airport, please",
+          "es": "Un taxi al aeropuerto, por favor"
+        }
+      },
+      {
+        "t": "the bicycle",
+        "es": "la bicicleta",
+        "pos": "n",
+        "ex": {
+          "t": "The bicycle is the fastest here",
+          "es": "La bicicleta es lo más rápido aquí"
+        }
+      },
+      {
+        "t": "the boat",
+        "es": "el barco",
+        "pos": "n",
+        "ex": {
+          "t": "The boat sails on Mondays",
+          "es": "El barco zarpa los lunes"
+        }
+      },
+      {
+        "t": "the metro",
+        "es": "el metro",
+        "pos": "n",
+        "ex": {
+          "t": "Take the metro to the center",
+          "es": "Toma el metro al centro"
+        }
+      },
+      {
+        "t": "the ticket",
+        "es": "el billete",
+        "pos": "n",
+        "ex": {
+          "t": "One ticket to Dublin",
+          "es": "Un billete a Dublín"
+        }
+      },
+      {
+        "t": "the luggage",
+        "es": "el equipaje",
+        "pos": "n",
+        "ex": {
+          "t": "The luggage weighs a lot",
+          "es": "El equipaje pesa mucho"
+        }
+      },
+      {
+        "t": "the passport",
+        "es": "el pasaporte",
+        "pos": "n",
+        "ex": {
+          "t": "The passport is valid for ten years",
+          "es": "El pasaporte es válido diez años"
+        }
+      },
+      {
+        "t": "the trip",
+        "es": "el viaje",
+        "pos": "n",
+        "ex": {
+          "t": "The trip takes three hours",
+          "es": "El viaje dura tres horas"
+        }
+      },
+      {
+        "t": "the flight",
+        "es": "el vuelo",
+        "pos": "n",
+        "ex": {
+          "t": "The flight is on time",
+          "es": "El vuelo va con puntualidad"
+        }
+      },
+      {
+        "t": "the driver",
+        "es": "el conductor",
+        "pos": "n",
+        "ex": {
+          "t": "The driver waits outside",
+          "es": "El conductor espera fuera"
+        }
+      },
+      {
+        "t": "the passenger",
+        "es": "el pasajero",
+        "pos": "n",
+        "ex": {
+          "t": "The passenger lost his phone",
+          "es": "El pasajero perdió su teléfono"
+        }
+      },
+      {
+        "t": "the map",
+        "es": "el mapa",
+        "pos": "n",
+        "ex": {
+          "t": "The map shows old streets",
+          "es": "El mapa muestra calles viejas"
+        }
+      },
+      {
+        "t": "the beach",
+        "es": "la playa",
+        "pos": "n",
+        "ex": {
+          "t": "The beach is quiet in the spring",
+          "es": "La playa está tranquila en primavera"
+        }
+      },
+      {
+        "t": "the suitcase",
+        "es": "la maleta",
+        "pos": "n",
+        "ex": {
+          "t": "Pack the suitcase the night before",
+          "es": "Prepara la maleta la noche antes"
+        }
+      },
+      {
+        "t": "on foot",
+        "es": "a pie",
+        "pos": "phr",
+        "ex": {
+          "t": "We go there on foot",
+          "es": "Vamos allí a pie"
+        }
+      },
+      {
+        "t": "near",
+        "es": "cerca",
+        "pos": "adv",
+        "ex": {
+          "t": "The market is near my flat",
+          "es": "El mercado está cerca de mi piso"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-nature",
+    "title": "Naturaleza y clima",
+    "emoji": "🌦️",
+    "words": [
+      {
+        "t": "the sun",
+        "es": "el sol",
+        "pos": "n",
+        "ex": {
+          "t": "The sun rises in the east",
+          "es": "El sol sale por el este"
+        }
+      },
+      {
+        "t": "the moon",
+        "es": "la luna",
+        "pos": "n",
+        "ex": {
+          "t": "The moon is full tonight",
+          "es": "Hoy hay luna llena"
+        }
+      },
+      {
+        "t": "the star",
+        "es": "la estrella",
+        "pos": "n",
+        "ex": {
+          "t": "See the stars in the mountains",
+          "es": "Mira las estrellas en las montañas"
+        }
+      },
+      {
+        "t": "the sky",
+        "es": "el cielo",
+        "pos": "n",
+        "ex": {
+          "t": "The sky is clean today",
+          "es": "El cielo está limpio hoy"
+        }
+      },
+      {
+        "t": "the cloud",
+        "es": "la nube",
+        "pos": "n",
+        "ex": {
+          "t": "A cloud covers the tower",
+          "es": "Una nube cubre la torre"
+        }
+      },
+      {
+        "t": "the rain",
+        "es": "la lluvia",
+        "pos": "n",
+        "ex": {
+          "t": "The rain cleans the streets",
+          "es": "La lluvia limpia las calles"
+        }
+      },
+      {
+        "t": "the snow",
+        "es": "la nieve",
+        "pos": "n",
+        "ex": {
+          "t": "The snow covers everything",
+          "es": "La nieve lo cubre todo"
+        }
+      },
+      {
+        "t": "the wind",
+        "es": "el viento",
+        "pos": "n",
+        "ex": {
+          "t": "The wind moves the curtains",
+          "es": "El viento mueve las cortinas"
+        }
+      },
+      {
+        "t": "the storm",
+        "es": "la tormenta",
+        "pos": "n",
+        "ex": {
+          "t": "The storm stops at midnight",
+          "es": "La tormenta para a medianoche"
+        }
+      },
+      {
+        "t": "the rainbow",
+        "es": "el arco iris",
+        "pos": "n",
+        "ex": {
+          "t": "A rainbow after the rain",
+          "es": "Un arco iris después de la lluvia"
+        }
+      },
+      {
+        "t": "the tree",
+        "es": "el árbol",
+        "pos": "n",
+        "ex": {
+          "t": "That tree is two hundred years old",
+          "es": "Ese árbol tiene doscientos años"
+        }
+      },
+      {
+        "t": "the flower",
+        "es": "la flor",
+        "pos": "n",
+        "ex": {
+          "t": "The flower smells incredible",
+          "es": "La flor huele increíble"
+        }
+      },
+      {
+        "t": "the leaf",
+        "es": "la hoja",
+        "pos": "n",
+        "ex": {
+          "t": "A leaf falls into the river",
+          "es": "Una hoja cae al río"
+        }
+      },
+      {
+        "t": "the grass",
+        "es": "la hierba",
+        "pos": "n",
+        "ex": {
+          "t": "Cut the grass this weekend",
+          "es": "Corta la hierba este fin de semana"
+        }
+      },
+      {
+        "t": "the forest",
+        "es": "el bosque",
+        "pos": "n",
+        "ex": {
+          "t": "The forest is quiet at dawn",
+          "es": "El bosque está tranquilo al alba"
+        }
+      },
+      {
+        "t": "the river",
+        "es": "el río",
+        "pos": "n",
+        "ex": {
+          "t": "The river runs through the city",
+          "es": "El río atraviesa la ciudad"
+        }
+      },
+      {
+        "t": "the lake",
+        "es": "el lago",
+        "pos": "n",
+        "ex": {
+          "t": "The lake freezes in January",
+          "es": "El lago se congela en enero"
+        }
+      },
+      {
+        "t": "the sea",
+        "es": "el mar",
+        "pos": "n",
+        "ex": {
+          "t": "The sea is warm in the summer",
+          "es": "El mar está caliente en verano"
+        }
+      },
+      {
+        "t": "the mountain",
+        "es": "la montaña",
+        "pos": "n",
+        "ex": {
+          "t": "The mountain is very tall",
+          "es": "La montaña es muy alta"
+        }
+      },
+      {
+        "t": "the shore",
+        "es": "la orilla",
+        "pos": "n",
+        "ex": {
+          "t": "The shore is soft and wet",
+          "es": "La orilla está suave y mojada"
+        }
+      },
+      {
+        "t": "the fire",
+        "es": "el fuego",
+        "pos": "n",
+        "ex": {
+          "t": "The fire lights the tent",
+          "es": "El fuego ilumina la tienda"
+        }
+      },
+      {
+        "t": "the earth",
+        "es": "la tierra",
+        "pos": "n",
+        "ex": {
+          "t": "The earth smells after rain",
+          "es": "La tierra huele después de la lluvia"
+        }
+      },
+      {
+        "t": "the plant",
+        "es": "la planta",
+        "pos": "n",
+        "ex": {
+          "t": "This plant needs little water",
+          "es": "Esta planta necesita poca agua"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-colors",
+    "title": "Colores y números",
+    "emoji": "🎨",
+    "words": [
+      {
+        "t": "red",
+        "es": "rojo",
+        "pos": "adj",
+        "ex": {
+          "t": "A red bike for my birthday",
+          "es": "Una bici roja para mi cumpleaños"
+        }
+      },
+      {
+        "t": "blue",
+        "es": "azul",
+        "pos": "adj",
+        "ex": {
+          "t": "The sky is very blue today",
+          "es": "El cielo está muy azul hoy"
+        }
+      },
+      {
+        "t": "green",
+        "es": "verde",
+        "pos": "adj",
+        "ex": {
+          "t": "Green tea in the morning",
+          "es": "Té verde por la mañana"
+        }
+      },
+      {
+        "t": "yellow",
+        "es": "amarillo",
+        "pos": "adj",
+        "ex": {
+          "t": "A yellow bus drives by",
+          "es": "Pasa un autobús amarillo"
+        }
+      },
+      {
+        "t": "orange (color)",
+        "es": "naranja (color)",
+        "pos": "adj",
+        "ex": {
+          "t": "The orange jacket glows at night",
+          "es": "La chaqueta naranja brilla de noche"
+        }
+      },
+      {
+        "t": "purple",
+        "es": "morado",
+        "pos": "adj",
+        "ex": {
+          "t": "Purple flowers in the garden",
+          "es": "Flores moradas en el jardín"
+        }
+      },
+      {
+        "t": "pink",
+        "es": "rosa",
+        "pos": "adj",
+        "ex": {
+          "t": "Her bike has a pink ribbon",
+          "es": "Su bici lleva un lazo rosa"
+        }
+      },
+      {
+        "t": "brown",
+        "es": "marrón",
+        "pos": "adj",
+        "ex": {
+          "t": "Brown bread with oil",
+          "es": "Pan marrón con aceite"
+        }
+      },
+      {
+        "t": "black",
+        "es": "negro",
+        "pos": "adj",
+        "ex": {
+          "t": "A black cat crosses the street",
+          "es": "Un gato negro cruza la calle"
+        }
+      },
+      {
+        "t": "white",
+        "es": "blanco",
+        "pos": "adj",
+        "ex": {
+          "t": "White clouds over the sea",
+          "es": "Nubes blancas sobre el mar"
+        }
+      },
+      {
+        "t": "grey",
+        "es": "gris",
+        "pos": "adj",
+        "ex": {
+          "t": "Grey mornings in the winter",
+          "es": "Mañanas grises en el invierno"
+        }
+      },
+      {
+        "t": "one",
+        "es": "uno",
+        "pos": "n",
+        "ex": {
+          "t": "One coffee, please",
+          "es": "Un café, por favor"
+        }
+      },
+      {
+        "t": "two",
+        "es": "dos",
+        "pos": "n",
+        "ex": {
+          "t": "Two rooms for two nights",
+          "es": "Dos habitaciones para dos noches"
+        }
+      },
+      {
+        "t": "three",
+        "es": "tres",
+        "pos": "n",
+        "ex": {
+          "t": "Three hours of driving",
+          "es": "Tres horas de conducción"
+        }
+      },
+      {
+        "t": "four",
+        "es": "cuatro",
+        "pos": "n",
+        "ex": {
+          "t": "Four chairs at the table",
+          "es": "Cuatro sillas en la mesa"
+        }
+      },
+      {
+        "t": "five",
+        "es": "cinco",
+        "pos": "n",
+        "ex": {
+          "t": "Five minutes and I am ready",
+          "es": "Cinco minutos y estoy listo"
+        }
+      },
+      {
+        "t": "six",
+        "es": "seis",
+        "pos": "n",
+        "ex": {
+          "t": "Six eggs for the cake",
+          "es": "Seis huevos para el pastel"
+        }
+      },
+      {
+        "t": "seven",
+        "es": "siete",
+        "pos": "n",
+        "ex": {
+          "t": "Seven days in a week",
+          "es": "Siete días en una semana"
+        }
+      },
+      {
+        "t": "eight",
+        "es": "ocho",
+        "pos": "n",
+        "ex": {
+          "t": "Eight plates for dinner",
+          "es": "Ocho platos para la cena"
+        }
+      },
+      {
+        "t": "nine",
+        "es": "nueve",
+        "pos": "n",
+        "ex": {
+          "t": "Nine o'clock and still working",
+          "es": "Las nueve y sigo trabajando"
+        }
+      },
+      {
+        "t": "ten",
+        "es": "diez",
+        "pos": "n",
+        "ex": {
+          "t": "Ten days of holidays",
+          "es": "Diez días de vacaciones"
+        }
+      },
+      {
+        "t": "twenty",
+        "es": "veinte",
+        "pos": "n",
+        "ex": {
+          "t": "Twenty people at the party",
+          "es": "Veinte personas en la fiesta"
+        }
+      },
+      {
+        "t": "fifty",
+        "es": "cincuenta",
+        "pos": "n",
+        "ex": {
+          "t": "Fifty meters to the beach",
+          "es": "Cincuenta metros hasta la playa"
+        }
+      },
+      {
+        "t": "a hundred",
+        "es": "cien",
+        "pos": "n",
+        "ex": {
+          "t": "A hundred times I told you",
+          "es": "Cien veces te lo dije"
+        }
+      },
+      {
+        "t": "a thousand",
+        "es": "mil",
+        "pos": "n",
+        "ex": {
+          "t": "A thousand thanks",
+          "es": "Mil gracias"
+        }
+      },
+      {
+        "t": "half",
+        "es": "mitad",
+        "pos": "n",
+        "ex": {
+          "t": "Half the class is absent",
+          "es": "Mitad de la clase falta"
+        }
+      },
+      {
+        "t": "half an hour",
+        "es": "media hora",
+        "pos": "n",
+        "ex": {
+          "t": "Wait half an hour more",
+          "es": "Espera media hora más"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-verbs",
+    "title": "Verbos comunes",
+    "emoji": "🔁",
+    "words": [
+      {
+        "t": "to be",
+        "es": "ser / estar",
+        "pos": "v",
+        "ex": {
+          "t": "To be or not to be",
+          "es": "Ser o no ser"
+        }
+      },
+      {
+        "t": "to have",
+        "es": "tener",
+        "pos": "v",
+        "ex": {
+          "t": "I have a question for you",
+          "es": "Tengo una pregunta para ti"
+        }
+      },
+      {
+        "t": "to do",
+        "es": "hacer",
+        "pos": "v",
+        "ex": {
+          "t": "Do your best every day",
+          "es": "Haz tu mejor esfuerzo cada día"
+        }
+      },
+      {
+        "t": "to go",
+        "es": "ir",
+        "pos": "v",
+        "ex": {
+          "t": "We go to the market on foot",
+          "es": "Vamos al mercado a pie"
+        }
+      },
+      {
+        "t": "to come",
+        "es": "venir",
+        "pos": "v",
+        "ex": {
+          "t": "Come to my house tonight",
+          "es": "Ven a mi casa esta noche"
+        }
+      },
+      {
+        "t": "to see",
+        "es": "ver",
+        "pos": "v",
+        "ex": {
+          "t": "I see the mountains from here",
+          "es": "Veo las montañas desde aquí"
+        }
+      },
+      {
+        "t": "to hear",
+        "es": "oír",
+        "pos": "v",
+        "ex": {
+          "t": "I hear music in the street",
+          "es": "Oigo música en la calle"
+        }
+      },
+      {
+        "t": "to eat",
+        "es": "comer",
+        "pos": "v",
+        "ex": {
+          "t": "Eat slowly, there is time",
+          "es": "Come despacio, hay tiempo"
+        }
+      },
+      {
+        "t": "to drink",
+        "es": "beber",
+        "pos": "v",
+        "ex": {
+          "t": "Drink water before the walk",
+          "es": "Bebe agua antes de la caminata"
+        }
+      },
+      {
+        "t": "to sleep",
+        "es": "dormir",
+        "pos": "v",
+        "ex": {
+          "t": "I sleep eight hours every night",
+          "es": "Duermo ocho horas cada noche"
+        }
+      },
+      {
+        "t": "to wake up",
+        "es": "despertarse",
+        "pos": "v",
+        "ex": {
+          "t": "Wake up early on the weekend",
+          "es": "Despiértate temprano el fin de semana"
+        }
+      },
+      {
+        "t": "to work",
+        "es": "trabajar",
+        "pos": "v",
+        "ex": {
+          "t": "She works in the center",
+          "es": "Ella trabaja en el centro"
+        }
+      },
+      {
+        "t": "to play",
+        "es": "jugar",
+        "pos": "v",
+        "ex": {
+          "t": "Play football in the park",
+          "es": "Juega fútbol en el parque"
+        }
+      },
+      {
+        "t": "to study",
+        "es": "estudiar",
+        "pos": "v",
+        "ex": {
+          "t": "Study twenty minutes every day",
+          "es": "Estudia veinte minutos cada día"
+        }
+      },
+      {
+        "t": "to read",
+        "es": "leer",
+        "pos": "v",
+        "ex": {
+          "t": "Read one page before bed",
+          "es": "Lee una página antes de dormir"
+        }
+      },
+      {
+        "t": "to write",
+        "es": "escribir",
+        "pos": "v",
+        "ex": {
+          "t": "Write the words in a list",
+          "es": "Escribe las palabras en una lista"
+        }
+      },
+      {
+        "t": "to speak",
+        "es": "hablar",
+        "pos": "v",
+        "ex": {
+          "t": "Speak with the waiter in English",
+          "es": "Habla con el camarero en inglés"
+        }
+      },
+      {
+        "t": "to walk",
+        "es": "caminar",
+        "pos": "v",
+        "ex": {
+          "t": "I walk to the office",
+          "es": "Camino hasta la oficina"
+        }
+      },
+      {
+        "t": "to run",
+        "es": "correr",
+        "pos": "v",
+        "ex": {
+          "t": "They run every morning",
+          "es": "Ellos corren cada mañana"
+        }
+      },
+      {
+        "t": "to drive",
+        "es": "conducir",
+        "pos": "v",
+        "ex": {
+          "t": "Do not drive when you are tired",
+          "es": "No conduzcas cuando estás cansado"
+        }
+      },
+      {
+        "t": "to buy",
+        "es": "comprar",
+        "pos": "v",
+        "ex": {
+          "t": "Buy milk on the way home",
+          "es": "Compra leche camino a casa"
+        }
+      },
+      {
+        "t": "to pay",
+        "es": "pagar",
+        "pos": "v",
+        "ex": {
+          "t": "I pay with the card",
+          "es": "Pago con la tarjeta"
+        }
+      },
+      {
+        "t": "to sell",
+        "es": "vender",
+        "pos": "v",
+        "ex": {
+          "t": "They sell bread in that shop",
+          "es": "Venden pan en esa tienda"
+        }
+      },
+      {
+        "t": "to cook",
+        "es": "cocinar",
+        "pos": "v",
+        "ex": {
+          "t": "Cook the rice for ten minutes",
+          "es": "Cocina el arroz diez minutos"
+        }
+      },
+      {
+        "t": "to eat breakfast",
+        "es": "desayunar",
+        "pos": "v",
+        "ex": {
+          "t": "Eat breakfast before the class",
+          "es": "Desayuna antes de la clase"
+        }
+      },
+      {
+        "t": "to clean",
+        "es": "limpiar",
+        "pos": "v",
+        "ex": {
+          "t": "Clean the kitchen after eating",
+          "es": "Limpia la cocina después de comer"
+        }
+      },
+      {
+        "t": "to help",
+        "es": "ayudar",
+        "pos": "v",
+        "ex": {
+          "t": "Help your grandmother with the bags",
+          "es": "Ayuda a tu abuela con las bolsas"
+        }
+      },
+      {
+        "t": "to know",
+        "es": "saber",
+        "pos": "v",
+        "ex": {
+          "t": "I know the answer",
+          "es": "Sé la respuesta"
+        }
+      },
+      {
+        "t": "to understand",
+        "es": "entender",
+        "pos": "v",
+        "ex": {
+          "t": "Do you understand the question?",
+          "es": "¿Entiendes la pregunta?"
+        }
+      },
+      {
+        "t": "to remember",
+        "es": "recordar",
+        "pos": "v",
+        "ex": {
+          "t": "Remember your words for the trip",
+          "es": "Recuerda tus palabras para el viaje"
+        }
+      },
+      {
+        "t": "to forget",
+        "es": "olvidar",
+        "pos": "v",
+        "ex": {
+          "t": "I forget my words when I am nervous",
+          "es": "Olvido mis palabras cuando me pongo nervioso"
+        }
+      },
+      {
+        "t": "to think",
+        "es": "pensar",
+        "pos": "v",
+        "ex": {
+          "t": "Think before you answer",
+          "es": "Piensa antes de responder"
+        }
+      },
+      {
+        "t": "to want",
+        "es": "querer",
+        "pos": "v",
+        "ex": {
+          "t": "I want a coffee now",
+          "es": "Quiero un café ahora"
+        }
+      },
+      {
+        "t": "to need",
+        "es": "necesitar",
+        "pos": "v",
+        "ex": {
+          "t": "I need more time for this",
+          "es": "Necesito más tiempo para esto"
+        }
+      },
+      {
+        "t": "to like",
+        "es": "gustar",
+        "pos": "v",
+        "ex": {
+          "t": "I like cold mornings",
+          "es": "Me gustan las mañanas frías"
+        }
+      },
+      {
+        "t": "to give",
+        "es": "dar",
+        "pos": "v",
+        "ex": {
+          "t": "Give me your opinion",
+          "es": "Dame tu opinión"
+        }
+      },
+      {
+        "t": "to take",
+        "es": "coger",
+        "pos": "v",
+        "ex": {
+          "t": "Take the bus to the center",
+          "es": "Coge el autobús al centro"
+        }
+      },
+      {
+        "t": "to open",
+        "es": "abrir",
+        "pos": "v",
+        "ex": {
+          "t": "Open the window, it is hot",
+          "es": "Abre la ventana, hace calor"
+        }
+      },
+      {
+        "t": "to close",
+        "es": "cerrar",
+        "pos": "v",
+        "ex": {
+          "t": "Close the door quietly",
+          "es": "Cierra la puerta sin ruido"
+        }
+      },
+      {
+        "t": "to start",
+        "es": "empezar",
+        "pos": "v",
+        "ex": {
+          "t": "The movie starts in five minutes",
+          "es": "La película empieza en cinco minutos"
+        }
+      },
+      {
+        "t": "to finish",
+        "es": "terminar",
+        "pos": "v",
+        "ex": {
+          "t": "Finish your exercise book",
+          "es": "Termina tu libro de ejercicios"
+        }
+      },
+      {
+        "t": "to use",
+        "es": "usar",
+        "pos": "v",
+        "ex": {
+          "t": "Use your hands, not the phone",
+          "es": "Usa las manos, no el teléfono"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-adjectives",
+    "title": "Descripciones",
+    "emoji": "🌟",
+    "words": [
+      {
+        "t": "big",
+        "es": "grande",
+        "pos": "adj",
+        "ex": {
+          "t": "The dog is big",
+          "es": "El perro es grande"
+        }
+      },
+      {
+        "t": "small",
+        "es": "pequeño",
+        "pos": "adj",
+        "ex": {
+          "t": "A small present makes me happy",
+          "es": "Un regalo pequeño me hace feliz"
+        }
+      },
+      {
+        "t": "new",
+        "es": "nuevo",
+        "pos": "adj",
+        "ex": {
+          "t": "New shoes for the winter",
+          "es": "Zapatos nuevos para el invierno"
+        }
+      },
+      {
+        "t": "old",
+        "es": "viejo",
+        "pos": "adj",
+        "ex": {
+          "t": "An old bridge over the river",
+          "es": "Un puente viejo sobre el río"
+        }
+      },
+      {
+        "t": "young",
+        "es": "joven",
+        "pos": "adj",
+        "ex": {
+          "t": "The team is young and fast",
+          "es": "El equipo es joven y rápido"
+        }
+      },
+      {
+        "t": "long",
+        "es": "largo",
+        "pos": "adj",
+        "ex": {
+          "t": "The road is long today",
+          "es": "La carretera es larga hoy"
+        }
+      },
+      {
+        "t": "short",
+        "es": "corto",
+        "pos": "adj",
+        "ex": {
+          "t": "A short walk after lunch",
+          "es": "Un paseo corto después de la comida"
+        }
+      },
+      {
+        "t": "tall",
+        "es": "alto",
+        "pos": "adj",
+        "ex": {
+          "t": "My cousin is very tall",
+          "es": "Mi primo es muy alto"
+        }
+      },
+      {
+        "t": "fat",
+        "es": "gordo",
+        "pos": "adj",
+        "ex": {
+          "t": "The cat gets fat in the winter",
+          "es": "El gato se pone gordo en invierno"
+        }
+      },
+      {
+        "t": "thin",
+        "es": "delgado",
+        "pos": "adj",
+        "ex": {
+          "t": "He was thin in 2010",
+          "es": "Estaba delgado en 2010"
+        }
+      },
+      {
+        "t": "beautiful",
+        "es": "bonito",
+        "pos": "adj",
+        "ex": {
+          "t": "A beautiful day for the beach",
+          "es": "Un día bonito para la playa"
+        }
+      },
+      {
+        "t": "ugly",
+        "es": "feo",
+        "pos": "adj",
+        "ex": {
+          "t": "That building is tall but ugly",
+          "es": "Ese edificio es alto pero feo"
+        }
+      },
+      {
+        "t": "good",
+        "es": "bueno",
+        "pos": "adj",
+        "ex": {
+          "t": "The food is really good",
+          "es": "La comida está muy buena"
+        }
+      },
+      {
+        "t": "bad",
+        "es": "malo",
+        "pos": "adj",
+        "ex": {
+          "t": "The tea is not very good",
+          "es": "El té no está muy bueno"
+        }
+      },
+      {
+        "t": "happy",
+        "es": "feliz",
+        "pos": "adj",
+        "ex": {
+          "t": "Happy people laugh a lot",
+          "es": "La gente feliz ríe mucho"
+        }
+      },
+      {
+        "t": "sad",
+        "es": "triste",
+        "pos": "adj",
+        "ex": {
+          "t": "He looks sad today",
+          "es": "Hoy parece triste"
+        }
+      },
+      {
+        "t": "angry",
+        "es": "enojado",
+        "pos": "adj",
+        "ex": {
+          "t": "Do not be angry with me",
+          "es": "No estés enojado conmigo"
+        }
+      },
+      {
+        "t": "easy",
+        "es": "fácil",
+        "pos": "adj",
+        "ex": {
+          "t": "This exercise is easy",
+          "es": "Este ejercicio es fácil"
+        }
+      },
+      {
+        "t": "hard",
+        "es": "difícil",
+        "pos": "adj",
+        "ex": {
+          "t": "The last question is hard",
+          "es": "Íltima pregunta difícil"
+        }
+      },
+      {
+        "t": "cheap",
+        "es": "barato",
+        "pos": "adj",
+        "ex": {
+          "t": "This cafeteria is cheap and good",
+          "es": "Esta cafetería es barata y buena"
+        }
+      },
+      {
+        "t": "expensive",
+        "es": "caro",
+        "pos": "adj",
+        "ex": {
+          "t": "The restaurant is expensive",
+          "es": "El restaurante es caro"
+        }
+      },
+      {
+        "t": "hot",
+        "es": "caliente",
+        "pos": "adj",
+        "ex": {
+          "t": "The soup is very hot",
+          "es": "La sopa está muy caliente"
+        }
+      },
+      {
+        "t": "cold",
+        "es": "frío",
+        "pos": "adj",
+        "ex": {
+          "t": "Cold water in the morning",
+          "es": "Agua fría por la mañana"
+        }
+      },
+      {
+        "t": "warm",
+        "es": "templado",
+        "pos": "adj",
+        "ex": {
+          "t": "Warm bread for breakfast",
+          "es": "Pan templado para desayunar"
+        }
+      },
+      {
+        "t": "clean",
+        "es": "limpio",
+        "pos": "adj",
+        "ex": {
+          "t": "Clean shirts in the cupboard",
+          "es": "Camisas limpias en el armario"
+        }
+      },
+      {
+        "t": "dirty",
+        "es": "sucio",
+        "pos": "adj",
+        "ex": {
+          "t": "Dirty shoes at the door",
+          "es": "Zapatos sucios en la puerta"
+        }
+      },
+      {
+        "t": "strong",
+        "es": "fuerte",
+        "pos": "adj",
+        "ex": {
+          "t": "The coffee is strong today",
+          "es": "El café está fuerte hoy"
+        }
+      },
+      {
+        "t": "weak",
+        "es": "débil",
+        "pos": "adj",
+        "ex": {
+          "t": "The password is too weak",
+          "es": "La contraseña es débil"
+        }
+      },
+      {
+        "t": "full",
+        "es": "lleno",
+        "pos": "adj",
+        "ex": {
+          "t": "The bus is full",
+          "es": "El autobús está lleno"
+        }
+      },
+      {
+        "t": "empty",
+        "es": "vacío",
+        "pos": "adj",
+        "ex": {
+          "t": "The fridge is empty again",
+          "es": "La nevera está vacía otra vez"
+        }
+      },
+      {
+        "t": "kind",
+        "es": "amable",
+        "pos": "adj",
+        "ex": {
+          "t": "The driver is kind with the kids",
+          "es": "El conductor es amable con los niños"
+        }
+      },
+      {
+        "t": "funny",
+        "es": "gracioso",
+        "pos": "adj",
+        "ex": {
+          "t": "She is very funny",
+          "es": "Ella es muy graciosa"
+        }
+      },
+      {
+        "t": "slow",
+        "es": "lento",
+        "pos": "adj",
+        "ex": {
+          "t": "Slow internet on Fridays",
+          "es": "Internet lento los viernes"
+        }
+      },
+      {
+        "t": "fast",
+        "es": "rápido",
+        "pos": "adj",
+        "ex": {
+          "t": "The train is fast",
+          "es": "El tren es rápido"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-time",
+    "title": "Tiempo y calendario",
+    "emoji": "📅",
+    "words": [
+      {
+        "t": "today",
+        "es": "hoy",
+        "pos": "adv",
+        "ex": {
+          "t": "Today is a great day",
+          "es": "Hoy es un buen día"
+        }
+      },
+      {
+        "t": "tomorrow",
+        "es": "mañana",
+        "pos": "adv",
+        "ex": {
+          "t": "Tomorrow we go to the beach",
+          "es": "Mañana vamos a la playa"
+        }
+      },
+      {
+        "t": "yesterday",
+        "es": "ayer",
+        "pos": "adv",
+        "ex": {
+          "t": "Yesterday was my birthday",
+          "es": "Ayer fue mi cumpleaños"
+        }
+      },
+      {
+        "t": "now",
+        "es": "ahora",
+        "pos": "adv",
+        "ex": {
+          "t": "Now is the time to start",
+          "es": "Ahora es el momento de empezar"
+        }
+      },
+      {
+        "t": "later",
+        "es": "más tarde",
+        "pos": "adv",
+        "ex": {
+          "t": "I study later in the night",
+          "es": "Estudio más tarde por la noche"
+        }
+      },
+      {
+        "t": "the day",
+        "es": "el día",
+        "pos": "n",
+        "ex": {
+          "t": "A long day at the office",
+          "es": "Un día largo en la oficina"
+        }
+      },
+      {
+        "t": "the week",
+        "es": "la semana",
+        "pos": "n",
+        "ex": {
+          "t": "The week ends on Sunday",
+          "es": "La semana termina el domingo"
+        }
+      },
+      {
+        "t": "the month",
+        "es": "el mes",
+        "pos": "n",
+        "ex": {
+          "t": "The month has thirty days",
+          "es": "El mes tiene treinta días"
+        }
+      },
+      {
+        "t": "the year",
+        "es": "el año",
+        "pos": "n",
+        "ex": {
+          "t": "The year 2025 ends in December",
+          "es": "El año 2025 termina en diciembre"
+        }
+      },
+      {
+        "t": "the hour",
+        "es": "la hora",
+        "pos": "n",
+        "ex": {
+          "t": "The hour of dinner",
+          "es": "La hora de la cena"
+        }
+      },
+      {
+        "t": "the minute",
+        "es": "el minuto",
+        "pos": "n",
+        "ex": {
+          "t": "Wait a minute, please",
+          "es": "Espera un minuto, por favor"
+        }
+      },
+      {
+        "t": "the morning",
+        "es": "la mañana",
+        "pos": "n",
+        "ex": {
+          "t": "Coffee in the morning",
+          "es": "Café por la mañana"
+        }
+      },
+      {
+        "t": "the evening",
+        "es": "la tarde",
+        "pos": "n",
+        "ex": {
+          "t": "A walk in the evening",
+          "es": "Un paseo por la tarde"
+        }
+      },
+      {
+        "t": "the night",
+        "es": "la noche",
+        "pos": "n",
+        "ex": {
+          "t": "Sleep in the night",
+          "es": "Duerme por la noche"
+        }
+      },
+      {
+        "t": "early",
+        "es": "temprano",
+        "pos": "adv",
+        "ex": {
+          "t": "Early to bed, early to rise",
+          "es": "Temprano a la cama, temprano a levantarse"
+        }
+      },
+      {
+        "t": "late",
+        "es": "tarde",
+        "pos": "adv",
+        "ex": {
+          "t": "Do not be late for the exam",
+          "es": "No llegues tarde al examen"
+        }
+      },
+      {
+        "t": "the weekend",
+        "es": "el fin de semana",
+        "pos": "n",
+        "ex": {
+          "t": "The weekend is for the family",
+          "es": "El fin de semana es para la familia"
+        }
+      },
+      {
+        "t": "Monday",
+        "es": "lunes",
+        "pos": "n",
+        "ex": {
+          "t": "Monday is quiet in the city",
+          "es": "El lunes es tranquilo en la ciudad"
+        }
+      },
+      {
+        "t": "Tuesday",
+        "es": "martes",
+        "pos": "n",
+        "ex": {
+          "t": "Tuesday brings a new lesson",
+          "es": "El martes trae una lección nueva"
+        }
+      },
+      {
+        "t": "Wednesday",
+        "es": "miércoles",
+        "pos": "n",
+        "ex": {
+          "t": "Wednesday is halfway",
+          "es": "El miércoles es punto medio"
+        }
+      },
+      {
+        "t": "Thursday",
+        "es": "jueves",
+        "pos": "n",
+        "ex": {
+          "t": "Thursday feels like Friday",
+          "es": "El jueves se siente como viernes"
+        }
+      },
+      {
+        "t": "Friday",
+        "es": "viernes",
+        "pos": "n",
+        "ex": {
+          "t": "Friday night is for movies",
+          "es": "La noche del viernes es para películas"
+        }
+      },
+      {
+        "t": "Saturday",
+        "es": "sábado",
+        "pos": "n",
+        "ex": {
+          "t": "Saturday morning at the market",
+          "es": "El sábado por la mañana en el mercado"
+        }
+      },
+      {
+        "t": "Sunday",
+        "es": "domingo",
+        "pos": "n",
+        "ex": {
+          "t": "Sunday lunch with the family",
+          "es": "La comida del domingo con la familia"
+        }
+      },
+      {
+        "t": "January",
+        "es": "enero",
+        "pos": "n",
+        "ex": {
+          "t": "January is the first month",
+          "es": "Enero es el primer mes"
+        }
+      },
+      {
+        "t": "July",
+        "es": "julio",
+        "pos": "n",
+        "ex": {
+          "t": "July is the warmest month",
+          "es": "Julio es el mes más cálido"
+        }
+      },
+      {
+        "t": "December",
+        "es": "diciembre",
+        "pos": "n",
+        "ex": {
+          "t": "December brings the holidays",
+          "es": "Diciembre trae las fiestas"
+        }
+      },
+      {
+        "t": "the time",
+        "es": "la hora / el tiempo",
+        "pos": "n",
+        "ex": {
+          "t": "What time is it?",
+          "es": "¿Qué hora es?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "cat-phrases",
+    "title": "Frases útiles",
+    "emoji": "💬",
+    "words": [
+      {
+        "t": "please",
+        "es": "por favor",
+        "pos": "adv",
+        "ex": {
+          "t": "One coffee, please",
+          "es": "Un café, por favor"
+        }
+      },
+      {
+        "t": "thank you",
+        "es": "gracias",
+        "pos": "phr",
+        "ex": {
+          "t": "Thank you for everything",
+          "es": "Gracias por todo"
+        }
+      },
+      {
+        "t": "you are welcome",
+        "es": "de nada",
+        "pos": "phr",
+        "ex": {
+          "t": "You are welcome, my friend",
+          "es": "De nada, amigo"
+        }
+      },
+      {
+        "t": "excuse me",
+        "es": "con permiso / perdona",
+        "pos": "phr",
+        "ex": {
+          "t": "Excuse me, is this seat free?",
+          "es": "Perdona, ¿está libre este sitio?"
+        }
+      },
+      {
+        "t": "I am sorry",
+        "es": "lo siento",
+        "pos": "phr",
+        "ex": {
+          "t": "I am sorry for the delay",
+          "es": "Lo siento por el retraso"
+        }
+      },
+      {
+        "t": "good luck!",
+        "es": "¡buena suerte!",
+        "pos": "phr",
+        "ex": {
+          "t": "Good luck in the exam!",
+          "es": "¡Buena suerte en el examen!"
+        }
+      },
+      {
+        "t": "of course",
+        "es": "por supuesto",
+        "pos": "phr",
+        "ex": {
+          "t": "Of course I come to the party",
+          "es": "Por supuesto que voy a la fiesta"
+        }
+      },
+      {
+        "t": "maybe",
+        "es": "quizás",
+        "pos": "adv",
+        "ex": {
+          "t": "Maybe I go on Friday",
+          "es": "Quizás voy el viernes"
+        }
+      },
+      {
+        "t": "I do not know",
+        "es": "no lo sé",
+        "pos": "phr",
+        "ex": {
+          "t": "I do not know the street",
+          "es": "No sé la calle"
+        }
+      },
+      {
+        "t": "I understand",
+        "es": "entiendo",
+        "pos": "phr",
+        "ex": {
+          "t": "Yes, I understand now",
+          "es": "Sí, ahora entiendo"
+        }
+      },
+      {
+        "t": "again",
+        "es": "otra vez",
+        "pos": "adv",
+        "ex": {
+          "t": "Say it again, please",
+          "es": "Díelo otra vez, por favor"
+        }
+      },
+      {
+        "t": "very",
+        "es": "muy",
+        "pos": "adv",
+        "ex": {
+          "t": "The movie is very good",
+          "es": "La película es muy buena"
+        }
+      },
+      {
+        "t": "a lot",
+        "es": "mucho",
+        "pos": "adv",
+        "ex": {
+          "t": "It rains a lot in April",
+          "es": "Llueve mucho en abril"
+        }
+      },
+      {
+        "t": "every day",
+        "es": "todos los días",
+        "pos": "phr",
+        "ex": {
+          "t": "I read every day",
+          "es": "Leo todos los días"
+        }
+      },
+      {
+        "t": "almost",
+        "es": "casi",
+        "pos": "adv",
+        "ex": {
+          "t": "The train is almost here",
+          "es": "El tren está casi aquí"
+        }
+      },
+      {
+        "t": "together",
+        "es": "juntos",
+        "pos": "adv",
+        "ex": {
+          "t": "We walk together to school",
+          "es": "Caminamos juntos a la escuela"
+        }
+      },
+      {
+        "t": "always",
+        "es": "siempre",
+        "pos": "adv",
+        "ex": {
+          "t": "I always drink coffee at eight",
+          "es": "Siempre bebo café a las ocho"
+        }
+      },
+      {
+        "t": "never",
+        "es": "nunca",
+        "pos": "adv",
+        "ex": {
+          "t": "I never arrive late",
+          "es": "Nunca llego tarde"
+        }
+      },
+      {
+        "t": "quickly",
+        "es": "rápidamente",
+        "pos": "adv",
+        "ex": {
+          "t": "The bus comes quickly",
+          "es": "El autobús llega rápidamente"
+        }
+      },
+      {
+        "t": "almost sure",
+        "es": "casi seguro",
+        "pos": "phr",
+        "ex": {
+          "t": "I am almost sure it works",
+          "es": "Casi seguro que funciona"
+        }
+      }
+    ]
+  }
+]

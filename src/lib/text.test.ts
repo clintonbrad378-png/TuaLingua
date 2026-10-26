@@ -12,6 +12,12 @@ describe("normalize", () => {
   it("mantiene dígitos y símbolos simples", () => {
     expect(normalize("I am 20 years old")).toBe("i am 20 years old");
   });
+
+  it("funciona con texto ruso", () => {
+    expect(normalize("Привет, КАК дела?")).toBe("привет как дела");
+    expect(normalize("Всё плохо?!")).toBe("все плохо");
+    expect(normalize("спасибо!")).toBe("спасибо");
+  });
 });
 
 describe("seedOf", () => {

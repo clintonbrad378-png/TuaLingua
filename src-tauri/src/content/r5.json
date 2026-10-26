@@ -1,0 +1,621 @@
+{
+ "id": "r5",
+ "title": "Actualidad y debate",
+ "emoji": "📰",
+ "color": "#E85D75",
+ "lessons": [
+  {
+   "id": "r5l1",
+   "title": "Noticias y prensa",
+   "goal": "Entiende y comenta noticias de prensa y televisión",
+   "tip": [
+    "«СМИ» (средства массовой информации) son los medios de comunicación; es una sigla muy usada en ruso formal.",
+    "Para citar fuentes: «Говорят, что…» (dicen que…) y «Сообщают, что…» (informan de que…)."
+   ],
+   "phrases": [
+    {
+     "es": "¿Has visto las últimas noticias?",
+     "t": "Ты видел последние новости?"
+    },
+    {
+     "es": "Dicen que el precio de la gasolina va a subir",
+     "t": "Говорят, что цены на бензин вырастут"
+    },
+    {
+     "es": "Según las encuestas, la mayoría está en contra",
+     "t": "Судя по опросам, большинство против"
+    },
+    {
+     "es": "El titular del periódico me sorprendió",
+     "t": "Заголовок в газете меня удивил"
+    },
+    {
+     "es": "El corresponsal informa sobre la cumbre",
+     "t": "Корреспондент сообщает о саммите"
+    },
+    {
+     "es": "Esta noticia se comentó en todos los medios",
+     "t": "Эту новость обсуждали все СМИ"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r5l1e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «las últimas noticias»?",
+     "options": [
+      "последние новости",
+      "старые новости",
+      "новые газеты",
+      "свежие письма"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Las últimas noticias",
+      "t": "Последние новости"
+     },
+     "explain": "«Последние новости» es la expresión fija para «las últimas noticias»."
+    },
+    {
+     "id": "r5l1e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Говорят, что цены на бензин вырастут",
+     "options": [
+      "Dicen que el precio de la gasolina va a subir",
+      "Dicen que el precio de la gasolina bajó",
+      "El precio de la gasolina ya no cambia",
+      "La gente se queja del precio de la gasolina"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Dicen que el precio de la gasolina va a subir",
+      "t": "Говорят, что цены на бензин вырастут"
+     }
+    },
+    {
+     "id": "r5l1e3",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "Los medios de comunicación",
+       "t": "СМИ"
+      },
+      {
+       "es": "La encuesta",
+       "t": "Опрос"
+      },
+      {
+       "es": "El titular",
+       "t": "Заголовок"
+      },
+      {
+       "es": "La mayoría",
+       "t": "Большинство"
+      }
+     ]
+    },
+    {
+     "id": "r5l1e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Пресса ___, что реформа уже вступила в силу.",
+     "options": [
+      "сообщает",
+      "сообщают",
+      "сообщали"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "La prensa informa que la reforma ya entró en vigor",
+      "t": "Пресса сообщает, что реформа уже вступила в силу"
+     },
+     "explain": "«Пресса» es singular en ruso: la prensa informa."
+    },
+    {
+     "id": "r5l1e5",
+     "type": "build",
+     "prompt": "Traduce: «El titular del periódico me sorprendió»",
+     "solution": "Заголовок в газете меня удивил",
+     "distractors": [
+      "журнал",
+      "всегда"
+     ],
+     "pair": {
+      "es": "El titular del periódico me sorprendió",
+      "t": "Заголовок в газете меня удивил"
+     }
+    },
+    {
+     "id": "r5l1e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «el titular»",
+     "solution": "заголовок",
+     "accept": [
+      "заголовок"
+     ],
+     "pair": {
+      "es": "El titular",
+      "t": "Заголовок"
+     }
+    },
+    {
+     "id": "r5l1e7",
+     "type": "choice",
+     "prompt": "¿Qué frase comenta una noticia en todos los medios?",
+     "options": [
+      "Эту новость обсуждали все СМИ",
+      "Эту новость никто не читал",
+      "Эту новость я написал сам",
+      "Эту новость скрыли от нас"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Esta noticia se comentó en todos los medios",
+      "t": "Эту новость обсуждали все СМИ"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r5l2",
+   "title": "Opiniones y matices",
+   "goal": "Da tu opinión con matices: certeza, duda y concesión",
+   "tip": [
+    "«По-моему» y «на мой взгляд» = a mi parecer; «скорее всего» marca probabilidad alta.",
+    "Concesión: «несмотря ни на что» = a pesar de todo; «оставаться при своём мнении» = mantener tu opinión."
+   ],
+   "phrases": [
+    {
+     "es": "A mi parecer, tienen razón",
+     "t": "По-моему, они правы"
+    },
+    {
+     "es": "Es una opinión discutible y no la comparto",
+     "t": "Это спорная точка зрения, и я её не разделяю"
+    },
+    {
+     "es": "Lo más probable es que lo hagan por interés",
+     "t": "Скорее всего, они делают это из интереса"
+    },
+    {
+     "es": "Es muy poco probable que sea verdad",
+     "t": "Вряд ли это правда"
+    },
+    {
+     "es": "A pesar de todo, mantengo mi opinión",
+     "t": "Несмотря ни на что, я остаюсь при своём мнении"
+    },
+    {
+     "es": "Sus argumentos no me convencen",
+     "t": "Их доводы меня не убеждают"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r5l2e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «a mi parecer»?",
+     "options": [
+      "по-моему",
+      "мне страшно",
+      "сам по себе",
+      "мне нравятся"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "A mi parecer",
+      "t": "По-моему"
+     }
+    },
+    {
+     "id": "r5l2e2",
+     "type": "choice",
+     "prompt": "«Вряд ли это правда» significa:",
+     "options": [
+      "Es muy poco probable que sea verdad",
+      "Es completamente seguro",
+      "Es una verdad universal",
+      "Nadie sabe la verdad"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Es muy poco probable que sea verdad",
+      "t": "Вряд ли это правда"
+     }
+    },
+    {
+     "id": "r5l2e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "По-моему, они правы",
+     "options": [
+      "A mi parecer, tienen razón",
+      "A mi parecer, se equivocan",
+      "Él no está de acuerdo",
+      "Muchos comparten ese punto"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "A mi parecer, tienen razón",
+      "t": "По-моему, они правы"
+     }
+    },
+    {
+     "id": "r5l2e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "___ ни на что, я остаюсь при своём мнении.",
+     "options": [
+      "Несмотря",
+      "Хотя",
+      "Спасибо"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "A pesar de todo, mantengo mi opinión",
+      "t": "Несмотря ни на что, я остаюсь при своём мнении"
+     },
+     "explain": "«Несмотря ни на что» = a pesar de todo; fíjate en la forma fija."
+    },
+    {
+     "id": "r5l2e5",
+     "type": "match",
+     "prompt": "Une cada expresión con su traducción",
+     "pairs": [
+      {
+       "es": "A mi parecer",
+       "t": "По-моему"
+      },
+      {
+       "es": "Lo más probable",
+       "t": "Скорее всего"
+      },
+      {
+       "es": "A pesar de todo",
+       "t": "Несмотря ни на что"
+      },
+      {
+       "es": "Sus argumentos",
+       "t": "Их доводы"
+      }
+     ]
+    },
+    {
+     "id": "r5l2e6",
+     "type": "build",
+     "prompt": "Traduce: «Sus argumentos no me convencen»",
+     "solution": "Их доводы меня не убеждают",
+     "distractors": [
+      "нас",
+      "никогда"
+     ],
+     "pair": {
+      "es": "Sus argumentos no me convencen",
+      "t": "Их доводы меня не убеждают"
+     }
+    },
+    {
+     "id": "r5l2e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «lo más probable»",
+     "solution": "скорее всего",
+     "accept": [
+      "скорее всего"
+     ],
+     "pair": {
+      "es": "Lo más probable",
+      "t": "Скорее всего"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r5l3",
+   "title": "Debate y discusión",
+   "goal": "Estructura un discurso: argumentos, contraargumentos y conclusiones",
+   "tip": [
+    "«С одной стороны… с другой стороны» = por un lado… por otro lado.",
+    "«Тем не менее» (sin embargo) y «следовательно» (por tanto) sostienen un debate formal."
+   ],
+   "phrases": [
+    {
+     "es": "Por un lado es caro, por otro es cómodo",
+     "t": "С одной стороны, это дорого, а с другой стороны, это удобно"
+    },
+    {
+     "es": "Hay que decidir hoy, así que hagamos una pausa",
+     "t": "Нам нужно решить сегодня, поэтому давайте сделаем паузу"
+    },
+    {
+     "es": "Sin embargo, en lo esencial discrepamos",
+     "t": "Тем не менее, по главному вопросу мы расходимся"
+    },
+    {
+     "es": "En definitiva, la discusión fue útil",
+     "t": "В итоге дискуссия оказалась полезной"
+    },
+    {
+     "es": "¿Qué argumentos apoyan tu posición?",
+     "t": "Какие доводы поддерживают твою позицию?"
+    },
+    {
+     "es": "Puede ser, pero aún no me convence",
+     "t": "Может быть, но меня это пока не убеждает"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r5l3e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «por tanto»?",
+     "options": [
+      "следовательно",
+      "однако",
+      "потому",
+      "быстро"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Por tanto",
+      "t": "Следовательно"
+     }
+    },
+    {
+     "id": "r5l3e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "С одной стороны, это дорого, а с другой стороны, это удобно",
+     "options": [
+      "Por un lado es caro, por otro es cómodo",
+      "Por un lado es barato, por otro incómodo",
+      "Todos los lados son caros",
+      "Es caro y además incómodo"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Por un lado es caro, por otro es cómodo",
+      "t": "С одной стороны, это дорого, а с другой стороны, это удобно"
+     }
+    },
+    {
+     "id": "r5l3e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Мнения расходятся, ___ цели общие.",
+     "options": [
+      "хотя",
+      "потому что",
+      "что"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Las opiniones divergen, aunque las metas son comunes",
+      "t": "Мнения расходятся, хотя цели общие"
+     },
+     "explain": "«Хотя» = aunque; introduce la concesión."
+    },
+    {
+     "id": "r5l3e4",
+     "type": "match",
+     "prompt": "Une cada conector con su traducción",
+     "pairs": [
+      {
+       "es": "Por lo tanto",
+       "t": "Следовательно"
+      },
+      {
+       "es": "Sin embargo",
+       "t": "Тем не менее"
+      },
+      {
+       "es": "En definitiva",
+       "t": "В итоге"
+      },
+      {
+       "es": "Por una parte",
+       "t": "С одной стороны"
+      }
+     ]
+    },
+    {
+     "id": "r5l3e5",
+     "type": "build",
+     "prompt": "Traduce: «En definitiva, la discusión fue útil»",
+     "solution": "В итоге дискуссия оказалась полезной",
+     "distractors": [
+      "вчера",
+      "бесполезной"
+     ],
+     "pair": {
+      "es": "En definitiva, la discusión fue útil",
+      "t": "В итоге дискуссия оказалась полезной"
+     }
+    },
+    {
+     "id": "r5l3e6",
+     "type": "choice",
+     "prompt": "¿Qué frase introduce un contraargumento suave?",
+     "options": [
+      "Может быть, но меня это пока не убеждает",
+      "Судя по всему, так и есть",
+      "Хорошие аргументы, спасибо",
+      "В итоге всё было ясно"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Puede ser, pero aún no me convence",
+      "t": "Может быть, но меня это пока не убеждает"
+     }
+    },
+    {
+     "id": "r5l3e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «en definitiva»",
+     "solution": "в итоге",
+     "accept": [
+      "в итоге"
+     ],
+     "pair": {
+      "es": "En definitiva",
+      "t": "В итоге"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r5l4",
+   "title": "Economía y trabajo",
+   "goal": "Habla de la economía, los precios y el mercado laboral",
+   "tip": [
+    "«Зарплата» es coloquial y «заработная плата» es formal.",
+    "«Повышение» (subida) rige genitivo: повышение цен."
+   ],
+   "phrases": [
+    {
+     "es": "Los precios suben constantemente",
+     "t": "Цены постоянно растут"
+    },
+    {
+     "es": "El coste de la vida crece más rápido que los sueldos",
+     "t": "Стоимость жизни растёт быстрее, чем зарплаты"
+    },
+    {
+     "es": "¿Cuándo te subieron el sueldo?",
+     "t": "Когда тебе повысили зарплату?"
+    },
+    {
+     "es": "La empresa contrata personal temporal",
+     "t": "Компания нанимает временный персонал"
+    },
+    {
+     "es": "El paro baja lentamente",
+     "t": "Безработица медленно снижается"
+    },
+    {
+     "es": "Los impuestos subirán el año que viene",
+     "t": "Налоги вырастут в следующем году"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r5l4e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «los precios suben»?",
+     "options": [
+      "цены растут",
+      "цены падают",
+      "цены стабильные",
+      "цены меняются"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Los precios suben",
+      "t": "Цены растут"
+     }
+    },
+    {
+     "id": "r5l4e2",
+     "type": "choice",
+     "prompt": "«Безработица» significa:",
+     "options": [
+      "el paro",
+      "el sueldo",
+      "el impuesto",
+      "el coste"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El paro",
+      "t": "Безработица"
+     }
+    },
+    {
+     "id": "r5l4e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Стоимость жизни растёт быстрее, чем зарплаты",
+     "options": [
+      "El coste de la vida crece más rápido que los sueldos",
+      "El coste de la vida baja más rápido que los sueldos",
+      "Los sueldos crecen más rápido que el coste de la vida",
+      "Los precios bajan cada semana"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El coste de la vida crece más rápido que los sueldos",
+      "t": "Стоимость жизни растёт быстрее, чем зарплаты"
+     }
+    },
+    {
+     "id": "r5l4e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Стоимость жизни ___ быстрее, чем зарплаты.",
+     "options": [
+      "растёт",
+      "растут",
+      "падают"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El coste de la vida crece más rápido que los sueldos",
+      "t": "Стоимость жизни растёт быстрее, чем зарплаты"
+     },
+     "explain": "«Стоимость» es singular: Стоимость жизни растёт."
+    },
+    {
+     "id": "r5l4e5",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "El impuesto",
+       "t": "Налог"
+      },
+      {
+       "es": "El sueldo",
+       "t": "Зарплата"
+      },
+      {
+       "es": "El coste de la vida",
+       "t": "Стоимость жизни"
+      },
+      {
+       "es": "Contratar",
+       "t": "Нанимать"
+      }
+     ]
+    },
+    {
+     "id": "r5l4e6",
+     "type": "build",
+     "prompt": "Traduce: «El paro baja lentamente»",
+     "solution": "Безработица медленно снижается",
+     "distractors": [
+      "быстро",
+      "вчера"
+     ],
+     "pair": {
+      "es": "El paro baja lentamente",
+      "t": "Безработица медленно снижается"
+     }
+    },
+    {
+     "id": "r5l4e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «los impuestos»",
+     "solution": "налоги",
+     "accept": [
+      "налоги"
+     ],
+     "pair": {
+      "es": "Los impuestos",
+      "t": "Налоги"
+     }
+    }
+   ]
+  }
+ ]
+}

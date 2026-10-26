@@ -1,0 +1,685 @@
+{
+ "id": "r1",
+ "title": "Основы: saludos y cortesía",
+ "emoji": "👋",
+ "color": "#34D399",
+ "lessons": [
+  {
+   "id": "r1l1",
+   "title": "El alfabeto y los saludos",
+   "goal": "Saluda en ruso y reconoce las primeras letras cirílicas",
+   "tip": [
+    "А, К, М, О, Т, С ya se dejan «leer»: suenan casi como se ven.",
+    "La О sin acento suena casi como «a»: Привет se oye «pri-viét»."
+   ],
+   "phrases": [
+    {
+     "es": "Hola",
+     "t": "Привет"
+    },
+    {
+     "es": "Buenos días",
+     "t": "Доброе утро"
+    },
+    {
+     "es": "Buenas tardes",
+     "t": "Добрый день"
+    },
+    {
+     "es": "Adiós",
+     "t": "До свидания"
+    },
+    {
+     "es": "Hasta mañana",
+     "t": "До завтра"
+    },
+    {
+     "es": "Bien, gracias",
+     "t": "Хорошо, спасибо"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r1l1e1",
+     "type": "choice",
+     "prompt": "«Привет» significa…",
+     "options": [
+      "Hola",
+      "Adiós",
+      "Gracias",
+      "Buenas tardes"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Hola",
+      "t": "Привет"
+     },
+     "explain": "«Привет» es informal; «Здравствуйте» es el hola formal."
+    },
+    {
+     "id": "r1l1e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «buenos días»?",
+     "options": [
+      "Доброе утро",
+      "До свидания",
+      "Один",
+      "Большой"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Buenos días",
+      "t": "Доброе утро"
+     }
+    },
+    {
+     "id": "r1l1e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Привет! Как дела?",
+     "options": [
+      "¡Hola! ¿Qué tal?",
+      "¡Adiós! Hasta mañana",
+      "¡Buenas noches!"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¡Hola! ¿Qué tal?",
+      "t": "Привет! Как дела?"
+     }
+    },
+    {
+     "id": "r1l1e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Я ___.",
+     "options": [
+      "Катя",
+      "Катя!",
+      "спасибо"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Soy Katia.",
+      "t": "Я Катя."
+     },
+     "explain": "En presente el verbo «ser» no se dice: «Я Катя» es literalmente «yo Katia»."
+    },
+    {
+     "id": "r1l1e5",
+     "type": "build",
+     "prompt": "Traduce: «Hasta mañana»",
+     "solution": "До завтра",
+     "distractors": [
+      "сегодня",
+      "спасибо"
+     ],
+     "pair": {
+      "es": "Hasta mañana",
+      "t": "До завтра"
+     }
+    },
+    {
+     "id": "r1l1e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «hola (informal)»",
+     "solution": "Привет",
+     "accept": [
+      "Привет",
+      "привет"
+     ],
+     "pair": {
+      "es": "Hola (informal)",
+      "t": "Привет"
+     }
+    },
+    {
+     "id": "r1l1e7",
+     "type": "choice",
+     "prompt": "«До свидания» es…",
+     "options": [
+      "Adiós",
+      "Hola",
+      "Gracias",
+      "Por favor"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Adiós",
+      "t": "До свидания"
+     }
+    },
+    {
+     "id": "r1l1e8",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "Hola",
+       "t": "Привет"
+      },
+      {
+       "es": "Adiós",
+       "t": "До свидания"
+      },
+      {
+       "es": "Buenos días",
+       "t": "Доброе утро"
+      },
+      {
+       "es": "Gracias",
+       "t": "Спасибо"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r1l2",
+   "title": "¿Cómo te llamas?",
+   "goal": "Preséntate y pregunta el nombre del otro",
+   "tip": [
+    "«Меня зовут…» es literal «a mí llaman…»: el nombre va sin artículo.",
+    "«Вы» es el usted ruso; «ты» es para amigos, niños y jóvenes."
+   ],
+   "phrases": [
+    {
+     "es": "¿Cómo te llamas?",
+     "t": "Как тебя зовут?"
+    },
+    {
+     "es": "Me llamo Ana",
+     "t": "Меня зовут Ана"
+    },
+    {
+     "es": "¿Usted cómo se llama?",
+     "t": "Как вас зовут?"
+    },
+    {
+     "es": "Encantado de conocerte",
+     "t": "Очень приятно"
+    },
+    {
+     "es": "Soy de España",
+     "t": "Я из Испании"
+    },
+    {
+     "es": "¿Hablas español?",
+     "t": "Ты говоришь по-испански?"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r1l2e1",
+     "type": "choice",
+     "prompt": "«Меня зовут Ана» significa…",
+     "options": [
+      "Me llamo Ana",
+      "¿Cómo te llamas?",
+      "Soy de España",
+      "Hasta luego"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Me llamo Ana",
+      "t": "Меня зовут Ана"
+     }
+    },
+    {
+     "id": "r1l2e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Как тебя зовут?",
+     "options": [
+      "¿Cómo te llamas?",
+      "¿Qué tal estás?",
+      "¿Dónde vives?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cómo te llamas?",
+      "t": "Как тебя зовут?"
+     }
+    },
+    {
+     "id": "r1l2e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Я из ___.",
+     "options": [
+      "Испании",
+      "Испания",
+      "по-испански"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Soy de España.",
+      "t": "Я из Испании."
+     },
+     "explain": "Tras «из» (de) el país va en genitivo: из Испании."
+    },
+    {
+     "id": "r1l2e4",
+     "type": "build",
+     "prompt": "Traduce: «Encantado de conocerte»",
+     "solution": "Очень приятно",
+     "distractors": [
+      "спасибо",
+      "пока"
+     ],
+     "pair": {
+      "es": "Encantado de conocerte",
+      "t": "Очень приятно"
+     }
+    },
+    {
+     "id": "r1l2e5",
+     "type": "type",
+     "prompt": "Escribe en ruso: «me llamo…»",
+     "solution": "Меня зовут",
+     "accept": [
+      "Меня зовут",
+      "меня зовут"
+     ],
+     "pair": {
+      "es": "Me llamo…",
+      "t": "Меня зовут"
+     }
+    },
+    {
+     "id": "r1l2e6",
+     "type": "choice",
+     "prompt": "«Очень приятно» corresponde a…",
+     "options": [
+      "Encantado de conocerte",
+      "Buenos días",
+      "Un poco",
+      "Es verdad"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Encantado de conocerte",
+      "t": "Очень приятно"
+     }
+    },
+    {
+     "id": "r1l2e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "¿Cómo te llamas?",
+       "t": "Как тебя зовут?"
+      },
+      {
+       "es": "Me llamo Ana",
+       "t": "Меня зовут Ана"
+      },
+      {
+       "es": "Soy de España",
+       "t": "Я из Испании"
+      },
+      {
+       "es": "¿Hablas español?",
+       "t": "Ты говоришь по-испански?"
+      }
+     ]
+    },
+    {
+     "id": "r1l2e8",
+     "type": "choice",
+     "prompt": "¿Cuál significa «¿Usted cómo se llama?»?",
+     "options": [
+      "Как вас зовут?",
+      "Как тебя зовут?",
+      "Как дела?",
+      "Что это?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Usted cómo se llama?",
+      "t": "Как вас зовут?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r1l3",
+   "title": "¿Qué tal? Как дела?",
+   "goal": "Pregunta cómo está la gente y responde",
+   "tip": [
+    "«Как дела?» es «¿Qué tal?»; la respuesta típica: «Хорошо, спасибо».",
+    "Con el formal se pregunta «Как ваши дела?» (sus cosas)."
+   ],
+   "phrases": [
+    {
+     "es": "¿Cómo estás?",
+     "t": "Как дела?"
+    },
+    {
+     "es": "¿Cómo está usted?",
+     "t": "Как ваши дела?"
+    },
+    {
+     "es": "Bien, ¿y tú?",
+     "t": "Нормально, а ты?"
+    },
+    {
+     "es": "Todo está bien",
+     "t": "Всё хорошо"
+    },
+    {
+     "es": "Mal, cansado",
+     "t": "Плохо, устал"
+    },
+    {
+     "es": "¡Bienvenido!",
+     "t": "Добро пожаловать!"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r1l3e1",
+     "type": "choice",
+     "prompt": "«Как дела?» significa…",
+     "options": [
+      "¿Qué tal?",
+      "¿Quién es?",
+      "¿De dónde eres?",
+      "¡Nos vemos!"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cómo estás?",
+      "t": "Как дела?"
+     }
+    },
+    {
+     "id": "r1l3e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Всё хорошо, спасибо",
+     "options": [
+      "Todo está bien, gracias",
+      "Todo está mal",
+      "Estoy muy cansado"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Todo está bien, gracias",
+      "t": "Всё хорошо, спасибо"
+     }
+    },
+    {
+     "id": "r1l3e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Нормально, ___.",
+     "options": [
+      "а ты",
+      "так ты",
+      "не ты"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Bien, ¿y tú?",
+      "t": "Нормально, а ты?"
+     },
+     "explain": "«а» añade contraste: «bien, y tú (en cambio)»."
+    },
+    {
+     "id": "r1l3e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «¿cómo está usted?»",
+     "solution": "Как ваши дела",
+     "accept": [
+      "Как ваши дела",
+      "как ваши дела"
+     ],
+     "pair": {
+      "es": "¿Cómo está usted?",
+      "t": "Как ваши дела"
+     }
+    },
+    {
+     "id": "r1l3e5",
+     "type": "build",
+     "prompt": "Traduce: «Todo está bien»",
+     "solution": "Всё хорошо",
+     "distractors": [
+      "плохо",
+      "как"
+     ],
+     "pair": {
+      "es": "Todo está bien",
+      "t": "Всё хорошо"
+     }
+    },
+    {
+     "id": "r1l3e6",
+     "type": "choice",
+     "prompt": "«Добро пожаловать!» quiere decir…",
+     "options": [
+      "¡Bienvenido!",
+      "¡Buenas noches!",
+      "¡Cuídate!",
+      "¡Qué bien!"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¡Bienvenido!",
+      "t": "Добро пожаловать!"
+     }
+    },
+    {
+     "id": "r1l3e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "¿Cómo estás?",
+       "t": "Как дела?"
+      },
+      {
+       "es": "Todo está bien",
+       "t": "Всё хорошо"
+      },
+      {
+       "es": "Mal, cansado",
+       "t": "Плохо, устал"
+      },
+      {
+       "es": "Bien, ¿y tú?",
+       "t": "Нормально, а ты?"
+      }
+     ]
+    },
+    {
+     "id": "r1l3e8",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Как ваши дела?",
+     "options": [
+      "¿Cómo está usted?",
+      "¿Cómo te llamas?",
+      "¿Qué hora es?"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¿Cómo está usted?",
+      "t": "Как ваши дела?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r1l4",
+   "title": "Спасибо и извините",
+   "goal": "Da las gracias y pide disculpas sin trabas",
+   "tip": [
+    "«Пожалуйста» sirve para «de nada» y para «por favor».",
+    "«Извините» (usted) frente a «Извини» (tú): la desinencia del verbo manda."
+   ],
+   "phrases": [
+    {
+     "es": "Gracias",
+     "t": "Спасибо"
+    },
+    {
+     "es": "Mil gracias",
+     "t": "Большое спасибо"
+    },
+    {
+     "es": "De nada",
+     "t": "Пожалуйста"
+    },
+    {
+     "es": "Perdón",
+     "t": "Извините"
+    },
+    {
+     "es": "Perdona",
+     "t": "Извини"
+    },
+    {
+     "es": "Con permiso",
+     "t": "Разрешите?"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r1l4e1",
+     "type": "choice",
+     "prompt": "«Большое спасибо» significa…",
+     "options": [
+      "Mil gracias",
+      "De nada",
+      "Perdón",
+      "Por favor"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Mil gracias",
+      "t": "Большое спасибо"
+     }
+    },
+    {
+     "id": "r1l4e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Извините, где остановка?",
+     "options": [
+      "Perdón, ¿dónde está la parada?",
+      "Gracias por tu ayuda",
+      "Hasta la vista"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Perdón, ¿dónde está la parada?",
+      "t": "Извините, где остановка?"
+     }
+    },
+    {
+     "id": "r1l4e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "___ за помощь!",
+     "options": [
+      "Спасибо",
+      "Медленно",
+      "Всегда"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "¡Gracias por tu ayuda!",
+      "t": "Спасибо за помощь!"
+     },
+     "explain": "«за» rige el acusativo: gracias POR la ayuda."
+    },
+    {
+     "id": "r1l4e4",
+     "type": "type",
+     "prompt": "Escribe en ruso: «de nada»",
+     "solution": "Пожалуйста",
+     "accept": [
+      "Пожалуйста",
+      "пожалуйста"
+     ],
+     "pair": {
+      "es": "De nada",
+      "t": "Пожалуйста"
+     }
+    },
+    {
+     "id": "r1l4e5",
+     "type": "build",
+     "prompt": "Traduce: «Perdón, no entiendo»",
+     "solution": "Извините, я не понимаю",
+     "distractors": [
+      "спасибо",
+      "говорить"
+     ],
+     "pair": {
+      "es": "Perdón, no entiendo",
+      "t": "Извините, я не понимаю"
+     }
+    },
+    {
+     "id": "r1l4e6",
+     "type": "choice",
+     "prompt": "¿Cuál es el «perdona» informal?",
+     "options": [
+      "Извини",
+      "Извините",
+      "Пожалуйста",
+      "Разрешите"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Perdona",
+      "t": "Извини"
+     }
+    },
+    {
+     "id": "r1l4e7",
+     "type": "match",
+     "prompt": "Empareja cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "Gracias",
+       "t": "Спасибо"
+      },
+      {
+       "es": "De nada",
+       "t": "Пожалуйста"
+      },
+      {
+       "es": "Perdón",
+       "t": "Извините"
+      },
+      {
+       "es": "Con permiso",
+       "t": "Разрешите?"
+      }
+     ]
+    },
+    {
+     "id": "r1l4e8",
+     "type": "choice",
+     "prompt": "«Разрешите?» se usa para…",
+     "options": [
+      "Pedir permiso y pasar",
+      "Pedir la hora",
+      "Preguntar el nombre",
+      "Preguntar el precio"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Con permiso",
+      "t": "Разрешите?"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "ru-people",
+    "title": "Personas y emociones",
+    "emoji": "👥",
+    "words": [
+      { "t": "человек", "es": "el ser humano", "pos": "n", "ex": { "t": "Каждый человек уникален", "es": "Cada persona es única" } },
+      { "t": "женщина", "es": "la mujer", "pos": "n" },
+      { "t": "мужчина", "es": "el hombre", "pos": "n" },
+      { "t": "ребёнок", "es": "el niño", "pos": "n" },
+      { "t": "друг", "es": "el amigo", "pos": "n" },
+      { "t": "сосед", "es": "el vecino", "pos": "n" },
+      { "t": "чувство", "es": "el sentimiento", "pos": "n", "ex": { "t": "Это чувство знакомо многим", "es": "Este sentimiento le es familiar a muchos" } },
+      { "t": "настроение", "es": "el humor", "pos": "n", "ex": { "t": "Настроение поднялось после прогулки", "es": "El ánimo subió tras el paseo" } },
+      { "t": "довольный", "es": "satisfecho", "pos": "adj" },
+      { "t": "расстроенный", "es": "disgustado", "pos": "adj" },
+      { "t": "уверенный", "es": "seguro (de sí)", "pos": "adj" },
+      { "t": "переживать", "es": "preocuparse", "pos": "v", "ex": { "t": "Не переживай, всё будет хорошо", "es": "No te preocupes, todo irá bien" } }
+    ]
+  },
+  {
+    "id": "ru-city",
+    "title": "Ciudad y servicios",
+    "emoji": "🏙️",
+    "words": [
+      { "t": "район", "es": "el distrito", "pos": "n" },
+      { "t": "улица", "es": "la calle", "pos": "n" },
+      { "t": "аптека", "es": "la farmacia", "pos": "n" },
+      { "t": "поликлиника", "es": "el ambulatorio", "pos": "n" },
+      { "t": "библиотека", "es": "la biblioteca", "pos": "n" },
+      { "t": "отделение", "es": "la sucursal", "pos": "n" },
+      { "t": "услуга", "es": "el servicio", "pos": "n" },
+      { "t": "ремонт", "es": "la reparación", "pos": "n", "ex": { "t": "Ремонт закончат к пятнице", "es": "Terminarán la reparación para el viernes" } },
+      { "t": "тротуар", "es": "la acera", "pos": "n" },
+      { "t": "перекрёсток", "es": "el cruce", "pos": "n", "ex": { "t": "На перекрёстке поставили новый светофор", "es": "En el cruce pusieron un semáforo nuevo" } },
+      { "t": "светофор", "es": "el semáforo", "pos": "n" },
+      { "t": "сдавать", "es": "alquilar (a otros)", "pos": "v", "ex": { "t": "Он сдаёт квартиру студентам", "es": "Él alquila el piso a estudiantes" } }
+    ]
+  },
+  {
+    "id": "ru-food",
+    "title": "Comida y bebida",
+    "emoji": "🍜",
+    "words": [
+      { "t": "блюдо", "es": "el plato", "pos": "n", "ex": { "t": "Это блюдо мне очень нравится", "es": "Este plato me gusta mucho" } },
+      { "t": "закуска", "es": "el aperitivo", "pos": "n" },
+      { "t": "суп", "es": "la sopa", "pos": "n" },
+      { "t": "каша", "es": "las gachas", "pos": "n" },
+      { "t": "полдник", "es": "la merienda", "pos": "n" },
+      { "t": "напиток", "es": "la bebida", "pos": "n" },
+      { "t": "вкусный", "es": "sabroso", "pos": "adj" },
+      { "t": "сытный", "es": "sustancioso", "pos": "adj" },
+      { "t": "пробовать", "es": "probar", "pos": "v", "ex": { "t": "Пробовали ли вы настоящие пельмени?", "es": "¿Han probado los pelmeni auténticos?" } },
+      { "t": "пельмени", "es": "los pelmeni", "pos": "n", "ex": { "t": "Пельмени едят со сметаной", "es": "Los pelmeni se comen con crema agria" } },
+      { "t": "сметана", "es": "la crema agria", "pos": "n" },
+      { "t": "гречка", "es": "el trigo sarraceno", "pos": "n" }
+    ]
+  },
+  {
+    "id": "ru-health",
+    "title": "Cuerpo y salud",
+    "emoji": "🩺",
+    "words": [
+      { "t": "здоровье", "es": "la salud", "pos": "n", "ex": { "t": "Здоровье важнее всех денег", "es": "La salud importa más que el dinero" } },
+      { "t": "симптом", "es": "el síntoma", "pos": "n" },
+      { "t": "температура", "es": "la fiebre", "pos": "n" },
+      { "t": "врач", "es": "el médico", "pos": "n" },
+      { "t": "таблетка", "es": "la pastilla", "pos": "n" },
+      { "t": "лечение", "es": "el tratamiento", "pos": "n", "ex": { "t": "Лечение заняло целый месяц", "es": "El tratamiento llevó todo un mes" } },
+      { "t": "аллергия", "es": "la alergia", "pos": "n" },
+      { "t": "больной", "es": "enfermo", "pos": "adj" },
+      { "t": "осмотр", "es": "el chequeo", "pos": "n" },
+      { "t": "прививка", "es": "la vacuna", "pos": "n" },
+      { "t": "выздороветь", "es": "curarse", "pos": "v", "ex": { "t": "Он выздоровел за две недели", "es": "Se curó en dos semanas" } },
+      { "t": "болеть", "es": "doler / estar enfermo", "pos": "v", "ex": { "t": "У меня болит спина", "es": "Me duele la espalda" } }
+    ]
+  },
+  {
+    "id": "ru-home",
+    "title": "Casa y vida diaria",
+    "emoji": "🏠",
+    "words": [
+      { "t": "квартира", "es": "el piso", "pos": "n" },
+      { "t": "мебель", "es": "los muebles", "pos": "n" },
+      { "t": "посуда", "es": "la vajilla", "pos": "n" },
+      { "t": "аренда", "es": "el alquiler", "pos": "n", "ex": { "t": "Аренда дорожает каждый год", "es": "El alquiler sube cada año" } },
+      { "t": "убирать", "es": "limpiar (la casa)", "pos": "v", "ex": { "t": "Я убираю квартиру по субботам", "es": "Limpio el piso los sábados" } },
+      { "t": "порядок", "es": "el orden", "pos": "n" },
+      { "t": "стирка", "es": "la colada", "pos": "n" },
+      { "t": "пылесос", "es": "la aspiradora", "pos": "n" },
+      { "t": "готовить", "es": "cocinar", "pos": "v" },
+      { "t": "будильник", "es": "el despertador", "pos": "n" },
+      { "t": "бытовая техника", "es": "los electrodomésticos", "pos": "phr" },
+      { "t": "подмести", "es": "barrer", "pos": "v" }
+    ]
+  },
+  {
+    "id": "ru-work",
+    "title": "Trabajo y negocio",
+    "emoji": "💼",
+    "words": [
+      { "t": "работодатель", "es": "el empleador", "pos": "n" },
+      { "t": "сотрудник", "es": "el empleado", "pos": "n" },
+      { "t": "зарплата", "es": "el sueldo", "pos": "n" },
+      { "t": "стаж", "es": "la experiencia (laboral)", "pos": "n", "ex": { "t": "У него большой стаж в IT", "es": "Tiene mucha experiencia en IT" } },
+      { "t": "собеседование", "es": "la entrevista de trabajo", "pos": "n", "ex": { "t": "Собеседование пройдёт в офисе", "es": "La entrevista será en la oficina" } },
+      { "t": "командировка", "es": "el viaje de trabajo", "pos": "n" },
+      { "t": "повышение", "es": "el ascenso", "pos": "n", "ex": { "t": "Ему обещают повышение в феврале", "es": "Le prometen un ascenso en febrero" } },
+      { "t": "премия", "es": "la prima", "pos": "n" },
+      { "t": "занятый", "es": "ocupado", "pos": "adj" },
+      { "t": "уволить", "es": "despedir (a alguien)", "pos": "v" },
+      { "t": "уволиться", "es": "renunciar", "pos": "v" },
+      { "t": "оформить", "es": "tramitar", "pos": "v", "ex": { "t": "Оформление заняло два дня", "es": "El trámite llevó dos días" } }
+    ]
+  },
+  {
+    "id": "ru-study",
+    "title": "Educación y examen",
+    "emoji": "🎓",
+    "words": [
+      { "t": "экзамен", "es": "el examen", "pos": "n" },
+      { "t": "сертификат", "es": "el certificado", "pos": "n" },
+      { "t": "уровень", "es": "el nivel", "pos": "n", "ex": { "t": "Мой уровень уже выше среднего", "es": "Mi nivel ya es más que intermedio" } },
+      { "t": "задание", "es": "la consigna", "pos": "n" },
+      { "t": "ошибка", "es": "el error", "pos": "n" },
+      { "t": "успешный", "es": "exitoso", "pos": "adj" },
+      { "t": "словарь", "es": "el diccionario", "pos": "n" },
+      { "t": "аудирование", "es": "la comprensión oral", "pos": "n" },
+      { "t": "правописание", "es": "la ortografía", "pos": "n" },
+      { "t": "сложный", "es": "complicado", "pos": "adj" },
+      { "t": "подготовиться", "es": "prepararse", "pos": "v", "ex": { "t": "Я готовлюсь к тесту каждый вечер", "es": "Me preparo para el examen cada noche" } },
+      { "t": "записаться", "es": "inscribirse", "pos": "v", "ex": { "t": "Запишись на курс заранее", "es": "Inscríbete al curso por adelantado" } }
+    ]
+  },
+  {
+    "id": "ru-travel",
+    "title": "Transporte y viajes",
+    "emoji": "✈️",
+    "words": [
+      { "t": "вокзал", "es": "la estación de tren", "pos": "n" },
+      { "t": "билет", "es": "el billete", "pos": "n" },
+      { "t": "перрон", "es": "el andén", "pos": "n" },
+      { "t": "полёт", "es": "el vuelo", "pos": "n" },
+      { "t": "багаж", "es": "el equipaje", "pos": "n" },
+      { "t": "стойка регистрации", "es": "el mostrador de facturación", "pos": "phr" },
+      { "t": "прямой", "es": "directo", "pos": "adj", "ex": { "t": "Мы летим прямым рейсом", "es": "Volamos en vuelo directo" } },
+      { "t": "пункт назначения", "es": "el destino", "pos": "phr" },
+      { "t": "таможня", "es": "la aduana", "pos": "n" },
+      { "t": "посадка", "es": "el embarque", "pos": "n" },
+      { "t": "забронировать", "es": "reservar", "pos": "v", "ex": { "t": "Я забронировал отель заранее", "es": "Reservé el hotel por adelantado" } },
+      { "t": "опоздать", "es": "llegar tarde", "pos": "v", "ex": { "t": "Самолёт не ждёт опаздывающих", "es": "El avión no espera a los retrasados" } }
+    ]
+  },
+  {
+    "id": "ru-nature",
+    "title": "Naturaleza y clima",
+    "emoji": "🌨️",
+    "words": [
+      { "t": "погода", "es": "el tiempo", "pos": "n" },
+      { "t": "облачный", "es": "nublado", "pos": "adj" },
+      { "t": "мороз", "es": "la helada", "pos": "n" },
+      { "t": "гроза", "es": "la tormenta", "pos": "n" },
+      { "t": "снегопад", "es": "la nevada", "pos": "n" },
+      { "t": "потепление", "es": "el calentamiento", "pos": "n", "ex": { "t": "Потепление планеты тревожит учёных", "es": "El calentamiento del planeta preocupa a los científicos" } },
+      { "t": "лес", "es": "el bosque", "pos": "n" },
+      { "t": "река", "es": "el río", "pos": "n" },
+      { "t": "влажный", "es": "húmedo", "pos": "adj" },
+      { "t": "природа", "es": "la naturaleza", "pos": "n" },
+      { "t": "таять", "es": "derretirse", "pos": "v", "ex": { "t": "Снег тает уже в марте", "es": "La nieve ya se derrite en marzo" } },
+      { "t": "вырубать", "es": "talar", "pos": "v", "ex": { "t": "Нельзя вырубать старые леса", "es": "No se pueden talar los bosques viejos" } }
+    ]
+  },
+  {
+    "id": "ru-tech",
+    "title": "Tecnología y redes",
+    "emoji": "📱",
+    "words": [
+      { "t": "устройство", "es": "el dispositivo", "pos": "n" },
+      { "t": "приложение", "es": "la aplicación", "pos": "n" },
+      { "t": "алгоритм", "es": "el algoritmo", "pos": "n" },
+      { "t": "пароль", "es": "la contraseña", "pos": "n" },
+      { "t": "аккаунт", "es": "la cuenta", "pos": "n" },
+      { "t": "сообщение", "es": "el mensaje", "pos": "n" },
+      { "t": "уведомление", "es": "la notificación", "pos": "n" },
+      { "t": "надёжный", "es": "fiable", "pos": "adj" },
+      { "t": "сеть", "es": "la red", "pos": "n" },
+      { "t": "облачное хранилище", "es": "el almacenamiento en la nube", "pos": "phr" },
+      { "t": "обновить", "es": "actualizar", "pos": "v", "ex": { "t": "Приложение нужно обновить", "es": "Hay que actualizar la aplicación" } },
+      { "t": "скачать", "es": "descargar", "pos": "v", "ex": { "t": "Я скачал карту города", "es": "Descargué el mapa de la ciudad" } }
+    ]
+  },
+  {
+    "id": "ru-money",
+    "title": "Dinero e impuestos",
+    "emoji": "💰",
+    "words": [
+      { "t": "налог", "es": "el impuesto", "pos": "n" },
+      { "t": "счёт", "es": "la factura", "pos": "n" },
+      { "t": "сдача", "es": "el cambio (devuelto)", "pos": "n" },
+      { "t": "вклад", "es": "el depósito", "pos": "n" },
+      { "t": "абонемент", "es": "el abono", "pos": "n", "ex": { "t": "Абонемент в спортзал стоит дорого", "es": "El abono del gimnasio es caro" } },
+      { "t": "скидка", "es": "el descuento", "pos": "n" },
+      { "t": "проценты", "es": "los intereses", "pos": "n" },
+      { "t": "кредит", "es": "el préstamo", "pos": "n" },
+      { "t": "дорогой", "es": "caro", "pos": "adj" },
+      { "t": "дешёвый", "es": "barato", "pos": "adj" },
+      { "t": "экономить", "es": "ahorrar", "pos": "v", "ex": { "t": "Я экономлю на кофе", "es": "Ahorro en el café" } },
+      { "t": "заплатить", "es": "pagar", "pos": "v", "ex": { "t": "Счёт уже заплачен", "es": "La factura ya está pagada" } }
+    ]
+  },
+  {
+    "id": "ru-phrases",
+    "title": "Expresiones útiles",
+    "emoji": "💬",
+    "words": [
+      { "t": "иметь в виду", "es": "tener en mente", "pos": "phr", "ex": { "t": "Что вы имеете в виду?", "es": "¿Qué quiere usted decir?" } },
+      { "t": "судя по всему", "es": "todo apunta a que", "pos": "phr" },
+      { "t": "не за горами", "es": "a la vuelta de la esquina", "pos": "phr" },
+      { "t": "взять себя в руки", "es": "controlarse", "pos": "phr" },
+      { "t": "как две капли воды", "es": "idéntico, como dos gotas de agua", "pos": "phr" },
+      { "t": "из рук вон плохо", "es": "pésimamente", "pos": "phr" },
+      { "t": "оставаться при своём мнении", "es": "mantener su opinión", "pos": "phr" },
+      { "t": "с одной стороны… с другой стороны", "es": "por un lado… por otro lado", "pos": "phr" },
+      { "t": "тем не менее", "es": "sin embargo", "pos": "phr" },
+      { "t": "кроме того", "es": "además", "pos": "phr" },
+      { "t": "скорее всего", "es": "lo más probable", "pos": "phr" },
+      { "t": "и в мыслях не было", "es": "no lo tenía ni en mente", "pos": "phr" }
+    ]
+  }
+]

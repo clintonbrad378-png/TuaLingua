@@ -1,0 +1,622 @@
+{
+ "id": "r8",
+ "title": "Rumbo al ТРКИ-2",
+ "emoji": "🎓",
+ "color": "#31C48D",
+ "lessons": [
+  {
+   "id": "r8l1",
+   "title": "Conectores del discurso",
+   "goal": "Enlaza ideas largas con conectores de nivel examen",
+   "tip": [
+    "«Впрочем» = sin embargo (con matiz de duda); «кроме того» = además; «таким образом» = así pues.",
+    "Los conectores van separados por comas y suelen abrir la frase."
+   ],
+   "phrases": [
+    {
+     "es": "Además, hay que tener en cuenta los riesgos",
+     "t": "Кроме того, надо учитывать риски"
+    },
+    {
+     "es": "Sin embargo, no es tan simple",
+     "t": "Впрочем, дело не так просто"
+    },
+    {
+     "es": "Así pues, la conclusión es evidente",
+     "t": "Таким образом, вывод очевиден"
+    },
+    {
+     "es": "Mientras tanto, la situación pedía cambios",
+     "t": "Тем временем ситуация требовала перемен"
+    },
+    {
+     "es": "Dicho de forma simple, salió mal",
+     "t": "Проще говоря, всё пошло не так"
+    },
+    {
+     "es": "Al final decidimos esperar",
+     "t": "В конце концов мы решили подождать"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r8l1e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «además»?",
+     "options": [
+      "Кроме того",
+      "Между тем",
+      "Напротив"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Además",
+      "t": "Кроме того"
+     }
+    },
+    {
+     "id": "r8l1e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Таким образом, вывод очевиден",
+     "options": [
+      "Así pues, la conclusión es evidente",
+      "La conclusión es confusa",
+      "No hay conclusión",
+      "La conclusión llega mañana"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Así pues, la conclusión es evidente",
+      "t": "Таким образом, вывод очевиден"
+     }
+    },
+    {
+     "id": "r8l1e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "___ вывод очевиден.",
+     "options": [
+      "Таким образом,",
+      "Впрочем,",
+      "Кроме того,"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Así pues, la conclusión es evidente",
+      "t": "Таким образом, вывод очевиден"
+     }
+    },
+    {
+     "id": "r8l1e4",
+     "type": "match",
+     "prompt": "Une cada conector con su traducción",
+     "pairs": [
+      {
+       "es": "Además",
+       "t": "Кроме того"
+      },
+      {
+       "es": "Sin embargo",
+       "t": "Впрочем"
+      },
+      {
+       "es": "Así pues",
+       "t": "Таким образом"
+      },
+      {
+       "es": "Dicho de forma simple",
+       "t": "Проще говоря"
+      }
+     ]
+    },
+    {
+     "id": "r8l1e5",
+     "type": "build",
+     "prompt": "Traduce: «Mientras tanto, la situación pedía cambios»",
+     "solution": "Тем временем ситуация требовала перемен",
+     "distractors": [
+      "направо",
+      "никак"
+     ],
+     "pair": {
+      "es": "Mientras tanto, la situación pedía cambios",
+      "t": "Тем временем ситуация требовала перемен"
+     },
+     "explain": "«Требовать» rige genitivo: требовала перемен."
+    },
+    {
+     "id": "r8l1e6",
+     "type": "choice",
+     "prompt": "«Впрочем, дело не так просто» significa:",
+     "options": [
+      "Sin embargo, no es tan simple",
+      "Seguramente, es sencillo",
+      "El asunto ya está resuelto",
+      "El asunto es completamente claro"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Sin embargo, no es tan simple",
+      "t": "Впрочем, дело не так просто"
+     }
+    },
+    {
+     "id": "r8l1e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «así pues»",
+     "solution": "таким образом",
+     "accept": [
+      "таким образом"
+     ],
+     "pair": {
+      "es": "Así pues",
+      "t": "Таким образом"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r8l2",
+   "title": "Verbos de movimiento y prefijos",
+   "goal": "Domina los verbos de movimiento con prefijos",
+   "tip": [
+    "Prefijos sobre идти/ехать: при- (llegar), у- (irse), за- (pasar por un rato).",
+    "Unidireccional (идти/ехать) para un trayecto; multidireccional (ходить/ездить) para ida y vuelta o hábito."
+   ],
+   "phrases": [
+    {
+     "es": "¿A qué hora llegas?",
+     "t": "Во сколько ты приедешь?"
+    },
+    {
+     "es": "Me voy a casa el lunes",
+     "t": "Уезжаю домой в понедельник"
+    },
+    {
+     "es": "Los invitados llegaron a tiempo",
+     "t": "Гости пришли вовремя"
+    },
+    {
+     "es": "Entre y siéntese, por favor",
+     "t": "Проходите и садитесь, пожалуйста"
+    },
+    {
+     "es": "¿Puedes llevarme al aeropuerto a las ocho?",
+     "t": "Можешь отвезти меня в аэропорт в восемь?"
+    },
+    {
+     "es": "Subió al tercer piso a pie",
+     "t": "Он поднялся на третий этаж пешком"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r8l2e1",
+     "type": "choice",
+     "prompt": "El prefijo «при-» en «прийти» significa:",
+     "options": [
+      "llegar",
+      "partir",
+      "pasar por un rato",
+      "rodear"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Llegar (andando)",
+      "t": "Прийти"
+     }
+    },
+    {
+     "id": "r8l2e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Гости пришли вовремя",
+     "options": [
+      "Los invitados llegaron a tiempo",
+      "Los invitados llegaron tarde",
+      "Los invitados ya se fueron",
+      "Los invitados cancelaron la visita"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Los invitados llegaron a tiempo",
+      "t": "Гости пришли вовремя"
+     }
+    },
+    {
+     "id": "r8l2e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Он поднялся на ___ этаж пешком.",
+     "options": [
+      "третий",
+      "третьего",
+      "третье"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Subió al tercer piso a pie",
+      "t": "Он поднялся на третий этаж пешком"
+     },
+     "explain": "«На + acusativo»: поднялся на третий этаж."
+    },
+    {
+     "id": "r8l2e4",
+     "type": "match",
+     "prompt": "Une cada verbo con su traducción",
+     "pairs": [
+      {
+       "es": "Irse (en coche)",
+       "t": "Уехать"
+      },
+      {
+       "es": "Entrar (andando)",
+       "t": "Войти"
+      },
+      {
+       "es": "Llevar a alguien (en coche)",
+       "t": "Отвезти"
+      },
+      {
+       "es": "Subir",
+       "t": "Подняться"
+      }
+     ]
+    },
+    {
+     "id": "r8l2e5",
+     "type": "build",
+     "prompt": "Traduce: «Me voy a casa el lunes»",
+     "solution": "Уезжаю домой в понедельник",
+     "distractors": [
+      "уже",
+      "никогда"
+     ],
+     "pair": {
+      "es": "Me voy a casa el lunes",
+      "t": "Уезжаю домой в понедельник"
+     }
+    },
+    {
+     "id": "r8l2e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «llegué a casa»",
+     "solution": "я пришёл домой",
+     "accept": [
+      "я пришёл домой",
+      "я пришла домой",
+      "пришёл домой",
+      "пришла домой"
+     ],
+     "pair": {
+      "es": "Llegué a casa",
+      "t": "Я пришёл домой"
+     }
+    },
+    {
+     "id": "r8l2e7",
+     "type": "choice",
+     "prompt": "«Проходите и садитесь, пожалуйста» significa:",
+     "options": [
+      "Entre y siéntese, por favor",
+      "Salga y camine, por favor",
+      "Espere de pie, por favor"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Entre y siéntese, por favor",
+      "t": "Проходите и садитесь, пожалуйста"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r8l3",
+   "title": "Participios y voz pasiva",
+   "goal": "Reconoce participios pasivos y estructuras impersonales",
+   "tip": [
+    "Participio pasivo: «написанный» = escrito; «построенный» = construido.",
+    "Otra vía de pasiva: «Дом был построен в 1910 году» (la casa fue construida)."
+   ],
+   "phrases": [
+    {
+     "es": "El informe, revisado dos veces, quedó impecable",
+     "t": "Отчёт, проверенный дважды, оказался безупречным"
+    },
+    {
+     "es": "La casa fue construida en 1910",
+     "t": "Дом был построен в 1910 году"
+    },
+    {
+     "es": "Estas conclusiones quedan confirmadas por los datos",
+     "t": "Эти выводы подтверждаются данными"
+    },
+    {
+     "es": "Este trabajo está reconocido a nivel internacional",
+     "t": "Эта работа признана на международном уровне"
+    },
+    {
+     "es": "Habiendo terminado el trabajo, salieron a pasear",
+     "t": "Закончив работу, они пошли гулять"
+    },
+    {
+     "es": "Se cree que la cifra subirá",
+     "t": "Считается, что цифра вырастет"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r8l3e1",
+     "type": "choice",
+     "prompt": "El participio «проверенный» significa:",
+     "options": [
+      "revisado",
+      "moderno",
+      "vengativo",
+      "verde"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Revisado",
+      "t": "Проверенный"
+     }
+    },
+    {
+     "id": "r8l3e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Дом был построен в 1910 году",
+     "options": [
+      "La casa fue construida en 1910",
+      "Vendieron la casa en 1910",
+      "La casa es de 1971",
+      "La casa se construye ahora"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "La casa fue construida en 1910",
+      "t": "Дом был построен в 1910 году"
+     }
+    },
+    {
+     "id": "r8l3e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Отчёт, ___ дважды, оказался безупречным.",
+     "options": [
+      "проверенный",
+      "проверяем",
+      "проверил"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El informe, revisado dos veces, quedó impecable",
+      "t": "Отчёт, проверенный дважды, оказался безупречным"
+     },
+     "explain": "Participio pasivo en el inciso: Отчёт, проверенный дважды."
+    },
+    {
+     "id": "r8l3e4",
+     "type": "match",
+     "prompt": "Une cada participio con su traducción",
+     "pairs": [
+      {
+       "es": "Escrito",
+       "t": "Написанный"
+      },
+      {
+       "es": "Revisado",
+       "t": "Проверенный"
+      },
+      {
+       "es": "Construido",
+       "t": "Построенный"
+      },
+      {
+       "es": "Reconocido",
+       "t": "Признанный"
+      }
+     ]
+    },
+    {
+     "id": "r8l3e5",
+     "type": "build",
+     "prompt": "Traduce: «Estas conclusiones quedan confirmadas por los datos»",
+     "solution": "Эти выводы подтверждаются данными",
+     "distractors": [
+      "лично",
+      "никогда"
+     ],
+     "pair": {
+      "es": "Estas conclusiones quedan confirmadas por los datos",
+      "t": "Эти выводы подтверждаются данными"
+     }
+    },
+    {
+     "id": "r8l3e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «se cree»",
+     "solution": "считается",
+     "accept": [
+      "считается"
+     ],
+     "pair": {
+      "es": "Se cree",
+      "t": "Считается"
+     }
+    },
+    {
+     "id": "r8l3e7",
+     "type": "choice",
+     "prompt": "«Закончив работу, они пошли гулять» significa:",
+     "options": [
+      "Habiendo terminado el trabajo, salieron a pasear",
+      "Terminaron el trabajo y volvieron a la oficina",
+      "Dejaron el trabajo sin terminar",
+      "Trabajaron mientras paseaban"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Habiendo terminado el trabajo, salieron a pasear",
+      "t": "Закончив работу, они пошли гулять"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r8l4",
+   "title": "Expresiones y modismos",
+   "goal": "Usa modismos rusos en conversación y redacción de nivel B2",
+   "tip": [
+    "«Не за горами» = a la vuelta de la esquina (se dice de plazos y fechas).",
+    "«Взять себя в руки» = controlarse; «из рук вон плохо» = pésimamente."
+   ],
+   "phrases": [
+    {
+     "es": "Las vacaciones están a la vuelta de la esquina",
+     "t": "Отпуск не за горами"
+    },
+    {
+     "es": "Tienes que controlarte",
+     "t": "Тебе нужно взять себя в руки"
+    },
+    {
+     "es": "El trabajo está hecho pésimamente",
+     "t": "Работа сделана из рук вон плохо"
+    },
+    {
+     "es": "¿Qué quiere usted decir?",
+     "t": "Что вы имеете в виду?"
+    },
+    {
+     "es": "Son idénticos, como dos gotas de agua",
+     "t": "Они как две капли воды"
+    },
+    {
+     "es": "No lo tenía ni en mente",
+     "t": "У меня этого и в мыслях не было"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r8l4e1",
+     "type": "choice",
+     "prompt": "«Не за горами» significa:",
+     "options": [
+      "está cerca",
+      "está muy lejos",
+      "no existe",
+      "está detrás"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Está cerca",
+      "t": "Не за горами"
+     }
+    },
+    {
+     "id": "r8l4e2",
+     "type": "choice",
+     "prompt": "«Они как две капли воды» significa:",
+     "options": [
+      "Son idénticos, como dos gotas de agua",
+      "Son como el agua y el aceite",
+      "Beben mucha agua",
+      "Se pelean por el agua"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Son idénticos, como dos gotas de agua",
+      "t": "Они как две капли воды"
+     }
+    },
+    {
+     "id": "r8l4e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Тебе нужно взять себя в руки",
+     "options": [
+      "Tienes que controlarte",
+      "Tienes que descansar",
+      "No necesitas ayuda",
+      "Tienes mucho tiempo"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Tienes que controlarte",
+      "t": "Тебе нужно взять себя в руки"
+     }
+    },
+    {
+     "id": "r8l4e4",
+     "type": "match",
+     "prompt": "Une cada modismo con su traducción",
+     "pairs": [
+      {
+       "es": "A la vuelta de la esquina",
+       "t": "Не за горами"
+      },
+      {
+       "es": "¿Qué quiere usted decir?",
+       "t": "Что вы имеете в виду?"
+      },
+      {
+       "es": "No lo tenía ni en mente",
+       "t": "У меня этого и в мыслях не было"
+      },
+      {
+       "es": "Idénticos",
+       "t": "Как две капли воды"
+      }
+     ]
+    },
+    {
+     "id": "r8l4e5",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Хватит паниковать, надо ___ себя в руки.",
+     "options": [
+      "взять",
+      "брать",
+      "взял"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Basta de pánico, hay que controlarse",
+      "t": "Хватит паниковать, надо взять себя в руки"
+     },
+     "explain": "Aspecto perfectivo tras «надо»: взять (no брать)."
+    },
+    {
+     "id": "r8l4e6",
+     "type": "build",
+     "prompt": "Traduce: «No lo tenía ni en mente»",
+     "solution": "У меня этого и в мыслях не было",
+     "distractors": [
+      "всегда",
+      "да"
+     ],
+     "pair": {
+      "es": "No lo tenía ni en mente",
+      "t": "У меня этого и в мыслях не было"
+     }
+    },
+    {
+     "id": "r8l4e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «¿qué quiere usted decir?»",
+     "solution": "что вы имеете в виду",
+     "accept": [
+      "что вы имеете в виду",
+      "что имеете в виду"
+     ],
+     "pair": {
+      "es": "¿Qué quiere usted decir?",
+      "t": "Что вы имеете в виду?"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, RoundResult } from "../types";
 import { sfx, preloadClip, speak, vibrate } from "../lib/audio";
 import { normalize, seedOf, shuffled, tokenize } from "../lib/text";
+import { langTitle } from "../lib/langs";
 import Mascot from "../components/Mascot";
 
 type Info = { answerText?: string; explain?: string; rounds?: RoundResult[]; praise?: string };
@@ -40,19 +41,21 @@ function useDigitKeys(count: number, enabled: boolean, onDigit: (displayIdx: num
 
 export default function Player({
   mode,
+  lang,
   exercises,
   onExit,
   onFinish,
 }: {
-  mode: "lesson" | "review";
+  mode: "lesson" | "review" | "flash";
+  lang: string;
   exercises: Exercise[];
   onExit: () => void;
-  onFinish: (
+  onFinish(
     correct: number,
     total: number,
     comboMax: number,
     rounds: RoundResult[],
-  ) => void;
+  ): void;
 }) {
   const [idx, setIdx] = useState(0);
   const [phase, setPhase] = useState<"answer" | "ok" | "ko">("answer");
@@ -67,7 +70,7 @@ export default function Player({
 
   function speakFor(example: Exercise) {
     if (example.type === "listen") speak(example.audio);
-    else if (example.pair) speak(example.pair.en);
+    else if (example.pair) speak(example.pair.t);
   }
 
   function canReplay(example: Exercise) {
@@ -107,7 +110,7 @@ export default function Player({
       speakFor(ex);
     }
     const rounds =
-      extra?.rounds ?? (ex.pair ? [{ es: ex.pair.es, en: ex.pair.en, correct }] : []);
+      extra?.rounds ?? (ex.pair ? [{ es: ex.pair.es, t: ex.pair.t, correct }] : []);
     roundsRef.current.push(...rounds);
   }
 
@@ -152,7 +155,9 @@ export default function Player({
             ×{combo} 🔥
           </div>
         ) : (
-          <div className="combo ghost">{mode === "review" ? "🧠" : `${idx + 1}/${exercises.length}`}</div>
+          <div className="combo ghost">
+            {mode === "review" ? "🧠" : `${idx + 1}/${exercises.length}`}
+          </div>
         )}
       </header>
 
@@ -169,7 +174,7 @@ export default function Player({
         )}
         {ex.type === "match" && <MatchExercise ex={ex} onResult={handleResult} />}
         {ex.type === "type" && (
-          <TypeExercise ex={ex} locked={phase !== "answer"} onResult={handleResult} />
+          <TypeExercise ex={ex} lang={lang} locked={phase !== "answer"} onResult={handleResult} />
         )}
         {ex.type === "fill" && (
           <FillExercise ex={ex} locked={phase !== "answer"} onResult={handleResult} />
@@ -463,7 +468,7 @@ function MatchExercise({
         const ok = errorsRef.current === 0;
         const answerText = ex.pairs
           .filter((p) => wrongRef.current.includes(p.es))
-          .map((p) => `${p.es} = ${p.en}`)
+          .map((p) => `${p.es} = ${p.t}`)
           .join(" · ");
         window.setTimeout(
           () =>
@@ -471,7 +476,7 @@ function MatchExercise({
               answerText: ok ? undefined : answerText,
               rounds: ex.pairs.map((p) => ({
                 es: p.es,
-                en: p.en,
+                t: p.t,
                 correct: !wrongRef.current.includes(p.es),
               })),
               praise: praise.current,
@@ -521,7 +526,7 @@ function MatchExercise({
               sfx.tap();
             }}
           >
-            {p.en}
+            {p.t}
           </button>
         ))}
       </div>
@@ -531,10 +536,12 @@ function MatchExercise({
 
 function TypeExercise({
   ex,
+  lang,
   locked,
   onResult,
 }: {
   ex: Extract<Exercise, { type: "type" }>;
+  lang: string;
   locked: boolean;
   onResult: (correct: boolean, info?: Info) => void;
 }) {
@@ -565,7 +572,7 @@ function TypeExercise({
         className="type-input"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        placeholder="Escribe en inglés…"
+        placeholder={`Escribe en ${langTitle(lang)}…`}
         autoCapitalize="none"
         autoCorrect="off"
         autoComplete="off"

@@ -13,9 +13,9 @@
         "«My flight is delayed» = Mi vuelo está retrasado."
       ],
       "phrases": [
-        { "es": "¿Dónde está la puerta?", "en": "Where is the gate?" },
-        { "es": "Mi vuelo está retrasado", "en": "My flight is delayed" },
-        { "es": "Aquí está mi pasaporte", "en": "Here is my passport" }
+        { "es": "¿Dónde está la puerta?", "t": "Where is the gate?" },
+        { "es": "Mi vuelo está retrasado", "t": "My flight is delayed" },
+        { "es": "Aquí está mi pasaporte", "t": "Here is my passport" }
       ],
       "exercises": [
         {
@@ -23,10 +23,10 @@
           "type": "match",
           "prompt": "Empareja el vocabulario del aeropuerto",
           "pairs": [
-            { "es": "Vuelo", "en": "Flight" },
-            { "es": "Pasaporte", "en": "Passport" },
-            { "es": "Billete", "en": "Ticket" },
-            { "es": "Equipaje", "en": "Luggage" }
+            { "es": "Vuelo", "t": "Flight" },
+            { "es": "Pasaporte", "t": "Passport" },
+            { "es": "Billete", "t": "Ticket" },
+            { "es": "Equipaje", "t": "Luggage" }
           ]
         },
         {
@@ -35,7 +35,7 @@
           "prompt": "«Gate» es…",
           "options": ["la puerta de embarque", "la pista", "la maleta", "el asiento"],
           "answer": 0,
-          "pair": { "es": "Puerta de embarque", "en": "Gate" }
+          "pair": { "es": "Puerta de embarque", "t": "Gate" }
         },
         {
           "id": "u4l1e3",
@@ -44,7 +44,7 @@
           "audio": "My flight is delayed.",
           "options": ["Mi vuelo está retrasado.", "Mi vuelo ha cancelado.", "Mi vuelo sale a las nueve."],
           "answer": 0,
-          "pair": { "es": "Mi vuelo está retrasado", "en": "My flight is delayed" }
+          "pair": { "es": "Mi vuelo está retrasado", "t": "My flight is delayed" }
         },
         {
           "id": "u4l1e4",
@@ -52,7 +52,7 @@
           "prompt": "Completa la pregunta",
           "sentence": "Where ___ my luggage?",
           "options": ["is", "are", "am"],
-          "answer": 0, "pair": { "es": "¿Dónde está mi equipaje?", "en": "Where is my luggage?" },
+          "answer": 0, "pair": { "es": "¿Dónde está mi equipaje?", "t": "Where is my luggage?" },
           "explain": "«Luggage» (equipaje) es incontable y va en singular."
         },
         {
@@ -61,7 +61,7 @@
           "prompt": "Escribe «vuelo» en inglés",
           "solution": "flight",
           "accept": ["flight"],
-          "pair": { "es": "Vuelo", "en": "Flight" }
+          "pair": { "es": "Vuelo", "t": "Flight" }
         },
         {
           "id": "u4l1e6",
@@ -69,7 +69,7 @@
           "prompt": "Traduce: «Aquí está mi pasaporte»",
           "solution": "Here is my passport",
           "distractors": ["are", "ticket"],
-          "pair": { "es": "Aquí está mi pasaporte", "en": "Here is my passport" }
+          "pair": { "es": "Aquí está mi pasaporte", "t": "Here is my passport" }
         },
         {
           "id": "u4l1e7",
@@ -77,14 +77,14 @@
           "prompt": "«Boarding pass» significa…",
           "options": ["tarjeta de embarque", "pasaporte", "billete de tren", "maleta de mano"],
           "answer": 0,
-          "pair": { "es": "Tarjeta de embarque", "en": "Boarding pass" }
+          "pair": { "es": "Tarjeta de embarque", "t": "Boarding pass" }
         },
         {
           "id": "u4l1e8",
           "type": "choice",
           "prompt": "«The plane takes off at six» = el avión…",
           "options": ["despega a las seis", "aterriza a las seis", "se retrasa hasta las seis"],
-          "answer": 0, "pair": { "es": "El avión despega a las seis.", "en": "The plane takes off at six." },
+          "answer": 0, "pair": { "es": "El avión despega a las seis.", "t": "The plane takes off at six." },
           "explain": "«Take off» = despegar. «Land» = aterrizar."
         }
       ]
@@ -98,9 +98,9 @@
         "«Is breakfast included?» = ¿Está incluido el desayuno?"
       ],
       "phrases": [
-        { "es": "Tengo una reserva", "en": "I have a reservation" },
-        { "es": "¿A qué hora es el check-out?", "en": "What time is check-out?" },
-        { "es": "¿Está incluido el desayuno?", "en": "Is breakfast included?" }
+        { "es": "Tengo una reserva", "t": "I have a reservation" },
+        { "es": "¿A qué hora es el check-out?", "t": "What time is check-out?" },
+        { "es": "¿Está incluido el desayuno?", "t": "Is breakfast included?" }
       ],
       "exercises": [
         {
@@ -109,7 +109,7 @@
           "prompt": "«Key» es…",
           "options": ["llave", "habitación", "cama", "ascensor"],
           "answer": 0,
-          "pair": { "es": "Llave", "en": "Key" }
+          "pair": { "es": "Llave", "t": "Key" }
         },
         {
           "id": "u4l2e2",
@@ -122,7 +122,7 @@
             "Quiero una habitación por dos noches."
           ],
           "answer": 0,
-          "pair": { "es": "Tengo una reserva", "en": "I have a reservation" }
+          "pair": { "es": "Tengo una reserva", "t": "I have a reservation" }
         },
         {
           "id": "u4l2e3",
@@ -130,7 +130,7 @@
           "prompt": "Completa la pregunta",
           "sentence": "Is breakfast ___?",
           "options": ["included", "include", "including"],
-          "answer": 0, "pair": { "es": "¿Está incluido el desayuno?", "en": "Is breakfast included?" },
+          "answer": 0, "pair": { "es": "¿Está incluido el desayuno?", "t": "Is breakfast included?" },
           "explain": "«Included» = incluido."
         },
         {
@@ -139,7 +139,7 @@
           "prompt": "Traduce: «Tengo una reserva»",
           "solution": "I have a reservation",
           "distractors": ["had", "the"],
-          "pair": { "es": "Tengo una reserva", "en": "I have a reservation" }
+          "pair": { "es": "Tengo una reserva", "t": "I have a reservation" }
         },
         {
           "id": "u4l2e5",
@@ -147,7 +147,7 @@
           "prompt": "Escribe «habitación» en inglés",
           "solution": "room",
           "accept": ["room"],
-          "pair": { "es": "Habitación", "en": "Room" }
+          "pair": { "es": "Habitación", "t": "Room" }
         },
         {
           "id": "u4l2e6",
@@ -155,7 +155,7 @@
           "prompt": "«Elevator» significa…",
           "options": ["ascensor", "escalera", "pasillo", "lavabo"],
           "answer": 0,
-          "pair": { "es": "Ascensor", "en": "Elevator" },
+          "pair": { "es": "Ascensor", "t": "Elevator" },
           "explain": "En el Reino Unido dicen «lift»."
         },
         {
@@ -163,10 +163,10 @@
           "type": "match",
           "prompt": "Empareja el vocabulario del hotel",
           "pairs": [
-            { "es": "Habitación", "en": "Room" },
-            { "es": "Llave", "en": "Key" },
-            { "es": "Ascensor", "en": "Elevator" },
-            { "es": "Noche", "en": "Night" }
+            { "es": "Habitación", "t": "Room" },
+            { "es": "Llave", "t": "Key" },
+            { "es": "Ascensor", "t": "Elevator" },
+            { "es": "Noche", "t": "Night" }
           ]
         },
         {
@@ -180,7 +180,7 @@
             "pedir la llave"
           ],
           "answer": 0,
-          "pair": { "es": "Salida del hotel", "en": "Check-out" }
+          "pair": { "es": "Salida del hotel", "t": "Check-out" }
         }
       ]
     },
@@ -193,9 +193,9 @@
         "«Next to» = al lado de. «Near» = cerca. «Far» = lejos."
       ],
       "phrases": [
-        { "es": "¿Dónde está el baño?", "en": "Where is the bathroom?" },
-        { "es": "Gira a la izquierda", "en": "Turn left" },
-        { "es": "Está al lado del banco", "en": "It's next to the bank" }
+        { "es": "¿Dónde está el baño?", "t": "Where is the bathroom?" },
+        { "es": "Gira a la izquierda", "t": "Turn left" },
+        { "es": "Está al lado del banco", "t": "It's next to the bank" }
       ],
       "exercises": [
         {
@@ -204,7 +204,7 @@
           "prompt": "«Turn right» es…",
           "options": ["gira a la derecha", "gira a la izquierda", "sigue recto", "para aquí"],
           "answer": 0,
-          "pair": { "es": "Derecha", "en": "Right" }
+          "pair": { "es": "Derecha", "t": "Right" }
         },
         {
           "id": "u4l3e2",
@@ -217,7 +217,7 @@
             "Sigue recto y gira a la derecha."
           ],
           "answer": 0,
-          "pair": { "es": "Sigue recto", "en": "Go straight" }
+          "pair": { "es": "Sigue recto", "t": "Go straight" }
         },
         {
           "id": "u4l3e3",
@@ -225,7 +225,7 @@
           "prompt": "Completa la frase",
           "sentence": "Turn ___ at the corner.",
           "options": ["left", "the left", "leftly"],
-          "answer": 0, "pair": { "es": "Gira a la izquierda en la esquina.", "en": "Turn left at the corner." },
+          "answer": 0, "pair": { "es": "Gira a la izquierda en la esquina.", "t": "Turn left at the corner." },
           "explain": "Se dice «turn left» sin artículo."
         },
         {
@@ -234,7 +234,7 @@
           "prompt": "Escribe «cerca» en inglés",
           "solution": "near",
           "accept": ["near", "close"],
-          "pair": { "es": "Cerca", "en": "Near" }
+          "pair": { "es": "Cerca", "t": "Near" }
         },
         {
           "id": "u4l3e5",
@@ -242,7 +242,7 @@
           "prompt": "Traduce: «¿Dónde está el baño?»",
           "solution": "Where is the bathroom",
           "distractors": ["What", "toilet"],
-          "pair": { "es": "¿Dónde está el baño?", "en": "Where is the bathroom?" }
+          "pair": { "es": "¿Dónde está el baño?", "t": "Where is the bathroom?" }
         },
         {
           "id": "u4l3e6",
@@ -255,17 +255,17 @@
             "Está dentro del banco"
           ],
           "answer": 0,
-          "pair": { "es": "Al lado de", "en": "Next to" }
+          "pair": { "es": "Al lado de", "t": "Next to" }
         },
         {
           "id": "u4l3e7",
           "type": "match",
           "prompt": "Empareja las direcciones",
           "pairs": [
-            { "es": "Izquierda", "en": "Left" },
-            { "es": "Derecha", "en": "Right" },
-            { "es": "Recto", "en": "Straight" },
-            { "es": "Lejos", "en": "Far" }
+            { "es": "Izquierda", "t": "Left" },
+            { "es": "Derecha", "t": "Right" },
+            { "es": "Recto", "t": "Straight" },
+            { "es": "Lejos", "t": "Far" }
           ]
         },
         {
@@ -274,7 +274,7 @@
           "prompt": "«Go straight» significa…",
           "options": ["sigue recto", "gira", "para", "vuelve"],
           "answer": 0,
-          "pair": { "es": "Sigue recto", "en": "Go straight" }
+          "pair": { "es": "Sigue recto", "t": "Go straight" }
         }
       ]
     },
@@ -287,9 +287,9 @@
         "«Just looking, thanks» = solo estoy mirando, gracias."
       ],
       "phrases": [
-        { "es": "¿Cuánto cuesta?", "en": "How much is it?" },
-        { "es": "Me lo llevo", "en": "I'll take it" },
-        { "es": "¿Puedo pagar con tarjeta?", "en": "Can I pay by card?" }
+        { "es": "¿Cuánto cuesta?", "t": "How much is it?" },
+        { "es": "Me lo llevo", "t": "I'll take it" },
+        { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" }
       ],
       "exercises": [
         {
@@ -298,7 +298,7 @@
           "prompt": "¿Cómo preguntas el precio?",
           "options": ["How much is it?", "How many is it?", "What cost?", "How price is it?"],
           "answer": 0,
-          "pair": { "es": "Precio", "en": "Price" }
+          "pair": { "es": "Precio", "t": "Price" }
         },
         {
           "id": "u4l4e2",
@@ -307,7 +307,7 @@
           "audio": "Can I pay by card?",
           "options": ["¿Puedo pagar con tarjeta?", "¿Puedo pagar en efectivo?", "¿Puedo pagar mañana?"],
           "answer": 0,
-          "pair": { "es": "¿Puedo pagar con tarjeta?", "en": "Can I pay by card?" }
+          "pair": { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" }
         },
         {
           "id": "u4l4e3",
@@ -315,7 +315,7 @@
           "prompt": "Completa la frase",
           "sentence": "Can I pay ___ card?",
           "options": ["by", "with", "in"],
-          "answer": 0, "pair": { "es": "¿Puedo pagar con tarjeta?", "en": "Can I pay by card?" },
+          "answer": 0, "pair": { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" },
           "explain": "«Pay by card» o «pay with a card»; ambas valen."
         },
         {
@@ -324,7 +324,7 @@
           "prompt": "Traduce: «Me lo llevo»",
           "solution": "I'll take it",
           "distractors": ["want", "this"],
-          "pair": { "es": "Me lo llevo", "en": "I'll take it" }
+          "pair": { "es": "Me lo llevo", "t": "I'll take it" }
         },
         {
           "id": "u4l4e5",
@@ -332,7 +332,7 @@
           "prompt": "Escribe «barato» en inglés",
           "solution": "cheap",
           "accept": ["cheap"],
-          "pair": { "es": "Barato", "en": "Cheap" }
+          "pair": { "es": "Barato", "t": "Cheap" }
         },
         {
           "id": "u4l4e6",
@@ -340,17 +340,17 @@
           "prompt": "«Expensive» es…",
           "options": ["caro", "barato", "grande", "nuevo"],
           "answer": 0,
-          "pair": { "es": "Caro", "en": "Expensive" }
+          "pair": { "es": "Caro", "t": "Expensive" }
         },
         {
           "id": "u4l4e7",
           "type": "match",
           "prompt": "Empareja el vocabulario de compras",
           "pairs": [
-            { "es": "Talla", "en": "Size" },
-            { "es": "Efectivo", "en": "Cash" },
-            { "es": "Tarjeta", "en": "Card" },
-            { "es": "Recibo", "en": "Receipt" }
+            { "es": "Talla", "t": "Size" },
+            { "es": "Efectivo", "t": "Cash" },
+            { "es": "Tarjeta", "t": "Card" },
+            { "es": "Recibo", "t": "Receipt" }
           ]
         },
         {
@@ -364,7 +364,7 @@
             "Solo tengo efectivo"
           ],
           "answer": 0,
-          "pair": { "es": "Solo estoy mirando", "en": "I'm just looking" }
+          "pair": { "es": "Solo estoy mirando", "t": "I'm just looking" }
         }
       ]
     }

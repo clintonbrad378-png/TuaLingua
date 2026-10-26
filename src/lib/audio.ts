@@ -1,11 +1,22 @@
 const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
+import { langBcp47, langOf } from "./langs";
+
 let ctx: AudioContext | null = null;
 let muted = false;
 let activated = false;
+let voiceLang = "en";
 
 export function markActivated() {
   activated = true;
+}
+
+export function setVoiceLanguage(lang: string) {
+  const norm = langOf(lang).id;
+  if (norm !== voiceLang) {
+    voiceLang = norm;
+    voiceCache.clear();
+  }
 }
 
 export function setMuted(value: boolean) {
@@ -107,7 +118,7 @@ const MAX_CLIPS = 64;
 let current: HTMLAudioElement | null = null;
 
 function clipUrl(text: string, ext: string): string {
-  return `${BASE}/audio/en/${clipKey(text)}.${ext}`;
+  return `${BASE}/audio/${voiceLang}/${clipKey(text)}.${ext}`;
 }
 
 function evictStaleClips() {
@@ -212,20 +223,24 @@ export function speak(text: string, rate = 1) {
 
 /* ---------- TTS del sistema (respaldo) ---------- */
 
-let voice: SpeechSynthesisVoice | null = null;
 let voicesReady = false;
+const voiceCache = new Map<string, SpeechSynthesisVoice>();
 
 function pickVoice(): SpeechSynthesisVoice | null {
   if (!("speechSynthesis" in window)) return null;
-  if (voice) return voice;
+  const bcp = langBcp47(voiceLang);
+  if (voiceCache.has(bcp)) return voiceCache.get(bcp) ?? null;
   const voices = window.speechSynthesis.getVoices();
   if (!voices.length) return null;
-  voice =
-    voices.find((v) => v.lang === "en-US" && /google|natural|samantha/i.test(v.name)) ??
-    voices.find((v) => v.lang === "en-US") ??
-    voices.find((v) => v.lang.startsWith("en")) ??
+  const base = bcp.split("-")[0];
+  const found =
+    voices.find((v) => v.lang === bcp && /google|natural|samantha/i.test(v.name)) ??
+    voices.find((v) => v.lang === bcp) ??
+    voices.find((v) => v.lang.replace("_", "-").toLowerCase() === base) ??
+    voices.find((v) => v.lang.toLowerCase().startsWith(base)) ??
     null;
-  return voice;
+  if (found) voiceCache.set(bcp, found);
+  return found ?? null;
 }
 
 export function warmUpVoices() {
@@ -233,7 +248,7 @@ export function warmUpVoices() {
   if (!voicesReady) {
     voicesReady = true;
     window.speechSynthesis.onvoiceschanged = () => {
-      voice = null;
+      voiceCache.clear();
       pickVoice();
     };
   }
@@ -246,11 +261,12 @@ export function ttsAvailable(): boolean {
 
 function ttsSpeak(text: string, rate: number) {
   if (muted || !("speechSynthesis" in window)) return;
-  pickVoice();
+  const bcp = langBcp47(voiceLang);
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = "en-US";
+  u.lang = bcp;
   u.rate = rate;
-  if (voice) u.voice = voice;
+  const found = pickVoice();
+  if (found) u.voice = found;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(u);
 }

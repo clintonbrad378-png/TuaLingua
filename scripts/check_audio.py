@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
-"""Comprueba que cada texto hablado por la app tiene su clip de audio.
+"""Comprueba que cada texto hablado por la app tenga su clip de audio.
 
 Calcula la clave FNV-1a de cada texto (igual que src/lib/audio.ts y
 generate_audio.py) y verifica que exista el par <clave>.mp3 + <clave>.ogg
-en public/audio/en, y que no queden clips huérfanos.
+en public/audio/<lang>, y que no queden clips huérfanos.
+
+Uso: python3 scripts/check_audio.py --lang en (o --lang ru)
 
 Sale con código 1 si algo no cuadra, para poder usarlo en CI.
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "src-tauri" / "src" / "content"
-OUT = ROOT / "public" / "audio" / "en"
+CONTENT_GLOBS = {"en": "u*.json", "ru": "r*.json"}
 
 MASK = 0xFFFFFFFF
 PRIME = 0x01000193
@@ -36,36 +39,41 @@ def clip_key(text: str) -> str:
     return f"{fnv1a(norm):08x}{fnv1a(norm + '#tualingua'):08x}"
 
 
-def collect_strings() -> set[str]:
+def collect_strings(args) -> set[str]:
     """Textos que la app intenta reproducir (phrases, audio, pairs, type)."""
     strings: set[str] = set()
-    for path in sorted(CONTENT.glob("u*.json")):
+    glob = CONTENT_GLOBS[args.lang]
+    for path in sorted(CONTENT.glob(glob)):
         unit = json.loads(path.read_text(encoding="utf-8"))
         for lesson in unit.get("lessons", []):
             for phrase in lesson.get("phrases", []):
-                strings.add(phrase["en"])
+                strings.add(phrase["t"])
             for ex in lesson.get("exercises", []):
                 if ex.get("audio"):
                     strings.add(ex["audio"])
                 if ex.get("pair"):
-                    strings.add(ex["pair"]["en"])
+                    strings.add(ex["pair"]["t"])
                 if ex.get("type") == "match":
                     for pair in ex.get("pairs", []):
-                        strings.add(pair["en"])
+                        strings.add(pair["t"])
                 if ex.get("type") == "type" and ex.get("solution"):
                     strings.add(ex["solution"])
     return {s for s in strings if s.strip()}
 
 
 def main() -> int:
-    if not OUT.is_dir():
-        print(f"no existe {OUT}", file=sys.stderr)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--lang", choices=("en", "ru"), default="en")
+    args = parser.parse_args()
+    out_dir = ROOT / "public" / "audio" / args.lang
+    if not out_dir.is_dir():
+        print(f"no existe {out_dir}", file=sys.stderr)
         return 1
 
-    strings = collect_strings()
+    strings = collect_strings(args)
     needed = {clip_key(text) for text in strings}
-    mp3 = {p.stem for p in OUT.glob("*.mp3")}
-    ogg = {p.stem for p in OUT.glob("*.ogg")}
+    mp3 = {p.stem for p in out_dir.glob("*.mp3")}
+    ogg = {p.stem for p in out_dir.glob("*.ogg")}
 
     missing_mp3 = sorted(needed - mp3)
     missing_ogg = sorted(needed - ogg)

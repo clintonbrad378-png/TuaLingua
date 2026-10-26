@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Genera los clips de voz (mp3+ogg) del contenido inglés con Piper.
+"""Genera los clips de voz (mp3+ogg) del contenido con Piper.
 
 Uso:
-    python3 scripts/generate_audio.py --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx
+    python3 scripts/generate_audio.py --lang en --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx
+    python3 scripts/generate_audio.py --lang ru --piper <ruta>/piper --model <ruta>/ru_RU-irina-medium.onnx
 
-Los archivos se guardan en public/audio/en/<hash>.{mp3,ogg} donde <hash> se
+Los archivos se guardan en public/audio/<lang>/<hash>.{mp3,ogg} donde <hash> se
 calcula igual que en src/lib/audio.ts (FNV-1a x2 sobre el texto normalizado).
 """
 
@@ -18,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "src-tauri" / "src" / "content"
-OUT = ROOT / "public" / "audio" / "en"
+CONTENT_GLOBS = {"en": "u*.json", "ru": "r*.json"}
 
 MASK = 0xFFFFFFFF
 PRIME = 0x01000193
@@ -40,21 +41,22 @@ def clip_key(text: str) -> str:
     return f"{fnv1a(norm):08x}{fnv1a(norm + '#tualingua'):08x}"
 
 
-def collect_strings() -> list[str]:
+def collect_strings(args) -> list[str]:
     strings: set[str] = set()
-    for path in sorted(CONTENT.glob("u*.json")):
+    glob = CONTENT_GLOBS[args.lang]
+    for path in sorted(CONTENT.glob(glob)):
         unit = json.loads(path.read_text(encoding="utf-8"))
         for lesson in unit["lessons"]:
             for phrase in lesson["phrases"]:
-                strings.add(phrase["en"])
+                strings.add(phrase["t"])
             for ex in lesson["exercises"]:
                 if ex.get("audio"):
                     strings.add(ex["audio"])
                 if ex.get("pair"):
-                    strings.add(ex["pair"]["en"])
+                    strings.add(ex["pair"]["t"])
                 if ex["type"] == "match":
                     for pair in ex["pairs"]:
-                        strings.add(pair["en"])
+                        strings.add(pair["t"])
                 if ex["type"] == "type":
                     strings.add(ex["solution"])
     return sorted(strings)
@@ -86,6 +88,7 @@ def encode(wav: Path, mp3: Path, ogg: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--lang", choices=("en", "ru"), default="en")
     parser.add_argument("--piper", required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument(
@@ -95,22 +98,23 @@ def main() -> int:
     )
     args = parser.parse_args()
 
+    out_dir = ROOT / "public" / "audio" / args.lang
     piper = Path(args.piper).resolve()
     model = Path(args.model).resolve()
     if not piper.exists() or not model.exists():
         print("piper o modelo no encontrados", file=sys.stderr)
         return 1
 
-    OUT.mkdir(parents=True, exist_ok=True)
-    strings = collect_strings()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    strings = collect_strings(args)
     generated = 0
     skipped = 0
     with tempfile.TemporaryDirectory() as tmp:
         wav = Path(tmp) / "clip.wav"
         for i, text in enumerate(strings, 1):
             key = clip_key(text)
-            mp3 = OUT / f"{key}.mp3"
-            ogg = OUT / f"{key}.ogg"
+            mp3 = out_dir / f"{key}.mp3"
+            ogg = out_dir / f"{key}.ogg"
             if mp3.exists() and ogg.exists():
                 skipped += 1
                 continue
@@ -122,12 +126,12 @@ def main() -> int:
     removed = 0
     if args.prune:
         needed = {clip_key(text) for text in strings}
-        for path in sorted(OUT.iterdir()):
+        for path in sorted(out_dir.iterdir()):
             if path.stem not in needed:
                 path.unlink()
                 removed += 1
 
-    total = sum(f.stat().st_size for f in OUT.iterdir())
+    total = sum(f.stat().st_size for f in out_dir.iterdir())
     print(f"listo: {generated} generados, {skipped} ya existían, {len(strings)} únicos, {total / 1e6:.1f} MB")
     if args.prune:
         print(f"purga: {removed} clips huérfanos eliminados")

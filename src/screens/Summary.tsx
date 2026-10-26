@@ -12,7 +12,7 @@ export default function Summary({
   onRetry,
 }: {
   summary: SessionSummary;
-  mode: "lesson" | "review";
+  mode: "lesson" | "review" | "flash";
   lessonTitle?: string;
   onContinue: () => void;
   onRetry?: () => void;
@@ -84,7 +84,9 @@ export default function Summary({
         <Mascot mood={summary.accuracy >= 70 ? "happy" : "idle"} size={92} />
       </div>
 
-      <h1>{mode === "review" ? "¡Repaso completado!" : "¡Lección completada!"}</h1>
+      <h1>
+        {mode === "review" ? "¡Repaso completado!" : mode === "flash" ? "¡Práctica completada!" : "¡Lección completada!"}
+      </h1>
       {lessonTitle && <p className="summary-sub">{lessonTitle}</p>}
 
       <div className="stars-row">
@@ -116,9 +118,9 @@ export default function Summary({
           {summary.new_words.map((w, i) => (
             <div className="word-chip" key={i}>
               <span>
-                {w.es} <b>→</b> {w.en}
+                {w.es} <b>→</b> {w.t}
               </span>
-              <button className="spk" onClick={() => speak(w.en)} aria-label="Escuchar">
+              <button className="spk" onClick={() => speak(w.t)} aria-label="Escuchar">
                 🔊
               </button>
             </div>

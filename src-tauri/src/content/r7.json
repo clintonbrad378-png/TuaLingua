@@ -1,0 +1,619 @@
+{
+ "id": "r7",
+ "title": "Vida práctica",
+ "emoji": "💼",
+ "color": "#2F9DC0",
+ "lessons": [
+  {
+   "id": "r7l1",
+   "title": "Teletrabajo y oficina",
+   "goal": "Coordina juntas y plazos: registro profesional",
+   "tip": [
+    "«Командировка» = viaje de trabajo; «командировочные» = gastos de ese viaje.",
+    "«Созвон» (llamada grupal) y «совещание» (junta) son palabras de oficina."
+   ],
+   "phrases": [
+    {
+     "es": "Trabajo desde casa dos días por semana",
+     "t": "Я работаю из дома два дня в неделю"
+    },
+    {
+     "es": "La junta se aplaza para mañana",
+     "t": "Совещание переносится на завтра"
+    },
+    {
+     "es": "Estoy toda la semana de viaje de trabajo",
+     "t": "Я всю неделю в командировке"
+    },
+    {
+     "es": "La fecha límite es el viernes",
+     "t": "Дедлайн в пятницу"
+    },
+    {
+     "es": "¿Te puedes conectar a la llamada?",
+     "t": "Можешь подключиться к звонку?"
+    },
+    {
+     "es": "El horario flexible mejora la productividad",
+     "t": "Гибкий график повышает производительность"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r7l1e1",
+     "type": "choice",
+     "prompt": "¿Cómo se dice «la junta» (formal)?",
+     "options": [
+      "совещание",
+      "прогул",
+      "обед",
+      "подвал"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "La junta",
+      "t": "Совещание"
+     }
+    },
+    {
+     "id": "r7l1e2",
+     "type": "choice",
+     "prompt": "«Командировка» significa:",
+     "options": [
+      "viaje de trabajo",
+      "vacaciones",
+      "día libre",
+      "jubilación"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El viaje de trabajo",
+      "t": "Командировка"
+     }
+    },
+    {
+     "id": "r7l1e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Совещание переносится на завтра",
+     "options": [
+      "La junta se aplaza para mañana",
+      "La junta es ahora mismo",
+      "La junta fue ayer",
+      "La junta se canceló definitivamente"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "La junta se aplaza para mañana",
+      "t": "Совещание переносится на завтра"
+     }
+    },
+    {
+     "id": "r7l1e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Я работаю из дома ___ в неделю.",
+     "options": [
+      "два дня",
+      "двух днях",
+      "двоим дням"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Trabajo desde casa dos días por semana",
+      "t": "Я работаю из дома два дня в неделю"
+     },
+     "explain": "Después del numeral 2 va el genitivo singular: два дня."
+    },
+    {
+     "id": "r7l1e5",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "El horario flexible",
+       "t": "Гибкий график"
+      },
+      {
+       "es": "El retraso",
+       "t": "Задержка"
+      },
+      {
+       "es": "La reunión en línea",
+       "t": "Созвон"
+      },
+      {
+       "es": "El jefe del equipo",
+       "t": "Руководитель"
+      }
+     ]
+    },
+    {
+     "id": "r7l1e6",
+     "type": "build",
+     "prompt": "Traduce: «El horario flexible mejora la productividad»",
+     "solution": "Гибкий график повышает производительность",
+     "distractors": [
+      "понижает",
+      "едва"
+     ],
+     "pair": {
+      "es": "El horario flexible mejora la productividad",
+      "t": "Гибкий график повышает производительность"
+     }
+    },
+    {
+     "id": "r7l1e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «el retraso»",
+     "solution": "задержка",
+     "accept": [
+      "задержка"
+     ],
+     "pair": {
+      "es": "El retraso",
+      "t": "Задержка"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r7l2",
+   "title": "Salud y médico",
+   "goal": "Explica síntomas y entiende indicaciones médicas",
+   "tip": [
+    "Dolor: «у меня болит + nominativo» → у меня болит голова.",
+    "Aspecto: «лечить» (tratar, imperfectivo) y «вылечить» (curar del todo, perfectivo)."
+   ],
+   "phrases": [
+    {
+     "es": "Me duele la garganta y tengo fiebre",
+     "t": "У меня болит горло и есть температура"
+    },
+    {
+     "es": "El médico me recetó un antibiótico",
+     "t": "Врач прописал мне антибиотик"
+    },
+    {
+     "es": "La tos empeora por la noche",
+     "t": "Кашель усиливается ночью"
+    },
+    {
+     "es": "Tómate las pastillas después de comer",
+     "t": "Принимай таблетки после еды"
+    },
+    {
+     "es": "¿Hay farmacias abiertas hoy?",
+     "t": "Аптеки сегодня открыты?"
+    },
+    {
+     "es": "El diagnóstico me tranquilizó",
+     "t": "Диагноз меня успокоил"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r7l2e1",
+     "type": "choice",
+     "prompt": "«У меня болит голова» significa:",
+     "options": [
+      "Me duele la cabeza",
+      "Me molesta la luz",
+      "Tengo fiebre alta",
+      "Me duele el estómago"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Me duele la cabeza",
+      "t": "У меня болит голова"
+     }
+    },
+    {
+     "id": "r7l2e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Врач прописал мне антибиотик",
+     "options": [
+      "El médico me recetó un antibiótico",
+      "El médico me prohibió el antibiótico",
+      "El antibiótico recetó al médico",
+      "No me gusta el antibiótico"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El médico me recetó un antibiótico",
+      "t": "Врач прописал мне антибиотик"
+     }
+    },
+    {
+     "id": "r7l2e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Принимай ___ после еды.",
+     "options": [
+      "таблетки",
+      "таблетку",
+      "по таблетке"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Tómate las pastillas después de comer",
+      "t": "Принимай таблетки после еды"
+     }
+    },
+    {
+     "id": "r7l2e4",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "La fiebre",
+       "t": "Температура"
+      },
+      {
+       "es": "La tos",
+       "t": "Кашель"
+      },
+      {
+       "es": "El antibiótico",
+       "t": "Антибиотик"
+      },
+      {
+       "es": "La garganta",
+       "t": "Горло"
+      }
+     ]
+    },
+    {
+     "id": "r7l2e5",
+     "type": "build",
+     "prompt": "Traduce: «La tos empeora por la noche»",
+     "solution": "Кашель усиливается ночью",
+     "distractors": [
+      "утром",
+      "слабеет"
+     ],
+     "pair": {
+      "es": "La tos empeora por la noche",
+      "t": "Кашель усиливается ночью"
+     }
+    },
+    {
+     "id": "r7l2e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «la receta»",
+     "solution": "рецепт",
+     "accept": [
+      "рецепт"
+     ],
+     "pair": {
+      "es": "La receta",
+      "t": "Рецепт"
+     }
+    },
+    {
+     "id": "r7l2e7",
+     "type": "choice",
+     "prompt": "«Диагноз меня успокоил» significa:",
+     "options": [
+      "El diagnóstico me tranquilizó",
+      "El diagnóstico me asustó",
+      "Cambié de diagnóstico",
+      "El diagnóstico tardó mucho"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El diagnóstico me tranquilizó",
+      "t": "Диагноз меня успокоил"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r7l3",
+   "title": "Viajes largos",
+   "goal": "Gestiona trenes, hoteles y control de documentos",
+   "tip": [
+    "«Билет туда и обратно» = billete de ida y vuelta; «в одну сторону» = solo ida.",
+    "«Ночь» es femenino: две ночи (dos noches), но два дня."
+   ],
+   "phrases": [
+    {
+     "es": "Compró dos billetes de ida y vuelta",
+     "t": "Он купил два билета туда и обратно"
+    },
+    {
+     "es": "El tren sale por la mañana temprano",
+     "t": "Поезд отправляется рано утром"
+    },
+    {
+     "es": "El control de pasaportes dura veinte minutos",
+     "t": "Паспортный контроль длится двадцать минут"
+    },
+    {
+     "es": "Mi maleta se perdió por el camino",
+     "t": "Мой чемодан потерялся в пути"
+    },
+    {
+     "es": "El hotel está cerca de la estación",
+     "t": "Отель рядом с железнодорожным вокзалом"
+    },
+    {
+     "es": "Reservé una habitación para dos noches",
+     "t": "Я забронировал номер на две ночи"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r7l3e1",
+     "type": "choice",
+     "prompt": "«Билет туда и обратно» significa:",
+     "options": [
+      "billete de ida y vuelta",
+      "un asiento solo",
+      "billete de niño",
+      "tarjeta de crédito"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El billete de ida y vuelta",
+      "t": "Билет туда и обратно"
+     }
+    },
+    {
+     "id": "r7l3e2",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Поезд отправляется рано утром",
+     "options": [
+      "El tren sale por la mañana temprano",
+      "El tren llega de noche",
+      "El tren parte por la tarde",
+      "El tren se canceló por la mañana"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El tren sale por la mañana temprano",
+      "t": "Поезд отправляется рано утром"
+     }
+    },
+    {
+     "id": "r7l3e3",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Я забронировал номер на ___ ночи.",
+     "options": [
+      "две",
+      "два",
+      "двух"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Reservé una habitación para dos noches",
+      "t": "Я забронировал номер на две ночи"
+     },
+     "explain": "«Ночь» es femenino: dos noches — две ночи."
+    },
+    {
+     "id": "r7l3e4",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "La maleta",
+       "t": "Чемодан"
+      },
+      {
+       "es": "El billete",
+       "t": "Билет"
+      },
+      {
+       "es": "El equipaje",
+       "t": "Багаж"
+      },
+      {
+       "es": "El vagón",
+       "t": "Вагон"
+      }
+     ]
+    },
+    {
+     "id": "r7l3e5",
+     "type": "build",
+     "prompt": "Traduce: «El control de pasaportes dura veinte minutos»",
+     "solution": "Паспортный контроль длится двадцать минут",
+     "distractors": [
+      "секунды",
+      "вчера"
+     ],
+     "pair": {
+      "es": "El control de pasaportes dura veinte minutos",
+      "t": "Паспортный контроль длится двадцать минут"
+     }
+    },
+    {
+     "id": "r7l3e6",
+     "type": "type",
+     "prompt": "Escribe en ruso: «la estación de tren»",
+     "solution": "вокзал",
+     "accept": [
+      "вокзал"
+     ],
+     "pair": {
+      "es": "La estación de tren",
+      "t": "Вокзал"
+     }
+    },
+    {
+     "id": "r7l3e7",
+     "type": "choice",
+     "prompt": "«Мой чемодан потерялся в пути» significa:",
+     "options": [
+      "Mi maleta se perdió por el camino",
+      "Mi maleta llegó a tiempo",
+      "Dejé la maleta en el hotel",
+      "La maleta está llena"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Mi maleta se perdió por el camino",
+      "t": "Мой чемодан потерялся в пути"
+     }
+    }
+   ]
+  },
+  {
+   "id": "r7l4",
+   "title": "Trámites y papeleo",
+   "goal": "Resuelve formularios, permisos y citas de oficina",
+   "tip": [
+    "«Заполнить анкету» = cumplimentar el formulario.",
+    "Instrumental del medio: анкета заполняется ручкой (se rellena con bolígrafo)."
+   ],
+   "phrases": [
+    {
+     "es": "El formulario se rellena con bolígrafo",
+     "t": "Анкета заполняется ручкой"
+    },
+    {
+     "es": "Necesito un certificado del trabajo",
+     "t": "Мне нужна справка с работы"
+    },
+    {
+     "es": "¿Dónde hay que firmar aquí?",
+     "t": "Где здесь надо расписаться?"
+    },
+    {
+     "es": "Su solicitud fue rechazada",
+     "t": "Ваше заявление отклонили"
+    },
+    {
+     "es": "Adjunta copias de los documentos",
+     "t": "Приложи копии документов"
+    },
+    {
+     "es": "La cita es el lunes a las diez",
+     "t": "Приём в понедельник в десять часов"
+    }
+   ],
+   "exercises": [
+    {
+     "id": "r7l4e1",
+     "type": "choice",
+     "prompt": "¿Qué significa «справка»?",
+     "options": [
+      "certificado",
+      "queja",
+      "firma",
+      "copia"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El certificado",
+      "t": "Справка"
+     }
+    },
+    {
+     "id": "r7l4e2",
+     "type": "choice",
+     "prompt": "«Ваше заявление отклонили» significa:",
+     "options": [
+      "Su solicitud fue rechazada",
+      "Su solicitud fue aprobada",
+      "Hemos enviado su solicitud",
+      "Su solicitud sigue en trámite"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Su solicitud fue rechazada",
+      "t": "Ваше заявление отклонили"
+     }
+    },
+    {
+     "id": "r7l4e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "Приложи копии документов",
+     "options": [
+      "Adjunta copias de los documentos",
+      "Quita las copias de los documentos",
+      "Firma los documentos originales",
+      "Guarda los documentos en casa"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "Adjunta copias de los documentos",
+      "t": "Приложи копии документов"
+     }
+    },
+    {
+     "id": "r7l4e4",
+     "type": "fill",
+     "prompt": "Completa la frase",
+     "sentence": "Анкета заполняется ___.",
+     "options": [
+      "ручкой",
+      "ручка",
+      "по ручке"
+     ],
+     "answer": 0,
+     "pair": {
+      "es": "El formulario se rellena con bolígrafo",
+      "t": "Анкета заполняется ручкой"
+     },
+     "explain": "Instrumental del medio: ручкой = con bolígrafo."
+    },
+    {
+     "id": "r7l4e5",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      {
+       "es": "El formulario",
+       "t": "Анкета"
+      },
+      {
+       "es": "La firma",
+       "t": "Подпись"
+      },
+      {
+       "es": "El documento",
+       "t": "Документ"
+      },
+      {
+       "es": "La solicitud",
+       "t": "Заявление"
+      }
+     ]
+    },
+    {
+     "id": "r7l4e6",
+     "type": "build",
+     "prompt": "Traduce: «La cita es el lunes a las diez»",
+     "solution": "Приём в понедельник в десять часов",
+     "distractors": [
+      "в пятницу",
+      "дважды"
+     ],
+     "pair": {
+      "es": "La cita es el lunes a las diez",
+      "t": "Приём в понедельник в десять часов"
+     }
+    },
+    {
+     "id": "r7l4e7",
+     "type": "type",
+     "prompt": "Escribe en ruso: «la copia del documento»",
+     "solution": "копия документа",
+     "accept": [
+      "копия документа"
+     ],
+     "pair": {
+      "es": "La copia del documento",
+      "t": "Копия документа"
+     }
+    }
+   ]
+  }
+ ]
+}
