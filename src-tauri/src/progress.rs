@@ -1,9 +1,19 @@
 use chrono::{Duration, Local, NaiveDate};
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
-use std::path::Path;
+use std::collections::{BTreeMap, HashMap};
+use std::io::Write;
+use std::path::{Path, PathBuf};
 
-pub const DAILY_GOAL: u32 = 60;
+pub const DEFAULT_DAILY_GOAL: u32 = 60;
+pub const MIN_DAILY_GOAL: u32 = 10;
+pub const MAX_DAILY_GOAL: u32 = 300;
+/// Ventana de historial (días) que se expone para el calendario de rachas.
+pub const HISTORY_DAYS: u64 = 91;
+/// Versión del esquema de progress.json / exports. Los archivos sin `version`
+/// se tratan como v1 (campos `en` en vez de `t`).
+pub const SCHEMA_VERSION: u32 = 2;
+pub const SAVE_BACKUPS: usize = 3;
+
 const TITLES: [&str; 7] = [
     "Novato",
     "Curioso",
@@ -18,14 +28,22 @@ fn default_lang() -> String {
     "en".to_string()
 }
 
-#[derive(Serialize, Deserialize, Clone, Default)]
+fn default_version() -> u32 {
+    1
+}
+
+fn default_goal() -> u32 {
+    DEFAULT_DAILY_GOAL
+}
+
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Default)]
 pub struct LessonProgress {
     pub best_accuracy: u32,
     pub stars: u32,
     pub times: u32,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub struct SrsCard {
     pub es: String,
     #[serde(alias = "en")]
@@ -39,7 +57,13 @@ pub struct SrsCard {
     pub due: String,
 }
 
-#[derive(Serialize, Deserialize, Clone)]
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
+pub struct DayXp {
+    pub day: String,
+    pub xp: u32,
+}
+
+#[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
 pub struct Db {
     pub xp: u32,
     pub xp_today: u32,
@@ -55,25 +79,14 @@ pub struct Db {
     pub deck: Vec<PhraseDto>,
     #[serde(default = "default_lang")]
     pub lang: String,
-}
-
-impl Default for Db {
-    fn default() -> Self {
-        Self {
-            xp: 0,
-            xp_today: 0,
-            xp_day: None,
-            streak: 0,
-            best_streak: 0,
-            last_active: None,
-            lessons: HashMap::new(),
-            srs: HashMap::new(),
-            total_correct: 0,
-            total_answers: 0,
-            deck: Vec::new(),
-            lang: "en".to_string(),
-        }
-    }
+    /// XP ganado por día (calendario de rachas).
+    #[serde(default)]
+    pub history: BTreeMap<String, u32>,
+    /// Meta diaria configurable por la usuaria.
+    #[serde(default = "default_goal")]
+    pub daily_goal: u32,
+    #[serde(default = "default_version")]
+    pub version: u32,
 }
 
 #[derive(Serialize, Deserialize, Clone)]
@@ -109,9 +122,36 @@ pub struct ProgressState {
     pub total_answers: u32,
     pub words_learned: u32,
     pub due_count: u32,
+    pub srs_count: u32,
     pub lessons: HashMap<String, LessonProgress>,
     pub deck_count: u32,
     pub lang: String,
+    pub history: Vec<DayXp>,
+}
+
+/// Igual que [`ProgressState`] pero con referencias, para serializar el
+/// snapshot sin clonar el mapa de lecciones (la ruta caliente de IPC).
+#[derive(Serialize)]
+pub struct SnapshotRef<'a> {
+    pub xp: u32,
+    pub level: u32,
+    pub level_title: &'a str,
+    pub level_xp: u32,
+    pub level_needed: u32,
+    pub streak: u32,
+    pub best_streak: u32,
+    pub active_today: bool,
+    pub xp_today: u32,
+    pub daily_goal: u32,
+    pub total_correct: u32,
+    pub total_answers: u32,
+    pub words_learned: u32,
+    pub due_count: u32,
+    pub srs_count: u32,
+    pub lessons: &'a HashMap<String, LessonProgress>,
+    pub deck_count: u32,
+    pub lang: &'a str,
+    pub history: Vec<DayXp>,
 }
 
 #[derive(Serialize, Deserialize, Clone)]
@@ -134,6 +174,8 @@ pub struct SessionSummary {
     pub new_words: Vec<PhraseDto>,
     pub due_count: u32,
     pub words_learned: u32,
+    /// `false` si el progreso se aplicó en memoria pero no se pudo persistir.
+    pub save_ok: bool,
 }
 
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq)]
@@ -175,7 +217,7 @@ fn level_needed(level: u32) -> u32 {
         .saturating_add(400)
 }
 
-fn level_of(xp: u32) -> (u32, String, u32) {
+fn level_parts(xp: u32) -> (u32, &'static str, u32) {
     let mut level: u32 = 1;
     let mut rest = xp;
     while rest >= level_needed(level) {
@@ -183,7 +225,7 @@ fn level_of(xp: u32) -> (u32, String, u32) {
         level += 1;
     }
     let idx = (level as usize - 1).min(TITLES.len() - 1);
-    (level, TITLES[idx].to_string(), rest)
+    (level, TITLES[idx], rest)
 }
 
 fn stars_for(accuracy: u32) -> u32 {
@@ -196,10 +238,56 @@ fn stars_for(accuracy: u32) -> u32 {
     }
 }
 
+fn clamp_goal(goal: u32) -> u32 {
+    goal.clamp(MIN_DAILY_GOAL, MAX_DAILY_GOAL)
+}
+
+fn backup_path(path: &Path, n: usize) -> PathBuf {
+    PathBuf::from(format!("{}.bak{n}", path.display()))
+}
+
+/// Rota progress.json → .bak1 → .bak2 → .bak3 (descarta el más viejo).
+fn rotate_backups(path: &Path) {
+    let mut next = if path.exists() { Some(path.to_path_buf()) } else { None };
+    for n in 1..=SAVE_BACKUPS {
+        let Some(src) = next.take() else { break };
+        let b = backup_path(path, n);
+        if n < SAVE_BACKUPS {
+            // El siguiente destino es la copia anterior del siguiente turno.
+            next = Some(b.clone());
+        } else if b.exists() {
+            let _ = std::fs::remove_file(&b);
+        }
+        let _ = std::fs::copy(&src, &b);
+    }
+}
+
+impl Default for Db {
+    fn default() -> Self {
+        Self {
+            xp: 0,
+            xp_today: 0,
+            xp_day: None,
+            streak: 0,
+            best_streak: 0,
+            last_active: None,
+            lessons: HashMap::new(),
+            srs: HashMap::new(),
+            total_correct: 0,
+            total_answers: 0,
+            deck: Vec::new(),
+            lang: "en".to_string(),
+            history: BTreeMap::new(),
+            daily_goal: DEFAULT_DAILY_GOAL,
+            version: SCHEMA_VERSION,
+        }
+    }
+}
+
 impl Db {
-    fn sanitize(mut db: Db) -> Self {
-        db.lang = crate::catalog::normalize_lang(&db.lang).to_string();
-        let mut migrated: HashMap<String, SrsCard> = HashMap::with_capacity(db.srs.len());
+    fn sanitize(mut db: Db) -> Self {        db.lang = crate::catalog::normalize_lang(&db.lang).to_string();
+        let mut migrated: HashMap<String, SrsCard> =
+            HashMap::with_capacity(db.srs.len());
         for (_, mut card) in db.srs.drain() {
             if card.lang.is_empty() {
                 card.lang = "en".to_string();
@@ -207,6 +295,8 @@ impl Db {
             migrated.insert(card_key(&card.lang, &card.es, &card.t), card);
         }
         db.srs = migrated;
+        db.daily_goal = clamp_goal(db.daily_goal);
+        db.version = db.version.clamp(1, SCHEMA_VERSION);
         db
     }
 
@@ -215,6 +305,10 @@ impl Db {
             .ok()
             .and_then(|raw| serde_json::from_str(&raw).ok())
             .map(Self::sanitize)
+            .map(|mut db| {
+                db.version = SCHEMA_VERSION;
+                db
+            })
             .unwrap_or_default()
     }
 
@@ -224,16 +318,66 @@ impl Db {
             .unwrap_or_default()
     }
 
-    pub fn save(&self, path: &Path) {
+    /// Import estricto: falla con un mensaje legible en vez de
+    /// descartar silenciosamente el progreso del archivo.
+    pub fn import_from_str(raw: &str) -> Result<Self, String> {
+        let parsed: Db = serde_json::from_str(raw)
+            .map_err(|e| format!("archivo de progreso no válido: {e}"))?;
+        if parsed.version > SCHEMA_VERSION {
+            return Err(format!(
+                "el archivo usa una versión más nueva ({}) que esta app ({})",
+                parsed.version, SCHEMA_VERSION
+            ));
+        }
+        let mut db = Self::sanitize(parsed);
+        db.version = SCHEMA_VERSION;
+        Ok(db)
+    }
+
+    pub fn export_json(&self) -> Result<String, String> {
+        let mut copy = self.clone();
+        copy.version = SCHEMA_VERSION;
+        serde_json::to_string_pretty(&copy)
+            .map(|s| format!("{s}\n"))
+            .map_err(|e| format!("no se pudo exportar el progreso: {e}"))
+    }
+
+    pub fn export_to_path(target: &Path, raw: &str) -> Result<(), String> {
+        if let Some(parent) = target.parent() {
+            std::fs::create_dir_all(parent)
+                .map_err(|e| format!("no se pudo crear la carpeta destino: {e}"))?;
+        }
+        std::fs::write(target, raw)
+            .map_err(|e| format!("no se pudo escribir {target:?}: {e}"))
+    }
+
+    /// Guarda atómicamente (tmp + rename) con fsync y mantiene `SAVE_BACKUPS`
+    /// copias rotativas de la versión anterior.
+    pub fn save(&self, path: &Path) -> Result<(), String> {
         if let Some(parent) = path.parent() {
-            let _ = std::fs::create_dir_all(parent);
+            std::fs::create_dir_all(parent)
+                .map_err(|e| format!("no se pudo crear la carpeta de datos: {e}"))?;
         }
-        if let Ok(raw) = serde_json::to_vec(self) {
-            let tmp = path.with_extension("json.tmp");
-            if std::fs::write(&tmp, raw).is_ok() {
-                let _ = std::fs::rename(&tmp, path);
-            }
+        let raw = serde_json::to_vec(self)
+            .map_err(|e| format!("no se pudo serializar el progreso: {e}"))?;
+        let tmp = path.with_extension("json.tmp");
+        {
+            let mut file = std::fs::File::create(&tmp)
+                .map_err(|e| format!("no se pudo abrir el archivo temporal: {e}"))?;
+            file.write_all(&raw)
+                .and_then(|_| file.sync_all())
+                .map_err(|e| format!("no se pudo escribir el progreso: {e}"))?;
         }
+        rotate_backups(path);
+        std::fs::rename(&tmp, path)
+            .map_err(|e| format!("no se pudo guardar el progreso: {e}"))?;
+        #[cfg(unix)]
+        if let Ok(dir) = std::fs::File::open(
+            path.parent().unwrap_or_else(|| Path::new(".")),
+        ) {
+            let _ = dir.sync_all();
+        }
+        Ok(())
     }
 
     pub fn lang(&self) -> &str {
@@ -249,11 +393,24 @@ impl Db {
         true
     }
 
+    pub fn set_daily_goal(&mut self, goal: u32) -> u32 {
+        self.daily_goal = clamp_goal(goal);
+        self.daily_goal
+    }
+
     pub fn due_count(&self) -> u32 {
         let t = today().to_string();
         self.srs
             .values()
             .filter(|c| c.lang == self.lang && c.due <= t)
+            .count() as u32
+    }
+
+    /// Tarjetas SRS activas del idioma actual (creadas, aunque no venzan).
+    pub fn srs_count(&self) -> u32 {
+        self.srs
+            .values()
+            .filter(|c| c.lang == self.lang)
             .count() as u32
     }
 
@@ -280,6 +437,20 @@ impl Db {
                 t: c.t.clone(),
                 due: c.due.clone(),
                 reps: c.reps,
+            })
+            .collect()
+    }
+
+    /// Historial de XP de los últimos `HISTORY_DAYS` días (inclusive hoy).
+    pub fn history_window(&self) -> Vec<DayXp> {
+        let today = today();
+        let start = (today - Duration::days(HISTORY_DAYS as i64 - 1)).to_string();
+        let end = today.to_string();
+        self.history
+            .range(start..=end)
+            .map(|(day, xp)| DayXp {
+                day: day.clone(),
+                xp: *xp,
             })
             .collect()
     }
@@ -320,30 +491,76 @@ impl Db {
         self.deck.retain(|c| c.lang != self.lang);
     }
 
+    fn snapshot_fields(&self) -> (u32, u32, u32, u32, bool, u32, u32) {
+        let (level, _, level_xp) = level_parts(self.xp);
+        let active_today = self.last_active.as_deref() == Some(&today().to_string());
+        let xp_today = if self.xp_day.as_deref() == Some(&today().to_string()) {
+            self.xp_today
+        } else {
+            0
+        };
+        (
+            level,
+            level_xp,
+            level_needed(level),
+            self.due_count(),
+            active_today,
+            xp_today,
+            self.words_learned(self.lang()),
+        )
+    }
+
     pub fn snapshot(&self) -> ProgressState {
-        let (level, level_title, level_xp) = level_of(self.xp);
+        let (level, level_xp, level_needed, due_count, active_today, xp_today, learned) =
+            self.snapshot_fields();
+        let title = level_parts(self.xp).1;
         ProgressState {
             xp: self.xp,
             level,
-            level_title: level_title.clone(),
+            level_title: title.to_string(),
             level_xp,
-            level_needed: level_needed(level),
+            level_needed,
             streak: self.streak,
             best_streak: self.best_streak,
-            active_today: self.last_active.as_deref() == Some(&today().to_string()),
-            xp_today: if self.xp_day.as_deref() == Some(&today().to_string()) {
-                self.xp_today
-            } else {
-                0
-            },
-            daily_goal: DAILY_GOAL,
+            active_today,
+            xp_today,
+            daily_goal: self.daily_goal,
             total_correct: self.total_correct,
             total_answers: self.total_answers,
-            words_learned: self.words_learned(self.lang()),
-            due_count: self.due_count(),
+            words_learned: learned,
+            due_count,
+            srs_count: self.srs_count(),
             lessons: self.lessons.clone(),
             deck_count: self.deck_count(),
             lang: self.lang.clone(),
+            history: self.history_window(),
+        }
+    }
+
+    pub fn snapshot_ref(&self) -> SnapshotRef<'_> {
+        let (level, level_xp, level_needed, due_count, active_today, xp_today, learned) =
+            self.snapshot_fields();
+        let idx = (level as usize - 1).min(TITLES.len() - 1);
+        SnapshotRef {
+            xp: self.xp,
+            level,
+            level_title: TITLES[idx],
+            level_xp,
+            level_needed,
+            streak: self.streak,
+            best_streak: self.best_streak,
+            active_today,
+            xp_today,
+            daily_goal: self.daily_goal,
+            total_correct: self.total_correct,
+            total_answers: self.total_answers,
+            words_learned: learned,
+            due_count,
+            srs_count: self.srs_count(),
+            lessons: &self.lessons,
+            deck_count: self.deck_count(),
+            lang: &self.lang,
+            history: self.history_window(),
         }
     }
 
@@ -376,7 +593,7 @@ impl Db {
             xp_gained += 10;
         }
 
-        let (level_before, _, _) = level_of(self.xp);
+        let (level_before, _, _) = level_parts(self.xp);
         self.xp += xp_gained;
 
         let tstr = today().to_string();
@@ -385,6 +602,7 @@ impl Db {
             self.xp_today = 0;
         }
         self.xp_today += xp_gained;
+        *self.history.entry(tstr.clone()).or_insert(0) += xp_gained;
 
         let mut streak_up = false;
         match self.last_active.as_deref() {
@@ -413,7 +631,7 @@ impl Db {
 
         let new_words = self.apply_rounds(rounds);
 
-        let (level, level_title, level_xp) = level_of(self.xp);
+        let (level, level_title, level_xp) = level_parts(self.xp);
         SessionSummary {
             xp_gained,
             total_xp: self.xp,
@@ -421,7 +639,7 @@ impl Db {
             streak_up,
             best_streak: self.best_streak,
             level,
-            level_title,
+            level_title: level_title.to_string(),
             level_up: level > level_before,
             level_xp,
             level_needed: level_needed(level),
@@ -433,6 +651,7 @@ impl Db {
             new_words,
             due_count: self.due_count(),
             words_learned: self.words_learned(self.lang()),
+            save_ok: true,
         }
     }
 
@@ -499,6 +718,12 @@ mod tests {
         }
     }
 
+    fn temp_dir(name: &str) -> PathBuf {
+        let dir = std::env::temp_dir().join(format!("tualingua-test-{}-{name}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        dir
+    }
+
     #[test]
     fn level_curve_is_progressive() {
         assert_eq!(level_needed(1), 400);
@@ -510,22 +735,22 @@ mod tests {
 
     #[test]
     fn level_of_walks_the_curve() {
-        let (l, _, x) = level_of(0);
+        let (l, _, x) = level_parts(0);
         assert_eq!((l, x), (1, 0));
-        let (l, _, x) = level_of(399);
+        let (l, _, x) = level_parts(399);
         assert_eq!((l, x), (1, 399));
-        let (l, _, x) = level_of(400);
+        let (l, _, x) = level_parts(400);
         assert_eq!((l, x), (2, 0));
-        let (l, _, x) = level_of(949);
+        let (l, _, x) = level_parts(949);
         assert_eq!((l, x), (2, 549));
-        let (l, _, x) = level_of(950);
+        let (l, _, x) = level_parts(950);
         assert_eq!((l, x), (3, 0));
     }
 
     #[test]
     fn level_title_caps_at_last() {
         let huge = u32::MAX;
-        let (level, title, _) = level_of(huge);
+        let (level, title, _) = level_parts(huge);
         assert!(level > TITLES.len() as u32);
         assert_eq!(title, TITLES[TITLES.len() - 1]);
     }
@@ -666,6 +891,10 @@ mod tests {
         assert_eq!(db.xp, 5);
         assert_eq!(db.deck_count(), 0);
         assert_eq!(db.lang, "en");
+        // Archivos sin version se tratan como v1 (en alias vigente).
+        assert_eq!(db.version, 1);
+        assert_eq!(db.daily_goal, DEFAULT_DAILY_GOAL);
+        assert!(db.history.is_empty());
     }
 
     #[test]
@@ -702,5 +931,134 @@ mod tests {
         assert_eq!(db.lang, "ru");
         assert!(db.set_language("en"));
         assert_eq!(db.lang, "en");
+    }
+
+    #[test]
+    fn daily_goal_is_clamped_and_visible_in_snapshot() {
+        let mut db = Db::default();
+        assert_eq!(db.set_daily_goal(5), MIN_DAILY_GOAL);
+        assert_eq!(db.set_daily_goal(9999), MAX_DAILY_GOAL);
+        assert_eq!(db.set_daily_goal(50), 50);
+        let snap = db.snapshot_ref();
+        assert_eq!(snap.daily_goal, 50);
+        assert!(snap.history.is_empty());
+    }
+
+    #[test]
+    fn session_records_xp_history() {
+        let mut db = Db::default();
+        db.session(None, 3, 4, 0, &[]);
+        let t = today().to_string();
+        assert_eq!(db.history.get(t.as_str()), Some(&30));
+        let window = db.history_window();
+        assert_eq!(window.len(), 1);
+        assert_eq!(window[0].day, t);
+        assert_eq!(window[0].xp, 30);
+        assert_eq!(db.snapshot_ref().history, window);
+    }
+
+    #[test]
+    fn snapshot_ref_json_matches_snapshot() {
+        let mut db = Db::default();
+        db.session(Some("u1l1"), 2, 3, 2, &[round("a", "b", true), round("c", "d", false)]);
+        assert!(db.toggle_deck("Perro", "Dog"));
+        let full = serde_json::to_string(&db.snapshot()).unwrap();
+        let light = serde_json::to_string(&db.snapshot_ref()).unwrap();
+        let a: serde_json::Value = serde_json::from_str(&full).unwrap();
+        let b: serde_json::Value = serde_json::from_str(&light).unwrap();
+        assert_eq!(a, b);
+    }
+
+    #[test]
+    fn save_load_roundtrip_and_rotate_backups() {
+        let dir = temp_dir("save");
+        let path = dir.join("progress.json");
+
+        let mut db = Db::default();
+        db.session(Some("u1l1"), 1, 2, 0, &[round("a", "b", true)]);
+        db.save(&path).expect("primer guardado");
+        assert!(path.exists());
+        assert!(!backup_path(&path, 1).exists());
+
+        let mut db2 = Db::load(&path);
+        db2.session(None, 2, 3, 0, &[]);
+        db2.save(&path).expect("segundo guardado");
+
+        // .bak1 conserva el estado tras el primer guardado
+        assert_eq!(Db::load(&backup_path(&path, 1)).xp, db.xp);
+
+        let loaded = Db::load(&path);
+        assert_eq!(loaded.xp, db2.xp);
+        assert_eq!(loaded.streak, 1);
+
+        for _ in 0..SAVE_BACKUPS {
+            db2.save(&path).expect("guardados de rotación");
+        }
+        for n in 1..=SAVE_BACKUPS {
+            assert!(backup_path(&path, n).exists(), "falta .bak{n}");
+        }
+        let _ = std::fs::remove_dir_all(dir);
+    }
+
+    #[test]
+    fn save_reports_errors_deterministically() {
+        let dir = temp_dir("blocked");
+        std::fs::create_dir_all(&dir).expect("tempdir");
+        let blocker = dir.join("es-un-archivo");
+        std::fs::write(&blocker, "x").expect("bloqueo");
+        let bad = blocker.join("progress.json");
+        let mut db = Db::default();
+        db.session(None, 1, 1, 0, &[]);
+        assert!(db.save(&bad).is_err());
+        let _ = std::fs::remove_dir_all(dir);
+    }
+
+    #[test]
+    fn export_import_roundtrip_preserves_everything() {
+        let mut db = Db::default();
+        db.session(Some("u1l1"), 4, 5, 3, &[round("a", "b", true), round("c", "d", false)]);
+        db.toggle_deck("Perro", "Dog");
+        let raw = db.export_json().expect("export");
+        let restored = Db::import_from_str(&raw).expect("import");
+        assert_eq!(restored.xp, db.xp);
+        assert_eq!(restored.streak, db.streak);
+        assert_eq!(restored.deck, db.deck);
+        assert_eq!(restored.srs, db.srs);
+        assert_eq!(restored.lessons, db.lessons);
+        assert_eq!(restored.history, db.history);
+        assert_eq!(restored.version, SCHEMA_VERSION);
+        assert_eq!(restored, db);
+    }
+
+    #[test]
+    fn import_rejects_corrupt_and_future_versions() {
+        assert!(Db::import_from_str("esto no es json").is_err());
+        let mut db = Db::default();
+        db.session(None, 1, 1, 0, &[]);
+        let mut v: serde_json::Value =
+            serde_json::from_str(&db.export_json().unwrap()).unwrap();
+
+        v.as_object_mut()
+            .unwrap()
+            .insert("version".into(), serde_json::json!(99));
+        let raw_future = serde_json::to_string(&v).unwrap();
+        let err = Db::import_from_str(&raw_future).unwrap_err();
+        assert!(err.contains("más nueva"), "{err}");
+
+        // sin campo version = archivo antiguo v1: se acepta
+        v.as_object_mut().unwrap().remove("version");
+        let raw_old = serde_json::to_string(&v).unwrap();
+        let imported = Db::import_from_str(&raw_old).expect("v1 importable");
+        assert_eq!(imported.version, SCHEMA_VERSION);
+    }
+
+    #[test]
+    fn export_to_path_writes_file() {
+        let dir = temp_dir("export");
+        let target = dir.join("sub").join("backup.json");
+        let raw = Db::default().export_json().unwrap();
+        Db::export_to_path(&target, &raw).expect("export a ruta");
+        assert!(target.exists());
+        let _ = std::fs::remove_dir_all(dir);
     }
 }

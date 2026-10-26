@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Genera los clips de voz (mp3+ogg) del contenido con Piper.
+"""Genera los clips de voz (mp3, y opcionalmente ogg) del contenido con Piper.
 
 Uso:
     python3 scripts/generate_audio.py --lang en --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx
     python3 scripts/generate_audio.py --lang ru --piper <ruta>/piper --model <ruta>/ru_RU-irina-medium.onnx
 
-Los archivos se guardan en public/audio/<lang>/<hash>.{mp3,ogg} donde <hash> se
-calcula igual que en src/lib/audio.ts (FNV-1a x2 sobre el texto normalizado).
+La app solo reproduce mp3 (formato más compatible); `--ogg` genera además una
+copia vorbis para pruebas locales. Los archivos se guardan en
+public/audio/<lang>/<hash>.mp3 donde <hash> se calcula igual que en
+src/lib/audio.ts (FNV-1a x2 sobre el texto normalizado).
 """
 
 import argparse
@@ -73,17 +75,18 @@ def synthesize(piper: Path, model: Path, text: str, wav: Path) -> None:
     )
 
 
-def encode(wav: Path, mp3: Path, ogg: Path) -> None:
+def encode(wav: Path, mp3: Path, ogg: Path | None) -> None:
     subprocess.run(
         ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ac", "1",
          "-ar", "22050", "-b:a", "48k", str(mp3)],
         check=True,
     )
-    subprocess.run(
-        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ac", "1",
-         "-ar", "22050", "-c:a", "libvorbis", "-q:a", "3", str(ogg)],
-        check=True,
-    )
+    if ogg is not None:
+        subprocess.run(
+            ["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-ac", "1",
+             "-ar", "22050", "-c:a", "libvorbis", "-q:a", "3", str(ogg)],
+            check=True,
+        )
 
 
 def main() -> int:
@@ -91,6 +94,11 @@ def main() -> int:
     parser.add_argument("--lang", choices=("en", "ru"), default="en")
     parser.add_argument("--piper", required=True)
     parser.add_argument("--model", required=True)
+    parser.add_argument(
+        "--ogg",
+        action="store_true",
+        help="genera también .ogg (solo para pruebas; la app usa mp3)",
+    )
     parser.add_argument(
         "--prune",
         action="store_true",
@@ -114,8 +122,8 @@ def main() -> int:
         for i, text in enumerate(strings, 1):
             key = clip_key(text)
             mp3 = out_dir / f"{key}.mp3"
-            ogg = out_dir / f"{key}.ogg"
-            if mp3.exists() and ogg.exists():
+            ogg = out_dir / f"{key}.ogg" if args.ogg else None
+            if mp3.exists() and (ogg is None or ogg.exists()):
                 skipped += 1
                 continue
             synthesize(piper, model, text, wav)

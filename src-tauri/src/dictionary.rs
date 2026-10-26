@@ -29,29 +29,63 @@ const SOURCES: [(&str, &str); 2] = [
 
 static DICTIONARIES: OnceLock<HashMap<String, Vec<DictCategory>>> = OnceLock::new();
 
+fn init_dictionaries() -> HashMap<String, Vec<DictCategory>> {
+    SOURCES
+        .iter()
+        .map(|(id, src)| {
+            (
+                id.to_string(),
+                serde_json::from_str::<Vec<DictCategory>>(src)
+                    .expect("diccionario JSON inválido"),
+            )
+        })
+        .collect()
+}
+
 pub fn dictionary(lang: &str) -> &'static [DictCategory] {
-    let dicts = DICTIONARIES.get_or_init(|| {
-        SOURCES
-            .iter()
-            .map(|(id, src)| {
-                (
-                    id.to_string(),
-                    serde_json::from_str::<Vec<DictCategory>>(src)
-                        .expect("diccionario JSON inválido"),
-                )
-            })
-            .collect()
-    });
+    let dicts = DICTIONARIES.get_or_init(init_dictionaries);
     dicts
         .get(normalize_lang(lang))
         .map(|v| v.as_slice())
         .unwrap()
 }
 
+/// Diccionario ya serializado (por idioma), cacheado para no re-serializar
+/// en cada llamada IPC.
+pub fn dictionary_json(lang: &str) -> &'static serde_json::Value {
+    static DICT_JSON: OnceLock<HashMap<String, serde_json::Value>> = OnceLock::new();
+    let json = DICT_JSON.get_or_init(|| {
+        dictionary("en");
+        SOURCES
+            .iter()
+            .map(|(id, _)| {
+                let v = serde_json::to_value(dictionary(id)).expect("serializar diccionario");
+                (id.to_string(), v)
+            })
+            .collect()
+    });
+    json
+        .get(normalize_lang(lang))
+        .expect("diccionario json del idioma")
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
     use crate::catalog::languages;
+
+    #[test]
+    fn dictionary_json_matches_dictionary() {
+        for lang in ["en", "ru"] {
+            let cats = dictionary(lang);
+            let value = dictionary_json(lang);
+            let arr = value.as_array().expect("diccionario json es un array");
+            assert_eq!(arr.len(), cats.len());
+            for (cat, json) in cats.iter().zip(arr) {
+                assert_eq!(json.get("id"), Some(&serde_json::json!(cat.id)));
+            }
+        }
+    }
 
     #[test]
     fn dictionary_is_valid() {

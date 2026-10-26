@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from "react";
 import type { DictCategory, Phrase } from "../types";
 import { shuffled } from "../lib/text";
 import { sfx, speak, vibrate } from "../lib/audio";
+import { plural, t, useUiLang } from "../i18n";
 import { deckKeyOf } from "./Dictionary";
 
 export default function Flashcards({
@@ -21,6 +22,7 @@ export default function Flashcards({
   onOpenDictionary: () => void;
   onStartQuiz: () => void;
 }) {
+  useUiLang();
   const [studying, setStudying] = useState(false);
   const [confirming, setConfirming] = useState(false);
   const studyRef = useRef(Date.now());
@@ -58,23 +60,20 @@ export default function Flashcards({
   return (
     <div className="screen fc">
       <header className="page-head">
-        <button className="icon-btn" onClick={onBack} aria-label="Volver">
+        <button className="icon-btn" onClick={onBack} aria-label={t("d.back")}>
           ‹
         </button>
-        <h2 className="page-title">Flashcards</h2>
+        <h2 className="page-title">{t("f.title")}</h2>
         <span className="chip-stat dim">🃏 <b>{deck.length}</b></span>
       </header>
 
       {deck.length === 0 ? (
         <div className="fc-empty">
           <p className="fc-empty-emoji">🃏</p>
-          <h3>Tu mazo está vacío</h3>
-          <p className="fc-empty-text">
-            Elige palabras en el diccionario y aparecerán aquí para estudiarlas
-            con tarjetas y ejercicios.
-          </p>
+          <h3>{t("f.empty_title")}</h3>
+          <p className="fc-empty-text">{t("f.empty_text")}</p>
           <button className="btn big btn-primary" onClick={onOpenDictionary}>
-            Ir al diccionario 📖
+            {t("f.go_dict")}
           </button>
         </div>
       ) : (
@@ -88,22 +87,19 @@ export default function Flashcards({
                 setStudying(true);
               }}
             >
-              🃏 Estudiar tarjetas
+              {t("f.study")}
             </button>
             <button
               className="btn big ghost"
               onClick={onStartQuiz}
               disabled={deck.length < 2}
             >
-              ✍️ Practicar con ejercicios
+              {t("f.practice")}
             </button>
           </div>
-          <p className="fc-hint">
-            Toca las tarjetas para pasar del español al inglés. Practicar genera
-            XP y refuerza tu repaso.
-          </p>
+          <p className="fc-hint">{t("f.hint")}</p>
 
-          <p className="sheet-label">Tu mazo</p>
+          <p className="sheet-label">{t("f.deck")}</p>
           <div className="word-list">
             {deck.map((p) => {
               const pos = posOf.get(deckKeyOf(p));
@@ -112,12 +108,12 @@ export default function Flashcards({
                   <div className="word-click">
                     <p className="word-en">
                       {p.t}
-                      {pos && <span className="pos-pill">{pos}</span>}
+                      {pos && <span className="pos-pill">{t(`pos.${pos}`)}</span>}
                     </p>
                     <p className="word-es">{p.es}</p>
                   </div>
                   <div className="word-actions">
-                    <button className="spk" onClick={() => speak(p.t)} aria-label={`Escuchar ${p.t}`}>
+                    <button className="spk" onClick={() => speak(p.t)} aria-label={t("f.listen", { word: p.t })}>
                       🔊
                     </button>
                     <button
@@ -126,7 +122,7 @@ export default function Flashcards({
                         sfx.tap();
                         onRemove(p);
                       }}
-                      aria-label="Quitar del mazo"
+                      aria-label={t("f.remove")}
                     >
                       ✕
                     </button>
@@ -137,7 +133,7 @@ export default function Flashcards({
           </div>
 
           <button className="btn big danger-btn fc-clear" onClick={clearDeck}>
-            {confirming ? "¿Seguro? Toca otra vez" : "Vaciar mazo"}
+            {confirming ? t("f.confirm") : t("f.clear")}
           </button>
         </>
       )}
@@ -156,13 +152,14 @@ function StudyMode({
   seed: number;
   onExit: () => void;
 }) {
+  useUiLang();
   const order = useMemo(() => shuffled(cards, seed), [cards, seed]);
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
   const card = order[i];
-  const pos = posOf.get(deckKeyOf(card));
   const done = i >= order.length;
+  const pos = done ? undefined : posOf.get(deckKeyOf(card));
 
   function reveal() {
     if (done || flipped) return;
@@ -189,12 +186,15 @@ function StudyMode({
       <div className="screen fc">
         <div className="fc-end">
           <p className="fc-empty-emoji">✅</p>
-          <h3>¡Mazo revisado!</h3>
+          <h3>{t("f.done")}</h3>
           <p className="fc-empty-text">
-            Has repasado {order.length} {order.length === 1 ? "tarjeta" : "tarjetas"}.
+            {t("f.done_text", {
+              n: order.length,
+              s: plural(order.length, "f.card_one", "f.card_many"),
+            })}
           </p>
           <button className="btn big btn-primary" onClick={onExit}>
-            Volver al mazo
+            {t("home.back")}
           </button>
         </div>
       </div>
@@ -204,7 +204,7 @@ function StudyMode({
   return (
     <div className="screen fc study">
       <header className="page-head">
-        <button className="icon-btn" onClick={onExit} aria-label="Salir del estudio">
+        <button className="icon-btn" onClick={onExit} aria-label={t("f.exit_study")}>
           ✕
         </button>
         <p className="fc-progress">
@@ -219,26 +219,26 @@ function StudyMode({
         role="button"
         tabIndex={0}
         onKeyDown={(e) => {
-          if (e.key === "Enter") reveal();
+          if (e.key === "Enter" || e.key === " ") reveal();
         }}
-        aria-label={flipped ? card.t : card.es}
+        aria-label={flipped ? card.t : `${card.es} · ${t("f.reveal")}`}
       >
         {!flipped ? (
           <>
             <p className="fc-front">{card.es}</p>
-            <p className="fc-hint">Toca para ver la palabra</p>
+            <p className="fc-hint">{t("f.reveal")}</p>
           </>
         ) : (
           <>
             <p className="fc-back">{card.t}</p>
-            {pos && <span className="pos-pill">{pos}</span>}
+            {pos && <span className="pos-pill">{t(`pos.${pos}`)}</span>}
             <button
               className="spk big-spk"
               onClick={(e) => {
                 e.stopPropagation();
                 speak(card.t);
               }}
-              aria-label="Escuchar"
+              aria-label={t("f.listen_btn")}
             >
               🔊
             </button>
@@ -248,10 +248,10 @@ function StudyMode({
 
       <div className="fc-foot">
         <button className="btn ghost" onClick={prev} disabled={i === 0}>
-          ‹ Anterior
+          {t("f.prev")}
         </button>
         <button className="btn btn-primary" onClick={next} disabled={flipped}>
-          {i + 1 === order.length ? "Terminar ›" : "Siguiente ›"}
+          {i + 1 === order.length ? t("f.finish") : t("f.next")}
         </button>
       </div>
     </div>

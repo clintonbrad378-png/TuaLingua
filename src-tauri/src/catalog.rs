@@ -54,9 +54,9 @@ fn sources(id: &str) -> Option<&[&str]> {
 
 pub const EN: &str = "en";
 
-fn parse_units(srcs: &[&str]) -> Vec<Unit> {
+fn parse_units(srcs: &[&str]) -> Result<Vec<Unit>, String> {
     srcs.iter()
-        .map(|s| serde_json::from_str::<Unit>(s).expect("contenido JSON inválido"))
+        .map(|s| serde_json::from_str::<Unit>(s).map_err(|e| format!("contenido JSON inválido: {e}")))
         .collect()
 }
 
@@ -158,19 +158,65 @@ pub fn normalize_lang(id: &str) -> &'static str {
 
 static CATALOGS: OnceLock<HashMap<String, Vec<Unit>>> = OnceLock::new();
 
+fn init_catalogs() -> Result<HashMap<String, Vec<Unit>>, String> {
+    let mut map = HashMap::new();
+    for l in languages() {
+        let srcs = sources(&l.id).ok_or_else(|| format!("{} sin fuentes", l.id))?;
+        map.insert(l.id.clone(), parse_units(srcs)?);
+    }
+    Ok(map)
+}
+
 pub fn catalog(id: &str) -> &'static [Unit] {
     let catalogs = CATALOGS.get_or_init(|| {
+        init_catalogs().expect("contenido de unidades inválido")
+    });
+    catalogs
+        .get(normalize_lang(id))
+        .map(|v| v.as_slice())
+        .unwrap()
+}
+
+/// Catálogo ya serializado (por idioma), cacheado para no re-serializar el
+/// contenido completo en cada llamada IPC.
+pub fn catalog_json(id: &str) -> &'static serde_json::Value {
+    static CATALOG_JSON: OnceLock<HashMap<String, serde_json::Value>> = OnceLock::new();
+    let map = CATALOG_JSON.get_or_init(|| {
+        catalog(EN); // valida contenido antes de serializar
         languages()
             .iter()
-            .map(|l| (l.id.clone(), parse_units(sources(&l.id).unwrap())))
+            .map(|l| {
+                let v = serde_json::to_value(catalog(&l.id)).expect("serializar catálogo");
+                (l.id.clone(), v)
+            })
             .collect()
     });
-    catalogs.get(normalize_lang(id)).map(|v| v.as_slice()).unwrap()
+    map
+        .get(normalize_lang(id))
+        .expect("catálogo json del idioma")
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn catalog_json_matches_catalog() {
+        for lang in ["en", "ru"] {
+            let units = catalog(lang);
+            let value = catalog_json(lang);
+            let arr = value.as_array().expect("catálogo json es un array");
+            assert_eq!(arr.len(), units.len());
+            for (unit, json) in units.iter().zip(arr) {
+                assert_eq!(json.get("id"), Some(&serde_json::json!(unit.id)));
+                assert_eq!(
+                    json.get("title").and_then(|t| t.as_str()),
+                    Some(unit.title.as_str())
+                );
+            }
+        }
+        let _ = catalog_json("desconocido"); // cae al inglés sin paniquear
+    }
 
     fn assert_capitalized(es: &str, t: &str, label: &str) {
         if let Some(c) = es.chars().next() {

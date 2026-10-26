@@ -2,6 +2,10 @@ const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
 import { langBcp47, langOf } from "./langs";
 
+/* Solo mp3: los dos formatos duplicaban el tamaño de la app y los WebViews
+ * donde corre Tauri (Chromium/WKWebView/webkit2gtk) reproducen mp3 sin
+ * problemas. Si un clip falla, la cadena cae al TTS del sistema. */
+
 let ctx: AudioContext | null = null;
 let muted = false;
 let activated = false;
@@ -117,8 +121,8 @@ const clips = new Map<string, HTMLAudioElement>();
 const MAX_CLIPS = 64;
 let current: HTMLAudioElement | null = null;
 
-function clipUrl(text: string, ext: string): string {
-  return `${BASE}/audio/${voiceLang}/${clipKey(text)}.${ext}`;
+function trimUrl(text: string): string {
+  return `${BASE}/audio/${voiceLang}/${clipKey(text)}.mp3`;
 }
 
 function evictStaleClips() {
@@ -154,8 +158,7 @@ function clipEl(url: string): HTMLAudioElement {
 }
 
 export function preloadClip(text: string) {
-  const url = clipUrl(text, "mp3");
-  const el = clipEl(url);
+  const el = clipEl(trimUrl(text));
   try {
     el.load();
   } catch {
@@ -177,22 +180,15 @@ export function stopSpeech() {
 }
 
 function playChain(text: string, rate: number) {
-  const urls = [clipUrl(text, "mp3"), clipUrl(text, "ogg")];
-  let index = 0;
-
   const attempt = () => {
-    if (index >= urls.length) {
-      ttsSpeak(text, rate);
-      return;
-    }
-    const el = clipEl(urls[index++]);
+    const el = clipEl(trimUrl(text));
     let handled = false;
     const fail = (err?: unknown) => {
       if (handled) return;
       if (err && typeof err === "object" && (err as { name?: string }).name === "AbortError") return;
       handled = true;
       el.onerror = null;
-      attempt();
+      ttsSpeak(text, rate);
     };
     el.onerror = () => fail();
     try {

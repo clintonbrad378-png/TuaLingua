@@ -1,0 +1,130 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  checks:
+    name: Lint · types · tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+          cache-targets: false
+
+      - name: Instalar dependencias JS
+        run: npm ci
+
+      - name: Verificar clips de audio
+        run: |
+          python3 scripts/check_audio.py --lang en
+          python3 scripts/check_audio.py --lang ru
+
+      - name: ESLint
+        run: npm run lint
+
+      - name: TypeScript
+        run: npm run typecheck
+
+      - name: Vitest
+        run: npm run test
+
+      - name: Tests de Rust
+        run: cargo test
+        working-directory: src-tauri
+
+  desktop:
+    name: Build escritorio (Linux)
+    runs-on: ubuntu-latest
+    needs: checks
+    env:
+      TAURI_SIGNING_PRIVATE_KEY: ""
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - name: Instalar dependencias de Tauri (Linux)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libxdo-dev \
+            libssl-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev
+
+      - name: Instalar Tauri CLI
+        run: |
+          # La versión del CLI debe coincidir con la crate `tauri` de Cargo.lock.
+          CLI_VERSION=$(awk '/^name = "tauri"$/ {f=1} f && /^version = / {gsub(/"/, "", $3); print $3; exit}' src-tauri/Cargo.lock)
+          echo "tauri-cli $CLI_VERSION"
+          curl -sSL -o /tmp/cargo-tauri.tgz \
+            "https://github.com/tauri-apps/tauri/releases/download/tauri-cli-v${CLI_VERSION}/cargo-tauri-x86_64-unknown-linux-gnu.tgz"
+          tar -xzf /tmp/cargo-tauri.tgz -C /tmp
+          mkdir -p "$HOME/.cargo/bin"
+          mv /tmp/cargo-tauri "$HOME/.cargo/bin/cargo-tauri"
+          chmod +x "$HOME/.cargo/bin/cargo-tauri"
+          cargo tauri --version
+
+      - name: Instalar dependencias JS
+        run: npm ci
+
+      - name: Build AppImage + deb
+        run: npm run tauri -- build
+
+      - name: Recopilar bundles
+        run: |
+          mkdir -p out
+          cp src-tauri/target/release/bundle/appimage/*.AppImage out/ 2>/dev/null || true
+          cp src-tauri/target/release/bundle/deb/*.deb out/ 2>/dev/null || true
+          ls -lh out/
+
+      - name: Subir artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TuaLingua-desktop-linux-${{ runner.os }}
+          path: out/*
+          if-no-files-found: warn
+
+      - name: Publicar release en tags v*
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: out/*
+          generate_release_notes: true

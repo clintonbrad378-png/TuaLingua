@@ -8,11 +8,14 @@ import type {
   ProgressState,
   RoundResult,
   SessionSummary,
+  SrsCard,
   Unit,
 } from "./types";
 import { api, buildFlashExercises, buildReview, poolOf } from "./api";
 import { DEFAULT_LANG, langOf } from "./lib/langs";
 import { markActivated, setVoiceLanguage, warmUpVoices } from "./lib/audio";
+import { t as tr, useUiLang } from "./i18n";
+import { open as fileOpen, save as fileSave } from "@tauri-apps/plugin-dialog";
 import Home from "./screens/Home";
 import Player from "./screens/Player";
 import Summary from "./screens/Summary";
@@ -20,6 +23,7 @@ import Dictionary from "./screens/Dictionary";
 import Flashcards from "./screens/Flashcards";
 import StatsSheet from "./components/StatsSheet";
 import Mascot from "./components/Mascot";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 type Screen =
   | { name: "home" }
@@ -30,7 +34,10 @@ type Screen =
   | { name: "flash-quiz"; exercises: Exercise[]; session: number }
   | { name: "summary"; summary: SessionSummary; mode: "lesson" | "review" | "flash"; lesson?: Lesson; exercises?: Exercise[] };
 
+const JSON_FILTER = { name: "TuaLingua · JSON", extensions: ["json"] };
+
 export default function App() {
+  useUiLang();
   const [langs, setLangs] = useState<LanguageInfo[]>([]);
   const [units, setUnits] = useState<Unit[] | null>(null);
   const [dict, setDict] = useState<DictCategory[] | null>(null);
@@ -39,6 +46,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [statsOpen, setStatsOpen] = useState(false);
+  const [dueSoon, setDueSoon] = useState<SrsCard[] | null>(null);
   const [lang, setLang] = useState(DEFAULT_LANG);
   const [switching, setSwitching] = useState<string | null>(null);
 
@@ -65,25 +73,42 @@ export default function App() {
 
   useEffect(() => {
     void load();
+    const warm = () => {
+      markActivated();
+      warmUpVoices();
+    };
+    window.addEventListener("pointerdown", warm);
+    const unlock = (e: KeyboardEvent) => {
+      if (e.key === "Enter" || e.key === " ") warm();
+    };
+    window.addEventListener("keydown", unlock);
+    return () => {
+      window.removeEventListener("pointerdown", warm);
+      window.removeEventListener("keydown", unlock);
+    };
   }, [load]);
 
   useEffect(() => {
     setVoiceLanguage(lang);
   }, [lang]);
 
-  useEffect(() => {
-    const warm = () => {
-      markActivated();
-      warmUpVoices();
-    };
-    window.addEventListener("pointerdown", warm);
-    return () => window.removeEventListener("pointerdown", warm);
-  }, []);
-
   async function refreshProgress() {
-    const p = await api.progress();
-    setProgress(p);
-    setLang(p.lang);
+    try {
+      const p = await api.progress();
+      setProgress(p);
+      setLang(p.lang);
+    } catch (e) {
+      setError(String(e));
+    }
+  }
+
+  function handleStats() {
+    setStatsOpen(true);
+    setDueSoon(null);
+    api
+      .review(6)
+      .then(setDueSoon)
+      .catch(() => setDueSoon([]));
   }
 
   async function handleSwitchLanguage() {
@@ -203,10 +228,45 @@ export default function App() {
   }
 
   async function handleReset() {
-    const p = await api.reset();
+    try {
+      const p = await api.reset();
+      setProgress(p);
+      setLang(langOf(p.lang).id);
+      setScreen({ name: "home" });
+    } catch (e) {
+      setError(String(e));
+    }
+  }
+
+  async function handleExport(): Promise<boolean> {
+    if (!progress) return false;
+    const target = await fileSave({
+      title: tr("st.export"),
+      defaultPath: "progreso.json",
+      filters: [JSON_FILTER],
+    });
+    if (!target) return false;
+    const json = await api.exportJson();
+    await api.saveExport(target, json);
+    setError(null);
+    return true;
+  }
+
+  async function handleImport(): Promise<boolean> {
+    const picked = await fileOpen({
+      title: tr("st.import"),
+      multiple: false,
+      filters: [JSON_FILTER],
+    });
+    if (!picked || Array.isArray(picked)) return false;
+    const p = await api.importFrom(picked);
+    setScreen({ name: "home" });
+    setSwitching(null);
     setProgress(p);
     setLang(langOf(p.lang).id);
-    setScreen({ name: "home" });
+    await load();
+    setError(null);
+    return true;
   }
 
   if (error && !units) {
@@ -214,10 +274,10 @@ export default function App() {
       <div className="app">
         <div className="screen splash">
           <Mascot mood="sad" size={110} />
-          <p className="tag">Algo ha ido mal</p>
+          <p className="tag">{tr("app.something_went_wrong")}</p>
           <p className="error-text">{error}</p>
           <button className="btn btn-primary" onClick={() => void load()}>
-            Reintentar
+            {tr("app.retry")}
           </button>
         </div>
       </div>
@@ -232,7 +292,7 @@ export default function App() {
           <h1 className="brand">
             Tua<span>Lingua</span>
           </h1>
-          <p className="tag">Aprende idiomas, directo al grano</p>
+          <p className="tag">{tr("app.tagline")}</p>
           <div className="dots">
             <i />
             <i />
@@ -244,159 +304,189 @@ export default function App() {
   }
 
   return (
-    <div className="app">
-      {error && (
-        <div className="error-banner" role="alert">
-          <span>⚠️ {error}</span>
-          <button
-            className="btn banner-btn"
-            onClick={() => void load()}
-            aria-label="Reintentar"
-          >
-            Reintentar
-          </button>
-          <button className="icon-btn" onClick={() => setError(null)} aria-label="Cerrar">
-            ✕
-          </button>
-        </div>
-      )}
-      {screen.name === "home" && (
-        <Home
-          langs={langs}
-          lang={lang}
-          switching={switching}
-          onSwitchPick={(id) => setSwitching(id === lang ? null : id)}
-          onSwitchConfirm={() => void handleSwitchLanguage()}
-          onSwitchCancel={() => setSwitching(null)}
-          units={units}
-          progress={progress}
-          onStart={(unit, lesson) =>
-            setScreen({ name: "lesson", unit, lesson, session: Date.now() })
-          }
-          onReview={() => void startReview()}
-          onStats={() => setStatsOpen(true)}
-          onDictionary={() => setScreen({ name: "dictionary" })}
-          onFlashcards={() => setScreen({ name: "flashcards" })}
-        />
-      )}
+    <ErrorBoundary>
+      <div className="app">
+        {error && (
+          <div className="error-banner" role="alert">
+            <span>⚠️ {error}</span>
+            <button
+              className="btn banner-btn"
+              onClick={() => void load()}
+              aria-label={tr("app.retry")}
+            >
+              {tr("app.retry")}
+            </button>
+            <button className="icon-btn" onClick={() => setError(null)} aria-label={tr("app.close")}>
+              ✕
+            </button>
+          </div>
+        )}
+        {screen.name === "home" && (
+          <Home
+            langs={langs}
+            lang={lang}
+            switching={switching}
+            onSwitchPick={(id) => setSwitching(id === lang ? null : id)}
+            onSwitchConfirm={() => void handleSwitchLanguage()}
+            onSwitchCancel={() => setSwitching(null)}
+            units={units}
+            progress={progress}
+            onStart={(unit, lesson) =>
+              setScreen({ name: "lesson", unit, lesson, session: Date.now() })
+            }
+            onReview={() => void startReview()}
+            onStats={handleStats}
+            onDictionary={() => setScreen({ name: "dictionary" })}
+            onFlashcards={() => setScreen({ name: "flashcards" })}
+          />
+        )}
 
-      {screen.name === "dictionary" && dict && (
-        <Dictionary
-          lang={lang}
-          categories={dict}
-          deck={deck}
-          onBack={() => {
-            void refreshProgress();
-            setScreen({ name: "home" });
-          }}
-          onToggle={toggleDeckCard}
-          onSeeDeck={() => setScreen({ name: "flashcards" })}
-        />
-      )}
+        {screen.name === "dictionary" && dict && (
+          <Dictionary
+            lang={lang}
+            categories={dict}
+            deck={deck}
+            onBack={() => {
+              void refreshProgress();
+              setScreen({ name: "home" });
+            }}
+            onToggle={toggleDeckCard}
+            onSeeDeck={() => setScreen({ name: "flashcards" })}
+          />
+        )}
 
-      {screen.name === "flashcards" && dict && (
-        <Flashcards
-          dictCategories={dict}
-          deck={deck}
-          onBack={() => {
-            void refreshProgress();
-            setScreen({ name: "home" });
-          }}
-          onRemove={toggleDeckCard}
-          onClear={() => {
-            const d = [...deck];
-            setDeck([]);
-            api
-              .clearDeck()
-              .then((persist) => setDeck(persist))
-              .catch(() => setDeck(d));
-            void refreshProgress();
-          }}
-          onOpenDictionary={() => setScreen({ name: "dictionary" })}
-          onStartQuiz={startFlashQuiz}
-        />
-      )}
+        {screen.name === "flashcards" && dict && (
+          <Flashcards
+            dictCategories={dict}
+            deck={deck}
+            onBack={() => {
+              void refreshProgress();
+              setScreen({ name: "home" });
+            }}
+            onRemove={toggleDeckCard}
+            onClear={() => {
+              const d = [...deck];
+              setDeck([]);
+              api
+                .clearDeck()
+                .then((persist) => setDeck(persist))
+                .catch(() => setDeck(d));
+              void refreshProgress();
+            }}
+            onOpenDictionary={() => setScreen({ name: "dictionary" })}
+            onStartQuiz={startFlashQuiz}
+          />
+        )}
 
-      {screen.name === "flash-quiz" && (
-        <Player
-          key={screen.session}
-          mode="flash"
-          lang={lang}
-          exercises={screen.exercises}
-          onExit={() => {
-            void refreshProgress();
-            setScreen({ name: "home" });
-          }}
-          onFinish={(c, t, m, r) => void handleFlashQuizFinish(screen.exercises, c, t, m, r)}
-        />
-      )}
+        {screen.name === "flash-quiz" && (
+          <Player
+            key={screen.session}
+            mode="flash"
+            lang={lang}
+            exercises={screen.exercises}
+            onExit={() => {
+              void refreshProgress();
+              setScreen({ name: "home" });
+            }}
+            onFinish={(c, t, m, r) => void handleFlashQuizFinish(screen.exercises, c, t, m, r)}
+          />
+        )}
 
-      {screen.name === "lesson" && (
-        <Player
-          key={screen.session}
-          mode="lesson"
-          lang={lang}
-          exercises={screen.lesson.exercises}
-          onExit={() => setScreen({ name: "home" })}
-          onFinish={(c, t, m, r) => void handleLessonFinish(screen.lesson, c, t, m, r)}
-        />
-      )}
+        {screen.name === "lesson" && (
+          <Player
+            key={screen.session}
+            mode="lesson"
+            lang={lang}
+            exercises={screen.lesson.exercises}
+            onExit={() => setScreen({ name: "home" })}
+            onFinish={(c, t, m, r) => void handleLessonFinish(screen.lesson, c, t, m, r)}
+          />
+        )}
 
-      {screen.name === "review" && (
-        <Player
-          key={screen.session}
-          mode="review"
-          lang={lang}
-          exercises={screen.exercises}
-          onExit={() => setScreen({ name: "home" })}
-          onFinish={(c, t, m, r) => void handleReviewFinish(c, t, m, r)}
-        />
-      )}
+        {screen.name === "review" && (
+          <Player
+            key={screen.session}
+            mode="review"
+            lang={lang}
+            exercises={screen.exercises}
+            onExit={() => setScreen({ name: "home" })}
+            onFinish={(c, t, m, r) => void handleReviewFinish(c, t, m, r)}
+          />
+        )}
 
-      {screen.name === "summary" && (
-        <Summary
-          summary={screen.summary}
-          mode={screen.mode}
-          lessonTitle={screen.lesson?.title}
-          onContinue={() => {
-            void refreshProgress();
-            setScreen({ name: "home" });
-          }}
-          onRetry={
-            screen.lesson
-              ? () =>
-                  setScreen({
-                    name: "lesson",
-                    unit: units.find((u) => u.lessons.some((l) => l.id === screen.lesson!.id))!,
-                    lesson: screen.lesson!,
-                    session: Date.now(),
-                  })
-              : screen.exercises && dict
+        {screen.name === "summary" && (
+          <Summary
+            summary={screen.summary}
+            mode={screen.mode}
+            lessonTitle={screen.lesson?.title}
+            onContinue={() => {
+              void refreshProgress();
+              setScreen({ name: "home" });
+            }}
+            onRetry={
+              screen.lesson
                 ? () =>
                     setScreen({
-                      name: "flash-quiz",
-                      exercises: buildFlashExercises(
-                        screen.exercises!.flatMap((ex) =>
-                          ex.pair ? [{ es: ex.pair.es, t: ex.pair.t }] : [],
-                        ),
-                        flashPool,
-                        lang,
-                      ),
+                      name: "lesson",
+                      unit: units.find((u) => u.lessons.some((l) => l.id === screen.lesson!.id))!,
+                      lesson: screen.lesson!,
                       session: Date.now(),
                     })
-                : undefined
-          }
-        />
-      )}
+                : screen.exercises && dict
+                  ? () =>
+                      setScreen({
+                        name: "flash-quiz",
+                        exercises: buildFlashExercises(
+                          screen.exercises!.flatMap((ex) =>
+                            ex.pair ? [{ es: ex.pair.es, t: ex.pair.t }] : [],
+                          ),
+                          flashPool,
+                          lang,
+                        ),
+                        session: Date.now(),
+                      })
+                  : undefined
+            }
+          />
+        )}
 
-      {statsOpen && (
-        <StatsSheet
-          units={units}
-          progress={progress}
-          onClose={() => setStatsOpen(false)}
-          onReset={handleReset}
-        />
-      )}
-    </div>
+        {statsOpen && progress && (
+          <StatsSheet
+            units={units}
+            progress={progress}
+            dueSoon={dueSoon}
+            onClose={() => {
+              setStatsOpen(false);
+              void refreshProgress();
+            }}
+            onReset={handleReset}
+            onDailyGoal={(goal) =>
+              api
+                .setDailyGoal(goal)
+                .then((p) => {
+                  setProgress(p);
+                  return true;
+                })
+                .catch((e) => {
+                  setError(String(e));
+                  return false;
+                })
+            }
+            onExport={() =>
+              handleExport().catch((e) => {
+                setError(String(e));
+                return false;
+              })
+            }
+            onImport={() =>
+              handleImport().catch((e) => {
+                setError(String(e));
+                return false;
+              })
+            }
+          />
+        )}
+      </div>
+    </ErrorBoundary>
   );
 }

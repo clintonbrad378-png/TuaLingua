@@ -60,6 +60,11 @@ export type LessonProgress = {
   times: number;
 };
 
+export type HistoryDay = {
+  day: string;
+  xp: number;
+};
+
 export type ProgressState = {
   xp: number;
   level: number;
@@ -75,9 +80,11 @@ export type ProgressState = {
   total_answers: number;
   words_learned: number;
   due_count: number;
+  srs_count: number;
   lessons: Record<string, LessonProgress>;
   deck_count: number;
   lang: string;
+  history: HistoryDay[];
 };
 
 export type SessionSummary = {
@@ -99,6 +106,7 @@ export type SessionSummary = {
   new_words: Phrase[];
   due_count: number;
   words_learned: number;
+  save_ok: boolean;
 };
 
 export type SrsCard = {

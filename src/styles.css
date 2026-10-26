@@ -1771,3 +1771,206 @@ textarea {
   color: var(--muted);
   font-size: 12.5px;
 }
+
+/* ---------- a11y: foco visible para teclado ---------- */
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* ---------- escritorio/tableta: columna centrada ---------- */
+
+@media (min-width: 700px) {
+  body {
+    padding-inline: 12px;
+  }
+  .app {
+    border-inline: 1px solid var(--line);
+    border-radius: 0 0 18px 18px;
+    min-height: calc(100dvh - env(safe-area-inset-bottom));
+  }
+}
+
+/* ---------- StatsSheet: ajustes, calendario, SRS ---------- */
+
+.set-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.set-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  background: var(--sunken);
+}
+
+.set-name {
+  font-size: 13.5px;
+  color: var(--ink);
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.set-ctl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+}
+
+.set-val {
+  min-width: 44px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.step-btn {
+  min-width: 40px;
+  padding: 8px 10px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  background: var(--raised);
+  color: var(--ink);
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.15s;
+}
+
+.step-btn:active:not(:disabled) {
+  transform: translateY(2px);
+}
+
+.step-btn:disabled {
+  opacity: 0.4;
+}
+
+.step-btn.aux {
+  font-size: 13px;
+  padding: 8px 12px;
+}
+
+.step-btn.on {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary-2);
+}
+
+.sheet-hint {
+  color: var(--muted);
+  font-size: 12px;
+  margin: -4px 0 12px;
+}
+
+.sheet-toast {
+  background: var(--good-bg);
+  color: var(--good-ink);
+  border: 1.5px solid var(--good);
+  border-radius: 12px;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.cal {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-auto-flow: column;
+  grid-template-rows: repeat(7, 10px);
+  gap: 3px;
+  margin-bottom: 6px;
+}
+
+.cal-cell {
+  border-radius: 3px;
+  background: var(--raised);
+  min-height: 10px;
+}
+
+.cal-cell.lvl1 {
+  background: #2e4a3f;
+}
+
+.cal-cell.lvl2 {
+  background: var(--good-shadow);
+  box-shadow: inset 0 0 0 1px var(--good);
+}
+
+.cal-cell.lvl3 {
+  background: #18794d;
+}
+
+.cal-cell.lvl4 {
+  background: var(--good);
+}
+
+.due-list {
+  list-style: none;
+  margin: 0 0 14px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.due-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--sunken);
+  border: 1.5px solid var(--line);
+  font-size: 14px;
+}
+
+.due-list .due-es {
+  flex: 1;
+}
+
+.due-list .due-t {
+  flex: 1;
+  font-weight: 700;
+}
+
+.due-list .due-reps {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.dots.sm i {
+  width: 8px;
+  height: 8px;
+}
+
+/* ---------- Summary: aviso de guardado ---------- */
+
+.save-warn {
+  background: var(--bad-bg);
+  color: var(--bad-ink);
+  border: 1.5px solid var(--bad);
+  border-radius: 12px;
+  padding: 9px 13px;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+/* ---------- Player: modal de salida ---------- */
+
+.player .overlay .sheet {
+  max-width: 92vw;
+}

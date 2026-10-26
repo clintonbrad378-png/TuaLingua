@@ -2,8 +2,9 @@
 """Comprueba que cada texto hablado por la app tenga su clip de audio.
 
 Calcula la clave FNV-1a de cada texto (igual que src/lib/audio.ts y
-generate_audio.py) y verifica que exista el par <clave>.mp3 + <clave>.ogg
-en public/audio/<lang>, y que no queden clips huérfanos.
+generate_audio.py) y verifica que exista <clave>.mp3 en public/audio/<lang>,
+y que no queden clips huérfanos (incluye .ogg sobrantes de versiones
+anteriores: la app ya solo usa mp3).
 
 Uso: python3 scripts/check_audio.py --lang en (o --lang ru)
 
@@ -75,31 +76,26 @@ def main() -> int:
     mp3 = {p.stem for p in out_dir.glob("*.mp3")}
     ogg = {p.stem for p in out_dir.glob("*.ogg")}
 
-    missing_mp3 = sorted(needed - mp3)
-    missing_ogg = sorted(needed - ogg)
+    missing = sorted(needed - mp3)
     orphans = sorted((mp3 | ogg) - needed)
-    only_mp3 = sorted(mp3 - ogg)
-    only_ogg = sorted(ogg - mp3)
 
     by_key = {clip_key(text): text for text in strings}
     problems = 0
 
-    if missing_mp3:
-        problems += len(missing_mp3)
-        print(f"✗ {len(missing_mp3)} textos sin clip mp3:")
-        for key in missing_mp3:
+    if missing:
+        problems += len(missing)
+        print(f"✗ {len(missing)} textos sin clip mp3:")
+        for key in missing:
             print(f"    {by_key.get(key, key)!r}")
-    if missing_ogg:
-        problems += len(missing_ogg)
-        print(f"✗ {len(missing_ogg)} textos sin clip ogg:")
-        for key in missing_ogg:
-            print(f"    {by_key.get(key, key)!r}")
-    if only_mp3 or only_ogg:
-        problems += len(only_mp3) + len(only_ogg)
-        print(f"✗ clips sin pareja mp3+ogg: {len(only_mp3)} mp3, {len(only_ogg)} ogg")
     if orphans:
         problems += len(orphans)
-        print(f"✗ {len(orphans)} clips huérfanos (su texto ya no está en el contenido)")
+        if only_ogg := sorted((ogg - mp3) & orphans):
+            print(f"✗ {len(only_ogg)} ogg sin pareja mp3 (la app solo usa mp3): borra o regenera")
+            for key in only_ogg:
+                print(f"    {by_key.get(key, key)!r}")
+        rest = [k for k in orphans if k not in set(only_ogg)]
+        if rest:
+            print(f"✗ {len(rest)} clips huérfanos (su texto ya no está en el contenido)")
         print("    regenera con: python3 scripts/generate_audio.py --prune ...")
 
     if problems:
@@ -107,8 +103,10 @@ def main() -> int:
         return 1
 
     print(
-        f"✓ audio correcto: {len(strings)} textos, {len(mp3)} mp3, {len(ogg)} ogg, "
-        "sin faltantes ni huérfanos"
+        f"✓ audio correcto: {len(strings)} textos, {len(mp3)} mp3, "
+        f"{len(ogg)} ogg (sobrantes), sin faltantes ni huérfanos"
+        if ogg
+        else f"✓ audio correcto: {len(strings)} textos, {len(mp3)} mp3, sin faltantes ni huérfanos"
     )
     return 0
 
