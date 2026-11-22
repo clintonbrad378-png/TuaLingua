@@ -1,381 +1,1632 @@
 {
- "id": "c2",
- "title": "Comida y bebida",
- "emoji": "🍜",
- "color": "#F59E0B",
- "lessons": [
-  {
-   "id": "c2l1",
-   "title": "Comida de todos los días",
-   "goal": "Nombra los platos básicos y pide de comer",
-   "tip": [
-    "吃饭 (chīfàn) significa literalmente «comer arroz»: el arroz es la base de la mesa.",
-    "Antes de responder, repite cada palabra con su tono: los tonos del chino son parte de la palabra, no adorno."
-   ],
-   "phrases": [
-    { "es": "Arroz, comida", "t": "饭 (fàn)" },
-    { "es": "Fideos", "t": "面 (miàn)" },
-    { "es": "Plato, verduras", "t": "菜 (cài)" },
-    { "es": "Carne", "t": "肉 (ròu)" },
-    { "es": "Huevo", "t": "鸡蛋 (jīdàn)" },
-    { "es": "Pescado", "t": "鱼 (yú)" }
-   ],
-   "exercises": [
+  "id": "c2",
+  "title": "食物和饮料",
+  "emoji": "🍜",
+  "color": "#F59E0B",
+  "lessons": [
     {
-     "id": "c2l1e1",
-     "type": "choice",
-     "prompt": "«面» significa…",
-     "options": ["Fideos", "Carne", "Huevo", "Agua"],
-     "answer": 0,
-     "pair": { "es": "Fideos", "t": "面 (miàn)" },
-     "explain": "面条 (miàntiáo) es la palabra completa para fideos."
+      "id": "c2l1",
+      "title": "Comida de todos los días",
+      "goal": "Nombra los platos básicos y pide de comer",
+      "tip": [
+        "吃饭 (chīfàn) significa literalmente «comer arroz»: el arroz es la base de la mesa.",
+        "Antes de responder, repite cada palabra con su tono: los tonos del chino son parte de la palabra, no adorno."
+      ],
+      "phrases": [
+        {
+          "es": "Arroz, comida",
+          "t": "饭 (fàn)"
+        },
+        {
+          "es": "Fideos",
+          "t": "面 (miàn)"
+        },
+        {
+          "es": "Plato, verduras",
+          "t": "菜 (cài)"
+        },
+        {
+          "es": "Carne",
+          "t": "肉 (ròu)"
+        },
+        {
+          "es": "Huevo",
+          "t": "鸡蛋 (jīdàn)"
+        },
+        {
+          "es": "Pescado",
+          "t": "鱼 (yú)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l1e1",
+          "type": "choice",
+          "prompt": "«面» significa…",
+          "options": [
+            "Fideos",
+            "Carne",
+            "Huevo",
+            "Agua"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fideos",
+            "t": "面 (miàn)"
+          },
+          "explain": "面条 (miàntiáo) es la palabra completa para fideos."
+        },
+        {
+          "id": "c2l1e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «pescado»?",
+          "options": [
+            "鱼 (yú)",
+            "肉 (ròu)",
+            "菜 (cài)",
+            "饭 (fàn)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pescado",
+            "t": "鱼 (yú)"
+          }
+        },
+        {
+          "id": "c2l1e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我想吃饭 (wǒ xiǎng chīfàn)",
+          "options": [
+            "Quiero comer",
+            "Quiero beber agua",
+            "¿Cuánto vale?",
+            "¡Está rico!"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero comer",
+            "t": "我想吃饭 (wǒ xiǎng chīfàn)"
+          },
+          "explain": "想 (xiǎng) expresa deseo: quiero comer."
+        },
+        {
+          "id": "c2l1e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «ba»?",
+          "audio": "把 (bǎ)",
+          "options": [
+            "把 (bǎ) · 3º",
+            "八 (bā) · 1º",
+            "拔 (bá) · 2º",
+            "爸 (bà) · 4º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tercer tono",
+            "t": "把 (bǎ)"
+          },
+          "explain": "3º tono: baja y vuelve a subir."
+        },
+        {
+          "id": "c2l1e5",
+          "type": "fill",
+          "prompt": "Completa «carne» en pinyin",
+          "sentence": "zhège cài méiyǒu __",
+          "options": [
+            "ròu",
+            "yú",
+            "mā",
+            "shuǐ"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este plato no lleva carne",
+            "t": "这个菜没有肉 (zhège cài méiyǒu ròu)"
+          },
+          "explain": "没有 (méiyǒu) = «no tener»."
+        },
+        {
+          "id": "c2l1e6",
+          "type": "build",
+          "prompt": "Traduce: «Quiero comer»",
+          "solution": "我 想 吃 饭",
+          "distractors": [
+            "喝",
+            "马"
+          ],
+          "pair": {
+            "es": "Quiero comer",
+            "t": "我想吃饭 (wǒ xiǎng chīfàn)"
+          }
+        },
+        {
+          "id": "c2l1e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Pescado» (acepta hanzi o pinyin sin tonos)",
+          "solution": "鱼",
+          "accept": [
+            "鱼",
+            "yu"
+          ],
+          "pair": {
+            "es": "Pescado",
+            "t": "鱼 (yú)"
+          }
+        },
+        {
+          "id": "c2l1e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Arroz, comida",
+              "t": "饭 (fàn)"
+            },
+            {
+              "es": "Fideos",
+              "t": "面 (miàn)"
+            },
+            {
+              "es": "Plato, verduras",
+              "t": "菜 (cài)"
+            },
+            {
+              "es": "Carne",
+              "t": "肉 (ròu)"
+            },
+            {
+              "es": "Huevo",
+              "t": "鸡蛋 (jīdàn)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c2l1e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «pescado»?",
-     "options": ["鱼 (yú)", "肉 (ròu)", "菜 (cài)", "饭 (fàn)"],
-     "answer": 0,
-     "pair": { "es": "Pescado", "t": "鱼 (yú)" }
+      "id": "c2l2",
+      "title": "En el restaurante",
+      "goal": "Pide en la mesa y pide la cuenta",
+      "tip": [
+        "服务员 (fúwùyuán) es el camarero; para pedir se levanta la mano y un «服务员!» educado.",
+        "买单 (mǎidān) sirve en cualquier sitio; si pagas con el móvil, se dice 扫码 (sǎomǎ), «escanear el código»."
+      ],
+      "phrases": [
+        {
+          "es": "Quiero pedir",
+          "t": "我想点 (wǒ xiǎng diǎn)"
+        },
+        {
+          "es": "Beber",
+          "t": "喝 (hē)"
+        },
+        {
+          "es": "Camarero",
+          "t": "服务员 (fúwùyuán)"
+        },
+        {
+          "es": "La carta",
+          "t": "菜单 (càidān)"
+        },
+        {
+          "es": "La cuenta",
+          "t": "买单 (mǎidān)"
+        },
+        {
+          "es": "¡Está rico!",
+          "t": "好吃 (hǎochī)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l2e1",
+          "type": "choice",
+          "prompt": "«菜单» significa…",
+          "options": [
+            "La carta",
+            "La cuenta",
+            "El camarero",
+            "Un té"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La carta",
+            "t": "菜单 (càidān)"
+          }
+        },
+        {
+          "id": "c2l2e2",
+          "type": "choice",
+          "prompt": "¿Cómo pides la cuenta?",
+          "options": [
+            "买单 (mǎidān)",
+            "菜单 (càidān)",
+            "好吃 (hǎochī)",
+            "服务员 (fúwùyuán)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cuenta",
+            "t": "买单 (mǎidān)"
+          }
+        },
+        {
+          "id": "c2l2e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我想点菜 (wǒ xiǎng diǎncài)",
+          "options": [
+            "Quiero pedir platos",
+            "Quiero beber",
+            "La cuenta, por favor",
+            "¡Está muy rico!"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero pedir platos",
+            "t": "我想点菜 (wǒ xiǎng diǎncài)"
+          },
+          "explain": "点 (diǎn) «pedir (platos)» y también «en punto» para la hora."
+        },
+        {
+          "id": "c2l2e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «ba»?",
+          "audio": "爸 (bà)",
+          "options": [
+            "爸 (bà) · 4º",
+            "把 (bǎ) · 3º",
+            "八 (bā) · 1º",
+            "拔 (bá) · 2º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cuarto tono",
+            "t": "爸 (bà)"
+          },
+          "explain": "4º tono: cae rápido y entero, como un «¡no!» seco."
+        },
+        {
+          "id": "c2l2e5",
+          "type": "fill",
+          "prompt": "Completa «beber» en pinyin",
+          "sentence": "wǒ xiǎng __ chá",
+          "options": [
+            "hē",
+            "chī",
+            "mǎi",
+            "kàn"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero beber té",
+            "t": "我想喝茶 (wǒ xiǎng hē chá)"
+          },
+          "explain": "En chino se come chī y se bebe hē: no se mezclan."
+        },
+        {
+          "id": "c2l2e6",
+          "type": "build",
+          "prompt": "Traduce: «¡Está rico!»",
+          "solution": "很 好 吃",
+          "distractors": [
+            "水",
+            "鱼"
+          ],
+          "pair": {
+            "es": "¡Está rico!",
+            "t": "很好吃 (hěn hǎochī)"
+          },
+          "explain": "很 (hěn) delante del adjetivo acumula intensidad."
+        },
+        {
+          "id": "c2l2e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «La cuenta» (acepta hanzi o pinyin sin tonos)",
+          "solution": "买单",
+          "accept": [
+            "买单",
+            "maidan"
+          ],
+          "pair": {
+            "es": "La cuenta",
+            "t": "买单 (mǎidān)"
+          }
+        },
+        {
+          "id": "c2l2e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Quiero pedir",
+              "t": "我想点 (wǒ xiǎng diǎn)"
+            },
+            {
+              "es": "Beber",
+              "t": "喝 (hē)"
+            },
+            {
+              "es": "Camarero",
+              "t": "服务员 (fúwùyuán)"
+            },
+            {
+              "es": "La carta",
+              "t": "菜单 (càidān)"
+            },
+            {
+              "es": "La cuenta",
+              "t": "买单 (mǎidān)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c2l1e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "我想吃饭 (wǒ xiǎng chīfàn)",
-     "options": ["Quiero comer", "Quiero beber agua", "¿Cuánto vale?", "¡Está rico!"],
-     "answer": 0,
-     "pair": { "es": "Quiero comer", "t": "我想吃饭 (wǒ xiǎng chīfàn)" },
-     "explain": "想 (xiǎng) expresa deseo: quiero comer."
+      "id": "c2l3",
+      "title": "Beber y gustar",
+      "goal": "Di qué te gusta beber y qué no",
+      "tip": [
+        "喜欢 (xǐhuan) «gustar»: 我喜欢茶 (wǒ xǐhuan chá) «me gusta el té».",
+        "不 (bù) niega; delante de un 4º tono suena bú (por ejemplo bú shì, «no ser»)."
+      ],
+      "phrases": [
+        {
+          "es": "Agua",
+          "t": "水 (shuǐ)"
+        },
+        {
+          "es": "Té",
+          "t": "茶 (chá)"
+        },
+        {
+          "es": "Café",
+          "t": "咖啡 (kāfēi)"
+        },
+        {
+          "es": "Gustar",
+          "t": "喜欢 (xǐhuan)"
+        },
+        {
+          "es": "Muy",
+          "t": "很 (hěn)"
+        },
+        {
+          "es": "No",
+          "t": "不 (bù)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l3e1",
+          "type": "choice",
+          "prompt": "«水» significa…",
+          "options": [
+            "Agua",
+            "Té",
+            "Café",
+            "Leche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Agua",
+            "t": "水 (shuǐ)"
+          }
+        },
+        {
+          "id": "c2l3e2",
+          "type": "choice",
+          "prompt": "¿Cuál es n «gustar»?",
+          "options": [
+            "喜欢 (xǐhuan)",
+            "很 (hěn)",
+            "不 (bù)",
+            "咖啡 (kāfēi)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gustar",
+            "t": "喜欢 (xǐhuan)"
+          }
+        },
+        {
+          "id": "c2l3e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我 很 喜欢 咖啡 (wǒ hěn xǐhuan kāfēi)",
+          "options": [
+            "Me gusta mucho el café",
+            "No me gusta el café",
+            "Quiero un té",
+            "El agua está fría"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta mucho el café",
+            "t": "我很喜欢咖啡 (wǒ hěn xǐhuan kāfēi)"
+          },
+          "explain": "En español «mucho» intensifica; en chino 很 (hěn) hace ese trabajo."
+        },
+        {
+          "id": "c2l3e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «yi»?",
+          "audio": "一 (yī)",
+          "options": [
+            "一 (yī) · 1º",
+            "宜 (yí) · 2º",
+            "以 (yǐ) · 3º",
+            "亿 (yì) · 4º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El primer tono",
+            "t": "一 (yī)"
+          }
+        },
+        {
+          "id": "c2l3e5",
+          "type": "fill",
+          "prompt": "Completa «te» en pinyin",
+          "sentence": "qǐng gěi wǒ yì __",
+          "options": [
+            "bēi chá",
+            "chī",
+            "ròu",
+            "jiā"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Un té, por favor",
+            "t": "请给我一杯茶 (qǐng gěi wǒ yì bēi chá)"
+          },
+          "explain": "杯 (bēi) mide líquidos: yì bēi = «una copa»."
+        },
+        {
+          "id": "c2l3e6",
+          "type": "build",
+          "prompt": "Traduce: «No me gusta el café»",
+          "solution": "我 不 喜欢 咖啡",
+          "distractors": [
+            "很",
+            "妈"
+          ],
+          "pair": {
+            "es": "No me gusta el café",
+            "t": "我不喜欢咖啡 (wǒ bù xǐhuan kāfēi)"
+          }
+        },
+        {
+          "id": "c2l3e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Agua» (acepta hanzi o pinyin sin tonos)",
+          "solution": "水",
+          "accept": [
+            "水",
+            "shui"
+          ],
+          "pair": {
+            "es": "Agua",
+            "t": "水 (shuǐ)"
+          }
+        },
+        {
+          "id": "c2l3e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Agua",
+              "t": "水 (shuǐ)"
+            },
+            {
+              "es": "Té",
+              "t": "茶 (chá)"
+            },
+            {
+              "es": "Café",
+              "t": "咖啡 (kāfēi)"
+            },
+            {
+              "es": "Gustar",
+              "t": "喜欢 (xǐhuan)"
+            },
+            {
+              "es": "No",
+              "t": "不 (bù)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c2l1e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «ba»?",
-     "audio": "把 (bǎ)",
-     "options": ["把 (bǎ) · 3º", "八 (bā) · 1º", "拔 (bá) · 2º", "爸 (bà) · 4º"],
-     "answer": 0,
-     "pair": { "es": "El tercer tono", "t": "把 (bǎ)" },
-     "explain": "3º tono: baja y vuelve a subir."
+      "id": "c2l4",
+      "title": "¿Cuánto vale?",
+      "goal": "Pregunta precios y chátea los números al pagar",
+      "tip": [
+        "多少钱 (duōshao qián) «¿cuánto vale?»: 多少 (duōshao) con tono neutro en shao.",
+        "块 (kuài) es el yuan coloquial; 一百块 (yìbǎi kuài) cien yuana."
+      ],
+      "phrases": [
+        {
+          "es": "¿Cuánto vale?",
+          "t": "多少钱 (duōshao qián)"
+        },
+        {
+          "es": "Dinero",
+          "t": "钱 (qián)"
+        },
+        {
+          "es": "Yuan",
+          "t": "块 (kuài)"
+        },
+        {
+          "es": "Barato",
+          "t": "便宜 (piányi)"
+        },
+        {
+          "es": "Caro",
+          "t": "贵 (guì)"
+        },
+        {
+          "es": "Demasiado caro",
+          "t": "太贵了 (tài guì le)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l4e1",
+          "type": "choice",
+          "prompt": "«多少钱» significa…",
+          "options": [
+            "¿Cuánto vale?",
+            "¿Dónde está?",
+            "¿Qué hora es?",
+            "¿Cómo te llamas?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto vale?",
+            "t": "多少钱 (duōshao qián)"
+          }
+        },
+        {
+          "id": "c2l4e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «demasiado caro»?",
+          "options": [
+            "太贵了 (tài guì le)",
+            "便宜 (piányi)",
+            "钱 (qián)",
+            "块 (kuài)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Demasiado caro",
+            "t": "太贵了 (tài guì le)"
+          },
+          "explain": "La estructura 太…了 (tài… le) marca exceso."
+        },
+        {
+          "id": "c2l4e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "这 太贵了 (zhè tài guì le)",
+          "options": [
+            "Esto es demasiado caro",
+            "Esto es barato",
+            "¿Cuánto vale esto?",
+            "Quiero pagar esta cuenta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esto es demasiado caro",
+            "t": "这太贵了 (zhè tài guì le)"
+          },
+          "explain": "这 (zhè) «esto»; el le cierra la exclamación."
+        },
+        {
+          "id": "c2l4e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «yi»?",
+          "audio": "以 (yǐ)",
+          "options": [
+            "以 (yǐ) · 3º",
+            "一 (yī) · 1º",
+            "宜 (yí) · 2º",
+            "亿 (yì) · 4º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tercer tono",
+            "t": "以 (yǐ)"
+          }
+        },
+        {
+          "id": "c2l4e5",
+          "type": "fill",
+          "prompt": "Completa la pregunta del precio",
+          "sentence": "zhège __ qián?",
+          "options": [
+            "duōshao",
+            "hǎo",
+            "chī",
+            "zài"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto vale esto?",
+            "t": "这个多少钱 (zhège duōshao qián)"
+          },
+          "explain": "这个 (zhège) «esto»: ge es la medida genérica."
+        },
+        {
+          "id": "c2l4e6",
+          "type": "build",
+          "prompt": "Traduce: «Muy caro»",
+          "solution": "很 贵",
+          "distractors": [
+            "便宜",
+            "水"
+          ],
+          "pair": {
+            "es": "Muy caro",
+            "t": "很贵 (hěn guì)"
+          }
+        },
+        {
+          "id": "c2l4e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Dinero» (acepta hanzi o pinyin sin tonos)",
+          "solution": "钱",
+          "accept": [
+            "钱",
+            "qian"
+          ],
+          "pair": {
+            "es": "Dinero",
+            "t": "钱 (qián)"
+          }
+        },
+        {
+          "id": "c2l4e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "¿Cuánto vale?",
+              "t": "多少钱 (duōshao qián)"
+            },
+            {
+              "es": "Dinero",
+              "t": "钱 (qián)"
+            },
+            {
+              "es": "Yuan",
+              "t": "块 (kuài)"
+            },
+            {
+              "es": "Barato",
+              "t": "便宜 (piányi)"
+            },
+            {
+              "es": "Caro",
+              "t": "贵 (guì)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c2l1e5",
-     "type": "fill",
-     "prompt": "Completa «carne» en pinyin",
-     "sentence": "zhège cài méiyǒu __",
-     "options": ["ròu", "yú", "mā", "shuǐ"],
-     "answer": 0,
-     "pair": { "es": "Este plato no lleva carne", "t": "这个菜没有肉 (zhège cài méiyǒu ròu)" },
-     "explain": "没有 (méiyǒu) = «no tener»."
+      "id": "c2l5",
+      "title": "额外词汇 1",
+      "goal": "关键词汇",
+      "tip": [
+        "练习重要词汇。"
+      ],
+      "phrases": [
+        {
+          "es": "Poder/Permitido",
+          "t": "可以 (kěyǐ)"
+        },
+        {
+          "es": "Verde",
+          "t": "绿色 (lǜsè)"
+        },
+        {
+          "es": "Finalmente",
+          "t": "最后 (zuìhòu)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Poder/Permitido»?",
+          "options": [
+            "可以 (kěyǐ)",
+            "绿色 (lǜsè)",
+            "最后 (zuìhòu)",
+            "小时 (xiǎoshí)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Poder/Permitido",
+            "t": "可以 (kěyǐ)"
+          }
+        },
+        {
+          "id": "c2l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "绿色 (lǜsè)",
+          "options": [
+            "Verde",
+            "Finalmente",
+            "Hora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Verde",
+            "t": "绿色 (lǜsè)"
+          }
+        },
+        {
+          "id": "c2l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (zuìhòu)",
+          "options": [
+            "最后",
+            "小时",
+            "左"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Finalmente",
+            "t": "最后 (zuìhòu)"
+          }
+        },
+        {
+          "id": "c2l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Hora»",
+          "solution": "小时 (xiǎoshí)",
+          "distractors": [
+            "左",
+            "一起"
+          ],
+          "pair": {
+            "es": "Hora",
+            "t": "小时 (xiǎoshí)"
+          }
+        },
+        {
+          "id": "c2l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «izquierda»",
+          "solution": "左",
+          "accept": [
+            "左",
+            "zuo"
+          ],
+          "pair": {
+            "es": "Izquierda",
+            "t": "左 (zuǒ)"
+          }
+        },
+        {
+          "id": "c2l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Juntos",
+              "t": "一起 (yīqǐ)"
+            },
+            {
+              "es": "Cerdo",
+              "t": "猪肉 (zhūròu)"
+            },
+            {
+              "es": "Negro",
+              "t": "黑色 (hēisè)"
+            }
+          ]
+        },
+        {
+          "id": "c2l5e7",
+          "type": "choice",
+          "prompt": "«Iglesia» se traduce como...",
+          "options": [
+            "教堂 (jiàotáng)",
+            "经理 (jīnglǐ)",
+            "牙 (yá)",
+            "晚上好 (wǎnshanghǎo)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Iglesia",
+            "t": "教堂 (jiàotáng)"
+          }
+        },
+        {
+          "id": "c2l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "经理 (jīnglǐ)",
+          "options": [
+            "Gerente",
+            "El diente",
+            "Buenas noches (al llegar)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gerente",
+            "t": "经理 (jīnglǐ)"
+          }
+        }
+      ]
     },
     {
-     "id": "c2l1e6",
-     "type": "build",
-     "prompt": "Traduce: «Quiero comer»",
-     "solution": "我 想 吃 饭",
-     "distractors": ["喝", "马"],
-     "pair": { "es": "Quiero comer", "t": "我想吃饭 (wǒ xiǎng chīfàn)" }
+      "id": "c2l6",
+      "title": "实用短语 2",
+      "goal": "日常短语",
+      "tip": [
+        "自然表达。"
+      ],
+      "phrases": [
+        {
+          "es": "¿Qué hora es?",
+          "t": "几点了？(jǐ diǎn le?)"
+        },
+        {
+          "es": "Lo siento",
+          "t": "对不起 (duìbuqǐ)"
+        },
+        {
+          "es": "Luna",
+          "t": "月亮 (yuèliang)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿Qué hora es?»?",
+          "options": [
+            "几点了？(jǐ diǎn le?)",
+            "对不起 (duìbuqǐ)",
+            "月亮 (yuèliang)",
+            "我 (wǒ)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Qué hora es?",
+            "t": "几点了？(jǐ diǎn le?)"
+          }
+        },
+        {
+          "id": "c2l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "对不起 (duìbuqǐ)",
+          "options": [
+            "Lo siento",
+            "Luna",
+            "Yo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lo siento",
+            "t": "对不起 (duìbuqǐ)"
+          }
+        },
+        {
+          "id": "c2l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (yuèliang)",
+          "options": [
+            "月亮",
+            "我",
+            "漂亮"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Luna",
+            "t": "月亮 (yuèliang)"
+          }
+        },
+        {
+          "id": "c2l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Yo»",
+          "solution": "我 (wǒ)",
+          "distractors": [
+            "漂亮",
+            "经理"
+          ],
+          "pair": {
+            "es": "Yo",
+            "t": "我 (wǒ)"
+          }
+        },
+        {
+          "id": "c2l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «bonito»",
+          "solution": "漂亮",
+          "accept": [
+            "漂亮",
+            "piaoliang"
+          ],
+          "pair": {
+            "es": "Bonito",
+            "t": "漂亮 (piàoliang)"
+          }
+        },
+        {
+          "id": "c2l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Gerente",
+              "t": "经理 (jīnglǐ)"
+            },
+            {
+              "es": "Camino",
+              "t": "路 (lù)"
+            },
+            {
+              "es": "Necesitar",
+              "t": "需要 (xūyào)"
+            }
+          ]
+        },
+        {
+          "id": "c2l6e7",
+          "type": "choice",
+          "prompt": "«Perro» se traduce como...",
+          "options": [
+            "狗 (gǒu)",
+            "公司 (gōngsī)",
+            "夏天 (xiàtiān)",
+            "礼物 (lǐwù)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Perro",
+            "t": "狗 (gǒu)"
+          }
+        },
+        {
+          "id": "c2l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "公司 (gōngsī)",
+          "options": [
+            "Empresa",
+            "Verano",
+            "Regalo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Empresa",
+            "t": "公司 (gōngsī)"
+          }
+        }
+      ]
     },
     {
-     "id": "c2l1e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Pescado» (acepta hanzi o pinyin sin tonos)",
-     "solution": "鱼",
-     "accept": ["鱼", "yu"],
-     "pair": { "es": "Pescado", "t": "鱼 (yú)" }
+      "id": "c2l7",
+      "title": "复习 3",
+      "goal": "复习",
+      "tip": [
+        "巩固所学。"
+      ],
+      "phrases": [
+        {
+          "es": "Caliente",
+          "t": "热 (rè)"
+        },
+        {
+          "es": "Anciano",
+          "t": "老人 (lǎorén)"
+        },
+        {
+          "es": "Cero",
+          "t": "零 (líng)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Caliente»?",
+          "options": [
+            "热 (rè)",
+            "老人 (lǎorén)",
+            "零 (líng)",
+            "或者 (huòzhě)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caliente",
+            "t": "热 (rè)"
+          }
+        },
+        {
+          "id": "c2l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "老人 (lǎorén)",
+          "options": [
+            "Anciano",
+            "Cero",
+            "O"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Anciano",
+            "t": "老人 (lǎorén)"
+          }
+        },
+        {
+          "id": "c2l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (líng)",
+          "options": [
+            "零",
+            "或者",
+            "图书馆"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cero",
+            "t": "零 (líng)"
+          }
+        },
+        {
+          "id": "c2l7e4",
+          "type": "build",
+          "prompt": "Traduce: «O»",
+          "solution": "或者 (huòzhě)",
+          "distractors": [
+            "图书馆",
+            "先"
+          ],
+          "pair": {
+            "es": "O",
+            "t": "或者 (huòzhě)"
+          }
+        },
+        {
+          "id": "c2l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «biblioteca»",
+          "solution": "图书馆",
+          "accept": [
+            "图书馆",
+            "tushuguan"
+          ],
+          "pair": {
+            "es": "Biblioteca",
+            "t": "图书馆 (túshūguǎn)"
+          }
+        },
+        {
+          "id": "c2l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Primero",
+              "t": "先 (xiān)"
+            },
+            {
+              "es": "Playa",
+              "t": "海滩 (hǎitān)"
+            },
+            {
+              "es": "Dentro",
+              "t": "里面 (lǐmiàn)"
+            }
+          ]
+        },
+        {
+          "id": "c2l7e7",
+          "type": "choice",
+          "prompt": "«Cerdo» se traduce como...",
+          "options": [
+            "猪肉 (zhūròu)",
+            "然后 (ránhòu)",
+            "参观 (cānguān)",
+            "旧 (jiù)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cerdo",
+            "t": "猪肉 (zhūròu)"
+          }
+        },
+        {
+          "id": "c2l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "然后 (ránhòu)",
+          "options": [
+            "Luego",
+            "Visitar",
+            "Viejo (de cosas)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Luego",
+            "t": "然后 (ránhòu)"
+          }
+        }
+      ]
     },
     {
-     "id": "c2l1e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Arroz, comida", "t": "饭 (fàn)" },
-      { "es": "Fideos", "t": "面 (miàn)" },
-      { "es": "Plato, verduras", "t": "菜 (cài)" },
-      { "es": "Carne", "t": "肉 (ròu)" },
-      { "es": "Huevo", "t": "鸡蛋 (jīdàn)" }
-     ]
+      "id": "c2l8",
+      "title": "听力练习 4",
+      "goal": "听力",
+      "tip": [
+        "训练听力。"
+      ],
+      "phrases": [
+        {
+          "es": "Estudiante",
+          "t": "学生 (xuésheng)"
+        },
+        {
+          "es": "¿Cómo estás?",
+          "t": "你好吗？(nǐ hǎo ma?)"
+        },
+        {
+          "es": "El pie",
+          "t": "脚 (jiǎo)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Estudiante»?",
+          "options": [
+            "学生 (xuésheng)",
+            "你好吗？(nǐ hǎo ma?)",
+            "脚 (jiǎo)",
+            "太好了 (tài hǎo le)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estudiante",
+            "t": "学生 (xuésheng)"
+          }
+        },
+        {
+          "id": "c2l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "你好吗？(nǐ hǎo ma?)",
+          "options": [
+            "¿Cómo estás?",
+            "El pie",
+            "¡estupendo!"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cómo estás?",
+            "t": "你好吗？(nǐ hǎo ma?)"
+          }
+        },
+        {
+          "id": "c2l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (jiǎo)",
+          "options": [
+            "脚",
+            "太好了",
+            "虽然"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pie",
+            "t": "脚 (jiǎo)"
+          }
+        },
+        {
+          "id": "c2l8e4",
+          "type": "build",
+          "prompt": "Traduce: «¡estupendo!»",
+          "solution": "太好了 (tài hǎo le)",
+          "distractors": [
+            "虽然",
+            "我饿了"
+          ],
+          "pair": {
+            "es": "¡estupendo!",
+            "t": "太好了 (tài hǎo le)"
+          }
+        },
+        {
+          "id": "c2l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «aunque»",
+          "solution": "虽然",
+          "accept": [
+            "虽然",
+            "suiran"
+          ],
+          "pair": {
+            "es": "Aunque",
+            "t": "虽然 (suīrán)"
+          }
+        },
+        {
+          "id": "c2l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Tengo hambre",
+              "t": "我饿了 (wǒ è le)"
+            },
+            {
+              "es": "Azúcar",
+              "t": "糖 (táng)"
+            },
+            {
+              "es": "Jugar",
+              "t": "玩 (wán)"
+            }
+          ]
+        },
+        {
+          "id": "c2l8e7",
+          "type": "choice",
+          "prompt": "«China» se traduce como...",
+          "options": [
+            "中国 (Zhōngguó)",
+            "打扫 (dǎsǎo)",
+            "健康 (jiànkāng)",
+            "现在 (xiànzài)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "China",
+            "t": "中国 (Zhōngguó)"
+          }
+        },
+        {
+          "id": "c2l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "打扫 (dǎsǎo)",
+          "options": [
+            "Limpiar",
+            "Saludable",
+            "Ahora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Limpiar",
+            "t": "打扫 (dǎsǎo)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2l9",
+      "title": "口语练习 5",
+      "goal": "口语",
+      "tip": [
+        "建立信心。"
+      ],
+      "phrases": [
+        {
+          "es": "Helado",
+          "t": "冰淇淋 (bīngqílín)"
+        },
+        {
+          "es": "Agradecer",
+          "t": "感谢 (gǎnxiè)"
+        },
+        {
+          "es": "De repente",
+          "t": "突然 (tūrán)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Helado»?",
+          "options": [
+            "冰淇淋 (bīngqílín)",
+            "感谢 (gǎnxiè)",
+            "突然 (tūrán)",
+            "快 (kuài)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Helado",
+            "t": "冰淇淋 (bīngqílín)"
+          }
+        },
+        {
+          "id": "c2l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "感谢 (gǎnxiè)",
+          "options": [
+            "Agradecer",
+            "De repente",
+            "Rápido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Agradecer",
+            "t": "感谢 (gǎnxiè)"
+          }
+        },
+        {
+          "id": "c2l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (tūrán)",
+          "options": [
+            "突然",
+            "快",
+            "你会说英语吗？(nǐ"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "De repente",
+            "t": "突然 (tūrán)"
+          }
+        },
+        {
+          "id": "c2l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Rápido»",
+          "solution": "快 (kuài)",
+          "distractors": [
+            "你会说英语吗？(nǐ",
+            "我们"
+          ],
+          "pair": {
+            "es": "Rápido",
+            "t": "快 (kuài)"
+          }
+        },
+        {
+          "id": "c2l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «¿hablas inglés?»",
+          "solution": "你会说英语吗",
+          "accept": [
+            "你会说英语吗",
+            "你会说英语吗？",
+            "ni hui shuo Yingyu ma",
+            "nihuishuoYingyuma",
+            "ni hui shuo yingyu ma",
+            "nihuishuoyingyuma"
+          ],
+          "pair": {
+            "es": "¿Hablas inglés?",
+            "t": "你会说英语吗？(nǐ huì shuō Yīngyǔ ma?)"
+          }
+        },
+        {
+          "id": "c2l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Nosotros",
+              "t": "我们 (wǒmen)"
+            },
+            {
+              "es": "Hermano menor",
+              "t": "弟弟 (dìdi)"
+            },
+            {
+              "es": "Suelo",
+              "t": "地板 (dìbǎn)"
+            }
+          ]
+        },
+        {
+          "id": "c2l9e7",
+          "type": "choice",
+          "prompt": "«¿qué tal?» se traduce como...",
+          "options": [
+            "你好吗 (nǐ hǎo ma)",
+            "找 (zhǎo)",
+            "时间 (shíjiān)",
+            "自行车 (zìxíngchē)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿qué tal?",
+            "t": "你好吗 (nǐ hǎo ma)"
+          }
+        },
+        {
+          "id": "c2l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "找 (zhǎo)",
+          "options": [
+            "Buscar",
+            "Tiempo",
+            "Bicicleta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Buscar",
+            "t": "找 (zhǎo)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c2l10",
+      "title": "真实场景 6",
+      "goal": "真实情境",
+      "tip": [
+        "在语境中使用语言。"
+      ],
+      "phrases": [
+        {
+          "es": "Sol",
+          "t": "太阳 (tàiyáng)"
+        },
+        {
+          "es": "Verano",
+          "t": "夏天 (xiàtiān)"
+        },
+        {
+          "es": "Profesor",
+          "t": "老师 (lǎoshī)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c2l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Sol»?",
+          "options": [
+            "太阳 (tàiyáng)",
+            "夏天 (xiàtiān)",
+            "老师 (lǎoshī)",
+            "请说慢一点 (qǐng shuō màn yìdiǎn)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sol",
+            "t": "太阳 (tàiyáng)"
+          }
+        },
+        {
+          "id": "c2l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "夏天 (xiàtiān)",
+          "options": [
+            "Verano",
+            "Profesor",
+            "Habla más lento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Verano",
+            "t": "夏天 (xiàtiān)"
+          }
+        },
+        {
+          "id": "c2l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (lǎoshī)",
+          "options": [
+            "老师",
+            "请说慢一点",
+            "很高兴认识你"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Profesor",
+            "t": "老师 (lǎoshī)"
+          }
+        },
+        {
+          "id": "c2l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Habla más lento»",
+          "solution": "请说慢一点 (qǐng shuō màn yìdiǎn)",
+          "distractors": [
+            "很高兴认识你",
+            "难吃"
+          ],
+          "pair": {
+            "es": "Habla más lento",
+            "t": "请说慢一点 (qǐng shuō màn yìdiǎn)"
+          }
+        },
+        {
+          "id": "c2l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «encantado de conocerte»",
+          "solution": "很高兴认识你",
+          "accept": [
+            "很高兴认识你",
+            "hen gaoxing renshi ni",
+            "hengaoxingrenshini"
+          ],
+          "pair": {
+            "es": "Encantado de conocerte",
+            "t": "很高兴认识你 (hěn gāoxìng rènshi nǐ)"
+          }
+        },
+        {
+          "id": "c2l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Desagradable (comida)",
+              "t": "难吃 (nánchī)"
+            },
+            {
+              "es": "País",
+              "t": "国家 (guójiā)"
+            },
+            {
+              "es": "Muchos",
+              "t": "很多 (hěnduō)"
+            }
+          ]
+        },
+        {
+          "id": "c2l10e7",
+          "type": "choice",
+          "prompt": "«Perro» se traduce como...",
+          "options": [
+            "狗 (gǒu)",
+            "矮 (ǎi)",
+            "百 (bǎi)",
+            "重 (zhòng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Perro",
+            "t": "狗 (gǒu)"
+          }
+        },
+        {
+          "id": "c2l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "矮 (ǎi)",
+          "options": [
+            "Bajo",
+            "Cien",
+            "Pesado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bajo",
+            "t": "矮 (ǎi)"
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c2l2",
-   "title": "En el restaurante",
-   "goal": "Pide en la mesa y pide la cuenta",
-   "tip": [
-    "服务员 (fúwùyuán) es el camarero; para pedir se levanta la mano y un «服务员!» educado.",
-    "买单 (mǎidān) sirve en cualquier sitio; si pagas con el móvil, se dice 扫码 (sǎomǎ), «escanear el código»."
-   ],
-   "phrases": [
-    { "es": "Quiero pedir", "t": "我想点 (wǒ xiǎng diǎn)" },
-    { "es": "Beber", "t": "喝 (hē)" },
-    { "es": "Camarero", "t": "服务员 (fúwùyuán)" },
-    { "es": "La carta", "t": "菜单 (càidān)" },
-    { "es": "La cuenta", "t": "买单 (mǎidān)" },
-    { "es": "¡Está rico!", "t": "好吃 (hǎochī)" }
-   ],
-   "exercises": [
-    {
-     "id": "c2l2e1",
-     "type": "choice",
-     "prompt": "«菜单» significa…",
-     "options": ["La carta", "La cuenta", "El camarero", "Un té"],
-     "answer": 0,
-     "pair": { "es": "La carta", "t": "菜单 (càidān)" }
-    },
-    {
-     "id": "c2l2e2",
-     "type": "choice",
-     "prompt": "¿Cómo pides la cuenta?",
-     "options": ["买单 (mǎidān)", "菜单 (càidān)", "好吃 (hǎochī)", "服务员 (fúwùyuán)"],
-     "answer": 0,
-     "pair": { "es": "La cuenta", "t": "买单 (mǎidān)" }
-    },
-    {
-     "id": "c2l2e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "我想点菜 (wǒ xiǎng diǎncài)",
-     "options": ["Quiero pedir platos", "Quiero beber", "La cuenta, por favor", "¡Está muy rico!"],
-     "answer": 0,
-     "pair": { "es": "Quiero pedir platos", "t": "我想点菜 (wǒ xiǎng diǎncài)" },
-     "explain": "点 (diǎn) «pedir (platos)» y también «en punto» para la hora."
-    },
-    {
-     "id": "c2l2e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «ba»?",
-     "audio": "爸 (bà)",
-     "options": ["爸 (bà) · 4º", "把 (bǎ) · 3º", "八 (bā) · 1º", "拔 (bá) · 2º"],
-     "answer": 0,
-     "pair": { "es": "El cuarto tono", "t": "爸 (bà)" },
-     "explain": "4º tono: cae rápido y entero, como un «¡no!» seco."
-    },
-    {
-     "id": "c2l2e5",
-     "type": "fill",
-     "prompt": "Completa «beber» en pinyin",
-     "sentence": "wǒ xiǎng __ chá",
-     "options": ["hē", "chī", "mǎi", "kàn"],
-     "answer": 0,
-     "pair": { "es": "Quiero beber té", "t": "我想喝茶 (wǒ xiǎng hē chá)" },
-     "explain": "En chino se come chī y se bebe hē: no se mezclan."
-    },
-    {
-     "id": "c2l2e6",
-     "type": "build",
-     "prompt": "Traduce: «¡Está rico!»",
-     "solution": "很 好 吃",
-     "distractors": ["水", "鱼"],
-     "pair": { "es": "¡Está rico!", "t": "很好吃 (hěn hǎochī)" },
-     "explain": "很 (hěn) delante del adjetivo acumula intensidad."
-    },
-    {
-     "id": "c2l2e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «La cuenta» (acepta hanzi o pinyin sin tonos)",
-     "solution": "买单",
-     "accept": ["买单", "maidan"],
-     "pair": { "es": "La cuenta", "t": "买单 (mǎidān)" }
-    },
-    {
-     "id": "c2l2e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Quiero pedir", "t": "我想点 (wǒ xiǎng diǎn)" },
-      { "es": "Beber", "t": "喝 (hē)" },
-      { "es": "Camarero", "t": "服务员 (fúwùyuán)" },
-      { "es": "La carta", "t": "菜单 (càidān)" },
-      { "es": "La cuenta", "t": "买单 (mǎidān)" }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c2l3",
-   "title": "Beber y gustar",
-   "goal": "Di qué te gusta beber y qué no",
-   "tip": [
-    "喜欢 (xǐhuan) «gustar»: 我喜欢茶 (wǒ xǐhuan chá) «me gusta el té».",
-    "不 (bù) niega; delante de un 4º tono suena bú (por ejemplo bú shì, «no ser»)."
-   ],
-   "phrases": [
-    { "es": "Agua", "t": "水 (shuǐ)" },
-    { "es": "Té", "t": "茶 (chá)" },
-    { "es": "Café", "t": "咖啡 (kāfēi)" },
-    { "es": "Gustar", "t": "喜欢 (xǐhuan)" },
-    { "es": "Muy", "t": "很 (hěn)" },
-    { "es": "No", "t": "不 (bù)" }
-   ],
-   "exercises": [
-    {
-     "id": "c2l3e1",
-     "type": "choice",
-     "prompt": "«水» significa…",
-     "options": ["Agua", "Té", "Café", "Leche"],
-     "answer": 0,
-     "pair": { "es": "Agua", "t": "水 (shuǐ)" }
-    },
-    {
-     "id": "c2l3e2",
-     "type": "choice",
-     "prompt": "¿Cuál es n «gustar»?",
-     "options": ["喜欢 (xǐhuan)", "很 (hěn)", "不 (bù)", "咖啡 (kāfēi)"],
-     "answer": 0,
-     "pair": { "es": "Gustar", "t": "喜欢 (xǐhuan)" }
-    },
-    {
-     "id": "c2l3e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "我 很 喜欢 咖啡 (wǒ hěn xǐhuan kāfēi)",
-     "options": ["Me gusta mucho el café", "No me gusta el café", "Quiero un té", "El agua está fría"],
-     "answer": 0,
-     "pair": { "es": "Me gusta mucho el café", "t": "我很喜欢咖啡 (wǒ hěn xǐhuan kāfēi)" },
-     "explain": "En español «mucho» intensifica; en chino 很 (hěn) hace ese trabajo."
-    },
-    {
-     "id": "c2l3e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «yi»?",
-     "audio": "一 (yī)",
-     "options": ["一 (yī) · 1º", "宜 (yí) · 2º", "以 (yǐ) · 3º", "亿 (yì) · 4º"],
-     "answer": 0,
-     "pair": { "es": "El primer tono", "t": "一 (yī)" }
-    },
-    {
-     "id": "c2l3e5",
-     "type": "fill",
-     "prompt": "Completa «te» en pinyin",
-     "sentence": "qǐng gěi wǒ yì __",
-     "options": ["bēi chá", "chī", "ròu", "jiā"],
-     "answer": 0,
-     "pair": { "es": "Un té, por favor", "t": "请给我一杯茶 (qǐng gěi wǒ yì bēi chá)" },
-     "explain": "杯 (bēi) mide líquidos: yì bēi = «una copa»."
-    },
-    {
-     "id": "c2l3e6",
-     "type": "build",
-     "prompt": "Traduce: «No me gusta el café»",
-     "solution": "我 不 喜欢 咖啡",
-     "distractors": ["很", "妈"],
-     "pair": { "es": "No me gusta el café", "t": "我不喜欢咖啡 (wǒ bù xǐhuan kāfēi)" }
-    },
-    {
-     "id": "c2l3e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Agua» (acepta hanzi o pinyin sin tonos)",
-     "solution": "水",
-     "accept": ["水", "shui"],
-     "pair": { "es": "Agua", "t": "水 (shuǐ)" }
-    },
-    {
-     "id": "c2l3e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Agua", "t": "水 (shuǐ)" },
-      { "es": "Té", "t": "茶 (chá)" },
-      { "es": "Café", "t": "咖啡 (kāfēi)" },
-      { "es": "Gustar", "t": "喜欢 (xǐhuan)" },
-      { "es": "No", "t": "不 (bù)" }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c2l4",
-   "title": "¿Cuánto vale?",
-   "goal": "Pregunta precios y chátea los números al pagar",
-   "tip": [
-    "多少钱 (duōshao qián) «¿cuánto vale?»: 多少 (duōshao) con tono neutro en shao.",
-    "块 (kuài) es el yuan coloquial; 一百块 (yìbǎi kuài) cien yuana."
-   ],
-   "phrases": [
-    { "es": "¿Cuánto vale?", "t": "多少钱 (duōshao qián)" },
-    { "es": "Dinero", "t": "钱 (qián)" },
-    { "es": "Yuan", "t": "块 (kuài)" },
-    { "es": "Barato", "t": "便宜 (piányi)" },
-    { "es": "Caro", "t": "贵 (guì)" },
-    { "es": "Demasiado caro", "t": "太贵了 (tài guì le)" }
-   ],
-   "exercises": [
-    {
-     "id": "c2l4e1",
-     "type": "choice",
-     "prompt": "«多少钱» significa…",
-     "options": ["¿Cuánto vale?", "¿Dónde está?", "¿Qué hora es?", "¿Cómo te llamas?"],
-     "answer": 0,
-     "pair": { "es": "¿Cuánto vale?", "t": "多少钱 (duōshao qián)" }
-    },
-    {
-     "id": "c2l4e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «demasiado caro»?",
-     "options": ["太贵了 (tài guì le)", "便宜 (piányi)", "钱 (qián)", "块 (kuài)"],
-     "answer": 0,
-     "pair": { "es": "Demasiado caro", "t": "太贵了 (tài guì le)" },
-     "explain": "La estructura 太…了 (tài… le) marca exceso."
-    },
-    {
-     "id": "c2l4e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "这 太贵了 (zhè tài guì le)",
-     "options": ["Esto es demasiado caro", "Esto es barato", "¿Cuánto vale esto?", "Quiero pagar esta cuenta"],
-     "answer": 0,
-     "pair": { "es": "Esto es demasiado caro", "t": "这太贵了 (zhè tài guì le)" },
-     "explain": "这 (zhè) «esto»; el le cierra la exclamación."
-    },
-    {
-     "id": "c2l4e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «yi»?",
-     "audio": "以 (yǐ)",
-     "options": ["以 (yǐ) · 3º", "一 (yī) · 1º", "宜 (yí) · 2º", "亿 (yì) · 4º"],
-     "answer": 0,
-     "pair": { "es": "El tercer tono", "t": "以 (yǐ)" }
-    },
-    {
-     "id": "c2l4e5",
-     "type": "fill",
-     "prompt": "Completa la pregunta del precio",
-     "sentence": "zhège __ qián?",
-     "options": ["duōshao", "hǎo", "chī", "zài"],
-     "answer": 0,
-     "pair": { "es": "¿Cuánto vale esto?", "t": "这个多少钱 (zhège duōshao qián)" },
-     "explain": "这个 (zhège) «esto»: ge es la medida genérica."
-    },
-    {
-     "id": "c2l4e6",
-     "type": "build",
-     "prompt": "Traduce: «Muy caro»",
-     "solution": "很 贵",
-     "distractors": ["便宜", "水"],
-     "pair": { "es": "Muy caro", "t": "很贵 (hěn guì)" }
-    },
-    {
-     "id": "c2l4e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Dinero» (acepta hanzi o pinyin sin tonos)",
-     "solution": "钱",
-     "accept": ["钱", "qian"],
-     "pair": { "es": "Dinero", "t": "钱 (qián)" }
-    },
-    {
-     "id": "c2l4e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "¿Cuánto vale?", "t": "多少钱 (duōshao qián)" },
-      { "es": "Dinero", "t": "钱 (qián)" },
-      { "es": "Yuan", "t": "块 (kuài)" },
-      { "es": "Barato", "t": "便宜 (piányi)" },
-      { "es": "Caro", "t": "贵 (guì)" }
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }

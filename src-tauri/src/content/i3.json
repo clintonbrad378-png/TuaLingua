@@ -1,6 +1,6 @@
 {
   "id": "i3",
-  "title": "Moverte y hacer planes",
+  "title": "Muoversi e fare programmi",
   "emoji": "🗺️",
   "color": "#21B667",
   "lessons": [
@@ -116,7 +116,7 @@
           "id": "i3l1e6",
           "type": "type",
           "prompt": "Escribe en italiano: «izquierda»",
-          "solution": "sinistra",
+          "solution": "Sinistra",
           "accept": [
             "sinistra",
             "Sinistra"
@@ -272,7 +272,7 @@
           "id": "i3l2e6",
           "type": "type",
           "prompt": "Escribe en italiano: «tren»",
-          "solution": "treno",
+          "solution": "Treno",
           "accept": [
             "treno",
             "Treno"
@@ -428,7 +428,7 @@
           "id": "i3l3e6",
           "type": "type",
           "prompt": "Escribe en italiano: «hoy»",
-          "solution": "oggi",
+          "solution": "Oggi",
           "accept": [
             "oggi",
             "Oggi"
@@ -584,7 +584,7 @@
           "id": "i3l4e6",
           "type": "type",
           "prompt": "Escribe en italiano: «ayuda»",
-          "solution": "aiuto",
+          "solution": "Aiuto",
           "accept": [
             "aiuto",
             "Aiuto"
@@ -624,6 +624,912 @@
           "pair": {
             "es": "He perdido mi pasaporte",
             "t": "Ho perso il mio passaporto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l5",
+      "title": "Parole extra 1",
+      "goal": "Vocabolario chiave",
+      "tip": [
+        "Pratica parole importanti."
+      ],
+      "phrases": [
+        {
+          "es": "Tarea",
+          "t": "Compito"
+        },
+        {
+          "es": "Carne",
+          "t": "Carne"
+        },
+        {
+          "es": "Teléfono",
+          "t": "Telefono"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Tarea»?",
+          "options": [
+            "Compito",
+            "Carne",
+            "Telefono",
+            "Calze"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tarea",
+            "t": "Compito"
+          }
+        },
+        {
+          "id": "i3l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Carne",
+          "options": [
+            "Carne",
+            "Teléfono",
+            "Calcetines"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Carne",
+            "t": "Carne"
+          }
+        },
+        {
+          "id": "i3l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Telefono",
+            "Calze",
+            "tavolo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Teléfono",
+            "t": "Telefono"
+          }
+        },
+        {
+          "id": "i3l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Calcetines»",
+          "solution": "Calze",
+          "distractors": [
+            "tavolo",
+            "bene"
+          ],
+          "pair": {
+            "es": "Calcetines",
+            "t": "Calze"
+          }
+        },
+        {
+          "id": "i3l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mesa»",
+          "solution": "Tavolo",
+          "accept": [
+            "tavolo",
+            "tavolo"
+          ],
+          "pair": {
+            "es": "Mesa",
+            "t": "Tavolo"
+          }
+        },
+        {
+          "id": "i3l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Bien",
+              "t": "Bene"
+            },
+            {
+              "es": "Pero",
+              "t": "Ma"
+            },
+            {
+              "es": "Romper",
+              "t": "Rompere"
+            }
+          ]
+        },
+        {
+          "id": "i3l5e7",
+          "type": "choice",
+          "prompt": "«Falda» se traduce como...",
+          "options": [
+            "Gonna",
+            "Chiudere",
+            "Dormire",
+            "Restare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Falda",
+            "t": "Gonna"
+          }
+        },
+        {
+          "id": "i3l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Chiudere",
+          "options": [
+            "Cerrar",
+            "Dormir",
+            "Quedarse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cerrar",
+            "t": "Chiudere"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l6",
+      "title": "Frasi utili 2",
+      "goal": "Frasi quotidiane",
+      "tip": [
+        "Parla in modo naturale."
+      ],
+      "phrases": [
+        {
+          "es": "Calcetines",
+          "t": "Calze"
+        },
+        {
+          "es": "Primero",
+          "t": "Primo"
+        },
+        {
+          "es": "Entre",
+          "t": "Tra"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Calcetines»?",
+          "options": [
+            "Calze",
+            "Primo",
+            "Tra",
+            "Guardare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Calcetines",
+            "t": "Calze"
+          }
+        },
+        {
+          "id": "i3l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Primo",
+          "options": [
+            "Primero",
+            "Entre",
+            "Mirar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Primero",
+            "t": "Primo"
+          }
+        },
+        {
+          "id": "i3l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Tra",
+            "Guardare",
+            "Mi"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entre",
+            "t": "Tra"
+          }
+        },
+        {
+          "id": "i3l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Mirar»",
+          "solution": "Guardare",
+          "distractors": [
+            "Mi",
+            "Uovo"
+          ],
+          "pair": {
+            "es": "Mirar",
+            "t": "Guardare"
+          }
+        },
+        {
+          "id": "i3l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «lo siento»",
+          "solution": "Mi dispiace",
+          "accept": [
+            "Mi dispiace",
+            "mi dispiace"
+          ],
+          "pair": {
+            "es": "Lo siento",
+            "t": "Mi dispiace"
+          }
+        },
+        {
+          "id": "i3l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Huevo",
+              "t": "Uovo"
+            },
+            {
+              "es": "Cuenta",
+              "t": "Conto"
+            },
+            {
+              "es": "Imposible",
+              "t": "Impossibile"
+            }
+          ]
+        },
+        {
+          "id": "i3l6e7",
+          "type": "choice",
+          "prompt": "«Sombrero» se traduce como...",
+          "options": [
+            "Cappello",
+            "volere",
+            "avere",
+            "Restare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sombrero",
+            "t": "Cappello"
+          }
+        },
+        {
+          "id": "i3l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Volere",
+          "options": [
+            "Querer",
+            "Tener",
+            "Quedarse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Querer",
+            "t": "Volere"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l7",
+      "title": "Ripasso 3",
+      "goal": "Ripasso",
+      "tip": [
+        "Consolida ciò che hai imparato."
+      ],
+      "phrases": [
+        {
+          "es": "Proyecto",
+          "t": "Progetto"
+        },
+        {
+          "es": "Gris",
+          "t": "Grigio"
+        },
+        {
+          "es": "Fruta",
+          "t": "Frutta"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Proyecto»?",
+          "options": [
+            "Progetto",
+            "Grigio",
+            "Frutta",
+            "Lento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Proyecto",
+            "t": "Progetto"
+          }
+        },
+        {
+          "id": "i3l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Grigio",
+          "options": [
+            "Gris",
+            "Fruta",
+            "Lento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gris",
+            "t": "Grigio"
+          }
+        },
+        {
+          "id": "i3l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Frutta",
+            "Lento",
+            "Brutto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fruta",
+            "t": "Frutta"
+          }
+        },
+        {
+          "id": "i3l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Lento»",
+          "solution": "Lento",
+          "distractors": [
+            "Brutto",
+            "fare"
+          ],
+          "pair": {
+            "es": "Lento",
+            "t": "Lento"
+          }
+        },
+        {
+          "id": "i3l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «feo»",
+          "solution": "Brutto",
+          "accept": [
+            "Brutto",
+            "brutto"
+          ],
+          "pair": {
+            "es": "Feo",
+            "t": "Brutto"
+          }
+        },
+        {
+          "id": "i3l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Hacer",
+              "t": "Fare"
+            },
+            {
+              "es": "Preguntar/Pedir",
+              "t": "Chiedere"
+            },
+            {
+              "es": "Poder",
+              "t": "Potere"
+            }
+          ]
+        },
+        {
+          "id": "i3l7e7",
+          "type": "choice",
+          "prompt": "«Largo» se traduce como...",
+          "options": [
+            "Lungo",
+            "Possibile",
+            "pane",
+            "Sembrare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Largo",
+            "t": "Lungo"
+          }
+        },
+        {
+          "id": "i3l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Possibile",
+          "options": [
+            "Posible",
+            "Pan",
+            "Parecer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Posible",
+            "t": "Possibile"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l8",
+      "title": "Ascolto 4",
+      "goal": "Ascolto",
+      "tip": [
+        "Allena l'orecchio."
+      ],
+      "phrases": [
+        {
+          "es": "Entrar",
+          "t": "Entrare"
+        },
+        {
+          "es": "Corto",
+          "t": "Corto"
+        },
+        {
+          "es": "Generalmente",
+          "t": "Generalmente"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Entrar»?",
+          "options": [
+            "Entrare",
+            "Corto",
+            "Generalmente",
+            "Gatto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entrar",
+            "t": "Entrare"
+          }
+        },
+        {
+          "id": "i3l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Corto",
+          "options": [
+            "Corto",
+            "Generalmente",
+            "Gato"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Corto",
+            "t": "Corto"
+          }
+        },
+        {
+          "id": "i3l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Generalmente",
+            "Gatto",
+            "mela"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Generalmente",
+            "t": "Generalmente"
+          }
+        },
+        {
+          "id": "i3l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Gato»",
+          "solution": "Gatto",
+          "distractors": [
+            "mela",
+            "Nessuno"
+          ],
+          "pair": {
+            "es": "Gato",
+            "t": "Gatto"
+          }
+        },
+        {
+          "id": "i3l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «manzana»",
+          "solution": "Mela",
+          "accept": [
+            "mela",
+            "mela"
+          ],
+          "pair": {
+            "es": "Manzana",
+            "t": "Mela"
+          }
+        },
+        {
+          "id": "i3l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ninguno",
+              "t": "Nessuno"
+            },
+            {
+              "es": "Necesario",
+              "t": "Necessario"
+            },
+            {
+              "es": "Amiga",
+              "t": "Amica"
+            }
+          ]
+        },
+        {
+          "id": "i3l8e7",
+          "type": "choice",
+          "prompt": "«Lavar» se traduce como...",
+          "options": [
+            "Lavare",
+            "pane",
+            "Libro",
+            "Verdura"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lavar",
+            "t": "Lavare"
+          }
+        },
+        {
+          "id": "i3l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Pane",
+          "options": [
+            "Pan",
+            "Libro",
+            "Verdura"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pan",
+            "t": "Pane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l9",
+      "title": "Conversazione 5",
+      "goal": "Parlare",
+      "tip": [
+        "Costruisci sicurezza."
+      ],
+      "phrases": [
+        {
+          "es": "Pantalla",
+          "t": "Schermo"
+        },
+        {
+          "es": "Llorar",
+          "t": "Piangere"
+        },
+        {
+          "es": "Pan",
+          "t": "Pane"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pantalla»?",
+          "options": [
+            "Schermo",
+            "Piangere",
+            "pane",
+            "Email"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pantalla",
+            "t": "Schermo"
+          }
+        },
+        {
+          "id": "i3l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Piangere",
+          "options": [
+            "Llorar",
+            "Pan",
+            "Correo electrónico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llorar",
+            "t": "Piangere"
+          }
+        },
+        {
+          "id": "i3l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "pane",
+            "Email",
+            "Zio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pan",
+            "t": "Pane"
+          }
+        },
+        {
+          "id": "i3l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Correo electrónico»",
+          "solution": "Email",
+          "distractors": [
+            "Zio",
+            "Borsa"
+          ],
+          "pair": {
+            "es": "Correo electrónico",
+            "t": "Email"
+          }
+        },
+        {
+          "id": "i3l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tío»",
+          "solution": "Zio",
+          "accept": [
+            "Zio",
+            "zio"
+          ],
+          "pair": {
+            "es": "Tío",
+            "t": "Zio"
+          }
+        },
+        {
+          "id": "i3l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Bolso",
+              "t": "Borsa"
+            },
+            {
+              "es": "Puerta",
+              "t": "Porta"
+            },
+            {
+              "es": "Parecer",
+              "t": "Sembrare"
+            }
+          ]
+        },
+        {
+          "id": "i3l9e7",
+          "type": "choice",
+          "prompt": "«Madre» se traduce como...",
+          "options": [
+            "madre",
+            "destra",
+            "cattivo",
+            "Non capisco"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Madre",
+            "t": "Madre"
+          }
+        },
+        {
+          "id": "i3l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Destra",
+          "options": [
+            "Derecha",
+            "Malo",
+            "No entiendo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Derecha",
+            "t": "Destra"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l10",
+      "title": "Vita reale 6",
+      "goal": "Situazioni reali",
+      "tip": [
+        "Usa la lingua nel contesto."
+      ],
+      "phrases": [
+        {
+          "es": "Caer",
+          "t": "Cadere"
+        },
+        {
+          "es": "Noche",
+          "t": "Sera"
+        },
+        {
+          "es": "Hermana",
+          "t": "Sorella"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Caer»?",
+          "options": [
+            "Cadere",
+            "Sera",
+            "sorella",
+            "Giovedì"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caer",
+            "t": "Cadere"
+          }
+        },
+        {
+          "id": "i3l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Sera",
+          "options": [
+            "Noche",
+            "Hermana",
+            "Jueves"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Noche",
+            "t": "Sera"
+          }
+        },
+        {
+          "id": "i3l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "sorella",
+            "Giovedì",
+            "Spiegare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana",
+            "t": "Sorella"
+          }
+        },
+        {
+          "id": "i3l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Jueves»",
+          "solution": "Giovedì",
+          "distractors": [
+            "Spiegare",
+            "Guidare"
+          ],
+          "pair": {
+            "es": "Jueves",
+            "t": "Giovedì"
+          }
+        },
+        {
+          "id": "i3l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «explicar»",
+          "solution": "Spiegare",
+          "accept": [
+            "Spiegare",
+            "spiegare"
+          ],
+          "pair": {
+            "es": "Explicar",
+            "t": "Spiegare"
+          }
+        },
+        {
+          "id": "i3l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Conducir",
+              "t": "Guidare"
+            },
+            {
+              "es": "Árbol",
+              "t": "Albero"
+            },
+            {
+              "es": "Muy/Mucho",
+              "t": "Molto"
+            }
+          ]
+        },
+        {
+          "id": "i3l10e7",
+          "type": "choice",
+          "prompt": "«Llevar» se traduce como...",
+          "options": [
+            "Portare",
+            "Triste",
+            "Marzo",
+            "Pronto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llevar",
+            "t": "Portare"
+          }
+        },
+        {
+          "id": "i3l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Triste",
+          "options": [
+            "Triste",
+            "Marzo",
+            "Listo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Triste",
+            "t": "Triste"
           }
         }
       ]

@@ -1,0 +1,1527 @@
+{
+  "id": "c7",
+  "title": "工作与学习",
+  "emoji": "💼",
+  "color": "#8E6FFF",
+  "lessons": [
+    {
+      "id": "c7l1",
+      "title": "职业",
+      "goal": "谈工作",
+      "tip": [
+        "Recuerda los tonos del mandarín al pronunciar.",
+        "「我是...」表示职业。",
+        "「我在...工作」。"
+      ],
+      "phrases": [
+        {
+          "es": "我是老师",
+          "t": "我是老师 (wǒ shì lǎoshī)"
+        },
+        {
+          "es": "我在找工作",
+          "t": "我在找工作 (wǒ zài zhǎo gōngzuò)"
+        },
+        {
+          "es": "我在办公室工作",
+          "t": "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «我是老师»?",
+          "options": [
+            "我是老师 (wǒ shì lǎoshī)",
+            "我在找工作 (wǒ zài zhǎo gōngzuò)",
+            "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)",
+            "老师 (lǎoshī)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我是老师",
+            "t": "我是老师 (wǒ shì lǎoshī)"
+          }
+        },
+        {
+          "id": "c7l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我在找工作 (wǒ zài zhǎo gōngzuò)",
+          "options": [
+            "我在找工作",
+            "我在办公室工作",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我在找工作",
+            "t": "我在找工作 (wǒ zài zhǎo gōngzuò)"
+          }
+        },
+        {
+          "id": "c7l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "我在办公室工作 ___ zài bàngōngshì gōngzuò)",
+          "options": [
+            "(wǒ",
+            "老师",
+            "医生"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我在办公室工作",
+            "t": "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)"
+          }
+        },
+        {
+          "id": "c7l1e4",
+          "type": "build",
+          "prompt": "Traduce: «我是老师»",
+          "solution": "我是老师 (wǒ shì lǎoshī)",
+          "distractors": [
+            "工程师",
+            "办公室"
+          ],
+          "pair": {
+            "es": "我是老师",
+            "t": "我是老师 (wǒ shì lǎoshī)"
+          }
+        },
+        {
+          "id": "c7l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «老师»",
+          "solution": "老师",
+          "accept": [
+            "老师",
+            "laoshi"
+          ],
+          "pair": {
+            "es": "老师",
+            "t": "老师 (lǎoshī)"
+          }
+        },
+        {
+          "id": "c7l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "老师",
+              "t": "老师 (lǎoshī)"
+            },
+            {
+              "es": "医生",
+              "t": "医生 (yīshēng)"
+            },
+            {
+              "es": "工程师",
+              "t": "工程师 (gōngchéngshī)"
+            }
+          ]
+        },
+        {
+          "id": "c7l1e7",
+          "type": "choice",
+          "prompt": "«办公室» se traduce como...",
+          "options": [
+            "办公室 (bàngōngshì)",
+            "老师 (lǎoshī)",
+            "医生 (yīshēng)",
+            "工程师 (gōngchéngshī)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "办公室",
+            "t": "办公室 (bàngōngshì)"
+          }
+        },
+        {
+          "id": "c7l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "我是老师 (wǒ shì lǎoshī)",
+          "options": [
+            "我是老师",
+            "我在找工作",
+            "我在办公室工作"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我是老师",
+            "t": "我是老师 (wǒ shì lǎoshī)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l2",
+      "title": "办公室",
+      "goal": "办公室交流",
+      "tip": [
+        "Recuerda los tonos del mandarín al pronunciar.",
+        "「我有会议」。",
+        "「我发邮件」。"
+      ],
+      "phrases": [
+        {
+          "es": "我有一个会议",
+          "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
+        },
+        {
+          "es": "我发邮件",
+          "t": "我发邮件 (wǒ fā yóujiàn)"
+        },
+        {
+          "es": "截止日期是明天",
+          "t": "截止日期是明天 (jiézhǐ rìqī shì míngtiān)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «我有一个会议»?",
+          "options": [
+            "我有一个会议 (wǒ yǒu yī gè huìyì)",
+            "我发邮件 (wǒ fā yóujiàn)",
+            "截止日期是明天 (jiézhǐ rìqī shì míngtiān)",
+            "会议 (huìyì)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我有一个会议",
+            "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
+          }
+        },
+        {
+          "id": "c7l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我发邮件 (wǒ fā yóujiàn)",
+          "options": [
+            "我发邮件",
+            "截止日期是明天",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我发邮件",
+            "t": "我发邮件 (wǒ fā yóujiàn)"
+          }
+        },
+        {
+          "id": "c7l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "截止日期是明天 ___ rìqī shì míngtiān)",
+          "options": [
+            "(jiézhǐ",
+            "会议",
+            "邮件"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "截止日期是明天",
+            "t": "截止日期是明天 (jiézhǐ rìqī shì míngtiān)"
+          }
+        },
+        {
+          "id": "c7l2e4",
+          "type": "build",
+          "prompt": "Traduce: «我有一个会议»",
+          "solution": "我有一个会议 (wǒ yǒu yī gè huìyì)",
+          "distractors": [
+            "截止日期",
+            "项目"
+          ],
+          "pair": {
+            "es": "我有一个会议",
+            "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
+          }
+        },
+        {
+          "id": "c7l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «会议»",
+          "solution": "会议",
+          "accept": [
+            "会议",
+            "huiyi"
+          ],
+          "pair": {
+            "es": "会议",
+            "t": "会议 (huìyì)"
+          }
+        },
+        {
+          "id": "c7l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "会议",
+              "t": "会议 (huìyì)"
+            },
+            {
+              "es": "邮件",
+              "t": "邮件 (yóujiàn)"
+            },
+            {
+              "es": "截止日期",
+              "t": "截止日期 (jiézhǐ rìqī)"
+            }
+          ]
+        },
+        {
+          "id": "c7l2e7",
+          "type": "choice",
+          "prompt": "«项目» se traduce como...",
+          "options": [
+            "项目 (xiàngmù)",
+            "会议 (huìyì)",
+            "邮件 (yóujiàn)",
+            "截止日期 (jiézhǐ rìqī)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "项目",
+            "t": "项目 (xiàngmù)"
+          }
+        },
+        {
+          "id": "c7l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "我有一个会议 (wǒ yǒu yī gè huìyì)",
+          "options": [
+            "我有一个会议",
+            "我发邮件",
+            "截止日期是明天"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我有一个会议",
+            "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l3",
+      "title": "学校",
+      "goal": "在学校",
+      "tip": [
+        "Recuerda los tonos del mandarín al pronunciar.",
+        "「我有考试」。",
+        "「我不明白」。"
+      ],
+      "phrases": [
+        {
+          "es": "我有考试",
+          "t": "我有考试 (wǒ yǒu kǎoshì)"
+        },
+        {
+          "es": "我不明白",
+          "t": "我不明白 (wǒ bù míngbai)"
+        },
+        {
+          "es": "这节课很有趣",
+          "t": "这节课很有趣 (zhè jié kè hěn yǒuqù)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «我有考试»?",
+          "options": [
+            "我有考试 (wǒ yǒu kǎoshì)",
+            "我不明白 (wǒ bù míngbai)",
+            "这节课很有趣 (zhè jié kè hěn yǒuqù)",
+            "考试 (kǎoshì)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我有考试",
+            "t": "我有考试 (wǒ yǒu kǎoshì)"
+          }
+        },
+        {
+          "id": "c7l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我不明白 (wǒ bù míngbai)",
+          "options": [
+            "我不明白",
+            "这节课很有趣",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我不明白",
+            "t": "我不明白 (wǒ bù míngbai)"
+          }
+        },
+        {
+          "id": "c7l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "这节课很有趣 ___ jié kè hěn yǒuqù)",
+          "options": [
+            "(zhè",
+            "考试",
+            "课"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "这节课很有趣",
+            "t": "这节课很有趣 (zhè jié kè hěn yǒuqù)"
+          }
+        },
+        {
+          "id": "c7l3e4",
+          "type": "build",
+          "prompt": "Traduce: «我有考试»",
+          "solution": "我有考试 (wǒ yǒu kǎoshì)",
+          "distractors": [
+            "问题",
+            "答案"
+          ],
+          "pair": {
+            "es": "我有考试",
+            "t": "我有考试 (wǒ yǒu kǎoshì)"
+          }
+        },
+        {
+          "id": "c7l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «考试»",
+          "solution": "考试",
+          "accept": [
+            "考试",
+            "kaoshi"
+          ],
+          "pair": {
+            "es": "考试",
+            "t": "考试 (kǎoshì)"
+          }
+        },
+        {
+          "id": "c7l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "考试",
+              "t": "考试 (kǎoshì)"
+            },
+            {
+              "es": "课",
+              "t": "课 (kè)"
+            },
+            {
+              "es": "问题",
+              "t": "问题 (wèntí)"
+            }
+          ]
+        },
+        {
+          "id": "c7l3e7",
+          "type": "choice",
+          "prompt": "«答案» se traduce como...",
+          "options": [
+            "答案 (dá'àn)",
+            "考试 (kǎoshì)",
+            "课 (kè)",
+            "问题 (wèntí)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "答案",
+            "t": "答案 (dá'àn)"
+          }
+        },
+        {
+          "id": "c7l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "我有考试 (wǒ yǒu kǎoshì)",
+          "options": [
+            "我有考试",
+            "我不明白",
+            "这节课很有趣"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我有考试",
+            "t": "我有考试 (wǒ yǒu kǎoshì)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l4",
+      "title": "科技",
+      "goal": "数字生活",
+      "tip": [
+        "Recuerda los tonos del mandarín al pronunciar.",
+        "「下载应用」。",
+        "「我忘了密码」。"
+      ],
+      "phrases": [
+        {
+          "es": "下载这个应用",
+          "t": "下载这个应用 (xiàzài zhège yìngyòng)"
+        },
+        {
+          "es": "我忘了密码",
+          "t": "我忘了密码 (wǒ wàng le mìmǎ)"
+        },
+        {
+          "es": "我的手机坏了",
+          "t": "我的手机坏了 (wǒ de shǒujī huài le)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «下载这个应用»?",
+          "options": [
+            "下载这个应用 (xiàzài zhège yìngyòng)",
+            "我忘了密码 (wǒ wàng le mìmǎ)",
+            "我的手机坏了 (wǒ de shǒujī huài le)",
+            "应用 (yìngyòng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "下载这个应用",
+            "t": "下载这个应用 (xiàzài zhège yìngyòng)"
+          }
+        },
+        {
+          "id": "c7l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我忘了密码 (wǒ wàng le mìmǎ)",
+          "options": [
+            "我忘了密码",
+            "我的手机坏了",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我忘了密码",
+            "t": "我忘了密码 (wǒ wàng le mìmǎ)"
+          }
+        },
+        {
+          "id": "c7l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "我的手机坏了 ___ de shǒujī huài le)",
+          "options": [
+            "(wǒ",
+            "应用",
+            "密码"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "我的手机坏了",
+            "t": "我的手机坏了 (wǒ de shǒujī huài le)"
+          }
+        },
+        {
+          "id": "c7l4e4",
+          "type": "build",
+          "prompt": "Traduce: «下载这个应用»",
+          "solution": "下载这个应用 (xiàzài zhège yìngyòng)",
+          "distractors": [
+            "屏幕",
+            "消息"
+          ],
+          "pair": {
+            "es": "下载这个应用",
+            "t": "下载这个应用 (xiàzài zhège yìngyòng)"
+          }
+        },
+        {
+          "id": "c7l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «应用»",
+          "solution": "应用",
+          "accept": [
+            "应用",
+            "yingyong"
+          ],
+          "pair": {
+            "es": "应用",
+            "t": "应用 (yìngyòng)"
+          }
+        },
+        {
+          "id": "c7l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "应用",
+              "t": "应用 (yìngyòng)"
+            },
+            {
+              "es": "密码",
+              "t": "密码 (mìmǎ)"
+            },
+            {
+              "es": "屏幕",
+              "t": "屏幕 (píngmù)"
+            }
+          ]
+        },
+        {
+          "id": "c7l4e7",
+          "type": "choice",
+          "prompt": "«消息» se traduce como...",
+          "options": [
+            "消息 (xiāoxi)",
+            "应用 (yìngyòng)",
+            "密码 (mìmǎ)",
+            "屏幕 (píngmù)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "消息",
+            "t": "消息 (xiāoxi)"
+          }
+        },
+        {
+          "id": "c7l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "下载这个应用 (xiàzài zhège yìngyòng)",
+          "options": [
+            "下载这个应用",
+            "我忘了密码",
+            "我的手机坏了"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "下载这个应用",
+            "t": "下载这个应用 (xiàzài zhège yìngyòng)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l5",
+      "title": "额外词汇 1",
+      "goal": "关键词汇",
+      "tip": [
+        "练习重要词汇。"
+      ],
+      "phrases": [
+        {
+          "es": "Inmediatamente",
+          "t": "马上 (mǎshàng)"
+        },
+        {
+          "es": "Amable",
+          "t": "友好 (yǒuhǎo)"
+        },
+        {
+          "es": "No entiendo",
+          "t": "我不懂 (wǒ bù dǒng)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Inmediatamente»?",
+          "options": [
+            "马上 (mǎshàng)",
+            "友好 (yǒuhǎo)",
+            "我不懂 (wǒ bù dǒng)",
+            "窗户 (chuānghu)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Inmediatamente",
+            "t": "马上 (mǎshàng)"
+          }
+        },
+        {
+          "id": "c7l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "友好 (yǒuhǎo)",
+          "options": [
+            "Amable",
+            "No entiendo",
+            "Ventana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amable",
+            "t": "友好 (yǒuhǎo)"
+          }
+        },
+        {
+          "id": "c7l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "我不懂 ___ bù dǒng)",
+          "options": [
+            "(wǒ",
+            "窗户",
+            "星期"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No entiendo",
+            "t": "我不懂 (wǒ bù dǒng)"
+          }
+        },
+        {
+          "id": "c7l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Ventana»",
+          "solution": "窗户 (chuānghu)",
+          "distractors": [
+            "星期",
+            "背"
+          ],
+          "pair": {
+            "es": "Ventana",
+            "t": "窗户 (chuānghu)"
+          }
+        },
+        {
+          "id": "c7l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «semana»",
+          "solution": "星期",
+          "accept": [
+            "星期",
+            "xingqi"
+          ],
+          "pair": {
+            "es": "Semana",
+            "t": "星期 (xīngqī)"
+          }
+        },
+        {
+          "id": "c7l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Espalda",
+              "t": "背 (bèi)"
+            },
+            {
+              "es": "Beber",
+              "t": "喝 (hē)"
+            },
+            {
+              "es": "Aquí",
+              "t": "这里 (zhèlǐ)"
+            }
+          ]
+        },
+        {
+          "id": "c7l5e7",
+          "type": "choice",
+          "prompt": "«Mar» se traduce como...",
+          "options": [
+            "海 (hǎi)",
+            "下午 (xiàwǔ)",
+            "十 (shí)",
+            "先生 (xiānsheng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mar",
+            "t": "海 (hǎi)"
+          }
+        },
+        {
+          "id": "c7l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "下午 (xiàwǔ)",
+          "options": [
+            "Tarde",
+            "Diez",
+            "Señor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tarde",
+            "t": "下午 (xiàwǔ)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l6",
+      "title": "实用短语 2",
+      "goal": "日常短语",
+      "tip": [
+        "自然表达。"
+      ],
+      "phrases": [
+        {
+          "es": "Sandía",
+          "t": "西瓜 (xīguā)"
+        },
+        {
+          "es": "Tengo hambre",
+          "t": "我饿了 (wǒ è le)"
+        },
+        {
+          "es": "Bailar",
+          "t": "跳舞 (tiàowǔ)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Sandía»?",
+          "options": [
+            "西瓜 (xīguā)",
+            "我饿了 (wǒ è le)",
+            "跳舞 (tiàowǔ)",
+            "右 (yòu)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sandía",
+            "t": "西瓜 (xīguā)"
+          }
+        },
+        {
+          "id": "c7l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我饿了 (wǒ è le)",
+          "options": [
+            "Tengo hambre",
+            "Bailar",
+            "Derecha"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo hambre",
+            "t": "我饿了 (wǒ è le)"
+          }
+        },
+        {
+          "id": "c7l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (tiàowǔ)",
+          "options": [
+            "跳舞",
+            "右",
+            "自行车"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bailar",
+            "t": "跳舞 (tiàowǔ)"
+          }
+        },
+        {
+          "id": "c7l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Derecha»",
+          "solution": "右 (yòu)",
+          "distractors": [
+            "自行车",
+            "请进"
+          ],
+          "pair": {
+            "es": "Derecha",
+            "t": "右 (yòu)"
+          }
+        },
+        {
+          "id": "c7l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «bicicleta»",
+          "solution": "自行车",
+          "accept": [
+            "自行车",
+            "zixingche"
+          ],
+          "pair": {
+            "es": "Bicicleta",
+            "t": "自行车 (zìxíngchē)"
+          }
+        },
+        {
+          "id": "c7l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Pasa por favor",
+              "t": "请进 (qǐng jìn)"
+            },
+            {
+              "es": "Permiso ¿puedo preguntar?",
+              "t": "请问 (qǐngwèn)"
+            },
+            {
+              "es": "Zumo",
+              "t": "果汁 (guǒzhī)"
+            }
+          ]
+        },
+        {
+          "id": "c7l6e7",
+          "type": "choice",
+          "prompt": "«Este» se traduce como...",
+          "options": [
+            "东 (dōng)",
+            "晚上好 (wǎnshanghǎo)",
+            "轻 (qīng)",
+            "太阳镜 (tàiyángjìng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este",
+            "t": "东 (dōng)"
+          }
+        },
+        {
+          "id": "c7l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "晚上好 (wǎnshanghǎo)",
+          "options": [
+            "Buenas noches (al llegar)",
+            "Ligero",
+            "Gafas de sol"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Buenas noches (al llegar)",
+            "t": "晚上好 (wǎnshanghǎo)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l7",
+      "title": "复习 3",
+      "goal": "复习",
+      "tip": [
+        "巩固所学。"
+      ],
+      "phrases": [
+        {
+          "es": "Autobús",
+          "t": "公共汽车 (gōnggòng qìchē)"
+        },
+        {
+          "es": "Café",
+          "t": "咖啡 (kāfēi)"
+        },
+        {
+          "es": "Precio",
+          "t": "价格 (jiàgé)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Autobús»?",
+          "options": [
+            "公共汽车 (gōnggòng qìchē)",
+            "咖啡 (kāfēi)",
+            "价格 (jiàgé)",
+            "旁边 (pángbiān)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Autobús",
+            "t": "公共汽车 (gōnggòng qìchē)"
+          }
+        },
+        {
+          "id": "c7l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "咖啡 (kāfēi)",
+          "options": [
+            "Café",
+            "Precio",
+            "Al lado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Café",
+            "t": "咖啡 (kāfēi)"
+          }
+        },
+        {
+          "id": "c7l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (jiàgé)",
+          "options": [
+            "价格",
+            "旁边",
+            "车"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Precio",
+            "t": "价格 (jiàgé)"
+          }
+        },
+        {
+          "id": "c7l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Al lado»",
+          "solution": "旁边 (pángbiān)",
+          "distractors": [
+            "车",
+            "提高"
+          ],
+          "pair": {
+            "es": "Al lado",
+            "t": "旁边 (pángbiān)"
+          }
+        },
+        {
+          "id": "c7l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «coche»",
+          "solution": "车",
+          "accept": [
+            "车",
+            "che"
+          ],
+          "pair": {
+            "es": "Coche",
+            "t": "车 (chē)"
+          }
+        },
+        {
+          "id": "c7l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mejorar",
+              "t": "提高 (tígāo)"
+            },
+            {
+              "es": "Estudiar, aprender",
+              "t": "学 (xué)"
+            },
+            {
+              "es": "Quién",
+              "t": "谁 (shéi)"
+            }
+          ]
+        },
+        {
+          "id": "c7l7e7",
+          "type": "choice",
+          "prompt": "«Cocina» se traduce como...",
+          "options": [
+            "厨房 (chúfáng)",
+            "黑色 (hēisè)",
+            "墙 (qiáng)",
+            "学校 (xuéxiào)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cocina",
+            "t": "厨房 (chúfáng)"
+          }
+        },
+        {
+          "id": "c7l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "黑色 (hēisè)",
+          "options": [
+            "Negro",
+            "Pared",
+            "Escuela"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Negro",
+            "t": "黑色 (hēisè)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l8",
+      "title": "听力练习 4",
+      "goal": "听力",
+      "tip": [
+        "训练听力。"
+      ],
+      "phrases": [
+        {
+          "es": "Sin problema",
+          "t": "没问题 (méi wèntí)"
+        },
+        {
+          "es": "Rojo",
+          "t": "红色 (hóngsè)"
+        },
+        {
+          "es": "Llave",
+          "t": "钥匙 (yàoshi)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Sin problema»?",
+          "options": [
+            "没问题 (méi wèntí)",
+            "红色 (hóngsè)",
+            "钥匙 (yàoshi)",
+            "蛇 (shé)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sin problema",
+            "t": "没问题 (méi wèntí)"
+          }
+        },
+        {
+          "id": "c7l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "红色 (hóngsè)",
+          "options": [
+            "Rojo",
+            "Llave",
+            "Serpiente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Rojo",
+            "t": "红色 (hóngsè)"
+          }
+        },
+        {
+          "id": "c7l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (yàoshi)",
+          "options": [
+            "钥匙",
+            "蛇",
+            "信用卡"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llave",
+            "t": "钥匙 (yàoshi)"
+          }
+        },
+        {
+          "id": "c7l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Serpiente»",
+          "solution": "蛇 (shé)",
+          "distractors": [
+            "信用卡",
+            "跟"
+          ],
+          "pair": {
+            "es": "Serpiente",
+            "t": "蛇 (shé)"
+          }
+        },
+        {
+          "id": "c7l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tarjeta de crédito»",
+          "solution": "信用卡",
+          "accept": [
+            "信用卡",
+            "xinyongka"
+          ],
+          "pair": {
+            "es": "Tarjeta de crédito",
+            "t": "信用卡 (xìnyòngkǎ)"
+          }
+        },
+        {
+          "id": "c7l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Con",
+              "t": "跟 (gēn)"
+            },
+            {
+              "es": "Todos",
+              "t": "都 (dōu)"
+            },
+            {
+              "es": "Obtener",
+              "t": "得到 (dédào)"
+            }
+          ]
+        },
+        {
+          "id": "c7l8e7",
+          "type": "choice",
+          "prompt": "«Allí» se traduce como...",
+          "options": [
+            "那里 (nàlǐ)",
+            "难 (nán)",
+            "便宜 (piányi)",
+            "玩 (wán)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Allí",
+            "t": "那里 (nàlǐ)"
+          }
+        },
+        {
+          "id": "c7l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "难 (nán)",
+          "options": [
+            "Difícil",
+            "Barato",
+            "Jugar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Difícil",
+            "t": "难 (nán)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l9",
+      "title": "口语练习 5",
+      "goal": "口语",
+      "tip": [
+        "建立信心。"
+      ],
+      "phrases": [
+        {
+          "es": "Palillos",
+          "t": "筷子 (kuàizi)"
+        },
+        {
+          "es": "Plato, verduras",
+          "t": "菜 (cài)"
+        },
+        {
+          "es": "No pasa nada",
+          "t": "没关系 (méi guānxi)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Palillos»?",
+          "options": [
+            "筷子 (kuàizi)",
+            "菜 (cài)",
+            "没关系 (méi guānxi)",
+            "瓶子 (píngzi)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Palillos",
+            "t": "筷子 (kuàizi)"
+          }
+        },
+        {
+          "id": "c7l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "菜 (cài)",
+          "options": [
+            "Plato, verduras",
+            "No pasa nada",
+            "Botella"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Plato, verduras",
+            "t": "菜 (cài)"
+          }
+        },
+        {
+          "id": "c7l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "没关系 ___ guānxi)",
+          "options": [
+            "(méi",
+            "瓶子",
+            "慢慢来"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No pasa nada",
+            "t": "没关系 (méi guānxi)"
+          }
+        },
+        {
+          "id": "c7l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Botella»",
+          "solution": "瓶子 (píngzi)",
+          "distractors": [
+            "慢慢来",
+            "请再说一遍"
+          ],
+          "pair": {
+            "es": "Botella",
+            "t": "瓶子 (píngzi)"
+          }
+        },
+        {
+          "id": "c7l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «despacio»",
+          "solution": "慢慢来",
+          "accept": [
+            "慢慢来",
+            "man man lai",
+            "manmanlai"
+          ],
+          "pair": {
+            "es": "Despacio",
+            "t": "慢慢来 (màn màn lái)"
+          }
+        },
+        {
+          "id": "c7l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Repítelo otra vez",
+              "t": "请再说一遍 (qǐng zài shuō yíbiàn)"
+            },
+            {
+              "es": "Hola (tú)",
+              "t": "你好 (nǐ hǎo)"
+            },
+            {
+              "es": "Gato",
+              "t": "猫 (māo)"
+            }
+          ]
+        },
+        {
+          "id": "c7l9e7",
+          "type": "choice",
+          "prompt": "«Semana» se traduce como...",
+          "options": [
+            "星期 (xīngqī)",
+            "地图 (dìtú)",
+            "问题 (wèntí)",
+            "啤酒 (píjiǔ)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Semana",
+            "t": "星期 (xīngqī)"
+          }
+        },
+        {
+          "id": "c7l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "地图 (dìtú)",
+          "options": [
+            "Mapa",
+            "Pregunta/Problema",
+            "Cerveza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mapa",
+            "t": "地图 (dìtú)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c7l10",
+      "title": "真实场景 6",
+      "goal": "真实情境",
+      "tip": [
+        "在语境中使用语言。"
+      ],
+      "phrases": [
+        {
+          "es": "Calcetines",
+          "t": "袜子 (wàzi)"
+        },
+        {
+          "es": "Empezar",
+          "t": "开始 (kāishǐ)"
+        },
+        {
+          "es": "Animado",
+          "t": "热闹 (rènào)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c7l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Calcetines»?",
+          "options": [
+            "袜子 (wàzi)",
+            "开始 (kāishǐ)",
+            "热闹 (rènào)",
+            "知道 (zhīdào)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Calcetines",
+            "t": "袜子 (wàzi)"
+          }
+        },
+        {
+          "id": "c7l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "开始 (kāishǐ)",
+          "options": [
+            "Empezar",
+            "Animado",
+            "Saber"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Empezar",
+            "t": "开始 (kāishǐ)"
+          }
+        },
+        {
+          "id": "c7l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (rènào)",
+          "options": [
+            "热闹",
+            "知道",
+            "家"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Animado",
+            "t": "热闹 (rènào)"
+          }
+        },
+        {
+          "id": "c7l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Saber»",
+          "solution": "知道 (zhīdào)",
+          "distractors": [
+            "家",
+            "有时候"
+          ],
+          "pair": {
+            "es": "Saber",
+            "t": "知道 (zhīdào)"
+          }
+        },
+        {
+          "id": "c7l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «casa, hogar»",
+          "solution": "家",
+          "accept": [
+            "家",
+            "jia"
+          ],
+          "pair": {
+            "es": "Casa, hogar",
+            "t": "家 (jiā)"
+          }
+        },
+        {
+          "id": "c7l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "A veces",
+              "t": "有时候 (yǒushíhou)"
+            },
+            {
+              "es": "Puente",
+              "t": "桥 (qiáo)"
+            },
+            {
+              "es": "Mundo",
+              "t": "世界 (shìjiè)"
+            }
+          ]
+        },
+        {
+          "id": "c7l10e7",
+          "type": "choice",
+          "prompt": "«Computadora» se traduce como...",
+          "options": [
+            "电脑 (diànnǎo)",
+            "博物馆 (bówùguǎn)",
+            "伞 (sǎn)",
+            "晚安 (wǎn’ān)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Computadora",
+            "t": "电脑 (diànnǎo)"
+          }
+        },
+        {
+          "id": "c7l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "博物馆 (bówùguǎn)",
+          "options": [
+            "Museo",
+            "Paraguas",
+            "Buenas noches (al dormir)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Museo",
+            "t": "博物馆 (bówùguǎn)"
+          }
+        }
+      ]
+    }
+  ]
+}

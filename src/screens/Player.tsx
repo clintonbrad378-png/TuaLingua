@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, RoundResult, TeachIntro } from "../types";
-import { sfx, preloadClip, speak, vibrate } from "../lib/audio";
+import { sfx, speak, vibrate } from "../lib/audio";
 import { normalize, seedOf, shuffled, tokenize } from "../lib/text";
 import { IconX, IconVolume, IconCheck } from "../components/icons";
 import { randomPraise, targetLangName, t, useUiLang } from "../i18n";
@@ -423,7 +423,6 @@ function ListenExercise({
     [ex.id, ex.options],
   );
   useEffect(() => {
-    preloadClip(ex.audio);
     const timer = window.setTimeout(() => speak(ex.audio), 420);
     return () => clearTimeout(timer);
   }, [ex.id, ex.audio]);

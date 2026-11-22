@@ -1,617 +1,1523 @@
 {
- "id": "r6",
- "title": "Cultura y sociedad",
- "emoji": "🎭",
- "color": "#FFB020",
- "lessons": [
-  {
-   "id": "r6l1",
-   "title": "Cine y literatura",
-   "goal": "Comenta películas, libros y sus adaptaciones",
-   "tip": [
-    "«По мотивам» = basado en; «экранизация» = versión al cine de un libro.",
-    "Participio pasivo: «снятый» (rodado), «написанный» (escrito), «написан» (fue escrito)."
-   ],
-   "phrases": [
+  "id": "r6",
+  "title": "Культура и общество",
+  "emoji": "🎭",
+  "color": "#FFB020",
+  "lessons": [
     {
-     "es": "Esta película está basada en una novela clásica",
-     "t": "Этот фильм снят по мотивам классического романа"
+      "id": "r6l1",
+      "title": "Cine y literatura",
+      "goal": "Comenta películas, libros y sus adaptaciones",
+      "tip": [
+        "«По мотивам» = basado en; «экранизация» = versión al cine de un libro.",
+        "Participio pasivo: «снятый» (rodado), «написанный» (escrito), «написан» (fue escrito)."
+      ],
+      "phrases": [
+        {
+          "es": "Esta película está basada en una novela clásica",
+          "t": "Этот фильм снят по мотивам классического романа"
+        },
+        {
+          "es": "El protagonista se me quedó en la memoria",
+          "t": "Главный герой запомнился мне надолго"
+        },
+        {
+          "es": "La novela se publicó en el siglo XIX",
+          "t": "Роман был опубликован в XIX веке"
+        },
+        {
+          "es": "Los críticos elogiaron al director",
+          "t": "Критики похвалили режиссёра"
+        },
+        {
+          "es": "El libro es más profundo que la serie",
+          "t": "Книга глубже, чем сериал"
+        },
+        {
+          "es": "Esta novela es una auténtica obra maestra",
+          "t": "Этот роман — настоящий шедевр"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «basada en»?",
+          "options": [
+            "по мотивам",
+            "по ошибке",
+            "в конце",
+            "без понятия"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Basada en",
+            "t": "По мотивам"
+          }
+        },
+        {
+          "id": "r6l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Книга глубже, чем сериал",
+          "options": [
+            "El libro es más profundo que la serie",
+            "La serie es más profunda que el libro",
+            "El libro y la serie son iguales",
+            "Prefiero la serie al libro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El libro es más profundo que la serie",
+            "t": "Книга глубже, чем сериал"
+          }
+        },
+        {
+          "id": "r6l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Этот роман был ___ в прошлом веке.",
+          "options": [
+            "написан",
+            "написаны",
+            "писал"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este libro fue escrito en el siglo pasado",
+            "t": "Этот роман был написан в прошлом веке"
+          },
+          "explain": "Participio pasivo masculino: был написан = fue escrito."
+        },
+        {
+          "id": "r6l1e4",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "El guion",
+              "t": "Сценарий"
+            },
+            {
+              "es": "El director",
+              "t": "Режиссёр"
+            },
+            {
+              "es": "El protagonista",
+              "t": "Главный герой"
+            },
+            {
+              "es": "La obra maestra",
+              "t": "Шедевр"
+            }
+          ]
+        },
+        {
+          "id": "r6l1e5",
+          "type": "build",
+          "prompt": "Traduce: «Los críticos elogiaron al director»",
+          "solution": "Критики похвалили режиссёра",
+          "distractors": [
+            "осуждали",
+            "вы"
+          ],
+          "pair": {
+            "es": "Los críticos elogiaron al director",
+            "t": "Критики похвалили режиссёра"
+          }
+        },
+        {
+          "id": "r6l1e6",
+          "type": "type",
+          "prompt": "Escribe en ruso: «el guion»",
+          "solution": "Сценарий",
+          "accept": [
+            "сценарий"
+          ],
+          "pair": {
+            "es": "El guion",
+            "t": "Сценарий"
+          }
+        },
+        {
+          "id": "r6l1e7",
+          "type": "choice",
+          "prompt": "«Этот роман — настоящий шедевр» significa:",
+          "options": [
+            "Esta novela es una auténtica obra maestra",
+            "Esta novela no vale nada",
+            "Este capítulo es demasiado largo",
+            "Este género no me gusta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esta novela es una auténtica obra maestra",
+            "t": "Этот роман — настоящий шедевр"
+          }
+        }
+      ]
     },
     {
-     "es": "El protagonista se me quedó en la memoria",
-     "t": "Главный герой запомнился мне надолго"
+      "id": "r6l2",
+      "title": "Ciudad y urbanismo",
+      "goal": "Describe problemas y ventajas de la vida en la ciudad",
+      "tip": [
+        "«Пробка» literalmente es corcho; «стоять в пробке» = ir atrapado en el tráfico.",
+        "Preposiciones de lugar: «рядом с + instrumental» (cerca de), «далеко от + genitivo»."
+      ],
+      "phrases": [
+        {
+          "es": "Por la mañana siempre hay atascos",
+          "t": "Утром всегда пробки"
+        },
+        {
+          "es": "El aeropuerto está lejos del centro",
+          "t": "Аэропорт далеко от центра"
+        },
+        {
+          "es": "La ciudad crece demasiado rápido",
+          "t": "Город растёт слишком быстро"
+        },
+        {
+          "es": "Me gusta más la naturaleza que el ruido de la ciudad",
+          "t": "Я больше люблю природу, чем шум города"
+        },
+        {
+          "es": "Están construyendo un barrio residencial nuevo",
+          "t": "Строят новый жилой район"
+        },
+        {
+          "es": "El transporte público funciona sin descansos",
+          "t": "Общественный транспорт ходит без перерывов"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l2e1",
+          "type": "choice",
+          "prompt": "¿Qué significa «пробка» en el tráfico?",
+          "options": [
+            "atasco",
+            "peatonal",
+            "señal",
+            "gasolinera"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El atasco",
+            "t": "Пробка"
+          }
+        },
+        {
+          "id": "r6l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Утром всегда пробки",
+          "options": [
+            "Por la mañana siempre hay atascos",
+            "Por la mañana no hay coches",
+            "Las mañanas son tranquilas",
+            "Los atascos solo son de noche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por la mañana siempre hay atascos",
+            "t": "Утром всегда пробки"
+          }
+        },
+        {
+          "id": "r6l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Город растёт слишком ___, и это проблема.",
+          "options": [
+            "быстро",
+            "медленно",
+            "тихо"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La ciudad crece demasiado rápido y eso es un problema",
+            "t": "Город растёт слишком быстро, и это проблема"
+          }
+        },
+        {
+          "id": "r6l2e4",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "El atasco",
+              "t": "Пробка"
+            },
+            {
+              "es": "La parada",
+              "t": "Остановка"
+            },
+            {
+              "es": "El distrito",
+              "t": "Район"
+            },
+            {
+              "es": "La acera",
+              "t": "Тротуар"
+            }
+          ]
+        },
+        {
+          "id": "r6l2e5",
+          "type": "build",
+          "prompt": "Traduce: «El transporte público funciona sin descansos»",
+          "solution": "Общественный транспорт ходит без перерывов",
+          "distractors": [
+            "из",
+            "устал"
+          ],
+          "pair": {
+            "es": "El transporte público funciona sin descansos",
+            "t": "Общественный транспорт ходит без перерывов"
+          }
+        },
+        {
+          "id": "r6l2e6",
+          "type": "type",
+          "prompt": "Escribe en ruso: «el barrio residencial»",
+          "solution": "Жилой район",
+          "accept": [
+            "жилой район"
+          ],
+          "pair": {
+            "es": "El barrio residencial",
+            "t": "Жилой район"
+          }
+        },
+        {
+          "id": "r6l2e7",
+          "type": "choice",
+          "prompt": "«Аэропорт далеко от центра» significa:",
+          "options": [
+            "El aeropuerto está lejos del centro",
+            "El aeropuerto está cerca del centro",
+            "El aeropuerto está en el centro",
+            "El aeropuerto cerró para siempre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El aeropuerto está lejos del centro",
+            "t": "Аэропорт далеко от центра"
+          }
+        }
+      ]
     },
     {
-     "es": "La novela se publicó en el siglo XIX",
-     "t": "Роман был опубликован в XIX веке"
+      "id": "r6l3",
+      "title": "Medio ambiente",
+      "goal": "Habla de ecología, contaminación y cambio climático",
+      "tip": [
+        "«Окружающая среда» = medio ambiente; «вредить + dativo» = dañar a algo.",
+        "«Перерабатывать» = reciclar y también reprocessar."
+      ],
+      "phrases": [
+        {
+          "es": "El clima cambia más rápido de lo esperado",
+          "t": "Климат меняется быстрее, чем ожидалось"
+        },
+        {
+          "es": "Hay que reciclar la basura",
+          "t": "Мусор нужно перерабатывать"
+        },
+        {
+          "es": "Los gases de los coches dañan la salud",
+          "t": "Выхлопные газы вредят здоровью"
+        },
+        {
+          "es": "La calidad del aire empeora cada año",
+          "t": "Качество воздуха ухудшается с каждым годом"
+        },
+        {
+          "es": "Hay que proteger a los animales en peligro",
+          "t": "Нужно беречь редких животных"
+        },
+        {
+          "es": "El agua de este río ya no se puede beber",
+          "t": "Воду из этой реки уже нельзя пить"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «las emisiones»?",
+          "options": [
+            "выбросы",
+            "вывозы",
+            "выходы",
+            "возвраты"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las emisiones",
+            "t": "Выбросы"
+          }
+        },
+        {
+          "id": "r6l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Климат меняется быстрее, чем ожидалось",
+          "options": [
+            "El clima cambia más rápido de lo esperado",
+            "El clima no cambia nada",
+            "El clima cambia más lento de lo esperado",
+            "Nosotros cambiamos el clima"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El clima cambia más rápido de lo esperado",
+            "t": "Климат меняется быстрее, чем ожидалось"
+          }
+        },
+        {
+          "id": "r6l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ нужно перерабатывать.",
+          "options": [
+            "Мусор",
+            "Не",
+            "Мои"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hay que reciclar la basura",
+            "t": "Мусор нужно перерабатывать"
+          }
+        },
+        {
+          "id": "r6l3e4",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "La basura",
+              "t": "Мусор"
+            },
+            {
+              "es": "Las emisiones",
+              "t": "Выбросы"
+            },
+            {
+              "es": "El aire",
+              "t": "Воздух"
+            },
+            {
+              "es": "Reciclar",
+              "t": "Перерабатывать"
+            }
+          ]
+        },
+        {
+          "id": "r6l3e5",
+          "type": "build",
+          "prompt": "Traduce: «La calidad del aire empeora cada año»",
+          "solution": "Качество воздуха ухудшается с каждым годом",
+          "distractors": [
+            "лучше",
+            "вчера"
+          ],
+          "pair": {
+            "es": "La calidad del aire empeora cada año",
+            "t": "Качество воздуха ухудшается с каждым годом"
+          }
+        },
+        {
+          "id": "r6l3e6",
+          "type": "type",
+          "prompt": "Escribe en ruso: «el medio ambiente»",
+          "solution": "Окружающая среда",
+          "accept": [
+            "окружающая среда"
+          ],
+          "pair": {
+            "es": "El medio ambiente",
+            "t": "Окружающая среда"
+          }
+        },
+        {
+          "id": "r6l3e7",
+          "type": "choice",
+          "prompt": "«Воду из этой реки уже нельзя пить» significa:",
+          "options": [
+            "El agua de este río ya no se puede beber",
+            "El agua de este río está muy limpia",
+            "El río se puede beber entero",
+            "Hay que beber agua del río"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El agua de este río ya no se puede beber",
+            "t": "Воду из этой реки уже нельзя пить"
+          }
+        }
+      ]
     },
     {
-     "es": "Los críticos elogiaron al director",
-     "t": "Критики похвалили режиссёра"
+      "id": "r6l4",
+      "title": "Tecnología e internet",
+      "goal": "Habla de apps, datos y redes sociales con registro formal",
+      "tip": [
+        "«Данные» (datos) funcionan como en español: van en plural.",
+        "«Обновить» = actualizar; «обновление» = la actualización."
+      ],
+      "phrases": [
+        {
+          "es": "Esta aplicación funciona sin internet",
+          "t": "Это приложение работает без интернета"
+        },
+        {
+          "es": "Mis datos se guardan en el dispositivo",
+          "t": "Мои данные хранятся на устройстве"
+        },
+        {
+          "es": "El algoritmo te sugiere lo que ya sabes",
+          "t": "Алгоритм советует то, что ты уже знаешь"
+        },
+        {
+          "es": "Nunca le des tu contraseña a nadie",
+          "t": "Никогда никому не давай свой пароль"
+        },
+        {
+          "es": "La red social bloqueó su cuenta",
+          "t": "Социальная сеть заблокировала её аккаунт"
+        },
+        {
+          "es": "Los datos personales hay que protegerlos",
+          "t": "Личные данные нужно беречь"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l4e1",
+          "type": "choice",
+          "prompt": "¿Qué significa «пароль»?",
+          "options": [
+            "la contraseña",
+            "el contrato",
+            "la computadora",
+            "la página"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La contraseña",
+            "t": "Пароль"
+          }
+        },
+        {
+          "id": "r6l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Это приложение работает без интернета",
+          "options": [
+            "Esta aplicación funciona sin internet",
+            "Esta aplicación solo funciona con internet",
+            "El internet funciona sin la aplicación",
+            "Esta app consume muchos datos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esta aplicación funciona sin internet",
+            "t": "Это приложение работает без интернета"
+          }
+        },
+        {
+          "id": "r6l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Я обновил приложение, но оно всё ___.",
+          "options": [
+            "вылетает",
+            "веселит",
+            "выводит"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Actualicé la aplicación, pero sigue cerrándose",
+            "t": "Я обновил приложение, но оно всё вылетает"
+          },
+          "explain": "«Вылетает» es coloquial: la app se cierra sola."
+        },
+        {
+          "id": "r6l4e4",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "La actualización",
+              "t": "Обновление"
+            },
+            {
+              "es": "El algoritmo",
+              "t": "Алгоритм"
+            },
+            {
+              "es": "La red social",
+              "t": "Социальная сеть"
+            },
+            {
+              "es": "El dispositivo",
+              "t": "Устройство"
+            }
+          ]
+        },
+        {
+          "id": "r6l4e5",
+          "type": "build",
+          "prompt": "Traduce: «La red social bloqueó su cuenta»",
+          "solution": "Социальная сеть заблокировала её аккаунт",
+          "distractors": [
+            "мою",
+            "не"
+          ],
+          "pair": {
+            "es": "La red social bloqueó su cuenta",
+            "t": "Социальная сеть заблокировала её аккаунт"
+          }
+        },
+        {
+          "id": "r6l4e6",
+          "type": "type",
+          "prompt": "Escribe en ruso: «los datos personales»",
+          "solution": "Личные данные",
+          "accept": [
+            "личные данные"
+          ],
+          "pair": {
+            "es": "Los datos personales",
+            "t": "Личные данные"
+          }
+        },
+        {
+          "id": "r6l4e7",
+          "type": "choice",
+          "prompt": "«Алгоритм советует то, что ты уже знаешь» significa:",
+          "options": [
+            "El algoritmo te sugiere lo que ya sabes",
+            "El algoritmo descubre cosas nuevas",
+            "El algoritmo nunca acierta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El algoritmo te sugiere lo que ya sabes",
+            "t": "Алгоритм советует то, что ты уже знаешь"
+          }
+        }
+      ]
     },
     {
-     "es": "El libro es más profundo que la serie",
-     "t": "Книга глубже, чем сериал"
+      "id": "r6l5",
+      "title": "Дополнительные слова 1",
+      "goal": "Ключевые слова",
+      "tip": [
+        "Практикуйте важные слова."
+      ],
+      "phrases": [
+        {
+          "es": "Amarillo",
+          "t": "Жёлтый"
+        },
+        {
+          "es": "La hija",
+          "t": "Дочь"
+        },
+        {
+          "es": "El correo",
+          "t": "Почта"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Amarillo»?",
+          "options": [
+            "жёлтый",
+            "дочь",
+            "почта",
+            "вкусный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amarillo",
+            "t": "Жёлтый"
+          }
+        },
+        {
+          "id": "r6l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Дочь",
+          "options": [
+            "La hija",
+            "El correo",
+            "Sabroso"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La hija",
+            "t": "Дочь"
+          }
+        },
+        {
+          "id": "r6l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "почта",
+            "вкусный",
+            "гречка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El correo",
+            "t": "Почта"
+          }
+        },
+        {
+          "id": "r6l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Sabroso»",
+          "solution": "Вкусный",
+          "distractors": [
+            "гречка",
+            "ресторан"
+          ],
+          "pair": {
+            "es": "Sabroso",
+            "t": "Вкусный"
+          }
+        },
+        {
+          "id": "r6l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el trigo sarraceno»",
+          "solution": "Гречка",
+          "accept": [
+            "гречка",
+            "гречка"
+          ],
+          "pair": {
+            "es": "El trigo sarraceno",
+            "t": "Гречка"
+          }
+        },
+        {
+          "id": "r6l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El restaurante",
+              "t": "Ресторан"
+            },
+            {
+              "es": "El aperitivo",
+              "t": "Закуска"
+            },
+            {
+              "es": "Satisfecho",
+              "t": "Довольный"
+            }
+          ]
+        },
+        {
+          "id": "r6l5e7",
+          "type": "choice",
+          "prompt": "«El diccionario» se traduce como...",
+          "options": [
+            "словарь",
+            "день",
+            "шапка",
+            "медведь"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El diccionario",
+            "t": "Словарь"
+          }
+        },
+        {
+          "id": "r6l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "День",
+          "options": [
+            "El día",
+            "El gorro",
+            "El oso"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El día",
+            "t": "День"
+          }
+        }
+      ]
     },
     {
-     "es": "Esta novela es una auténtica obra maestra",
-     "t": "Этот роман — настоящий шедевр"
+      "id": "r6l6",
+      "title": "Полезные фразы 2",
+      "goal": "Повседневные фразы",
+      "tip": [
+        "Говорите естественно."
+      ],
+      "phrases": [
+        {
+          "es": "La plaza",
+          "t": "Площадь"
+        },
+        {
+          "es": "El despertador",
+          "t": "Будильник"
+        },
+        {
+          "es": "Los guantes",
+          "t": "Перчатки"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La plaza»?",
+          "options": [
+            "площадь",
+            "будильник",
+            "перчатки",
+            "светлый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La plaza",
+            "t": "Площадь"
+          }
+        },
+        {
+          "id": "r6l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Будильник",
+          "options": [
+            "El despertador",
+            "Los guantes",
+            "Claro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El despertador",
+            "t": "Будильник"
+          }
+        },
+        {
+          "id": "r6l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "перчатки",
+            "светлый",
+            "грустный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los guantes",
+            "t": "Перчатки"
+          }
+        },
+        {
+          "id": "r6l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Claro»",
+          "solution": "Светлый",
+          "distractors": [
+            "грустный",
+            "весна"
+          ],
+          "pair": {
+            "es": "Claro",
+            "t": "Светлый"
+          }
+        },
+        {
+          "id": "r6l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «triste»",
+          "solution": "Грустный",
+          "accept": [
+            "грустный",
+            "грустный"
+          ],
+          "pair": {
+            "es": "Triste",
+            "t": "Грустный"
+          }
+        },
+        {
+          "id": "r6l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La primavera",
+              "t": "Весна"
+            },
+            {
+              "es": "El país",
+              "t": "Страна"
+            },
+            {
+              "es": "El vuelo",
+              "t": "Полёт"
+            }
+          ]
+        },
+        {
+          "id": "r6l6e7",
+          "type": "choice",
+          "prompt": "«El pasajero» se traduce como...",
+          "options": [
+            "пассажир",
+            "девять",
+            "прививка",
+            "самолёт"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pasajero",
+            "t": "Пассажир"
+          }
+        },
+        {
+          "id": "r6l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Девять",
+          "options": [
+            "Nueve",
+            "La vacuna",
+            "El avión"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nueve",
+            "t": "Девять"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r6l7",
+      "title": "Повторение 3",
+      "goal": "Повторение",
+      "tip": [
+        "Закрепите изученное."
+      ],
+      "phrases": [
+        {
+          "es": "Leer",
+          "t": "Читать"
+        },
+        {
+          "es": "Importante",
+          "t": "Важный"
+        },
+        {
+          "es": "Animal",
+          "t": "Животное"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Leer»?",
+          "options": [
+            "читать",
+            "Важный",
+            "Животное",
+            "скачать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Leer",
+            "t": "Читать"
+          }
+        },
+        {
+          "id": "r6l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Важный",
+          "options": [
+            "Importante",
+            "Animal",
+            "Descargar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Importante",
+            "t": "Важный"
+          }
+        },
+        {
+          "id": "r6l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Животное",
+            "скачать",
+            "Если"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Animal",
+            "t": "Животное"
+          }
+        },
+        {
+          "id": "r6l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Descargar»",
+          "solution": "Скачать",
+          "distractors": [
+            "Если",
+            "кожа"
+          ],
+          "pair": {
+            "es": "Descargar",
+            "t": "Скачать"
+          }
+        },
+        {
+          "id": "r6l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «si»",
+          "solution": "Если",
+          "accept": [
+            "Если",
+            "если"
+          ],
+          "pair": {
+            "es": "Si",
+            "t": "Если"
+          }
+        },
+        {
+          "id": "r6l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La piel",
+              "t": "Кожа"
+            },
+            {
+              "es": "Cómo",
+              "t": "Как"
+            },
+            {
+              "es": "Construir",
+              "t": "Строить"
+            }
+          ]
+        },
+        {
+          "id": "r6l7e7",
+          "type": "choice",
+          "prompt": "«¿dónde está el baño?» se traduce como...",
+          "options": [
+            "где здесь туалет?",
+            "пункт назначения",
+            "Сразу",
+            "поликлиника"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿dónde está el baño?",
+            "t": "Где здесь туалет?"
+          }
+        },
+        {
+          "id": "r6l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Пункт назначения",
+          "options": [
+            "El destino",
+            "Inmediatamente",
+            "El ambulatorio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El destino",
+            "t": "Пункт назначения"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r6l8",
+      "title": "Аудирование 4",
+      "goal": "Слушание",
+      "tip": [
+        "Тренируйте слух."
+      ],
+      "phrases": [
+        {
+          "es": "Gracias",
+          "t": "Спасибо"
+        },
+        {
+          "es": "El tranvía",
+          "t": "Трамвай"
+        },
+        {
+          "es": "La mañana",
+          "t": "Утро"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Gracias»?",
+          "options": [
+            "спасибо",
+            "трамвай",
+            "утро",
+            "Брюки"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gracias",
+            "t": "Спасибо"
+          }
+        },
+        {
+          "id": "r6l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Трамвай",
+          "options": [
+            "El tranvía",
+            "La mañana",
+            "Pantalones"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tranvía",
+            "t": "Трамвай"
+          }
+        },
+        {
+          "id": "r6l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "утро",
+            "Брюки",
+            "парковка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mañana",
+            "t": "Утро"
+          }
+        },
+        {
+          "id": "r6l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Pantalones»",
+          "solution": "Брюки",
+          "distractors": [
+            "парковка",
+            "бабочка"
+          ],
+          "pair": {
+            "es": "Pantalones",
+            "t": "Брюки"
+          }
+        },
+        {
+          "id": "r6l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el aparcamiento»",
+          "solution": "Парковка",
+          "accept": [
+            "парковка",
+            "парковка"
+          ],
+          "pair": {
+            "es": "El aparcamiento",
+            "t": "Парковка"
+          }
+        },
+        {
+          "id": "r6l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La mariposa",
+              "t": "Бабочка"
+            },
+            {
+              "es": "Llegar tarde",
+              "t": "Опоздать"
+            },
+            {
+              "es": "Probar",
+              "t": "Пробовать"
+            }
+          ]
+        },
+        {
+          "id": "r6l8e7",
+          "type": "choice",
+          "prompt": "«Amar» se traduce como...",
+          "options": [
+            "любить",
+            "Менять",
+            "прямой",
+            "Свободный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amar",
+            "t": "Любить"
+          }
+        },
+        {
+          "id": "r6l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Менять",
+          "options": [
+            "Cambiar",
+            "Directo",
+            "Libre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cambiar",
+            "t": "Менять"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r6l9",
+      "title": "Говорение 5",
+      "goal": "Разговор",
+      "tip": [
+        "Уверенность в речи."
+      ],
+      "phrases": [
+        {
+          "es": "Quizás",
+          "t": "Может быть"
+        },
+        {
+          "es": "La noche",
+          "t": "Ночь"
+        },
+        {
+          "es": "El calentamiento",
+          "t": "Потепление"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Quizás»?",
+          "options": [
+            "Может быть",
+            "ночь",
+            "потепление",
+            "Действительно"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quizás",
+            "t": "Может быть"
+          }
+        },
+        {
+          "id": "r6l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ночь",
+          "options": [
+            "La noche",
+            "El calentamiento",
+            "Realmente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La noche",
+            "t": "Ночь"
+          }
+        },
+        {
+          "id": "r6l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "потепление",
+            "Действительно",
+            "слышать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El calentamiento",
+            "t": "Потепление"
+          }
+        },
+        {
+          "id": "r6l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Realmente»",
+          "solution": "Действительно",
+          "distractors": [
+            "слышать",
+            "Помогите!"
+          ],
+          "pair": {
+            "es": "Realmente",
+            "t": "Действительно"
+          }
+        },
+        {
+          "id": "r6l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «oír»",
+          "solution": "Слышать",
+          "accept": [
+            "слышать",
+            "слышать"
+          ],
+          "pair": {
+            "es": "Oír",
+            "t": "Слышать"
+          }
+        },
+        {
+          "id": "r6l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "¡Ayuda!",
+              "t": "Помогите!"
+            },
+            {
+              "es": "Cocinar",
+              "t": "Готовить"
+            },
+            {
+              "es": "Adiós",
+              "t": "До свидания"
+            }
+          ]
+        },
+        {
+          "id": "r6l9e7",
+          "type": "choice",
+          "prompt": "«El tren» se traduce como...",
+          "options": [
+            "поезд",
+            "занятый",
+            "гречка",
+            "суп"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tren",
+            "t": "Поезд"
+          }
+        },
+        {
+          "id": "r6l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Занятый",
+          "options": [
+            "Ocupado",
+            "El trigo sarraceno",
+            "La sopa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ocupado",
+            "t": "Занятый"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r6l10",
+      "title": "Реальные ситуации 6",
+      "goal": "Реальные ситуации",
+      "tip": [
+        "Язык в контексте."
+      ],
+      "phrases": [
+        {
+          "es": "Nuevo",
+          "t": "Новый"
+        },
+        {
+          "es": "El ascenso",
+          "t": "Повышение"
+        },
+        {
+          "es": "Mucho",
+          "t": "Много"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r6l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Nuevo»?",
+          "options": [
+            "новый",
+            "повышение",
+            "Много",
+            "лето"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nuevo",
+            "t": "Новый"
+          }
+        },
+        {
+          "id": "r6l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Повышение",
+          "options": [
+            "El ascenso",
+            "Mucho",
+            "El verano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ascenso",
+            "t": "Повышение"
+          }
+        },
+        {
+          "id": "r6l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Много",
+            "лето",
+            "Тоже"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mucho",
+            "t": "Много"
+          }
+        },
+        {
+          "id": "r6l10e4",
+          "type": "build",
+          "prompt": "Traduce: «El verano»",
+          "solution": "Лето",
+          "distractors": [
+            "Тоже",
+            "врач"
+          ],
+          "pair": {
+            "es": "El verano",
+            "t": "Лето"
+          }
+        },
+        {
+          "id": "r6l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «también»",
+          "solution": "Тоже",
+          "accept": [
+            "Тоже",
+            "тоже"
+          ],
+          "pair": {
+            "es": "También",
+            "t": "Тоже"
+          }
+        },
+        {
+          "id": "r6l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El médico",
+              "t": "Врач"
+            },
+            {
+              "es": "El invierno",
+              "t": "Зима"
+            },
+            {
+              "es": "Escuchar",
+              "t": "Слушать"
+            }
+          ]
+        },
+        {
+          "id": "r6l10e7",
+          "type": "choice",
+          "prompt": "«Olvidar» se traduce como...",
+          "options": [
+            "Забывать",
+            "пылесос",
+            "облачное хранилище",
+            "джинсы"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Olvidar",
+            "t": "Забывать"
+          }
+        },
+        {
+          "id": "r6l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Пылесос",
+          "options": [
+            "La aspiradora",
+            "El almacenamiento en la nube",
+            "Los vaqueros"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La aspiradora",
+            "t": "Пылесос"
+          }
+        }
+      ]
     }
-   ],
-   "exercises": [
-    {
-     "id": "r6l1e1",
-     "type": "choice",
-     "prompt": "¿Cómo se dice «basada en»?",
-     "options": [
-      "по мотивам",
-      "по ошибке",
-      "в конце",
-      "без понятия"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Basada en",
-      "t": "По мотивам"
-     }
-    },
-    {
-     "id": "r6l1e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Книга глубже, чем сериал",
-     "options": [
-      "El libro es más profundo que la serie",
-      "La serie es más profunda que el libro",
-      "El libro y la serie son iguales",
-      "Prefiero la serie al libro"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El libro es más profundo que la serie",
-      "t": "Книга глубже, чем сериал"
-     }
-    },
-    {
-     "id": "r6l1e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Этот роман был ___ в прошлом веке.",
-     "options": [
-      "написан",
-      "написаны",
-      "писал"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Este libro fue escrito en el siglo pasado",
-      "t": "Этот роман был написан в прошлом веке"
-     },
-     "explain": "Participio pasivo masculino: был написан = fue escrito."
-    },
-    {
-     "id": "r6l1e4",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "El guion",
-       "t": "Сценарий"
-      },
-      {
-       "es": "El director",
-       "t": "Режиссёр"
-      },
-      {
-       "es": "El protagonista",
-       "t": "Главный герой"
-      },
-      {
-       "es": "La obra maestra",
-       "t": "Шедевр"
-      }
-     ]
-    },
-    {
-     "id": "r6l1e5",
-     "type": "build",
-     "prompt": "Traduce: «Los críticos elogiaron al director»",
-     "solution": "Критики похвалили режиссёра",
-     "distractors": [
-      "осуждали",
-      "вы"
-     ],
-     "pair": {
-      "es": "Los críticos elogiaron al director",
-      "t": "Критики похвалили режиссёра"
-     }
-    },
-    {
-     "id": "r6l1e6",
-     "type": "type",
-     "prompt": "Escribe en ruso: «el guion»",
-     "solution": "сценарий",
-     "accept": [
-      "сценарий"
-     ],
-     "pair": {
-      "es": "El guion",
-      "t": "Сценарий"
-     }
-    },
-    {
-     "id": "r6l1e7",
-     "type": "choice",
-     "prompt": "«Этот роман — настоящий шедевр» significa:",
-     "options": [
-      "Esta novela es una auténtica obra maestra",
-      "Esta novela no vale nada",
-      "Este capítulo es demasiado largo",
-      "Este género no me gusta"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Esta novela es una auténtica obra maestra",
-      "t": "Этот роман — настоящий шедевр"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r6l2",
-   "title": "Ciudad y urbanismo",
-   "goal": "Describe problemas y ventajas de la vida en la ciudad",
-   "tip": [
-    "«Пробка» literalmente es corcho; «стоять в пробке» = ir atrapado en el tráfico.",
-    "Preposiciones de lugar: «рядом с + instrumental» (cerca de), «далеко от + genitivo»."
-   ],
-   "phrases": [
-    {
-     "es": "Por la mañana siempre hay atascos",
-     "t": "Утром всегда пробки"
-    },
-    {
-     "es": "El aeropuerto está lejos del centro",
-     "t": "Аэропорт далеко от центра"
-    },
-    {
-     "es": "La ciudad crece demasiado rápido",
-     "t": "Город растёт слишком быстро"
-    },
-    {
-     "es": "Me gusta más la naturaleza que el ruido de la ciudad",
-     "t": "Я больше люблю природу, чем шум города"
-    },
-    {
-     "es": "Están construyendo un barrio residencial nuevo",
-     "t": "Строят новый жилой район"
-    },
-    {
-     "es": "El transporte público funciona sin descansos",
-     "t": "Общественный транспорт ходит без перерывов"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r6l2e1",
-     "type": "choice",
-     "prompt": "¿Qué significa «пробка» en el tráfico?",
-     "options": [
-      "atasco",
-      "peatonal",
-      "señal",
-      "gasolinera"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El atasco",
-      "t": "Пробка"
-     }
-    },
-    {
-     "id": "r6l2e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Утром всегда пробки",
-     "options": [
-      "Por la mañana siempre hay atascos",
-      "Por la mañana no hay coches",
-      "Las mañanas son tranquilas",
-      "Los atascos solo son de noche"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Por la mañana siempre hay atascos",
-      "t": "Утром всегда пробки"
-     }
-    },
-    {
-     "id": "r6l2e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Город растёт слишком ___, и это проблема.",
-     "options": [
-      "быстро",
-      "медленно",
-      "тихо"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "La ciudad crece demasiado rápido y eso es un problema",
-      "t": "Город растёт слишком быстро, и это проблема"
-     }
-    },
-    {
-     "id": "r6l2e4",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "El atasco",
-       "t": "Пробка"
-      },
-      {
-       "es": "La parada",
-       "t": "Остановка"
-      },
-      {
-       "es": "El distrito",
-       "t": "Район"
-      },
-      {
-       "es": "La acera",
-       "t": "Тротуар"
-      }
-     ]
-    },
-    {
-     "id": "r6l2e5",
-     "type": "build",
-     "prompt": "Traduce: «El transporte público funciona sin descansos»",
-     "solution": "Общественный транспорт ходит без перерывов",
-     "distractors": [
-      "из",
-      "устал"
-     ],
-     "pair": {
-      "es": "El transporte público funciona sin descansos",
-      "t": "Общественный транспорт ходит без перерывов"
-     }
-    },
-    {
-     "id": "r6l2e6",
-     "type": "type",
-     "prompt": "Escribe en ruso: «el barrio residencial»",
-     "solution": "жилой район",
-     "accept": [
-      "жилой район"
-     ],
-     "pair": {
-      "es": "El barrio residencial",
-      "t": "Жилой район"
-     }
-    },
-    {
-     "id": "r6l2e7",
-     "type": "choice",
-     "prompt": "«Аэропорт далеко от центра» significa:",
-     "options": [
-      "El aeropuerto está lejos del centro",
-      "El aeropuerto está cerca del centro",
-      "El aeropuerto está en el centro",
-      "El aeropuerto cerró para siempre"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El aeropuerto está lejos del centro",
-      "t": "Аэропорт далеко от центра"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r6l3",
-   "title": "Medio ambiente",
-   "goal": "Habla de ecología, contaminación y cambio climático",
-   "tip": [
-    "«Окружающая среда» = medio ambiente; «вредить + dativo» = dañar a algo.",
-    "«Перерабатывать» = reciclar y también reprocessar."
-   ],
-   "phrases": [
-    {
-     "es": "El clima cambia más rápido de lo esperado",
-     "t": "Климат меняется быстрее, чем ожидалось"
-    },
-    {
-     "es": "Hay que reciclar la basura",
-     "t": "Мусор нужно перерабатывать"
-    },
-    {
-     "es": "Los gases de los coches dañan la salud",
-     "t": "Выхлопные газы вредят здоровью"
-    },
-    {
-     "es": "La calidad del aire empeora cada año",
-     "t": "Качество воздуха ухудшается с каждым годом"
-    },
-    {
-     "es": "Hay que proteger a los animales en peligro",
-     "t": "Нужно беречь редких животных"
-    },
-    {
-     "es": "El agua de este río ya no se puede beber",
-     "t": "Воду из этой реки уже нельзя пить"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r6l3e1",
-     "type": "choice",
-     "prompt": "¿Cómo se dice «las emisiones»?",
-     "options": [
-      "выбросы",
-      "вывозы",
-      "выходы",
-      "возвраты"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Las emisiones",
-      "t": "Выбросы"
-     }
-    },
-    {
-     "id": "r6l3e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Климат меняется быстрее, чем ожидалось",
-     "options": [
-      "El clima cambia más rápido de lo esperado",
-      "El clima no cambia nada",
-      "El clima cambia más lento de lo esperado",
-      "Nosotros cambiamos el clima"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El clima cambia más rápido de lo esperado",
-      "t": "Климат меняется быстрее, чем ожидалось"
-     }
-    },
-    {
-     "id": "r6l3e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "___ нужно перерабатывать.",
-     "options": [
-      "Мусор",
-      "Не",
-      "Мои"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Hay que reciclar la basura",
-      "t": "Мусор нужно перерабатывать"
-     }
-    },
-    {
-     "id": "r6l3e4",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "La basura",
-       "t": "Мусор"
-      },
-      {
-       "es": "Las emisiones",
-       "t": "Выбросы"
-      },
-      {
-       "es": "El aire",
-       "t": "Воздух"
-      },
-      {
-       "es": "Reciclar",
-       "t": "Перерабатывать"
-      }
-     ]
-    },
-    {
-     "id": "r6l3e5",
-     "type": "build",
-     "prompt": "Traduce: «La calidad del aire empeora cada año»",
-     "solution": "Качество воздуха ухудшается с каждым годом",
-     "distractors": [
-      "лучше",
-      "вчера"
-     ],
-     "pair": {
-      "es": "La calidad del aire empeora cada año",
-      "t": "Качество воздуха ухудшается с каждым годом"
-     }
-    },
-    {
-     "id": "r6l3e6",
-     "type": "type",
-     "prompt": "Escribe en ruso: «el medio ambiente»",
-     "solution": "окружающая среда",
-     "accept": [
-      "окружающая среда"
-     ],
-     "pair": {
-      "es": "El medio ambiente",
-      "t": "Окружающая среда"
-     }
-    },
-    {
-     "id": "r6l3e7",
-     "type": "choice",
-     "prompt": "«Воду из этой реки уже нельзя пить» significa:",
-     "options": [
-      "El agua de este río ya no se puede beber",
-      "El agua de este río está muy limpia",
-      "El río se puede beber entero",
-      "Hay que beber agua del río"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El agua de este río ya no se puede beber",
-      "t": "Воду из этой реки уже нельзя пить"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r6l4",
-   "title": "Tecnología e internet",
-   "goal": "Habla de apps, datos y redes sociales con registro formal",
-   "tip": [
-    "«Данные» (datos) funcionan como en español: van en plural.",
-    "«Обновить» = actualizar; «обновление» = la actualización."
-   ],
-   "phrases": [
-    {
-     "es": "Esta aplicación funciona sin internet",
-     "t": "Это приложение работает без интернета"
-    },
-    {
-     "es": "Mis datos se guardan en el dispositivo",
-     "t": "Мои данные хранятся на устройстве"
-    },
-    {
-     "es": "El algoritmo te sugiere lo que ya sabes",
-     "t": "Алгоритм советует то, что ты уже знаешь"
-    },
-    {
-     "es": "Nunca le des tu contraseña a nadie",
-     "t": "Никогда никому не давай свой пароль"
-    },
-    {
-     "es": "La red social bloqueó su cuenta",
-     "t": "Социальная сеть заблокировала её аккаунт"
-    },
-    {
-     "es": "Los datos personales hay que protegerlos",
-     "t": "Личные данные нужно беречь"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r6l4e1",
-     "type": "choice",
-     "prompt": "¿Qué significa «пароль»?",
-     "options": [
-      "la contraseña",
-      "el contrato",
-      "la computadora",
-      "la página"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "La contraseña",
-      "t": "Пароль"
-     }
-    },
-    {
-     "id": "r6l4e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Это приложение работает без интернета",
-     "options": [
-      "Esta aplicación funciona sin internet",
-      "Esta aplicación solo funciona con internet",
-      "El internet funciona sin la aplicación",
-      "Esta app consume muchos datos"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Esta aplicación funciona sin internet",
-      "t": "Это приложение работает без интернета"
-     }
-    },
-    {
-     "id": "r6l4e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Я обновил приложение, но оно всё ___.",
-     "options": [
-      "вылетает",
-      "веселит",
-      "выводит"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Actualicé la aplicación, pero sigue cerrándose",
-      "t": "Я обновил приложение, но оно всё вылетает"
-     },
-     "explain": "«Вылетает» es coloquial: la app se cierra sola."
-    },
-    {
-     "id": "r6l4e4",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "La actualización",
-       "t": "Обновление"
-      },
-      {
-       "es": "El algoritmo",
-       "t": "Алгоритм"
-      },
-      {
-       "es": "La red social",
-       "t": "Социальная сеть"
-      },
-      {
-       "es": "El dispositivo",
-       "t": "Устройство"
-      }
-     ]
-    },
-    {
-     "id": "r6l4e5",
-     "type": "build",
-     "prompt": "Traduce: «La red social bloqueó su cuenta»",
-     "solution": "Социальная сеть заблокировала её аккаунт",
-     "distractors": [
-      "мою",
-      "не"
-     ],
-     "pair": {
-      "es": "La red social bloqueó su cuenta",
-      "t": "Социальная сеть заблокировала её аккаунт"
-     }
-    },
-    {
-     "id": "r6l4e6",
-     "type": "type",
-     "prompt": "Escribe en ruso: «los datos personales»",
-     "solution": "личные данные",
-     "accept": [
-      "личные данные"
-     ],
-     "pair": {
-      "es": "Los datos personales",
-      "t": "Личные данные"
-     }
-    },
-    {
-     "id": "r6l4e7",
-     "type": "choice",
-     "prompt": "«Алгоритм советует то, что ты уже знаешь» significa:",
-     "options": [
-      "El algoritmo te sugiere lo que ya sabes",
-      "El algoritmo descubre cosas nuevas",
-      "El algoritmo nunca acierta"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El algoritmo te sugiere lo que ya sabes",
-      "t": "Алгоритм советует то, что ты уже знаешь"
-     }
-    }
-   ]
-  }
- ]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "u8",
-  "title": "Trabajo y estudios",
+  "title": "Work and studies",
   "emoji": "💼",
   "color": "#6C7BFF",
   "lessons": [
@@ -14,18 +14,137 @@
         "Si está terminado y completo, usa el simple: I have written three reports."
       ],
       "phrases": [
-        { "es": "Llevo dos horas buscando trabajo", "t": "I have been looking for a job for two hours" },
-        { "es": "Ha estado lloviendo toda la mañana", "t": "It has been raining all morning" },
-        { "es": "¿Cuánto tiempo llevas trabajando aquí?", "t": "How long have you been working here?" }
+        {
+          "es": "Llevo dos horas buscando trabajo",
+          "t": "I have been looking for a job for two hours"
+        },
+        {
+          "es": "Ha estado lloviendo toda la mañana",
+          "t": "It has been raining all morning"
+        },
+        {
+          "es": "¿Cuánto tiempo llevas trabajando aquí?",
+          "t": "How long have you been working here?"
+        }
       ],
       "exercises": [
-        { "id": "u8l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ been working here since 2020.", "options": ["has", "have", "is"], "answer": 0, "pair": { "es": "Lleva trabajando aquí desde 2020.", "t": "She has been working here since 2020." }, "explain": "Con «she»: has been + -ing." },
-        { "id": "u8l1e2", "type": "choice", "prompt": "I'm tired because I ___ all day.", "options": ["have been studying", "studied", "study"], "answer": 0, "pair": { "es": "Estoy cansado porque llevo todo el día estudiando.", "t": "I have been studying all day." }, "explain": "Acción que continúa todo el día: perfecto continuo." },
-        { "id": "u8l1e3", "type": "build", "prompt": "Traduce: «Llevo esperando desde las nueve»", "solution": "I have been waiting since nine", "distractors": ["wait", "for"], "pair": { "es": "Llevo esperando desde las nueve", "t": "I have been waiting since nine" } },
-        { "id": "u8l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "He has been learning English for three years.", "options": ["Lleva tres años aprendiendo inglés.", "Aprendió inglés hace tres años.", "Aprenderá inglés durante tres años."], "answer": 0, "pair": { "es": "Lleva tres años aprendiendo inglés.", "t": "He has been learning English for three years." } },
-        { "id": "u8l1e5", "type": "type", "prompt": "Escribe «he estado estudiando»", "solution": "I have been studying", "accept": ["i have been studying", "i've been studying", "ive been studying"], "pair": { "es": "He estado estudiando", "t": "I have been studying" } },
-        { "id": "u8l1e6", "type": "match", "prompt": "Empareja los marcadores", "pairs": [{ "es": "Desde", "t": "Since" }, { "es": "Durante (periodo)", "t": "For" }, { "es": "Todo el día", "t": "All day" }, { "es": "Últimamente", "t": "Lately" }] },
-        { "id": "u8l1e7", "type": "choice", "prompt": "How long ___ you been learning German?", "options": ["have", "has", "did"], "answer": 0, "pair": { "es": "¿Cuánto tiempo llevas aprendiendo alemán?", "t": "How long have you been learning German?" }, "explain": "Con «you»: have been + -ing." }
+        {
+          "id": "u8l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She ___ been working here since 2020.",
+          "options": [
+            "has",
+            "have",
+            "is"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lleva trabajando aquí desde 2020.",
+            "t": "She has been working here since 2020."
+          },
+          "explain": "Con «she»: has been + -ing."
+        },
+        {
+          "id": "u8l1e2",
+          "type": "choice",
+          "prompt": "I'm tired because I ___ all day.",
+          "options": [
+            "have been studying",
+            "studied",
+            "study"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy cansado porque llevo todo el día estudiando.",
+            "t": "I have been studying all day."
+          },
+          "explain": "Acción que continúa todo el día: perfecto continuo."
+        },
+        {
+          "id": "u8l1e3",
+          "type": "build",
+          "prompt": "Traduce: «Llevo esperando desde las nueve»",
+          "solution": "I have been waiting since nine",
+          "distractors": [
+            "wait",
+            "for"
+          ],
+          "pair": {
+            "es": "Llevo esperando desde las nueve",
+            "t": "I have been waiting since nine"
+          }
+        },
+        {
+          "id": "u8l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "He has been learning English for three years.",
+          "options": [
+            "Lleva tres años aprendiendo inglés.",
+            "Aprendió inglés hace tres años.",
+            "Aprenderá inglés durante tres años."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lleva tres años aprendiendo inglés.",
+            "t": "He has been learning English for three years."
+          }
+        },
+        {
+          "id": "u8l1e5",
+          "type": "type",
+          "prompt": "Escribe «he estado estudiando»",
+          "solution": "I have been studying",
+          "accept": [
+            "i have been studying",
+            "i've been studying",
+            "ive been studying"
+          ],
+          "pair": {
+            "es": "He estado estudiando",
+            "t": "I have been studying"
+          }
+        },
+        {
+          "id": "u8l1e6",
+          "type": "match",
+          "prompt": "Empareja los marcadores",
+          "pairs": [
+            {
+              "es": "Desde",
+              "t": "Since"
+            },
+            {
+              "es": "Durante (periodo)",
+              "t": "For"
+            },
+            {
+              "es": "Todo el día",
+              "t": "All day"
+            },
+            {
+              "es": "Últimamente",
+              "t": "Lately"
+            }
+          ]
+        },
+        {
+          "id": "u8l1e7",
+          "type": "choice",
+          "prompt": "How long ___ you been learning German?",
+          "options": [
+            "have",
+            "has",
+            "did"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto tiempo llevas aprendiendo alemán?",
+            "t": "How long have you been learning German?"
+          },
+          "explain": "Con «you»: have been + -ing."
+        }
       ]
     },
     {
@@ -38,18 +157,135 @@
         "Tras preposición siempre -ing: I'm thinking of moving."
       ],
       "phrases": [
-        { "es": "Disfruto trabajando en equipo", "t": "I enjoy working in a team" },
-        { "es": "He decidido cambiar de trabajo", "t": "I have decided to change jobs" },
-        { "es": "Estoy pensando en mudarme", "t": "I'm thinking of moving" }
+        {
+          "es": "Disfruto trabajando en equipo",
+          "t": "I enjoy working in a team"
+        },
+        {
+          "es": "He decidido cambiar de trabajo",
+          "t": "I have decided to change jobs"
+        },
+        {
+          "es": "Estoy pensando en mudarme",
+          "t": "I'm thinking of moving"
+        }
       ],
       "exercises": [
-        { "id": "u8l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I enjoy ___ new languages.", "options": ["learning", "to learn", "learn"], "answer": 0, "pair": { "es": "Disfruto aprendiendo idiomas nuevos.", "t": "I enjoy learning new languages." }, "explain": "«Enjoy» + -ing, siempre." },
-        { "id": "u8l2e2", "type": "choice", "prompt": "She decided ___ a new course.", "options": ["to start", "starting", "start"], "answer": 0, "pair": { "es": "Decidió empezar un curso nuevo.", "t": "She decided to start a new course." }, "explain": "«Decide» + to + infinitivo." },
-        { "id": "u8l2e3", "type": "build", "prompt": "Traduce: «He decidido buscar un nuevo trabajo»", "solution": "I have decided to look for a new job", "distractors": ["looking", "deciding"], "pair": { "es": "He decidido buscar un nuevo trabajo", "t": "I have decided to look for a new job" } },
-        { "id": "u8l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "They suggested going to the meeting together.", "options": ["Sugirieron ir juntos a la reunión.", "Decidieron ir juntos a la reunión.", "Se negaron a ir juntos a la reunión."], "answer": 0, "pair": { "es": "Sugirieron ir juntos a la reunión.", "t": "They suggested going to the meeting together." } },
-        { "id": "u8l2e5", "type": "type", "prompt": "Completa: I enjoy ___ (aprender) new things.", "solution": "learning", "accept": ["learning"], "pair": { "es": "Aprender (tras enjoy)", "t": "Learning" } },
-        { "id": "u8l2e6", "type": "choice", "prompt": "I'm thinking ___ changing my career.", "options": ["of", "to", "for"], "answer": 0, "pair": { "es": "Estoy pensando en cambiar de profesión.", "t": "I am thinking of changing my career." }, "explain": "«Think of/about» + -ing." },
-        { "id": "u8l2e7", "type": "match", "prompt": "Empareja el patrón verbal", "pairs": [{ "es": "Disfrutar (enjoy + -ing)", "t": "Enjoy" }, { "es": "Decidir (decide + to)", "t": "Decide" }, { "es": "Querer (want + to)", "t": "Want" }, { "es": "Terminar (finish + -ing)", "t": "Finish" }] }
+        {
+          "id": "u8l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I enjoy ___ new languages.",
+          "options": [
+            "learning",
+            "to learn",
+            "learn"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Disfruto aprendiendo idiomas nuevos.",
+            "t": "I enjoy learning new languages."
+          },
+          "explain": "«Enjoy» + -ing, siempre."
+        },
+        {
+          "id": "u8l2e2",
+          "type": "choice",
+          "prompt": "She decided ___ a new course.",
+          "options": [
+            "to start",
+            "starting",
+            "start"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Decidió empezar un curso nuevo.",
+            "t": "She decided to start a new course."
+          },
+          "explain": "«Decide» + to + infinitivo."
+        },
+        {
+          "id": "u8l2e3",
+          "type": "build",
+          "prompt": "Traduce: «He decidido buscar un nuevo trabajo»",
+          "solution": "I have decided to look for a new job",
+          "distractors": [
+            "looking",
+            "deciding"
+          ],
+          "pair": {
+            "es": "He decidido buscar un nuevo trabajo",
+            "t": "I have decided to look for a new job"
+          }
+        },
+        {
+          "id": "u8l2e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "They suggested going to the meeting together.",
+          "options": [
+            "Sugirieron ir juntos a la reunión.",
+            "Decidieron ir juntos a la reunión.",
+            "Se negaron a ir juntos a la reunión."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sugirieron ir juntos a la reunión.",
+            "t": "They suggested going to the meeting together."
+          }
+        },
+        {
+          "id": "u8l2e5",
+          "type": "type",
+          "prompt": "Completa: I enjoy ___ (aprender) new things.",
+          "solution": "Learning",
+          "accept": [
+            "learning"
+          ],
+          "pair": {
+            "es": "Aprender (tras enjoy)",
+            "t": "Learning"
+          }
+        },
+        {
+          "id": "u8l2e6",
+          "type": "choice",
+          "prompt": "I'm thinking ___ changing my career.",
+          "options": [
+            "of",
+            "to",
+            "for"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy pensando en cambiar de profesión.",
+            "t": "I am thinking of changing my career."
+          },
+          "explain": "«Think of/about» + -ing."
+        },
+        {
+          "id": "u8l2e7",
+          "type": "match",
+          "prompt": "Empareja el patrón verbal",
+          "pairs": [
+            {
+              "es": "Disfrutar (enjoy + -ing)",
+              "t": "Enjoy"
+            },
+            {
+              "es": "Decidir (decide + to)",
+              "t": "Decide"
+            },
+            {
+              "es": "Querer (want + to)",
+              "t": "Want"
+            },
+            {
+              "es": "Terminar (finish + -ing)",
+              "t": "Finish"
+            }
+          ]
+        }
       ]
     },
     {
@@ -62,18 +298,135 @@
         "carry out = llevar a cabo (un plan, un proyecto)."
       ],
       "phrases": [
-        { "es": "Voy a solicitar ese puesto", "t": "I'm going to apply for that position" },
-        { "es": "Rellena el formulario y entrégalo", "t": "Fill in the form and hand it in" },
-        { "es": "Llevó a cabo el proyecto él solo", "t": "He carried out the project on his own" }
+        {
+          "es": "Voy a solicitar ese puesto",
+          "t": "I'm going to apply for that position"
+        },
+        {
+          "es": "Rellena el formulario y entrégalo",
+          "t": "Fill in the form and hand it in"
+        },
+        {
+          "es": "Llevó a cabo el proyecto él solo",
+          "t": "He carried out the project on his own"
+        }
       ],
       "exercises": [
-        { "id": "u8l3e1", "type": "match", "prompt": "Empareja cada phrasal verb", "pairs": [{ "es": "Solicitar", "t": "Apply for" }, { "es": "Buscar", "t": "Look for" }, { "es": "Rellenar", "t": "Fill in" }, { "es": "Entregar", "t": "Hand in" }] },
-        { "id": "u8l3e2", "type": "fill", "prompt": "Completa la frase", "sentence": "I want to ___ for the manager position.", "options": ["apply", "look", "fill"], "answer": 0, "pair": { "es": "Quiero presentarme para el puesto de gerente.", "t": "I want to apply for the manager position." }, "explain": "«Apply for» = solicitar un puesto." },
-        { "id": "u8l3e3", "type": "choice", "prompt": "«Llevar a cabo un plan» es…", "options": ["carry out", "carry on", "set up"], "answer": 0, "pair": { "es": "Llevar a cabo (un plan)", "t": "Carry out" }, "explain": "carry out a plan/project." },
-        { "id": "u8l3e4", "type": "build", "prompt": "Traduce: «Ella montó su propia empresa»", "solution": "She set up her own company", "distractors": ["sit", "up to"], "pair": { "es": "Ella montó su propia empresa", "t": "She set up her own company" } },
-        { "id": "u8l3e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Please fill in this form and hand it in before Friday.", "options": ["Rellena este formulario y entrégalo antes del viernes.", "Rellena este formulario y envíalo por correo el viernes.", "Guarda este formulario hasta el viernes."], "answer": 0, "pair": { "es": "Rellena este formulario y entrégalo antes del viernes.", "t": "Please fill in this form and hand it in before Friday." } },
-        { "id": "u8l3e6", "type": "type", "prompt": "Escribe «buscar (un trabajo)»", "solution": "look for", "accept": ["look for"], "pair": { "es": "Buscar (un trabajo)", "t": "Look for" } },
-        { "id": "u8l3e7", "type": "choice", "prompt": "The company will ___ five new engineers.", "options": ["take on", "take off", "take up"], "answer": 0, "pair": { "es": "La empresa contratará a cinco ingenieros nuevos.", "t": "The company will take on five new engineers." }, "explain": "«Take on» = contratar." }
+        {
+          "id": "u8l3e1",
+          "type": "match",
+          "prompt": "Empareja cada phrasal verb",
+          "pairs": [
+            {
+              "es": "Solicitar",
+              "t": "Apply for"
+            },
+            {
+              "es": "Buscar",
+              "t": "Look for"
+            },
+            {
+              "es": "Rellenar",
+              "t": "Fill in"
+            },
+            {
+              "es": "Entregar",
+              "t": "Hand in"
+            }
+          ]
+        },
+        {
+          "id": "u8l3e2",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I want to ___ for the manager position.",
+          "options": [
+            "apply",
+            "look",
+            "fill"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero presentarme para el puesto de gerente.",
+            "t": "I want to apply for the manager position."
+          },
+          "explain": "«Apply for» = solicitar un puesto."
+        },
+        {
+          "id": "u8l3e3",
+          "type": "choice",
+          "prompt": "«Llevar a cabo un plan» es…",
+          "options": [
+            "carry out",
+            "carry on",
+            "set up"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llevar a cabo (un plan)",
+            "t": "Carry out"
+          },
+          "explain": "carry out a plan/project."
+        },
+        {
+          "id": "u8l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Ella montó su propia empresa»",
+          "solution": "She set up her own company",
+          "distractors": [
+            "sit",
+            "up to"
+          ],
+          "pair": {
+            "es": "Ella montó su propia empresa",
+            "t": "She set up her own company"
+          }
+        },
+        {
+          "id": "u8l3e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Please fill in this form and hand it in before Friday.",
+          "options": [
+            "Rellena este formulario y entrégalo antes del viernes.",
+            "Rellena este formulario y envíalo por correo el viernes.",
+            "Guarda este formulario hasta el viernes."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Rellena este formulario y entrégalo antes del viernes.",
+            "t": "Please fill in this form and hand it in before Friday."
+          }
+        },
+        {
+          "id": "u8l3e6",
+          "type": "type",
+          "prompt": "Escribe «buscar (un trabajo)»",
+          "solution": "Look for",
+          "accept": [
+            "look for"
+          ],
+          "pair": {
+            "es": "Buscar (un trabajo)",
+            "t": "Look for"
+          }
+        },
+        {
+          "id": "u8l3e7",
+          "type": "choice",
+          "prompt": "The company will ___ five new engineers.",
+          "options": [
+            "take on",
+            "take off",
+            "take up"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La empresa contratará a cinco ingenieros nuevos.",
+            "t": "The company will take on five new engineers."
+          },
+          "explain": "«Take on» = contratar."
+        }
       ]
     },
     {
@@ -86,18 +439,1043 @@
         "deal with = tratar con / gestionar (clientes, problemas, presión)."
       ],
       "phrases": [
-        { "es": "Soy responsable de tres proyectos", "t": "I am responsible for three projects" },
-        { "es": "Se me dan bien los idiomas", "t": "I'm good at languages" },
-        { "es": "Sé tratar con clientes difíciles", "t": "I can deal with difficult clients" }
+        {
+          "es": "Soy responsable de tres proyectos",
+          "t": "I am responsible for three projects"
+        },
+        {
+          "es": "Se me dan bien los idiomas",
+          "t": "I'm good at languages"
+        },
+        {
+          "es": "Sé tratar con clientes difíciles",
+          "t": "I can deal with difficult clients"
+        }
       ],
       "exercises": [
-        { "id": "u8l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She is responsible ___ the marketing team.", "options": ["for", "of", "at"], "answer": 0, "pair": { "es": "Es responsable del equipo de marketing.", "t": "She is responsible for the marketing team." }, "explain": "Colocación: responsible for." },
-        { "id": "u8l4e2", "type": "choice", "prompt": "I'm good ___ solving problems.", "options": ["at", "in", "on"], "answer": 0, "pair": { "es": "Se me da bien resolver problemas.", "t": "I am good at solving problems." }, "explain": "Colocación: good at + -ing." },
-        { "id": "u8l4e3", "type": "build", "prompt": "Traduce: «Estoy interesado en el puesto»", "solution": "I am interested in the position", "distractors": ["interesting", "for"], "pair": { "es": "Estoy interesado en el puesto", "t": "I am interested in the position" } },
-        { "id": "u8l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "In my last job I was in charge of customer service.", "options": ["En mi último trabajo estaba a cargo de atención al cliente.", "En mi último trabajo trabajé con atención al cliente.", "En mi último trabajo dirigí toda la empresa."], "answer": 0, "pair": { "es": "En mi último trabajo estaba a cargo de atención al cliente.", "t": "In my last job I was in charge of customer service." } },
-        { "id": "u8l4e5", "type": "type", "prompt": "Escribe «se me da bien»", "solution": "I'm good at", "accept": ["i'm good at", "im good at", "i am good at"], "pair": { "es": "Se me da bien", "t": "I'm good at" } },
-        { "id": "u8l4e6", "type": "match", "prompt": "Empareja las colocaciones", "pairs": [{ "es": "Responsable de", "t": "Responsible for" }, { "es": "Bueno en", "t": "Good at" }, { "es": "A cargo de", "t": "In charge of" }, { "es": "Tratar con", "t": "Deal with" }] },
-        { "id": "u8l4e7", "type": "choice", "prompt": "We need someone who can ___ with pressure.", "options": ["deal", "do", "make"], "answer": 0, "pair": { "es": "Necesitamos a alguien que sepa lidiar con la presión.", "t": "We need someone who can deal with pressure." }, "explain": "«Deal with pressure» = gestionar la presión." }
+        {
+          "id": "u8l4e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She is responsible ___ the marketing team.",
+          "options": [
+            "for",
+            "of",
+            "at"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es responsable del equipo de marketing.",
+            "t": "She is responsible for the marketing team."
+          },
+          "explain": "Colocación: responsible for."
+        },
+        {
+          "id": "u8l4e2",
+          "type": "choice",
+          "prompt": "I'm good ___ solving problems.",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se me da bien resolver problemas.",
+            "t": "I am good at solving problems."
+          },
+          "explain": "Colocación: good at + -ing."
+        },
+        {
+          "id": "u8l4e3",
+          "type": "build",
+          "prompt": "Traduce: «Estoy interesado en el puesto»",
+          "solution": "I am interested in the position",
+          "distractors": [
+            "interesting",
+            "for"
+          ],
+          "pair": {
+            "es": "Estoy interesado en el puesto",
+            "t": "I am interested in the position"
+          }
+        },
+        {
+          "id": "u8l4e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "In my last job I was in charge of customer service.",
+          "options": [
+            "En mi último trabajo estaba a cargo de atención al cliente.",
+            "En mi último trabajo trabajé con atención al cliente.",
+            "En mi último trabajo dirigí toda la empresa."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "En mi último trabajo estaba a cargo de atención al cliente.",
+            "t": "In my last job I was in charge of customer service."
+          }
+        },
+        {
+          "id": "u8l4e5",
+          "type": "type",
+          "prompt": "Escribe «se me da bien»",
+          "solution": "I'm good at",
+          "accept": [
+            "i'm good at",
+            "im good at",
+            "i am good at"
+          ],
+          "pair": {
+            "es": "Se me da bien",
+            "t": "I'm good at"
+          }
+        },
+        {
+          "id": "u8l4e6",
+          "type": "match",
+          "prompt": "Empareja las colocaciones",
+          "pairs": [
+            {
+              "es": "Responsable de",
+              "t": "Responsible for"
+            },
+            {
+              "es": "Bueno en",
+              "t": "Good at"
+            },
+            {
+              "es": "A cargo de",
+              "t": "In charge of"
+            },
+            {
+              "es": "Tratar con",
+              "t": "Deal with"
+            }
+          ]
+        },
+        {
+          "id": "u8l4e7",
+          "type": "choice",
+          "prompt": "We need someone who can ___ with pressure.",
+          "options": [
+            "deal",
+            "do",
+            "make"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesitamos a alguien que sepa lidiar con la presión.",
+            "t": "We need someone who can deal with pressure."
+          },
+          "explain": "«Deal with pressure» = gestionar la presión."
+        }
+      ]
+    },
+    {
+      "id": "u8l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Con",
+          "t": "With"
+        },
+        {
+          "es": "Fin",
+          "t": "End"
+        },
+        {
+          "es": "La chica",
+          "t": "The girl"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Con»?",
+          "options": [
+            "with",
+            "end",
+            "the girl",
+            "the highway"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Con",
+            "t": "With"
+          }
+        },
+        {
+          "id": "u8l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "End",
+          "options": [
+            "Fin",
+            "La chica",
+            "La autopista"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fin",
+            "t": "End"
+          }
+        },
+        {
+          "id": "u8l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ girl",
+          "options": [
+            "the",
+            "to",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La chica",
+            "t": "The girl"
+          }
+        },
+        {
+          "id": "u8l5e4",
+          "type": "build",
+          "prompt": "Traduce: «La autopista»",
+          "solution": "The highway",
+          "distractors": [
+            "to",
+            "the"
+          ],
+          "pair": {
+            "es": "La autopista",
+            "t": "The highway"
+          }
+        },
+        {
+          "id": "u8l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «dibujar»",
+          "solution": "To draw",
+          "accept": [
+            "to draw",
+            "to draw"
+          ],
+          "pair": {
+            "es": "Dibujar",
+            "t": "To draw"
+          }
+        },
+        {
+          "id": "u8l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La cabeza",
+              "t": "The head"
+            },
+            {
+              "es": "La planta",
+              "t": "The plant"
+            },
+            {
+              "es": "La ley",
+              "t": "The law"
+            }
+          ]
+        },
+        {
+          "id": "u8l5e7",
+          "type": "choice",
+          "prompt": "«Momento» se traduce como...",
+          "options": [
+            "moment",
+            "the jam",
+            "the sweater",
+            "the knee"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Momento",
+            "t": "Moment"
+          }
+        },
+        {
+          "id": "u8l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The jam",
+          "options": [
+            "La mermelada",
+            "El suéter",
+            "La rodilla"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mermelada",
+            "t": "The jam"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Diferente",
+          "t": "Different"
+        },
+        {
+          "es": "La olla",
+          "t": "The pot"
+        },
+        {
+          "es": "Primero",
+          "t": "First"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Diferente»?",
+          "options": [
+            "different",
+            "the pot",
+            "first",
+            "to open"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Diferente",
+            "t": "Different"
+          }
+        },
+        {
+          "id": "u8l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The pot",
+          "options": [
+            "La olla",
+            "Primero",
+            "Abrir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La olla",
+            "t": "The pot"
+          }
+        },
+        {
+          "id": "u8l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "first",
+            "to",
+            "whole"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Primero",
+            "t": "First"
+          }
+        },
+        {
+          "id": "u8l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Abrir»",
+          "solution": "To open",
+          "distractors": [
+            "whole",
+            "as"
+          ],
+          "pair": {
+            "es": "Abrir",
+            "t": "To open"
+          }
+        },
+        {
+          "id": "u8l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «entero»",
+          "solution": "Whole",
+          "accept": [
+            "whole",
+            "whole"
+          ],
+          "pair": {
+            "es": "Entero",
+            "t": "Whole"
+          }
+        },
+        {
+          "id": "u8l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Como",
+              "t": "As"
+            },
+            {
+              "es": "La gasolinera",
+              "t": "The petrol station"
+            },
+            {
+              "es": "El agua",
+              "t": "The water"
+            }
+          ]
+        },
+        {
+          "id": "u8l6e7",
+          "type": "choice",
+          "prompt": "«Amable» se traduce como...",
+          "options": [
+            "kind",
+            "the room",
+            "reach",
+            "the dog"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amable",
+            "t": "Kind"
+          }
+        },
+        {
+          "id": "u8l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The room",
+          "options": [
+            "La habitación",
+            "Alcanzar",
+            "El perro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La habitación",
+            "t": "The room"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "Posible",
+          "t": "Possible"
+        },
+        {
+          "es": "Tranquilo",
+          "t": "Calm"
+        },
+        {
+          "es": "El director",
+          "t": "The director"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Posible»?",
+          "options": [
+            "possible",
+            "calm",
+            "the director",
+            "send"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Posible",
+            "t": "Possible"
+          }
+        },
+        {
+          "id": "u8l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Calm",
+          "options": [
+            "Tranquilo",
+            "El director",
+            "Enviar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tranquilo",
+            "t": "Calm"
+          }
+        },
+        {
+          "id": "u8l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ director",
+          "options": [
+            "the",
+            "send",
+            "he"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El director",
+            "t": "The director"
+          }
+        },
+        {
+          "id": "u8l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Enviar»",
+          "solution": "Send",
+          "distractors": [
+            "he",
+            "the"
+          ],
+          "pair": {
+            "es": "Enviar",
+            "t": "Send"
+          }
+        },
+        {
+          "id": "u8l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «él»",
+          "solution": "He",
+          "accept": [
+            "he",
+            "he"
+          ],
+          "pair": {
+            "es": "Él",
+            "t": "He"
+          }
+        },
+        {
+          "id": "u8l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El precio",
+              "t": "The price"
+            },
+            {
+              "es": "Las escaleras",
+              "t": "The stairs"
+            },
+            {
+              "es": "El juego",
+              "t": "The game"
+            }
+          ]
+        },
+        {
+          "id": "u8l7e7",
+          "type": "choice",
+          "prompt": "«Investigación» se traduce como...",
+          "options": [
+            "research",
+            "free",
+            "close",
+            "the sister"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Investigación",
+            "t": "Research"
+          }
+        },
+        {
+          "id": "u8l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Free",
+          "options": [
+            "Gratis",
+            "Cerca/cercano",
+            "La hermana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gratis",
+            "t": "Free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El plátano",
+          "t": "The banana"
+        },
+        {
+          "es": "La guitarra",
+          "t": "The guitar"
+        },
+        {
+          "es": "Rápidamente",
+          "t": "Quickly"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El plátano»?",
+          "options": [
+            "the banana",
+            "the guitar",
+            "quickly",
+            "excuse me"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El plátano",
+            "t": "The banana"
+          }
+        },
+        {
+          "id": "u8l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The guitar",
+          "options": [
+            "La guitarra",
+            "Rápidamente",
+            "Con permiso / perdona"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La guitarra",
+            "t": "The guitar"
+          }
+        },
+        {
+          "id": "u8l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "quickly",
+            "excuse",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Rápidamente",
+            "t": "Quickly"
+          }
+        },
+        {
+          "id": "u8l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Con permiso / perdona»",
+          "solution": "Excuse me",
+          "distractors": [
+            "the",
+            "wait"
+          ],
+          "pair": {
+            "es": "Con permiso / perdona",
+            "t": "Excuse me"
+          }
+        },
+        {
+          "id": "u8l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el viento»",
+          "solution": "The wind",
+          "accept": [
+            "the wind",
+            "the wind"
+          ],
+          "pair": {
+            "es": "El viento",
+            "t": "The wind"
+          }
+        },
+        {
+          "id": "u8l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Esperar",
+              "t": "Wait"
+            },
+            {
+              "es": "Construir",
+              "t": "Build"
+            },
+            {
+              "es": "El recibo",
+              "t": "The receipt"
+            }
+          ]
+        },
+        {
+          "id": "u8l8e7",
+          "type": "choice",
+          "prompt": "«El primo» se traduce como...",
+          "options": [
+            "the cousin",
+            "say",
+            "the hope",
+            "the email"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El primo",
+            "t": "The cousin"
+          }
+        },
+        {
+          "id": "u8l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Say",
+          "options": [
+            "Decir",
+            "La esperanza",
+            "El correo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Decir",
+            "t": "Say"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "Esperar",
+          "t": "Wait"
+        },
+        {
+          "es": "La plaza",
+          "t": "The square"
+        },
+        {
+          "es": "El ánimo",
+          "t": "The mood"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Esperar»?",
+          "options": [
+            "wait",
+            "the square",
+            "the mood",
+            "the website"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esperar",
+            "t": "Wait"
+          }
+        },
+        {
+          "id": "u8l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The square",
+          "options": [
+            "La plaza",
+            "El ánimo",
+            "La página web"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La plaza",
+            "t": "The square"
+          }
+        },
+        {
+          "id": "u8l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ mood",
+          "options": [
+            "the",
+            "meet",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ánimo",
+            "t": "The mood"
+          }
+        },
+        {
+          "id": "u8l9e4",
+          "type": "build",
+          "prompt": "Traduce: «La página web»",
+          "solution": "The website",
+          "distractors": [
+            "meet",
+            "the"
+          ],
+          "pair": {
+            "es": "La página web",
+            "t": "The website"
+          }
+        },
+        {
+          "id": "u8l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «conocer/reunirse»",
+          "solution": "Meet",
+          "accept": [
+            "meet",
+            "meet"
+          ],
+          "pair": {
+            "es": "Conocer/reunirse",
+            "t": "Meet"
+          }
+        },
+        {
+          "id": "u8l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El gol",
+              "t": "The goal"
+            },
+            {
+              "es": "El paraguas",
+              "t": "The umbrella"
+            },
+            {
+              "es": "Comer",
+              "t": "To eat"
+            }
+          ]
+        },
+        {
+          "id": "u8l9e7",
+          "type": "choice",
+          "prompt": "«Preguntar/pedir» se traduce como...",
+          "options": [
+            "ask",
+            "the turtle",
+            "call",
+            "in"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Preguntar/pedir",
+            "t": "Ask"
+          }
+        },
+        {
+          "id": "u8l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The turtle",
+          "options": [
+            "La tortuga",
+            "Llamar",
+            "Dentro/en"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tortuga",
+            "t": "The turtle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u8l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Propio",
+          "t": "Own"
+        },
+        {
+          "es": "La tía",
+          "t": "The aunt"
+        },
+        {
+          "es": "La noche",
+          "t": "The night"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u8l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Propio»?",
+          "options": [
+            "own",
+            "the aunt",
+            "the night",
+            "yesterday"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Propio",
+            "t": "Own"
+          }
+        },
+        {
+          "id": "u8l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The aunt",
+          "options": [
+            "La tía",
+            "La noche",
+            "Ayer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tía",
+            "t": "The aunt"
+          }
+        },
+        {
+          "id": "u8l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ night",
+          "options": [
+            "the",
+            "yesterday",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La noche",
+            "t": "The night"
+          }
+        },
+        {
+          "id": "u8l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Ayer»",
+          "solution": "Yesterday",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Ayer",
+            "t": "Yesterday"
+          }
+        },
+        {
+          "id": "u8l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el coche»",
+          "solution": "The car",
+          "accept": [
+            "the car",
+            "the car"
+          ],
+          "pair": {
+            "es": "El coche",
+            "t": "The car"
+          }
+        },
+        {
+          "id": "u8l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La novela",
+              "t": "The novel"
+            },
+            {
+              "es": "Dentro/en",
+              "t": "In"
+            },
+            {
+              "es": "El tiburón",
+              "t": "The shark"
+            }
+          ]
+        },
+        {
+          "id": "u8l10e7",
+          "type": "choice",
+          "prompt": "«La cámara» se traduce como...",
+          "options": [
+            "the camera",
+            "January",
+            "water",
+            "so"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cámara",
+            "t": "The camera"
+          }
+        },
+        {
+          "id": "u8l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "January",
+          "options": [
+            "Enero",
+            "Agua",
+            "Así que"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enero",
+            "t": "January"
+          }
+        }
       ]
     }
   ]

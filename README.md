@@ -22,23 +22,9 @@ Aprende idiomas desde el español con práctica enfocada en frases útiles. App 
 - Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
 - Offline-first: el contenido y progreso se guardan localmente; el audio puede usar clips locales o TTS del dispositivo.
 
-## Voces
+## Audio
 
-Los clips viven en `public/audio/<lang>/` (nombre = hash FNV-1a del texto). Solo se empaquetan **mp3** (los WebViews donde corre Tauri los reproducen siempre, y duplicar formato doblaba el tamaño de la app). Para regenerarlos o añadir voces de contenido nuevo:
-
-```bash
-python3 scripts/generate_audio.py --lang en --piper <ruta>/piper --model <ruta>/en_US-lessac-medium.onnx --prune
-```
-
-Solo genera los clips que falten (idempotente) y, con `--prune`, borra los que ya no corresponden a ningún texto del contenido. Necesita `piper` y `ffmpeg`. `--ogg` añade también vorbis (solo para pruebas locales).
-
-Para comprobar la cobertura sin sintetizar (esto es lo que ejecuta la CI):
-
-```bash
-npm run audio:check
-```
-
-Ojo: el hash depende del texto **exacto**, así que cambiar mayúsculas o puntuación de un texto invalida su clip y obliga a regenerarlo. Si falta un clip, la app usa el TTS del sistema como respaldo (en Android el WebView puede no tener TTS: sin regenerar, esos textos quedan mudos a menos que el sistema provea Google TTS).
+La app usa TTS nativo del dispositivo (`speechSynthesis`) para pronunciar palabras y frases. No se empaquetan archivos de audio.
 
 ## Desarrollo
 
@@ -55,7 +41,6 @@ Verificación local (lo mismo que la CI ejecuta en el job de checks):
 ```bash
 npm run lint && npm run typecheck && npm run test
 cargo test                     # en src-tauri/
-npm run audio:check
 ```
 
 ## Android (CI)

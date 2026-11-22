@@ -3039,5 +3039,744 @@
         "pos": "phr"
       }
     ]
+  },
+  {
+    "id": "ru-common",
+    "title": "Palabras más usadas",
+    "emoji": "⭐",
+    "words": [
+      {
+        "t": "И",
+        "es": "Y",
+        "pos": "adv"
+      },
+      {
+        "t": "В",
+        "es": "En",
+        "pos": "adv"
+      },
+      {
+        "t": "Не",
+        "es": "No",
+        "pos": "adv"
+      },
+      {
+        "t": "Он",
+        "es": "Él",
+        "pos": "n"
+      },
+      {
+        "t": "Она",
+        "es": "Ella",
+        "pos": "n"
+      },
+      {
+        "t": "Они",
+        "es": "Ellos",
+        "pos": "n"
+      },
+      {
+        "t": "Мы",
+        "es": "Nosotros",
+        "pos": "n"
+      },
+      {
+        "t": "Вы",
+        "es": "Ustedes",
+        "pos": "n"
+      },
+      {
+        "t": "Это",
+        "es": "Esto",
+        "pos": "n"
+      },
+      {
+        "t": "Что",
+        "es": "Qué",
+        "pos": "adv"
+      },
+      {
+        "t": "Как",
+        "es": "Cómo",
+        "pos": "adv"
+      },
+      {
+        "t": "Где",
+        "es": "Dónde",
+        "pos": "adv"
+      },
+      {
+        "t": "Когда",
+        "es": "Cuándo",
+        "pos": "adv"
+      },
+      {
+        "t": "Почему",
+        "es": "Por qué",
+        "pos": "adv"
+      },
+      {
+        "t": "Кто",
+        "es": "Quién",
+        "pos": "adv"
+      },
+      {
+        "t": "Да",
+        "es": "Sí",
+        "pos": "adv"
+      },
+      {
+        "t": "Нет",
+        "es": "No",
+        "pos": "adv"
+      },
+      {
+        "t": "Но",
+        "es": "Pero",
+        "pos": "adv"
+      },
+      {
+        "t": "Или",
+        "es": "O",
+        "pos": "adv"
+      },
+      {
+        "t": "Если",
+        "es": "Si",
+        "pos": "adv"
+      },
+      {
+        "t": "Потому что",
+        "es": "Porque",
+        "pos": "adv"
+      },
+      {
+        "t": "Тоже",
+        "es": "También",
+        "pos": "adv"
+      },
+      {
+        "t": "Уже",
+        "es": "Ya",
+        "pos": "adv"
+      },
+      {
+        "t": "Ещё",
+        "es": "Todavía/Aún",
+        "pos": "adv"
+      },
+      {
+        "t": "Только",
+        "es": "Solo",
+        "pos": "adv"
+      },
+      {
+        "t": "Очень",
+        "es": "Muy",
+        "pos": "adv"
+      },
+      {
+        "t": "Здесь",
+        "es": "Aquí",
+        "pos": "adv"
+      },
+      {
+        "t": "Там",
+        "es": "Allí",
+        "pos": "adv"
+      },
+      {
+        "t": "Всегда",
+        "es": "Siempre",
+        "pos": "adv"
+      },
+      {
+        "t": "Никогда",
+        "es": "Nunca",
+        "pos": "adv"
+      },
+      {
+        "t": "Часто",
+        "es": "A menudo",
+        "pos": "adv"
+      },
+      {
+        "t": "Иногда",
+        "es": "A veces",
+        "pos": "adv"
+      },
+      {
+        "t": "Плохо",
+        "es": "Mal",
+        "pos": "adv"
+      },
+      {
+        "t": "Много",
+        "es": "Mucho",
+        "pos": "adv"
+      },
+      {
+        "t": "Мало",
+        "es": "Poco",
+        "pos": "adv"
+      },
+      {
+        "t": "Быстро",
+        "es": "Rápido",
+        "pos": "adv"
+      },
+      {
+        "t": "Медленно",
+        "es": "Lento",
+        "pos": "adv"
+      },
+      {
+        "t": "Вместе",
+        "es": "Juntos",
+        "pos": "adv"
+      },
+      {
+        "t": "Отдельно",
+        "es": "Separado",
+        "pos": "adv"
+      },
+      {
+        "t": "Имя",
+        "es": "Nombre",
+        "pos": "n"
+      },
+      {
+        "t": "Жизнь",
+        "es": "Vida",
+        "pos": "n"
+      },
+      {
+        "t": "Место",
+        "es": "Lugar",
+        "pos": "n"
+      },
+      {
+        "t": "Вода",
+        "es": "Agua",
+        "pos": "n"
+      },
+      {
+        "t": "Еда",
+        "es": "Comida",
+        "pos": "n"
+      },
+      {
+        "t": "Хлеб",
+        "es": "Pan",
+        "pos": "n"
+      },
+      {
+        "t": "Молоко",
+        "es": "Leche",
+        "pos": "n"
+      },
+      {
+        "t": "Чай",
+        "es": "Té",
+        "pos": "n"
+      },
+      {
+        "t": "Кофе",
+        "es": "Café",
+        "pos": "n"
+      },
+      {
+        "t": "Деньги",
+        "es": "Dinero",
+        "pos": "n"
+      },
+      {
+        "t": "Работа",
+        "es": "Trabajo",
+        "pos": "n"
+      },
+      {
+        "t": "Книга",
+        "es": "Libro",
+        "pos": "n"
+      },
+      {
+        "t": "Слово",
+        "es": "Palabra",
+        "pos": "n"
+      },
+      {
+        "t": "Вопрос",
+        "es": "Pregunta",
+        "pos": "n"
+      },
+      {
+        "t": "Ответ",
+        "es": "Respuesta",
+        "pos": "n"
+      },
+      {
+        "t": "Проблема",
+        "es": "Problema",
+        "pos": "n"
+      },
+      {
+        "t": "Идея",
+        "es": "Idea",
+        "pos": "n"
+      },
+      {
+        "t": "Иметь",
+        "es": "Tener",
+        "pos": "v"
+      },
+      {
+        "t": "Приходить",
+        "es": "Venir",
+        "pos": "v"
+      },
+      {
+        "t": "Знать",
+        "es": "Saber",
+        "pos": "v"
+      },
+      {
+        "t": "Сказать",
+        "es": "Decir",
+        "pos": "v"
+      },
+      {
+        "t": "Мочь",
+        "es": "Poder",
+        "pos": "v"
+      },
+      {
+        "t": "Давать",
+        "es": "Dar",
+        "pos": "v"
+      },
+      {
+        "t": "Брать",
+        "es": "Tomar",
+        "pos": "v"
+      },
+      {
+        "t": "Есть",
+        "es": "Comer",
+        "pos": "v"
+      },
+      {
+        "t": "Пить",
+        "es": "Beber",
+        "pos": "v"
+      },
+      {
+        "t": "Понимать",
+        "es": "Entender",
+        "pos": "v"
+      },
+      {
+        "t": "Слушать",
+        "es": "Escuchar",
+        "pos": "v"
+      },
+      {
+        "t": "Смотреть",
+        "es": "Mirar",
+        "pos": "v"
+      },
+      {
+        "t": "Открывать",
+        "es": "Abrir",
+        "pos": "v"
+      },
+      {
+        "t": "Закрывать",
+        "es": "Cerrar",
+        "pos": "v"
+      },
+      {
+        "t": "Начинать",
+        "es": "Empezar",
+        "pos": "v"
+      },
+      {
+        "t": "Заканчивать",
+        "es": "Terminar",
+        "pos": "v"
+      },
+      {
+        "t": "Спрашивать",
+        "es": "Preguntar",
+        "pos": "v"
+      },
+      {
+        "t": "Отвечать",
+        "es": "Responder",
+        "pos": "v"
+      },
+      {
+        "t": "Играть",
+        "es": "Jugar",
+        "pos": "v"
+      },
+      {
+        "t": "Покупать",
+        "es": "Comprar",
+        "pos": "v"
+      },
+      {
+        "t": "Платить",
+        "es": "Pagar",
+        "pos": "v"
+      },
+      {
+        "t": "Важный",
+        "es": "Importante",
+        "pos": "adj"
+      },
+      {
+        "t": "Медленный",
+        "es": "Lento",
+        "pos": "adj"
+      },
+      {
+        "t": "Горячий",
+        "es": "Caliente",
+        "pos": "adj"
+      },
+      {
+        "t": "Счастливый",
+        "es": "Feliz",
+        "pos": "adj"
+      },
+      {
+        "t": "Усталый",
+        "es": "Cansado",
+        "pos": "adj"
+      },
+      {
+        "t": "Первый",
+        "es": "Primero",
+        "pos": "adj"
+      },
+      {
+        "t": "Последний",
+        "es": "Último",
+        "pos": "adj"
+      },
+      {
+        "t": "Другой",
+        "es": "Otro",
+        "pos": "adj"
+      },
+      {
+        "t": "Такой же",
+        "es": "Igual",
+        "pos": "adj"
+      },
+      {
+        "t": "Здравствуйте",
+        "es": "Hola (formal)",
+        "pos": "phr"
+      },
+      {
+        "t": "Привет",
+        "es": "Hola (informal)",
+        "pos": "phr"
+      },
+      {
+        "t": "До свидания",
+        "es": "Adiós",
+        "pos": "phr"
+      },
+      {
+        "t": "Меня зовут...",
+        "es": "Me llamo...",
+        "pos": "phr"
+      },
+      {
+        "t": "Сколько это стоит?",
+        "es": "¿Cuánto cuesta?",
+        "pos": "phr"
+      },
+      {
+        "t": "Где туалет?",
+        "es": "¿Dónde está el baño?",
+        "pos": "phr"
+      },
+      {
+        "t": "Помогите!",
+        "es": "¡Ayuda!",
+        "pos": "phr"
+      },
+      {
+        "t": "Я говорю немного по-русски",
+        "es": "Hablo un poco de ruso",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "ru-common-2",
+    "title": "Vocabulario esencial",
+    "emoji": "📚",
+    "words": [
+      {
+        "t": "Аэропорт",
+        "es": "Aeropuerto",
+        "pos": "n"
+      },
+      {
+        "t": "Минутa",
+        "es": "Minuto",
+        "pos": "n"
+      },
+      {
+        "t": "Момент",
+        "es": "Momento",
+        "pos": "n"
+      },
+      {
+        "t": "Тело",
+        "es": "Cuerpo",
+        "pos": "n"
+      },
+      {
+        "t": "Птица",
+        "es": "Pájaro",
+        "pos": "n"
+      },
+      {
+        "t": "Рыба",
+        "es": "Pez",
+        "pos": "n"
+      },
+      {
+        "t": "Животное",
+        "es": "Animal",
+        "pos": "n"
+      },
+      {
+        "t": "Луна",
+        "es": "Luna",
+        "pos": "n"
+      },
+      {
+        "t": "Небо",
+        "es": "Cielo",
+        "pos": "n"
+      },
+      {
+        "t": "Море",
+        "es": "Mar",
+        "pos": "n"
+      },
+      {
+        "t": "Дерево",
+        "es": "Árbol",
+        "pos": "n"
+      },
+      {
+        "t": "Цветок",
+        "es": "Flor",
+        "pos": "n"
+      },
+      {
+        "t": "Брюки",
+        "es": "Pantalones",
+        "pos": "n"
+      },
+      {
+        "t": "Нравиться",
+        "es": "Gustar",
+        "pos": "v"
+      },
+      {
+        "t": "Звать",
+        "es": "Llamar",
+        "pos": "v"
+      },
+      {
+        "t": "Использовать",
+        "es": "Usar",
+        "pos": "v"
+      },
+      {
+        "t": "Пытаться",
+        "es": "Intentar",
+        "pos": "v"
+      },
+      {
+        "t": "Находить",
+        "es": "Encontrar",
+        "pos": "v"
+      },
+      {
+        "t": "Терять",
+        "es": "Perder",
+        "pos": "v"
+      },
+      {
+        "t": "Получать",
+        "es": "Recibir",
+        "pos": "v"
+      },
+      {
+        "t": "Отправлять",
+        "es": "Enviar",
+        "pos": "v"
+      },
+      {
+        "t": "Показывать",
+        "es": "Mostrar",
+        "pos": "v"
+      },
+      {
+        "t": "Менять",
+        "es": "Cambiar",
+        "pos": "v"
+      },
+      {
+        "t": "Верить",
+        "es": "Creer",
+        "pos": "v"
+      },
+      {
+        "t": "Помнить",
+        "es": "Recordar",
+        "pos": "v"
+      },
+      {
+        "t": "Забывать",
+        "es": "Olvidar",
+        "pos": "v"
+      },
+      {
+        "t": "Бежать",
+        "es": "Correr",
+        "pos": "v"
+      },
+      {
+        "t": "Ходить",
+        "es": "Caminar",
+        "pos": "v"
+      },
+      {
+        "t": "Лететь",
+        "es": "Volar",
+        "pos": "v"
+      },
+      {
+        "t": "Плавать",
+        "es": "Nadar",
+        "pos": "v"
+      },
+      {
+        "t": "Мыть",
+        "es": "Lavar",
+        "pos": "v"
+      },
+      {
+        "t": "Чистить",
+        "es": "Limpiar",
+        "pos": "v"
+      },
+      {
+        "t": "Строить",
+        "es": "Construir",
+        "pos": "v"
+      },
+      {
+        "t": "Ломать",
+        "es": "Romper",
+        "pos": "v"
+      },
+      {
+        "t": "Открытый",
+        "es": "Abierto",
+        "pos": "adj"
+      },
+      {
+        "t": "Закрытый",
+        "es": "Cerrado",
+        "pos": "adj"
+      },
+      {
+        "t": "Свободный",
+        "es": "Libre",
+        "pos": "adj"
+      },
+      {
+        "t": "Готовый",
+        "es": "Listo",
+        "pos": "adj"
+      },
+      {
+        "t": "Рядом",
+        "es": "Cerca",
+        "pos": "adv"
+      },
+      {
+        "t": "Далеко",
+        "es": "Lejos",
+        "pos": "adv"
+      },
+      {
+        "t": "Внутри",
+        "es": "Dentro",
+        "pos": "adv"
+      },
+      {
+        "t": "Снаружи",
+        "es": "Fuera",
+        "pos": "adv"
+      },
+      {
+        "t": "Наверху",
+        "es": "Arriba",
+        "pos": "adv"
+      },
+      {
+        "t": "Внизу",
+        "es": "Abajo",
+        "pos": "adv"
+      },
+      {
+        "t": "Может быть",
+        "es": "Quizás",
+        "pos": "adv"
+      },
+      {
+        "t": "Действительно",
+        "es": "Realmente",
+        "pos": "adv"
+      },
+      {
+        "t": "Сразу",
+        "es": "Inmediatamente",
+        "pos": "adv"
+      },
+      {
+        "t": "Всё",
+        "es": "Todo",
+        "pos": "n"
+      },
+      {
+        "t": "Ничего",
+        "es": "Nada",
+        "pos": "n"
+      },
+      {
+        "t": "Что-то",
+        "es": "Algo",
+        "pos": "n"
+      },
+      {
+        "t": "Кто-то",
+        "es": "Alguien",
+        "pos": "n"
+      }
+    ]
   }
 ]

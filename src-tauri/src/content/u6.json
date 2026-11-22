@@ -1,6 +1,6 @@
 {
   "id": "u6",
-  "title": "Experiencias",
+  "title": "Experiences",
   "emoji": "🎒",
   "color": "#F2A33C",
   "lessons": [
@@ -14,18 +14,135 @@
         "Si dices cuándo ocurrió, usa pasado simple: I saw it yesterday."
       ],
       "phrases": [
-        { "es": "¿Has estado alguna vez en Escocia?", "t": "Have you ever been to Scotland?" },
-        { "es": "Nunca he probado el sushi", "t": "I have never tried sushi" },
-        { "es": "¿Alguna vez has visto esta película?", "t": "Have you ever seen this film?" }
+        {
+          "es": "¿Has estado alguna vez en Escocia?",
+          "t": "Have you ever been to Scotland?"
+        },
+        {
+          "es": "Nunca he probado el sushi",
+          "t": "I have never tried sushi"
+        },
+        {
+          "es": "¿Alguna vez has visto esta película?",
+          "t": "Have you ever seen this film?"
+        }
       ],
       "exercises": [
-        { "id": "u6l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "Have you ___ been to Japan?", "options": ["ever", "never", "yet"], "answer": 0, "pair": { "es": "¿Has estado alguna vez en Japón?", "t": "Have you ever been to Japan?" }, "explain": "«Ever» = alguna vez, solo en preguntas." },
-        { "id": "u6l1e2", "type": "choice", "prompt": "I have ___ eaten octopus.", "options": ["never", "ever", "already"], "answer": 0, "pair": { "es": "Nunca he comido pulpo.", "t": "I have never eaten octopus." }, "explain": "«Never» = nunca, en negativas." },
-        { "id": "u6l1e3", "type": "build", "prompt": "Traduce: «Nunca he visto la nieve»", "solution": "I have never seen snow", "distractors": ["saw", "ever"], "pair": { "es": "Nunca he visto la nieve", "t": "I have never seen snow" } },
-        { "id": "u6l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Have you ever travelled by train at night?", "options": ["¿Has viajado alguna vez en tren de noche?", "¿Viajaste en tren anoche?", "¿Vas a viajar en tren esta noche?"], "answer": 0, "pair": { "es": "¿Has viajado alguna vez en tren de noche?", "t": "Have you ever travelled by train at night?" } },
-        { "id": "u6l1e5", "type": "type", "prompt": "Escribe «nunca» en inglés", "solution": "never", "accept": ["never"], "pair": { "es": "Nunca", "t": "Never" } },
-        { "id": "u6l1e6", "type": "match", "prompt": "Empareja las palabras", "pairs": [{ "es": "Nunca", "t": "Never" }, { "es": "Alguna vez", "t": "Ever" }, { "es": "Estado (en)", "t": "Been (to)" }, { "es": "Probado", "t": "Tried" }] },
-        { "id": "u6l1e7", "type": "choice", "prompt": "¿Cómo se dice «¿Has estado en París?»?", "options": ["Have you been to Paris?", "Have you went to Paris?", "Did you ever been to Paris?"], "answer": 0, "pair": { "es": "¿Has estado en París?", "t": "Have you been to Paris?" }, "explain": "«Has estado» = have been (participio de be)." }
+        {
+          "id": "u6l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Have you ___ been to Japan?",
+          "options": [
+            "ever",
+            "never",
+            "yet"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Has estado alguna vez en Japón?",
+            "t": "Have you ever been to Japan?"
+          },
+          "explain": "«Ever» = alguna vez, solo en preguntas."
+        },
+        {
+          "id": "u6l1e2",
+          "type": "choice",
+          "prompt": "I have ___ eaten octopus.",
+          "options": [
+            "never",
+            "ever",
+            "already"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nunca he comido pulpo.",
+            "t": "I have never eaten octopus."
+          },
+          "explain": "«Never» = nunca, en negativas."
+        },
+        {
+          "id": "u6l1e3",
+          "type": "build",
+          "prompt": "Traduce: «Nunca he visto la nieve»",
+          "solution": "I have never seen snow",
+          "distractors": [
+            "saw",
+            "ever"
+          ],
+          "pair": {
+            "es": "Nunca he visto la nieve",
+            "t": "I have never seen snow"
+          }
+        },
+        {
+          "id": "u6l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Have you ever travelled by train at night?",
+          "options": [
+            "¿Has viajado alguna vez en tren de noche?",
+            "¿Viajaste en tren anoche?",
+            "¿Vas a viajar en tren esta noche?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Has viajado alguna vez en tren de noche?",
+            "t": "Have you ever travelled by train at night?"
+          }
+        },
+        {
+          "id": "u6l1e5",
+          "type": "type",
+          "prompt": "Escribe «nunca» en inglés",
+          "solution": "Never",
+          "accept": [
+            "never"
+          ],
+          "pair": {
+            "es": "Nunca",
+            "t": "Never"
+          }
+        },
+        {
+          "id": "u6l1e6",
+          "type": "match",
+          "prompt": "Empareja las palabras",
+          "pairs": [
+            {
+              "es": "Nunca",
+              "t": "Never"
+            },
+            {
+              "es": "Alguna vez",
+              "t": "Ever"
+            },
+            {
+              "es": "Estado (en)",
+              "t": "Been (to)"
+            },
+            {
+              "es": "Probado",
+              "t": "Tried"
+            }
+          ]
+        },
+        {
+          "id": "u6l1e7",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿Has estado en París?»?",
+          "options": [
+            "Have you been to Paris?",
+            "Have you went to Paris?",
+            "Did you ever been to Paris?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Has estado en París?",
+            "t": "Have you been to Paris?"
+          },
+          "explain": "«Has estado» = have been (participio de be)."
+        }
       ]
     },
     {
@@ -38,18 +155,129 @@
         "been to = ha ido y ha vuelto; gone to = se ha ido (y sigue allí)."
       ],
       "phrases": [
-        { "es": "Acabo de terminar el informe", "t": "I have just finished the report" },
-        { "es": "¿Ya has comido?", "t": "Have you eaten yet?" },
-        { "es": "Ana se ha ido a Lisboa (sigue allí)", "t": "Ana has gone to Lisbon" }
+        {
+          "es": "Acabo de terminar el informe",
+          "t": "I have just finished the report"
+        },
+        {
+          "es": "¿Ya has comido?",
+          "t": "Have you eaten yet?"
+        },
+        {
+          "es": "Ana se ha ido a Lisboa (sigue allí)",
+          "t": "Ana has gone to Lisbon"
+        }
       ],
       "exercises": [
-        { "id": "u6l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have ___ finished — just now!", "options": ["just", "yet", "since"], "answer": 0, "pair": { "es": "Acabo de terminar.", "t": "I have just finished." }, "explain": "«Just» justo con lo que acaba de ocurrir." },
-        { "id": "u6l2e2", "type": "choice", "prompt": "Have you done your homework ___?", "options": ["yet", "just", "already"], "answer": 0, "pair": { "es": "¿Ya has hecho los deberes?", "t": "Have you done your homework yet?" }, "explain": "En preguntas: «yet» al final." },
-        { "id": "u6l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "Tom has ___ to Rome. He'll be back on Friday.", "options": ["gone", "been", "went"], "answer": 0, "pair": { "es": "Tom se ha ido a Roma. Volverá el viernes.", "t": "Tom has gone to Rome. He will be back on Friday." }, "explain": "«Has gone» = está allí ahora mismo." },
-        { "id": "u6l2e4", "type": "build", "prompt": "Traduce: «Ya he visto esta película»", "solution": "I have already seen this film", "distractors": ["yet", "saw"], "pair": { "es": "Ya he visto esta película", "t": "I have already seen this film" } },
-        { "id": "u6l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Sorry, I haven't finished yet.", "options": ["Lo siento, todavía no he terminado.", "Lo siento, ya he terminado.", "Lo siento, acabo de terminar."], "answer": 0, "pair": { "es": "Lo siento, todavía no he terminado.", "t": "Sorry, I haven't finished yet." } },
-        { "id": "u6l2e6", "type": "type", "prompt": "Escribe «todavía» (en preguntas y negativas)", "solution": "yet", "accept": ["yet"], "pair": { "es": "Todavía", "t": "Yet" } },
-        { "id": "u6l2e7", "type": "choice", "prompt": "He ___ to Paris twice.", "options": ["has been", "has gone", "is gone"], "answer": 0, "pair": { "es": "Ha estado en París dos veces.", "t": "He has been to Paris twice." }, "explain": "Con «twice» (ha ido y ha vuelto): has been." }
+        {
+          "id": "u6l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I have ___ finished — just now!",
+          "options": [
+            "just",
+            "yet",
+            "since"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Acabo de terminar.",
+            "t": "I have just finished."
+          },
+          "explain": "«Just» justo con lo que acaba de ocurrir."
+        },
+        {
+          "id": "u6l2e2",
+          "type": "choice",
+          "prompt": "Have you done your homework ___?",
+          "options": [
+            "yet",
+            "just",
+            "already"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Ya has hecho los deberes?",
+            "t": "Have you done your homework yet?"
+          },
+          "explain": "En preguntas: «yet» al final."
+        },
+        {
+          "id": "u6l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Tom has ___ to Rome. He'll be back on Friday.",
+          "options": [
+            "gone",
+            "been",
+            "went"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tom se ha ido a Roma. Volverá el viernes.",
+            "t": "Tom has gone to Rome. He will be back on Friday."
+          },
+          "explain": "«Has gone» = está allí ahora mismo."
+        },
+        {
+          "id": "u6l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Ya he visto esta película»",
+          "solution": "I have already seen this film",
+          "distractors": [
+            "yet",
+            "saw"
+          ],
+          "pair": {
+            "es": "Ya he visto esta película",
+            "t": "I have already seen this film"
+          }
+        },
+        {
+          "id": "u6l2e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Sorry, I haven't finished yet.",
+          "options": [
+            "Lo siento, todavía no he terminado.",
+            "Lo siento, ya he terminado.",
+            "Lo siento, acabo de terminar."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lo siento, todavía no he terminado.",
+            "t": "Sorry, I haven't finished yet."
+          }
+        },
+        {
+          "id": "u6l2e6",
+          "type": "type",
+          "prompt": "Escribe «todavía» (en preguntas y negativas)",
+          "solution": "Yet",
+          "accept": [
+            "yet"
+          ],
+          "pair": {
+            "es": "Todavía",
+            "t": "Yet"
+          }
+        },
+        {
+          "id": "u6l2e7",
+          "type": "choice",
+          "prompt": "He ___ to Paris twice.",
+          "options": [
+            "has been",
+            "has gone",
+            "is gone"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ha estado en París dos veces.",
+            "t": "He has been to Paris twice."
+          },
+          "explain": "Con «twice» (ha ido y ha vuelto): has been."
+        }
       ]
     },
     {
@@ -62,18 +290,135 @@
         "Irregulares: good → better → the best; bad → worse → the worst."
       ],
       "phrases": [
-        { "es": "Este examen es más difícil que el anterior", "t": "This exam is more difficult than the last one" },
-        { "es": "Es la mejor película que he visto", "t": "It's the best film I have ever seen" },
-        { "es": "No es tan caro como parece", "t": "It isn't as expensive as it looks" }
+        {
+          "es": "Este examen es más difícil que el anterior",
+          "t": "This exam is more difficult than the last one"
+        },
+        {
+          "es": "Es la mejor película que he visto",
+          "t": "It's the best film I have ever seen"
+        },
+        {
+          "es": "No es tan caro como parece",
+          "t": "It isn't as expensive as it looks"
+        }
       ],
       "exercises": [
-        { "id": "u6l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She is ___ than her brother.", "options": ["taller", "more tall", "tallest"], "answer": 0, "pair": { "es": "Es más alta que su hermano.", "t": "She is taller than her brother." }, "explain": "Adjetivo corto: taller than." },
-        { "id": "u6l3e2", "type": "choice", "prompt": "This is the ___ book I've read.", "options": ["most interesting", "more interesting", "most interestingly"], "answer": 0, "pair": { "es": "Es el libro más interesante que he leído.", "t": "This is the most interesting book I have read." }, "explain": "Superlativo largo: the most + adjetivo." },
-        { "id": "u6l3e3", "type": "build", "prompt": "Traduce: «Madrid no es tan grande como Tokio»", "solution": "Madrid isn't as big as Tokyo", "distractors": ["that", "more"], "pair": { "es": "Madrid no es tan grande como tokio", "t": "Madrid isn't as big as Tokyo" } },
-        { "id": "u6l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "This is the worst film I have ever seen.", "options": ["Es la peor película que he visto nunca.", "Es la mejor película que he visto nunca.", "Es una película peor que la anterior."], "answer": 0, "pair": { "es": "Es la peor película que he visto nunca.", "t": "This is the worst film I have ever seen." } },
-        { "id": "u6l3e5", "type": "type", "prompt": "Escribe «mejor» (comparativo)", "solution": "better", "accept": ["better"], "pair": { "es": "Mejor", "t": "Better" } },
-        { "id": "u6l3e6", "type": "match", "prompt": "Empareja los comparativos", "pairs": [{ "es": "Mejor", "t": "Better" }, { "es": "Peor", "t": "Worse" }, { "es": "El mejor", "t": "The best" }, { "es": "Tan … como", "t": "As … as" }] },
-        { "id": "u6l3e7", "type": "choice", "prompt": "It's ___ than I thought.", "options": ["easier", "more easy", "easiest"], "answer": 0, "pair": { "es": "Es más fácil de lo que pensaba.", "t": "It is easier than I thought." }, "explain": "easy → easier (y final cambia a i)." }
+        {
+          "id": "u6l3e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She is ___ than her brother.",
+          "options": [
+            "taller",
+            "more tall",
+            "tallest"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es más alta que su hermano.",
+            "t": "She is taller than her brother."
+          },
+          "explain": "Adjetivo corto: taller than."
+        },
+        {
+          "id": "u6l3e2",
+          "type": "choice",
+          "prompt": "This is the ___ book I've read.",
+          "options": [
+            "most interesting",
+            "more interesting",
+            "most interestingly"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es el libro más interesante que he leído.",
+            "t": "This is the most interesting book I have read."
+          },
+          "explain": "Superlativo largo: the most + adjetivo."
+        },
+        {
+          "id": "u6l3e3",
+          "type": "build",
+          "prompt": "Traduce: «Madrid no es tan grande como Tokio»",
+          "solution": "Madrid isn't as big as Tokyo",
+          "distractors": [
+            "that",
+            "more"
+          ],
+          "pair": {
+            "es": "Madrid no es tan grande como tokio",
+            "t": "Madrid isn't as big as Tokyo"
+          }
+        },
+        {
+          "id": "u6l3e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "This is the worst film I have ever seen.",
+          "options": [
+            "Es la peor película que he visto nunca.",
+            "Es la mejor película que he visto nunca.",
+            "Es una película peor que la anterior."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es la peor película que he visto nunca.",
+            "t": "This is the worst film I have ever seen."
+          }
+        },
+        {
+          "id": "u6l3e5",
+          "type": "type",
+          "prompt": "Escribe «mejor» (comparativo)",
+          "solution": "Better",
+          "accept": [
+            "better"
+          ],
+          "pair": {
+            "es": "Mejor",
+            "t": "Better"
+          }
+        },
+        {
+          "id": "u6l3e6",
+          "type": "match",
+          "prompt": "Empareja los comparativos",
+          "pairs": [
+            {
+              "es": "Mejor",
+              "t": "Better"
+            },
+            {
+              "es": "Peor",
+              "t": "Worse"
+            },
+            {
+              "es": "El mejor",
+              "t": "The best"
+            },
+            {
+              "es": "Tan … como",
+              "t": "As … as"
+            }
+          ]
+        },
+        {
+          "id": "u6l3e7",
+          "type": "choice",
+          "prompt": "It's ___ than I thought.",
+          "options": [
+            "easier",
+            "more easy",
+            "easiest"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es más fácil de lo que pensaba.",
+            "t": "It is easier than I thought."
+          },
+          "explain": "easy → easier (y final cambia a i)."
+        }
       ]
     },
     {
@@ -86,18 +431,1041 @@
         "«For» puede ir con periodos: for two months, for ages."
       ],
       "phrases": [
-        { "es": "Vivo aquí desde 2019", "t": "I have lived here since 2019" },
-        { "es": "Llevo tres años estudiando inglés", "t": "I have studied English for three years" },
-        { "es": "¿Cuánto tiempo has trabajado allí?", "t": "How long have you worked there?" }
+        {
+          "es": "Vivo aquí desde 2019",
+          "t": "I have lived here since 2019"
+        },
+        {
+          "es": "Llevo tres años estudiando inglés",
+          "t": "I have studied English for three years"
+        },
+        {
+          "es": "¿Cuánto tiempo has trabajado allí?",
+          "t": "How long have you worked there?"
+        }
       ],
       "exercises": [
-        { "id": "u6l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I have known her ___ ten years.", "options": ["for", "since", "during"], "answer": 0, "pair": { "es": "La conozco desde hace diez años.", "t": "I have known her for ten years." }, "explain": "«For» + periodo de tiempo." },
-        { "id": "u6l4e2", "type": "choice", "prompt": "We have been friends ___ primary school.", "options": ["since", "for", "from"], "answer": 0, "pair": { "es": "Somos amigos desde la escuela primaria.", "t": "We have been friends since primary school." }, "explain": "«Since» + momento de inicio." },
-        { "id": "u6l4e3", "type": "build", "prompt": "Traduce: «Llevo dos meses aprendiendo italiano»", "solution": "I have studied Italian for two months", "distractors": ["since", "studying"], "pair": { "es": "Llevo dos meses aprendiendo italiano", "t": "I have studied Italian for two months" } },
-        { "id": "u6l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "How long have you lived in this city?", "options": ["¿Cuánto tiempo has vivido en esta ciudad?", "¿Cuándo te mudaste a esta ciudad?", "¿Vives en esta ciudad desde hace poco?"], "answer": 0, "pair": { "es": "¿Cuánto tiempo has vivido en esta ciudad?", "t": "How long have you lived in this city?" } },
-        { "id": "u6l4e5", "type": "type", "prompt": "Escribe «desde» (punto en el tiempo)", "solution": "since", "accept": ["since"], "pair": { "es": "Desde", "t": "Since" } },
-        { "id": "u6l4e6", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "Durante (periodo)", "t": "For" }, { "es": "Desde (momento)", "t": "Since" }, { "es": "Cuánto tiempo", "t": "How long" }, { "es": "Hace (periodo)", "t": "Ago" }] },
-        { "id": "u6l4e7", "type": "choice", "prompt": "How long ___ you known him?", "options": ["have", "has", "did"], "answer": 0, "pair": { "es": "¿Cuánto tiempo hace que lo conoces?", "t": "How long have you known him?" }, "explain": "How long + have + you: presente perfecto." }
+        {
+          "id": "u6l4e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I have known her ___ ten years.",
+          "options": [
+            "for",
+            "since",
+            "during"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La conozco desde hace diez años.",
+            "t": "I have known her for ten years."
+          },
+          "explain": "«For» + periodo de tiempo."
+        },
+        {
+          "id": "u6l4e2",
+          "type": "choice",
+          "prompt": "We have been friends ___ primary school.",
+          "options": [
+            "since",
+            "for",
+            "from"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Somos amigos desde la escuela primaria.",
+            "t": "We have been friends since primary school."
+          },
+          "explain": "«Since» + momento de inicio."
+        },
+        {
+          "id": "u6l4e3",
+          "type": "build",
+          "prompt": "Traduce: «Llevo dos meses aprendiendo italiano»",
+          "solution": "I have studied Italian for two months",
+          "distractors": [
+            "since",
+            "studying"
+          ],
+          "pair": {
+            "es": "Llevo dos meses aprendiendo italiano",
+            "t": "I have studied Italian for two months"
+          }
+        },
+        {
+          "id": "u6l4e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "How long have you lived in this city?",
+          "options": [
+            "¿Cuánto tiempo has vivido en esta ciudad?",
+            "¿Cuándo te mudaste a esta ciudad?",
+            "¿Vives en esta ciudad desde hace poco?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto tiempo has vivido en esta ciudad?",
+            "t": "How long have you lived in this city?"
+          }
+        },
+        {
+          "id": "u6l4e5",
+          "type": "type",
+          "prompt": "Escribe «desde» (punto en el tiempo)",
+          "solution": "Since",
+          "accept": [
+            "since"
+          ],
+          "pair": {
+            "es": "Desde",
+            "t": "Since"
+          }
+        },
+        {
+          "id": "u6l4e6",
+          "type": "match",
+          "prompt": "Empareja las expresiones de tiempo",
+          "pairs": [
+            {
+              "es": "Durante (periodo)",
+              "t": "For"
+            },
+            {
+              "es": "Desde (momento)",
+              "t": "Since"
+            },
+            {
+              "es": "Cuánto tiempo",
+              "t": "How long"
+            },
+            {
+              "es": "Hace (periodo)",
+              "t": "Ago"
+            }
+          ]
+        },
+        {
+          "id": "u6l4e7",
+          "type": "choice",
+          "prompt": "How long ___ you known him?",
+          "options": [
+            "have",
+            "has",
+            "did"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto tiempo hace que lo conoces?",
+            "t": "How long have you known him?"
+          },
+          "explain": "How long + have + you: presente perfecto."
+        }
+      ]
+    },
+    {
+      "id": "u6l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Esperar",
+          "t": "Wait"
+        },
+        {
+          "es": "Creer",
+          "t": "Believe"
+        },
+        {
+          "es": "Siempre",
+          "t": "Always"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Esperar»?",
+          "options": [
+            "wait",
+            "believe",
+            "always",
+            "the vegetables"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esperar",
+            "t": "Wait"
+          }
+        },
+        {
+          "id": "u6l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Believe",
+          "options": [
+            "Creer",
+            "Siempre",
+            "Las verduras"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creer",
+            "t": "Believe"
+          }
+        },
+        {
+          "id": "u6l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "always",
+            "the",
+            "alwaysx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Siempre",
+            "t": "Always"
+          }
+        },
+        {
+          "id": "u6l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Las verduras»",
+          "solution": "The vegetables",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Las verduras",
+            "t": "The vegetables"
+          }
+        },
+        {
+          "id": "u6l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la leche»",
+          "solution": "The milk",
+          "accept": [
+            "the milk",
+            "the milk"
+          ],
+          "pair": {
+            "es": "La leche",
+            "t": "The milk"
+          }
+        },
+        {
+          "id": "u6l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La carne",
+              "t": "The meat"
+            },
+            {
+              "es": "El presidente",
+              "t": "The president"
+            },
+            {
+              "es": "Escribir",
+              "t": "Write"
+            }
+          ]
+        },
+        {
+          "id": "u6l5e7",
+          "type": "choice",
+          "prompt": "«El running» se traduce como...",
+          "options": [
+            "running",
+            "here",
+            "the jacket",
+            "How are you?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El running",
+            "t": "Running"
+          }
+        },
+        {
+          "id": "u6l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Here",
+          "options": [
+            "Aquí",
+            "La chaqueta",
+            "¿Cómo estás?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Aquí",
+            "t": "Here"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u6l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Problema",
+          "t": "Problem"
+        },
+        {
+          "es": "Celebrar",
+          "t": "To celebrate"
+        },
+        {
+          "es": "La cabeza",
+          "t": "The head"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Problema»?",
+          "options": [
+            "problem",
+            "to celebrate",
+            "the head",
+            "the fish"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Problema",
+            "t": "Problem"
+          }
+        },
+        {
+          "id": "u6l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "To celebrate",
+          "options": [
+            "Celebrar",
+            "La cabeza",
+            "El pez"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Celebrar",
+            "t": "To celebrate"
+          }
+        },
+        {
+          "id": "u6l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ head",
+          "options": [
+            "the",
+            "thex",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cabeza",
+            "t": "The head"
+          }
+        },
+        {
+          "id": "u6l6e4",
+          "type": "build",
+          "prompt": "Traduce: «El pez»",
+          "solution": "The fish",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "El pez",
+            "t": "The fish"
+          }
+        },
+        {
+          "id": "u6l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la velocidad»",
+          "solution": "The speed",
+          "accept": [
+            "the speed",
+            "the speed"
+          ],
+          "pair": {
+            "es": "La velocidad",
+            "t": "The speed"
+          }
+        },
+        {
+          "id": "u6l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El reloj",
+              "t": "The watch"
+            },
+            {
+              "es": "El equipo",
+              "t": "The team"
+            },
+            {
+              "es": "Afuera",
+              "t": "Out"
+            }
+          ]
+        },
+        {
+          "id": "u6l6e7",
+          "type": "choice",
+          "prompt": "«Algún/algunos» se traduce como...",
+          "options": [
+            "some",
+            "to cry",
+            "few",
+            "sweet"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Algún/algunos",
+            "t": "Some"
+          }
+        },
+        {
+          "id": "u6l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To cry",
+          "options": [
+            "Llorar",
+            "Pocos",
+            "Dulce"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llorar",
+            "t": "To cry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u6l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "La uva",
+          "t": "The grape"
+        },
+        {
+          "es": "El pan",
+          "t": "The bread"
+        },
+        {
+          "es": "El informe",
+          "t": "The report"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La uva»?",
+          "options": [
+            "the grape",
+            "the bread",
+            "the report",
+            "with"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La uva",
+            "t": "The grape"
+          }
+        },
+        {
+          "id": "u6l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The bread",
+          "options": [
+            "El pan",
+            "El informe",
+            "Con"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pan",
+            "t": "The bread"
+          }
+        },
+        {
+          "id": "u6l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ report",
+          "options": [
+            "the",
+            "with",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El informe",
+            "t": "The report"
+          }
+        },
+        {
+          "id": "u6l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Con»",
+          "solution": "With",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Con",
+            "t": "With"
+          }
+        },
+        {
+          "id": "u6l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el cinturón»",
+          "solution": "The belt",
+          "accept": [
+            "the belt",
+            "the belt"
+          ],
+          "pair": {
+            "es": "El cinturón",
+            "t": "The belt"
+          }
+        },
+        {
+          "id": "u6l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La política",
+              "t": "The politics"
+            },
+            {
+              "es": "La hora / el tiempo",
+              "t": "The time"
+            },
+            {
+              "es": "Vender",
+              "t": "Sell"
+            }
+          ]
+        },
+        {
+          "id": "u6l7e7",
+          "type": "choice",
+          "prompt": "«La piel» se traduce como...",
+          "options": [
+            "the skin",
+            "sour",
+            "the party",
+            "include"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La piel",
+            "t": "The skin"
+          }
+        },
+        {
+          "id": "u6l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Sour",
+          "options": [
+            "Ácido",
+            "La fiesta",
+            "Incluir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ácido",
+            "t": "Sour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u6l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "A la derecha",
+          "t": "Right"
+        },
+        {
+          "es": "Veinte",
+          "t": "Twenty"
+        },
+        {
+          "es": "Preguntar/pedir",
+          "t": "Ask"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «A la derecha»?",
+          "options": [
+            "right",
+            "twenty",
+            "ask",
+            "clean"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A la derecha",
+            "t": "Right"
+          }
+        },
+        {
+          "id": "u6l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Twenty",
+          "options": [
+            "Veinte",
+            "Preguntar/pedir",
+            "Limpio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Veinte",
+            "t": "Twenty"
+          }
+        },
+        {
+          "id": "u6l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "ask",
+            "clean",
+            "city"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Preguntar/pedir",
+            "t": "Ask"
+          }
+        },
+        {
+          "id": "u6l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Limpio»",
+          "solution": "Clean",
+          "distractors": [
+            "city",
+            "the"
+          ],
+          "pair": {
+            "es": "Limpio",
+            "t": "Clean"
+          }
+        },
+        {
+          "id": "u6l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ciudad»",
+          "solution": "City",
+          "accept": [
+            "city",
+            "city"
+          ],
+          "pair": {
+            "es": "Ciudad",
+            "t": "City"
+          }
+        },
+        {
+          "id": "u6l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La cara",
+              "t": "The face"
+            },
+            {
+              "es": "El pato",
+              "t": "The duck"
+            },
+            {
+              "es": "El sueldo",
+              "t": "The salary"
+            }
+          ]
+        },
+        {
+          "id": "u6l8e7",
+          "type": "choice",
+          "prompt": "«Su (de él)» se traduce como...",
+          "options": [
+            "his",
+            "the person",
+            "the actor",
+            "the secret"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Su (de él)",
+            "t": "His"
+          }
+        },
+        {
+          "id": "u6l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The person",
+          "options": [
+            "La persona",
+            "El actor",
+            "El secreto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La persona",
+            "t": "The person"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u6l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "El espejo",
+          "t": "The mirror"
+        },
+        {
+          "es": "La conversación",
+          "t": "The conversation"
+        },
+        {
+          "es": "La universidad",
+          "t": "The university"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El espejo»?",
+          "options": [
+            "the mirror",
+            "the conversation",
+            "the university",
+            "have"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El espejo",
+            "t": "The mirror"
+          }
+        },
+        {
+          "id": "u6l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The conversation",
+          "options": [
+            "La conversación",
+            "La universidad",
+            "Tener"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La conversación",
+            "t": "The conversation"
+          }
+        },
+        {
+          "id": "u6l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ university",
+          "options": [
+            "the",
+            "have",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La universidad",
+            "t": "The university"
+          }
+        },
+        {
+          "id": "u6l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Tener»",
+          "solution": "Have",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Tener",
+            "t": "Have"
+          }
+        },
+        {
+          "id": "u6l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la nariz»",
+          "solution": "The nose",
+          "accept": [
+            "the nose",
+            "the nose"
+          ],
+          "pair": {
+            "es": "La nariz",
+            "t": "The nose"
+          }
+        },
+        {
+          "id": "u6l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El silencio",
+              "t": "The silence"
+            },
+            {
+              "es": "El título",
+              "t": "The title"
+            },
+            {
+              "es": "La esquina",
+              "t": "The corner"
+            }
+          ]
+        },
+        {
+          "id": "u6l9e7",
+          "type": "choice",
+          "prompt": "«Gris» se traduce como...",
+          "options": [
+            "grey",
+            "the mountain",
+            "the word",
+            "teacher"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gris",
+            "t": "Grey"
+          }
+        },
+        {
+          "id": "u6l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The mountain",
+          "options": [
+            "La montaña",
+            "La palabra",
+            "Profesor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La montaña",
+            "t": "The mountain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u6l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Momento",
+          "t": "Moment"
+        },
+        {
+          "es": "El sueldo",
+          "t": "The salary"
+        },
+        {
+          "es": "Ya",
+          "t": "Already"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u6l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Momento»?",
+          "options": [
+            "moment",
+            "the salary",
+            "already",
+            "the water"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Momento",
+            "t": "Moment"
+          }
+        },
+        {
+          "id": "u6l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The salary",
+          "options": [
+            "El sueldo",
+            "Ya",
+            "El agua"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El sueldo",
+            "t": "The salary"
+          }
+        },
+        {
+          "id": "u6l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "already",
+            "the",
+            "alreadyx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ya",
+            "t": "Already"
+          }
+        },
+        {
+          "id": "u6l10e4",
+          "type": "build",
+          "prompt": "Traduce: «El agua»",
+          "solution": "The water",
+          "distractors": [
+            "the",
+            "likely"
+          ],
+          "pair": {
+            "es": "El agua",
+            "t": "The water"
+          }
+        },
+        {
+          "id": "u6l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el sofá»",
+          "solution": "The sofa",
+          "accept": [
+            "the sofa",
+            "the sofa"
+          ],
+          "pair": {
+            "es": "El sofá",
+            "t": "The sofa"
+          }
+        },
+        {
+          "id": "u6l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Probable",
+              "t": "Likely"
+            },
+            {
+              "es": "La lengua",
+              "t": "The tongue"
+            },
+            {
+              "es": "El cerdo",
+              "t": "The pig"
+            }
+          ]
+        },
+        {
+          "id": "u6l10e7",
+          "type": "choice",
+          "prompt": "«Todo recto» se traduce como...",
+          "options": [
+            "straight",
+            "the skin",
+            "fine",
+            "the egg"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Todo recto",
+            "t": "Straight"
+          }
+        },
+        {
+          "id": "u6l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The skin",
+          "options": [
+            "La piel",
+            "Bien",
+            "El huevo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La piel",
+            "t": "The skin"
+          }
+        }
       ]
     }
   ]

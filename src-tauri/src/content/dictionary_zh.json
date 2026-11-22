@@ -1,232 +1,3143 @@
 [
- {
-  "id": "zh-greet",
-  "title": "Saludos y cortesía",
-  "emoji": "👋",
-  "words": [
-   { "t": "你好 (nǐ hǎo)", "es": "hola (tú)", "pos": "phr", "ex": { "t": "你好！我叫小明 (nǐ hǎo! wǒ jiào Xiǎomíng)", "es": "¡Hola! Me llamo Xiaoming" } },
-   { "t": "你好吗 (nǐ hǎo ma)", "es": "¿qué tal?", "pos": "phr" },
-   { "t": "早上好 (zǎoshanghǎo)", "es": "buenos días", "pos": "phr", "ex": { "t": "早上好，老师 (zǎoshanghǎo, lǎoshī)", "es": "Buenos días, profesor" } },
-   { "t": "晚上好 (wǎnshanghǎo)", "es": "buenas noches (al llegar)", "pos": "phr" },
-   { "t": "晚安 (wǎn’ān)", "es": "buenas noches (al dormir)", "pos": "phr" },
-   { "t": "谢谢 (xièxie)", "es": "gracias", "pos": "phr", "ex": { "t": "多谢了，你帮了我 (duōxiè le, nǐ bāng le wǒ)", "es": "Mil gracias, me has ayudado" } },
-   { "t": "不客气 (búkèqi)", "es": "de nada", "pos": "phr" },
-   { "t": "请 (qǐng)", "es": "por favor", "pos": "phr" },
-   { "t": "请问 (qǐngwèn)", "es": "permiso ¿puedo preguntar?", "pos": "phr" },
-   { "t": "对不起 (duìbuqǐ)", "es": "lo siento", "pos": "phr", "ex": { "t": "对不起，我迟到了 (duìbuqǐ, wǒ chí dào le)", "es": "Perdón, llegué tarde" } },
-   { "t": "没关系 (méi guānxi)", "es": "no pasa nada", "pos": "phr" },
-   { "t": "再见 (zàijiàn)", "es": "adiós", "pos": "phr", "ex": { "t": "明天见，再见 (míngtiān jiàn, zàijiàn)", "es": "Hasta mañana, adiós" } },
-   { "t": "喂 (wèi)", "es": "¡diga? (al teléfono)", "pos": "phr" },
-   { "t": "欢迎 (huānyíng)", "es": "bienvenido", "pos": "phr", "ex": { "t": "欢迎来我们家 (huānyíng lái wǒmen jiā)", "es": "Bienvenido a nuestra casa" } }
-  ]
- },
- {
-  "id": "zh-numbers",
-  "title": "Números",
-  "emoji": "🔢",
-  "words": [
-   { "t": "零 (líng)", "es": "cero", "pos": "n" },
-   { "t": "一 (yī)", "es": "uno", "pos": "n", "ex": { "t": "我要一个 (wǒ yào yí ge)", "es": "Quiero uno" } },
-   { "t": "二 (èr)", "es": "dos", "pos": "n" },
-   { "t": "三 (sān)", "es": "tres", "pos": "n", "ex": { "t": "三个苹果 (sān ge píngguǒ)", "es": "Tres manzanas" } },
-   { "t": "四 (sì)", "es": "cuatro", "pos": "n" },
-   { "t": "五 (wǔ)", "es": "cinco", "pos": "n" },
-   { "t": "六 (liù)", "es": "seis", "pos": "n" },
-   { "t": "七 (qī)", "es": "siete", "pos": "n" },
-   { "t": "八 (bā)", "es": "ocho", "pos": "n" },
-   { "t": "九 (jiǔ)", "es": "nueve", "pos": "n" },
-   { "t": "十 (shí)", "es": "diez", "pos": "n", "ex": { "t": "十块钱 (shí kuài qián)", "es": "Diez yuanes" } },
-   { "t": "百 (bǎi)", "es": "cien", "pos": "n" },
-   { "t": "千 (qiān)", "es": "mil", "pos": "n" },
-   { "t": "几 (jǐ)", "es": "¿cuántos?", "pos": "adv" }
-  ]
- },
- {
-  "id": "zh-people",
-  "title": "Familia y gente",
-  "emoji": "👨‍👩‍👧",
-  "words": [
-   { "t": "妈妈 (māma)", "es": "mamá", "pos": "n", "ex": { "t": "我妈妈做饭很好吃 (wǒ māma zuòfàn hěn hǎochī)", "es": "Mi mamá cocina muy bien" } },
-   { "t": "爸爸 (bàba)", "es": "papá", "pos": "n" },
-   { "t": "哥哥 (gēge)", "es": "hermano mayor", "pos": "n", "ex": { "t": "我哥哥很高 (wǒ gēge hěn gāo)", "es": "Mi hermano mayor es alto" } },
-   { "t": "姐姐 (jiějie)", "es": "hermana mayor", "pos": "n" },
-   { "t": "弟弟 (dìdi)", "es": "hermano menor", "pos": "n" },
-   { "t": "妹妹 (mèimei)", "es": "hermana menor", "pos": "n", "ex": { "t": "妹妹喜欢画画 (mèimei xǐhuan huàhuà)", "es": "A mi hermana menor le gusta dibujar" } },
-   { "t": "儿子 (érzi)", "es": "hijo", "pos": "n" },
-   { "t": "女儿 (nǚ’ér)", "es": "hija", "pos": "n" },
-   { "t": "爷爷 (yéye)", "es": "abuelo", "pos": "n" },
-   { "t": "奶奶 (nǎinai)", "es": "abuela", "pos": "n" },
-   { "t": "朋友 (péngyou)", "es": "amigo", "pos": "n", "ex": { "t": "他是我最好的朋友 (tā shì wǒ zuì hǎo de péngyou)", "es": "Es mi mejor amigo" } },
-   { "t": "同学 (tóngxué)", "es": "compañero de clase", "pos": "n" },
-   { "t": "人 (rén)", "es": "persona", "pos": "n", "ex": { "t": "这里人很多 (zhèlǐ rén hěn duō)", "es": "Aquí hay mucha gente" } }
-  ]
- },
- {
-  "id": "zh-food",
-  "title": "Comida",
-  "emoji": "🍲",
-  "words": [
-   { "t": "米 (mǐ)", "es": "el arroz (en grano)", "pos": "n" },
-   { "t": "米饭 (mǐfàn)", "es": "arroz cocido", "pos": "n", "ex": { "t": "我要一碗米饭 (wǒ yào yì wǎn mǐfàn)", "es": "Quiero un bol de arroz" } },
-   { "t": "面条 (miàntiáo)", "es": "fideos", "pos": "n" },
-   { "t": "菜 (cài)", "es": "plato, verduras", "pos": "n", "ex": { "t": "今天的菜很新鲜 (jīntiān de cài hěn xīnxiān)", "es": "Las verduras de hoy son fresquísimas" } },
-   { "t": "肉 (ròu)", "es": "carne", "pos": "n" },
-   { "t": "鸡肉 (jīròu)", "es": "carne de pollo", "pos": "n" },
-   { "t": "鸡蛋 (jīdàn)", "es": "huevo", "pos": "n" },
-   { "t": "鱼 (yú)", "es": "pescado", "pos": "n", "ex": { "t": "这条鱼很新鲜 (zhè tiáo yú hěn xīnxiān)", "es": "Este pescado está fresco" } },
-   { "t": "汤 (tāng)", "es": "sopa", "pos": "n" },
-   { "t": "水果 (shuǐguǒ)", "es": "fruta", "pos": "n" },
-   { "t": "苹果 (píngguǒ)", "es": "manzana", "pos": "n", "ex": { "t": "一个苹果多少钱 (yí ge píngguǒ duōshao qián)", "es": "¿Cuánto cuesta una manzana?" } },
-   { "t": "糖 (táng)", "es": "azúcar", "pos": "n" }
-  ]
- },
- {
-  "id": "zh-drinks",
-  "title": "Bebidas",
-  "emoji": "🍵",
-  "words": [
-   { "t": "水 (shuǐ)", "es": "agua", "pos": "n", "ex": { "t": "我要一杯水 (wǒ yào yì bēi shuǐ)", "es": "Quiero un vaso de agua" } },
-   { "t": "茶 (chá)", "es": "té", "pos": "n", "ex": { "t": "喝茶对身体好 (hē chá duì shēntǐ hǎo)", "es": "Beber té hace bien al cuerpo" } },
-   { "t": "咖啡 (kāfēi)", "es": "café", "pos": "n" },
-   { "t": "牛奶 (niúnǎi)", "es": "leche", "pos": "n" },
-   { "t": "果汁 (guǒzhī)", "es": "zumo", "pos": "n" },
-   { "t": "啤酒 (píjiǔ)", "es": "cerveza", "pos": "n" },
-   { "t": "可乐 (kělè)", "es": "refresco de cola", "pos": "n" },
-   { "t": "酒 (jiǔ)", "es": "alcohol", "pos": "n" },
-   { "t": "热 (rè)", "es": "caliente", "pos": "adj", "ex": { "t": "我要热水 (wǒ yào rè shuǐ)", "es": "Quiero agua caliente" } },
-   { "t": "冰 (bīng)", "es": "hielo", "pos": "n" }
-  ]
- },
- {
-  "id": "zh-verbs",
-  "title": "Verbos comunes",
-  "emoji": "🔁",
-  "words": [
-   { "t": "是 (shì)", "es": "ser", "pos": "v", "ex": { "t": "我是老师 (wǒ shì lǎoshī)", "es": "Soy profesor" } },
-   { "t": "有 (yǒu)", "es": "tener", "pos": "v", "ex": { "t": "我有一个问题 (wǒ yǒu yí ge wèntí)", "es": "Tengo una cuestión" } },
-   { "t": "去 (qù)", "es": "ir (a)", "pos": "v" },
-   { "t": "来 (lái)", "es": "venir", "pos": "v" },
-   { "t": "吃 (chī)", "es": "comer", "pos": "v", "ex": { "t": "吃饭了吗 (chīfàn le ma)", "es": "¿Ya has comido?" } },
-   { "t": "喝 (hē)", "es": "beber", "pos": "v" },
-   { "t": "说 (shuō)", "es": "hablar, decir", "pos": "v" },
-   { "t": "看 (kàn)", "es": "ver, mirar", "pos": "v", "ex": { "t": "我看中文书 (wǒ kàn Zhōngwén shū)", "es": "Leo libros en chino" } },
-   { "t": "写 (xiě)", "es": "escribir", "pos": "v" },
-   { "t": "学 (xué)", "es": "estudiar, aprender", "pos": "v", "ex": { "t": "我在学中文 (wǒ zài xué Zhōngwén)", "es": "Estoy estudiando chino" } },
-   { "t": "买 (mǎi)", "es": "comprar", "pos": "v" },
-   { "t": "想 (xiǎng)", "es": "querer, pensar", "pos": "v" }
-  ]
- },
- {
-  "id": "zh-adj",
-  "title": "Adjetivos",
-  "emoji": "🌟",
-  "words": [
-   { "t": "好 (hǎo)", "es": "bueno", "pos": "adj", "ex": { "t": "这个人很好 (zhège rén hěn hǎo)", "es": "Esta persona es muy buena" } },
-   { "t": "大 (dà)", "es": "grande", "pos": "adj" },
-   { "t": "小 (xiǎo)", "es": "pequeño", "pos": "adj", "ex": { "t": "小猫很小 (xiǎo māo hěn xiǎo)", "es": "El gatito es pequeñito" } },
-   { "t": "多 (duō)", "es": "mucho", "pos": "adj" },
-   { "t": "少 (shǎo)", "es": "poco", "pos": "adj" },
-   { "t": "新 (xīn)", "es": "nuevo", "pos": "adj" },
-   { "t": "旧 (jiù)", "es": "viejo (de cosas)", "pos": "adj" },
-   { "t": "高 (gāo)", "es": "alto", "pos": "adj", "ex": { "t": "山很高 (shān hěn gāo)", "es": "La montaña es altísima" } },
-   { "t": "矮 (ǎi)", "es": "bajo", "pos": "adj" },
-   { "t": "贵 (guì)", "es": "caro", "pos": "adj" },
-   { "t": "便宜 (piányi)", "es": "barato", "pos": "adj", "ex": { "t": "这双鞋很便宜 (zhè shuāng xié hěn piányi)", "es": "Estos zapatos son baratos" } },
-   { "t": "快 (kuài)", "es": "rápido", "pos": "adj" },
-   { "t": "慢 (màn)", "es": "lento", "pos": "adj" }
-  ]
- },
- {
-  "id": "zh-time",
-  "title": "El tiempo",
-  "emoji": "⏰",
-  "words": [
-   { "t": "今天 (jīntiān)", "es": "hoy", "pos": "adv", "ex": { "t": "今天很热 (jīntiān hěn rè)", "es": "Hoy hace calor" } },
-   { "t": "明天 (míngtiān)", "es": "mañana", "pos": "adv" },
-   { "t": "昨天 (zuótiān)", "es": "ayer", "pos": "adv" },
-   { "t": "现在 (xiànzài)", "es": "ahora", "pos": "adv", "ex": { "t": "现在几点 (xiànzài jǐ diǎn)", "es": "¿Qué hora es ahora?" } },
-   { "t": "早上 (zǎoshang)", "es": "por la mañana", "pos": "adv" },
-   { "t": "中午 (zhōngwǔ)", "es": "mediodía", "pos": "adv" },
-   { "t": "晚上 (wǎnshang)", "es": "por la noche", "pos": "adv" },
-   { "t": "点 (diǎn)", "es": "en punto", "pos": "n" },
-   { "t": "天 (tiān)", "es": "día", "pos": "n" },
-   { "t": "星期 (xīngqī)", "es": "semana", "pos": "n" },
-   { "t": "月 (yuè)", "es": "mes", "pos": "n" },
-   { "t": "年 (nián)", "es": "año", "pos": "n" }
-  ]
- },
- {
-  "id": "zh-places",
-  "title": "Lugares",
-  "emoji": "🏙️",
-  "words": [
-   { "t": "家 (jiā)", "es": "casa, hogar", "pos": "n", "ex": { "t": "我家很大 (wǒ jiā hěn dà)", "es": "Mi casa es espaciosa" } },
-   { "t": "学校 (xuéxiào)", "es": "escuela", "pos": "n" },
-   { "t": "商店 (shāngdiàn)", "es": "tienda", "pos": "n" },
-   { "t": "超市 (chāoshì)", "es": "supermercado", "pos": "n" },
-   { "t": "餐厅 (cāntīng)", "es": "restaurante", "pos": "n", "ex": { "t": "我们去那家餐厅 (wǒmen qù nà jiā cāntīng)", "es": "Vamos a ese restaurante" } },
-   { "t": "医院 (yīyuàn)", "es": "hospital", "pos": "n" },
-   { "t": "公园 (gōngyuán)", "es": "parque", "pos": "n" },
-   { "t": "银行 (yínháng)", "es": "banco", "pos": "n" },
-   { "t": "邮局 (yóujú)", "es": "oficina de correos", "pos": "n" },
-   { "t": "车站 (chēzhàn)", "es": "estación", "pos": "n" },
-   { "t": "机场 (jīchǎng)", "es": "aeropuerto", "pos": "n" },
-   { "t": "中国 (Zhōngguó)", "es": "China", "pos": "n", "ex": { "t": "我是中国人 (wǒ shì Zhōngguó rén)", "es": "Soy de China" } }
-  ]
- },
- {
-  "id": "zh-body",
-  "title": "El cuerpo",
-  "emoji": "🦴",
-  "words": [
-   { "t": "头 (tóu)", "es": "cabeza", "pos": "n", "ex": { "t": "我头有点疼 (wǒ tóu yǒudiǎn téng)", "es": "Me duele un poco la cabeza" } },
-   { "t": "眼睛 (yǎnjing)", "es": "los ojos", "pos": "n" },
-   { "t": "耳朵 (ěrduo)", "es": "las orejas", "pos": "n" },
-   { "t": "鼻子 (bízi)", "es": "la nariz", "pos": "n" },
-   { "t": "嘴 (zuǐ)", "es": "la boca", "pos": "n" },
-   { "t": "手 (shǒu)", "es": "la mano", "pos": "n", "ex": { "t": "你的手很冷 (nǐ de shǒu hěn lěng)", "es": "Tienes las manos frías" } },
-   { "t": "脚 (jiǎo)", "es": "el pie", "pos": "n" },
-   { "t": "心 (xīn)", "es": "el corazón", "pos": "n" },
-   { "t": "牙 (yá)", "es": "el diente", "pos": "n" },
-   { "t": "头发 (tóufa)", "es": "el pelo", "pos": "n" }
-  ]
- },
- {
-  "id": "zh-animals",
-  "title": "Animales",
-  "emoji": "🐾",
-  "words": [
-   { "t": "猫 (māo)", "es": "gato", "pos": "n", "ex": { "t": "小猫在家 (xiǎomāo zài jiā)", "es": "El gatito está en casa" } },
-   { "t": "狗 (gǒu)", "es": "perro", "pos": "n" },
-   { "t": "鸟 (niǎo)", "es": "pájaro", "pos": "n" },
-   { "t": "马 (mǎ)", "es": "caballo", "pos": "n" },
-   { "t": "牛 (niú)", "es": "vaca", "pos": "n" },
-   { "t": "猪 (zhū)", "es": "cerdo", "pos": "n" },
-   { "t": "鸡 (jī)", "es": "gallina", "pos": "n" },
-   { "t": "兔子 (tùzi)", "es": "conejo", "pos": "n" },
-   { "t": "老虎 (lǎohǔ)", "es": "tigre", "pos": "n", "ex": { "t": "山中无老虎 (shān zhōng wú lǎohǔ)", "es": "Sin tigre en la montaña…" } },
-   { "t": "蛇 (shé)", "es": "serpiente", "pos": "n" }
-  ]
- },
- {
-  "id": "zh-conv",
-  "title": "Conversación",
-  "emoji": "🗣️",
-  "words": [
-   { "t": "我饿了 (wǒ è le)", "es": "tengo hambre", "pos": "phr" },
-   { "t": "我渴了 (wǒ kě le)", "es": "tengo sed", "pos": "phr" },
-   { "t": "我不知道 (wǒ bù zhīdào)", "es": "no lo sé", "pos": "phr" },
-   { "t": "我知道了 (wǒ zhīdào le)", "es": "ya lo sé", "pos": "phr" },
-   { "t": "我不明白 (wǒ bù míngbai)", "es": "no lo entiendo", "pos": "phr" },
-   { "t": "请再说一遍 (qǐng zài shuō yíbiàn)", "es": "repítelo otra vez", "pos": "phr" },
-   { "t": "请说慢一点 (qǐng shuō màn yìdiǎn)", "es": "habla más lento", "pos": "phr" },
-   { "t": "太好了 (tài hǎo le)", "es": "¡estupendo!", "pos": "phr" },
-   { "t": "对吧 (duìba)", "es": "¿no?", "pos": "phr" },
-   { "t": "加油 (jiāyóu)", "es": "¡ánimo!", "pos": "phr" },
-   { "t": "祝你好运 (zhù nǐ hǎo yùn)", "es": "buena suerte", "pos": "phr" },
-   { "t": "很高兴认识你 (hěn gāoxìng rènshi nǐ)", "es": "encantado de conocerte", "pos": "phr" },
-   { "t": "我的中文不好 (wǒ de Zhōngwén bù hǎo)", "es": "mi chino no es muy bueno", "pos": "phr" },
-   { "t": "没问题 (méi wèntí)", "es": "sin problema", "pos": "phr" }
-  ]
- }
+  {
+    "id": "zh-greet",
+    "title": "Saludos y cortesía",
+    "emoji": "👋",
+    "words": [
+      {
+        "t": "你好 (nǐ hǎo)",
+        "es": "hola (tú)",
+        "pos": "phr",
+        "ex": {
+          "t": "你好！我叫小明 (nǐ hǎo! wǒ jiào Xiǎomíng)",
+          "es": "¡Hola! Me llamo Xiaoming"
+        }
+      },
+      {
+        "t": "你好吗 (nǐ hǎo ma)",
+        "es": "¿qué tal?",
+        "pos": "phr"
+      },
+      {
+        "t": "早上好 (zǎoshanghǎo)",
+        "es": "buenos días",
+        "pos": "phr",
+        "ex": {
+          "t": "早上好，老师 (zǎoshanghǎo, lǎoshī)",
+          "es": "Buenos días, profesor"
+        }
+      },
+      {
+        "t": "晚上好 (wǎnshanghǎo)",
+        "es": "buenas noches (al llegar)",
+        "pos": "phr"
+      },
+      {
+        "t": "晚安 (wǎn’ān)",
+        "es": "buenas noches (al dormir)",
+        "pos": "phr"
+      },
+      {
+        "t": "谢谢 (xièxie)",
+        "es": "gracias",
+        "pos": "phr",
+        "ex": {
+          "t": "多谢了，你帮了我 (duōxiè le, nǐ bāng le wǒ)",
+          "es": "Mil gracias, me has ayudado"
+        }
+      },
+      {
+        "t": "不客气 (búkèqi)",
+        "es": "de nada",
+        "pos": "phr"
+      },
+      {
+        "t": "请 (qǐng)",
+        "es": "por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "请问 (qǐngwèn)",
+        "es": "permiso ¿puedo preguntar?",
+        "pos": "phr"
+      },
+      {
+        "t": "对不起 (duìbuqǐ)",
+        "es": "lo siento",
+        "pos": "phr",
+        "ex": {
+          "t": "对不起，我迟到了 (duìbuqǐ, wǒ chí dào le)",
+          "es": "Perdón, llegué tarde"
+        }
+      },
+      {
+        "t": "没关系 (méi guānxi)",
+        "es": "no pasa nada",
+        "pos": "phr"
+      },
+      {
+        "t": "再见 (zàijiàn)",
+        "es": "adiós",
+        "pos": "phr",
+        "ex": {
+          "t": "明天见，再见 (míngtiān jiàn, zàijiàn)",
+          "es": "Hasta mañana, adiós"
+        }
+      },
+      {
+        "t": "喂 (wèi)",
+        "es": "¡diga? (al teléfono)",
+        "pos": "phr"
+      },
+      {
+        "t": "欢迎 (huānyíng)",
+        "es": "bienvenido",
+        "pos": "phr",
+        "ex": {
+          "t": "欢迎来我们家 (huānyíng lái wǒmen jiā)",
+          "es": "Bienvenido a nuestra casa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh-numbers",
+    "title": "Números",
+    "emoji": "🔢",
+    "words": [
+      {
+        "t": "零 (líng)",
+        "es": "cero",
+        "pos": "n"
+      },
+      {
+        "t": "一 (yī)",
+        "es": "uno",
+        "pos": "n",
+        "ex": {
+          "t": "我要一个 (wǒ yào yí ge)",
+          "es": "Quiero uno"
+        }
+      },
+      {
+        "t": "二 (èr)",
+        "es": "dos",
+        "pos": "n"
+      },
+      {
+        "t": "三 (sān)",
+        "es": "tres",
+        "pos": "n",
+        "ex": {
+          "t": "三个苹果 (sān ge píngguǒ)",
+          "es": "Tres manzanas"
+        }
+      },
+      {
+        "t": "四 (sì)",
+        "es": "cuatro",
+        "pos": "n"
+      },
+      {
+        "t": "五 (wǔ)",
+        "es": "cinco",
+        "pos": "n"
+      },
+      {
+        "t": "六 (liù)",
+        "es": "seis",
+        "pos": "n"
+      },
+      {
+        "t": "七 (qī)",
+        "es": "siete",
+        "pos": "n"
+      },
+      {
+        "t": "八 (bā)",
+        "es": "ocho",
+        "pos": "n"
+      },
+      {
+        "t": "九 (jiǔ)",
+        "es": "nueve",
+        "pos": "n"
+      },
+      {
+        "t": "十 (shí)",
+        "es": "diez",
+        "pos": "n",
+        "ex": {
+          "t": "十块钱 (shí kuài qián)",
+          "es": "Diez yuanes"
+        }
+      },
+      {
+        "t": "百 (bǎi)",
+        "es": "cien",
+        "pos": "n"
+      },
+      {
+        "t": "千 (qiān)",
+        "es": "mil",
+        "pos": "n"
+      },
+      {
+        "t": "几 (jǐ)",
+        "es": "¿cuántos?",
+        "pos": "adv"
+      }
+    ]
+  },
+  {
+    "id": "zh-people",
+    "title": "Familia y gente",
+    "emoji": "👨‍👩‍👧",
+    "words": [
+      {
+        "t": "妈妈 (māma)",
+        "es": "mamá",
+        "pos": "n",
+        "ex": {
+          "t": "我妈妈做饭很好吃 (wǒ māma zuòfàn hěn hǎochī)",
+          "es": "Mi mamá cocina muy bien"
+        }
+      },
+      {
+        "t": "爸爸 (bàba)",
+        "es": "papá",
+        "pos": "n"
+      },
+      {
+        "t": "哥哥 (gēge)",
+        "es": "hermano mayor",
+        "pos": "n",
+        "ex": {
+          "t": "我哥哥很高 (wǒ gēge hěn gāo)",
+          "es": "Mi hermano mayor es alto"
+        }
+      },
+      {
+        "t": "姐姐 (jiějie)",
+        "es": "hermana mayor",
+        "pos": "n"
+      },
+      {
+        "t": "弟弟 (dìdi)",
+        "es": "hermano menor",
+        "pos": "n"
+      },
+      {
+        "t": "妹妹 (mèimei)",
+        "es": "hermana menor",
+        "pos": "n",
+        "ex": {
+          "t": "妹妹喜欢画画 (mèimei xǐhuan huàhuà)",
+          "es": "A mi hermana menor le gusta dibujar"
+        }
+      },
+      {
+        "t": "儿子 (érzi)",
+        "es": "hijo",
+        "pos": "n"
+      },
+      {
+        "t": "女儿 (nǚ’ér)",
+        "es": "hija",
+        "pos": "n"
+      },
+      {
+        "t": "爷爷 (yéye)",
+        "es": "abuelo",
+        "pos": "n"
+      },
+      {
+        "t": "奶奶 (nǎinai)",
+        "es": "abuela",
+        "pos": "n"
+      },
+      {
+        "t": "朋友 (péngyou)",
+        "es": "amigo",
+        "pos": "n",
+        "ex": {
+          "t": "他是我最好的朋友 (tā shì wǒ zuì hǎo de péngyou)",
+          "es": "Es mi mejor amigo"
+        }
+      },
+      {
+        "t": "同学 (tóngxué)",
+        "es": "compañero de clase",
+        "pos": "n"
+      },
+      {
+        "t": "人 (rén)",
+        "es": "persona",
+        "pos": "n",
+        "ex": {
+          "t": "这里人很多 (zhèlǐ rén hěn duō)",
+          "es": "Aquí hay mucha gente"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh-food",
+    "title": "Comida",
+    "emoji": "🍲",
+    "words": [
+      {
+        "t": "米 (mǐ)",
+        "es": "el arroz (en grano)",
+        "pos": "n"
+      },
+      {
+        "t": "米饭 (mǐfàn)",
+        "es": "arroz cocido",
+        "pos": "n",
+        "ex": {
+          "t": "我要一碗米饭 (wǒ yào yì wǎn mǐfàn)",
+          "es": "Quiero un bol de arroz"
+        }
+      },
+      {
+        "t": "面条 (miàntiáo)",
+        "es": "fideos",
+        "pos": "n"
+      },
+      {
+        "t": "菜 (cài)",
+        "es": "plato, verduras",
+        "pos": "n",
+        "ex": {
+          "t": "今天的菜很新鲜 (jīntiān de cài hěn xīnxiān)",
+          "es": "Las verduras de hoy son fresquísimas"
+        }
+      },
+      {
+        "t": "肉 (ròu)",
+        "es": "carne",
+        "pos": "n"
+      },
+      {
+        "t": "鸡肉 (jīròu)",
+        "es": "carne de pollo",
+        "pos": "n"
+      },
+      {
+        "t": "鸡蛋 (jīdàn)",
+        "es": "huevo",
+        "pos": "n"
+      },
+      {
+        "t": "鱼 (yú)",
+        "es": "pescado",
+        "pos": "n",
+        "ex": {
+          "t": "这条鱼很新鲜 (zhè tiáo yú hěn xīnxiān)",
+          "es": "Este pescado está fresco"
+        }
+      },
+      {
+        "t": "汤 (tāng)",
+        "es": "sopa",
+        "pos": "n"
+      },
+      {
+        "t": "水果 (shuǐguǒ)",
+        "es": "fruta",
+        "pos": "n"
+      },
+      {
+        "t": "苹果 (píngguǒ)",
+        "es": "manzana",
+        "pos": "n",
+        "ex": {
+          "t": "一个苹果多少钱 (yí ge píngguǒ duōshao qián)",
+          "es": "¿Cuánto cuesta una manzana?"
+        }
+      },
+      {
+        "t": "糖 (táng)",
+        "es": "azúcar",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "zh-drinks",
+    "title": "Bebidas",
+    "emoji": "🍵",
+    "words": [
+      {
+        "t": "水 (shuǐ)",
+        "es": "agua",
+        "pos": "n",
+        "ex": {
+          "t": "我要一杯水 (wǒ yào yì bēi shuǐ)",
+          "es": "Quiero un vaso de agua"
+        }
+      },
+      {
+        "t": "茶 (chá)",
+        "es": "té",
+        "pos": "n",
+        "ex": {
+          "t": "喝茶对身体好 (hē chá duì shēntǐ hǎo)",
+          "es": "Beber té hace bien al cuerpo"
+        }
+      },
+      {
+        "t": "咖啡 (kāfēi)",
+        "es": "café",
+        "pos": "n"
+      },
+      {
+        "t": "牛奶 (niúnǎi)",
+        "es": "leche",
+        "pos": "n"
+      },
+      {
+        "t": "果汁 (guǒzhī)",
+        "es": "zumo",
+        "pos": "n"
+      },
+      {
+        "t": "啤酒 (píjiǔ)",
+        "es": "cerveza",
+        "pos": "n"
+      },
+      {
+        "t": "可乐 (kělè)",
+        "es": "refresco de cola",
+        "pos": "n"
+      },
+      {
+        "t": "酒 (jiǔ)",
+        "es": "alcohol",
+        "pos": "n"
+      },
+      {
+        "t": "热 (rè)",
+        "es": "caliente",
+        "pos": "adj",
+        "ex": {
+          "t": "我要热水 (wǒ yào rè shuǐ)",
+          "es": "Quiero agua caliente"
+        }
+      },
+      {
+        "t": "冰 (bīng)",
+        "es": "hielo",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "zh-verbs",
+    "title": "Verbos comunes",
+    "emoji": "🔁",
+    "words": [
+      {
+        "t": "是 (shì)",
+        "es": "ser",
+        "pos": "v",
+        "ex": {
+          "t": "我是老师 (wǒ shì lǎoshī)",
+          "es": "Soy profesor"
+        }
+      },
+      {
+        "t": "有 (yǒu)",
+        "es": "tener",
+        "pos": "v",
+        "ex": {
+          "t": "我有一个问题 (wǒ yǒu yí ge wèntí)",
+          "es": "Tengo una cuestión"
+        }
+      },
+      {
+        "t": "去 (qù)",
+        "es": "ir (a)",
+        "pos": "v"
+      },
+      {
+        "t": "来 (lái)",
+        "es": "venir",
+        "pos": "v"
+      },
+      {
+        "t": "吃 (chī)",
+        "es": "comer",
+        "pos": "v",
+        "ex": {
+          "t": "吃饭了吗 (chīfàn le ma)",
+          "es": "¿Ya has comido?"
+        }
+      },
+      {
+        "t": "喝 (hē)",
+        "es": "beber",
+        "pos": "v"
+      },
+      {
+        "t": "说 (shuō)",
+        "es": "hablar, decir",
+        "pos": "v"
+      },
+      {
+        "t": "看 (kàn)",
+        "es": "ver, mirar",
+        "pos": "v",
+        "ex": {
+          "t": "我看中文书 (wǒ kàn Zhōngwén shū)",
+          "es": "Leo libros en chino"
+        }
+      },
+      {
+        "t": "写 (xiě)",
+        "es": "escribir",
+        "pos": "v"
+      },
+      {
+        "t": "学 (xué)",
+        "es": "estudiar, aprender",
+        "pos": "v",
+        "ex": {
+          "t": "我在学中文 (wǒ zài xué Zhōngwén)",
+          "es": "Estoy estudiando chino"
+        }
+      },
+      {
+        "t": "买 (mǎi)",
+        "es": "comprar",
+        "pos": "v"
+      },
+      {
+        "t": "想 (xiǎng)",
+        "es": "querer, pensar",
+        "pos": "v"
+      }
+    ]
+  },
+  {
+    "id": "zh-adj",
+    "title": "Adjetivos",
+    "emoji": "🌟",
+    "words": [
+      {
+        "t": "好 (hǎo)",
+        "es": "bueno",
+        "pos": "adj",
+        "ex": {
+          "t": "这个人很好 (zhège rén hěn hǎo)",
+          "es": "Esta persona es muy buena"
+        }
+      },
+      {
+        "t": "大 (dà)",
+        "es": "grande",
+        "pos": "adj"
+      },
+      {
+        "t": "小 (xiǎo)",
+        "es": "pequeño",
+        "pos": "adj",
+        "ex": {
+          "t": "小猫很小 (xiǎo māo hěn xiǎo)",
+          "es": "El gatito es pequeñito"
+        }
+      },
+      {
+        "t": "多 (duō)",
+        "es": "mucho",
+        "pos": "adj"
+      },
+      {
+        "t": "少 (shǎo)",
+        "es": "poco",
+        "pos": "adj"
+      },
+      {
+        "t": "新 (xīn)",
+        "es": "nuevo",
+        "pos": "adj"
+      },
+      {
+        "t": "旧 (jiù)",
+        "es": "viejo (de cosas)",
+        "pos": "adj"
+      },
+      {
+        "t": "高 (gāo)",
+        "es": "alto",
+        "pos": "adj",
+        "ex": {
+          "t": "山很高 (shān hěn gāo)",
+          "es": "La montaña es altísima"
+        }
+      },
+      {
+        "t": "矮 (ǎi)",
+        "es": "bajo",
+        "pos": "adj"
+      },
+      {
+        "t": "贵 (guì)",
+        "es": "caro",
+        "pos": "adj"
+      },
+      {
+        "t": "便宜 (piányi)",
+        "es": "barato",
+        "pos": "adj",
+        "ex": {
+          "t": "这双鞋很便宜 (zhè shuāng xié hěn piányi)",
+          "es": "Estos zapatos son baratos"
+        }
+      },
+      {
+        "t": "快 (kuài)",
+        "es": "rápido",
+        "pos": "adj"
+      },
+      {
+        "t": "慢 (màn)",
+        "es": "lento",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "zh-time",
+    "title": "El tiempo",
+    "emoji": "⏰",
+    "words": [
+      {
+        "t": "今天 (jīntiān)",
+        "es": "hoy",
+        "pos": "adv",
+        "ex": {
+          "t": "今天很热 (jīntiān hěn rè)",
+          "es": "Hoy hace calor"
+        }
+      },
+      {
+        "t": "明天 (míngtiān)",
+        "es": "mañana",
+        "pos": "adv"
+      },
+      {
+        "t": "昨天 (zuótiān)",
+        "es": "ayer",
+        "pos": "adv"
+      },
+      {
+        "t": "现在 (xiànzài)",
+        "es": "ahora",
+        "pos": "adv",
+        "ex": {
+          "t": "现在几点 (xiànzài jǐ diǎn)",
+          "es": "¿Qué hora es ahora?"
+        }
+      },
+      {
+        "t": "早上 (zǎoshang)",
+        "es": "por la mañana",
+        "pos": "adv"
+      },
+      {
+        "t": "中午 (zhōngwǔ)",
+        "es": "mediodía",
+        "pos": "adv"
+      },
+      {
+        "t": "晚上 (wǎnshang)",
+        "es": "por la noche",
+        "pos": "adv"
+      },
+      {
+        "t": "点 (diǎn)",
+        "es": "en punto",
+        "pos": "n"
+      },
+      {
+        "t": "天 (tiān)",
+        "es": "día",
+        "pos": "n"
+      },
+      {
+        "t": "星期 (xīngqī)",
+        "es": "semana",
+        "pos": "n"
+      },
+      {
+        "t": "月 (yuè)",
+        "es": "mes",
+        "pos": "n"
+      },
+      {
+        "t": "年 (nián)",
+        "es": "año",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "zh-places",
+    "title": "Lugares",
+    "emoji": "🏙️",
+    "words": [
+      {
+        "t": "家 (jiā)",
+        "es": "casa, hogar",
+        "pos": "n",
+        "ex": {
+          "t": "我家很大 (wǒ jiā hěn dà)",
+          "es": "Mi casa es espaciosa"
+        }
+      },
+      {
+        "t": "学校 (xuéxiào)",
+        "es": "escuela",
+        "pos": "n"
+      },
+      {
+        "t": "商店 (shāngdiàn)",
+        "es": "tienda",
+        "pos": "n"
+      },
+      {
+        "t": "超市 (chāoshì)",
+        "es": "supermercado",
+        "pos": "n"
+      },
+      {
+        "t": "餐厅 (cāntīng)",
+        "es": "restaurante",
+        "pos": "n",
+        "ex": {
+          "t": "我们去那家餐厅 (wǒmen qù nà jiā cāntīng)",
+          "es": "Vamos a ese restaurante"
+        }
+      },
+      {
+        "t": "医院 (yīyuàn)",
+        "es": "hospital",
+        "pos": "n"
+      },
+      {
+        "t": "公园 (gōngyuán)",
+        "es": "parque",
+        "pos": "n"
+      },
+      {
+        "t": "银行 (yínháng)",
+        "es": "banco",
+        "pos": "n"
+      },
+      {
+        "t": "邮局 (yóujú)",
+        "es": "oficina de correos",
+        "pos": "n"
+      },
+      {
+        "t": "车站 (chēzhàn)",
+        "es": "estación",
+        "pos": "n"
+      },
+      {
+        "t": "机场 (jīchǎng)",
+        "es": "aeropuerto",
+        "pos": "n"
+      },
+      {
+        "t": "中国 (Zhōngguó)",
+        "es": "China",
+        "pos": "n",
+        "ex": {
+          "t": "我是中国人 (wǒ shì Zhōngguó rén)",
+          "es": "Soy de China"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh-body",
+    "title": "El cuerpo",
+    "emoji": "🦴",
+    "words": [
+      {
+        "t": "头 (tóu)",
+        "es": "cabeza",
+        "pos": "n",
+        "ex": {
+          "t": "我头有点疼 (wǒ tóu yǒudiǎn téng)",
+          "es": "Me duele un poco la cabeza"
+        }
+      },
+      {
+        "t": "眼睛 (yǎnjing)",
+        "es": "los ojos",
+        "pos": "n"
+      },
+      {
+        "t": "耳朵 (ěrduo)",
+        "es": "las orejas",
+        "pos": "n"
+      },
+      {
+        "t": "鼻子 (bízi)",
+        "es": "la nariz",
+        "pos": "n"
+      },
+      {
+        "t": "嘴 (zuǐ)",
+        "es": "la boca",
+        "pos": "n"
+      },
+      {
+        "t": "手 (shǒu)",
+        "es": "la mano",
+        "pos": "n",
+        "ex": {
+          "t": "你的手很冷 (nǐ de shǒu hěn lěng)",
+          "es": "Tienes las manos frías"
+        }
+      },
+      {
+        "t": "脚 (jiǎo)",
+        "es": "el pie",
+        "pos": "n"
+      },
+      {
+        "t": "心 (xīn)",
+        "es": "el corazón",
+        "pos": "n"
+      },
+      {
+        "t": "牙 (yá)",
+        "es": "el diente",
+        "pos": "n"
+      },
+      {
+        "t": "头发 (tóufa)",
+        "es": "el pelo",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "zh-animals",
+    "title": "Animales",
+    "emoji": "🐾",
+    "words": [
+      {
+        "t": "猫 (māo)",
+        "es": "gato",
+        "pos": "n",
+        "ex": {
+          "t": "小猫在家 (xiǎomāo zài jiā)",
+          "es": "El gatito está en casa"
+        }
+      },
+      {
+        "t": "狗 (gǒu)",
+        "es": "perro",
+        "pos": "n"
+      },
+      {
+        "t": "鸟 (niǎo)",
+        "es": "pájaro",
+        "pos": "n"
+      },
+      {
+        "t": "马 (mǎ)",
+        "es": "caballo",
+        "pos": "n"
+      },
+      {
+        "t": "牛 (niú)",
+        "es": "vaca",
+        "pos": "n"
+      },
+      {
+        "t": "猪 (zhū)",
+        "es": "cerdo",
+        "pos": "n"
+      },
+      {
+        "t": "鸡 (jī)",
+        "es": "gallina",
+        "pos": "n"
+      },
+      {
+        "t": "兔子 (tùzi)",
+        "es": "conejo",
+        "pos": "n"
+      },
+      {
+        "t": "老虎 (lǎohǔ)",
+        "es": "tigre",
+        "pos": "n",
+        "ex": {
+          "t": "山中无老虎 (shān zhōng wú lǎohǔ)",
+          "es": "Sin tigre en la montaña…"
+        }
+      },
+      {
+        "t": "蛇 (shé)",
+        "es": "serpiente",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "zh-conv",
+    "title": "Conversación",
+    "emoji": "🗣️",
+    "words": [
+      {
+        "t": "我饿了 (wǒ è le)",
+        "es": "tengo hambre",
+        "pos": "phr"
+      },
+      {
+        "t": "我渴了 (wǒ kě le)",
+        "es": "tengo sed",
+        "pos": "phr"
+      },
+      {
+        "t": "我不知道 (wǒ bù zhīdào)",
+        "es": "no lo sé",
+        "pos": "phr"
+      },
+      {
+        "t": "我知道了 (wǒ zhīdào le)",
+        "es": "ya lo sé",
+        "pos": "phr"
+      },
+      {
+        "t": "我不明白 (wǒ bù míngbai)",
+        "es": "no lo entiendo",
+        "pos": "phr"
+      },
+      {
+        "t": "请再说一遍 (qǐng zài shuō yíbiàn)",
+        "es": "repítelo otra vez",
+        "pos": "phr"
+      },
+      {
+        "t": "请说慢一点 (qǐng shuō màn yìdiǎn)",
+        "es": "habla más lento",
+        "pos": "phr"
+      },
+      {
+        "t": "太好了 (tài hǎo le)",
+        "es": "¡estupendo!",
+        "pos": "phr"
+      },
+      {
+        "t": "对吧 (duìba)",
+        "es": "¿no?",
+        "pos": "phr"
+      },
+      {
+        "t": "加油 (jiāyóu)",
+        "es": "¡ánimo!",
+        "pos": "phr"
+      },
+      {
+        "t": "祝你好运 (zhù nǐ hǎo yùn)",
+        "es": "buena suerte",
+        "pos": "phr"
+      },
+      {
+        "t": "很高兴认识你 (hěn gāoxìng rènshi nǐ)",
+        "es": "encantado de conocerte",
+        "pos": "phr"
+      },
+      {
+        "t": "我的中文不好 (wǒ de Zhōngwén bù hǎo)",
+        "es": "mi chino no es muy bueno",
+        "pos": "phr"
+      },
+      {
+        "t": "没问题 (méi wèntí)",
+        "es": "sin problema",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "zh-common",
+    "title": "Palabras más usadas",
+    "emoji": "⭐",
+    "words": [
+      {
+        "t": "我 (wǒ)",
+        "es": "Yo",
+        "pos": "n"
+      },
+      {
+        "t": "你 (nǐ)",
+        "es": "Tú",
+        "pos": "n"
+      },
+      {
+        "t": "他 (tā)",
+        "es": "Él",
+        "pos": "n"
+      },
+      {
+        "t": "她 (tā)",
+        "es": "Ella",
+        "pos": "n"
+      },
+      {
+        "t": "我们 (wǒmen)",
+        "es": "Nosotros",
+        "pos": "n"
+      },
+      {
+        "t": "他们 (tāmen)",
+        "es": "Ellos",
+        "pos": "n"
+      },
+      {
+        "t": "这 (zhè)",
+        "es": "Esto",
+        "pos": "n"
+      },
+      {
+        "t": "那 (nà)",
+        "es": "Eso",
+        "pos": "n"
+      },
+      {
+        "t": "什么 (shénme)",
+        "es": "Qué",
+        "pos": "adv"
+      },
+      {
+        "t": "谁 (shéi)",
+        "es": "Quién",
+        "pos": "adv"
+      },
+      {
+        "t": "哪里 (nǎlǐ)",
+        "es": "Dónde",
+        "pos": "adv"
+      },
+      {
+        "t": "怎么 (zěnme)",
+        "es": "Cómo",
+        "pos": "adv"
+      },
+      {
+        "t": "为什么 (wèishénme)",
+        "es": "Por qué",
+        "pos": "adv"
+      },
+      {
+        "t": "多少 (duōshao)",
+        "es": "Cuánto",
+        "pos": "adv"
+      },
+      {
+        "t": "要 (yào)",
+        "es": "Querer/Necesitar",
+        "pos": "v"
+      },
+      {
+        "t": "会 (huì)",
+        "es": "Poder/Saber",
+        "pos": "v"
+      },
+      {
+        "t": "能 (néng)",
+        "es": "Poder",
+        "pos": "v"
+      },
+      {
+        "t": "听 (tīng)",
+        "es": "Escuchar",
+        "pos": "v"
+      },
+      {
+        "t": "做 (zuò)",
+        "es": "Hacer",
+        "pos": "v"
+      },
+      {
+        "t": "给 (gěi)",
+        "es": "Dar",
+        "pos": "v"
+      },
+      {
+        "t": "知道 (zhīdào)",
+        "es": "Saber",
+        "pos": "v"
+      },
+      {
+        "t": "喜欢 (xǐhuan)",
+        "es": "Gustar",
+        "pos": "v"
+      },
+      {
+        "t": "爱 (ài)",
+        "es": "Amar",
+        "pos": "v"
+      },
+      {
+        "t": "学习 (xuéxí)",
+        "es": "Estudiar",
+        "pos": "v"
+      },
+      {
+        "t": "工作 (gōngzuò)",
+        "es": "Trabajar",
+        "pos": "v"
+      },
+      {
+        "t": "住 (zhù)",
+        "es": "Vivir",
+        "pos": "v"
+      },
+      {
+        "t": "叫 (jiào)",
+        "es": "Llamar/Llamarse",
+        "pos": "v"
+      },
+      {
+        "t": "读 (dú)",
+        "es": "Leer",
+        "pos": "v"
+      },
+      {
+        "t": "开 (kāi)",
+        "es": "Abrir/Conducir",
+        "pos": "v"
+      },
+      {
+        "t": "关 (guān)",
+        "es": "Cerrar",
+        "pos": "v"
+      },
+      {
+        "t": "等 (děng)",
+        "es": "Esperar",
+        "pos": "v"
+      },
+      {
+        "t": "找 (zhǎo)",
+        "es": "Buscar",
+        "pos": "v"
+      },
+      {
+        "t": "用 (yòng)",
+        "es": "Usar",
+        "pos": "v"
+      },
+      {
+        "t": "坏 (huài)",
+        "es": "Malo",
+        "pos": "adj"
+      },
+      {
+        "t": "冷 (lěng)",
+        "es": "Frío",
+        "pos": "adj"
+      },
+      {
+        "t": "漂亮 (piàoliang)",
+        "es": "Bonito",
+        "pos": "adj"
+      },
+      {
+        "t": "长 (cháng)",
+        "es": "Largo",
+        "pos": "adj"
+      },
+      {
+        "t": "短 (duǎn)",
+        "es": "Corto",
+        "pos": "adj"
+      },
+      {
+        "t": "不 (bù)",
+        "es": "No",
+        "pos": "adv"
+      },
+      {
+        "t": "也 (yě)",
+        "es": "También",
+        "pos": "adv"
+      },
+      {
+        "t": "很 (hěn)",
+        "es": "Muy",
+        "pos": "adv"
+      },
+      {
+        "t": "都 (dōu)",
+        "es": "Todos",
+        "pos": "adv"
+      },
+      {
+        "t": "就 (jiù)",
+        "es": "Justo/Entonces",
+        "pos": "adv"
+      },
+      {
+        "t": "还 (hái)",
+        "es": "Todavía",
+        "pos": "adv"
+      },
+      {
+        "t": "已经 (yǐjīng)",
+        "es": "Ya",
+        "pos": "adv"
+      },
+      {
+        "t": "常常 (chángcháng)",
+        "es": "A menudo",
+        "pos": "adv"
+      },
+      {
+        "t": "有时候 (yǒushíhou)",
+        "es": "A veces",
+        "pos": "adv"
+      },
+      {
+        "t": "在 (zài)",
+        "es": "En/Estar en",
+        "pos": "adv"
+      },
+      {
+        "t": "从 (cóng)",
+        "es": "Desde",
+        "pos": "adv"
+      },
+      {
+        "t": "到 (dào)",
+        "es": "Hasta/A",
+        "pos": "adv"
+      },
+      {
+        "t": "和 (hé)",
+        "es": "Y/Con",
+        "pos": "adv"
+      },
+      {
+        "t": "跟 (gēn)",
+        "es": "Con",
+        "pos": "adv"
+      },
+      {
+        "t": "对 (duì)",
+        "es": "Correcto/Para",
+        "pos": "adv"
+      },
+      {
+        "t": "因为 (yīnwèi)",
+        "es": "Porque",
+        "pos": "adv"
+      },
+      {
+        "t": "所以 (suǒyǐ)",
+        "es": "Por eso",
+        "pos": "adv"
+      },
+      {
+        "t": "但是 (dànshì)",
+        "es": "Pero",
+        "pos": "adv"
+      },
+      {
+        "t": "名字 (míngzi)",
+        "es": "Nombre",
+        "pos": "n"
+      },
+      {
+        "t": "老师 (lǎoshī)",
+        "es": "Profesor",
+        "pos": "n"
+      },
+      {
+        "t": "学生 (xuésheng)",
+        "es": "Estudiante",
+        "pos": "n"
+      },
+      {
+        "t": "医生 (yīshēng)",
+        "es": "Médico",
+        "pos": "n"
+      },
+      {
+        "t": "西班牙 (Xībānyá)",
+        "es": "España",
+        "pos": "n"
+      },
+      {
+        "t": "钱 (qián)",
+        "es": "Dinero",
+        "pos": "n"
+      },
+      {
+        "t": "书 (shū)",
+        "es": "Libro",
+        "pos": "n"
+      },
+      {
+        "t": "饭 (fàn)",
+        "es": "Comida/Arroz",
+        "pos": "n"
+      },
+      {
+        "t": "手机 (shǒujī)",
+        "es": "Teléfono móvil",
+        "pos": "n"
+      },
+      {
+        "t": "电脑 (diànnǎo)",
+        "es": "Computadora",
+        "pos": "n"
+      },
+      {
+        "t": "车 (chē)",
+        "es": "Coche",
+        "pos": "n"
+      },
+      {
+        "t": "路 (lù)",
+        "es": "Camino",
+        "pos": "n"
+      },
+      {
+        "t": "门 (mén)",
+        "es": "Puerta",
+        "pos": "n"
+      },
+      {
+        "t": "时间 (shíjiān)",
+        "es": "Tiempo",
+        "pos": "n"
+      },
+      {
+        "t": "分钟 (fēnzhōng)",
+        "es": "Minuto",
+        "pos": "n"
+      },
+      {
+        "t": "下午 (xiàwǔ)",
+        "es": "Tarde",
+        "pos": "n"
+      },
+      {
+        "t": "不客气 (bú kèqi)",
+        "es": "De nada",
+        "pos": "phr"
+      },
+      {
+        "t": "多少钱？(duōshao qián?)",
+        "es": "¿Cuánto cuesta?",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "zh-common-2",
+    "title": "Vocabulario esencial",
+    "emoji": "📚",
+    "words": [
+      {
+        "t": "女儿 (nǚ'ér)",
+        "es": "Hija",
+        "pos": "n"
+      },
+      {
+        "t": "丈夫 (zhàngfu)",
+        "es": "Esposo",
+        "pos": "n"
+      },
+      {
+        "t": "妻子 (qīzi)",
+        "es": "Esposa",
+        "pos": "n"
+      },
+      {
+        "t": "香蕉 (xiāngjiāo)",
+        "es": "Banano",
+        "pos": "n"
+      },
+      {
+        "t": "红色 (hóngsè)",
+        "es": "Rojo",
+        "pos": "adj"
+      },
+      {
+        "t": "蓝色 (lánsè)",
+        "es": "Azul",
+        "pos": "adj"
+      },
+      {
+        "t": "绿色 (lǜsè)",
+        "es": "Verde",
+        "pos": "adj"
+      },
+      {
+        "t": "黄色 (huángsè)",
+        "es": "Amarillo",
+        "pos": "adj"
+      },
+      {
+        "t": "黑色 (hēisè)",
+        "es": "Negro",
+        "pos": "adj"
+      },
+      {
+        "t": "白色 (báisè)",
+        "es": "Blanco",
+        "pos": "adj"
+      },
+      {
+        "t": "衣服 (yīfu)",
+        "es": "Ropa",
+        "pos": "n"
+      },
+      {
+        "t": "鞋子 (xiézi)",
+        "es": "Zapatos",
+        "pos": "n"
+      },
+      {
+        "t": "裤子 (kùzi)",
+        "es": "Pantalones",
+        "pos": "n"
+      },
+      {
+        "t": "衬衫 (chènshān)",
+        "es": "Camisa",
+        "pos": "n"
+      },
+      {
+        "t": "城市 (chéngshì)",
+        "es": "Ciudad",
+        "pos": "n"
+      },
+      {
+        "t": "飞机 (fēijī)",
+        "es": "Avión",
+        "pos": "n"
+      },
+      {
+        "t": "火车 (huǒchē)",
+        "es": "Tren",
+        "pos": "n"
+      },
+      {
+        "t": "公共汽车 (gōnggòng qìchē)",
+        "es": "Autobús",
+        "pos": "n"
+      },
+      {
+        "t": "出租车 (chūzūchē)",
+        "es": "Taxi",
+        "pos": "n"
+      },
+      {
+        "t": "天气 (tiānqì)",
+        "es": "Clima",
+        "pos": "n"
+      },
+      {
+        "t": "雨 (yǔ)",
+        "es": "Lluvia",
+        "pos": "n"
+      },
+      {
+        "t": "雪 (xuě)",
+        "es": "Nieve",
+        "pos": "n"
+      },
+      {
+        "t": "太阳 (tàiyáng)",
+        "es": "Sol",
+        "pos": "n"
+      },
+      {
+        "t": "月亮 (yuèliang)",
+        "es": "Luna",
+        "pos": "n"
+      },
+      {
+        "t": "山 (shān)",
+        "es": "Montaña",
+        "pos": "n"
+      },
+      {
+        "t": "河 (hé)",
+        "es": "Río",
+        "pos": "n"
+      },
+      {
+        "t": "海 (hǎi)",
+        "es": "Mar",
+        "pos": "n"
+      },
+      {
+        "t": "树 (shù)",
+        "es": "Árbol",
+        "pos": "n"
+      },
+      {
+        "t": "花 (huā)",
+        "es": "Flor",
+        "pos": "n"
+      },
+      {
+        "t": "问题 (wèntí)",
+        "es": "Pregunta/Problema",
+        "pos": "n"
+      },
+      {
+        "t": "答案 (dá'àn)",
+        "es": "Respuesta",
+        "pos": "n"
+      },
+      {
+        "t": "事情 (shìqing)",
+        "es": "Asunto/Cosa",
+        "pos": "n"
+      },
+      {
+        "t": "电影 (diànyǐng)",
+        "es": "Película",
+        "pos": "n"
+      },
+      {
+        "t": "音乐 (yīnyuè)",
+        "es": "Música",
+        "pos": "n"
+      },
+      {
+        "t": "游戏 (yóuxì)",
+        "es": "Juego",
+        "pos": "n"
+      },
+      {
+        "t": "早 (zǎo)",
+        "es": "Temprano",
+        "pos": "adj"
+      },
+      {
+        "t": "晚 (wǎn)",
+        "es": "Tarde",
+        "pos": "adj"
+      },
+      {
+        "t": "忙 (máng)",
+        "es": "Ocupado",
+        "pos": "adj"
+      },
+      {
+        "t": "累 (lèi)",
+        "es": "Cansado",
+        "pos": "adj"
+      },
+      {
+        "t": "高兴 (gāoxìng)",
+        "es": "Feliz",
+        "pos": "adj"
+      },
+      {
+        "t": "难 (nán)",
+        "es": "Difícil",
+        "pos": "adj"
+      },
+      {
+        "t": "容易 (róngyì)",
+        "es": "Fácil",
+        "pos": "adj"
+      },
+      {
+        "t": "重要 (zhòngyào)",
+        "es": "Importante",
+        "pos": "adj"
+      },
+      {
+        "t": "有趣 (yǒuqù)",
+        "es": "Interesante",
+        "pos": "adj"
+      },
+      {
+        "t": "可以 (kěyǐ)",
+        "es": "Poder/Permitido",
+        "pos": "v"
+      },
+      {
+        "t": "应该 (yīnggāi)",
+        "es": "Deber",
+        "pos": "v"
+      },
+      {
+        "t": "需要 (xūyào)",
+        "es": "Necesitar",
+        "pos": "v"
+      },
+      {
+        "t": "开始 (kāishǐ)",
+        "es": "Empezar",
+        "pos": "v"
+      },
+      {
+        "t": "结束 (jiéshù)",
+        "es": "Terminar",
+        "pos": "v"
+      },
+      {
+        "t": "帮助 (bāngzhù)",
+        "es": "Ayudar",
+        "pos": "v"
+      },
+      {
+        "t": "问 (wèn)",
+        "es": "Preguntar",
+        "pos": "v"
+      },
+      {
+        "t": "回答 (huídá)",
+        "es": "Responder",
+        "pos": "v"
+      },
+      {
+        "t": "走 (zǒu)",
+        "es": "Caminar/Ir",
+        "pos": "v"
+      },
+      {
+        "t": "跑 (pǎo)",
+        "es": "Correr",
+        "pos": "v"
+      },
+      {
+        "t": "坐 (zuò)",
+        "es": "Sentarse",
+        "pos": "v"
+      },
+      {
+        "t": "站 (zhàn)",
+        "es": "Pararse",
+        "pos": "v"
+      },
+      {
+        "t": "睡觉 (shuìjiào)",
+        "es": "Dormir",
+        "pos": "v"
+      },
+      {
+        "t": "起床 (qǐchuáng)",
+        "es": "Levantarse",
+        "pos": "v"
+      },
+      {
+        "t": "洗 (xǐ)",
+        "es": "Lavar",
+        "pos": "v"
+      },
+      {
+        "t": "穿 (chuān)",
+        "es": "Vestir/Llevar puesto",
+        "pos": "v"
+      },
+      {
+        "t": "带 (dài)",
+        "es": "Llevar/Traer",
+        "pos": "v"
+      },
+      {
+        "t": "拿 (ná)",
+        "es": "Tomar",
+        "pos": "v"
+      },
+      {
+        "t": "放 (fàng)",
+        "es": "Poner",
+        "pos": "v"
+      },
+      {
+        "t": "进 (jìn)",
+        "es": "Entrar",
+        "pos": "v"
+      },
+      {
+        "t": "出 (chū)",
+        "es": "Salir",
+        "pos": "v"
+      },
+      {
+        "t": "回 (huí)",
+        "es": "Volver",
+        "pos": "v"
+      },
+      {
+        "t": "到达 (dàodá)",
+        "es": "Llegar",
+        "pos": "v"
+      },
+      {
+        "t": "离开 (líkāi)",
+        "es": "Salir/Irse",
+        "pos": "v"
+      },
+      {
+        "t": "认识 (rènshi)",
+        "es": "Conocer",
+        "pos": "v"
+      },
+      {
+        "t": "觉得 (juéde)",
+        "es": "Sentir/Pensar",
+        "pos": "v"
+      },
+      {
+        "t": "希望 (xīwàng)",
+        "es": "Esperar/Desear",
+        "pos": "v"
+      },
+      {
+        "t": "相信 (xiāngxìn)",
+        "es": "Creer",
+        "pos": "v"
+      },
+      {
+        "t": "记得 (jìde)",
+        "es": "Recordar",
+        "pos": "v"
+      },
+      {
+        "t": "忘记 (wàngjì)",
+        "es": "Olvidar",
+        "pos": "v"
+      },
+      {
+        "t": "玩 (wán)",
+        "es": "Jugar",
+        "pos": "v"
+      },
+      {
+        "t": "唱歌 (chànggē)",
+        "es": "Cantar",
+        "pos": "v"
+      },
+      {
+        "t": "跳舞 (tiàowǔ)",
+        "es": "Bailar",
+        "pos": "v"
+      },
+      {
+        "t": "游泳 (yóuyǒng)",
+        "es": "Nadar",
+        "pos": "v"
+      },
+      {
+        "t": "这里 (zhèlǐ)",
+        "es": "Aquí",
+        "pos": "adv"
+      },
+      {
+        "t": "那里 (nàlǐ)",
+        "es": "Allí",
+        "pos": "adv"
+      },
+      {
+        "t": "上面 (shàngmiàn)",
+        "es": "Encima",
+        "pos": "adv"
+      },
+      {
+        "t": "下面 (xiàmiàn)",
+        "es": "Debajo",
+        "pos": "adv"
+      },
+      {
+        "t": "里面 (lǐmiàn)",
+        "es": "Dentro",
+        "pos": "adv"
+      },
+      {
+        "t": "外面 (wàimiàn)",
+        "es": "Fuera",
+        "pos": "adv"
+      },
+      {
+        "t": "一起 (yīqǐ)",
+        "es": "Juntos",
+        "pos": "adv"
+      },
+      {
+        "t": "先 (xiān)",
+        "es": "Primero",
+        "pos": "adv"
+      },
+      {
+        "t": "然后 (ránhòu)",
+        "es": "Luego",
+        "pos": "adv"
+      },
+      {
+        "t": "最后 (zuìhòu)",
+        "es": "Finalmente",
+        "pos": "adv"
+      },
+      {
+        "t": "当然 (dāngrán)",
+        "es": "Por supuesto",
+        "pos": "adv"
+      },
+      {
+        "t": "可能 (kěnéng)",
+        "es": "Quizás",
+        "pos": "adv"
+      },
+      {
+        "t": "真的 (zhēnde)",
+        "es": "De verdad",
+        "pos": "adv"
+      },
+      {
+        "t": "我不懂 (wǒ bù dǒng)",
+        "es": "No entiendo",
+        "pos": "phr"
+      },
+      {
+        "t": "你会说英语吗？(nǐ huì shuō Yīngyǔ ma?)",
+        "es": "¿Hablas inglés?",
+        "pos": "phr"
+      },
+      {
+        "t": "厕所在哪里？(cèsuǒ zài nǎlǐ?)",
+        "es": "¿Dónde está el baño?",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "zh-common-4",
+    "title": "Más vocabulario común",
+    "emoji": "🗂️",
+    "words": [
+      {
+        "t": "先生 (xiānsheng)",
+        "es": "Señor",
+        "pos": "n"
+      },
+      {
+        "t": "女士 (nǚshì)",
+        "es": "Señora",
+        "pos": "n"
+      },
+      {
+        "t": "孩子 (háizi)",
+        "es": "Niño",
+        "pos": "n"
+      },
+      {
+        "t": "男孩 (nánhái)",
+        "es": "Chico",
+        "pos": "n"
+      },
+      {
+        "t": "女孩 (nǚhái)",
+        "es": "Chica",
+        "pos": "n"
+      },
+      {
+        "t": "老人 (lǎorén)",
+        "es": "Anciano",
+        "pos": "n"
+      },
+      {
+        "t": "邻居 (línjū)",
+        "es": "Vecino",
+        "pos": "n"
+      },
+      {
+        "t": "客人 (kèrén)",
+        "es": "Invitado",
+        "pos": "n"
+      },
+      {
+        "t": "顾客 (gùkè)",
+        "es": "Cliente",
+        "pos": "n"
+      },
+      {
+        "t": "服务员 (fúwùyuán)",
+        "es": "Camarero",
+        "pos": "n"
+      },
+      {
+        "t": "司机 (sījī)",
+        "es": "Conductor",
+        "pos": "n"
+      },
+      {
+        "t": "警察 (jǐngchá)",
+        "es": "Policía",
+        "pos": "n"
+      },
+      {
+        "t": "厨房 (chúfáng)",
+        "es": "Cocina",
+        "pos": "n"
+      },
+      {
+        "t": "浴室 (yùshì)",
+        "es": "Baño",
+        "pos": "n"
+      },
+      {
+        "t": "客厅 (kètīng)",
+        "es": "Sala",
+        "pos": "n"
+      },
+      {
+        "t": "花园 (huāyuán)",
+        "es": "Jardín",
+        "pos": "n"
+      },
+      {
+        "t": "楼 (lóu)",
+        "es": "Edificio/Piso",
+        "pos": "n"
+      },
+      {
+        "t": "电梯 (diàntī)",
+        "es": "Ascensor",
+        "pos": "n"
+      },
+      {
+        "t": "墙 (qiáng)",
+        "es": "Pared",
+        "pos": "n"
+      },
+      {
+        "t": "地板 (dìbǎn)",
+        "es": "Suelo",
+        "pos": "n"
+      },
+      {
+        "t": "杯子 (bēizi)",
+        "es": "Vaso/Taza",
+        "pos": "n"
+      },
+      {
+        "t": "盘子 (pánzi)",
+        "es": "Plato",
+        "pos": "n"
+      },
+      {
+        "t": "碗 (wǎn)",
+        "es": "Tazón",
+        "pos": "n"
+      },
+      {
+        "t": "筷子 (kuàizi)",
+        "es": "Palillos",
+        "pos": "n"
+      },
+      {
+        "t": "刀 (dāo)",
+        "es": "Cuchillo",
+        "pos": "n"
+      },
+      {
+        "t": "勺子 (sháozi)",
+        "es": "Cuchara",
+        "pos": "n"
+      },
+      {
+        "t": "瓶子 (píngzi)",
+        "es": "Botella",
+        "pos": "n"
+      },
+      {
+        "t": "面包 (miànbāo)",
+        "es": "Pan",
+        "pos": "n"
+      },
+      {
+        "t": "奶酪 (nǎilào)",
+        "es": "Queso",
+        "pos": "n"
+      },
+      {
+        "t": "黄油 (huángyóu)",
+        "es": "Mantequilla",
+        "pos": "n"
+      },
+      {
+        "t": "沙拉 (shālā)",
+        "es": "Ensalada",
+        "pos": "n"
+      },
+      {
+        "t": "蛋糕 (dàngāo)",
+        "es": "Pastel",
+        "pos": "n"
+      },
+      {
+        "t": "冰淇淋 (bīngqílín)",
+        "es": "Helado",
+        "pos": "n"
+      },
+      {
+        "t": "巧克力 (qiǎokèlì)",
+        "es": "Chocolate",
+        "pos": "n"
+      },
+      {
+        "t": "橙子 (chéngzi)",
+        "es": "Naranja",
+        "pos": "n"
+      },
+      {
+        "t": "葡萄 (pútáo)",
+        "es": "Uva",
+        "pos": "n"
+      },
+      {
+        "t": "西瓜 (xīguā)",
+        "es": "Sandía",
+        "pos": "n"
+      },
+      {
+        "t": "草莓 (cǎoméi)",
+        "es": "Fresa",
+        "pos": "n"
+      },
+      {
+        "t": "土豆 (tǔdòu)",
+        "es": "Papa",
+        "pos": "n"
+      },
+      {
+        "t": "西红柿 (xīhóngshì)",
+        "es": "Tomate",
+        "pos": "n"
+      },
+      {
+        "t": "洋葱 (yángcōng)",
+        "es": "Cebolla",
+        "pos": "n"
+      },
+      {
+        "t": "胡萝卜 (húluóbo)",
+        "es": "Zanahoria",
+        "pos": "n"
+      },
+      {
+        "t": "衬衣 (chènyī)",
+        "es": "Camisa",
+        "pos": "n"
+      },
+      {
+        "t": "外套 (wàitào)",
+        "es": "Abrigo",
+        "pos": "n"
+      },
+      {
+        "t": "裙子 (qúnzi)",
+        "es": "Falda",
+        "pos": "n"
+      },
+      {
+        "t": "帽子 (màozi)",
+        "es": "Sombrero",
+        "pos": "n"
+      },
+      {
+        "t": "袜子 (wàzi)",
+        "es": "Calcetines",
+        "pos": "n"
+      },
+      {
+        "t": "手套 (shǒutào)",
+        "es": "Guantes",
+        "pos": "n"
+      },
+      {
+        "t": "围巾 (wéijīn)",
+        "es": "Bufanda",
+        "pos": "n"
+      },
+      {
+        "t": "自行车 (zìxíngchē)",
+        "es": "Bicicleta",
+        "pos": "n"
+      },
+      {
+        "t": "船 (chuán)",
+        "es": "Barco",
+        "pos": "n"
+      },
+      {
+        "t": "地铁 (dìtiě)",
+        "es": "Metro",
+        "pos": "n"
+      },
+      {
+        "t": "桥 (qiáo)",
+        "es": "Puente",
+        "pos": "n"
+      },
+      {
+        "t": "图书馆 (túshūguǎn)",
+        "es": "Biblioteca",
+        "pos": "n"
+      },
+      {
+        "t": "博物馆 (bówùguǎn)",
+        "es": "Museo",
+        "pos": "n"
+      },
+      {
+        "t": "教堂 (jiàotáng)",
+        "es": "Iglesia",
+        "pos": "n"
+      },
+      {
+        "t": "海滩 (hǎitān)",
+        "es": "Playa",
+        "pos": "n"
+      },
+      {
+        "t": "森林 (sēnlín)",
+        "es": "Bosque",
+        "pos": "n"
+      },
+      {
+        "t": "世界 (shìjiè)",
+        "es": "Mundo",
+        "pos": "n"
+      },
+      {
+        "t": "国家 (guójiā)",
+        "es": "País",
+        "pos": "n"
+      },
+      {
+        "t": "语言 (yǔyán)",
+        "es": "Idioma",
+        "pos": "n"
+      },
+      {
+        "t": "文化 (wénhuà)",
+        "es": "Cultura",
+        "pos": "n"
+      },
+      {
+        "t": "新闻 (xīnwén)",
+        "es": "Noticias",
+        "pos": "n"
+      },
+      {
+        "t": "故事 (gùshi)",
+        "es": "Historia/Cuento",
+        "pos": "n"
+      },
+      {
+        "t": "节目 (jiémù)",
+        "es": "Programa",
+        "pos": "n"
+      },
+      {
+        "t": "价格 (jiàgé)",
+        "es": "Precio",
+        "pos": "n"
+      },
+      {
+        "t": "礼物 (lǐwù)",
+        "es": "Regalo",
+        "pos": "n"
+      },
+      {
+        "t": "号码 (hàomǎ)",
+        "es": "Número",
+        "pos": "n"
+      },
+      {
+        "t": "比如 (bǐrú)",
+        "es": "Por ejemplo",
+        "pos": "adv"
+      },
+      {
+        "t": "其实 (qíshí)",
+        "es": "De hecho",
+        "pos": "adv"
+      },
+      {
+        "t": "突然 (tūrán)",
+        "es": "De repente",
+        "pos": "adv"
+      },
+      {
+        "t": "大概 (dàgài)",
+        "es": "Aproximadamente",
+        "pos": "adv"
+      },
+      {
+        "t": "特别 (tèbié)",
+        "es": "Especialmente/Muy",
+        "pos": "adv"
+      },
+      {
+        "t": "完全 (wánquán)",
+        "es": "Completamente",
+        "pos": "adv"
+      },
+      {
+        "t": "比较 (bǐjiào)",
+        "es": "Bastante/Comparar",
+        "pos": "adv"
+      },
+      {
+        "t": "刚才 (gāngcái)",
+        "es": "Hace un momento",
+        "pos": "adv"
+      },
+      {
+        "t": "必须 (bìxū)",
+        "es": "Deber/Tener que",
+        "pos": "v"
+      },
+      {
+        "t": "愿意 (yuànyì)",
+        "es": "Estar dispuesto",
+        "pos": "v"
+      },
+      {
+        "t": "让 (ràng)",
+        "es": "Dejar/Permitir",
+        "pos": "v"
+      },
+      {
+        "t": "告诉 (gàosu)",
+        "es": "Decir/Contar",
+        "pos": "v"
+      },
+      {
+        "t": "参加 (cānjiā)",
+        "es": "Participar",
+        "pos": "v"
+      },
+      {
+        "t": "通过 (tōngguò)",
+        "es": "Pasar/A través de",
+        "pos": "v"
+      },
+      {
+        "t": "得到 (dédào)",
+        "es": "Obtener",
+        "pos": "v"
+      },
+      {
+        "t": "发现 (fāxiàn)",
+        "es": "Descubrir",
+        "pos": "v"
+      },
+      {
+        "t": "成为 (chéngwéi)",
+        "es": "Convertirse en",
+        "pos": "v"
+      },
+      {
+        "t": "保持 (bǎochí)",
+        "es": "Mantener",
+        "pos": "v"
+      },
+      {
+        "t": "提高 (tígāo)",
+        "es": "Mejorar",
+        "pos": "v"
+      },
+      {
+        "t": "注意 (zhùyì)",
+        "es": "Prestar atención",
+        "pos": "v"
+      },
+      {
+        "t": "感谢 (gǎnxiè)",
+        "es": "Agradecer",
+        "pos": "v"
+      },
+      {
+        "t": "我叫... (wǒ jiào...)",
+        "es": "Me llamo...",
+        "pos": "phr"
+      },
+      {
+        "t": "你好吗？(nǐ hǎo ma?)",
+        "es": "¿Cómo estás?",
+        "pos": "phr"
+      },
+      {
+        "t": "我很好 (wǒ hěn hǎo)",
+        "es": "Estoy bien",
+        "pos": "phr"
+      },
+      {
+        "t": "请再说一遍 (qǐng zài shuō yī biàn)",
+        "es": "Repite por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "可以帮我吗？(kěyǐ bāng wǒ ma?)",
+        "es": "¿Puedes ayudarme?",
+        "pos": "phr"
+      },
+      {
+        "t": "在哪里？(zài nǎlǐ?)",
+        "es": "¿Dónde está?",
+        "pos": "phr"
+      },
+      {
+        "t": "几点了？(jǐ diǎn le?)",
+        "es": "¿Qué hora es?",
+        "pos": "phr"
+      },
+      {
+        "t": "我要这个 (wǒ yào zhège)",
+        "es": "Quiero este",
+        "pos": "phr"
+      },
+      {
+        "t": "账单请 (zhàngdān qǐng)",
+        "es": "La cuenta por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "我迷路了 (wǒ mílù le)",
+        "es": "Estoy perdido",
+        "pos": "phr"
+      },
+      {
+        "t": "救命！(jiùmìng!)",
+        "es": "¡Ayuda!",
+        "pos": "phr"
+      },
+      {
+        "t": "当然可以 (dāngrán kěyǐ)",
+        "es": "Claro que sí",
+        "pos": "phr"
+      },
+      {
+        "t": "我同意 (wǒ tóngyì)",
+        "es": "Estoy de acuerdo",
+        "pos": "phr"
+      },
+      {
+        "t": "我不同意 (wǒ bù tóngyì)",
+        "es": "No estoy de acuerdo",
+        "pos": "phr"
+      },
+      {
+        "t": "也许吧 (yěxǔ ba)",
+        "es": "Tal vez",
+        "pos": "phr"
+      },
+      {
+        "t": "好主意 (hǎo zhǔyi)",
+        "es": "Buena idea",
+        "pos": "phr"
+      },
+      {
+        "t": "小心 (xiǎoxīn)",
+        "es": "Cuidado",
+        "pos": "phr"
+      },
+      {
+        "t": "慢点 (màn diǎn)",
+        "es": "Más despacio",
+        "pos": "phr"
+      },
+      {
+        "t": "快点 (kuài diǎn)",
+        "es": "Más rápido",
+        "pos": "phr"
+      },
+      {
+        "t": "真的吗？(zhēnde ma?)",
+        "es": "¿En serio?",
+        "pos": "phr"
+      },
+      {
+        "t": "太贵了 (tài guì le)",
+        "es": "Muy caro",
+        "pos": "phr"
+      },
+      {
+        "t": "我喜欢 (wǒ xǐhuan)",
+        "es": "Me gusta",
+        "pos": "phr"
+      },
+      {
+        "t": "我不喜欢 (wǒ bù xǐhuan)",
+        "es": "No me gusta",
+        "pos": "phr"
+      },
+      {
+        "t": "我想要 (wǒ xiǎng yào)",
+        "es": "Quiero",
+        "pos": "phr"
+      },
+      {
+        "t": "我需要 (wǒ xūyào)",
+        "es": "Necesito",
+        "pos": "phr"
+      },
+      {
+        "t": "我知道 (wǒ zhīdào)",
+        "es": "Lo sé",
+        "pos": "phr"
+      },
+      {
+        "t": "没时间 (méi shíjiān)",
+        "es": "No tengo tiempo",
+        "pos": "phr"
+      },
+      {
+        "t": "等一下 (děng yīxià)",
+        "es": "Espera un momento",
+        "pos": "phr"
+      },
+      {
+        "t": "走吧 (zǒu ba)",
+        "es": "Vamos",
+        "pos": "phr"
+      },
+      {
+        "t": "好吃 (hǎochī)",
+        "es": "Delicioso",
+        "pos": "adj"
+      },
+      {
+        "t": "难吃 (nánchī)",
+        "es": "Desagradable (comida)",
+        "pos": "adj"
+      },
+      {
+        "t": "渴 (kě)",
+        "es": "Sediento",
+        "pos": "adj"
+      },
+      {
+        "t": "饿 (è)",
+        "es": "Hambriento",
+        "pos": "adj"
+      },
+      {
+        "t": "满 (mǎn)",
+        "es": "Lleno",
+        "pos": "adj"
+      },
+      {
+        "t": "空 (kōng)",
+        "es": "Vacío",
+        "pos": "adj"
+      },
+      {
+        "t": "干 (gān)",
+        "es": "Seco",
+        "pos": "adj"
+      },
+      {
+        "t": "湿 (shī)",
+        "es": "Mojado",
+        "pos": "adj"
+      },
+      {
+        "t": "轻 (qīng)",
+        "es": "Ligero",
+        "pos": "adj"
+      },
+      {
+        "t": "重 (zhòng)",
+        "es": "Pesado",
+        "pos": "adj"
+      },
+      {
+        "t": "软 (ruǎn)",
+        "es": "Suave",
+        "pos": "adj"
+      },
+      {
+        "t": "硬 (yìng)",
+        "es": "Duro",
+        "pos": "adj"
+      },
+      {
+        "t": "年轻 (niánqīng)",
+        "es": "Joven",
+        "pos": "adj"
+      },
+      {
+        "t": "老 (lǎo)",
+        "es": "Viejo",
+        "pos": "adj"
+      },
+      {
+        "t": "健康 (jiànkāng)",
+        "es": "Saludable",
+        "pos": "adj"
+      },
+      {
+        "t": "生病 (shēngbìng)",
+        "es": "Enfermo",
+        "pos": "adj"
+      },
+      {
+        "t": "富 (fù)",
+        "es": "Rico",
+        "pos": "adj"
+      },
+      {
+        "t": "穷 (qióng)",
+        "es": "Pobre",
+        "pos": "adj"
+      },
+      {
+        "t": "聪明 (cōngming)",
+        "es": "Inteligente",
+        "pos": "adj"
+      },
+      {
+        "t": "笨 (bèn)",
+        "es": "Tonto",
+        "pos": "adj"
+      },
+      {
+        "t": "友好 (yǒuhǎo)",
+        "es": "Amable",
+        "pos": "adj"
+      },
+      {
+        "t": "热闹 (rènào)",
+        "es": "Animado",
+        "pos": "adj"
+      },
+      {
+        "t": "正确 (zhèngquè)",
+        "es": "Correcto",
+        "pos": "adj"
+      },
+      {
+        "t": "错误 (cuòwù)",
+        "es": "Incorrecto",
+        "pos": "adj"
+      },
+      {
+        "t": "有名 (yǒumíng)",
+        "es": "Famoso",
+        "pos": "adj"
+      },
+      {
+        "t": "准备好 (zhǔnbèi hǎo)",
+        "es": "Preparado",
+        "pos": "adj"
+      },
+      {
+        "t": "害怕 (hàipà)",
+        "es": "Asustado",
+        "pos": "adj"
+      },
+      {
+        "t": "生气 (shēngqì)",
+        "es": "Enojado",
+        "pos": "adj"
+      },
+      {
+        "t": "悲伤 (bēishāng)",
+        "es": "Triste",
+        "pos": "adj"
+      },
+      {
+        "t": "惊讶 (jīngyà)",
+        "es": "Sorprendido",
+        "pos": "adj"
+      },
+      {
+        "t": "秒 (miǎo)",
+        "es": "Segundo",
+        "pos": "n"
+      },
+      {
+        "t": "小时 (xiǎoshí)",
+        "es": "Hora",
+        "pos": "n"
+      },
+      {
+        "t": "早饭 (zǎofàn)",
+        "es": "Desayuno",
+        "pos": "n"
+      },
+      {
+        "t": "午饭 (wǔfàn)",
+        "es": "Almuerzo",
+        "pos": "n"
+      },
+      {
+        "t": "晚饭 (wǎnfàn)",
+        "es": "Cena",
+        "pos": "n"
+      },
+      {
+        "t": "左边 (zuǒbiān)",
+        "es": "Izquierda",
+        "pos": "n"
+      },
+      {
+        "t": "右边 (yòubiān)",
+        "es": "Derecha",
+        "pos": "n"
+      },
+      {
+        "t": "前面 (qiánmiàn)",
+        "es": "Delante",
+        "pos": "n"
+      },
+      {
+        "t": "后面 (hòumiàn)",
+        "es": "Detrás",
+        "pos": "n"
+      },
+      {
+        "t": "旁边 (pángbiān)",
+        "es": "Al lado",
+        "pos": "n"
+      },
+      {
+        "t": "对面 (duìmiàn)",
+        "es": "Enfrente",
+        "pos": "n"
+      },
+      {
+        "t": "火车站 (huǒchēzhàn)",
+        "es": "Estación de tren",
+        "pos": "n"
+      },
+      {
+        "t": "公共汽车站 (gōnggòng qìchē zhàn)",
+        "es": "Parada de bus",
+        "pos": "n"
+      },
+      {
+        "t": "电子邮件 (diànzǐ yóujiàn)",
+        "es": "Correo electrónico",
+        "pos": "n"
+      },
+      {
+        "t": "互联网 (hùliánwǎng)",
+        "es": "Internet",
+        "pos": "n"
+      },
+      {
+        "t": "信用卡 (xìnyòngkǎ)",
+        "es": "Tarjeta de crédito",
+        "pos": "n"
+      },
+      {
+        "t": "雨伞 (yǔsǎn)",
+        "es": "Paraguas",
+        "pos": "n"
+      },
+      {
+        "t": "太阳镜 (tàiyángjìng)",
+        "es": "Gafas de sol",
+        "pos": "n"
+      },
+      {
+        "t": "手表 (shǒubiǎo)",
+        "es": "Reloj de pulsera",
+        "pos": "n"
+      },
+      {
+        "t": "钱包 (qiánbāo)",
+        "es": "Billetera",
+        "pos": "n"
+      },
+      {
+        "t": "背包 (bēibāo)",
+        "es": "Mochila",
+        "pos": "n"
+      },
+      {
+        "t": "桌子 (zhuōzi)",
+        "es": "Mesa",
+        "pos": "n"
+      },
+      {
+        "t": "椅子 (yǐzi)",
+        "es": "Silla",
+        "pos": "n"
+      },
+      {
+        "t": "窗户 (chuānghu)",
+        "es": "Ventana",
+        "pos": "n"
+      },
+      {
+        "t": "房间 (fángjiān)",
+        "es": "Habitación",
+        "pos": "n"
+      },
+      {
+        "t": "床 (chuáng)",
+        "es": "Cama",
+        "pos": "n"
+      },
+      {
+        "t": "钥匙 (yàoshi)",
+        "es": "Llave",
+        "pos": "n"
+      },
+      {
+        "t": "包 (bāo)",
+        "es": "Bolsa",
+        "pos": "n"
+      },
+      {
+        "t": "伞 (sǎn)",
+        "es": "Paraguas",
+        "pos": "n"
+      },
+      {
+        "t": "表 (biǎo)",
+        "es": "Reloj",
+        "pos": "n"
+      },
+      {
+        "t": "眼镜 (yǎnjìng)",
+        "es": "Gafas",
+        "pos": "n"
+      },
+      {
+        "t": "报纸 (bàozhǐ)",
+        "es": "Periódico",
+        "pos": "n"
+      },
+      {
+        "t": "杂志 (zázhì)",
+        "es": "Revista",
+        "pos": "n"
+      },
+      {
+        "t": "地图 (dìtú)",
+        "es": "Mapa",
+        "pos": "n"
+      },
+      {
+        "t": "照片 (zhàopiàn)",
+        "es": "Foto",
+        "pos": "n"
+      },
+      {
+        "t": "公司 (gōngsī)",
+        "es": "Empresa",
+        "pos": "n"
+      },
+      {
+        "t": "办公室 (bàngōngshì)",
+        "es": "Oficina",
+        "pos": "n"
+      },
+      {
+        "t": "经理 (jīnglǐ)",
+        "es": "Gerente",
+        "pos": "n"
+      },
+      {
+        "t": "同事 (tóngshì)",
+        "es": "Colega",
+        "pos": "n"
+      },
+      {
+        "t": "市场 (shìchǎng)",
+        "es": "Mercado",
+        "pos": "n"
+      },
+      {
+        "t": "酒店 (jiǔdiàn)",
+        "es": "Hotel",
+        "pos": "n"
+      },
+      {
+        "t": "票 (piào)",
+        "es": "Boleto",
+        "pos": "n"
+      },
+      {
+        "t": "护照 (hùzhào)",
+        "es": "Pasaporte",
+        "pos": "n"
+      },
+      {
+        "t": "行李 (xíngli)",
+        "es": "Equipaje",
+        "pos": "n"
+      },
+      {
+        "t": "春天 (chūntiān)",
+        "es": "Primavera",
+        "pos": "n"
+      },
+      {
+        "t": "夏天 (xiàtiān)",
+        "es": "Verano",
+        "pos": "n"
+      },
+      {
+        "t": "秋天 (qiūtiān)",
+        "es": "Otoño",
+        "pos": "n"
+      },
+      {
+        "t": "冬天 (dōngtiān)",
+        "es": "Invierno",
+        "pos": "n"
+      },
+      {
+        "t": "东 (dōng)",
+        "es": "Este",
+        "pos": "n"
+      },
+      {
+        "t": "西 (xī)",
+        "es": "Oeste",
+        "pos": "n"
+      },
+      {
+        "t": "南 (nán)",
+        "es": "Sur",
+        "pos": "n"
+      },
+      {
+        "t": "北 (běi)",
+        "es": "Norte",
+        "pos": "n"
+      },
+      {
+        "t": "左 (zuǒ)",
+        "es": "Izquierda",
+        "pos": "n"
+      },
+      {
+        "t": "右 (yòu)",
+        "es": "Derecha",
+        "pos": "n"
+      },
+      {
+        "t": "中间 (zhōngjiān)",
+        "es": "Medio",
+        "pos": "n"
+      },
+      {
+        "t": "颜色 (yánsè)",
+        "es": "Color",
+        "pos": "n"
+      },
+      {
+        "t": "声音 (shēngyīn)",
+        "es": "Sonido",
+        "pos": "n"
+      },
+      {
+        "t": "味道 (wèidào)",
+        "es": "Sabor",
+        "pos": "n"
+      },
+      {
+        "t": "身体 (shēntǐ)",
+        "es": "Cuerpo",
+        "pos": "n"
+      },
+      {
+        "t": "脸 (liǎn)",
+        "es": "Cara",
+        "pos": "n"
+      },
+      {
+        "t": "牙齿 (yáchǐ)",
+        "es": "Diente",
+        "pos": "n"
+      },
+      {
+        "t": "腿 (tuǐ)",
+        "es": "Pierna",
+        "pos": "n"
+      },
+      {
+        "t": "背 (bèi)",
+        "es": "Espalda",
+        "pos": "n"
+      },
+      {
+        "t": "牛肉 (niúròu)",
+        "es": "Carne de res",
+        "pos": "n"
+      },
+      {
+        "t": "猪肉 (zhūròu)",
+        "es": "Cerdo",
+        "pos": "n"
+      },
+      {
+        "t": "蔬菜 (shūcài)",
+        "es": "Verdura",
+        "pos": "n"
+      },
+      {
+        "t": "盐 (yán)",
+        "es": "Sal",
+        "pos": "n"
+      },
+      {
+        "t": "做饭 (zuòfàn)",
+        "es": "Cocinar",
+        "pos": "v"
+      },
+      {
+        "t": "打扫 (dǎsǎo)",
+        "es": "Limpiar",
+        "pos": "v"
+      },
+      {
+        "t": "买东西 (mǎi dōngxi)",
+        "es": "Comprar cosas",
+        "pos": "v"
+      },
+      {
+        "t": "上班 (shàngbān)",
+        "es": "Ir a trabajar",
+        "pos": "v"
+      },
+      {
+        "t": "下班 (xiàbān)",
+        "es": "Salir del trabajo",
+        "pos": "v"
+      },
+      {
+        "t": "休息 (xiūxi)",
+        "es": "Descansar",
+        "pos": "v"
+      },
+      {
+        "t": "运动 (yùndòng)",
+        "es": "Hacer ejercicio",
+        "pos": "v"
+      },
+      {
+        "t": "旅行 (lǚxíng)",
+        "es": "Viajar",
+        "pos": "v"
+      },
+      {
+        "t": "参观 (cānguān)",
+        "es": "Visitar",
+        "pos": "v"
+      },
+      {
+        "t": "介绍 (jièshào)",
+        "es": "Presentar",
+        "pos": "v"
+      },
+      {
+        "t": "解释 (jiěshì)",
+        "es": "Explicar",
+        "pos": "v"
+      },
+      {
+        "t": "同意 (tóngyì)",
+        "es": "Estar de acuerdo",
+        "pos": "v"
+      },
+      {
+        "t": "决定 (juédìng)",
+        "es": "Decidir",
+        "pos": "v"
+      },
+      {
+        "t": "选择 (xuǎnzé)",
+        "es": "Elegir",
+        "pos": "v"
+      },
+      {
+        "t": "准备 (zhǔnbèi)",
+        "es": "Preparar",
+        "pos": "v"
+      },
+      {
+        "t": "笑 (xiào)",
+        "es": "Reír",
+        "pos": "v"
+      },
+      {
+        "t": "哭 (kū)",
+        "es": "Llorar",
+        "pos": "v"
+      },
+      {
+        "t": "安静 (ānjìng)",
+        "es": "Tranquilo",
+        "pos": "adj"
+      },
+      {
+        "t": "吵 (chǎo)",
+        "es": "Ruidoso",
+        "pos": "adj"
+      },
+      {
+        "t": "干净 (gānjìng)",
+        "es": "Limpio",
+        "pos": "adj"
+      },
+      {
+        "t": "脏 (zāng)",
+        "es": "Sucio",
+        "pos": "adj"
+      },
+      {
+        "t": "安全 (ānquán)",
+        "es": "Seguro",
+        "pos": "adj"
+      },
+      {
+        "t": "危险 (wēixiǎn)",
+        "es": "Peligroso",
+        "pos": "adj"
+      },
+      {
+        "t": "方便 (fāngbiàn)",
+        "es": "Conveniente",
+        "pos": "adj"
+      },
+      {
+        "t": "一样 (yīyàng)",
+        "es": "Igual",
+        "pos": "adj"
+      },
+      {
+        "t": "不同 (bùtóng)",
+        "es": "Diferente",
+        "pos": "adj"
+      },
+      {
+        "t": "每 (měi)",
+        "es": "Cada",
+        "pos": "adj"
+      },
+      {
+        "t": "一些 (yīxiē)",
+        "es": "Algunos",
+        "pos": "adj"
+      },
+      {
+        "t": "很多 (hěnduō)",
+        "es": "Muchos",
+        "pos": "adj"
+      },
+      {
+        "t": "几乎 (jīhū)",
+        "es": "Casi",
+        "pos": "adv"
+      },
+      {
+        "t": "马上 (mǎshàng)",
+        "es": "Inmediatamente",
+        "pos": "adv"
+      },
+      {
+        "t": "经常 (jīngcháng)",
+        "es": "Frecuentemente",
+        "pos": "adv"
+      },
+      {
+        "t": "从不 (cóngbù)",
+        "es": "Nunca",
+        "pos": "adv"
+      },
+      {
+        "t": "一直 (yīzhí)",
+        "es": "Siempre/Continuamente",
+        "pos": "adv"
+      },
+      {
+        "t": "如果 (rúguǒ)",
+        "es": "Si",
+        "pos": "adv"
+      },
+      {
+        "t": "虽然 (suīrán)",
+        "es": "Aunque",
+        "pos": "adv"
+      },
+      {
+        "t": "或者 (huòzhě)",
+        "es": "O",
+        "pos": "adv"
+      },
+      {
+        "t": "好的 (hǎo de)",
+        "es": "De acuerdo",
+        "pos": "phr"
+      },
+      {
+        "t": "没事 (méi shì)",
+        "es": "No pasa nada",
+        "pos": "phr"
+      },
+      {
+        "t": "慢慢来 (màn màn lái)",
+        "es": "Despacio",
+        "pos": "phr"
+      },
+      {
+        "t": "请坐 (qǐng zuò)",
+        "es": "Siéntate por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "请进 (qǐng jìn)",
+        "es": "Pasa por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "祝你好运 (zhù nǐ hǎoyùn)",
+        "es": "Buena suerte",
+        "pos": "phr"
+      },
+      {
+        "t": "生日快乐 (shēngrì kuàilè)",
+        "es": "Feliz cumpleaños",
+        "pos": "phr"
+      },
+      {
+        "t": "新年快乐 (xīnnián kuàilè)",
+        "es": "Feliz año nuevo",
+        "pos": "phr"
+      },
+      {
+        "t": "一路平安 (yīlù píng'ān)",
+        "es": "Buen viaje",
+        "pos": "phr"
+      },
+      {
+        "t": "我明白了 (wǒ míngbai le)",
+        "es": "Entiendo",
+        "pos": "phr"
+      }
+    ]
+  }
 ]

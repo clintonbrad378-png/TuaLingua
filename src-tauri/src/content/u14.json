@@ -1,0 +1,1522 @@
+{
+  "id": "u14",
+  "title": "Travel",
+  "emoji": "✈️",
+  "color": "#00C2A8",
+  "lessons": [
+    {
+      "id": "u14l1",
+      "title": "Transport",
+      "goal": "Getting around",
+      "tip": [
+        "'Where is...?' asks for location.",
+        "'A ticket to...' for buying tickets."
+      ],
+      "phrases": [
+        {
+          "es": "Where is the station?",
+          "t": "Where is the station?"
+        },
+        {
+          "es": "A ticket to London",
+          "t": "A ticket to London"
+        },
+        {
+          "es": "The bus is late",
+          "t": "The bus is late"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «where is the station?»?",
+          "options": [
+            "Where is the station?",
+            "A ticket to London",
+            "The bus is late",
+            "Station"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Where is the station?",
+            "t": "Where is the station?"
+          }
+        },
+        {
+          "id": "u14l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "A ticket to London",
+          "options": [
+            "A ticket to London",
+            "The bus is late",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A ticket to London",
+            "t": "A ticket to London"
+          }
+        },
+        {
+          "id": "u14l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "The ___ is late",
+          "options": [
+            "bus",
+            "Station",
+            "Ticket"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "The bus is late",
+            "t": "The bus is late"
+          }
+        },
+        {
+          "id": "u14l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Where is the station?»",
+          "solution": "Where is the station?",
+          "distractors": [
+            "Bus",
+            "Train"
+          ],
+          "pair": {
+            "es": "Where is the station?",
+            "t": "Where is the station?"
+          }
+        },
+        {
+          "id": "u14l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «station»",
+          "solution": "Station",
+          "accept": [
+            "Station",
+            "station"
+          ],
+          "pair": {
+            "es": "Station",
+            "t": "Station"
+          }
+        },
+        {
+          "id": "u14l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Station",
+              "t": "Station"
+            },
+            {
+              "es": "Ticket",
+              "t": "Ticket"
+            },
+            {
+              "es": "Bus",
+              "t": "Bus"
+            }
+          ]
+        },
+        {
+          "id": "u14l1e7",
+          "type": "choice",
+          "prompt": "«Train» se traduce como...",
+          "options": [
+            "Train",
+            "Station",
+            "Ticket",
+            "Bus"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Train",
+            "t": "Train"
+          }
+        },
+        {
+          "id": "u14l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Where is the station?",
+          "options": [
+            "Where is the station?",
+            "A ticket to London",
+            "The bus is late"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Where is the station?",
+            "t": "Where is the station?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l2",
+      "title": "Hotel",
+      "goal": "At the hotel",
+      "tip": [
+        "'I have a reservation'.",
+        "Ask with 'Is there...?'"
+      ],
+      "phrases": [
+        {
+          "es": "I have a reservation",
+          "t": "I have a reservation"
+        },
+        {
+          "es": "The key, please",
+          "t": "The key, please"
+        },
+        {
+          "es": "Is there Wi-Fi?",
+          "t": "Is there Wi-Fi?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «i have a reservation»?",
+          "options": [
+            "I have a reservation",
+            "The key, please",
+            "Is there Wi-Fi?",
+            "Room"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "I have a reservation",
+            "t": "I have a reservation"
+          }
+        },
+        {
+          "id": "u14l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The key, please",
+          "options": [
+            "The key, please",
+            "Is there Wi-Fi?",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "The key, please",
+            "t": "The key, please"
+          }
+        },
+        {
+          "id": "u14l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Is ___ Wi-Fi?",
+          "options": [
+            "there",
+            "Room",
+            "Key"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Is there Wi-Fi?",
+            "t": "Is there Wi-Fi?"
+          }
+        },
+        {
+          "id": "u14l2e4",
+          "type": "build",
+          "prompt": "Traduce: «I have a reservation»",
+          "solution": "I have a reservation",
+          "distractors": [
+            "Reservation",
+            "Reception"
+          ],
+          "pair": {
+            "es": "I have a reservation",
+            "t": "I have a reservation"
+          }
+        },
+        {
+          "id": "u14l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «room»",
+          "solution": "Room",
+          "accept": [
+            "Room",
+            "room"
+          ],
+          "pair": {
+            "es": "Room",
+            "t": "Room"
+          }
+        },
+        {
+          "id": "u14l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Room",
+              "t": "Room"
+            },
+            {
+              "es": "Key",
+              "t": "Key"
+            },
+            {
+              "es": "Reservation",
+              "t": "Reservation"
+            }
+          ]
+        },
+        {
+          "id": "u14l2e7",
+          "type": "choice",
+          "prompt": "«Reception» se traduce como...",
+          "options": [
+            "Reception",
+            "Room",
+            "Key",
+            "Reservation"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Reception",
+            "t": "Reception"
+          }
+        },
+        {
+          "id": "u14l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "I have a reservation",
+          "options": [
+            "I have a reservation",
+            "The key, please",
+            "Is there Wi-Fi?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "I have a reservation",
+            "t": "I have a reservation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l3",
+      "title": "Directions",
+      "goal": "Ask for directions",
+      "tip": [
+        "Turn left/right.",
+        "Go straight ahead."
+      ],
+      "phrases": [
+        {
+          "es": "Turn left",
+          "t": "Turn left"
+        },
+        {
+          "es": "Go straight ahead",
+          "t": "Go straight ahead"
+        },
+        {
+          "es": "It's near here",
+          "t": "It's near here"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «turn left»?",
+          "options": [
+            "Turn left",
+            "Go straight ahead",
+            "It's near here",
+            "Left"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Turn left",
+            "t": "Turn left"
+          }
+        },
+        {
+          "id": "u14l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Go straight ahead",
+          "options": [
+            "Go straight ahead",
+            "It's near here",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Go straight ahead",
+            "t": "Go straight ahead"
+          }
+        },
+        {
+          "id": "u14l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "It's ___ here",
+          "options": [
+            "near",
+            "Left",
+            "Right"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "It's near here",
+            "t": "It's near here"
+          }
+        },
+        {
+          "id": "u14l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Turn left»",
+          "solution": "Turn left",
+          "distractors": [
+            "Straight",
+            "Near"
+          ],
+          "pair": {
+            "es": "Turn left",
+            "t": "Turn left"
+          }
+        },
+        {
+          "id": "u14l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «left»",
+          "solution": "Left",
+          "accept": [
+            "Left",
+            "left"
+          ],
+          "pair": {
+            "es": "Left",
+            "t": "Left"
+          }
+        },
+        {
+          "id": "u14l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Left",
+              "t": "Left"
+            },
+            {
+              "es": "Right",
+              "t": "Right"
+            },
+            {
+              "es": "Straight",
+              "t": "Straight"
+            }
+          ]
+        },
+        {
+          "id": "u14l3e7",
+          "type": "choice",
+          "prompt": "«Near» se traduce como...",
+          "options": [
+            "Near",
+            "Left",
+            "Right",
+            "Straight"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Near",
+            "t": "Near"
+          }
+        },
+        {
+          "id": "u14l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Turn left",
+          "options": [
+            "Turn left",
+            "Go straight ahead",
+            "It's near here"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Turn left",
+            "t": "Turn left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l4",
+      "title": "Problems",
+      "goal": "Travel problems",
+      "tip": [
+        "'I lost...' for lost items.",
+        "'I need help' for emergencies."
+      ],
+      "phrases": [
+        {
+          "es": "I lost my passport",
+          "t": "I lost my passport"
+        },
+        {
+          "es": "I need help",
+          "t": "I need help"
+        },
+        {
+          "es": "Where is the embassy?",
+          "t": "Where is the embassy?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «i lost my passport»?",
+          "options": [
+            "I lost my passport",
+            "I need help",
+            "Where is the embassy?",
+            "Passport"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "I lost my passport",
+            "t": "I lost my passport"
+          }
+        },
+        {
+          "id": "u14l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "I need help",
+          "options": [
+            "I need help",
+            "Where is the embassy?",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "I need help",
+            "t": "I need help"
+          }
+        },
+        {
+          "id": "u14l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Where ___ the embassy?",
+          "options": [
+            "is",
+            "Passport",
+            "Help"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Where is the embassy?",
+            "t": "Where is the embassy?"
+          }
+        },
+        {
+          "id": "u14l4e4",
+          "type": "build",
+          "prompt": "Traduce: «I lost my passport»",
+          "solution": "I lost my passport",
+          "distractors": [
+            "Embassy",
+            "Police"
+          ],
+          "pair": {
+            "es": "I lost my passport",
+            "t": "I lost my passport"
+          }
+        },
+        {
+          "id": "u14l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «passport»",
+          "solution": "Passport",
+          "accept": [
+            "Passport",
+            "passport"
+          ],
+          "pair": {
+            "es": "Passport",
+            "t": "Passport"
+          }
+        },
+        {
+          "id": "u14l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Passport",
+              "t": "Passport"
+            },
+            {
+              "es": "Help",
+              "t": "Help"
+            },
+            {
+              "es": "Embassy",
+              "t": "Embassy"
+            }
+          ]
+        },
+        {
+          "id": "u14l4e7",
+          "type": "choice",
+          "prompt": "«Police» se traduce como...",
+          "options": [
+            "Police",
+            "Passport",
+            "Help",
+            "Embassy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Police",
+            "t": "Police"
+          }
+        },
+        {
+          "id": "u14l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "I lost my passport",
+          "options": [
+            "I lost my passport",
+            "I need help",
+            "Where is the embassy?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "I lost my passport",
+            "t": "I lost my passport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "El amigo",
+          "t": "The friend"
+        },
+        {
+          "es": "Empezar",
+          "t": "To start"
+        },
+        {
+          "es": "La lengua",
+          "t": "The tongue"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El amigo»?",
+          "options": [
+            "the friend",
+            "to start",
+            "the tongue",
+            "I do not understand"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El amigo",
+            "t": "The friend"
+          }
+        },
+        {
+          "id": "u14l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "To start",
+          "options": [
+            "Empezar",
+            "La lengua",
+            "No lo entiendo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Empezar",
+            "t": "To start"
+          }
+        },
+        {
+          "id": "u14l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ tongue",
+          "options": [
+            "the",
+            "I",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La lengua",
+            "t": "The tongue"
+          }
+        },
+        {
+          "id": "u14l5e4",
+          "type": "build",
+          "prompt": "Traduce: «No lo entiendo»",
+          "solution": "I do not understand",
+          "distractors": [
+            "the",
+            "low"
+          ],
+          "pair": {
+            "es": "No lo entiendo",
+            "t": "I do not understand"
+          }
+        },
+        {
+          "id": "u14l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el sol»",
+          "solution": "The sun",
+          "accept": [
+            "the sun",
+            "the sun"
+          ],
+          "pair": {
+            "es": "El sol",
+            "t": "The sun"
+          }
+        },
+        {
+          "id": "u14l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Bajo",
+              "t": "Low"
+            },
+            {
+              "es": "El gol",
+              "t": "The goal"
+            },
+            {
+              "es": "Todo recto",
+              "t": "Straight"
+            }
+          ]
+        },
+        {
+          "id": "u14l5e7",
+          "type": "choice",
+          "prompt": "«Mantener» se traduce como...",
+          "options": [
+            "keep",
+            "the homework",
+            "the sofa",
+            "swimming"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mantener",
+            "t": "Keep"
+          }
+        },
+        {
+          "id": "u14l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The homework",
+          "options": [
+            "Los deberes",
+            "El sofá",
+            "La natación"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los deberes",
+            "t": "The homework"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "La clase",
+          "t": "The class"
+        },
+        {
+          "es": "El elefante",
+          "t": "The elephant"
+        },
+        {
+          "es": "Julio",
+          "t": "July"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La clase»?",
+          "options": [
+            "the class",
+            "the elephant",
+            "July",
+            "other"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La clase",
+            "t": "The class"
+          }
+        },
+        {
+          "id": "u14l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The elephant",
+          "options": [
+            "El elefante",
+            "Julio",
+            "Otro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El elefante",
+            "t": "The elephant"
+          }
+        },
+        {
+          "id": "u14l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "July",
+            "other",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Julio",
+            "t": "July"
+          }
+        },
+        {
+          "id": "u14l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Otro»",
+          "solution": "Other",
+          "distractors": [
+            "the",
+            "say"
+          ],
+          "pair": {
+            "es": "Otro",
+            "t": "Other"
+          }
+        },
+        {
+          "id": "u14l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el corazón»",
+          "solution": "The heart",
+          "accept": [
+            "the heart",
+            "the heart"
+          ],
+          "pair": {
+            "es": "El corazón",
+            "t": "The heart"
+          }
+        },
+        {
+          "id": "u14l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Decir",
+              "t": "Say"
+            },
+            {
+              "es": "Por qué",
+              "t": "Why"
+            },
+            {
+              "es": "El bolígrafo",
+              "t": "The pen"
+            }
+          ]
+        },
+        {
+          "id": "u14l6e7",
+          "type": "choice",
+          "prompt": "«Vender» se traduce como...",
+          "options": [
+            "to sell",
+            "the holiday",
+            "consider",
+            "to go"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vender",
+            "t": "To sell"
+          }
+        },
+        {
+          "id": "u14l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The holiday",
+          "options": [
+            "Las vacaciones",
+            "Considerar",
+            "Ir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las vacaciones",
+            "t": "The holiday"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "El árbol",
+          "t": "The tree"
+        },
+        {
+          "es": "Nervioso",
+          "t": "Nervous"
+        },
+        {
+          "es": "Mitad",
+          "t": "Half"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El árbol»?",
+          "options": [
+            "the tree",
+            "nervous",
+            "half",
+            "to write"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El árbol",
+            "t": "The tree"
+          }
+        },
+        {
+          "id": "u14l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Nervous",
+          "options": [
+            "Nervioso",
+            "Mitad",
+            "Escribir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nervioso",
+            "t": "Nervous"
+          }
+        },
+        {
+          "id": "u14l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "half",
+            "to",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mitad",
+            "t": "Half"
+          }
+        },
+        {
+          "id": "u14l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Escribir»",
+          "solution": "To write",
+          "distractors": [
+            "the",
+            "thing"
+          ],
+          "pair": {
+            "es": "Escribir",
+            "t": "To write"
+          }
+        },
+        {
+          "id": "u14l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la batidora»",
+          "solution": "The blender",
+          "accept": [
+            "the blender",
+            "the blender"
+          ],
+          "pair": {
+            "es": "La batidora",
+            "t": "The blender"
+          }
+        },
+        {
+          "id": "u14l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Cosa",
+              "t": "Thing"
+            },
+            {
+              "es": "No",
+              "t": "Not"
+            },
+            {
+              "es": "Las noticias",
+              "t": "The news"
+            }
+          ]
+        },
+        {
+          "id": "u14l7e7",
+          "type": "choice",
+          "prompt": "«Así que» se traduce como...",
+          "options": [
+            "so",
+            "few",
+            "case",
+            "minute"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Así que",
+            "t": "So"
+          }
+        },
+        {
+          "id": "u14l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Few",
+          "options": [
+            "Pocos",
+            "Caso",
+            "Minuto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pocos",
+            "t": "Few"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "Dentro/en",
+          "t": "In"
+        },
+        {
+          "es": "La sal",
+          "t": "The salt"
+        },
+        {
+          "es": "Los vaqueros",
+          "t": "The jeans"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Dentro/en»?",
+          "options": [
+            "in",
+            "the salt",
+            "the jeans",
+            "ready"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dentro/en",
+            "t": "In"
+          }
+        },
+        {
+          "id": "u14l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The salt",
+          "options": [
+            "La sal",
+            "Los vaqueros",
+            "Listo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La sal",
+            "t": "The salt"
+          }
+        },
+        {
+          "id": "u14l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ jeans",
+          "options": [
+            "the",
+            "ready",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los vaqueros",
+            "t": "The jeans"
+          }
+        },
+        {
+          "id": "u14l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Listo»",
+          "solution": "Ready",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Listo",
+            "t": "Ready"
+          }
+        },
+        {
+          "id": "u14l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la tienda»",
+          "solution": "The shop",
+          "accept": [
+            "the shop",
+            "the shop"
+          ],
+          "pair": {
+            "es": "La tienda",
+            "t": "The shop"
+          }
+        },
+        {
+          "id": "u14l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El café",
+              "t": "The coffee"
+            },
+            {
+              "es": "La policía",
+              "t": "The police"
+            },
+            {
+              "es": "Ofrecer",
+              "t": "Offer"
+            }
+          ]
+        },
+        {
+          "id": "u14l8e7",
+          "type": "choice",
+          "prompt": "«Gran/genial» se traduce como...",
+          "options": [
+            "great",
+            "to know",
+            "black",
+            "to fry"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gran/genial",
+            "t": "Great"
+          }
+        },
+        {
+          "id": "u14l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To know",
+          "options": [
+            "Saber",
+            "Negro",
+            "Freír"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Saber",
+            "t": "To know"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "Usar",
+          "t": "Use"
+        },
+        {
+          "es": "Feo",
+          "t": "Ugly"
+        },
+        {
+          "es": "Ojo",
+          "t": "Eye"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Usar»?",
+          "options": [
+            "use",
+            "ugly",
+            "eye",
+            "word"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Usar",
+            "t": "Use"
+          }
+        },
+        {
+          "id": "u14l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ugly",
+          "options": [
+            "Feo",
+            "Ojo",
+            "Palabra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Feo",
+            "t": "Ugly"
+          }
+        },
+        {
+          "id": "u14l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "eye",
+            "word",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ojo",
+            "t": "Eye"
+          }
+        },
+        {
+          "id": "u14l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Palabra»",
+          "solution": "Word",
+          "distractors": [
+            "the",
+            "to"
+          ],
+          "pair": {
+            "es": "Palabra",
+            "t": "Word"
+          }
+        },
+        {
+          "id": "u14l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la chica»",
+          "solution": "The girl",
+          "accept": [
+            "the girl",
+            "the girl"
+          ],
+          "pair": {
+            "es": "La chica",
+            "t": "The girl"
+          }
+        },
+        {
+          "id": "u14l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Conducir",
+              "t": "To drive"
+            },
+            {
+              "es": "No",
+              "t": "Nope"
+            },
+            {
+              "es": "La conversación",
+              "t": "The conversation"
+            }
+          ]
+        },
+        {
+          "id": "u14l9e7",
+          "type": "choice",
+          "prompt": "«El diente» se traduce como...",
+          "options": [
+            "the tooth",
+            "thin",
+            "try",
+            "the belt"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El diente",
+            "t": "The tooth"
+          }
+        },
+        {
+          "id": "u14l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Thin",
+          "options": [
+            "Delgado",
+            "Intentar",
+            "El cinturón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Delgado",
+            "t": "Thin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u14l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Votar",
+          "t": "To vote"
+        },
+        {
+          "es": "El ruido",
+          "t": "The noise"
+        },
+        {
+          "es": "El ciudadano",
+          "t": "The citizen"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u14l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Votar»?",
+          "options": [
+            "to vote",
+            "the noise",
+            "the citizen",
+            "start"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Votar",
+            "t": "To vote"
+          }
+        },
+        {
+          "id": "u14l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The noise",
+          "options": [
+            "El ruido",
+            "El ciudadano",
+            "Comenzar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ruido",
+            "t": "The noise"
+          }
+        },
+        {
+          "id": "u14l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ citizen",
+          "options": [
+            "the",
+            "start",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ciudadano",
+            "t": "The citizen"
+          }
+        },
+        {
+          "id": "u14l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Comenzar»",
+          "solution": "Start",
+          "distractors": [
+            "the",
+            "my"
+          ],
+          "pair": {
+            "es": "Comenzar",
+            "t": "Start"
+          }
+        },
+        {
+          "id": "u14l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el jugador»",
+          "solution": "The player",
+          "accept": [
+            "the player",
+            "the player"
+          ],
+          "pair": {
+            "es": "El jugador",
+            "t": "The player"
+          }
+        },
+        {
+          "id": "u14l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mi",
+              "t": "My"
+            },
+            {
+              "es": "Quedarse",
+              "t": "Stay"
+            },
+            {
+              "es": "Pasar",
+              "t": "Pass"
+            }
+          ]
+        },
+        {
+          "id": "u14l10e7",
+          "type": "choice",
+          "prompt": "«Domingo» se traduce como...",
+          "options": [
+            "Sunday",
+            "cold",
+            "the ingredient",
+            "idea"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Domingo",
+            "t": "Sunday"
+          }
+        },
+        {
+          "id": "u14l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Cold",
+          "options": [
+            "Frío",
+            "El ingrediente",
+            "Idea"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Frío",
+            "t": "Cold"
+          }
+        }
+      ]
+    }
+  ]
+}

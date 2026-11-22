@@ -5687,5 +5687,1452 @@
         "pos": "phr"
       }
     ]
+  },
+  {
+    "id": "en-common",
+    "title": "Most used words",
+    "emoji": "⭐",
+    "words": [
+      {
+        "t": "I",
+        "es": "Yo",
+        "pos": "n"
+      },
+      {
+        "t": "you",
+        "es": "tú/ustedes",
+        "pos": "n"
+      },
+      {
+        "t": "he",
+        "es": "él",
+        "pos": "n"
+      },
+      {
+        "t": "she",
+        "es": "ella",
+        "pos": "n"
+      },
+      {
+        "t": "it",
+        "es": "eso/ello",
+        "pos": "n"
+      },
+      {
+        "t": "we",
+        "es": "nosotros",
+        "pos": "n"
+      },
+      {
+        "t": "they",
+        "es": "ellos",
+        "pos": "n"
+      },
+      {
+        "t": "me",
+        "es": "mí",
+        "pos": "n"
+      },
+      {
+        "t": "him",
+        "es": "él (obj)",
+        "pos": "n"
+      },
+      {
+        "t": "her",
+        "es": "ella (obj)",
+        "pos": "n"
+      },
+      {
+        "t": "us",
+        "es": "nosotros (obj)",
+        "pos": "n"
+      },
+      {
+        "t": "them",
+        "es": "ellos (obj)",
+        "pos": "n"
+      },
+      {
+        "t": "my",
+        "es": "mi",
+        "pos": "adj"
+      },
+      {
+        "t": "your",
+        "es": "tu",
+        "pos": "adj"
+      },
+      {
+        "t": "his",
+        "es": "su (de él)",
+        "pos": "adj"
+      },
+      {
+        "t": "their",
+        "es": "su (de ellos)",
+        "pos": "adj"
+      },
+      {
+        "t": "our",
+        "es": "nuestro",
+        "pos": "adj"
+      },
+      {
+        "t": "this",
+        "es": "esto",
+        "pos": "adj"
+      },
+      {
+        "t": "that",
+        "es": "eso",
+        "pos": "adj"
+      },
+      {
+        "t": "these",
+        "es": "estos",
+        "pos": "adj"
+      },
+      {
+        "t": "those",
+        "es": "esos",
+        "pos": "adj"
+      },
+      {
+        "t": "what",
+        "es": "qué",
+        "pos": "adv"
+      },
+      {
+        "t": "who",
+        "es": "quién",
+        "pos": "adv"
+      },
+      {
+        "t": "where",
+        "es": "dónde",
+        "pos": "adv"
+      },
+      {
+        "t": "when",
+        "es": "cuándo",
+        "pos": "adv"
+      },
+      {
+        "t": "why",
+        "es": "por qué",
+        "pos": "adv"
+      },
+      {
+        "t": "how",
+        "es": "cómo",
+        "pos": "adv"
+      },
+      {
+        "t": "not",
+        "es": "no",
+        "pos": "adv"
+      },
+      {
+        "t": "all",
+        "es": "todo",
+        "pos": "adj"
+      },
+      {
+        "t": "some",
+        "es": "algún/algunos",
+        "pos": "adj"
+      },
+      {
+        "t": "no",
+        "es": "ningún",
+        "pos": "adj"
+      },
+      {
+        "t": "more",
+        "es": "más",
+        "pos": "adv"
+      },
+      {
+        "t": "most",
+        "es": "la mayoría",
+        "pos": "adj"
+      },
+      {
+        "t": "also",
+        "es": "también",
+        "pos": "adv"
+      },
+      {
+        "t": "just",
+        "es": "solo/justo",
+        "pos": "adv"
+      },
+      {
+        "t": "then",
+        "es": "entonces",
+        "pos": "adv"
+      },
+      {
+        "t": "here",
+        "es": "aquí",
+        "pos": "adv"
+      },
+      {
+        "t": "there",
+        "es": "allí",
+        "pos": "adv"
+      },
+      {
+        "t": "up",
+        "es": "arriba",
+        "pos": "adv"
+      },
+      {
+        "t": "down",
+        "es": "abajo",
+        "pos": "adv"
+      },
+      {
+        "t": "out",
+        "es": "afuera",
+        "pos": "adv"
+      },
+      {
+        "t": "in",
+        "es": "dentro/en",
+        "pos": "adv"
+      },
+      {
+        "t": "on",
+        "es": "en/sobre",
+        "pos": "adv"
+      },
+      {
+        "t": "off",
+        "es": "apagado/fuera",
+        "pos": "adv"
+      },
+      {
+        "t": "with",
+        "es": "con",
+        "pos": "adv"
+      },
+      {
+        "t": "without",
+        "es": "sin",
+        "pos": "adv"
+      },
+      {
+        "t": "for",
+        "es": "para/por",
+        "pos": "adv"
+      },
+      {
+        "t": "from",
+        "es": "desde/de",
+        "pos": "adv"
+      },
+      {
+        "t": "to",
+        "es": "a/para",
+        "pos": "adv"
+      },
+      {
+        "t": "about",
+        "es": "sobre/acerca de",
+        "pos": "adv"
+      },
+      {
+        "t": "as",
+        "es": "como",
+        "pos": "adv"
+      },
+      {
+        "t": "at",
+        "es": "en",
+        "pos": "adv"
+      },
+      {
+        "t": "by",
+        "es": "por/junto a",
+        "pos": "adv"
+      },
+      {
+        "t": "into",
+        "es": "dentro de",
+        "pos": "adv"
+      },
+      {
+        "t": "over",
+        "es": "sobre/encima",
+        "pos": "adv"
+      },
+      {
+        "t": "after",
+        "es": "después",
+        "pos": "adv"
+      },
+      {
+        "t": "before",
+        "es": "antes",
+        "pos": "adv"
+      },
+      {
+        "t": "because",
+        "es": "porque",
+        "pos": "adv"
+      },
+      {
+        "t": "if",
+        "es": "si",
+        "pos": "adv"
+      },
+      {
+        "t": "but",
+        "es": "pero",
+        "pos": "adv"
+      },
+      {
+        "t": "or",
+        "es": "o",
+        "pos": "adv"
+      },
+      {
+        "t": "and",
+        "es": "y",
+        "pos": "adv"
+      },
+      {
+        "t": "so",
+        "es": "así que",
+        "pos": "adv"
+      },
+      {
+        "t": "yes",
+        "es": "sí",
+        "pos": "adv"
+      },
+      {
+        "t": "nope",
+        "es": "no",
+        "pos": "adv"
+      },
+      {
+        "t": "really",
+        "es": "realmente",
+        "pos": "adv"
+      },
+      {
+        "t": "often",
+        "es": "a menudo",
+        "pos": "adv"
+      },
+      {
+        "t": "sometimes",
+        "es": "a veces",
+        "pos": "adv"
+      },
+      {
+        "t": "already",
+        "es": "ya",
+        "pos": "adv"
+      },
+      {
+        "t": "still",
+        "es": "todavía",
+        "pos": "adv"
+      },
+      {
+        "t": "too",
+        "es": "también/demasiado",
+        "pos": "adv"
+      },
+      {
+        "t": "be",
+        "es": "ser/estar",
+        "pos": "v"
+      },
+      {
+        "t": "have",
+        "es": "tener",
+        "pos": "v"
+      },
+      {
+        "t": "do",
+        "es": "hacer",
+        "pos": "v"
+      },
+      {
+        "t": "say",
+        "es": "decir",
+        "pos": "v"
+      },
+      {
+        "t": "get",
+        "es": "obtener/conseguir",
+        "pos": "v"
+      },
+      {
+        "t": "make",
+        "es": "hacer/crear",
+        "pos": "v"
+      },
+      {
+        "t": "go",
+        "es": "ir",
+        "pos": "v"
+      },
+      {
+        "t": "know",
+        "es": "saber/conocer",
+        "pos": "v"
+      },
+      {
+        "t": "take",
+        "es": "tomar",
+        "pos": "v"
+      },
+      {
+        "t": "see",
+        "es": "ver",
+        "pos": "v"
+      },
+      {
+        "t": "come",
+        "es": "venir",
+        "pos": "v"
+      },
+      {
+        "t": "think",
+        "es": "pensar",
+        "pos": "v"
+      },
+      {
+        "t": "look",
+        "es": "mirar",
+        "pos": "v"
+      },
+      {
+        "t": "want",
+        "es": "querer",
+        "pos": "v"
+      },
+      {
+        "t": "give",
+        "es": "dar",
+        "pos": "v"
+      },
+      {
+        "t": "use",
+        "es": "usar",
+        "pos": "v"
+      },
+      {
+        "t": "find",
+        "es": "encontrar",
+        "pos": "v"
+      },
+      {
+        "t": "tell",
+        "es": "decir/contar",
+        "pos": "v"
+      },
+      {
+        "t": "ask",
+        "es": "preguntar/pedir",
+        "pos": "v"
+      },
+      {
+        "t": "work",
+        "es": "trabajar",
+        "pos": "v"
+      },
+      {
+        "t": "seem",
+        "es": "parecer",
+        "pos": "v"
+      },
+      {
+        "t": "feel",
+        "es": "sentir",
+        "pos": "v"
+      },
+      {
+        "t": "try",
+        "es": "intentar",
+        "pos": "v"
+      },
+      {
+        "t": "leave",
+        "es": "salir/dejar",
+        "pos": "v"
+      },
+      {
+        "t": "call",
+        "es": "llamar",
+        "pos": "v"
+      },
+      {
+        "t": "keep",
+        "es": "mantener",
+        "pos": "v"
+      },
+      {
+        "t": "let",
+        "es": "dejar/permitir",
+        "pos": "v"
+      },
+      {
+        "t": "begin",
+        "es": "empezar",
+        "pos": "v"
+      },
+      {
+        "t": "help",
+        "es": "ayudar",
+        "pos": "v"
+      },
+      {
+        "t": "show",
+        "es": "mostrar",
+        "pos": "v"
+      },
+      {
+        "t": "hear",
+        "es": "oír",
+        "pos": "v"
+      },
+      {
+        "t": "play",
+        "es": "jugar/tocar",
+        "pos": "v"
+      },
+      {
+        "t": "run",
+        "es": "correr",
+        "pos": "v"
+      },
+      {
+        "t": "move",
+        "es": "mover",
+        "pos": "v"
+      },
+      {
+        "t": "live",
+        "es": "vivir",
+        "pos": "v"
+      },
+      {
+        "t": "believe",
+        "es": "creer",
+        "pos": "v"
+      },
+      {
+        "t": "bring",
+        "es": "traer",
+        "pos": "v"
+      },
+      {
+        "t": "happen",
+        "es": "ocurrir",
+        "pos": "v"
+      },
+      {
+        "t": "write",
+        "es": "escribir",
+        "pos": "v"
+      },
+      {
+        "t": "sit",
+        "es": "sentarse",
+        "pos": "v"
+      },
+      {
+        "t": "stand",
+        "es": "pararse",
+        "pos": "v"
+      },
+      {
+        "t": "lose",
+        "es": "perder",
+        "pos": "v"
+      },
+      {
+        "t": "pay",
+        "es": "pagar",
+        "pos": "v"
+      },
+      {
+        "t": "meet",
+        "es": "conocer/reunirse",
+        "pos": "v"
+      },
+      {
+        "t": "include",
+        "es": "incluir",
+        "pos": "v"
+      },
+      {
+        "t": "continue",
+        "es": "continuar",
+        "pos": "v"
+      },
+      {
+        "t": "set",
+        "es": "poner/establecer",
+        "pos": "v"
+      },
+      {
+        "t": "learn",
+        "es": "aprender",
+        "pos": "v"
+      },
+      {
+        "t": "change",
+        "es": "cambiar",
+        "pos": "v"
+      },
+      {
+        "t": "lead",
+        "es": "liderar",
+        "pos": "v"
+      },
+      {
+        "t": "understand",
+        "es": "entender",
+        "pos": "v"
+      },
+      {
+        "t": "watch",
+        "es": "mirar/observar",
+        "pos": "v"
+      },
+      {
+        "t": "follow",
+        "es": "seguir",
+        "pos": "v"
+      },
+      {
+        "t": "stop",
+        "es": "parar",
+        "pos": "v"
+      },
+      {
+        "t": "create",
+        "es": "crear",
+        "pos": "v"
+      },
+      {
+        "t": "speak",
+        "es": "hablar",
+        "pos": "v"
+      },
+      {
+        "t": "read",
+        "es": "leer",
+        "pos": "v"
+      },
+      {
+        "t": "spend",
+        "es": "gastar/pasar tiempo",
+        "pos": "v"
+      },
+      {
+        "t": "grow",
+        "es": "crecer",
+        "pos": "v"
+      },
+      {
+        "t": "open",
+        "es": "abrir",
+        "pos": "v"
+      },
+      {
+        "t": "walk",
+        "es": "caminar",
+        "pos": "v"
+      },
+      {
+        "t": "win",
+        "es": "ganar",
+        "pos": "v"
+      },
+      {
+        "t": "offer",
+        "es": "ofrecer",
+        "pos": "v"
+      },
+      {
+        "t": "remember",
+        "es": "recordar",
+        "pos": "v"
+      },
+      {
+        "t": "love",
+        "es": "amar",
+        "pos": "v"
+      },
+      {
+        "t": "consider",
+        "es": "considerar",
+        "pos": "v"
+      },
+      {
+        "t": "appear",
+        "es": "aparecer",
+        "pos": "v"
+      },
+      {
+        "t": "buy",
+        "es": "comprar",
+        "pos": "v"
+      },
+      {
+        "t": "wait",
+        "es": "esperar",
+        "pos": "v"
+      },
+      {
+        "t": "serve",
+        "es": "servir",
+        "pos": "v"
+      },
+      {
+        "t": "die",
+        "es": "morir",
+        "pos": "v"
+      },
+      {
+        "t": "send",
+        "es": "enviar",
+        "pos": "v"
+      },
+      {
+        "t": "expect",
+        "es": "esperar/esperar que",
+        "pos": "v"
+      },
+      {
+        "t": "build",
+        "es": "construir",
+        "pos": "v"
+      },
+      {
+        "t": "stay",
+        "es": "quedarse",
+        "pos": "v"
+      },
+      {
+        "t": "fall",
+        "es": "caer",
+        "pos": "v"
+      },
+      {
+        "t": "cut",
+        "es": "cortar",
+        "pos": "v"
+      },
+      {
+        "t": "reach",
+        "es": "alcanzar",
+        "pos": "v"
+      },
+      {
+        "t": "kill",
+        "es": "matar",
+        "pos": "v"
+      },
+      {
+        "t": "remain",
+        "es": "permanecer",
+        "pos": "v"
+      },
+      {
+        "t": "suggest",
+        "es": "sugerir",
+        "pos": "v"
+      },
+      {
+        "t": "raise",
+        "es": "levantar",
+        "pos": "v"
+      },
+      {
+        "t": "pass",
+        "es": "pasar",
+        "pos": "v"
+      },
+      {
+        "t": "sell",
+        "es": "vender",
+        "pos": "v"
+      },
+      {
+        "t": "need",
+        "es": "necesitar",
+        "pos": "v"
+      },
+      {
+        "t": "become",
+        "es": "convertirse",
+        "pos": "v"
+      },
+      {
+        "t": "put",
+        "es": "poner",
+        "pos": "v"
+      },
+      {
+        "t": "mean",
+        "es": "significar",
+        "pos": "v"
+      },
+      {
+        "t": "turn",
+        "es": "girar/volverse",
+        "pos": "v"
+      },
+      {
+        "t": "start",
+        "es": "comenzar",
+        "pos": "v"
+      },
+      {
+        "t": "first",
+        "es": "primero",
+        "pos": "adj"
+      },
+      {
+        "t": "last",
+        "es": "último",
+        "pos": "adj"
+      },
+      {
+        "t": "great",
+        "es": "gran/genial",
+        "pos": "adj"
+      },
+      {
+        "t": "little",
+        "es": "pequeño/poco",
+        "pos": "adj"
+      },
+      {
+        "t": "own",
+        "es": "propio",
+        "pos": "adj"
+      },
+      {
+        "t": "other",
+        "es": "otro",
+        "pos": "adj"
+      },
+      {
+        "t": "high",
+        "es": "alto",
+        "pos": "adj"
+      },
+      {
+        "t": "different",
+        "es": "diferente",
+        "pos": "adj"
+      },
+      {
+        "t": "large",
+        "es": "grande",
+        "pos": "adj"
+      },
+      {
+        "t": "next",
+        "es": "siguiente",
+        "pos": "adj"
+      },
+      {
+        "t": "important",
+        "es": "importante",
+        "pos": "adj"
+      },
+      {
+        "t": "few",
+        "es": "pocos",
+        "pos": "adj"
+      },
+      {
+        "t": "public",
+        "es": "público",
+        "pos": "adj"
+      },
+      {
+        "t": "same",
+        "es": "mismo",
+        "pos": "adj"
+      },
+      {
+        "t": "able",
+        "es": "capaz",
+        "pos": "adj"
+      },
+      {
+        "t": "sure",
+        "es": "seguro",
+        "pos": "adj"
+      },
+      {
+        "t": "true",
+        "es": "verdadero",
+        "pos": "adj"
+      },
+      {
+        "t": "whole",
+        "es": "entero",
+        "pos": "adj"
+      },
+      {
+        "t": "real",
+        "es": "real",
+        "pos": "adj"
+      },
+      {
+        "t": "best",
+        "es": "mejor",
+        "pos": "adj"
+      },
+      {
+        "t": "better",
+        "es": "mejor",
+        "pos": "adj"
+      },
+      {
+        "t": "low",
+        "es": "bajo",
+        "pos": "adj"
+      },
+      {
+        "t": "ready",
+        "es": "listo",
+        "pos": "adj"
+      },
+      {
+        "t": "clear",
+        "es": "claro",
+        "pos": "adj"
+      },
+      {
+        "t": "possible",
+        "es": "posible",
+        "pos": "adj"
+      },
+      {
+        "t": "special",
+        "es": "especial",
+        "pos": "adj"
+      },
+      {
+        "t": "wrong",
+        "es": "incorrecto",
+        "pos": "adj"
+      },
+      {
+        "t": "certain",
+        "es": "cierto",
+        "pos": "adj"
+      },
+      {
+        "t": "personal",
+        "es": "personal",
+        "pos": "adj"
+      },
+      {
+        "t": "difficult",
+        "es": "difícil",
+        "pos": "adj"
+      },
+      {
+        "t": "available",
+        "es": "disponible",
+        "pos": "adj"
+      },
+      {
+        "t": "likely",
+        "es": "probable",
+        "pos": "adj"
+      },
+      {
+        "t": "single",
+        "es": "soltero/único",
+        "pos": "adj"
+      },
+      {
+        "t": "current",
+        "es": "actual",
+        "pos": "adj"
+      },
+      {
+        "t": "sorry",
+        "es": "lo siento",
+        "pos": "adj"
+      },
+      {
+        "t": "fine",
+        "es": "bien",
+        "pos": "adj"
+      },
+      {
+        "t": "common",
+        "es": "común",
+        "pos": "adj"
+      },
+      {
+        "t": "natural",
+        "es": "natural",
+        "pos": "adj"
+      },
+      {
+        "t": "simple",
+        "es": "simple",
+        "pos": "adj"
+      },
+      {
+        "t": "close",
+        "es": "cerca/cercano",
+        "pos": "adj"
+      },
+      {
+        "t": "recent",
+        "es": "reciente",
+        "pos": "adj"
+      },
+      {
+        "t": "time",
+        "es": "tiempo",
+        "pos": "n"
+      },
+      {
+        "t": "person",
+        "es": "persona",
+        "pos": "n"
+      },
+      {
+        "t": "year",
+        "es": "año",
+        "pos": "n"
+      },
+      {
+        "t": "way",
+        "es": "camino/manera",
+        "pos": "n"
+      },
+      {
+        "t": "day",
+        "es": "día",
+        "pos": "n"
+      },
+      {
+        "t": "thing",
+        "es": "cosa",
+        "pos": "n"
+      },
+      {
+        "t": "man",
+        "es": "hombre",
+        "pos": "n"
+      },
+      {
+        "t": "world",
+        "es": "mundo",
+        "pos": "n"
+      },
+      {
+        "t": "life",
+        "es": "vida",
+        "pos": "n"
+      },
+      {
+        "t": "hand",
+        "es": "mano",
+        "pos": "n"
+      },
+      {
+        "t": "part",
+        "es": "parte",
+        "pos": "n"
+      },
+      {
+        "t": "child",
+        "es": "niño",
+        "pos": "n"
+      },
+      {
+        "t": "eye",
+        "es": "ojo",
+        "pos": "n"
+      },
+      {
+        "t": "woman",
+        "es": "mujer",
+        "pos": "n"
+      },
+      {
+        "t": "place",
+        "es": "lugar",
+        "pos": "n"
+      },
+      {
+        "t": "week",
+        "es": "semana",
+        "pos": "n"
+      },
+      {
+        "t": "case",
+        "es": "caso",
+        "pos": "n"
+      },
+      {
+        "t": "point",
+        "es": "punto",
+        "pos": "n"
+      },
+      {
+        "t": "government",
+        "es": "gobierno",
+        "pos": "n"
+      },
+      {
+        "t": "company",
+        "es": "empresa",
+        "pos": "n"
+      },
+      {
+        "t": "number",
+        "es": "número",
+        "pos": "n"
+      },
+      {
+        "t": "group",
+        "es": "grupo",
+        "pos": "n"
+      },
+      {
+        "t": "problem",
+        "es": "problema",
+        "pos": "n"
+      },
+      {
+        "t": "fact",
+        "es": "hecho",
+        "pos": "n"
+      },
+      {
+        "t": "money",
+        "es": "dinero",
+        "pos": "n"
+      },
+      {
+        "t": "water",
+        "es": "agua",
+        "pos": "n"
+      },
+      {
+        "t": "room",
+        "es": "habitación",
+        "pos": "n"
+      },
+      {
+        "t": "mother",
+        "es": "madre",
+        "pos": "n"
+      },
+      {
+        "t": "area",
+        "es": "área",
+        "pos": "n"
+      },
+      {
+        "t": "story",
+        "es": "historia",
+        "pos": "n"
+      },
+      {
+        "t": "month",
+        "es": "mes",
+        "pos": "n"
+      },
+      {
+        "t": "lot",
+        "es": "mucho/lote",
+        "pos": "n"
+      },
+      {
+        "t": "home",
+        "es": "hogar",
+        "pos": "n"
+      },
+      {
+        "t": "school",
+        "es": "escuela",
+        "pos": "n"
+      },
+      {
+        "t": "country",
+        "es": "país",
+        "pos": "n"
+      },
+      {
+        "t": "city",
+        "es": "ciudad",
+        "pos": "n"
+      },
+      {
+        "t": "night",
+        "es": "noche",
+        "pos": "n"
+      },
+      {
+        "t": "question",
+        "es": "pregunta",
+        "pos": "n"
+      },
+      {
+        "t": "house",
+        "es": "casa",
+        "pos": "n"
+      },
+      {
+        "t": "book",
+        "es": "libro",
+        "pos": "n"
+      },
+      {
+        "t": "job",
+        "es": "trabajo",
+        "pos": "n"
+      },
+      {
+        "t": "word",
+        "es": "palabra",
+        "pos": "n"
+      },
+      {
+        "t": "business",
+        "es": "negocio",
+        "pos": "n"
+      },
+      {
+        "t": "issue",
+        "es": "asunto",
+        "pos": "n"
+      },
+      {
+        "t": "side",
+        "es": "lado",
+        "pos": "n"
+      },
+      {
+        "t": "head",
+        "es": "cabeza",
+        "pos": "n"
+      },
+      {
+        "t": "service",
+        "es": "servicio",
+        "pos": "n"
+      },
+      {
+        "t": "friend",
+        "es": "amigo",
+        "pos": "n"
+      },
+      {
+        "t": "father",
+        "es": "padre",
+        "pos": "n"
+      },
+      {
+        "t": "power",
+        "es": "poder",
+        "pos": "n"
+      },
+      {
+        "t": "hour",
+        "es": "hora",
+        "pos": "n"
+      },
+      {
+        "t": "game",
+        "es": "juego",
+        "pos": "n"
+      },
+      {
+        "t": "line",
+        "es": "línea",
+        "pos": "n"
+      },
+      {
+        "t": "end",
+        "es": "fin",
+        "pos": "n"
+      },
+      {
+        "t": "member",
+        "es": "miembro",
+        "pos": "n"
+      },
+      {
+        "t": "law",
+        "es": "ley",
+        "pos": "n"
+      },
+      {
+        "t": "car",
+        "es": "coche",
+        "pos": "n"
+      },
+      {
+        "t": "name",
+        "es": "nombre",
+        "pos": "n"
+      },
+      {
+        "t": "team",
+        "es": "equipo",
+        "pos": "n"
+      },
+      {
+        "t": "minute",
+        "es": "minuto",
+        "pos": "n"
+      },
+      {
+        "t": "idea",
+        "es": "idea",
+        "pos": "n"
+      },
+      {
+        "t": "body",
+        "es": "cuerpo",
+        "pos": "n"
+      },
+      {
+        "t": "information",
+        "es": "información",
+        "pos": "n"
+      },
+      {
+        "t": "back",
+        "es": "espalda/atrás",
+        "pos": "n"
+      },
+      {
+        "t": "parent",
+        "es": "padre/madre",
+        "pos": "n"
+      },
+      {
+        "t": "face",
+        "es": "cara",
+        "pos": "n"
+      },
+      {
+        "t": "others",
+        "es": "otros",
+        "pos": "n"
+      },
+      {
+        "t": "level",
+        "es": "nivel",
+        "pos": "n"
+      },
+      {
+        "t": "office",
+        "es": "oficina",
+        "pos": "n"
+      },
+      {
+        "t": "door",
+        "es": "puerta",
+        "pos": "n"
+      },
+      {
+        "t": "health",
+        "es": "salud",
+        "pos": "n"
+      },
+      {
+        "t": "art",
+        "es": "arte",
+        "pos": "n"
+      },
+      {
+        "t": "war",
+        "es": "guerra",
+        "pos": "n"
+      },
+      {
+        "t": "history",
+        "es": "historia",
+        "pos": "n"
+      },
+      {
+        "t": "party",
+        "es": "fiesta/partido",
+        "pos": "n"
+      },
+      {
+        "t": "result",
+        "es": "resultado",
+        "pos": "n"
+      },
+      {
+        "t": "morning",
+        "es": "mañana",
+        "pos": "n"
+      },
+      {
+        "t": "reason",
+        "es": "razón",
+        "pos": "n"
+      },
+      {
+        "t": "research",
+        "es": "investigación",
+        "pos": "n"
+      },
+      {
+        "t": "girl",
+        "es": "niña",
+        "pos": "n"
+      },
+      {
+        "t": "guy",
+        "es": "chico",
+        "pos": "n"
+      },
+      {
+        "t": "moment",
+        "es": "momento",
+        "pos": "n"
+      },
+      {
+        "t": "air",
+        "es": "aire",
+        "pos": "n"
+      },
+      {
+        "t": "teacher",
+        "es": "profesor",
+        "pos": "n"
+      },
+      {
+        "t": "force",
+        "es": "fuerza",
+        "pos": "n"
+      },
+      {
+        "t": "education",
+        "es": "educación",
+        "pos": "n"
+      }
+    ]
   }
 ]

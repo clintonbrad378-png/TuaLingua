@@ -155,7 +155,7 @@ export default function Home({
           <div className="action-icon"><IconBrain size={20}/></div>
           <div className="action-body">
             <strong>{t("home.review_title")}</strong>
-            <span>{progress.due_count > 0 ? plural(progress.due_count, "home.review_one", "home.review_many", { n: progress.due_count }) : "Al día"}</span>
+            <span>{progress.due_count > 0 ? plural(progress.due_count, "home.review_one", "home.review_many", { n: progress.due_count }) : t("home.review_up_to_date")}</span>
           </div>
         </button>
         <button className="action-card" onClick={onDictionary}>
@@ -176,7 +176,7 @@ export default function Home({
           <div className="action-icon"><IconChart size={20}/></div>
           <div className="action-body">
             <strong>{t("home.stats")}</strong>
-            <span>Nv {progress.level} · {progress.words_learned} palabras</span>
+            <span>{t("home.stats_sub", { level: progress.level, words: progress.words_learned })}</span>
           </div>
         </button>
       </div>

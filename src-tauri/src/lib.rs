@@ -46,21 +46,21 @@ fn get_languages() -> Vec<catalog::LanguageInfo> {
 }
 
 #[tauri::command]
-fn get_catalog(state: State<'_, AppState>) -> Res<Value> {
+fn get_catalog(state: State<'_, AppState>) -> Res<&'static Value> {
     let lang = {
         let db = lock_db(&state)?;
         db.lang().to_string()
     };
-    Ok(catalog::catalog_json(&lang).clone())
+    Ok(catalog::catalog_json(&lang))
 }
 
 #[tauri::command]
-fn get_dictionary(state: State<'_, AppState>) -> Res<Value> {
+fn get_dictionary(state: State<'_, AppState>) -> Res<&'static Value> {
     let lang = {
         let db = lock_db(&state)?;
         db.lang().to_string()
     };
-    Ok(dictionary::dictionary_json(&lang).clone())
+    Ok(dictionary::dictionary_json(&lang))
 }
 
 #[tauri::command]
@@ -151,7 +151,8 @@ fn submit_review(
 
 #[tauri::command]
 fn get_review(state: State<'_, AppState>, limit: u32) -> Res<Vec<SrsCardDto>> {
-    Ok(lock_db(&state)?.due_cards(limit as usize))
+    let limit = limit.clamp(1, 200) as usize;
+    Ok(lock_db(&state)?.due_cards(limit))
 }
 
 #[tauri::command]
@@ -211,7 +212,6 @@ fn import_progress(path: String, state: State<'_, AppState>) -> Res<Value> {
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
-        .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_dialog::init())
         .setup(|app| {
             let dir = app.path().app_data_dir()?;

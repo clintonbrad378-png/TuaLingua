@@ -1,0 +1,1522 @@
+{
+  "id": "f6",
+  "title": "Santé et urgences",
+  "emoji": "🏥",
+  "color": "#2F9BFF",
+  "lessons": [
+    {
+      "id": "f6l1",
+      "title": "En el médico",
+      "goal": "Describir síntomas",
+      "tip": [
+        "«J'ai mal à...» = me duele...",
+        "«Je suis malade»."
+      ],
+      "phrases": [
+        {
+          "es": "Me duele la cabeza",
+          "t": "J'ai mal à la tête"
+        },
+        {
+          "es": "Estoy enfermo",
+          "t": "Je suis malade"
+        },
+        {
+          "es": "Necesito un médico",
+          "t": "J'ai besoin d'un médecin"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «me duele la cabeza»?",
+          "options": [
+            "J'ai mal à la tête",
+            "Je suis malade",
+            "J'ai besoin d'un médecin",
+            "Médecin"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me duele la cabeza",
+            "t": "J'ai mal à la tête"
+          }
+        },
+        {
+          "id": "f6l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Je suis malade",
+          "options": [
+            "Estoy enfermo",
+            "Necesito un médico",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy enfermo",
+            "t": "Je suis malade"
+          }
+        },
+        {
+          "id": "f6l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "J'ai ___ d'un médecin",
+          "options": [
+            "besoin",
+            "Médecin",
+            "Douleur"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesito un médico",
+            "t": "J'ai besoin d'un médecin"
+          }
+        },
+        {
+          "id": "f6l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Me duele la cabeza»",
+          "solution": "J'ai mal à la tête",
+          "distractors": [
+            "Tête",
+            "Malade"
+          ],
+          "pair": {
+            "es": "Me duele la cabeza",
+            "t": "J'ai mal à la tête"
+          }
+        },
+        {
+          "id": "f6l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «médico»",
+          "solution": "Médecin",
+          "accept": [
+            "Médecin",
+            "médecin"
+          ],
+          "pair": {
+            "es": "Médico",
+            "t": "Médecin"
+          }
+        },
+        {
+          "id": "f6l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Médico",
+              "t": "Médecin"
+            },
+            {
+              "es": "Dolor",
+              "t": "Douleur"
+            },
+            {
+              "es": "Cabeza",
+              "t": "Tête"
+            }
+          ]
+        },
+        {
+          "id": "f6l1e7",
+          "type": "choice",
+          "prompt": "«Enfermo» se traduce como...",
+          "options": [
+            "Malade",
+            "Médecin",
+            "Douleur",
+            "Tête"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enfermo",
+            "t": "Malade"
+          }
+        },
+        {
+          "id": "f6l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "J'ai mal à la tête",
+          "options": [
+            "Me duele la cabeza",
+            "Estoy enfermo",
+            "Necesito un médico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me duele la cabeza",
+            "t": "J'ai mal à la tête"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l2",
+      "title": "Farmacia",
+      "goal": "Comprar medicinas",
+      "tip": [
+        "«Je voudrais ce médicament».",
+        "«Avez-vous...?»"
+      ],
+      "phrases": [
+        {
+          "es": "Necesito este medicamento",
+          "t": "J'ai besoin de ce médicament"
+        },
+        {
+          "es": "¿Tiene aspirina?",
+          "t": "Avez-vous de l'aspirine ?"
+        },
+        {
+          "es": "¿Cómo se toma?",
+          "t": "Comment le prendre ?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «necesito este medicamento»?",
+          "options": [
+            "J'ai besoin de ce médicament",
+            "Avez-vous de l'aspirine ?",
+            "Comment le prendre ?",
+            "Médicament"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesito este medicamento",
+            "t": "J'ai besoin de ce médicament"
+          }
+        },
+        {
+          "id": "f6l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Avez-vous de l'aspirine ?",
+          "options": [
+            "¿Tiene aspirina?",
+            "¿Cómo se toma?",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Tiene aspirina?",
+            "t": "Avez-vous de l'aspirine ?"
+          }
+        },
+        {
+          "id": "f6l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Comment ___ prendre ?",
+          "options": [
+            "le",
+            "Médicament",
+            "Pharmacie"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cómo se toma?",
+            "t": "Comment le prendre ?"
+          }
+        },
+        {
+          "id": "f6l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Necesito este medicamento»",
+          "solution": "J'ai besoin de ce médicament",
+          "distractors": [
+            "Ordonnance",
+            "Dose"
+          ],
+          "pair": {
+            "es": "Necesito este medicamento",
+            "t": "J'ai besoin de ce médicament"
+          }
+        },
+        {
+          "id": "f6l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «medicamento»",
+          "solution": "Médicament",
+          "accept": [
+            "Médicament",
+            "médicament"
+          ],
+          "pair": {
+            "es": "Medicamento",
+            "t": "Médicament"
+          }
+        },
+        {
+          "id": "f6l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Medicamento",
+              "t": "Médicament"
+            },
+            {
+              "es": "Farmacia",
+              "t": "Pharmacie"
+            },
+            {
+              "es": "Receta",
+              "t": "Ordonnance"
+            }
+          ]
+        },
+        {
+          "id": "f6l2e7",
+          "type": "choice",
+          "prompt": "«Dosis» se traduce como...",
+          "options": [
+            "Dose",
+            "Médicament",
+            "Pharmacie",
+            "Ordonnance"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dosis",
+            "t": "Dose"
+          }
+        },
+        {
+          "id": "f6l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "J'ai besoin de ce médicament",
+          "options": [
+            "Necesito este medicamento",
+            "¿Tiene aspirina?",
+            "¿Cómo se toma?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesito este medicamento",
+            "t": "J'ai besoin de ce médicament"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l3",
+      "title": "Emergencias",
+      "goal": "Pedir ayuda",
+      "tip": [
+        "«Au secours !» = ¡socorro!",
+        "«Appelez la police»."
+      ],
+      "phrases": [
+        {
+          "es": "¡Ayuda!",
+          "t": "Au secours !"
+        },
+        {
+          "es": "Llame a la policía",
+          "t": "Appelez la police"
+        },
+        {
+          "es": "Es una emergencia",
+          "t": "C'est une urgence"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¡ayuda!»?",
+          "options": [
+            "Au secours !",
+            "Appelez la police",
+            "C'est une urgence",
+            "Secours"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Ayuda!",
+            "t": "Au secours !"
+          }
+        },
+        {
+          "id": "f6l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Appelez la police",
+          "options": [
+            "Llame a la policía",
+            "Es una emergencia",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llame a la policía",
+            "t": "Appelez la police"
+          }
+        },
+        {
+          "id": "f6l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "C'est ___ urgence",
+          "options": [
+            "une",
+            "Secours",
+            "Police"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es una emergencia",
+            "t": "C'est une urgence"
+          }
+        },
+        {
+          "id": "f6l3e4",
+          "type": "build",
+          "prompt": "Traduce: «¡Ayuda!»",
+          "solution": "Au secours !",
+          "distractors": [
+            "Urgence",
+            "Danger"
+          ],
+          "pair": {
+            "es": "¡Ayuda!",
+            "t": "Au secours !"
+          }
+        },
+        {
+          "id": "f6l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ayuda»",
+          "solution": "Secours",
+          "accept": [
+            "Secours",
+            "secours"
+          ],
+          "pair": {
+            "es": "Ayuda",
+            "t": "Secours"
+          }
+        },
+        {
+          "id": "f6l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ayuda",
+              "t": "Secours"
+            },
+            {
+              "es": "Policía",
+              "t": "Police"
+            },
+            {
+              "es": "Emergencia",
+              "t": "Urgence"
+            }
+          ]
+        },
+        {
+          "id": "f6l3e7",
+          "type": "choice",
+          "prompt": "«Peligro» se traduce como...",
+          "options": [
+            "Danger",
+            "Secours",
+            "Police",
+            "Urgence"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Peligro",
+            "t": "Danger"
+          }
+        },
+        {
+          "id": "f6l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Au secours !",
+          "options": [
+            "¡Ayuda!",
+            "Llame a la policía",
+            "Es una emergencia"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Ayuda!",
+            "t": "Au secours !"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l4",
+      "title": "Bienestar",
+      "goal": "Hábitos saludables",
+      "tip": [
+        "«Je fais du sport».",
+        "«Je mange sainement»."
+      ],
+      "phrases": [
+        {
+          "es": "Hago deporte",
+          "t": "Je fais du sport"
+        },
+        {
+          "es": "Como sano",
+          "t": "Je mange sainement"
+        },
+        {
+          "es": "Duermo bien",
+          "t": "Je dors bien"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «hago deporte»?",
+          "options": [
+            "Je fais du sport",
+            "Je mange sainement",
+            "Je dors bien",
+            "Sport"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hago deporte",
+            "t": "Je fais du sport"
+          }
+        },
+        {
+          "id": "f6l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Je mange sainement",
+          "options": [
+            "Como sano",
+            "Duermo bien",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Como sano",
+            "t": "Je mange sainement"
+          }
+        },
+        {
+          "id": "f6l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Je ___ bien",
+          "options": [
+            "dors",
+            "Sport",
+            "Santé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Duermo bien",
+            "t": "Je dors bien"
+          }
+        },
+        {
+          "id": "f6l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Hago deporte»",
+          "solution": "Je fais du sport",
+          "distractors": [
+            "Dormir",
+            "Exercice"
+          ],
+          "pair": {
+            "es": "Hago deporte",
+            "t": "Je fais du sport"
+          }
+        },
+        {
+          "id": "f6l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «deporte»",
+          "solution": "Sport",
+          "accept": [
+            "Sport",
+            "sport"
+          ],
+          "pair": {
+            "es": "Deporte",
+            "t": "Sport"
+          }
+        },
+        {
+          "id": "f6l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Deporte",
+              "t": "Sport"
+            },
+            {
+              "es": "Salud",
+              "t": "Santé"
+            },
+            {
+              "es": "Dormir",
+              "t": "Dormir"
+            }
+          ]
+        },
+        {
+          "id": "f6l4e7",
+          "type": "choice",
+          "prompt": "«Ejercicio» se traduce como...",
+          "options": [
+            "Exercice",
+            "Sport",
+            "Santé",
+            "Dormir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ejercicio",
+            "t": "Exercice"
+          }
+        },
+        {
+          "id": "f6l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Je fais du sport",
+          "options": [
+            "Hago deporte",
+            "Como sano",
+            "Duermo bien"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hago deporte",
+            "t": "Je fais du sport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l5",
+      "title": "Mots supplémentaires 1",
+      "goal": "Vocabulaire clé",
+      "tip": [
+        "Pratique des mots importants."
+      ],
+      "phrases": [
+        {
+          "es": "Color",
+          "t": "Couleur"
+        },
+        {
+          "es": "Cada",
+          "t": "Chaque"
+        },
+        {
+          "es": "Suave",
+          "t": "Doux"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Color»?",
+          "options": [
+            "Couleur",
+            "Chaque",
+            "Doux",
+            "Mercredi"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Color",
+            "t": "Couleur"
+          }
+        },
+        {
+          "id": "f6l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Chaque",
+          "options": [
+            "Cada",
+            "Suave",
+            "Miércoles"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cada",
+            "t": "Chaque"
+          }
+        },
+        {
+          "id": "f6l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Doux",
+            "Mercredi",
+            "Couper"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Suave",
+            "t": "Doux"
+          }
+        },
+        {
+          "id": "f6l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Miércoles»",
+          "solution": "Mercredi",
+          "distractors": [
+            "Couper",
+            "Arrêter"
+          ],
+          "pair": {
+            "es": "Miércoles",
+            "t": "Mercredi"
+          }
+        },
+        {
+          "id": "f6l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cortar»",
+          "solution": "Couper",
+          "accept": [
+            "Couper",
+            "couper"
+          ],
+          "pair": {
+            "es": "Cortar",
+            "t": "Couper"
+          }
+        },
+        {
+          "id": "f6l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Detener",
+              "t": "Arrêter"
+            },
+            {
+              "es": "Abierto",
+              "t": "Ouvert"
+            },
+            {
+              "es": "Y",
+              "t": "Et"
+            }
+          ]
+        },
+        {
+          "id": "f6l5e7",
+          "type": "choice",
+          "prompt": "«Uno» se traduce como...",
+          "options": [
+            "Un",
+            "Pied",
+            "S'habiller",
+            "Chaud"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Uno",
+            "t": "Un"
+          }
+        },
+        {
+          "id": "f6l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Pied",
+          "options": [
+            "Pie",
+            "Vestirse",
+            "Caliente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pie",
+            "t": "Pied"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l6",
+      "title": "Phrases utiles 2",
+      "goal": "Phrases quotidiennes",
+      "tip": [
+        "Parle naturellement."
+      ],
+      "phrases": [
+        {
+          "es": "Comprar",
+          "t": "Acheter"
+        },
+        {
+          "es": "Marrón",
+          "t": "Marron"
+        },
+        {
+          "es": "Otro",
+          "t": "Autre"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Comprar»?",
+          "options": [
+            "Acheter",
+            "Marron",
+            "Autre",
+            "Payer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Comprar",
+            "t": "Acheter"
+          }
+        },
+        {
+          "id": "f6l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Marron",
+          "options": [
+            "Marrón",
+            "Otro",
+            "Pagar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Marrón",
+            "t": "Marron"
+          }
+        },
+        {
+          "id": "f6l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Autre",
+            "Payer",
+            "De"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Otro",
+            "t": "Autre"
+          }
+        },
+        {
+          "id": "f6l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Pagar»",
+          "solution": "Payer",
+          "distractors": [
+            "De",
+            "Aimer"
+          ],
+          "pair": {
+            "es": "Pagar",
+            "t": "Payer"
+          }
+        },
+        {
+          "id": "f6l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «de nada»",
+          "solution": "De rien",
+          "accept": [
+            "De rien",
+            "de rien"
+          ],
+          "pair": {
+            "es": "De nada",
+            "t": "De rien"
+          }
+        },
+        {
+          "id": "f6l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Amar/Gustar",
+              "t": "Aimer"
+            },
+            {
+              "es": "Demasiado",
+              "t": "Trop"
+            },
+            {
+              "es": "Normal",
+              "t": "Normal"
+            }
+          ]
+        },
+        {
+          "id": "f6l6e7",
+          "type": "choice",
+          "prompt": "«Especial» se traduce como...",
+          "options": [
+            "Spécial",
+            "Finalement",
+            "Vent",
+            "D'accord"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Especial",
+            "t": "Spécial"
+          }
+        },
+        {
+          "id": "f6l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Finalement",
+          "options": [
+            "Finalmente",
+            "Viento",
+            "De acuerdo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Finalmente",
+            "t": "Finalement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l7",
+      "title": "Révision 3",
+      "goal": "Révision",
+      "tip": [
+        "Consolide ce que tu as appris."
+      ],
+      "phrases": [
+        {
+          "es": "Me llamo...",
+          "t": "Je m'appelle..."
+        },
+        {
+          "es": "Grande",
+          "t": "Grand"
+        },
+        {
+          "es": "Cantar",
+          "t": "Chanter"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Me llamo...»?",
+          "options": [
+            "Je m'appelle...",
+            "Grand",
+            "Chanter",
+            "Soupe"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me llamo...",
+            "t": "Je m'appelle..."
+          }
+        },
+        {
+          "id": "f6l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Grand",
+          "options": [
+            "Grande",
+            "Cantar",
+            "Sopa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Grande",
+            "t": "Grand"
+          }
+        },
+        {
+          "id": "f6l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Chanter",
+            "Soupe",
+            "Important"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cantar",
+            "t": "Chanter"
+          }
+        },
+        {
+          "id": "f6l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Sopa»",
+          "solution": "Soupe",
+          "distractors": [
+            "Important",
+            "Laver"
+          ],
+          "pair": {
+            "es": "Sopa",
+            "t": "Soupe"
+          }
+        },
+        {
+          "id": "f6l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «importante»",
+          "solution": "Important",
+          "accept": [
+            "Important",
+            "important"
+          ],
+          "pair": {
+            "es": "Importante",
+            "t": "Important"
+          }
+        },
+        {
+          "id": "f6l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Lavar",
+              "t": "Laver"
+            },
+            {
+              "es": "Abrigo",
+              "t": "Manteau"
+            },
+            {
+              "es": "Público",
+              "t": "Public"
+            }
+          ]
+        },
+        {
+          "id": "f6l7e7",
+          "type": "choice",
+          "prompt": "«Romper» se traduce como...",
+          "options": [
+            "Casser",
+            "Permettre",
+            "Robe",
+            "Corps"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Romper",
+            "t": "Casser"
+          }
+        },
+        {
+          "id": "f6l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Permettre",
+          "options": [
+            "Permitir",
+            "Vestido",
+            "Cuerpo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Permitir",
+            "t": "Permettre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l8",
+      "title": "Écoute 4",
+      "goal": "Écoute",
+      "tip": [
+        "Entraîne ton oreille."
+      ],
+      "phrases": [
+        {
+          "es": "Historia",
+          "t": "Histoire"
+        },
+        {
+          "es": "Noche",
+          "t": "Soir"
+        },
+        {
+          "es": "Vida",
+          "t": "Vie"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Historia»?",
+          "options": [
+            "Histoire",
+            "Soir",
+            "Vie",
+            "Salade"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Historia",
+            "t": "Histoire"
+          }
+        },
+        {
+          "id": "f6l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Soir",
+          "options": [
+            "Noche",
+            "Vida",
+            "Ensalada"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Noche",
+            "t": "Soir"
+          }
+        },
+        {
+          "id": "f6l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Vie",
+            "Salade",
+            "Bon"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vida",
+            "t": "Vie"
+          }
+        },
+        {
+          "id": "f6l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Ensalada»",
+          "solution": "Salade",
+          "distractors": [
+            "Bon",
+            "Septembre"
+          ],
+          "pair": {
+            "es": "Ensalada",
+            "t": "Salade"
+          }
+        },
+        {
+          "id": "f6l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «buen provecho»",
+          "solution": "Bon appétit",
+          "accept": [
+            "Bon appétit",
+            "bon appétit"
+          ],
+          "pair": {
+            "es": "Buen provecho",
+            "t": "Bon appétit"
+          }
+        },
+        {
+          "id": "f6l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Septiembre",
+              "t": "Septembre"
+            },
+            {
+              "es": "Salir",
+              "t": "Sortir"
+            },
+            {
+              "es": "Llevar",
+              "t": "Porter"
+            }
+          ]
+        },
+        {
+          "id": "f6l8e7",
+          "type": "choice",
+          "prompt": "«Padre» se traduce como...",
+          "options": [
+            "Père",
+            "Bonsoir",
+            "Ami",
+            "Fille"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Padre",
+            "t": "Père"
+          }
+        },
+        {
+          "id": "f6l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Bonsoir",
+          "options": [
+            "Buenas noches",
+            "Amigo",
+            "Chica/Hija"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Buenas noches",
+            "t": "Bonsoir"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l9",
+      "title": "Expression orale 5",
+      "goal": "Parler",
+      "tip": [
+        "Prends confiance."
+      ],
+      "phrases": [
+        {
+          "es": "Hermano",
+          "t": "Frère"
+        },
+        {
+          "es": "Bastante",
+          "t": "Assez"
+        },
+        {
+          "es": "Gente",
+          "t": "Gens"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Hermano»?",
+          "options": [
+            "Frère",
+            "Assez",
+            "Gens",
+            "Main"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermano",
+            "t": "Frère"
+          }
+        },
+        {
+          "id": "f6l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Assez",
+          "options": [
+            "Bastante",
+            "Gente",
+            "Mano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bastante",
+            "t": "Assez"
+          }
+        },
+        {
+          "id": "f6l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Gens",
+            "Main",
+            "Œil"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gente",
+            "t": "Gens"
+          }
+        },
+        {
+          "id": "f6l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Mano»",
+          "solution": "Main",
+          "distractors": [
+            "Œil",
+            "Mon"
+          ],
+          "pair": {
+            "es": "Mano",
+            "t": "Main"
+          }
+        },
+        {
+          "id": "f6l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ojo»",
+          "solution": "Œil",
+          "accept": [
+            "Œil",
+            "œil"
+          ],
+          "pair": {
+            "es": "Ojo",
+            "t": "Œil"
+          }
+        },
+        {
+          "id": "f6l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mi",
+              "t": "Mon"
+            },
+            {
+              "es": "Boleto",
+              "t": "Billet"
+            },
+            {
+              "es": "Segundo",
+              "t": "Seconde"
+            }
+          ]
+        },
+        {
+          "id": "f6l9e7",
+          "type": "choice",
+          "prompt": "«Porque» se traduce como...",
+          "options": [
+            "Parce que",
+            "Enfant",
+            "Gare",
+            "Rose"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Porque",
+            "t": "Parce que"
+          }
+        },
+        {
+          "id": "f6l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Enfant",
+          "options": [
+            "Niño",
+            "Estación",
+            "Rosa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Niño",
+            "t": "Enfant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f6l10",
+      "title": "Vie réelle 6",
+      "goal": "Situations réelles",
+      "tip": [
+        "Utilise la langue en contexte."
+      ],
+      "phrases": [
+        {
+          "es": "Adiós",
+          "t": "Au revoir"
+        },
+        {
+          "es": "Oreja",
+          "t": "Oreille"
+        },
+        {
+          "es": "Construir",
+          "t": "Construire"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f6l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Adiós»?",
+          "options": [
+            "Au revoir",
+            "Oreille",
+            "Construire",
+            "Aéroport"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Adiós",
+            "t": "Au revoir"
+          }
+        },
+        {
+          "id": "f6l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Oreille",
+          "options": [
+            "Oreja",
+            "Construir",
+            "Aeropuerto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Oreja",
+            "t": "Oreille"
+          }
+        },
+        {
+          "id": "f6l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Construire",
+            "Aéroport",
+            "Monter"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Construir",
+            "t": "Construire"
+          }
+        },
+        {
+          "id": "f6l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Aeropuerto»",
+          "solution": "Aéroport",
+          "distractors": [
+            "Monter",
+            "Vin"
+          ],
+          "pair": {
+            "es": "Aeropuerto",
+            "t": "Aéroport"
+          }
+        },
+        {
+          "id": "f6l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «subir»",
+          "solution": "Monter",
+          "accept": [
+            "Monter",
+            "monter"
+          ],
+          "pair": {
+            "es": "Subir",
+            "t": "Monter"
+          }
+        },
+        {
+          "id": "f6l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Vino",
+              "t": "Vin"
+            },
+            {
+              "es": "Autobús",
+              "t": "Bus"
+            },
+            {
+              "es": "Nosotros",
+              "t": "Nous"
+            }
+          ]
+        },
+        {
+          "id": "f6l10e7",
+          "type": "choice",
+          "prompt": "«Menú» se traduce como...",
+          "options": [
+            "Menu",
+            "Neuf",
+            "Comment",
+            "Rien"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Menú",
+            "t": "Menu"
+          }
+        },
+        {
+          "id": "f6l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Neuf",
+          "options": [
+            "Nueve",
+            "Cómo",
+            "Nada"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nueve",
+            "t": "Neuf"
+          }
+        }
+      ]
+    }
+  ]
+}

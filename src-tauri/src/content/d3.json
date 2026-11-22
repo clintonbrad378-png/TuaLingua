@@ -1,0 +1,1522 @@
+{
+  "id": "d3",
+  "title": "Stadt und Verkehr",
+  "emoji": "🚆",
+  "color": "#00C2A8",
+  "lessons": [
+    {
+      "id": "d3l1",
+      "title": "Lugares",
+      "goal": "Lugares en la ciudad",
+      "tip": [
+        "«Wo ist...?» para ubicar.",
+        "Artículos: der/die/das."
+      ],
+      "phrases": [
+        {
+          "es": "¿Dónde está la estación?",
+          "t": "Wo ist der Bahnhof?"
+        },
+        {
+          "es": "La farmacia está cerca",
+          "t": "Die Apotheke ist nah"
+        },
+        {
+          "es": "Voy al supermercado",
+          "t": "Ich gehe zum Supermarkt"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿dónde está la estación?»?",
+          "options": [
+            "Wo ist der Bahnhof?",
+            "Die Apotheke ist nah",
+            "Ich gehe zum Supermarkt",
+            "Bahnhof"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la estación?",
+            "t": "Wo ist der Bahnhof?"
+          }
+        },
+        {
+          "id": "d3l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Die Apotheke ist nah",
+          "options": [
+            "La farmacia está cerca",
+            "Voy al supermercado",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La farmacia está cerca",
+            "t": "Die Apotheke ist nah"
+          }
+        },
+        {
+          "id": "d3l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ich ___ zum Supermarkt",
+          "options": [
+            "gehe",
+            "Bahnhof",
+            "Apotheke"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy al supermercado",
+            "t": "Ich gehe zum Supermarkt"
+          }
+        },
+        {
+          "id": "d3l1e4",
+          "type": "build",
+          "prompt": "Traduce: «¿Dónde está la estación?»",
+          "solution": "Wo ist der Bahnhof?",
+          "distractors": [
+            "Bank",
+            "Park"
+          ],
+          "pair": {
+            "es": "¿Dónde está la estación?",
+            "t": "Wo ist der Bahnhof?"
+          }
+        },
+        {
+          "id": "d3l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «estación»",
+          "solution": "Bahnhof",
+          "accept": [
+            "Bahnhof",
+            "bahnhof"
+          ],
+          "pair": {
+            "es": "Estación",
+            "t": "Bahnhof"
+          }
+        },
+        {
+          "id": "d3l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Estación",
+              "t": "Bahnhof"
+            },
+            {
+              "es": "Farmacia",
+              "t": "Apotheke"
+            },
+            {
+              "es": "Banco",
+              "t": "Bank"
+            }
+          ]
+        },
+        {
+          "id": "d3l1e7",
+          "type": "choice",
+          "prompt": "«Parque» se traduce como...",
+          "options": [
+            "Park",
+            "Bahnhof",
+            "Apotheke",
+            "Bank"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Parque",
+            "t": "Park"
+          }
+        },
+        {
+          "id": "d3l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Wo ist der Bahnhof?",
+          "options": [
+            "¿Dónde está la estación?",
+            "La farmacia está cerca",
+            "Voy al supermercado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la estación?",
+            "t": "Wo ist der Bahnhof?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l2",
+      "title": "Transporte",
+      "goal": "Moverse",
+      "tip": [
+        "«Ein Ticket nach...»",
+        "«Der Zug hat Verspätung»."
+      ],
+      "phrases": [
+        {
+          "es": "Un billete a Berlín",
+          "t": "Ein Ticket nach Berlin"
+        },
+        {
+          "es": "El tren llega tarde",
+          "t": "Der Zug hat Verspätung"
+        },
+        {
+          "es": "¿Dónde está la parada?",
+          "t": "Wo ist die Haltestelle?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «un billete a berlín»?",
+          "options": [
+            "Ein Ticket nach Berlin",
+            "Der Zug hat Verspätung",
+            "Wo ist die Haltestelle?",
+            "Zug"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Un billete a Berlín",
+            "t": "Ein Ticket nach Berlin"
+          }
+        },
+        {
+          "id": "d3l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Der Zug hat Verspätung",
+          "options": [
+            "El tren llega tarde",
+            "¿Dónde está la parada?",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tren llega tarde",
+            "t": "Der Zug hat Verspätung"
+          }
+        },
+        {
+          "id": "d3l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Wo ___ die Haltestelle?",
+          "options": [
+            "ist",
+            "Zug",
+            "Bus"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la parada?",
+            "t": "Wo ist die Haltestelle?"
+          }
+        },
+        {
+          "id": "d3l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Un billete a Berlín»",
+          "solution": "Ein Ticket nach Berlin",
+          "distractors": [
+            "Ticket",
+            "Haltestelle"
+          ],
+          "pair": {
+            "es": "Un billete a Berlín",
+            "t": "Ein Ticket nach Berlin"
+          }
+        },
+        {
+          "id": "d3l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tren»",
+          "solution": "Zug",
+          "accept": [
+            "Zug",
+            "zug"
+          ],
+          "pair": {
+            "es": "Tren",
+            "t": "Zug"
+          }
+        },
+        {
+          "id": "d3l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Tren",
+              "t": "Zug"
+            },
+            {
+              "es": "Autobús",
+              "t": "Bus"
+            },
+            {
+              "es": "Billete",
+              "t": "Ticket"
+            }
+          ]
+        },
+        {
+          "id": "d3l2e7",
+          "type": "choice",
+          "prompt": "«Parada» se traduce como...",
+          "options": [
+            "Haltestelle",
+            "Zug",
+            "Bus",
+            "Ticket"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Parada",
+            "t": "Haltestelle"
+          }
+        },
+        {
+          "id": "d3l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ein Ticket nach Berlin",
+          "options": [
+            "Un billete a Berlín",
+            "El tren llega tarde",
+            "¿Dónde está la parada?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Un billete a Berlín",
+            "t": "Ein Ticket nach Berlin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l3",
+      "title": "Direcciones",
+      "goal": "Pedir direcciones",
+      "tip": [
+        "«Links / rechts».",
+        "«Geradeaus» = recto."
+      ],
+      "phrases": [
+        {
+          "es": "Gira a la derecha",
+          "t": "Biegen Sie rechts ab"
+        },
+        {
+          "es": "Sigue recto",
+          "t": "Gehen Sie geradeaus"
+        },
+        {
+          "es": "Está cerca de aquí",
+          "t": "Es ist in der Nähe"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «gira a la derecha»?",
+          "options": [
+            "Biegen Sie rechts ab",
+            "Gehen Sie geradeaus",
+            "Es ist in der Nähe",
+            "Rechts"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gira a la derecha",
+            "t": "Biegen Sie rechts ab"
+          }
+        },
+        {
+          "id": "d3l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Gehen Sie geradeaus",
+          "options": [
+            "Sigue recto",
+            "Está cerca de aquí",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sigue recto",
+            "t": "Gehen Sie geradeaus"
+          }
+        },
+        {
+          "id": "d3l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Es ___ in der Nähe",
+          "options": [
+            "ist",
+            "Rechts",
+            "Links"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está cerca de aquí",
+            "t": "Es ist in der Nähe"
+          }
+        },
+        {
+          "id": "d3l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Gira a la derecha»",
+          "solution": "Biegen Sie rechts ab",
+          "distractors": [
+            "Geradeaus",
+            "Nah"
+          ],
+          "pair": {
+            "es": "Gira a la derecha",
+            "t": "Biegen Sie rechts ab"
+          }
+        },
+        {
+          "id": "d3l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «derecha»",
+          "solution": "Rechts",
+          "accept": [
+            "Rechts",
+            "rechts"
+          ],
+          "pair": {
+            "es": "Derecha",
+            "t": "Rechts"
+          }
+        },
+        {
+          "id": "d3l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Derecha",
+              "t": "Rechts"
+            },
+            {
+              "es": "Izquierda",
+              "t": "Links"
+            },
+            {
+              "es": "Recto",
+              "t": "Geradeaus"
+            }
+          ]
+        },
+        {
+          "id": "d3l3e7",
+          "type": "choice",
+          "prompt": "«Cerca» se traduce como...",
+          "options": [
+            "Nah",
+            "Rechts",
+            "Links",
+            "Geradeaus"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cerca",
+            "t": "Nah"
+          }
+        },
+        {
+          "id": "d3l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Biegen Sie rechts ab",
+          "options": [
+            "Gira a la derecha",
+            "Sigue recto",
+            "Está cerca de aquí"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gira a la derecha",
+            "t": "Biegen Sie rechts ab"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l4",
+      "title": "Hotel",
+      "goal": "En el hotel",
+      "tip": [
+        "«Ich habe eine Reservierung».",
+        "«Der Schlüssel, bitte»."
+      ],
+      "phrases": [
+        {
+          "es": "Tengo una reserva",
+          "t": "Ich habe eine Reservierung"
+        },
+        {
+          "es": "La llave, por favor",
+          "t": "Den Schlüssel, bitte"
+        },
+        {
+          "es": "¿Hay wifi?",
+          "t": "Gibt es WLAN?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «tengo una reserva»?",
+          "options": [
+            "Ich habe eine Reservierung",
+            "Den Schlüssel, bitte",
+            "Gibt es WLAN?",
+            "Zimmer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo una reserva",
+            "t": "Ich habe eine Reservierung"
+          }
+        },
+        {
+          "id": "d3l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Den Schlüssel, bitte",
+          "options": [
+            "La llave, por favor",
+            "¿Hay wifi?",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La llave, por favor",
+            "t": "Den Schlüssel, bitte"
+          }
+        },
+        {
+          "id": "d3l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Gibt ___ WLAN?",
+          "options": [
+            "es",
+            "Zimmer",
+            "Schlüssel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Hay wifi?",
+            "t": "Gibt es WLAN?"
+          }
+        },
+        {
+          "id": "d3l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Tengo una reserva»",
+          "solution": "Ich habe eine Reservierung",
+          "distractors": [
+            "Reservierung",
+            "Rezeption"
+          ],
+          "pair": {
+            "es": "Tengo una reserva",
+            "t": "Ich habe eine Reservierung"
+          }
+        },
+        {
+          "id": "d3l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «habitación»",
+          "solution": "Zimmer",
+          "accept": [
+            "Zimmer",
+            "zimmer"
+          ],
+          "pair": {
+            "es": "Habitación",
+            "t": "Zimmer"
+          }
+        },
+        {
+          "id": "d3l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Habitación",
+              "t": "Zimmer"
+            },
+            {
+              "es": "Llave",
+              "t": "Schlüssel"
+            },
+            {
+              "es": "Reserva",
+              "t": "Reservierung"
+            }
+          ]
+        },
+        {
+          "id": "d3l4e7",
+          "type": "choice",
+          "prompt": "«Recepción» se traduce como...",
+          "options": [
+            "Rezeption",
+            "Zimmer",
+            "Schlüssel",
+            "Reservierung"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Recepción",
+            "t": "Rezeption"
+          }
+        },
+        {
+          "id": "d3l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ich habe eine Reservierung",
+          "options": [
+            "Tengo una reserva",
+            "La llave, por favor",
+            "¿Hay wifi?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo una reserva",
+            "t": "Ich habe eine Reservierung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l5",
+      "title": "Extra Wörter 1",
+      "goal": "Wichtiger Wortschatz",
+      "tip": [
+        "Übe wichtige Wörter."
+      ],
+      "phrases": [
+        {
+          "es": "Brazo",
+          "t": "Arm"
+        },
+        {
+          "es": "Escribir",
+          "t": "Schreiben"
+        },
+        {
+          "es": "Naranja",
+          "t": "Orange"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Brazo»?",
+          "options": [
+            "Arm",
+            "Schreiben",
+            "Orange",
+            "Schneiden"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Brazo",
+            "t": "Arm"
+          }
+        },
+        {
+          "id": "d3l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Schreiben",
+          "options": [
+            "Escribir",
+            "Naranja",
+            "Cortar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Escribir",
+            "t": "Schreiben"
+          }
+        },
+        {
+          "id": "d3l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Orange",
+            "Schneiden",
+            "Nass"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Naranja",
+            "t": "Orange"
+          }
+        },
+        {
+          "id": "d3l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Cortar»",
+          "solution": "Schneiden",
+          "distractors": [
+            "Nass",
+            "Offen"
+          ],
+          "pair": {
+            "es": "Cortar",
+            "t": "Schneiden"
+          }
+        },
+        {
+          "id": "d3l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mojado»",
+          "solution": "Nass",
+          "accept": [
+            "Nass",
+            "nass"
+          ],
+          "pair": {
+            "es": "Mojado",
+            "t": "Nass"
+          }
+        },
+        {
+          "id": "d3l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Abierto",
+              "t": "Offen"
+            },
+            {
+              "es": "Oír",
+              "t": "Hören"
+            },
+            {
+              "es": "Buenos días",
+              "t": "Guten Morgen"
+            }
+          ]
+        },
+        {
+          "id": "d3l5e7",
+          "type": "choice",
+          "prompt": "«Minuto» se traduce como...",
+          "options": [
+            "Minute",
+            "Salat",
+            "Braun",
+            "Bald"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Minuto",
+            "t": "Minute"
+          }
+        },
+        {
+          "id": "d3l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Salat",
+          "options": [
+            "Ensalada",
+            "Marrón",
+            "Pronto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ensalada",
+            "t": "Salat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l6",
+      "title": "Nützliche Sätze 2",
+      "goal": "Alltägliche Sätze",
+      "tip": [
+        "Sprich natürlich."
+      ],
+      "phrases": [
+        {
+          "es": "Cuándo",
+          "t": "Wann"
+        },
+        {
+          "es": "Saber",
+          "t": "Wissen"
+        },
+        {
+          "es": "Muy",
+          "t": "Sehr"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cuándo»?",
+          "options": [
+            "Wann",
+            "Wissen",
+            "Sehr",
+            "Erklären"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuándo",
+            "t": "Wann"
+          }
+        },
+        {
+          "id": "d3l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Wissen",
+          "options": [
+            "Saber",
+            "Muy",
+            "Explicar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Saber",
+            "t": "Wissen"
+          }
+        },
+        {
+          "id": "d3l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Sehr",
+            "Erklären",
+            "Ehemann"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Muy",
+            "t": "Sehr"
+          }
+        },
+        {
+          "id": "d3l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Explicar»",
+          "solution": "Erklären",
+          "distractors": [
+            "Ehemann",
+            "April"
+          ],
+          "pair": {
+            "es": "Explicar",
+            "t": "Erklären"
+          }
+        },
+        {
+          "id": "d3l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «esposo»",
+          "solution": "Ehemann",
+          "accept": [
+            "Ehemann",
+            "ehemann"
+          ],
+          "pair": {
+            "es": "Esposo",
+            "t": "Ehemann"
+          }
+        },
+        {
+          "id": "d3l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Abril",
+              "t": "April"
+            },
+            {
+              "es": "Nada",
+              "t": "Nichts"
+            },
+            {
+              "es": "Color",
+              "t": "Farbe"
+            }
+          ]
+        },
+        {
+          "id": "d3l6e7",
+          "type": "choice",
+          "prompt": "«Cielo» se traduce como...",
+          "options": [
+            "Himmel",
+            "Bald",
+            "Billig",
+            "Film"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cielo",
+            "t": "Himmel"
+          }
+        },
+        {
+          "id": "d3l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Bald",
+          "options": [
+            "Pronto",
+            "Barato",
+            "Película"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pronto",
+            "t": "Bald"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l7",
+      "title": "Wiederholung 3",
+      "goal": "Wiederholung",
+      "tip": [
+        "Festige das Gelernte."
+      ],
+      "phrases": [
+        {
+          "es": "Mil",
+          "t": "Tausend"
+        },
+        {
+          "es": "Cuenta",
+          "t": "Rechnung"
+        },
+        {
+          "es": "Silla",
+          "t": "Stuhl"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Mil»?",
+          "options": [
+            "Tausend",
+            "Rechnung",
+            "Stuhl",
+            "Niedrig"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mil",
+            "t": "Tausend"
+          }
+        },
+        {
+          "id": "d3l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Rechnung",
+          "options": [
+            "Cuenta",
+            "Silla",
+            "Bajo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuenta",
+            "t": "Rechnung"
+          }
+        },
+        {
+          "id": "d3l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Stuhl",
+            "Niedrig",
+            "Hähnchen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Silla",
+            "t": "Stuhl"
+          }
+        },
+        {
+          "id": "d3l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Bajo»",
+          "solution": "Niedrig",
+          "distractors": [
+            "Hähnchen",
+            "Unten"
+          ],
+          "pair": {
+            "es": "Bajo",
+            "t": "Niedrig"
+          }
+        },
+        {
+          "id": "d3l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «pollo»",
+          "solution": "Hähnchen",
+          "accept": [
+            "Hähnchen",
+            "hähnchen"
+          ],
+          "pair": {
+            "es": "Pollo",
+            "t": "Hähnchen"
+          }
+        },
+        {
+          "id": "d3l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Debajo",
+              "t": "Unten"
+            },
+            {
+              "es": "Pescado",
+              "t": "Fisch"
+            },
+            {
+              "es": "Creer",
+              "t": "Glauben"
+            }
+          ]
+        },
+        {
+          "id": "d3l7e7",
+          "type": "choice",
+          "prompt": "«Seguro» se traduce como...",
+          "options": [
+            "Sicher",
+            "Wütend",
+            "Zucker",
+            "Großvater"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Seguro",
+            "t": "Sicher"
+          }
+        },
+        {
+          "id": "d3l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Wütend",
+          "options": [
+            "Enojado",
+            "Azúcar",
+            "Abuelo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enojado",
+            "t": "Wütend"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l8",
+      "title": "Hören 4",
+      "goal": "Hörverständnis",
+      "tip": [
+        "Trainiere dein Ohr."
+      ],
+      "phrases": [
+        {
+          "es": "Aquí",
+          "t": "Hier"
+        },
+        {
+          "es": "Próximo",
+          "t": "Nächster"
+        },
+        {
+          "es": "Nueve",
+          "t": "Neun"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Aquí»?",
+          "options": [
+            "Hier",
+            "Nächster",
+            "Neun",
+            "Flughafen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Aquí",
+            "t": "Hier"
+          }
+        },
+        {
+          "id": "d3l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Nächster",
+          "options": [
+            "Próximo",
+            "Nueve",
+            "Aeropuerto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Próximo",
+            "t": "Nächster"
+          }
+        },
+        {
+          "id": "d3l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Neun",
+            "Flughafen",
+            "Grün"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nueve",
+            "t": "Neun"
+          }
+        },
+        {
+          "id": "d3l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Aeropuerto»",
+          "solution": "Flughafen",
+          "distractors": [
+            "Grün",
+            "Salz"
+          ],
+          "pair": {
+            "es": "Aeropuerto",
+            "t": "Flughafen"
+          }
+        },
+        {
+          "id": "d3l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «verde»",
+          "solution": "Grün",
+          "accept": [
+            "Grün",
+            "grün"
+          ],
+          "pair": {
+            "es": "Verde",
+            "t": "Grün"
+          }
+        },
+        {
+          "id": "d3l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Sal",
+              "t": "Salz"
+            },
+            {
+              "es": "Solo",
+              "t": "Allein"
+            },
+            {
+              "es": "Hija",
+              "t": "Tochter"
+            }
+          ]
+        },
+        {
+          "id": "d3l8e7",
+          "type": "choice",
+          "prompt": "«Taza» se traduce como...",
+          "options": [
+            "Tasse",
+            "Nein",
+            "Krankenschwester",
+            "Bleiben"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Taza",
+            "t": "Tasse"
+          }
+        },
+        {
+          "id": "d3l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Nein",
+          "options": [
+            "No",
+            "Enfermera",
+            "Quedarse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No",
+            "t": "Nein"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l9",
+      "title": "Sprechen 5",
+      "goal": "Sprechen",
+      "tip": [
+        "Baue Vertrauen auf."
+      ],
+      "phrases": [
+        {
+          "es": "Cien",
+          "t": "Hundert"
+        },
+        {
+          "es": "Entre",
+          "t": "Zwischen"
+        },
+        {
+          "es": "Vaciar",
+          "t": "Leeren"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cien»?",
+          "options": [
+            "Hundert",
+            "Zwischen",
+            "Leeren",
+            "Normalerweise"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cien",
+            "t": "Hundert"
+          }
+        },
+        {
+          "id": "d3l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Zwischen",
+          "options": [
+            "Entre",
+            "Vaciar",
+            "Normalmente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entre",
+            "t": "Zwischen"
+          }
+        },
+        {
+          "id": "d3l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Leeren",
+            "Normalerweise",
+            "Braun"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vaciar",
+            "t": "Leeren"
+          }
+        },
+        {
+          "id": "d3l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Normalmente»",
+          "solution": "Normalerweise",
+          "distractors": [
+            "Braun",
+            "Teil"
+          ],
+          "pair": {
+            "es": "Normalmente",
+            "t": "Normalerweise"
+          }
+        },
+        {
+          "id": "d3l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «marrón»",
+          "solution": "Braun",
+          "accept": [
+            "Braun",
+            "braun"
+          ],
+          "pair": {
+            "es": "Marrón",
+            "t": "Braun"
+          }
+        },
+        {
+          "id": "d3l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Parte",
+              "t": "Teil"
+            },
+            {
+              "es": "¿Cómo estás?",
+              "t": "Wie geht's?"
+            },
+            {
+              "es": "Cinco",
+              "t": "Fünf"
+            }
+          ]
+        },
+        {
+          "id": "d3l9e7",
+          "type": "choice",
+          "prompt": "«Seguir» se traduce como...",
+          "options": [
+            "Folgen",
+            "Endlich",
+            "April",
+            "Besonders"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Seguir",
+            "t": "Folgen"
+          }
+        },
+        {
+          "id": "d3l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Endlich",
+          "options": [
+            "Finalmente",
+            "Abril",
+            "Especial"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Finalmente",
+            "t": "Endlich"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3l10",
+      "title": "Echtes Leben 6",
+      "goal": "Reale Situationen",
+      "tip": [
+        "Nutze die Sprache im Kontext."
+      ],
+      "phrases": [
+        {
+          "es": "Perro",
+          "t": "Hund"
+        },
+        {
+          "es": "Puerta",
+          "t": "Tür"
+        },
+        {
+          "es": "Bienvenido",
+          "t": "Willkommen"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d3l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Perro»?",
+          "options": [
+            "Hund",
+            "Tür",
+            "Willkommen",
+            "Arbeit"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Perro",
+            "t": "Hund"
+          }
+        },
+        {
+          "id": "d3l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Tür",
+          "options": [
+            "Puerta",
+            "Bienvenido",
+            "Trabajo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Puerta",
+            "t": "Tür"
+          }
+        },
+        {
+          "id": "d3l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Willkommen",
+            "Arbeit",
+            "August"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bienvenido",
+            "t": "Willkommen"
+          }
+        },
+        {
+          "id": "d3l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Trabajo»",
+          "solution": "Arbeit",
+          "distractors": [
+            "August",
+            "Hören"
+          ],
+          "pair": {
+            "es": "Trabajo",
+            "t": "Arbeit"
+          }
+        },
+        {
+          "id": "d3l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «agosto»",
+          "solution": "August",
+          "accept": [
+            "August",
+            "august"
+          ],
+          "pair": {
+            "es": "Agosto",
+            "t": "August"
+          }
+        },
+        {
+          "id": "d3l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Oír",
+              "t": "Hören"
+            },
+            {
+              "es": "Vivir",
+              "t": "Leben"
+            },
+            {
+              "es": "Noche",
+              "t": "Abend"
+            }
+          ]
+        },
+        {
+          "id": "d3l10e7",
+          "type": "choice",
+          "prompt": "«Huevo» se traduce como...",
+          "options": [
+            "Ei",
+            "Draußen",
+            "Morgen",
+            "Schlecht"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Huevo",
+            "t": "Ei"
+          }
+        },
+        {
+          "id": "d3l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Draußen",
+          "options": [
+            "Fuera",
+            "Mañana",
+            "Malo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fuera",
+            "t": "Draußen"
+          }
+        }
+      ]
+    }
+  ]
+}

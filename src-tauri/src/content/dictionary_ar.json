@@ -1,0 +1,2614 @@
+[
+  {
+    "id": "ar-greet",
+    "title": "Saludos",
+    "emoji": "👋",
+    "words": [
+      {
+        "t": "مرحبًا (marhaban)",
+        "es": "Hola",
+        "pos": "phr"
+      },
+      {
+        "t": "السلام عليكم (as-salāmu ʿalaykum)",
+        "es": "La paz sea contigo",
+        "pos": "phr"
+      },
+      {
+        "t": "وعليكم السلام (wa ʿalaykum as-salām)",
+        "es": "Y contigo la paz",
+        "pos": "phr"
+      },
+      {
+        "t": "صباح الخير (ṣabāḥ al-khayr)",
+        "es": "Buenos días",
+        "pos": "phr"
+      },
+      {
+        "t": "مساء الخير (masāʾ al-khayr)",
+        "es": "Buenas tardes/noches",
+        "pos": "phr"
+      },
+      {
+        "t": "مع السلامة (maʿa as-salāma)",
+        "es": "Adiós",
+        "pos": "phr"
+      },
+      {
+        "t": "شكرًا (shukran)",
+        "es": "Gracias",
+        "pos": "phr"
+      },
+      {
+        "t": "شكرًا جزيلًا (shukran jazīlan)",
+        "es": "Muchas gracias",
+        "pos": "phr"
+      },
+      {
+        "t": "عفوًا (ʿafwan)",
+        "es": "De nada",
+        "pos": "phr"
+      },
+      {
+        "t": "من فضلك (min faḍlik)",
+        "es": "Por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "آسف (āsif)",
+        "es": "Lo siento",
+        "pos": "phr"
+      },
+      {
+        "t": "نعم (naʿam)",
+        "es": "Sí",
+        "pos": "adv"
+      },
+      {
+        "t": "لا (lā)",
+        "es": "No",
+        "pos": "adv"
+      },
+      {
+        "t": "كيف حالك؟ (kayfa ḥāluka?)",
+        "es": "¿Cómo estás?",
+        "pos": "phr"
+      },
+      {
+        "t": "أنا بخير (anā bikhayr)",
+        "es": "Estoy bien",
+        "pos": "phr"
+      },
+      {
+        "t": "ما اسمك؟ (mā ismuka?)",
+        "es": "¿Cómo te llamas?",
+        "pos": "phr"
+      },
+      {
+        "t": "اسمي... (ismī...)",
+        "es": "Me llamo...",
+        "pos": "phr"
+      },
+      {
+        "t": "تشرفنا (tasharrafnā)",
+        "es": "Encantado",
+        "pos": "phr"
+      },
+      {
+        "t": "أهلاً وسهلاً (ahlan wa sahlan)",
+        "es": "Bienvenido",
+        "pos": "phr"
+      },
+      {
+        "t": "إلى اللقاء (ilā al-liqāʾ)",
+        "es": "Hasta luego",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "ar-people",
+    "title": "Personas",
+    "emoji": "👤",
+    "words": [
+      {
+        "t": "رجل (rajul)",
+        "es": "Hombre",
+        "pos": "n"
+      },
+      {
+        "t": "امرأة (imraʾa)",
+        "es": "Mujer",
+        "pos": "n"
+      },
+      {
+        "t": "ولد (walad)",
+        "es": "Chico/Niño",
+        "pos": "n"
+      },
+      {
+        "t": "بنت (bint)",
+        "es": "Chica/Niña",
+        "pos": "n"
+      },
+      {
+        "t": "طفل (ṭifl)",
+        "es": "Niño/a",
+        "pos": "n"
+      },
+      {
+        "t": "صديق (ṣadīq)",
+        "es": "Amigo",
+        "pos": "n"
+      },
+      {
+        "t": "صديقة (ṣadīqa)",
+        "es": "Amiga",
+        "pos": "n"
+      },
+      {
+        "t": "عائلة (ʿāʾila)",
+        "es": "Familia",
+        "pos": "n"
+      },
+      {
+        "t": "أم (umm)",
+        "es": "Madre",
+        "pos": "n"
+      },
+      {
+        "t": "أب (ab)",
+        "es": "Padre",
+        "pos": "n"
+      },
+      {
+        "t": "أخ (akh)",
+        "es": "Hermano",
+        "pos": "n"
+      },
+      {
+        "t": "أخت (ukht)",
+        "es": "Hermana",
+        "pos": "n"
+      },
+      {
+        "t": "ابن (ibn)",
+        "es": "Hijo",
+        "pos": "n"
+      },
+      {
+        "t": "ابنة (ibna)",
+        "es": "Hija",
+        "pos": "n"
+      },
+      {
+        "t": "زوج (zawj)",
+        "es": "Esposo",
+        "pos": "n"
+      },
+      {
+        "t": "زوجة (zawja)",
+        "es": "Esposa",
+        "pos": "n"
+      },
+      {
+        "t": "أهل (ahl)",
+        "es": "Familia/Padres",
+        "pos": "n"
+      },
+      {
+        "t": "جد (jadd)",
+        "es": "Abuelo",
+        "pos": "n"
+      },
+      {
+        "t": "جدة (jadda)",
+        "es": "Abuela",
+        "pos": "n"
+      },
+      {
+        "t": "شخص (shakhṣ)",
+        "es": "Persona",
+        "pos": "n"
+      },
+      {
+        "t": "ناس (nās)",
+        "es": "Gente",
+        "pos": "n"
+      },
+      {
+        "t": "اسم (ism)",
+        "es": "Nombre",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-food",
+    "title": "Comida",
+    "emoji": "🍽️",
+    "words": [
+      {
+        "t": "ماء (māʾ)",
+        "es": "Agua",
+        "pos": "n"
+      },
+      {
+        "t": "خبز (khubz)",
+        "es": "Pan",
+        "pos": "n"
+      },
+      {
+        "t": "جبن (jubn)",
+        "es": "Queso",
+        "pos": "n"
+      },
+      {
+        "t": "لحم (laḥm)",
+        "es": "Carne",
+        "pos": "n"
+      },
+      {
+        "t": "دجاج (dajāj)",
+        "es": "Pollo",
+        "pos": "n"
+      },
+      {
+        "t": "سمك (samak)",
+        "es": "Pescado",
+        "pos": "n"
+      },
+      {
+        "t": "أرز (aruzz)",
+        "es": "Arroz",
+        "pos": "n"
+      },
+      {
+        "t": "بيض (bayḍ)",
+        "es": "Huevo",
+        "pos": "n"
+      },
+      {
+        "t": "فاكهة (fākiha)",
+        "es": "Fruta",
+        "pos": "n"
+      },
+      {
+        "t": "خضار (khuḍār)",
+        "es": "Verdura",
+        "pos": "n"
+      },
+      {
+        "t": "حليب (ḥalīb)",
+        "es": "Leche",
+        "pos": "n"
+      },
+      {
+        "t": "قهوة (qahwa)",
+        "es": "Café",
+        "pos": "n"
+      },
+      {
+        "t": "شاي (shāy)",
+        "es": "Té",
+        "pos": "n"
+      },
+      {
+        "t": "سكر (sukkar)",
+        "es": "Azúcar",
+        "pos": "n"
+      },
+      {
+        "t": "ملح (milḥ)",
+        "es": "Sal",
+        "pos": "n"
+      },
+      {
+        "t": "شوربة (shūrba)",
+        "es": "Sopa",
+        "pos": "n"
+      },
+      {
+        "t": "سلطة (salaṭa)",
+        "es": "Ensalada",
+        "pos": "n"
+      },
+      {
+        "t": "فطور (fuṭūr)",
+        "es": "Desayuno",
+        "pos": "n"
+      },
+      {
+        "t": "غداء (ghadāʾ)",
+        "es": "Almuerzo",
+        "pos": "n"
+      },
+      {
+        "t": "عشاء (ʿashāʾ)",
+        "es": "Cena",
+        "pos": "n"
+      },
+      {
+        "t": "مطعم (maṭʿam)",
+        "es": "Restaurante",
+        "pos": "n"
+      },
+      {
+        "t": "قائمة (qāʾima)",
+        "es": "Menú",
+        "pos": "n"
+      },
+      {
+        "t": "حساب (ḥisāb)",
+        "es": "Cuenta",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-city",
+    "title": "Ciudad y viaje",
+    "emoji": "🏙️",
+    "words": [
+      {
+        "t": "مدينة (madīna)",
+        "es": "Ciudad",
+        "pos": "n"
+      },
+      {
+        "t": "شارع (shāriʿ)",
+        "es": "Calle",
+        "pos": "n"
+      },
+      {
+        "t": "بيت (bayt)",
+        "es": "Casa",
+        "pos": "n"
+      },
+      {
+        "t": "فندق (funduq)",
+        "es": "Hotel",
+        "pos": "n"
+      },
+      {
+        "t": "محطة (maḥaṭṭa)",
+        "es": "Estación",
+        "pos": "n"
+      },
+      {
+        "t": "مطار (maṭār)",
+        "es": "Aeropuerto",
+        "pos": "n"
+      },
+      {
+        "t": "سوق (sūq)",
+        "es": "Mercado/Tienda",
+        "pos": "n"
+      },
+      {
+        "t": "بنك (bank)",
+        "es": "Banco",
+        "pos": "n"
+      },
+      {
+        "t": "صيدلية (ṣaydaliyya)",
+        "es": "Farmacia",
+        "pos": "n"
+      },
+      {
+        "t": "مستشفى (mustashfā)",
+        "es": "Hospital",
+        "pos": "n"
+      },
+      {
+        "t": "مدرسة (madrasa)",
+        "es": "Escuela",
+        "pos": "n"
+      },
+      {
+        "t": "حديقة (ḥadīqa)",
+        "es": "Parque",
+        "pos": "n"
+      },
+      {
+        "t": "جسر (jisr)",
+        "es": "Puente",
+        "pos": "n"
+      },
+      {
+        "t": "سيارة (sayyāra)",
+        "es": "Coche",
+        "pos": "n"
+      },
+      {
+        "t": "حافلة (ḥāfila)",
+        "es": "Autobús",
+        "pos": "n"
+      },
+      {
+        "t": "قطار (qiṭār)",
+        "es": "Tren",
+        "pos": "n"
+      },
+      {
+        "t": "طائرة (ṭāʾira)",
+        "es": "Avión",
+        "pos": "n"
+      },
+      {
+        "t": "تذكرة (tadhkara)",
+        "es": "Boleto",
+        "pos": "n"
+      },
+      {
+        "t": "جواز سفر (jawāz safar)",
+        "es": "Pasaporte",
+        "pos": "n"
+      },
+      {
+        "t": "خريطة (kharīṭa)",
+        "es": "Mapa",
+        "pos": "n"
+      },
+      {
+        "t": "حقيبة (ḥaqība)",
+        "es": "Bolso/Maleta",
+        "pos": "n"
+      },
+      {
+        "t": "يمين (yamīn)",
+        "es": "Derecha",
+        "pos": "n"
+      },
+      {
+        "t": "يسار (yasār)",
+        "es": "Izquierda",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-home",
+    "title": "Casa",
+    "emoji": "🏠",
+    "words": [
+      {
+        "t": "غرفة (ghurfa)",
+        "es": "Habitación",
+        "pos": "n"
+      },
+      {
+        "t": "مطبخ (maṭbakh)",
+        "es": "Cocina",
+        "pos": "n"
+      },
+      {
+        "t": "حمام (ḥammām)",
+        "es": "Baño",
+        "pos": "n"
+      },
+      {
+        "t": "طاولة (ṭāwila)",
+        "es": "Mesa",
+        "pos": "n"
+      },
+      {
+        "t": "كرسي (kursī)",
+        "es": "Silla",
+        "pos": "n"
+      },
+      {
+        "t": "سرير (sarīr)",
+        "es": "Cama",
+        "pos": "n"
+      },
+      {
+        "t": "باب (bāb)",
+        "es": "Puerta",
+        "pos": "n"
+      },
+      {
+        "t": "نافذة (nāfidha)",
+        "es": "Ventana",
+        "pos": "n"
+      },
+      {
+        "t": "مفتاح (miftāḥ)",
+        "es": "Llave",
+        "pos": "n"
+      },
+      {
+        "t": "هاتف (hātif)",
+        "es": "Teléfono",
+        "pos": "n"
+      },
+      {
+        "t": "حاسوب (ḥāsūb)",
+        "es": "Computadora",
+        "pos": "n"
+      },
+      {
+        "t": "كتاب (kitāb)",
+        "es": "Libro",
+        "pos": "n"
+      },
+      {
+        "t": "ملابس (malābis)",
+        "es": "Ropa",
+        "pos": "n"
+      },
+      {
+        "t": "قميص (qamīṣ)",
+        "es": "Camisa",
+        "pos": "n"
+      },
+      {
+        "t": "بنطال (binṭāl)",
+        "es": "Pantalones",
+        "pos": "n"
+      },
+      {
+        "t": "حذاء (ḥidhāʾ)",
+        "es": "Zapato",
+        "pos": "n"
+      },
+      {
+        "t": "فستان (fustān)",
+        "es": "Vestido",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-nature",
+    "title": "Naturaleza",
+    "emoji": "🌿",
+    "words": [
+      {
+        "t": "شمس (shams)",
+        "es": "Sol",
+        "pos": "n"
+      },
+      {
+        "t": "قمر (qamar)",
+        "es": "Luna",
+        "pos": "n"
+      },
+      {
+        "t": "سماء (samāʾ)",
+        "es": "Cielo",
+        "pos": "n"
+      },
+      {
+        "t": "بحر (baḥr)",
+        "es": "Mar",
+        "pos": "n"
+      },
+      {
+        "t": "جبل (jabal)",
+        "es": "Montaña",
+        "pos": "n"
+      },
+      {
+        "t": "نهر (nahr)",
+        "es": "Río",
+        "pos": "n"
+      },
+      {
+        "t": "شجرة (shajara)",
+        "es": "Árbol",
+        "pos": "n"
+      },
+      {
+        "t": "زهرة (zahra)",
+        "es": "Flor",
+        "pos": "n"
+      },
+      {
+        "t": "مطر (maṭar)",
+        "es": "Lluvia",
+        "pos": "n"
+      },
+      {
+        "t": "ريح (rīḥ)",
+        "es": "Viento",
+        "pos": "n"
+      },
+      {
+        "t": "ثلج (thalj)",
+        "es": "Nieve",
+        "pos": "n"
+      },
+      {
+        "t": "نار (nār)",
+        "es": "Fuego",
+        "pos": "n"
+      },
+      {
+        "t": "كلب (kalb)",
+        "es": "Perro",
+        "pos": "n"
+      },
+      {
+        "t": "قطة (qiṭṭa)",
+        "es": "Gato",
+        "pos": "n"
+      },
+      {
+        "t": "طائر (ṭāʾir)",
+        "es": "Pájaro",
+        "pos": "n"
+      },
+      {
+        "t": "حيوان (ḥayawān)",
+        "es": "Animal",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-body",
+    "title": "Cuerpo",
+    "emoji": "🫀",
+    "words": [
+      {
+        "t": "جسم (jism)",
+        "es": "Cuerpo",
+        "pos": "n"
+      },
+      {
+        "t": "رأس (raʾs)",
+        "es": "Cabeza",
+        "pos": "n"
+      },
+      {
+        "t": "يد (yad)",
+        "es": "Mano",
+        "pos": "n"
+      },
+      {
+        "t": "عين (ʿayn)",
+        "es": "Ojo",
+        "pos": "n"
+      },
+      {
+        "t": "فم (fam)",
+        "es": "Boca",
+        "pos": "n"
+      },
+      {
+        "t": "قلب (qalb)",
+        "es": "Corazón",
+        "pos": "n"
+      },
+      {
+        "t": "وجه (wajh)",
+        "es": "Cara",
+        "pos": "n"
+      },
+      {
+        "t": "شعر (shaʿr)",
+        "es": "Cabello",
+        "pos": "n"
+      },
+      {
+        "t": "قدم (qadam)",
+        "es": "Pie",
+        "pos": "n"
+      },
+      {
+        "t": "ذراع (dhirāʿ)",
+        "es": "Brazo",
+        "pos": "n"
+      },
+      {
+        "t": "ساق (sāq)",
+        "es": "Pierna",
+        "pos": "n"
+      },
+      {
+        "t": "أنف (anf)",
+        "es": "Nariz",
+        "pos": "n"
+      },
+      {
+        "t": "أذن (udhun)",
+        "es": "Oreja",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-time",
+    "title": "Tiempo",
+    "emoji": "⏰",
+    "words": [
+      {
+        "t": "يوم (yawm)",
+        "es": "Día",
+        "pos": "n"
+      },
+      {
+        "t": "أسبوع (usbūʿ)",
+        "es": "Semana",
+        "pos": "n"
+      },
+      {
+        "t": "شهر (shahr)",
+        "es": "Mes",
+        "pos": "n"
+      },
+      {
+        "t": "سنة (sana)",
+        "es": "Año",
+        "pos": "n"
+      },
+      {
+        "t": "ساعة (sāʿa)",
+        "es": "Hora",
+        "pos": "n"
+      },
+      {
+        "t": "دقيقة (daqīqa)",
+        "es": "Minuto",
+        "pos": "n"
+      },
+      {
+        "t": "اليوم (al-yawm)",
+        "es": "Hoy",
+        "pos": "adv"
+      },
+      {
+        "t": "غدًا (ghadan)",
+        "es": "Mañana",
+        "pos": "adv"
+      },
+      {
+        "t": "أمس (ams)",
+        "es": "Ayer",
+        "pos": "adv"
+      },
+      {
+        "t": "الآن (al-ān)",
+        "es": "Ahora",
+        "pos": "adv"
+      },
+      {
+        "t": "مبكرًا (mubakkiran)",
+        "es": "Temprano",
+        "pos": "adv"
+      },
+      {
+        "t": "متأخرًا (mutaʾakhkhiran)",
+        "es": "Tarde",
+        "pos": "adv"
+      },
+      {
+        "t": "صباح (ṣabāḥ)",
+        "es": "Mañana (día)",
+        "pos": "n"
+      },
+      {
+        "t": "بعد الظهر (baʿd al-ẓuhr)",
+        "es": "Tarde",
+        "pos": "n"
+      },
+      {
+        "t": "مساء (masāʾ)",
+        "es": "Noche",
+        "pos": "n"
+      },
+      {
+        "t": "ليل (layl)",
+        "es": "Noche",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-numbers",
+    "title": "Números",
+    "emoji": "🔢",
+    "words": [
+      {
+        "t": "صفر (ṣifr)",
+        "es": "Cero",
+        "pos": "n"
+      },
+      {
+        "t": "واحد (wāḥid)",
+        "es": "Uno",
+        "pos": "n"
+      },
+      {
+        "t": "اثنان (ithnān)",
+        "es": "Dos",
+        "pos": "n"
+      },
+      {
+        "t": "ثلاثة (thalātha)",
+        "es": "Tres",
+        "pos": "n"
+      },
+      {
+        "t": "أربعة (arbaʿa)",
+        "es": "Cuatro",
+        "pos": "n"
+      },
+      {
+        "t": "خمسة (khamsa)",
+        "es": "Cinco",
+        "pos": "n"
+      },
+      {
+        "t": "ستة (sitta)",
+        "es": "Seis",
+        "pos": "n"
+      },
+      {
+        "t": "سبعة (sabʿa)",
+        "es": "Siete",
+        "pos": "n"
+      },
+      {
+        "t": "ثمانية (thamāniya)",
+        "es": "Ocho",
+        "pos": "n"
+      },
+      {
+        "t": "تسعة (tisʿa)",
+        "es": "Nueve",
+        "pos": "n"
+      },
+      {
+        "t": "عشرة (ʿashara)",
+        "es": "Diez",
+        "pos": "n"
+      },
+      {
+        "t": "عشرون (ʿishrūn)",
+        "es": "Veinte",
+        "pos": "n"
+      },
+      {
+        "t": "مئة (miʾa)",
+        "es": "Cien",
+        "pos": "n"
+      },
+      {
+        "t": "ألف (alf)",
+        "es": "Mil",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-colors",
+    "title": "Colores",
+    "emoji": "🎨",
+    "words": [
+      {
+        "t": "لون (lawn)",
+        "es": "Color",
+        "pos": "n"
+      },
+      {
+        "t": "أحمر (aḥmar)",
+        "es": "Rojo",
+        "pos": "adj"
+      },
+      {
+        "t": "أزرق (azraq)",
+        "es": "Azul",
+        "pos": "adj"
+      },
+      {
+        "t": "أخضر (akhḍar)",
+        "es": "Verde",
+        "pos": "adj"
+      },
+      {
+        "t": "أصفر (aṣfar)",
+        "es": "Amarillo",
+        "pos": "adj"
+      },
+      {
+        "t": "أسود (aswad)",
+        "es": "Negro",
+        "pos": "adj"
+      },
+      {
+        "t": "أبيض (abyaḍ)",
+        "es": "Blanco",
+        "pos": "adj"
+      },
+      {
+        "t": "رمادي (ramādī)",
+        "es": "Gris",
+        "pos": "adj"
+      },
+      {
+        "t": "بني (bunnī)",
+        "es": "Marrón",
+        "pos": "adj"
+      },
+      {
+        "t": "برتقالي (burtuqālī)",
+        "es": "Naranja",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "ar-verbs",
+    "title": "Verbos comunes",
+    "emoji": "⚡",
+    "words": [
+      {
+        "t": "كان (kāna)",
+        "es": "Ser/Estar",
+        "pos": "v"
+      },
+      {
+        "t": "عند (ʿinda)",
+        "es": "Tener (haber en)",
+        "pos": "v"
+      },
+      {
+        "t": "فعل (faʿala)",
+        "es": "Hacer",
+        "pos": "v"
+      },
+      {
+        "t": "ذهب (dhahaba)",
+        "es": "Ir",
+        "pos": "v"
+      },
+      {
+        "t": "جاء (jāʾa)",
+        "es": "Venir",
+        "pos": "v"
+      },
+      {
+        "t": "أراد (arāda)",
+        "es": "Querer",
+        "pos": "v"
+      },
+      {
+        "t": "استطاع (istaṭāʿa)",
+        "es": "Poder",
+        "pos": "v"
+      },
+      {
+        "t": "قال (qāla)",
+        "es": "Decir",
+        "pos": "v"
+      },
+      {
+        "t": "رأى (raʾā)",
+        "es": "Ver",
+        "pos": "v"
+      },
+      {
+        "t": "عرف (ʿarafa)",
+        "es": "Saber/Conocer",
+        "pos": "v"
+      },
+      {
+        "t": "أعطى (aʿṭā)",
+        "es": "Dar",
+        "pos": "v"
+      },
+      {
+        "t": "أكل (akala)",
+        "es": "Comer",
+        "pos": "v"
+      },
+      {
+        "t": "شرب (shariba)",
+        "es": "Beber",
+        "pos": "v"
+      },
+      {
+        "t": "نام (nāma)",
+        "es": "Dormir",
+        "pos": "v"
+      },
+      {
+        "t": "تكلم (takallama)",
+        "es": "Hablar",
+        "pos": "v"
+      },
+      {
+        "t": "فهم (fahima)",
+        "es": "Entender",
+        "pos": "v"
+      },
+      {
+        "t": "عمل (ʿamila)",
+        "es": "Trabajar",
+        "pos": "v"
+      },
+      {
+        "t": "درس (darasa)",
+        "es": "Estudiar",
+        "pos": "v"
+      },
+      {
+        "t": "عاش (ʿāsha)",
+        "es": "Vivir",
+        "pos": "v"
+      },
+      {
+        "t": "اشترى (ishtarā)",
+        "es": "Comprar",
+        "pos": "v"
+      },
+      {
+        "t": "دفع (dafaʿa)",
+        "es": "Pagar",
+        "pos": "v"
+      },
+      {
+        "t": "فتح (fataḥa)",
+        "es": "Abrir",
+        "pos": "v"
+      },
+      {
+        "t": "أغلق (aghlaqa)",
+        "es": "Cerrar",
+        "pos": "v"
+      },
+      {
+        "t": "كتب (kataba)",
+        "es": "Escribir",
+        "pos": "v"
+      },
+      {
+        "t": "قرأ (qaraʾa)",
+        "es": "Leer",
+        "pos": "v"
+      },
+      {
+        "t": "اتصل (ittaṣala)",
+        "es": "Llamar",
+        "pos": "v"
+      },
+      {
+        "t": "انتظر (intaẓara)",
+        "es": "Esperar",
+        "pos": "v"
+      },
+      {
+        "t": "وجد (wajada)",
+        "es": "Encontrar",
+        "pos": "v"
+      },
+      {
+        "t": "فكر (fakkara)",
+        "es": "Pensar",
+        "pos": "v"
+      },
+      {
+        "t": "أحب (aḥabba)",
+        "es": "Amar/Gustar",
+        "pos": "v"
+      },
+      {
+        "t": "نظر (naẓara)",
+        "es": "Mirar",
+        "pos": "v"
+      },
+      {
+        "t": "دخل (dakhala)",
+        "es": "Entrar",
+        "pos": "v"
+      },
+      {
+        "t": "خرج (kharaja)",
+        "es": "Salir",
+        "pos": "v"
+      },
+      {
+        "t": "وصل (waṣala)",
+        "es": "Llegar",
+        "pos": "v"
+      },
+      {
+        "t": "غادر (ghādara)",
+        "es": "Partir/Salir",
+        "pos": "v"
+      },
+      {
+        "t": "أخذ (akhadha)",
+        "es": "Tomar",
+        "pos": "v"
+      },
+      {
+        "t": "وضع (waḍaʿa)",
+        "es": "Poner",
+        "pos": "v"
+      },
+      {
+        "t": "ترك (taraka)",
+        "es": "Dejar",
+        "pos": "v"
+      },
+      {
+        "t": "سأل (saʾala)",
+        "es": "Preguntar",
+        "pos": "v"
+      }
+    ]
+  },
+  {
+    "id": "ar-adj",
+    "title": "Adjetivos comunes",
+    "emoji": "✨",
+    "words": [
+      {
+        "t": "جيد (jayyid)",
+        "es": "Bueno",
+        "pos": "adj"
+      },
+      {
+        "t": "سيئ (sayyiʾ)",
+        "es": "Malo",
+        "pos": "adj"
+      },
+      {
+        "t": "كبير (kabīr)",
+        "es": "Grande",
+        "pos": "adj"
+      },
+      {
+        "t": "صغير (ṣaghīr)",
+        "es": "Pequeño",
+        "pos": "adj"
+      },
+      {
+        "t": "جديد (jadīd)",
+        "es": "Nuevo",
+        "pos": "adj"
+      },
+      {
+        "t": "قديم (qadīm)",
+        "es": "Viejo",
+        "pos": "adj"
+      },
+      {
+        "t": "جميل (jamīl)",
+        "es": "Bonito",
+        "pos": "adj"
+      },
+      {
+        "t": "سهل (sahl)",
+        "es": "Fácil",
+        "pos": "adj"
+      },
+      {
+        "t": "صعب (ṣaʿb)",
+        "es": "Difícil",
+        "pos": "adj"
+      },
+      {
+        "t": "مهم (muhimm)",
+        "es": "Importante",
+        "pos": "adj"
+      },
+      {
+        "t": "سريع (sarīʿ)",
+        "es": "Rápido",
+        "pos": "adj"
+      },
+      {
+        "t": "بطيء (baṭīʾ)",
+        "es": "Lento",
+        "pos": "adj"
+      },
+      {
+        "t": "حار (ḥārr)",
+        "es": "Caliente",
+        "pos": "adj"
+      },
+      {
+        "t": "بارد (bārid)",
+        "es": "Frío",
+        "pos": "adj"
+      },
+      {
+        "t": "سعيد (saʿīd)",
+        "es": "Feliz",
+        "pos": "adj"
+      },
+      {
+        "t": "حزين (ḥazīn)",
+        "es": "Triste",
+        "pos": "adj"
+      },
+      {
+        "t": "تعبان (taʿbān)",
+        "es": "Cansado",
+        "pos": "adj"
+      },
+      {
+        "t": "مريض (marīḍ)",
+        "es": "Enfermo",
+        "pos": "adj"
+      },
+      {
+        "t": "ممتلئ (mumtaliʾ)",
+        "es": "Lleno",
+        "pos": "adj"
+      },
+      {
+        "t": "فارغ (fārigh)",
+        "es": "Vacío",
+        "pos": "adj"
+      },
+      {
+        "t": "نظيف (naẓīf)",
+        "es": "Limpio",
+        "pos": "adj"
+      },
+      {
+        "t": "قذر (qadhir)",
+        "es": "Sucio",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "ar-adv",
+    "title": "Adverbios y conectores",
+    "emoji": "🔗",
+    "words": [
+      {
+        "t": "جداً (jiddan)",
+        "es": "Muy",
+        "pos": "adv"
+      },
+      {
+        "t": "أيضًا (ayḍan)",
+        "es": "También",
+        "pos": "adv"
+      },
+      {
+        "t": "دائمًا (dāʾiman)",
+        "es": "Siempre",
+        "pos": "adv"
+      },
+      {
+        "t": "أبدًا (abadan)",
+        "es": "Nunca",
+        "pos": "adv"
+      },
+      {
+        "t": "غالبًا (ghāliban)",
+        "es": "A menudo",
+        "pos": "adv"
+      },
+      {
+        "t": "أحيانًا (aḥyānan)",
+        "es": "A veces",
+        "pos": "adv"
+      },
+      {
+        "t": "هنا (hunā)",
+        "es": "Aquí",
+        "pos": "adv"
+      },
+      {
+        "t": "هناك (hunāk)",
+        "es": "Allí",
+        "pos": "adv"
+      },
+      {
+        "t": "جيدًا (jayyidan)",
+        "es": "Bien",
+        "pos": "adv"
+      },
+      {
+        "t": "كثيرًا (kathīran)",
+        "es": "Mucho",
+        "pos": "adv"
+      },
+      {
+        "t": "قليلًا (qalīlan)",
+        "es": "Poco",
+        "pos": "adv"
+      },
+      {
+        "t": "معًا (maʿan)",
+        "es": "Juntos",
+        "pos": "adv"
+      },
+      {
+        "t": "لكن (lākin)",
+        "es": "Pero",
+        "pos": "adv"
+      },
+      {
+        "t": "و (wa)",
+        "es": "Y",
+        "pos": "adv"
+      },
+      {
+        "t": "أو (aw)",
+        "es": "O",
+        "pos": "adv"
+      },
+      {
+        "t": "لأن (liʾanna)",
+        "es": "Porque",
+        "pos": "adv"
+      },
+      {
+        "t": "متى (matā)",
+        "es": "Cuándo",
+        "pos": "adv"
+      },
+      {
+        "t": "أين (ayna)",
+        "es": "Dónde",
+        "pos": "adv"
+      },
+      {
+        "t": "كيف (kayfa)",
+        "es": "Cómo",
+        "pos": "adv"
+      },
+      {
+        "t": "لماذا (limādhā)",
+        "es": "Por qué",
+        "pos": "adv"
+      },
+      {
+        "t": "من (man)",
+        "es": "Quién",
+        "pos": "adv"
+      },
+      {
+        "t": "ماذا (mādhā)",
+        "es": "Qué",
+        "pos": "adv"
+      },
+      {
+        "t": "مع (maʿa)",
+        "es": "Con",
+        "pos": "adv"
+      },
+      {
+        "t": "بدون (bidūn)",
+        "es": "Sin",
+        "pos": "adv"
+      },
+      {
+        "t": "في (fī)",
+        "es": "En",
+        "pos": "adv"
+      },
+      {
+        "t": "إلى (ilā)",
+        "es": "A/Hacia",
+        "pos": "adv"
+      }
+    ]
+  },
+  {
+    "id": "ar-phrases",
+    "title": "Frases útiles",
+    "emoji": "💬",
+    "words": [
+      {
+        "t": "لا أفهم (lā afham)",
+        "es": "No entiendo",
+        "pos": "phr"
+      },
+      {
+        "t": "هل يمكنك التكرار؟ (hal yumkinuk at-takrār?)",
+        "es": "¿Puedes repetir?",
+        "pos": "phr"
+      },
+      {
+        "t": "هل تتكلم الإنجليزية؟ (hal tatakallam al-inglīziyya?)",
+        "es": "¿Hablas inglés?",
+        "pos": "phr"
+      },
+      {
+        "t": "أتكلم قليلًا من العربية (atakallam qalīlan min al-ʿarabiyya)",
+        "es": "Hablo un poco de árabe",
+        "pos": "phr"
+      },
+      {
+        "t": "كم السعر؟ (kam as-siʿr?)",
+        "es": "¿Cuánto cuesta?",
+        "pos": "phr"
+      },
+      {
+        "t": "أين الحمام؟ (ayna al-ḥammām?)",
+        "es": "¿Dónde está el baño?",
+        "pos": "phr"
+      },
+      {
+        "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
+        "es": "¿Puedes ayudarme?",
+        "pos": "phr"
+      },
+      {
+        "t": "أحتاج مساعدة (aḥtāj musāʿada)",
+        "es": "Necesito ayuda",
+        "pos": "phr"
+      },
+      {
+        "t": "لا أعرف (lā aʿrif)",
+        "es": "No lo sé",
+        "pos": "phr"
+      },
+      {
+        "t": "حسنًا (ḥasanan)",
+        "es": "Está bien",
+        "pos": "phr"
+      },
+      {
+        "t": "بالطبع (biṭ-ṭabʿ)",
+        "es": "Por supuesto",
+        "pos": "phr"
+      },
+      {
+        "t": "ربما (rubbamā)",
+        "es": "Quizás",
+        "pos": "phr"
+      },
+      {
+        "t": "لا بأس (lā baʾs)",
+        "es": "No pasa nada",
+        "pos": "phr"
+      },
+      {
+        "t": "أنا آسف (anā āsif)",
+        "es": "Lo siento",
+        "pos": "phr"
+      },
+      {
+        "t": "حظًا سعيدًا (ḥaẓẓan saʿīdan)",
+        "es": "Buena suerte",
+        "pos": "phr"
+      },
+      {
+        "t": "بالهناء والشفاء (bil-hanāʾ wash-shifāʾ)",
+        "es": "Buen provecho",
+        "pos": "phr"
+      },
+      {
+        "t": "أين أنا؟ (ayna anā?)",
+        "es": "¿Dónde estoy?",
+        "pos": "phr"
+      },
+      {
+        "t": "أنا ضائع (anā ḍāʾiʿ)",
+        "es": "Estoy perdido",
+        "pos": "phr"
+      },
+      {
+        "t": "أحبك (uḥibbuk)",
+        "es": "Te quiero",
+        "pos": "phr"
+      },
+      {
+        "t": "ما شاء الله (mā shāʾ Allāh)",
+        "es": "¡Qué maravilloso!",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "ar-common",
+    "title": "Palabras más usadas",
+    "emoji": "⭐",
+    "words": [
+      {
+        "t": "أنا (anā)",
+        "es": "Yo",
+        "pos": "n"
+      },
+      {
+        "t": "أنت (anta)",
+        "es": "Tú (m)",
+        "pos": "n"
+      },
+      {
+        "t": "أنتِ (anti)",
+        "es": "Tú (f)",
+        "pos": "n"
+      },
+      {
+        "t": "هو (huwa)",
+        "es": "Él",
+        "pos": "n"
+      },
+      {
+        "t": "هي (hiya)",
+        "es": "Ella",
+        "pos": "n"
+      },
+      {
+        "t": "نحن (naḥnu)",
+        "es": "Nosotros",
+        "pos": "n"
+      },
+      {
+        "t": "هم (hum)",
+        "es": "Ellos",
+        "pos": "n"
+      },
+      {
+        "t": "هذا (hādhā)",
+        "es": "Esto (m)",
+        "pos": "n"
+      },
+      {
+        "t": "هذه (hādhihi)",
+        "es": "Esta (f)",
+        "pos": "n"
+      },
+      {
+        "t": "ذلك (dhālika)",
+        "es": "Eso",
+        "pos": "n"
+      },
+      {
+        "t": "هؤلاء (hāʾulāʾ)",
+        "es": "Estos",
+        "pos": "n"
+      },
+      {
+        "t": "شيء (shayʾ)",
+        "es": "Cosa/Algo",
+        "pos": "n"
+      },
+      {
+        "t": "كل (kull)",
+        "es": "Todo/Cada",
+        "pos": "adj"
+      },
+      {
+        "t": "بعض (baʿḍ)",
+        "es": "Algunos",
+        "pos": "adj"
+      },
+      {
+        "t": "آخر (ākhar)",
+        "es": "Otro",
+        "pos": "adj"
+      },
+      {
+        "t": "نفس (nafs)",
+        "es": "Mismo",
+        "pos": "adj"
+      },
+      {
+        "t": "وقت (waqt)",
+        "es": "Tiempo",
+        "pos": "n"
+      },
+      {
+        "t": "مرة (marra)",
+        "es": "Vez",
+        "pos": "n"
+      },
+      {
+        "t": "عالم (ʿālam)",
+        "es": "Mundo",
+        "pos": "n"
+      },
+      {
+        "t": "حياة (ḥayāh)",
+        "es": "Vida",
+        "pos": "n"
+      },
+      {
+        "t": "مكان (makān)",
+        "es": "Lugar",
+        "pos": "n"
+      },
+      {
+        "t": "بلد (balad)",
+        "es": "País",
+        "pos": "n"
+      },
+      {
+        "t": "عمل (ʿamal)",
+        "es": "Trabajo",
+        "pos": "n"
+      },
+      {
+        "t": "مال (māl)",
+        "es": "Dinero",
+        "pos": "n"
+      },
+      {
+        "t": "رقم (raqm)",
+        "es": "Número",
+        "pos": "n"
+      },
+      {
+        "t": "سؤال (suʾāl)",
+        "es": "Pregunta",
+        "pos": "n"
+      },
+      {
+        "t": "جواب (jawāb)",
+        "es": "Respuesta",
+        "pos": "n"
+      },
+      {
+        "t": "مشكلة (mushkila)",
+        "es": "Problema",
+        "pos": "n"
+      },
+      {
+        "t": "فكرة (fikra)",
+        "es": "Idea",
+        "pos": "n"
+      },
+      {
+        "t": "قصة (qiṣṣa)",
+        "es": "Historia",
+        "pos": "n"
+      },
+      {
+        "t": "كلمة (kalima)",
+        "es": "Palabra",
+        "pos": "n"
+      },
+      {
+        "t": "جزء (juzʾ)",
+        "es": "Parte",
+        "pos": "n"
+      },
+      {
+        "t": "مجموعة (majmūʿa)",
+        "es": "Grupo",
+        "pos": "n"
+      },
+      {
+        "t": "بدأ (badaʾa)",
+        "es": "Empezar",
+        "pos": "v"
+      },
+      {
+        "t": "انتهى (intahā)",
+        "es": "Terminar",
+        "pos": "v"
+      },
+      {
+        "t": "استمر (istamarra)",
+        "es": "Continuar",
+        "pos": "v"
+      },
+      {
+        "t": "غير (ghayyara)",
+        "es": "Cambiar",
+        "pos": "v"
+      },
+      {
+        "t": "استخدم (istakhdama)",
+        "es": "Usar",
+        "pos": "v"
+      },
+      {
+        "t": "حاول (ḥāwala)",
+        "es": "Intentar",
+        "pos": "v"
+      },
+      {
+        "t": "أظهر (aẓhara)",
+        "es": "Mostrar",
+        "pos": "v"
+      },
+      {
+        "t": "لعب (laʿiba)",
+        "es": "Jugar",
+        "pos": "v"
+      },
+      {
+        "t": "ركض (rakaḍa)",
+        "es": "Correr",
+        "pos": "v"
+      },
+      {
+        "t": "مشى (mashā)",
+        "es": "Caminar",
+        "pos": "v"
+      },
+      {
+        "t": "سبح (sabaḥa)",
+        "es": "Nadar",
+        "pos": "v"
+      },
+      {
+        "t": "غنى (ghannā)",
+        "es": "Cantar",
+        "pos": "v"
+      },
+      {
+        "t": "رقص (raqaṣa)",
+        "es": "Bailar",
+        "pos": "v"
+      },
+      {
+        "t": "طبخ (ṭabakha)",
+        "es": "Cocinar",
+        "pos": "v"
+      },
+      {
+        "t": "نظف (naẓẓafa)",
+        "es": "Limpiar",
+        "pos": "v"
+      },
+      {
+        "t": "غسل (ghasala)",
+        "es": "Lavar",
+        "pos": "v"
+      },
+      {
+        "t": "ساعد (sāʿada)",
+        "es": "Ayudar",
+        "pos": "v"
+      },
+      {
+        "t": "تعلم (taʿallama)",
+        "es": "Aprender",
+        "pos": "v"
+      },
+      {
+        "t": "علّم (ʿallama)",
+        "es": "Enseñar",
+        "pos": "v"
+      },
+      {
+        "t": "نسي (nasiya)",
+        "es": "Olvidar",
+        "pos": "v"
+      },
+      {
+        "t": "خسر (khasira)",
+        "es": "Perder",
+        "pos": "v"
+      },
+      {
+        "t": "ربح (rabiḥa)",
+        "es": "Ganar",
+        "pos": "v"
+      },
+      {
+        "t": "اختار (ikhtāra)",
+        "es": "Elegir",
+        "pos": "v"
+      },
+      {
+        "t": "قرر (qarrara)",
+        "es": "Decidir",
+        "pos": "v"
+      },
+      {
+        "t": "صدق (ṣaddaqa)",
+        "es": "Creer",
+        "pos": "v"
+      },
+      {
+        "t": "تبع (tabiʿa)",
+        "es": "Seguir",
+        "pos": "v"
+      },
+      {
+        "t": "حمل (ḥamala)",
+        "es": "Llevar/Cargar",
+        "pos": "v"
+      },
+      {
+        "t": "أرسل (arsala)",
+        "es": "Enviar",
+        "pos": "v"
+      },
+      {
+        "t": "استلم (istalama)",
+        "es": "Recibir",
+        "pos": "v"
+      },
+      {
+        "t": "بنى (banā)",
+        "es": "Construir",
+        "pos": "v"
+      },
+      {
+        "t": "كسر (kasara)",
+        "es": "Romper",
+        "pos": "v"
+      },
+      {
+        "t": "قطع (qaṭaʿa)",
+        "es": "Cortar",
+        "pos": "v"
+      },
+      {
+        "t": "قاد (qāda)",
+        "es": "Conducir",
+        "pos": "v"
+      },
+      {
+        "t": "سافر (sāfara)",
+        "es": "Viajar",
+        "pos": "v"
+      },
+      {
+        "t": "سقط (saqaṭa)",
+        "es": "Caer",
+        "pos": "v"
+      },
+      {
+        "t": "صعد (ṣaʿida)",
+        "es": "Subir",
+        "pos": "v"
+      },
+      {
+        "t": "نزل (nazala)",
+        "es": "Bajar",
+        "pos": "v"
+      },
+      {
+        "t": "ولد (wulida)",
+        "es": "Nacer",
+        "pos": "v"
+      },
+      {
+        "t": "مات (māta)",
+        "es": "Morir",
+        "pos": "v"
+      },
+      {
+        "t": "كبر (kabura)",
+        "es": "Crecer",
+        "pos": "v"
+      },
+      {
+        "t": "أصبح (aṣbaḥa)",
+        "es": "Convertirse",
+        "pos": "v"
+      },
+      {
+        "t": "بقي (baqiya)",
+        "es": "Quedarse",
+        "pos": "v"
+      },
+      {
+        "t": "سمح (samaḥa)",
+        "es": "Permitir",
+        "pos": "v"
+      },
+      {
+        "t": "أضاف (aḍāfa)",
+        "es": "Añadir",
+        "pos": "v"
+      },
+      {
+        "t": "حسّن (ḥassana)",
+        "es": "Mejorar",
+        "pos": "v"
+      },
+      {
+        "t": "شرح (sharaḥa)",
+        "es": "Explicar",
+        "pos": "v"
+      },
+      {
+        "t": "حكى (ḥakā)",
+        "es": "Contar",
+        "pos": "v"
+      },
+      {
+        "t": "عرض (ʿaraḍa)",
+        "es": "Ofrecer",
+        "pos": "v"
+      },
+      {
+        "t": "قبل (qabila)",
+        "es": "Aceptar",
+        "pos": "v"
+      },
+      {
+        "t": "رفض (rafaḍa)",
+        "es": "Rechazar",
+        "pos": "v"
+      },
+      {
+        "t": "ضحك (ḍaḥika)",
+        "es": "Reír",
+        "pos": "v"
+      },
+      {
+        "t": "بكى (bakā)",
+        "es": "Llorar",
+        "pos": "v"
+      },
+      {
+        "t": "حلم (ḥalama)",
+        "es": "Soñar",
+        "pos": "v"
+      },
+      {
+        "t": "أمل (amala)",
+        "es": "Esperar/Desear",
+        "pos": "v"
+      },
+      {
+        "t": "أول (awwal)",
+        "es": "Primero",
+        "pos": "adj"
+      },
+      {
+        "t": "أخير (akhīr)",
+        "es": "Último",
+        "pos": "adj"
+      },
+      {
+        "t": "قادم (qādim)",
+        "es": "Próximo",
+        "pos": "adj"
+      },
+      {
+        "t": "وحيد (waḥīd)",
+        "es": "Solo/Único",
+        "pos": "adj"
+      },
+      {
+        "t": "آمن (āmin)",
+        "es": "Seguro",
+        "pos": "adj"
+      },
+      {
+        "t": "حر (ḥurr)",
+        "es": "Libre",
+        "pos": "adj"
+      },
+      {
+        "t": "مشغول (mashghūl)",
+        "es": "Ocupado",
+        "pos": "adj"
+      },
+      {
+        "t": "جاهز (jāhiz)",
+        "es": "Listo",
+        "pos": "adj"
+      },
+      {
+        "t": "قريب (qarīb)",
+        "es": "Cerca",
+        "pos": "adj"
+      },
+      {
+        "t": "بعيد (baʿīd)",
+        "es": "Lejos",
+        "pos": "adj"
+      },
+      {
+        "t": "عالي (ʿālī)",
+        "es": "Alto",
+        "pos": "adj"
+      },
+      {
+        "t": "منخفض (munkhafiḍ)",
+        "es": "Bajo",
+        "pos": "adj"
+      },
+      {
+        "t": "طويل (ṭawīl)",
+        "es": "Largo/Alto",
+        "pos": "adj"
+      },
+      {
+        "t": "قصير (qaṣīr)",
+        "es": "Corto",
+        "pos": "adj"
+      },
+      {
+        "t": "قوي (qawī)",
+        "es": "Fuerte",
+        "pos": "adj"
+      },
+      {
+        "t": "ضعيف (ḍaʿīf)",
+        "es": "Débil",
+        "pos": "adj"
+      },
+      {
+        "t": "غني (ghanī)",
+        "es": "Rico",
+        "pos": "adj"
+      },
+      {
+        "t": "فقير (faqīr)",
+        "es": "Pobre",
+        "pos": "adj"
+      },
+      {
+        "t": "مفتوح (maftūḥ)",
+        "es": "Abierto",
+        "pos": "adj"
+      },
+      {
+        "t": "مغلق (mughlaq)",
+        "es": "Cerrado",
+        "pos": "adj"
+      },
+      {
+        "t": "صحيح (ṣaḥīḥ)",
+        "es": "Verdadero/Correcto",
+        "pos": "adj"
+      },
+      {
+        "t": "خطأ (khaṭaʾ)",
+        "es": "Incorrecto",
+        "pos": "adj"
+      },
+      {
+        "t": "بسيط (basīṭ)",
+        "es": "Simple",
+        "pos": "adj"
+      },
+      {
+        "t": "ضروري (ḍarūrī)",
+        "es": "Necesario",
+        "pos": "adj"
+      },
+      {
+        "t": "خاص (khāṣṣ)",
+        "es": "Especial",
+        "pos": "adj"
+      },
+      {
+        "t": "عادي (ʿādī)",
+        "es": "Normal",
+        "pos": "adj"
+      },
+      {
+        "t": "مختلف (mukhtalif)",
+        "es": "Diferente",
+        "pos": "adj"
+      },
+      {
+        "t": "متشابه (mutashābih)",
+        "es": "Similar",
+        "pos": "adj"
+      },
+      {
+        "t": "عام (ʿāmm)",
+        "es": "Público/General",
+        "pos": "adj"
+      },
+      {
+        "t": "قريبًا (qarīban)",
+        "es": "Pronto",
+        "pos": "adv"
+      },
+      {
+        "t": "تقريبًا (taqrīban)",
+        "es": "Casi",
+        "pos": "adv"
+      },
+      {
+        "t": "حقًا (ḥaqqan)",
+        "es": "De verdad",
+        "pos": "adv"
+      },
+      {
+        "t": "خاصة (khāṣṣatan)",
+        "es": "Especialmente",
+        "pos": "adv"
+      },
+      {
+        "t": "عادة (ʿādatan)",
+        "es": "Normalmente",
+        "pos": "adv"
+      },
+      {
+        "t": "أخيرًا (akhīran)",
+        "es": "Finalmente",
+        "pos": "adv"
+      },
+      {
+        "t": "فوق (fawq)",
+        "es": "Encima",
+        "pos": "adv"
+      },
+      {
+        "t": "تحت (taḥt)",
+        "es": "Debajo",
+        "pos": "adv"
+      },
+      {
+        "t": "داخل (dākhil)",
+        "es": "Dentro",
+        "pos": "adv"
+      },
+      {
+        "t": "خارج (khārij)",
+        "es": "Fuera",
+        "pos": "adv"
+      },
+      {
+        "t": "أمام (amām)",
+        "es": "Delante",
+        "pos": "adv"
+      },
+      {
+        "t": "خلف (khalf)",
+        "es": "Detrás",
+        "pos": "adv"
+      },
+      {
+        "t": "حول (ḥawl)",
+        "es": "Alrededor",
+        "pos": "adv"
+      },
+      {
+        "t": "بين (bayna)",
+        "es": "Entre",
+        "pos": "adv"
+      },
+      {
+        "t": "الاثنين (al-ithnayn)",
+        "es": "Lunes",
+        "pos": "n"
+      },
+      {
+        "t": "الثلاثاء (ath-thulāthāʾ)",
+        "es": "Martes",
+        "pos": "n"
+      },
+      {
+        "t": "الأربعاء (al-arbiʿāʾ)",
+        "es": "Miércoles",
+        "pos": "n"
+      },
+      {
+        "t": "الخميس (al-khamīs)",
+        "es": "Jueves",
+        "pos": "n"
+      },
+      {
+        "t": "الجمعة (al-jumʿa)",
+        "es": "Viernes",
+        "pos": "n"
+      },
+      {
+        "t": "السبت (as-sabt)",
+        "es": "Sábado",
+        "pos": "n"
+      },
+      {
+        "t": "الأحد (al-aḥad)",
+        "es": "Domingo",
+        "pos": "n"
+      },
+      {
+        "t": "يناير (yanāyir)",
+        "es": "Enero",
+        "pos": "n"
+      },
+      {
+        "t": "فبراير (fibrāyir)",
+        "es": "Febrero",
+        "pos": "n"
+      },
+      {
+        "t": "مارس (māris)",
+        "es": "Marzo",
+        "pos": "n"
+      },
+      {
+        "t": "أبريل (abrīl)",
+        "es": "Abril",
+        "pos": "n"
+      },
+      {
+        "t": "مايو (māyū)",
+        "es": "Mayo",
+        "pos": "n"
+      },
+      {
+        "t": "يونيو (yūniyū)",
+        "es": "Junio",
+        "pos": "n"
+      },
+      {
+        "t": "يوليو (yūliyū)",
+        "es": "Julio",
+        "pos": "n"
+      },
+      {
+        "t": "أغسطس (aghusṭus)",
+        "es": "Agosto",
+        "pos": "n"
+      },
+      {
+        "t": "سبتمبر (sibtambar)",
+        "es": "Septiembre",
+        "pos": "n"
+      },
+      {
+        "t": "أكتوبر (uktūbar)",
+        "es": "Octubre",
+        "pos": "n"
+      },
+      {
+        "t": "نوفمبر (nūfambar)",
+        "es": "Noviembre",
+        "pos": "n"
+      },
+      {
+        "t": "ديسمبر (dīsambar)",
+        "es": "Diciembre",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "ar-extra",
+    "title": "Más vocabulario",
+    "emoji": "➕",
+    "words": [
+      {
+        "t": "ظهر (ẓuhr)",
+        "es": "Mediodía",
+        "pos": "n"
+      },
+      {
+        "t": "لاحقًا (lāḥiqan)",
+        "es": "Más tarde",
+        "pos": "adv"
+      },
+      {
+        "t": "دائما (dāʾiman)",
+        "es": "Siempre",
+        "pos": "adv"
+      },
+      {
+        "t": "يمينًا (yamīnan)",
+        "es": "A la derecha",
+        "pos": "adv"
+      },
+      {
+        "t": "يسارًا (yasāran)",
+        "es": "A la izquierda",
+        "pos": "adv"
+      },
+      {
+        "t": "قبيح (qabīḥ)",
+        "es": "Feo",
+        "pos": "adj"
+      },
+      {
+        "t": "غاضب (ghāḍib)",
+        "es": "Enojado",
+        "pos": "adj"
+      },
+      {
+        "t": "خائف (khāʾif)",
+        "es": "Asustado",
+        "pos": "adj"
+      },
+      {
+        "t": "جائع (jāʾiʿ)",
+        "es": "Hambriento",
+        "pos": "adj"
+      },
+      {
+        "t": "عطشان (ʿaṭshān)",
+        "es": "Sediento",
+        "pos": "adj"
+      },
+      {
+        "t": "تعب (taʿib)",
+        "es": "Cansado",
+        "pos": "adj"
+      },
+      {
+        "t": "ساخن (sākhin)",
+        "es": "Caliente",
+        "pos": "adj"
+      },
+      {
+        "t": "وسخ (wasikh)",
+        "es": "Sucio",
+        "pos": "adj"
+      },
+      {
+        "t": "غالي (ghālī)",
+        "es": "Caro",
+        "pos": "adj"
+      },
+      {
+        "t": "رخيص (rakhīṣ)",
+        "es": "Barato",
+        "pos": "adj"
+      },
+      {
+        "t": "أحب (uḥibb)",
+        "es": "Amar",
+        "pos": "v"
+      },
+      {
+        "t": "أكره (akrah)",
+        "es": "Odiar",
+        "pos": "v"
+      },
+      {
+        "t": "أريد (urīd)",
+        "es": "Quiero",
+        "pos": "v"
+      },
+      {
+        "t": "أحتاج (aḥtāj)",
+        "es": "Necesito",
+        "pos": "v"
+      },
+      {
+        "t": "أستطيع (astaṭīʿ)",
+        "es": "Puedo",
+        "pos": "v"
+      },
+      {
+        "t": "يجب (yajibu)",
+        "es": "Debe",
+        "pos": "v"
+      },
+      {
+        "t": "أعرف (aʿrif)",
+        "es": "Sé/Conozco",
+        "pos": "v"
+      },
+      {
+        "t": "أظن (aẓunn)",
+        "es": "Creo/Pienso",
+        "pos": "v"
+      },
+      {
+        "t": "أتذكر (atadhakkar)",
+        "es": "Recuerdo",
+        "pos": "v"
+      },
+      {
+        "t": "أنسى (ansā)",
+        "es": "Olvido",
+        "pos": "v"
+      },
+      {
+        "t": "أفتح (aftaḥ)",
+        "es": "Abro",
+        "pos": "v"
+      },
+      {
+        "t": "أغلق (ughliq)",
+        "es": "Cierro",
+        "pos": "v"
+      },
+      {
+        "t": "أبدأ (abdaʾ)",
+        "es": "Empiezo",
+        "pos": "v"
+      },
+      {
+        "t": "أنهي (unhī)",
+        "es": "Termino",
+        "pos": "v"
+      },
+      {
+        "t": "أشتري (ashtarī)",
+        "es": "Compro",
+        "pos": "v"
+      },
+      {
+        "t": "أبيع (abīʿ)",
+        "es": "Vendo",
+        "pos": "v"
+      },
+      {
+        "t": "أدفع (adfaʿ)",
+        "es": "Pago",
+        "pos": "v"
+      },
+      {
+        "t": "أكلف (ukallif)",
+        "es": "Cuesta",
+        "pos": "v"
+      },
+      {
+        "t": "أجلس (ajlis)",
+        "es": "Me siento",
+        "pos": "v"
+      },
+      {
+        "t": "أقف (aqif)",
+        "es": "Me paro",
+        "pos": "v"
+      },
+      {
+        "t": "أنام (anām)",
+        "es": "Duermo",
+        "pos": "v"
+      },
+      {
+        "t": "أستيقظ (astaīqiẓ)",
+        "es": "Me despierto",
+        "pos": "v"
+      },
+      {
+        "t": "أسافر (usāfir)",
+        "es": "Viajo",
+        "pos": "v"
+      },
+      {
+        "t": "أزور (azūr)",
+        "es": "Visito",
+        "pos": "v"
+      },
+      {
+        "t": "أعود (aʿūd)",
+        "es": "Regreso",
+        "pos": "v"
+      },
+      {
+        "t": "أصل (aṣil)",
+        "es": "Llego",
+        "pos": "v"
+      },
+      {
+        "t": "أطبخ (aṭbukh)",
+        "es": "Cocino",
+        "pos": "v"
+      },
+      {
+        "t": "أنظف (unaẓẓif)",
+        "es": "Limpio",
+        "pos": "v"
+      },
+      {
+        "t": "أغسل (aghsil)",
+        "es": "Lavo",
+        "pos": "v"
+      },
+      {
+        "t": "أسأل (asʾal)",
+        "es": "Pregunto",
+        "pos": "v"
+      },
+      {
+        "t": "أجيب (ujīb)",
+        "es": "Respondo",
+        "pos": "v"
+      },
+      {
+        "t": "أتكلم (atakallam)",
+        "es": "Hablo",
+        "pos": "v"
+      },
+      {
+        "t": "أستمع (astamiʿ)",
+        "es": "Escucho",
+        "pos": "v"
+      },
+      {
+        "t": "طعام (ṭaʿām)",
+        "es": "Comida",
+        "pos": "n"
+      },
+      {
+        "t": "شراب (sharāb)",
+        "es": "Bebida",
+        "pos": "n"
+      },
+      {
+        "t": "متجر (matjar)",
+        "es": "Tienda",
+        "pos": "n"
+      },
+      {
+        "t": "دراجة (darrāja)",
+        "es": "Bicicleta",
+        "pos": "n"
+      },
+      {
+        "t": "قرية (qarya)",
+        "es": "Pueblo",
+        "pos": "n"
+      },
+      {
+        "t": "دولة (dawla)",
+        "es": "Estado/País",
+        "pos": "n"
+      },
+      {
+        "t": "جامعة (jāmiʿa)",
+        "es": "Universidad",
+        "pos": "n"
+      },
+      {
+        "t": "معلم (muʿallim)",
+        "es": "Profesor",
+        "pos": "n"
+      },
+      {
+        "t": "طالب (ṭālib)",
+        "es": "Estudiante",
+        "pos": "n"
+      },
+      {
+        "t": "مكتب (maktab)",
+        "es": "Oficina",
+        "pos": "n"
+      },
+      {
+        "t": "وظيفة (waẓīfa)",
+        "es": "Empleo",
+        "pos": "n"
+      },
+      {
+        "t": "اجتماع (ijtimāʿ)",
+        "es": "Reunión",
+        "pos": "n"
+      },
+      {
+        "t": "رسالة (risāla)",
+        "es": "Mensaje",
+        "pos": "n"
+      },
+      {
+        "t": "بريد إلكتروني (barīd iliktrūnī)",
+        "es": "Correo electrónico",
+        "pos": "n"
+      },
+      {
+        "t": "إنترنت (intarnet)",
+        "es": "Internet",
+        "pos": "n"
+      },
+      {
+        "t": "أغنية (ughniya)",
+        "es": "Canción",
+        "pos": "n"
+      },
+      {
+        "t": "فيلم (film)",
+        "es": "Película",
+        "pos": "n"
+      },
+      {
+        "t": "لعبة (luʿba)",
+        "es": "Juego",
+        "pos": "n"
+      },
+      {
+        "t": "رياضة (riyāḍa)",
+        "es": "Deporte",
+        "pos": "n"
+      },
+      {
+        "t": "صباح الخير مرة أخرى (ṣabāḥ al-khayr marra ukhrā)",
+        "es": "Buenos días otra vez",
+        "pos": "phr"
+      },
+      {
+        "t": "معك حق (maʿak ḥaqq)",
+        "es": "Tienes razón",
+        "pos": "phr"
+      },
+      {
+        "t": "أنا موافق (anā muwāfiq)",
+        "es": "Estoy de acuerdo",
+        "pos": "phr"
+      }
+    ]
+  }
+]

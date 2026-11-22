@@ -14,7 +14,7 @@ import type {
 } from "./types";
 import { api, buildFlashExercises, buildReview, poolOf } from "./api";
 import { DEFAULT_LANG, langOf } from "./lib/langs";
-import { getAudioMode, markActivated, setAudioMode, setVoiceLanguage, warmUpVoices, type AudioMode } from "./lib/audio";
+import { markActivated, setVoiceLanguage, warmUpVoices } from "./lib/audio";
 import { t as tr, useUiLang } from "./i18n";
 import { open as fileOpen, save as fileSave } from "@tauri-apps/plugin-dialog";
 import Home from "./screens/Home";
@@ -53,7 +53,6 @@ export default function App() {
   const [dueSoon, setDueSoon] = useState<SrsCard[] | null>(null);
   const [lang, setLang] = useState(DEFAULT_LANG);
   const [switching, setSwitching] = useState<string | null>(null);
-  const [audioMode, setAudioModeState] = useState<AudioMode>(getAudioMode());
 
   // Bienvenida: solo en primer uso (nunca se repite).
   useEffect(() => {
@@ -105,10 +104,6 @@ export default function App() {
   useEffect(() => {
     setVoiceLanguage(lang);
   }, [lang]);
-
-  useEffect(() => {
-    setAudioMode(audioMode);
-  }, [audioMode]);
 
   async function refreshProgress() {
     try {
@@ -213,15 +208,19 @@ export default function App() {
 
   function toggleDeckCard(card: Phrase) {
     const key = (p: Phrase) => `${p.es.toLowerCase()}|${p.t.toLowerCase()}`;
-    const idx = deck.findIndex((p) => key(p) === key(card));
-    const d = [...deck];
-    if (idx >= 0) d.splice(idx, 1);
-    else d.push(card);
-    setDeck(d);
+    let rollback: Phrase[] = [];
+    setDeck((prev) => {
+      rollback = prev;
+      const idx = prev.findIndex((p) => key(p) === key(card));
+      const d = [...prev];
+      if (idx >= 0) d.splice(idx, 1);
+      else d.push(card);
+      return d;
+    });
     api
       .toggleDeck(card)
       .then((persist) => setDeck(persist))
-      .catch(() => setDeck(deck));
+      .catch(() => setDeck(rollback));
     void refreshProgress();
   }
 
@@ -233,13 +232,24 @@ export default function App() {
 
   function addAllToDeck(words: Phrase[]) {
     if (!words.length) return;
-    const d = [...deck];
-    for (const w of words) d.push(w);
-    setDeck(d);
+    const key = (p: Phrase) => `${p.es.toLowerCase()}|${p.t.toLowerCase()}`;
+    let rollback: Phrase[] = [];
+    setDeck((prev) => {
+      rollback = prev;
+      const seen = new Set(prev.map(key));
+      const d = [...prev];
+      for (const w of words) {
+        const k = key(w);
+        if (seen.has(k)) continue;
+        seen.add(k);
+        d.push(w);
+      }
+      return d;
+    });
     api
       .addDeckMany(words)
       .then((persist) => setDeck(persist))
-      .catch(() => setDeck(deck));
+      .catch(() => setDeck(rollback));
     void refreshProgress();
   }
 
@@ -309,7 +319,7 @@ export default function App() {
   if (error && !units) {
     return (
       <div className="app">
-        <div className="screen splash">
+        <div className="screen splash splash-error">
           <BrandMark size={84} />
           <p className="tag">{tr("app.something_went_wrong")}</p>
           <p className="error-text">{error}</p>
@@ -324,17 +334,8 @@ export default function App() {
   if (!units || !progress || !langs.length) {
     return (
       <div className="app">
-        <div className="screen splash">
-          <BrandMark size={96} />
-          <h1 className="brand">
-            Tua<span>Lingua</span>
-          </h1>
-          <p className="tag">{tr("app.tagline")}</p>
-          <div className="dots">
-            <i />
-            <i />
-            <i />
-          </div>
+        <div className="screen splash splash-intro" aria-label="TuaLingua">
+          <img src="/intro.gif" alt="" className="splash-gif" draggable={false} />
         </div>
       </div>
     );
@@ -402,12 +403,15 @@ export default function App() {
             }}
             onToggle={toggleDeckCard}
             onClear={() => {
-              const d = [...deck];
-              setDeck([]);
+              let rollback: Phrase[] = [];
+              setDeck((prev) => {
+                rollback = prev;
+                return [];
+              });
               api
                 .clearDeck()
                 .then((persist) => setDeck(persist))
-                .catch(() => setDeck(d));
+                .catch(() => setDeck(rollback));
               void refreshProgress();
             }}
             onAddAll={addAllToDeck}
@@ -501,8 +505,6 @@ export default function App() {
             units={units}
             progress={progress}
             dueSoon={dueSoon}
-            audioMode={audioMode}
-            onAudioMode={(mode) => setAudioModeState(mode)}
             onClose={() => {
               setStatsOpen(false);
               void refreshProgress();

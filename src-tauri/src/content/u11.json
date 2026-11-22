@@ -1,6 +1,6 @@
 {
   "id": "u11",
-  "title": "Medio ambiente",
+  "title": "Environment",
   "emoji": "🌱",
   "color": "#66BB44",
   "lessons": [
@@ -14,18 +14,135 @@
         "«By» marca la fecha límite: By 2050, we will have reduced emissions."
       ],
       "phrases": [
-        { "es": "En 2030 viviré en otra ciudad", "t": "By 2030 I will be living in another city" },
-        { "es": "Para el viernes habré terminado el proyecto", "t": "By Friday I will have finished the project" },
-        { "es": "Mañana a esta hora estaré volando a Roma", "t": "This time tomorrow I will be flying to Rome" }
+        {
+          "es": "En 2030 viviré en otra ciudad",
+          "t": "By 2030 I will be living in another city"
+        },
+        {
+          "es": "Para el viernes habré terminado el proyecto",
+          "t": "By Friday I will have finished the project"
+        },
+        {
+          "es": "Mañana a esta hora estaré volando a Roma",
+          "t": "This time tomorrow I will be flying to Rome"
+        }
       ],
       "exercises": [
-        { "id": "u11l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "By next year, I ___ have finished my degree.", "options": ["will", "would", "am"], "answer": 0, "pair": { "es": "Para el año que viene, habré terminado mi carrera.", "t": "By next year, I will have finished my degree." }, "explain": "Futuro perfecto: will have + participio." },
-        { "id": "u11l1e2", "type": "choice", "prompt": "This time tomorrow I ___ flying to Berlin.", "options": ["will be", "will have", "will"], "answer": 0, "pair": { "es": "Mañana a esta hora estaré volando a Berlín.", "t": "This time tomorrow I will be flying to Berlin." }, "explain": "Acción en curso en el futuro: will be + -ing." },
-        { "id": "u11l1e3", "type": "build", "prompt": "Traduce: «Para 2050 habremos reducido las emisiones»", "solution": "By 2050 we will have reduced emissions", "distractors": ["until", "reducing"], "pair": { "es": "Para 2050 habremos reducido las emisiones", "t": "By 2050 we will have reduced emissions" } },
-        { "id": "u11l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "By 2040, electric cars will have replaced diesel.", "options": ["Para 2040, los coches eléctricos habrán sustituido al diésel.", "En 2040 los coches eléctricos sustituyeron al diésel.", "Los coches eléctricos están sustituyendo al diésel."], "answer": 0, "pair": { "es": "Para 2040, los coches eléctricos habrán sustituido al diésel.", "t": "By 2040, electric cars will have replaced diesel." } },
-        { "id": "u11l1e5", "type": "type", "prompt": "Escribe «para (antes de)» en frases de futuro", "solution": "by", "accept": ["by"], "pair": { "es": "Para (antes de)", "t": "By" } },
-        { "id": "u11l1e6", "type": "choice", "prompt": "Don't call at 8 — we ___ be having dinner.", "options": ["will", "would", "have"], "answer": 0, "pair": { "es": "No llames a las 8: estaremos cenando.", "t": "Don't call at 8 — we will be having dinner." }, "explain": "will be having = estaremos cenando." },
-        { "id": "u11l1e7", "type": "match", "prompt": "Empareja las estructuras de futuro", "pairs": [{ "es": "Para (fecha límite)", "t": "By" }, { "es": "En curso en el futuro", "t": "Will be + -ing" }, { "es": "Completado en el futuro", "t": "Will have + participle" }, { "es": "Mañana a esta hora", "t": "This time tomorrow" }] }
+        {
+          "id": "u11l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "By next year, I ___ have finished my degree.",
+          "options": [
+            "will",
+            "would",
+            "am"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Para el año que viene, habré terminado mi carrera.",
+            "t": "By next year, I will have finished my degree."
+          },
+          "explain": "Futuro perfecto: will have + participio."
+        },
+        {
+          "id": "u11l1e2",
+          "type": "choice",
+          "prompt": "This time tomorrow I ___ flying to Berlin.",
+          "options": [
+            "will be",
+            "will have",
+            "will"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mañana a esta hora estaré volando a Berlín.",
+            "t": "This time tomorrow I will be flying to Berlin."
+          },
+          "explain": "Acción en curso en el futuro: will be + -ing."
+        },
+        {
+          "id": "u11l1e3",
+          "type": "build",
+          "prompt": "Traduce: «Para 2050 habremos reducido las emisiones»",
+          "solution": "By 2050 we will have reduced emissions",
+          "distractors": [
+            "until",
+            "reducing"
+          ],
+          "pair": {
+            "es": "Para 2050 habremos reducido las emisiones",
+            "t": "By 2050 we will have reduced emissions"
+          }
+        },
+        {
+          "id": "u11l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "By 2040, electric cars will have replaced diesel.",
+          "options": [
+            "Para 2040, los coches eléctricos habrán sustituido al diésel.",
+            "En 2040 los coches eléctricos sustituyeron al diésel.",
+            "Los coches eléctricos están sustituyendo al diésel."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Para 2040, los coches eléctricos habrán sustituido al diésel.",
+            "t": "By 2040, electric cars will have replaced diesel."
+          }
+        },
+        {
+          "id": "u11l1e5",
+          "type": "type",
+          "prompt": "Escribe «para (antes de)» en frases de futuro",
+          "solution": "By",
+          "accept": [
+            "by"
+          ],
+          "pair": {
+            "es": "Para (antes de)",
+            "t": "By"
+          }
+        },
+        {
+          "id": "u11l1e6",
+          "type": "choice",
+          "prompt": "Don't call at 8 — we ___ be having dinner.",
+          "options": [
+            "will",
+            "would",
+            "have"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No llames a las 8: estaremos cenando.",
+            "t": "Don't call at 8 — we will be having dinner."
+          },
+          "explain": "will be having = estaremos cenando."
+        },
+        {
+          "id": "u11l1e7",
+          "type": "match",
+          "prompt": "Empareja las estructuras de futuro",
+          "pairs": [
+            {
+              "es": "Para (fecha límite)",
+              "t": "By"
+            },
+            {
+              "es": "En curso en el futuro",
+              "t": "Will be + -ing"
+            },
+            {
+              "es": "Completado en el futuro",
+              "t": "Will have + participle"
+            },
+            {
+              "es": "Mañana a esta hora",
+              "t": "This time tomorrow"
+            }
+          ]
+        }
       ]
     },
     {
@@ -38,18 +155,136 @@
         "Muy frecuente en noticias y textos académicos."
       ],
       "phrases": [
-        { "es": "Se dice que el clima está cambiando", "t": "It is said that the climate is changing" },
-        { "es": "Se cree que el plástico daña los océanos", "t": "Plastic is believed to harm the oceans" },
-        { "es": "Se espera que la cumbre acabe el viernes", "t": "The summit is expected to end on Friday" }
+        {
+          "es": "Se dice que el clima está cambiando",
+          "t": "It is said that the climate is changing"
+        },
+        {
+          "es": "Se cree que el plástico daña los océanos",
+          "t": "Plastic is believed to harm the oceans"
+        },
+        {
+          "es": "Se espera que la cumbre acabe el viernes",
+          "t": "The summit is expected to end on Friday"
+        }
       ],
       "exercises": [
-        { "id": "u11l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "It ___ said that the polar ice is melting.", "options": ["is", "does", "says"], "answer": 0, "pair": { "es": "Se dice que el hielo polar se derrite.", "t": "It is said that the polar ice is melting." }, "explain": "Pasiva impersonal: It is said that…" },
-        { "id": "u11l2e2", "type": "choice", "prompt": "He ___ to be one of the best scientists.", "options": ["is believed", "believes", "is believing"], "answer": 0, "pair": { "es": "Se cree que es uno de los mejores científicos.", "t": "He is believed to be one of the best scientists." }, "explain": "is believed to be = se cree que es." },
-        { "id": "u11l2e3", "type": "build", "prompt": "Traduce: «Se espera que la ley cambie pronto»", "solution": "The law is expected to change soon", "distractors": ["expects", "changing"], "pair": { "es": "Se espera que la ley cambie pronto", "t": "The law is expected to change soon" } },
-        { "id": "u11l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "It is said that recycling saves energy.", "options": ["Se dice que el reciclaje ahorra energía.", "El reciclaje dijo que ahorra energía.", "Se dirá que el reciclaje ahorra energía."], "answer": 0, "pair": { "es": "Se dice que el reciclaje ahorra energía.", "t": "It is said that recycling saves energy." } },
-        { "id": "u11l2e5", "type": "type", "prompt": "Escribe «se dice que»", "solution": "it is said that", "accept": ["it is said that", "it's said that"], "pair": { "es": "Se dice que", "t": "It is said that" } },
-        { "id": "u11l2e6", "type": "match", "prompt": "Empareja las pasivas de reporte", "pairs": [{ "es": "Se dice", "t": "It is said" }, { "es": "Se cree", "t": "It is believed" }, { "es": "Se espera", "t": "It is expected" }, { "es": "Según se informa", "t": "Reportedly" }] },
-        { "id": "u11l2e7", "type": "choice", "prompt": "The company ___ to be in trouble.", "options": ["is reported", "reports", "reporting"], "answer": 0, "pair": { "es": "Se informa de que la empresa está en problemas.", "t": "The company is reported to be in trouble." }, "explain": "is reported to be = se informa que está…" }
+        {
+          "id": "u11l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "It ___ said that the polar ice is melting.",
+          "options": [
+            "is",
+            "does",
+            "says"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se dice que el hielo polar se derrite.",
+            "t": "It is said that the polar ice is melting."
+          },
+          "explain": "Pasiva impersonal: It is said that…"
+        },
+        {
+          "id": "u11l2e2",
+          "type": "choice",
+          "prompt": "He ___ to be one of the best scientists.",
+          "options": [
+            "is believed",
+            "believes",
+            "is believing"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se cree que es uno de los mejores científicos.",
+            "t": "He is believed to be one of the best scientists."
+          },
+          "explain": "is believed to be = se cree que es."
+        },
+        {
+          "id": "u11l2e3",
+          "type": "build",
+          "prompt": "Traduce: «Se espera que la ley cambie pronto»",
+          "solution": "The law is expected to change soon",
+          "distractors": [
+            "expects",
+            "changing"
+          ],
+          "pair": {
+            "es": "Se espera que la ley cambie pronto",
+            "t": "The law is expected to change soon"
+          }
+        },
+        {
+          "id": "u11l2e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "It is said that recycling saves energy.",
+          "options": [
+            "Se dice que el reciclaje ahorra energía.",
+            "El reciclaje dijo que ahorra energía.",
+            "Se dirá que el reciclaje ahorra energía."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se dice que el reciclaje ahorra energía.",
+            "t": "It is said that recycling saves energy."
+          }
+        },
+        {
+          "id": "u11l2e5",
+          "type": "type",
+          "prompt": "Escribe «se dice que»",
+          "solution": "It is said that",
+          "accept": [
+            "it is said that",
+            "it's said that"
+          ],
+          "pair": {
+            "es": "Se dice que",
+            "t": "It is said that"
+          }
+        },
+        {
+          "id": "u11l2e6",
+          "type": "match",
+          "prompt": "Empareja las pasivas de reporte",
+          "pairs": [
+            {
+              "es": "Se dice",
+              "t": "It is said"
+            },
+            {
+              "es": "Se cree",
+              "t": "It is believed"
+            },
+            {
+              "es": "Se espera",
+              "t": "It is expected"
+            },
+            {
+              "es": "Según se informa",
+              "t": "Reportedly"
+            }
+          ]
+        },
+        {
+          "id": "u11l2e7",
+          "type": "choice",
+          "prompt": "The company ___ to be in trouble.",
+          "options": [
+            "is reported",
+            "reports",
+            "reporting"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se informa de que la empresa está en problemas.",
+            "t": "The company is reported to be in trouble."
+          },
+          "explain": "is reported to be = se informa que está…"
+        }
       ]
     },
     {
@@ -62,18 +297,135 @@
         "«Be caused by» para señalar la causa: Air pollution is caused by traffic."
       ],
       "phrases": [
-        { "es": "El tráfico es la causa de la contaminación", "t": "Traffic is the cause of pollution" },
-        { "es": "Las emisiones conducen al calentamiento global", "t": "Emissions lead to global warming" },
-        { "es": "La energía solar reduce las emisiones", "t": "Solar energy reduces emissions" }
+        {
+          "es": "El tráfico es la causa de la contaminación",
+          "t": "Traffic is the cause of pollution"
+        },
+        {
+          "es": "Las emisiones conducen al calentamiento global",
+          "t": "Emissions lead to global warming"
+        },
+        {
+          "es": "La energía solar reduce las emisiones",
+          "t": "Solar energy reduces emissions"
+        }
       ],
       "exercises": [
-        { "id": "u11l3e1", "type": "match", "prompt": "Empareja el vocabulario del medio ambiente", "pairs": [{ "es": "Cambio climático", "t": "Climate change" }, { "es": "Energía renovable", "t": "Renewable energy" }, { "es": "Combustibles fósiles", "t": "Fossil fuels" }, { "es": "Emisiones de carbono", "t": "Carbon emissions" }] },
-        { "id": "u11l3e2", "type": "fill", "prompt": "Completa la frase", "sentence": "The flight was cancelled ___ to the storm.", "options": ["due", "lead", "result"], "answer": 0, "pair": { "es": "El vuelo fue cancelado por la tormenta.", "t": "The flight was cancelled due to the storm." }, "explain": "«Due to» + sustantivo: debido a." },
-        { "id": "u11l3e3", "type": "choice", "prompt": "Cutting down forests ___ to more flooding.", "options": ["leads", "lead", "due"], "answer": 0, "pair": { "es": "Talar bosques provoca más inundaciones.", "t": "Cutting down forests leads to more flooding." }, "explain": "«Lead to» = conducir a. Sujeto singular: leads." },
-        { "id": "u11l3e4", "type": "build", "prompt": "Traduce: «El reciclaje reduce los residuos»", "solution": "Recycling reduces waste", "distractors": ["reduce", "wasting"], "pair": { "es": "El reciclaje reduce los residuos", "t": "Recycling reduces waste" } },
-        { "id": "u11l3e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Air pollution is caused by traffic and factories.", "options": ["La contaminación del aire la causan el tráfico y las fábricas.", "El tráfico y las fábricas sufren la contaminación.", "La contaminación causa tráfico y fábricas."], "answer": 0, "pair": { "es": "La contaminación del aire la causan el tráfico y las fábricas.", "t": "Air pollution is caused by traffic and factories." } },
-        { "id": "u11l3e6", "type": "type", "prompt": "Escribe «cambio climático»", "solution": "climate change", "accept": ["climate change"], "pair": { "es": "Cambio climático", "t": "Climate change" } },
-        { "id": "u11l3e7", "type": "choice", "prompt": "Rising sea levels are a consequence ___ melting ice.", "options": ["of", "for", "to"], "answer": 0, "pair": { "es": "La subida del nivel del mar es consecuencia del deshielo.", "t": "Rising sea levels are a consequence of melting ice." }, "explain": "Colocación: a consequence of." }
+        {
+          "id": "u11l3e1",
+          "type": "match",
+          "prompt": "Empareja el vocabulario del medio ambiente",
+          "pairs": [
+            {
+              "es": "Cambio climático",
+              "t": "Climate change"
+            },
+            {
+              "es": "Energía renovable",
+              "t": "Renewable energy"
+            },
+            {
+              "es": "Combustibles fósiles",
+              "t": "Fossil fuels"
+            },
+            {
+              "es": "Emisiones de carbono",
+              "t": "Carbon emissions"
+            }
+          ]
+        },
+        {
+          "id": "u11l3e2",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "The flight was cancelled ___ to the storm.",
+          "options": [
+            "due",
+            "lead",
+            "result"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El vuelo fue cancelado por la tormenta.",
+            "t": "The flight was cancelled due to the storm."
+          },
+          "explain": "«Due to» + sustantivo: debido a."
+        },
+        {
+          "id": "u11l3e3",
+          "type": "choice",
+          "prompt": "Cutting down forests ___ to more flooding.",
+          "options": [
+            "leads",
+            "lead",
+            "due"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Talar bosques provoca más inundaciones.",
+            "t": "Cutting down forests leads to more flooding."
+          },
+          "explain": "«Lead to» = conducir a. Sujeto singular: leads."
+        },
+        {
+          "id": "u11l3e4",
+          "type": "build",
+          "prompt": "Traduce: «El reciclaje reduce los residuos»",
+          "solution": "Recycling reduces waste",
+          "distractors": [
+            "reduce",
+            "wasting"
+          ],
+          "pair": {
+            "es": "El reciclaje reduce los residuos",
+            "t": "Recycling reduces waste"
+          }
+        },
+        {
+          "id": "u11l3e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Air pollution is caused by traffic and factories.",
+          "options": [
+            "La contaminación del aire la causan el tráfico y las fábricas.",
+            "El tráfico y las fábricas sufren la contaminación.",
+            "La contaminación causa tráfico y fábricas."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La contaminación del aire la causan el tráfico y las fábricas.",
+            "t": "Air pollution is caused by traffic and factories."
+          }
+        },
+        {
+          "id": "u11l3e6",
+          "type": "type",
+          "prompt": "Escribe «cambio climático»",
+          "solution": "Climate change",
+          "accept": [
+            "climate change"
+          ],
+          "pair": {
+            "es": "Cambio climático",
+            "t": "Climate change"
+          }
+        },
+        {
+          "id": "u11l3e7",
+          "type": "choice",
+          "prompt": "Rising sea levels are a consequence ___ melting ice.",
+          "options": [
+            "of",
+            "for",
+            "to"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La subida del nivel del mar es consecuencia del deshielo.",
+            "t": "Rising sea levels are a consequence of melting ice."
+          },
+          "explain": "Colocación: a consequence of."
+        }
       ]
     },
     {
@@ -86,18 +438,1041 @@
         "«So as to» y «to» también expresan propósito."
       ],
       "phrases": [
-        { "es": "Iremos siempre que no llueva", "t": "We will go as long as it doesn't rain" },
-        { "es": "Usamos menos plástico para salvar el mar", "t": "We use less plastic in order to save the sea" },
-        { "es": "Ahorramos energía para que las futuras generaciones tengan recursos", "t": "We save energy so that future generations have resources" }
+        {
+          "es": "Iremos siempre que no llueva",
+          "t": "We will go as long as it doesn't rain"
+        },
+        {
+          "es": "Usamos menos plástico para salvar el mar",
+          "t": "We use less plastic in order to save the sea"
+        },
+        {
+          "es": "Ahorramos energía para que las futuras generaciones tengan recursos",
+          "t": "We save energy so that future generations have resources"
+        }
       ],
       "exercises": [
-        { "id": "u11l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "You can go out ___ long as you finish your homework.", "options": ["as", "so", "such"], "answer": 0, "pair": { "es": "Puedes salir siempre que termines los deberes.", "t": "You can go out as long as you finish your homework." }, "explain": "«As long as» = siempre que." },
-        { "id": "u11l4e2", "type": "choice", "prompt": "We recycle ___ to protect the planet.", "options": ["in order", "for", "so that"], "answer": 0, "pair": { "es": "Reciclamos para proteger el planeta.", "t": "We recycle in order to protect the planet." }, "explain": "«In order to» + infinitivo de propósito." },
-        { "id": "u11l4e3", "type": "build", "prompt": "Traduce: «Iré siempre que tú vengas conmigo»", "solution": "I will go as long as you come with me", "distractors": ["although", "while"], "pair": { "es": "Iré siempre que tú vengas conmigo", "t": "I will go as long as you come with me" } },
-        { "id": "u11l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Provided that everyone helps, we can solve this problem.", "options": ["A condición de que todos ayuden, podemos resolver este problema.", "Aunque todos ayuden, no resolveremos este problema.", "Resolveremos el problema cuando todos ayuden."], "answer": 0, "pair": { "es": "A condición de que todos ayuden, podemos resolver este problema.", "t": "Provided that everyone helps, we can solve this problem." } },
-        { "id": "u11l4e5", "type": "type", "prompt": "Escribe «siempre que»", "solution": "as long as", "accept": ["as long as"], "pair": { "es": "Siempre que", "t": "As long as" } },
-        { "id": "u11l4e6", "type": "choice", "prompt": "Turn off the lights ___ save energy.", "options": ["to", "for", "so"], "answer": 0, "pair": { "es": "Apaga las luces para ahorrar energía.", "t": "Turn off the lights to save energy." }, "explain": "Propósito con infinitivo: to save." },
-        { "id": "u11l4e7", "type": "match", "prompt": "Empareja las expresiones de condición", "pairs": [{ "es": "Siempre que", "t": "As long as" }, { "es": "A condición de que", "t": "Provided that" }, { "es": "Para (propósito)", "t": "In order to" }, { "es": "Para que", "t": "So that" }] }
+        {
+          "id": "u11l4e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "You can go out ___ long as you finish your homework.",
+          "options": [
+            "as",
+            "so",
+            "such"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Puedes salir siempre que termines los deberes.",
+            "t": "You can go out as long as you finish your homework."
+          },
+          "explain": "«As long as» = siempre que."
+        },
+        {
+          "id": "u11l4e2",
+          "type": "choice",
+          "prompt": "We recycle ___ to protect the planet.",
+          "options": [
+            "in order",
+            "for",
+            "so that"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Reciclamos para proteger el planeta.",
+            "t": "We recycle in order to protect the planet."
+          },
+          "explain": "«In order to» + infinitivo de propósito."
+        },
+        {
+          "id": "u11l4e3",
+          "type": "build",
+          "prompt": "Traduce: «Iré siempre que tú vengas conmigo»",
+          "solution": "I will go as long as you come with me",
+          "distractors": [
+            "although",
+            "while"
+          ],
+          "pair": {
+            "es": "Iré siempre que tú vengas conmigo",
+            "t": "I will go as long as you come with me"
+          }
+        },
+        {
+          "id": "u11l4e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Provided that everyone helps, we can solve this problem.",
+          "options": [
+            "A condición de que todos ayuden, podemos resolver este problema.",
+            "Aunque todos ayuden, no resolveremos este problema.",
+            "Resolveremos el problema cuando todos ayuden."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A condición de que todos ayuden, podemos resolver este problema.",
+            "t": "Provided that everyone helps, we can solve this problem."
+          }
+        },
+        {
+          "id": "u11l4e5",
+          "type": "type",
+          "prompt": "Escribe «siempre que»",
+          "solution": "As long as",
+          "accept": [
+            "as long as"
+          ],
+          "pair": {
+            "es": "Siempre que",
+            "t": "As long as"
+          }
+        },
+        {
+          "id": "u11l4e6",
+          "type": "choice",
+          "prompt": "Turn off the lights ___ save energy.",
+          "options": [
+            "to",
+            "for",
+            "so"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Apaga las luces para ahorrar energía.",
+            "t": "Turn off the lights to save energy."
+          },
+          "explain": "Propósito con infinitivo: to save."
+        },
+        {
+          "id": "u11l4e7",
+          "type": "match",
+          "prompt": "Empareja las expresiones de condición",
+          "pairs": [
+            {
+              "es": "Siempre que",
+              "t": "As long as"
+            },
+            {
+              "es": "A condición de que",
+              "t": "Provided that"
+            },
+            {
+              "es": "Para (propósito)",
+              "t": "In order to"
+            },
+            {
+              "es": "Para que",
+              "t": "So that"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "El vendedor",
+          "t": "The seller"
+        },
+        {
+          "es": "El reloj",
+          "t": "The watch"
+        },
+        {
+          "es": "Comprar",
+          "t": "To buy"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El vendedor»?",
+          "options": [
+            "the seller",
+            "the watch",
+            "to buy",
+            "party"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El vendedor",
+            "t": "The seller"
+          }
+        },
+        {
+          "id": "u11l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The watch",
+          "options": [
+            "El reloj",
+            "Comprar",
+            "Fiesta/partido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El reloj",
+            "t": "The watch"
+          }
+        },
+        {
+          "id": "u11l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ buy",
+          "options": [
+            "to",
+            "party",
+            "purple"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Comprar",
+            "t": "To buy"
+          }
+        },
+        {
+          "id": "u11l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Fiesta/partido»",
+          "solution": "Party",
+          "distractors": [
+            "purple",
+            "meet"
+          ],
+          "pair": {
+            "es": "Fiesta/partido",
+            "t": "Party"
+          }
+        },
+        {
+          "id": "u11l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «morado»",
+          "solution": "Purple",
+          "accept": [
+            "purple",
+            "purple"
+          ],
+          "pair": {
+            "es": "Morado",
+            "t": "Purple"
+          }
+        },
+        {
+          "id": "u11l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Conocer/reunirse",
+              "t": "Meet"
+            },
+            {
+              "es": "Resultado",
+              "t": "Result"
+            },
+            {
+              "es": "Caminar",
+              "t": "To walk"
+            }
+          ]
+        },
+        {
+          "id": "u11l5e7",
+          "type": "choice",
+          "prompt": "«¿Hablas inglés?» se traduce como...",
+          "options": [
+            "Do you speak English?",
+            "the problem",
+            "clear",
+            "art"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Hablas inglés?",
+            "t": "Do you speak English?"
+          }
+        },
+        {
+          "id": "u11l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The problem",
+          "options": [
+            "El problema",
+            "Claro",
+            "Arte"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El problema",
+            "t": "The problem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "La cerveza",
+          "t": "The beer"
+        },
+        {
+          "es": "Educación",
+          "t": "Education"
+        },
+        {
+          "es": "Parte",
+          "t": "Part"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La cerveza»?",
+          "options": [
+            "the beer",
+            "education",
+            "part",
+            "the cake"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cerveza",
+            "t": "The beer"
+          }
+        },
+        {
+          "id": "u11l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Education",
+          "options": [
+            "Educación",
+            "Parte",
+            "Pastel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Educación",
+            "t": "Education"
+          }
+        },
+        {
+          "id": "u11l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "part",
+            "the",
+            "available"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Parte",
+            "t": "Part"
+          }
+        },
+        {
+          "id": "u11l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Pastel»",
+          "solution": "The cake",
+          "distractors": [
+            "available",
+            "to"
+          ],
+          "pair": {
+            "es": "Pastel",
+            "t": "The cake"
+          }
+        },
+        {
+          "id": "u11l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «disponible»",
+          "solution": "Available",
+          "accept": [
+            "available",
+            "available"
+          ],
+          "pair": {
+            "es": "Disponible",
+            "t": "Available"
+          }
+        },
+        {
+          "id": "u11l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Quedar",
+              "t": "To meet"
+            },
+            {
+              "es": "Así que",
+              "t": "So"
+            },
+            {
+              "es": "O",
+              "t": "Or"
+            }
+          ]
+        },
+        {
+          "id": "u11l6e7",
+          "type": "choice",
+          "prompt": "«La verdad» se traduce como...",
+          "options": [
+            "the truth",
+            "the snow",
+            "the fever",
+            "to play"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La verdad",
+            "t": "The truth"
+          }
+        },
+        {
+          "id": "u11l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The snow",
+          "options": [
+            "La nieve",
+            "La fiebre",
+            "Jugar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La nieve",
+            "t": "The snow"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "La actriz",
+          "t": "The actress"
+        },
+        {
+          "es": "El idioma",
+          "t": "The language"
+        },
+        {
+          "es": "Poner",
+          "t": "Put"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La actriz»?",
+          "options": [
+            "the actress",
+            "the language",
+            "put",
+            "the heat"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La actriz",
+            "t": "The actress"
+          }
+        },
+        {
+          "id": "u11l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The language",
+          "options": [
+            "El idioma",
+            "Poner",
+            "El calor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El idioma",
+            "t": "The language"
+          }
+        },
+        {
+          "id": "u11l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "put",
+            "the",
+            "putx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Poner",
+            "t": "Put"
+          }
+        },
+        {
+          "id": "u11l7e4",
+          "type": "build",
+          "prompt": "Traduce: «El calor»",
+          "solution": "The heat",
+          "distractors": [
+            "the",
+            "where"
+          ],
+          "pair": {
+            "es": "El calor",
+            "t": "The heat"
+          }
+        },
+        {
+          "id": "u11l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la tierra»",
+          "solution": "The earth",
+          "accept": [
+            "the earth",
+            "the earth"
+          ],
+          "pair": {
+            "es": "La tierra",
+            "t": "The earth"
+          }
+        },
+        {
+          "id": "u11l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Dónde",
+              "t": "Where"
+            },
+            {
+              "es": "El dormitorio",
+              "t": "The bedroom"
+            },
+            {
+              "es": "Realmente",
+              "t": "Really"
+            }
+          ]
+        },
+        {
+          "id": "u11l7e7",
+          "type": "choice",
+          "prompt": "«Pequeño» se traduce como...",
+          "options": [
+            "small",
+            "the chicken",
+            "the jeans",
+            "the battery"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pequeño",
+            "t": "Small"
+          }
+        },
+        {
+          "id": "u11l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The chicken",
+          "options": [
+            "La gallina",
+            "Los vaqueros",
+            "La batería"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La gallina",
+            "t": "The chicken"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El jardín",
+          "t": "The garden"
+        },
+        {
+          "es": "El cielo",
+          "t": "The sky"
+        },
+        {
+          "es": "Historia",
+          "t": "History"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El jardín»?",
+          "options": [
+            "the garden",
+            "the sky",
+            "history",
+            "the roundabout"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El jardín",
+            "t": "The garden"
+          }
+        },
+        {
+          "id": "u11l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The sky",
+          "options": [
+            "El cielo",
+            "Historia",
+            "La rotonda"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cielo",
+            "t": "The sky"
+          }
+        },
+        {
+          "id": "u11l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "history",
+            "the",
+            "historyx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Historia",
+            "t": "History"
+          }
+        },
+        {
+          "id": "u11l8e4",
+          "type": "build",
+          "prompt": "Traduce: «La rotonda»",
+          "solution": "The roundabout",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "La rotonda",
+            "t": "The roundabout"
+          }
+        },
+        {
+          "id": "u11l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el microondas»",
+          "solution": "The microwave",
+          "accept": [
+            "the microwave",
+            "the microwave"
+          ],
+          "pair": {
+            "es": "El microondas",
+            "t": "The microwave"
+          }
+        },
+        {
+          "id": "u11l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La semana",
+              "t": "The week"
+            },
+            {
+              "es": "El niño",
+              "t": "The child"
+            },
+            {
+              "es": "Mí",
+              "t": "Me"
+            }
+          ]
+        },
+        {
+          "id": "u11l8e7",
+          "type": "choice",
+          "prompt": "«La solución» se traduce como...",
+          "options": [
+            "the solution",
+            "to use",
+            "result",
+            "fast"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La solución",
+            "t": "The solution"
+          }
+        },
+        {
+          "id": "u11l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To use",
+          "options": [
+            "Usar",
+            "Resultado",
+            "Rápido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Usar",
+            "t": "To use"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "El mar",
+          "t": "The sea"
+        },
+        {
+          "es": "El miedo",
+          "t": "The fear"
+        },
+        {
+          "es": "Bonito",
+          "t": "Beautiful"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El mar»?",
+          "options": [
+            "the sea",
+            "the fear",
+            "beautiful",
+            "poor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El mar",
+            "t": "The sea"
+          }
+        },
+        {
+          "id": "u11l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The fear",
+          "options": [
+            "El miedo",
+            "Bonito",
+            "Pobre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El miedo",
+            "t": "The fear"
+          }
+        },
+        {
+          "id": "u11l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "beautiful",
+            "poor",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bonito",
+            "t": "Beautiful"
+          }
+        },
+        {
+          "id": "u11l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Pobre»",
+          "solution": "Poor",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Pobre",
+            "t": "Poor"
+          }
+        },
+        {
+          "id": "u11l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el otoño»",
+          "solution": "The autumn",
+          "accept": [
+            "the autumn",
+            "the autumn"
+          ],
+          "pair": {
+            "es": "El otoño",
+            "t": "The autumn"
+          }
+        },
+        {
+          "id": "u11l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La estrella",
+              "t": "The star"
+            },
+            {
+              "es": "Hacer",
+              "t": "To do"
+            },
+            {
+              "es": "Arriba",
+              "t": "Up"
+            }
+          ]
+        },
+        {
+          "id": "u11l9e7",
+          "type": "choice",
+          "prompt": "«Parar» se traduce como...",
+          "options": [
+            "stop",
+            "the credit card",
+            "the answer",
+            "the mouse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Parar",
+            "t": "Stop"
+          }
+        },
+        {
+          "id": "u11l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The credit card",
+          "options": [
+            "La tarjeta de crédito",
+            "La respuesta",
+            "El ratón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tarjeta de crédito",
+            "t": "The credit card"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "La vaca",
+          "t": "The cow"
+        },
+        {
+          "es": "La montaña",
+          "t": "The mountain"
+        },
+        {
+          "es": "La cabeza",
+          "t": "The head"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u11l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La vaca»?",
+          "options": [
+            "the cow",
+            "the mountain",
+            "the head",
+            "close"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La vaca",
+            "t": "The cow"
+          }
+        },
+        {
+          "id": "u11l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The mountain",
+          "options": [
+            "La montaña",
+            "La cabeza",
+            "Cerca/cercano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La montaña",
+            "t": "The mountain"
+          }
+        },
+        {
+          "id": "u11l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ head",
+          "options": [
+            "the",
+            "close",
+            "consider"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cabeza",
+            "t": "The head"
+          }
+        },
+        {
+          "id": "u11l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Cerca/cercano»",
+          "solution": "Close",
+          "distractors": [
+            "consider",
+            "at"
+          ],
+          "pair": {
+            "es": "Cerca/cercano",
+            "t": "Close"
+          }
+        },
+        {
+          "id": "u11l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «considerar»",
+          "solution": "Consider",
+          "accept": [
+            "consider",
+            "consider"
+          ],
+          "pair": {
+            "es": "Considerar",
+            "t": "Consider"
+          }
+        },
+        {
+          "id": "u11l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "En",
+              "t": "At"
+            },
+            {
+              "es": "Profesor",
+              "t": "Teacher"
+            },
+            {
+              "es": "Pagar",
+              "t": "To pay"
+            }
+          ]
+        },
+        {
+          "id": "u11l10e7",
+          "type": "choice",
+          "prompt": "«La mayoría» se traduce como...",
+          "options": [
+            "most",
+            "the temperature",
+            "the glass (drink)",
+            "the meat"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mayoría",
+            "t": "Most"
+          }
+        },
+        {
+          "id": "u11l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The temperature",
+          "options": [
+            "La temperatura",
+            "El vaso",
+            "La carne"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La temperatura",
+            "t": "The temperature"
+          }
+        }
       ]
     }
   ]

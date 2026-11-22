@@ -1,0 +1,1522 @@
+{
+  "id": "a7",
+  "title": "الخطط والآراء",
+  "emoji": "🗣️",
+  "color": "#FFB020",
+  "lessons": [
+    {
+      "id": "a7l1",
+      "title": "Planes",
+      "goal": "Hablar del futuro",
+      "tip": [
+        "«سأ...» o «سوف» para futuro.",
+        "«غدًا» = mañana."
+      ],
+      "phrases": [
+        {
+          "es": "Voy a viajar mañana",
+          "t": "سأسافر غدًا (saʾusāfir ghadan)"
+        },
+        {
+          "es": "Quiero aprender árabe",
+          "t": "أريد أن أتعلم العربية (urīd an ataʿallam al-ʿarabiyya)"
+        },
+        {
+          "es": "Nos vemos pronto",
+          "t": "أراك قريبًا (arāka qarīban)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «voy a viajar mañana»?",
+          "options": [
+            "سأسافر غدًا (saʾusāfir ghadan)",
+            "أريد أن أتعلم العربية (urīd an ataʿallam al-ʿarabiyya)",
+            "أراك قريبًا (arāka qarīban)",
+            "غدًا (ghadan)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "سأسافر غدًا (saʾusāfir ghadan)"
+          }
+        },
+        {
+          "id": "a7l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "أريد أن أتعلم العربية (urīd an ataʿallam al-ʿarabiyya)",
+          "options": [
+            "Quiero aprender árabe",
+            "Nos vemos pronto",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero aprender árabe",
+            "t": "أريد أن أتعلم العربية (urīd an ataʿallam al-ʿarabiyya)"
+          }
+        },
+        {
+          "id": "a7l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "أراك ___ (arāka qarīban)",
+          "options": [
+            "قريبًا",
+            "غدًا",
+            "bien"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nos vemos pronto",
+            "t": "أراك قريبًا (arāka qarīban)"
+          }
+        },
+        {
+          "id": "a7l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Voy a viajar mañana»",
+          "solution": "سأسافر غدًا (saʾusāfir ghadan)",
+          "distractors": [
+            "بعد",
+            "دائمًا"
+          ],
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "سأسافر غدًا (saʾusāfir ghadan)"
+          }
+        },
+        {
+          "id": "a7l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mañana»",
+          "solution": "غدًا (ghadan)",
+          "accept": [
+            "غدًا (ghadan)",
+            "غدًا (ghadan)"
+          ],
+          "pair": {
+            "es": "Mañana",
+            "t": "غدًا (ghadan)"
+          }
+        },
+        {
+          "id": "a7l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mañana",
+              "t": "غدًا (ghadan)"
+            },
+            {
+              "es": "Pronto",
+              "t": "قريبًا (qarīban)"
+            },
+            {
+              "es": "Después",
+              "t": "بعد ذلك (baʿda dhālika)"
+            }
+          ]
+        },
+        {
+          "id": "a7l1e7",
+          "type": "choice",
+          "prompt": "«Siempre» se traduce como...",
+          "options": [
+            "دائمًا (dāʾiman)",
+            "غدًا (ghadan)",
+            "قريبًا (qarīban)",
+            "بعد ذلك (baʿda dhālika)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Siempre",
+            "t": "دائمًا (dāʾiman)"
+          }
+        },
+        {
+          "id": "a7l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "سأسافر غدًا (saʾusāfir ghadan)",
+          "options": [
+            "Voy a viajar mañana",
+            "Quiero aprender árabe",
+            "Nos vemos pronto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "سأسافر غدًا (saʾusāfir ghadan)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l2",
+      "title": "Opiniones",
+      "goal": "Dar tu opinión",
+      "tip": [
+        "«أعتقد أن...»",
+        "«في رأيي...»"
+      ],
+      "phrases": [
+        {
+          "es": "Creo que es una buena idea",
+          "t": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)"
+        },
+        {
+          "es": "En mi opinión, es difícil",
+          "t": "في رأيي، هذا صعب (fī raʾyī, hādhā ṣaʿb)"
+        },
+        {
+          "es": "Estoy de acuerdo",
+          "t": "أنا موافق (anā muwāfiq)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «creo que es una buena idea»?",
+          "options": [
+            "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)",
+            "في رأيي، هذا صعب (fī raʾyī, hādhā ṣaʿb)",
+            "أنا موافق (anā muwāfiq)",
+            "فكرة (fikra)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)"
+          }
+        },
+        {
+          "id": "a7l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "في رأيي، هذا صعب (fī raʾyī, hādhā ṣaʿb)",
+          "options": [
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "En mi opinión, es difícil",
+            "t": "في رأيي، هذا صعب (fī raʾyī, hādhā ṣaʿb)"
+          }
+        },
+        {
+          "id": "a7l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "أنا ___ (anā muwāfiq)",
+          "options": [
+            "موافق",
+            "فكرة",
+            "رأي"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy de acuerdo",
+            "t": "أنا موافق (anā muwāfiq)"
+          }
+        },
+        {
+          "id": "a7l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Creo que es una buena idea»",
+          "solution": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)",
+          "distractors": [
+            "مشكلة",
+            "حل"
+          ],
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)"
+          }
+        },
+        {
+          "id": "a7l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «idea»",
+          "solution": "فكرة (fikra)",
+          "accept": [
+            "فكرة (fikra)",
+            "فكرة (fikra)"
+          ],
+          "pair": {
+            "es": "Idea",
+            "t": "فكرة (fikra)"
+          }
+        },
+        {
+          "id": "a7l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Idea",
+              "t": "فكرة (fikra)"
+            },
+            {
+              "es": "Opinión",
+              "t": "رأي (raʾy)"
+            },
+            {
+              "es": "Problema",
+              "t": "مشكلة (mushkila)"
+            }
+          ]
+        },
+        {
+          "id": "a7l2e7",
+          "type": "choice",
+          "prompt": "«Solución» se traduce como...",
+          "options": [
+            "حل (ḥall)",
+            "فكرة (fikra)",
+            "رأي (raʾy)",
+            "مشكلة (mushkila)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Solución",
+            "t": "حل (ḥall)"
+          }
+        },
+        {
+          "id": "a7l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)",
+          "options": [
+            "Creo que es una buena idea",
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "أعتقد أنها فكرة جيدة (aʿtaqid annahā fikra jayyida)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l3",
+      "title": "Tiempo libre",
+      "goal": "Hobbies",
+      "tip": [
+        "«أحب...» + verbo/sustantivo.",
+        "«ألعب...» = juego."
+      ],
+      "phrases": [
+        {
+          "es": "Me gusta leer",
+          "t": "أحب القراءة (uḥibb al-qirāʾa)"
+        },
+        {
+          "es": "Juego al fútbol",
+          "t": "ألعب كرة القدم (alʿab kurat al-qadam)"
+        },
+        {
+          "es": "Escucho música",
+          "t": "أستمع إلى الموسيقى (astamiʿ ilā al-mūsīqā)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «me gusta leer»?",
+          "options": [
+            "أحب القراءة (uḥibb al-qirāʾa)",
+            "ألعب كرة القدم (alʿab kurat al-qadam)",
+            "أستمع إلى الموسيقى (astamiʿ ilā al-mūsīqā)",
+            "قراءة (qirāʾa)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "أحب القراءة (uḥibb al-qirāʾa)"
+          }
+        },
+        {
+          "id": "a7l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "ألعب كرة القدم (alʿab kurat al-qadam)",
+          "options": [
+            "Juego al fútbol",
+            "Escucho música",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juego al fútbol",
+            "t": "ألعب كرة القدم (alʿab kurat al-qadam)"
+          }
+        },
+        {
+          "id": "a7l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "أستمع ___ الموسيقى (astamiʿ ilā al-mūsīqā)",
+          "options": [
+            "إلى",
+            "قراءة",
+            "كرة"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Escucho música",
+            "t": "أستمع إلى الموسيقى (astamiʿ ilā al-mūsīqā)"
+          }
+        },
+        {
+          "id": "a7l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Me gusta leer»",
+          "solution": "أحب القراءة (uḥibb al-qirāʾa)",
+          "distractors": [
+            "موسيقى",
+            "فيلم"
+          ],
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "أحب القراءة (uḥibb al-qirāʾa)"
+          }
+        },
+        {
+          "id": "a7l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «leer»",
+          "solution": "قراءة (qirāʾa)",
+          "accept": [
+            "قراءة (qirāʾa)",
+            "قراءة (qirāʾa)"
+          ],
+          "pair": {
+            "es": "Leer",
+            "t": "قراءة (qirāʾa)"
+          }
+        },
+        {
+          "id": "a7l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Leer",
+              "t": "قراءة (qirāʾa)"
+            },
+            {
+              "es": "Fútbol",
+              "t": "كرة القدم (kurat al-qadam)"
+            },
+            {
+              "es": "Música",
+              "t": "موسيقى (mūsīqā)"
+            }
+          ]
+        },
+        {
+          "id": "a7l3e7",
+          "type": "choice",
+          "prompt": "«Película» se traduce como...",
+          "options": [
+            "فيلم (film)",
+            "قراءة (qirāʾa)",
+            "كرة القدم (kurat al-qadam)",
+            "موسيقى (mūsīqā)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Película",
+            "t": "فيلم (film)"
+          }
+        },
+        {
+          "id": "a7l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "أحب القراءة (uḥibb al-qirāʾa)",
+          "options": [
+            "Me gusta leer",
+            "Juego al fútbol",
+            "Escucho música"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "أحب القراءة (uḥibb al-qirāʾa)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l4",
+      "title": "Conversación",
+      "goal": "Frases de fluidez",
+      "tip": [
+        "Conectores: لذا، لكن، أيضًا.",
+        "«هل يمكنك...؟» es cortés."
+      ],
+      "phrases": [
+        {
+          "es": "¿Podría ayudarme?",
+          "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)"
+        },
+        {
+          "es": "Por supuesto",
+          "t": "بالطبع (biṭ-ṭabʿ)"
+        },
+        {
+          "es": "No importa",
+          "t": "لا بأس (lā baʾs)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿podría ayudarme?»?",
+          "options": [
+            "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
+            "بالطبع (biṭ-ṭabʿ)",
+            "لا بأس (lā baʾs)",
+            "بالطبع (biṭ-ṭabʿ)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)"
+          }
+        },
+        {
+          "id": "a7l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "بالطبع (biṭ-ṭabʿ)",
+          "options": [
+            "Por supuesto",
+            "No importa",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por supuesto",
+            "t": "بالطبع (biṭ-ṭabʿ)"
+          }
+        },
+        {
+          "id": "a7l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "لا ___ (lā baʾs)",
+          "options": [
+            "بأس",
+            "بالطبع",
+            "ربما"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No importa",
+            "t": "لا بأس (lā baʾs)"
+          }
+        },
+        {
+          "id": "a7l4e4",
+          "type": "build",
+          "prompt": "Traduce: «¿Podría ayudarme?»",
+          "solution": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
+          "distractors": [
+            "حقًا",
+            "معًا"
+          ],
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)"
+          }
+        },
+        {
+          "id": "a7l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «por supuesto»",
+          "solution": "بالطبع (biṭ-ṭabʿ)",
+          "accept": [
+            "بالطبع (biṭ-ṭabʿ)",
+            "بالطبع (biṭ-ṭabʿ)"
+          ],
+          "pair": {
+            "es": "Por supuesto",
+            "t": "بالطبع (biṭ-ṭabʿ)"
+          }
+        },
+        {
+          "id": "a7l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Por supuesto",
+              "t": "بالطبع (biṭ-ṭabʿ)"
+            },
+            {
+              "es": "Quizás",
+              "t": "ربما (rubbamā)"
+            },
+            {
+              "es": "De verdad",
+              "t": "حقًا (ḥaqqan)"
+            }
+          ]
+        },
+        {
+          "id": "a7l4e7",
+          "type": "choice",
+          "prompt": "«Juntos» se traduce como...",
+          "options": [
+            "معًا (maʿan)",
+            "بالطبع (biṭ-ṭabʿ)",
+            "ربما (rubbamā)",
+            "حقًا (ḥaqqan)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juntos",
+            "t": "معًا (maʿan)"
+          }
+        },
+        {
+          "id": "a7l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
+          "options": [
+            "¿Podría ayudarme?",
+            "Por supuesto",
+            "No importa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l5",
+      "title": "كلمات إضافية 1",
+      "goal": "مفردات أساسية",
+      "tip": [
+        "تدرّب على كلمات مهمة."
+      ],
+      "phrases": [
+        {
+          "es": "O",
+          "t": "أو (aw)"
+        },
+        {
+          "es": "Difícil",
+          "t": "صعب (ṣaʿb)"
+        },
+        {
+          "es": "Grande",
+          "t": "كبير (kabīr)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «O»?",
+          "options": [
+            "أو (aw)",
+            "صعب (ṣaʿb)",
+            "كبير (kabīr)",
+            "أنهي (unhī)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "O",
+            "t": "أو (aw)"
+          }
+        },
+        {
+          "id": "a7l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "صعب (ṣaʿb)",
+          "options": [
+            "Difícil",
+            "Grande",
+            "Termino"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Difícil",
+            "t": "صعب (ṣaʿb)"
+          }
+        },
+        {
+          "id": "a7l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (kabīr)",
+          "options": [
+            "كبير",
+            "أنهي",
+            "أنت"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Grande",
+            "t": "كبير (kabīr)"
+          }
+        },
+        {
+          "id": "a7l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Termino»",
+          "solution": "أنهي (unhī)",
+          "distractors": [
+            "أنت",
+            "مغلق"
+          ],
+          "pair": {
+            "es": "Termino",
+            "t": "أنهي (unhī)"
+          }
+        },
+        {
+          "id": "a7l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tú (m)»",
+          "solution": "أنت (anta)",
+          "accept": [
+            "أنت (anta)",
+            "أنت (anta)"
+          ],
+          "pair": {
+            "es": "Tú (m)",
+            "t": "أنت (anta)"
+          }
+        },
+        {
+          "id": "a7l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Cerrado",
+              "t": "مغلق (mughlaq)"
+            },
+            {
+              "es": "Mediodía",
+              "t": "ظهر (ẓuhr)"
+            },
+            {
+              "es": "Mundo",
+              "t": "عالم (ʿālam)"
+            }
+          ]
+        },
+        {
+          "id": "a7l5e7",
+          "type": "choice",
+          "prompt": "«Calle» se traduce como...",
+          "options": [
+            "شارع (shāriʿ)",
+            "وسخ (wasikh)",
+            "أنظف (unaẓẓif)",
+            "حمل (ḥamala)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Calle",
+            "t": "شارع (shāriʿ)"
+          }
+        },
+        {
+          "id": "a7l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "وسخ (wasikh)",
+          "options": [
+            "Sucio",
+            "Limpio",
+            "Llevar/Cargar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sucio",
+            "t": "وسخ (wasikh)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l6",
+      "title": "عبارات مفيدة 2",
+      "goal": "عبارات يومية",
+      "tip": [
+        "تحدث بطبيعية."
+      ],
+      "phrases": [
+        {
+          "es": "Padre",
+          "t": "أب (ab)"
+        },
+        {
+          "es": "Normalmente",
+          "t": "عادة (ʿādatan)"
+        },
+        {
+          "es": "Esposo",
+          "t": "زوج (zawj)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Padre»?",
+          "options": [
+            "أب (ab)",
+            "عادة (ʿādatan)",
+            "زوج (zawj)",
+            "ركض (rakaḍa)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Padre",
+            "t": "أب (ab)"
+          }
+        },
+        {
+          "id": "a7l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "عادة (ʿādatan)",
+          "options": [
+            "Normalmente",
+            "Esposo",
+            "Correr"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Normalmente",
+            "t": "عادة (ʿādatan)"
+          }
+        },
+        {
+          "id": "a7l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (zawj)",
+          "options": [
+            "زوج",
+            "ركض",
+            "واحد"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esposo",
+            "t": "زوج (zawj)"
+          }
+        },
+        {
+          "id": "a7l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Correr»",
+          "solution": "ركض (rakaḍa)",
+          "distractors": [
+            "واحد",
+            "ربما"
+          ],
+          "pair": {
+            "es": "Correr",
+            "t": "ركض (rakaḍa)"
+          }
+        },
+        {
+          "id": "a7l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «uno»",
+          "solution": "واحد (wāḥid)",
+          "accept": [
+            "واحد (wāḥid)",
+            "واحد (wāḥid)"
+          ],
+          "pair": {
+            "es": "Uno",
+            "t": "واحد (wāḥid)"
+          }
+        },
+        {
+          "id": "a7l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Quizás",
+              "t": "ربما (rubbamā)"
+            },
+            {
+              "es": "Miércoles",
+              "t": "الأربعاء (al-arbiʿāʾ)"
+            },
+            {
+              "es": "Junio",
+              "t": "يونيو (yūniyū)"
+            }
+          ]
+        },
+        {
+          "id": "a7l6e7",
+          "type": "choice",
+          "prompt": "«Amarillo» se traduce como...",
+          "options": [
+            "أصفر (aṣfar)",
+            "أنا بخير (anā bikhayr)",
+            "فبراير (fibrāyir)",
+            "ساخن (sākhin)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amarillo",
+            "t": "أصفر (aṣfar)"
+          }
+        },
+        {
+          "id": "a7l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "أنا بخير (anā bikhayr)",
+          "options": [
+            "Estoy bien",
+            "Febrero",
+            "Caliente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy bien",
+            "t": "أنا بخير (anā bikhayr)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l7",
+      "title": "مراجعة 3",
+      "goal": "مراجعة",
+      "tip": [
+        "ثبّت ما تعلمته."
+      ],
+      "phrases": [
+        {
+          "es": "Miércoles",
+          "t": "الأربعاء (al-arbiʿāʾ)"
+        },
+        {
+          "es": "Mensaje",
+          "t": "رسالة (risāla)"
+        },
+        {
+          "es": "Dar",
+          "t": "أعطى (aʿṭā)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Miércoles»?",
+          "options": [
+            "الأربعاء (al-arbiʿāʾ)",
+            "رسالة (risāla)",
+            "أعطى (aʿṭā)",
+            "هناك (hunāk)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Miércoles",
+            "t": "الأربعاء (al-arbiʿāʾ)"
+          }
+        },
+        {
+          "id": "a7l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "رسالة (risāla)",
+          "options": [
+            "Mensaje",
+            "Dar",
+            "Allí"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mensaje",
+            "t": "رسالة (risāla)"
+          }
+        },
+        {
+          "id": "a7l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (aʿṭā)",
+          "options": [
+            "أعطى",
+            "هناك",
+            "شوربة"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dar",
+            "t": "أعطى (aʿṭā)"
+          }
+        },
+        {
+          "id": "a7l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Allí»",
+          "solution": "هناك (hunāk)",
+          "distractors": [
+            "شوربة",
+            "مهم"
+          ],
+          "pair": {
+            "es": "Allí",
+            "t": "هناك (hunāk)"
+          }
+        },
+        {
+          "id": "a7l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «sopa»",
+          "solution": "شوربة (shūrba)",
+          "accept": [
+            "شوربة (shūrba)",
+            "شوربة (shūrba)"
+          ],
+          "pair": {
+            "es": "Sopa",
+            "t": "شوربة (shūrba)"
+          }
+        },
+        {
+          "id": "a7l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Importante",
+              "t": "مهم (muhimm)"
+            },
+            {
+              "es": "Triste",
+              "t": "حزين (ḥazīn)"
+            },
+            {
+              "es": "De nada",
+              "t": "عفوًا (ʿafwan)"
+            }
+          ]
+        },
+        {
+          "id": "a7l7e7",
+          "type": "choice",
+          "prompt": "«Deporte» se traduce como...",
+          "options": [
+            "رياضة (riyāḍa)",
+            "يونيو (yūniyū)",
+            "تسعة (tisʿa)",
+            "ثلاثة (thalātha)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Deporte",
+            "t": "رياضة (riyāḍa)"
+          }
+        },
+        {
+          "id": "a7l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "يونيو (yūniyū)",
+          "options": [
+            "Junio",
+            "Nueve",
+            "Tres"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Junio",
+            "t": "يونيو (yūniyū)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l8",
+      "title": "استماع 4",
+      "goal": "الاستماع",
+      "tip": [
+        "درّب أذنك."
+      ],
+      "phrases": [
+        {
+          "es": "Cama",
+          "t": "سرير (sarīr)"
+        },
+        {
+          "es": "Semana",
+          "t": "أسبوع (usbūʿ)"
+        },
+        {
+          "es": "Asustado",
+          "t": "خائف (khāʾif)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cama»?",
+          "options": [
+            "سرير (sarīr)",
+            "أسبوع (usbūʿ)",
+            "خائف (khāʾif)",
+            "قليلًا (qalīlan)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cama",
+            "t": "سرير (sarīr)"
+          }
+        },
+        {
+          "id": "a7l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "أسبوع (usbūʿ)",
+          "options": [
+            "Semana",
+            "Asustado",
+            "Poco"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Semana",
+            "t": "أسبوع (usbūʿ)"
+          }
+        },
+        {
+          "id": "a7l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (khāʾif)",
+          "options": [
+            "خائف",
+            "قليلًا",
+            "استلم"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Asustado",
+            "t": "خائف (khāʾif)"
+          }
+        },
+        {
+          "id": "a7l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Poco»",
+          "solution": "قليلًا (qalīlan)",
+          "distractors": [
+            "استلم",
+            "عرض"
+          ],
+          "pair": {
+            "es": "Poco",
+            "t": "قليلًا (qalīlan)"
+          }
+        },
+        {
+          "id": "a7l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «recibir»",
+          "solution": "استلم (istalama)",
+          "accept": [
+            "استلم (istalama)",
+            "استلم (istalama)"
+          ],
+          "pair": {
+            "es": "Recibir",
+            "t": "استلم (istalama)"
+          }
+        },
+        {
+          "id": "a7l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ofrecer",
+              "t": "عرض (ʿaraḍa)"
+            },
+            {
+              "es": "Pregunta",
+              "t": "سؤال (suʾāl)"
+            },
+            {
+              "es": "Triste",
+              "t": "حزين (ḥazīn)"
+            }
+          ]
+        },
+        {
+          "id": "a7l8e7",
+          "type": "choice",
+          "prompt": "«Todo/Cada» se traduce como...",
+          "options": [
+            "كل (kull)",
+            "هي (hiya)",
+            "أبيع (abīʿ)",
+            "أغسطس (aghusṭus)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Todo/Cada",
+            "t": "كل (kull)"
+          }
+        },
+        {
+          "id": "a7l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "هي (hiya)",
+          "options": [
+            "Ella",
+            "Vendo",
+            "Agosto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ella",
+            "t": "هي (hiya)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l9",
+      "title": "تحدث 5",
+      "goal": "المحادثة",
+      "tip": [
+        "ابنِ الثقة."
+      ],
+      "phrases": [
+        {
+          "es": "Tres",
+          "t": "ثلاثة (thalātha)"
+        },
+        {
+          "es": "Te quiero",
+          "t": "أحبك (uḥibbuk)"
+        },
+        {
+          "es": "Almuerzo",
+          "t": "غداء (ghadāʾ)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Tres»?",
+          "options": [
+            "ثلاثة (thalātha)",
+            "أحبك (uḥibbuk)",
+            "غداء (ghadāʾ)",
+            "هذه (hādhihi)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tres",
+            "t": "ثلاثة (thalātha)"
+          }
+        },
+        {
+          "id": "a7l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "أحبك (uḥibbuk)",
+          "options": [
+            "Te quiero",
+            "Almuerzo",
+            "Esta (f)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Te quiero",
+            "t": "أحبك (uḥibbuk)"
+          }
+        },
+        {
+          "id": "a7l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (ghadāʾ)",
+          "options": [
+            "غداء",
+            "هذه",
+            "انتظر"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Almuerzo",
+            "t": "غداء (ghadāʾ)"
+          }
+        },
+        {
+          "id": "a7l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Esta (f)»",
+          "solution": "هذه (hādhihi)",
+          "distractors": [
+            "انتظر",
+            "أبيض"
+          ],
+          "pair": {
+            "es": "Esta (f)",
+            "t": "هذه (hādhihi)"
+          }
+        },
+        {
+          "id": "a7l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «esperar»",
+          "solution": "انتظر (intaẓara)",
+          "accept": [
+            "انتظر (intaẓara)",
+            "انتظر (intaẓara)"
+          ],
+          "pair": {
+            "es": "Esperar",
+            "t": "انتظر (intaẓara)"
+          }
+        },
+        {
+          "id": "a7l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Blanco",
+              "t": "أبيض (abyaḍ)"
+            },
+            {
+              "es": "Barato",
+              "t": "رخيص (rakhīṣ)"
+            },
+            {
+              "es": "Pollo",
+              "t": "دجاج (dajāj)"
+            }
+          ]
+        },
+        {
+          "id": "a7l9e7",
+          "type": "choice",
+          "prompt": "«Fruta» se traduce como...",
+          "options": [
+            "فاكهة (fākiha)",
+            "بنى (banā)",
+            "قرر (qarrara)",
+            "بدأ (badaʾa)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fruta",
+            "t": "فاكهة (fākiha)"
+          }
+        },
+        {
+          "id": "a7l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "بنى (banā)",
+          "options": [
+            "Construir",
+            "Decidir",
+            "Empezar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Construir",
+            "t": "بنى (banā)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7l10",
+      "title": "مواقف حقيقية 6",
+      "goal": "مواقف واقعية",
+      "tip": [
+        "استخدم اللغة في سياقها."
+      ],
+      "phrases": [
+        {
+          "es": "Cansado",
+          "t": "تعب (taʿib)"
+        },
+        {
+          "es": "Reír",
+          "t": "ضحك (ḍaḥika)"
+        },
+        {
+          "es": "Carne",
+          "t": "لحم (laḥm)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "a7l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cansado»?",
+          "options": [
+            "تعب (taʿib)",
+            "ضحك (ḍaḥika)",
+            "لحم (laḥm)",
+            "أنا (anā)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cansado",
+            "t": "تعب (taʿib)"
+          }
+        },
+        {
+          "id": "a7l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "ضحك (ḍaḥika)",
+          "options": [
+            "Reír",
+            "Carne",
+            "Yo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Reír",
+            "t": "ضحك (ḍaḥika)"
+          }
+        },
+        {
+          "id": "a7l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (laḥm)",
+          "options": [
+            "لحم",
+            "أنا",
+            "سؤال"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Carne",
+            "t": "لحم (laḥm)"
+          }
+        },
+        {
+          "id": "a7l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Yo»",
+          "solution": "أنا (anā)",
+          "distractors": [
+            "سؤال",
+            "هذه"
+          ],
+          "pair": {
+            "es": "Yo",
+            "t": "أنا (anā)"
+          }
+        },
+        {
+          "id": "a7l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «pregunta»",
+          "solution": "سؤال (suʾāl)",
+          "accept": [
+            "سؤال (suʾāl)",
+            "سؤال (suʾāl)"
+          ],
+          "pair": {
+            "es": "Pregunta",
+            "t": "سؤال (suʾāl)"
+          }
+        },
+        {
+          "id": "a7l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Esta (f)",
+              "t": "هذه (hādhihi)"
+            },
+            {
+              "es": "Viajo",
+              "t": "أسافر (usāfir)"
+            },
+            {
+              "es": "Viento",
+              "t": "ريح (rīḥ)"
+            }
+          ]
+        },
+        {
+          "id": "a7l10e7",
+          "type": "choice",
+          "prompt": "«Desayuno» se traduce como...",
+          "options": [
+            "فطور (fuṭūr)",
+            "السبت (as-sabt)",
+            "ماذا (mādhā)",
+            "أجيب (ujīb)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Desayuno",
+            "t": "فطور (fuṭūr)"
+          }
+        },
+        {
+          "id": "a7l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "السبت (as-sabt)",
+          "options": [
+            "Sábado",
+            "Qué",
+            "Respondo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sábado",
+            "t": "السبت (as-sabt)"
+          }
+        }
+      ]
+    }
+  ]
+}

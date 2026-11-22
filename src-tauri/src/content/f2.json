@@ -1,0 +1,1522 @@
+{
+  "id": "f2",
+  "title": "Vie quotidienne",
+  "emoji": "🏠",
+  "color": "#FFB020",
+  "lessons": [
+    {
+      "id": "f2l1",
+      "title": "En casa",
+      "goal": "Rutinas en casa",
+      "tip": [
+        "Los verbos reflexivos son comunes.",
+        "«Je me lève» = me levanto."
+      ],
+      "phrases": [
+        {
+          "es": "Me levanto a las siete",
+          "t": "Je me lève à sept heures"
+        },
+        {
+          "es": "Desayuno en la cocina",
+          "t": "Je prends le petit-déjeuner dans la cuisine"
+        },
+        {
+          "es": "Limpio mi habitación",
+          "t": "Je nettoie ma chambre"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «me levanto a las siete»?",
+          "options": [
+            "Je me lève à sept heures",
+            "Je prends le petit-déjeuner dans la cuisine",
+            "Je nettoie ma chambre",
+            "Cuisine"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me levanto a las siete",
+            "t": "Je me lève à sept heures"
+          }
+        },
+        {
+          "id": "f2l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Je prends le petit-déjeuner dans la cuisine",
+          "options": [
+            "Desayuno en la cocina",
+            "Limpio mi habitación",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Desayuno en la cocina",
+            "t": "Je prends le petit-déjeuner dans la cuisine"
+          }
+        },
+        {
+          "id": "f2l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Je ___ ma chambre",
+          "options": [
+            "nettoie",
+            "Cuisine",
+            "Chambre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Limpio mi habitación",
+            "t": "Je nettoie ma chambre"
+          }
+        },
+        {
+          "id": "f2l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Me levanto a las siete»",
+          "solution": "Je me lève à sept heures",
+          "distractors": [
+            "Salle",
+            "Lit"
+          ],
+          "pair": {
+            "es": "Me levanto a las siete",
+            "t": "Je me lève à sept heures"
+          }
+        },
+        {
+          "id": "f2l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cocina»",
+          "solution": "Cuisine",
+          "accept": [
+            "Cuisine",
+            "cuisine"
+          ],
+          "pair": {
+            "es": "Cocina",
+            "t": "Cuisine"
+          }
+        },
+        {
+          "id": "f2l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Cocina",
+              "t": "Cuisine"
+            },
+            {
+              "es": "Habitación",
+              "t": "Chambre"
+            },
+            {
+              "es": "Baño",
+              "t": "Salle de bain"
+            }
+          ]
+        },
+        {
+          "id": "f2l1e7",
+          "type": "choice",
+          "prompt": "«Cama» se traduce como...",
+          "options": [
+            "Lit",
+            "Cuisine",
+            "Chambre",
+            "Salle de bain"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cama",
+            "t": "Lit"
+          }
+        },
+        {
+          "id": "f2l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Je me lève à sept heures",
+          "options": [
+            "Me levanto a las siete",
+            "Desayuno en la cocina",
+            "Limpio mi habitación"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me levanto a las siete",
+            "t": "Je me lève à sept heures"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l2",
+      "title": "Comida y bebida",
+      "goal": "Pedir comida",
+      "tip": [
+        "«Je voudrais...» para pedir educadamente.",
+        "«L'addition, s'il vous plaît»."
+      ],
+      "phrases": [
+        {
+          "es": "Quisiera agua",
+          "t": "Je voudrais de l'eau"
+        },
+        {
+          "es": "La cuenta, por favor",
+          "t": "L'addition, s'il vous plaît"
+        },
+        {
+          "es": "Está delicioso",
+          "t": "C'est délicieux"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «quisiera agua»?",
+          "options": [
+            "Je voudrais de l'eau",
+            "L'addition, s'il vous plaît",
+            "C'est délicieux",
+            "Eau"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quisiera agua",
+            "t": "Je voudrais de l'eau"
+          }
+        },
+        {
+          "id": "f2l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "L'addition, s'il vous plaît",
+          "options": [
+            "La cuenta, por favor",
+            "Está delicioso",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cuenta, por favor",
+            "t": "L'addition, s'il vous plaît"
+          }
+        },
+        {
+          "id": "f2l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ délicieux",
+          "options": [
+            "C'est",
+            "Eau",
+            "Pain"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está delicioso",
+            "t": "C'est délicieux"
+          }
+        },
+        {
+          "id": "f2l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Quisiera agua»",
+          "solution": "Je voudrais de l'eau",
+          "distractors": [
+            "Café",
+            "Lait"
+          ],
+          "pair": {
+            "es": "Quisiera agua",
+            "t": "Je voudrais de l'eau"
+          }
+        },
+        {
+          "id": "f2l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «agua»",
+          "solution": "Eau",
+          "accept": [
+            "Eau",
+            "eau"
+          ],
+          "pair": {
+            "es": "Agua",
+            "t": "Eau"
+          }
+        },
+        {
+          "id": "f2l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Agua",
+              "t": "Eau"
+            },
+            {
+              "es": "Pan",
+              "t": "Pain"
+            },
+            {
+              "es": "Café",
+              "t": "Café"
+            }
+          ]
+        },
+        {
+          "id": "f2l2e7",
+          "type": "choice",
+          "prompt": "«Leche» se traduce como...",
+          "options": [
+            "Lait",
+            "Eau",
+            "Pain",
+            "Café"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Leche",
+            "t": "Lait"
+          }
+        },
+        {
+          "id": "f2l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Je voudrais de l'eau",
+          "options": [
+            "Quisiera agua",
+            "La cuenta, por favor",
+            "Está delicioso"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quisiera agua",
+            "t": "Je voudrais de l'eau"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l3",
+      "title": "Compras",
+      "goal": "En la tienda",
+      "tip": [
+        "«Combien ça coûte ?» pregunta precio.",
+        "«C'est trop cher» = es muy caro."
+      ],
+      "phrases": [
+        {
+          "es": "¿Cuánto cuesta?",
+          "t": "Combien ça coûte ?"
+        },
+        {
+          "es": "Es demasiado caro",
+          "t": "C'est trop cher"
+        },
+        {
+          "es": "Quisiera esta camisa",
+          "t": "Je voudrais cette chemise"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿cuánto cuesta?»?",
+          "options": [
+            "Combien ça coûte ?",
+            "C'est trop cher",
+            "Je voudrais cette chemise",
+            "Prix"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto cuesta?",
+            "t": "Combien ça coûte ?"
+          }
+        },
+        {
+          "id": "f2l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "C'est trop cher",
+          "options": [
+            "Es demasiado caro",
+            "Quisiera esta camisa",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es demasiado caro",
+            "t": "C'est trop cher"
+          }
+        },
+        {
+          "id": "f2l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Je ___ cette chemise",
+          "options": [
+            "voudrais",
+            "Prix",
+            "Cher"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quisiera esta camisa",
+            "t": "Je voudrais cette chemise"
+          }
+        },
+        {
+          "id": "f2l3e4",
+          "type": "build",
+          "prompt": "Traduce: «¿Cuánto cuesta?»",
+          "solution": "Combien ça coûte ?",
+          "distractors": [
+            "Bon",
+            "Magasin"
+          ],
+          "pair": {
+            "es": "¿Cuánto cuesta?",
+            "t": "Combien ça coûte ?"
+          }
+        },
+        {
+          "id": "f2l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «precio»",
+          "solution": "Prix",
+          "accept": [
+            "Prix",
+            "prix"
+          ],
+          "pair": {
+            "es": "Precio",
+            "t": "Prix"
+          }
+        },
+        {
+          "id": "f2l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Precio",
+              "t": "Prix"
+            },
+            {
+              "es": "Caro",
+              "t": "Cher"
+            },
+            {
+              "es": "Barato",
+              "t": "Bon marché"
+            }
+          ]
+        },
+        {
+          "id": "f2l3e7",
+          "type": "choice",
+          "prompt": "«Tienda» se traduce como...",
+          "options": [
+            "Magasin",
+            "Prix",
+            "Cher",
+            "Bon marché"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tienda",
+            "t": "Magasin"
+          }
+        },
+        {
+          "id": "f2l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Combien ça coûte ?",
+          "options": [
+            "¿Cuánto cuesta?",
+            "Es demasiado caro",
+            "Quisiera esta camisa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto cuesta?",
+            "t": "Combien ça coûte ?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l4",
+      "title": "Tiempo y clima",
+      "goal": "Hablar del clima",
+      "tip": [
+        "«Il fait chaud/froid».",
+        "«Il pleut» = llueve."
+      ],
+      "phrases": [
+        {
+          "es": "Hace calor",
+          "t": "Il fait chaud"
+        },
+        {
+          "es": "Hoy llueve",
+          "t": "Il pleut aujourd'hui"
+        },
+        {
+          "es": "Hace buen tiempo",
+          "t": "Il fait beau"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «hace calor»?",
+          "options": [
+            "Il fait chaud",
+            "Il pleut aujourd'hui",
+            "Il fait beau",
+            "Soleil"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hace calor",
+            "t": "Il fait chaud"
+          }
+        },
+        {
+          "id": "f2l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Il pleut aujourd'hui",
+          "options": [
+            "Hoy llueve",
+            "Hace buen tiempo",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hoy llueve",
+            "t": "Il pleut aujourd'hui"
+          }
+        },
+        {
+          "id": "f2l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Il ___ beau",
+          "options": [
+            "fait",
+            "Soleil",
+            "Pluie"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hace buen tiempo",
+            "t": "Il fait beau"
+          }
+        },
+        {
+          "id": "f2l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Hace calor»",
+          "solution": "Il fait chaud",
+          "distractors": [
+            "Vent",
+            "Neige"
+          ],
+          "pair": {
+            "es": "Hace calor",
+            "t": "Il fait chaud"
+          }
+        },
+        {
+          "id": "f2l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «sol»",
+          "solution": "Soleil",
+          "accept": [
+            "Soleil",
+            "soleil"
+          ],
+          "pair": {
+            "es": "Sol",
+            "t": "Soleil"
+          }
+        },
+        {
+          "id": "f2l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Sol",
+              "t": "Soleil"
+            },
+            {
+              "es": "Lluvia",
+              "t": "Pluie"
+            },
+            {
+              "es": "Viento",
+              "t": "Vent"
+            }
+          ]
+        },
+        {
+          "id": "f2l4e7",
+          "type": "choice",
+          "prompt": "«Nieve» se traduce como...",
+          "options": [
+            "Neige",
+            "Soleil",
+            "Pluie",
+            "Vent"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nieve",
+            "t": "Neige"
+          }
+        },
+        {
+          "id": "f2l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Il fait chaud",
+          "options": [
+            "Hace calor",
+            "Hoy llueve",
+            "Hace buen tiempo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hace calor",
+            "t": "Il fait chaud"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l5",
+      "title": "Mots supplémentaires 1",
+      "goal": "Vocabulaire clé",
+      "tip": [
+        "Pratique des mots importants."
+      ],
+      "phrases": [
+        {
+          "es": "Calle",
+          "t": "Rue"
+        },
+        {
+          "es": "Vino",
+          "t": "Vin"
+        },
+        {
+          "es": "Bonito",
+          "t": "Beau"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Calle»?",
+          "options": [
+            "Rue",
+            "Vin",
+            "Beau",
+            "Mer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Calle",
+            "t": "Rue"
+          }
+        },
+        {
+          "id": "f2l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Vin",
+          "options": [
+            "Vino",
+            "Bonito",
+            "Mar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vino",
+            "t": "Vin"
+          }
+        },
+        {
+          "id": "f2l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Beau",
+            "Mer",
+            "Bon"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bonito",
+            "t": "Beau"
+          }
+        },
+        {
+          "id": "f2l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Mar»",
+          "solution": "Mer",
+          "distractors": [
+            "Bon",
+            "Fatigué"
+          ],
+          "pair": {
+            "es": "Mar",
+            "t": "Mer"
+          }
+        },
+        {
+          "id": "f2l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «buen provecho»",
+          "solution": "Bon appétit",
+          "accept": [
+            "Bon appétit",
+            "bon appétit"
+          ],
+          "pair": {
+            "es": "Buen provecho",
+            "t": "Bon appétit"
+          }
+        },
+        {
+          "id": "f2l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Cansado",
+              "t": "Fatigué"
+            },
+            {
+              "es": "Solo",
+              "t": "Seul"
+            },
+            {
+              "es": "Sábado",
+              "t": "Samedi"
+            }
+          ]
+        },
+        {
+          "id": "f2l5e7",
+          "type": "choice",
+          "prompt": "«Ocho» se traduce como...",
+          "options": [
+            "Huit",
+            "Ciel",
+            "Content",
+            "Dimanche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ocho",
+            "t": "Huit"
+          }
+        },
+        {
+          "id": "f2l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ciel",
+          "options": [
+            "Cielo",
+            "Contento",
+            "Domingo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cielo",
+            "t": "Ciel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l6",
+      "title": "Phrases utiles 2",
+      "goal": "Phrases quotidiennes",
+      "tip": [
+        "Parle naturellement."
+      ],
+      "phrases": [
+        {
+          "es": "Y",
+          "t": "Et"
+        },
+        {
+          "es": "Esperar",
+          "t": "Attendre"
+        },
+        {
+          "es": "Querer",
+          "t": "Vouloir"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Y»?",
+          "options": [
+            "Et",
+            "Attendre",
+            "Vouloir",
+            "Fleur"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Y",
+            "t": "Et"
+          }
+        },
+        {
+          "id": "f2l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Attendre",
+          "options": [
+            "Esperar",
+            "Querer",
+            "Flor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esperar",
+            "t": "Attendre"
+          }
+        },
+        {
+          "id": "f2l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Vouloir",
+            "Fleur",
+            "Cheveu"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Querer",
+            "t": "Vouloir"
+          }
+        },
+        {
+          "id": "f2l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Flor»",
+          "solution": "Fleur",
+          "distractors": [
+            "Cheveu",
+            "Simple"
+          ],
+          "pair": {
+            "es": "Flor",
+            "t": "Fleur"
+          }
+        },
+        {
+          "id": "f2l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cabello»",
+          "solution": "Cheveu",
+          "accept": [
+            "Cheveu",
+            "cheveu"
+          ],
+          "pair": {
+            "es": "Cabello",
+            "t": "Cheveu"
+          }
+        },
+        {
+          "id": "f2l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Simple",
+              "t": "Simple"
+            },
+            {
+              "es": "Salir",
+              "t": "Sortir"
+            },
+            {
+              "es": "Abuela",
+              "t": "Grand-mère"
+            }
+          ]
+        },
+        {
+          "id": "f2l6e7",
+          "type": "choice",
+          "prompt": "«Árbol» se traduce como...",
+          "options": [
+            "Arbre",
+            "Toi",
+            "Mon",
+            "Couper"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Árbol",
+            "t": "Arbre"
+          }
+        },
+        {
+          "id": "f2l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Toi",
+          "options": [
+            "Ti",
+            "Mi",
+            "Cortar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ti",
+            "t": "Toi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l7",
+      "title": "Révision 3",
+      "goal": "Révision",
+      "tip": [
+        "Consolide ce que tu as appris."
+      ],
+      "phrases": [
+        {
+          "es": "Pagar",
+          "t": "Payer"
+        },
+        {
+          "es": "Acostarse",
+          "t": "Se coucher"
+        },
+        {
+          "es": "Esta/Esa",
+          "t": "Cette"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pagar»?",
+          "options": [
+            "Payer",
+            "Se coucher",
+            "Cette",
+            "Tête"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pagar",
+            "t": "Payer"
+          }
+        },
+        {
+          "id": "f2l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Se coucher",
+          "options": [
+            "Acostarse",
+            "Esta/Esa",
+            "Cabeza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Acostarse",
+            "t": "Se coucher"
+          }
+        },
+        {
+          "id": "f2l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Cette",
+            "Tête",
+            "Rien"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esta/Esa",
+            "t": "Cette"
+          }
+        },
+        {
+          "id": "f2l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Cabeza»",
+          "solution": "Tête",
+          "distractors": [
+            "Rien",
+            "Lundi"
+          ],
+          "pair": {
+            "es": "Cabeza",
+            "t": "Tête"
+          }
+        },
+        {
+          "id": "f2l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «nada»",
+          "solution": "Rien",
+          "accept": [
+            "Rien",
+            "rien"
+          ],
+          "pair": {
+            "es": "Nada",
+            "t": "Rien"
+          }
+        },
+        {
+          "id": "f2l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Lunes",
+              "t": "Lundi"
+            },
+            {
+              "es": "Dar",
+              "t": "Donner"
+            },
+            {
+              "es": "Allí",
+              "t": "Là"
+            }
+          ]
+        },
+        {
+          "id": "f2l7e7",
+          "type": "choice",
+          "prompt": "«Falso» se traduce como...",
+          "options": [
+            "Faux",
+            "Gauche",
+            "Client",
+            "Améliorer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Falso",
+            "t": "Faux"
+          }
+        },
+        {
+          "id": "f2l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Gauche",
+          "options": [
+            "Izquierda",
+            "Cliente",
+            "Mejorar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Izquierda",
+            "t": "Gauche"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l8",
+      "title": "Écoute 4",
+      "goal": "Écoute",
+      "tip": [
+        "Entraîne ton oreille."
+      ],
+      "phrases": [
+        {
+          "es": "Pedir/Preguntar",
+          "t": "Demander"
+        },
+        {
+          "es": "Soñar",
+          "t": "Rêver"
+        },
+        {
+          "es": "Pronto",
+          "t": "Bientôt"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pedir/Preguntar»?",
+          "options": [
+            "Demander",
+            "Rêver",
+            "Bientôt",
+            "Oiseau"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pedir/Preguntar",
+            "t": "Demander"
+          }
+        },
+        {
+          "id": "f2l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Rêver",
+          "options": [
+            "Soñar",
+            "Pronto",
+            "Pájaro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soñar",
+            "t": "Rêver"
+          }
+        },
+        {
+          "id": "f2l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Bientôt",
+            "Oiseau",
+            "Pour"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pronto",
+            "t": "Bientôt"
+          }
+        },
+        {
+          "id": "f2l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Pájaro»",
+          "solution": "Oiseau",
+          "distractors": [
+            "Pour",
+            "À"
+          ],
+          "pair": {
+            "es": "Pájaro",
+            "t": "Oiseau"
+          }
+        },
+        {
+          "id": "f2l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «para/por»",
+          "solution": "Pour",
+          "accept": [
+            "Pour",
+            "pour"
+          ],
+          "pair": {
+            "es": "Para/Por",
+            "t": "Pour"
+          }
+        },
+        {
+          "id": "f2l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Hasta pronto",
+              "t": "À bientôt"
+            },
+            {
+              "es": "A veces",
+              "t": "Parfois"
+            },
+            {
+              "es": "País",
+              "t": "Pays"
+            }
+          ]
+        },
+        {
+          "id": "f2l8e7",
+          "type": "choice",
+          "prompt": "«Entrar» se traduce como...",
+          "options": [
+            "Entrer",
+            "Voisin",
+            "Orange",
+            "Commencer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entrar",
+            "t": "Entrer"
+          }
+        },
+        {
+          "id": "f2l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Voisin",
+          "options": [
+            "Vecino",
+            "Naranja",
+            "Empezar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vecino",
+            "t": "Voisin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l9",
+      "title": "Expression orale 5",
+      "goal": "Parler",
+      "tip": [
+        "Prends confiance."
+      ],
+      "phrases": [
+        {
+          "es": "Ocupado",
+          "t": "Occupé"
+        },
+        {
+          "es": "Vecino",
+          "t": "Voisin"
+        },
+        {
+          "es": "Cinco",
+          "t": "Cinq"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Ocupado»?",
+          "options": [
+            "Occupé",
+            "Voisin",
+            "Cinq",
+            "Quelque chose"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ocupado",
+            "t": "Occupé"
+          }
+        },
+        {
+          "id": "f2l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Voisin",
+          "options": [
+            "Vecino",
+            "Cinco",
+            "Algo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vecino",
+            "t": "Voisin"
+          }
+        },
+        {
+          "id": "f2l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Cinq",
+            "Quelque",
+            "Croire"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cinco",
+            "t": "Cinq"
+          }
+        },
+        {
+          "id": "f2l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Algo»",
+          "solution": "Quelque chose",
+          "distractors": [
+            "Croire",
+            "Rouge"
+          ],
+          "pair": {
+            "es": "Algo",
+            "t": "Quelque chose"
+          }
+        },
+        {
+          "id": "f2l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «creer»",
+          "solution": "Croire",
+          "accept": [
+            "Croire",
+            "croire"
+          ],
+          "pair": {
+            "es": "Creer",
+            "t": "Croire"
+          }
+        },
+        {
+          "id": "f2l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Rojo",
+              "t": "Rouge"
+            },
+            {
+              "es": "Vestido",
+              "t": "Robe"
+            },
+            {
+              "es": "Importante",
+              "t": "Important"
+            }
+          ]
+        },
+        {
+          "id": "f2l9e7",
+          "type": "choice",
+          "prompt": "«Hospital» se traduce como...",
+          "options": [
+            "Hôpital",
+            "Expliquer",
+            "Sale",
+            "Assez"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hospital",
+            "t": "Hôpital"
+          }
+        },
+        {
+          "id": "f2l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Expliquer",
+          "options": [
+            "Explicar",
+            "Sucio",
+            "Bastante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Explicar",
+            "t": "Expliquer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f2l10",
+      "title": "Vie réelle 6",
+      "goal": "Situations réelles",
+      "tip": [
+        "Utilise la langue en contexte."
+      ],
+      "phrases": [
+        {
+          "es": "Dinero",
+          "t": "Argent"
+        },
+        {
+          "es": "Hermana",
+          "t": "Sœur"
+        },
+        {
+          "es": "Viernes",
+          "t": "Vendredi"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "f2l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Dinero»?",
+          "options": [
+            "Argent",
+            "Sœur",
+            "Vendredi",
+            "Bière"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dinero",
+            "t": "Argent"
+          }
+        },
+        {
+          "id": "f2l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Sœur",
+          "options": [
+            "Hermana",
+            "Viernes",
+            "Cerveza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana",
+            "t": "Sœur"
+          }
+        },
+        {
+          "id": "f2l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Vendredi",
+            "Bière",
+            "Bouche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Viernes",
+            "t": "Vendredi"
+          }
+        },
+        {
+          "id": "f2l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Cerveza»",
+          "solution": "Bière",
+          "distractors": [
+            "Bouche",
+            "Pays"
+          ],
+          "pair": {
+            "es": "Cerveza",
+            "t": "Bière"
+          }
+        },
+        {
+          "id": "f2l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «boca»",
+          "solution": "Bouche",
+          "accept": [
+            "Bouche",
+            "bouche"
+          ],
+          "pair": {
+            "es": "Boca",
+            "t": "Bouche"
+          }
+        },
+        {
+          "id": "f2l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "País",
+              "t": "Pays"
+            },
+            {
+              "es": "Ruidoso",
+              "t": "Bruyant"
+            },
+            {
+              "es": "Espalda",
+              "t": "Dos"
+            }
+          ]
+        },
+        {
+          "id": "f2l10e7",
+          "type": "choice",
+          "prompt": "«Enero» se traduce como...",
+          "options": [
+            "Janvier",
+            "Amie",
+            "Possible",
+            "Pardon"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enero",
+            "t": "Janvier"
+          }
+        },
+        {
+          "id": "f2l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Amie",
+          "options": [
+            "Amiga",
+            "Posible",
+            "Perdón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amiga",
+            "t": "Amie"
+          }
+        }
+      ]
+    }
+  ]
+}

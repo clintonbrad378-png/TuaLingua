@@ -1,6 +1,6 @@
 {
   "id": "u7",
-  "title": "Planes y futuro",
+  "title": "Plans and future",
   "emoji": "🚀",
   "color": "#35C4A0",
   "lessons": [
@@ -14,18 +14,136 @@
         "Recuerda conjugar «be»: am / is / are going to."
       ],
       "phrases": [
-        { "es": "Voy a estudiar medicina", "t": "I'm going to study medicine" },
-        { "es": "¿Qué vas a hacer este verano?", "t": "What are you going to do this summer?" },
-        { "es": "Va a llover, hay nubes negras", "t": "It's going to rain, there are black clouds" }
+        {
+          "es": "Voy a estudiar medicina",
+          "t": "I'm going to study medicine"
+        },
+        {
+          "es": "¿Qué vas a hacer este verano?",
+          "t": "What are you going to do this summer?"
+        },
+        {
+          "es": "Va a llover, hay nubes negras",
+          "t": "It's going to rain, there are black clouds"
+        }
       ],
       "exercises": [
-        { "id": "u7l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ going to call you tonight.", "options": ["am", "is", "are"], "answer": 0, "pair": { "es": "Voy a llamarte esta noche.", "t": "I am going to call you tonight." }, "explain": "Con «I»: am going to." },
-        { "id": "u7l1e2", "type": "choice", "prompt": "Look at those clouds! It ___ rain.", "options": ["is going to", "will going to", "goes to"], "answer": 0, "pair": { "es": "¡Mira esas nubes! Va a llover.", "t": "Look at those clouds! It is going to rain." }, "explain": "Predicción con evidencia visible: going to." },
-        { "id": "u7l1e3", "type": "build", "prompt": "Traduce: «¿Qué vas a hacer mañana?»", "solution": "What are you going to do tomorrow", "distractors": ["will", "does"], "pair": { "es": "¿Qué vas a hacer mañana?", "t": "What are you going to do tomorrow?" } },
-        { "id": "u7l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "We are going to move to a bigger flat next month.", "options": ["Vamos a mudarnos a un piso más grande el mes que viene.", "Nos mudamos a un piso más grande el mes pasado.", "Nos mudaríamos a un piso más grande si pudiéramos."], "answer": 0, "pair": { "es": "Vamos a mudarnos a un piso más grande el mes que viene.", "t": "We are going to move to a bigger flat next month." } },
-        { "id": "u7l1e5", "type": "type", "prompt": "Escribe «voy a» (intención)", "solution": "going to", "accept": ["going to"], "pair": { "es": "Voy a", "t": "Going to" } },
-        { "id": "u7l1e6", "type": "match", "prompt": "Empareja las expresiones de futuro", "pairs": [{ "es": "Plan", "t": "Plan" }, { "es": "Mañana", "t": "Tomorrow" }, { "es": "El mes que viene", "t": "Next month" }, { "es": "Pronto", "t": "Soon" }] },
-        { "id": "u7l1e7", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ going to sell her car.", "options": ["is", "am", "are"], "answer": 0, "pair": { "es": "Va a vender su coche.", "t": "She is going to sell her car." }, "explain": "Con «she»: is going to." }
+        {
+          "id": "u7l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ going to call you tonight.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy a llamarte esta noche.",
+            "t": "I am going to call you tonight."
+          },
+          "explain": "Con «I»: am going to."
+        },
+        {
+          "id": "u7l1e2",
+          "type": "choice",
+          "prompt": "Look at those clouds! It ___ rain.",
+          "options": [
+            "is going to",
+            "will going to",
+            "goes to"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Mira esas nubes! Va a llover.",
+            "t": "Look at those clouds! It is going to rain."
+          },
+          "explain": "Predicción con evidencia visible: going to."
+        },
+        {
+          "id": "u7l1e3",
+          "type": "build",
+          "prompt": "Traduce: «¿Qué vas a hacer mañana?»",
+          "solution": "What are you going to do tomorrow",
+          "distractors": [
+            "will",
+            "does"
+          ],
+          "pair": {
+            "es": "¿Qué vas a hacer mañana?",
+            "t": "What are you going to do tomorrow?"
+          }
+        },
+        {
+          "id": "u7l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "We are going to move to a bigger flat next month.",
+          "options": [
+            "Vamos a mudarnos a un piso más grande el mes que viene.",
+            "Nos mudamos a un piso más grande el mes pasado.",
+            "Nos mudaríamos a un piso más grande si pudiéramos."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vamos a mudarnos a un piso más grande el mes que viene.",
+            "t": "We are going to move to a bigger flat next month."
+          }
+        },
+        {
+          "id": "u7l1e5",
+          "type": "type",
+          "prompt": "Escribe «voy a» (intención)",
+          "solution": "Going to",
+          "accept": [
+            "going to"
+          ],
+          "pair": {
+            "es": "Voy a",
+            "t": "Going to"
+          }
+        },
+        {
+          "id": "u7l1e6",
+          "type": "match",
+          "prompt": "Empareja las expresiones de futuro",
+          "pairs": [
+            {
+              "es": "Plan",
+              "t": "Plan"
+            },
+            {
+              "es": "Mañana",
+              "t": "Tomorrow"
+            },
+            {
+              "es": "El mes que viene",
+              "t": "Next month"
+            },
+            {
+              "es": "Pronto",
+              "t": "Soon"
+            }
+          ]
+        },
+        {
+          "id": "u7l1e7",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She ___ going to sell her car.",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Va a vender su coche.",
+            "t": "She is going to sell her car."
+          },
+          "explain": "Con «she»: is going to."
+        }
       ]
     },
     {
@@ -38,18 +156,130 @@
         "Contracción «'ll» en positivo y «won't» en negativo."
       ],
       "phrases": [
-        { "es": "Te ayudaré con eso", "t": "I'll help you with that" },
-        { "es": "Creo que aprobaré el examen", "t": "I think I will pass the exam" },
-        { "es": "No te arrepentirás", "t": "You won't regret it" }
+        {
+          "es": "Te ayudaré con eso",
+          "t": "I'll help you with that"
+        },
+        {
+          "es": "Creo que aprobaré el examen",
+          "t": "I think I will pass the exam"
+        },
+        {
+          "es": "No te arrepentirás",
+          "t": "You won't regret it"
+        }
       ],
       "exercises": [
-        { "id": "u7l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I think robots ___ do all the housework.", "options": ["will", "would", "wills"], "answer": 0, "pair": { "es": "Creo que los robots harán todas las tareas.", "t": "I think robots will do all the housework." }, "explain": "Predicción: will + infinitivo." },
-        { "id": "u7l2e2", "type": "choice", "prompt": "El teléfono suena. — OK, I ___ answer it.", "options": ["will", "am going to", "am answering"], "answer": 0, "pair": { "es": "Vale, la cojo.", "t": "OK, I will answer it." }, "explain": "Decisión espontánea: will." },
-        { "id": "u7l2e3", "type": "build", "prompt": "Traduce: «No te preocupes, te llamaré»", "solution": "Don't worry I will call you", "distractors": ["worrying", "called"], "pair": { "es": "No te preocupes, te llamaré", "t": "Don't worry, I will call you" } },
-        { "id": "u7l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "I promise I won't be late again.", "options": ["Prometo que no volveré a llegar tarde.", "Prometí que no llegaría tarde.", "Espero que no llegues tarde otra vez."], "answer": 0, "pair": { "es": "Prometo que no volveré a llegar tarde.", "t": "I promise I won't be late again." } },
-        { "id": "u7l2e5", "type": "type", "prompt": "Escribe «no lo haré» (contracción)", "solution": "won't", "accept": ["won't", "will not"], "pair": { "es": "No lo haré", "t": "Won't" } },
-        { "id": "u7l2e6", "type": "choice", "prompt": "She probably ___ come — she's exhausted.", "options": ["won't", "will", "is"], "answer": 0, "pair": { "es": "Probablemente no vendrá: está agotada.", "t": "She probably won't come — she's exhausted." }, "explain": "«Probably + won't»: probablemente no venga." },
-        { "id": "u7l2e7", "type": "fill", "prompt": "Completa la frase", "sentence": "Don't worry, I ___ tell anyone your secret.", "options": ["won't", "will", "don't"], "answer": 0, "pair": { "es": "Tranquilo, no le diré tu secreto a nadie.", "t": "Don't worry, I won't tell anyone your secret." }, "explain": "Promesa negativa: won't tell." }
+        {
+          "id": "u7l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I think robots ___ do all the housework.",
+          "options": [
+            "will",
+            "would",
+            "wills"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creo que los robots harán todas las tareas.",
+            "t": "I think robots will do all the housework."
+          },
+          "explain": "Predicción: will + infinitivo."
+        },
+        {
+          "id": "u7l2e2",
+          "type": "choice",
+          "prompt": "El teléfono suena. — OK, I ___ answer it.",
+          "options": [
+            "will",
+            "am going to",
+            "am answering"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vale, la cojo.",
+            "t": "OK, I will answer it."
+          },
+          "explain": "Decisión espontánea: will."
+        },
+        {
+          "id": "u7l2e3",
+          "type": "build",
+          "prompt": "Traduce: «No te preocupes, te llamaré»",
+          "solution": "Don't worry I will call you",
+          "distractors": [
+            "worrying",
+            "called"
+          ],
+          "pair": {
+            "es": "No te preocupes, te llamaré",
+            "t": "Don't worry, I will call you"
+          }
+        },
+        {
+          "id": "u7l2e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "I promise I won't be late again.",
+          "options": [
+            "Prometo que no volveré a llegar tarde.",
+            "Prometí que no llegaría tarde.",
+            "Espero que no llegues tarde otra vez."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Prometo que no volveré a llegar tarde.",
+            "t": "I promise I won't be late again."
+          }
+        },
+        {
+          "id": "u7l2e5",
+          "type": "type",
+          "prompt": "Escribe «no lo haré» (contracción)",
+          "solution": "Won't",
+          "accept": [
+            "won't",
+            "will not"
+          ],
+          "pair": {
+            "es": "No lo haré",
+            "t": "Won't"
+          }
+        },
+        {
+          "id": "u7l2e6",
+          "type": "choice",
+          "prompt": "She probably ___ come — she's exhausted.",
+          "options": [
+            "won't",
+            "will",
+            "is"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Probablemente no vendrá: está agotada.",
+            "t": "She probably won't come — she's exhausted."
+          },
+          "explain": "«Probably + won't»: probablemente no venga."
+        },
+        {
+          "id": "u7l2e7",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Don't worry, I ___ tell anyone your secret.",
+          "options": [
+            "won't",
+            "will",
+            "don't"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tranquilo, no le diré tu secreto a nadie.",
+            "t": "Don't worry, I won't tell anyone your secret."
+          },
+          "explain": "Promesa negativa: won't tell."
+        }
       ]
     },
     {
@@ -62,18 +292,135 @@
         "«Unless» = if not: We won't go unless it stops raining."
       ],
       "phrases": [
-        { "es": "Si estudias, aprobarás", "t": "If you study, you will pass" },
-        { "es": "No iremos a menos que deje de llover", "t": "We won't go unless it stops raining" },
-        { "es": "Si tienes tiempo, llámame", "t": "If you have time, call me" }
+        {
+          "es": "Si estudias, aprobarás",
+          "t": "If you study, you will pass"
+        },
+        {
+          "es": "No iremos a menos que deje de llover",
+          "t": "We won't go unless it stops raining"
+        },
+        {
+          "es": "Si tienes tiempo, llámame",
+          "t": "If you have time, call me"
+        }
       ],
       "exercises": [
-        { "id": "u7l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If it ___ tomorrow, we will stay at home.", "options": ["rains", "will rain", "rained"], "answer": 0, "pair": { "es": "Si llueve mañana, nos quedamos en casa.", "t": "If it rains tomorrow, we will stay at home." }, "explain": "Tras «if»: presente simple." },
-        { "id": "u7l3e2", "type": "choice", "prompt": "I won't go ___ you come with me.", "options": ["unless", "if", "when"], "answer": 0, "pair": { "es": "No iré a menos que vengas conmigo.", "t": "I won't go unless you come with me." }, "explain": "«Unless» = a menos que." },
-        { "id": "u7l3e3", "type": "build", "prompt": "Traduce: «Si terminas pronto, iremos al cine»", "solution": "If you finish early we will go to the cinema", "distractors": ["finished", "would"], "pair": { "es": "Si terminas pronto, iremos al cine", "t": "If you finish early, we will go to the cinema" } },
-        { "id": "u7l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If you don't hurry, you will miss the train.", "options": ["Si no te das prisa, perderás el tren.", "Si te das prisa, cogerás el tren.", "Perdiste el tren por no darte prisa."], "answer": 0, "pair": { "es": "Si no te das prisa, perderás el tren.", "t": "If you don't hurry, you will miss the train." } },
-        { "id": "u7l3e5", "type": "type", "prompt": "Escribe «a menos que»", "solution": "unless", "accept": ["unless"], "pair": { "es": "A menos que", "t": "Unless" } },
-        { "id": "u7l3e6", "type": "choice", "prompt": "If you study hard, you ___ the exam.", "options": ["will pass", "pass", "passed"], "answer": 0, "pair": { "es": "Si estudias mucho, aprobarás el examen.", "t": "If you study hard, you will pass the exam." }, "explain": "Consecuencia: will + infinitivo." },
-        { "id": "u7l3e7", "type": "match", "prompt": "Empareja las estructuras condicionales", "pairs": [{ "es": "Si", "t": "If" }, { "es": "A menos que", "t": "Unless" }, { "es": "Futuro (will + verbo)", "t": "Will + verb" }, { "es": "Si no", "t": "If not" }] }
+        {
+          "id": "u7l3e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "If it ___ tomorrow, we will stay at home.",
+          "options": [
+            "rains",
+            "will rain",
+            "rained"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si llueve mañana, nos quedamos en casa.",
+            "t": "If it rains tomorrow, we will stay at home."
+          },
+          "explain": "Tras «if»: presente simple."
+        },
+        {
+          "id": "u7l3e2",
+          "type": "choice",
+          "prompt": "I won't go ___ you come with me.",
+          "options": [
+            "unless",
+            "if",
+            "when"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No iré a menos que vengas conmigo.",
+            "t": "I won't go unless you come with me."
+          },
+          "explain": "«Unless» = a menos que."
+        },
+        {
+          "id": "u7l3e3",
+          "type": "build",
+          "prompt": "Traduce: «Si terminas pronto, iremos al cine»",
+          "solution": "If you finish early we will go to the cinema",
+          "distractors": [
+            "finished",
+            "would"
+          ],
+          "pair": {
+            "es": "Si terminas pronto, iremos al cine",
+            "t": "If you finish early, we will go to the cinema"
+          }
+        },
+        {
+          "id": "u7l3e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "If you don't hurry, you will miss the train.",
+          "options": [
+            "Si no te das prisa, perderás el tren.",
+            "Si te das prisa, cogerás el tren.",
+            "Perdiste el tren por no darte prisa."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si no te das prisa, perderás el tren.",
+            "t": "If you don't hurry, you will miss the train."
+          }
+        },
+        {
+          "id": "u7l3e5",
+          "type": "type",
+          "prompt": "Escribe «a menos que»",
+          "solution": "Unless",
+          "accept": [
+            "unless"
+          ],
+          "pair": {
+            "es": "A menos que",
+            "t": "Unless"
+          }
+        },
+        {
+          "id": "u7l3e6",
+          "type": "choice",
+          "prompt": "If you study hard, you ___ the exam.",
+          "options": [
+            "will pass",
+            "pass",
+            "passed"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si estudias mucho, aprobarás el examen.",
+            "t": "If you study hard, you will pass the exam."
+          },
+          "explain": "Consecuencia: will + infinitivo."
+        },
+        {
+          "id": "u7l3e7",
+          "type": "match",
+          "prompt": "Empareja las estructuras condicionales",
+          "pairs": [
+            {
+              "es": "Si",
+              "t": "If"
+            },
+            {
+              "es": "A menos que",
+              "t": "Unless"
+            },
+            {
+              "es": "Futuro (will + verbo)",
+              "t": "Will + verb"
+            },
+            {
+              "es": "Si no",
+              "t": "If not"
+            }
+          ]
+        }
       ]
     },
     {
@@ -86,18 +433,1035 @@
         "«I'll call you when I get home» — nunca «when I will get»."
       ],
       "phrases": [
-        { "es": "Te llamo cuando llegue al hotel", "t": "I'll call you when I get to the hotel" },
-        { "es": "Espera aquí hasta que vuelva", "t": "Wait here until I come back" },
-        { "es": "¿Te apetece cenar el viernes?", "t": "Would you like to have dinner on Friday?" }
+        {
+          "es": "Te llamo cuando llegue al hotel",
+          "t": "I'll call you when I get to the hotel"
+        },
+        {
+          "es": "Espera aquí hasta que vuelva",
+          "t": "Wait here until I come back"
+        },
+        {
+          "es": "¿Te apetece cenar el viernes?",
+          "t": "Would you like to have dinner on Friday?"
+        }
       ],
       "exercises": [
-        { "id": "u7l4e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I will call you when I ___ home.", "options": ["get", "will get", "got"], "answer": 0, "pair": { "es": "Te llamaré cuando llegue a casa.", "t": "I will call you when I get home." }, "explain": "Tras «when»: presente simple." },
-        { "id": "u7l4e2", "type": "choice", "prompt": "Wait until the light ___ green.", "options": ["turns", "will turn", "turned"], "answer": 0, "pair": { "es": "Espera hasta que el semáforo se ponga verde.", "t": "Wait until the light turns green." }, "explain": "Tras «until»: presente simple." },
-        { "id": "u7l4e3", "type": "build", "prompt": "Traduce: «Te enviaré un mensaje en cuanto llegue»", "solution": "I will send you a message as soon as I arrive", "distractors": ["arrived", "sending"], "pair": { "es": "Te enviaré un mensaje en cuanto llegue", "t": "I will send you a message as soon as I arrive" } },
-        { "id": "u7l4e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "Would you like to come to the cinema with us?", "options": ["¿Te apetece venir al cine con nosotros?", "¿Viniste al cine con nosotros?", "¿Vendrás al cine con nosotros a la fuerza?"], "answer": 0, "pair": { "es": "¿Te apetece venir al cine con nosotros?", "t": "Would you like to come to the cinema with us?" } },
-        { "id": "u7l4e5", "type": "type", "prompt": "Escribe «en cuanto»", "solution": "as soon as", "accept": ["as soon as"], "pair": { "es": "En cuanto", "t": "As soon as" } },
-        { "id": "u7l4e6", "type": "choice", "prompt": "We won't leave ___ the rain stops.", "options": ["until", "while", "since"], "answer": 0, "pair": { "es": "No nos iremos hasta que pare la lluvia.", "t": "We won't leave until the rain stops." }, "explain": "«Until» = hasta que." },
-        { "id": "u7l4e7", "type": "fill", "prompt": "Completa la invitación", "sentence": "___ you like to join us for dinner?", "options": ["Would", "Will", "Do"], "answer": 0, "pair": { "es": "¿Te gustaría cenar con nosotros?", "t": "Would you like to join us for dinner?" }, "explain": "«Would you like to…?»: invitación cortés." }
+        {
+          "id": "u7l4e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I will call you when I ___ home.",
+          "options": [
+            "get",
+            "will get",
+            "got"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Te llamaré cuando llegue a casa.",
+            "t": "I will call you when I get home."
+          },
+          "explain": "Tras «when»: presente simple."
+        },
+        {
+          "id": "u7l4e2",
+          "type": "choice",
+          "prompt": "Wait until the light ___ green.",
+          "options": [
+            "turns",
+            "will turn",
+            "turned"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Espera hasta que el semáforo se ponga verde.",
+            "t": "Wait until the light turns green."
+          },
+          "explain": "Tras «until»: presente simple."
+        },
+        {
+          "id": "u7l4e3",
+          "type": "build",
+          "prompt": "Traduce: «Te enviaré un mensaje en cuanto llegue»",
+          "solution": "I will send you a message as soon as I arrive",
+          "distractors": [
+            "arrived",
+            "sending"
+          ],
+          "pair": {
+            "es": "Te enviaré un mensaje en cuanto llegue",
+            "t": "I will send you a message as soon as I arrive"
+          }
+        },
+        {
+          "id": "u7l4e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Would you like to come to the cinema with us?",
+          "options": [
+            "¿Te apetece venir al cine con nosotros?",
+            "¿Viniste al cine con nosotros?",
+            "¿Vendrás al cine con nosotros a la fuerza?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Te apetece venir al cine con nosotros?",
+            "t": "Would you like to come to the cinema with us?"
+          }
+        },
+        {
+          "id": "u7l4e5",
+          "type": "type",
+          "prompt": "Escribe «en cuanto»",
+          "solution": "As soon as",
+          "accept": [
+            "as soon as"
+          ],
+          "pair": {
+            "es": "En cuanto",
+            "t": "As soon as"
+          }
+        },
+        {
+          "id": "u7l4e6",
+          "type": "choice",
+          "prompt": "We won't leave ___ the rain stops.",
+          "options": [
+            "until",
+            "while",
+            "since"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No nos iremos hasta que pare la lluvia.",
+            "t": "We won't leave until the rain stops."
+          },
+          "explain": "«Until» = hasta que."
+        },
+        {
+          "id": "u7l4e7",
+          "type": "fill",
+          "prompt": "Completa la invitación",
+          "sentence": "___ you like to join us for dinner?",
+          "options": [
+            "Would",
+            "Will",
+            "Do"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Te gustaría cenar con nosotros?",
+            "t": "Would you like to join us for dinner?"
+          },
+          "explain": "«Would you like to…?»: invitación cortés."
+        }
+      ]
+    },
+    {
+      "id": "u7l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Dos",
+          "t": "Two"
+        },
+        {
+          "es": "La uva",
+          "t": "The grape"
+        },
+        {
+          "es": "El perro",
+          "t": "The dog"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Dos»?",
+          "options": [
+            "two",
+            "the grape",
+            "the dog",
+            "the politics"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dos",
+            "t": "Two"
+          }
+        },
+        {
+          "id": "u7l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The grape",
+          "options": [
+            "La uva",
+            "El perro",
+            "La política"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La uva",
+            "t": "The grape"
+          }
+        },
+        {
+          "id": "u7l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ dog",
+          "options": [
+            "the",
+            "thex",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El perro",
+            "t": "The dog"
+          }
+        },
+        {
+          "id": "u7l5e4",
+          "type": "build",
+          "prompt": "Traduce: «La política»",
+          "solution": "The politics",
+          "distractors": [
+            "the",
+            "salty"
+          ],
+          "pair": {
+            "es": "La política",
+            "t": "The politics"
+          }
+        },
+        {
+          "id": "u7l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la fresa»",
+          "solution": "The strawberry",
+          "accept": [
+            "the strawberry",
+            "the strawberry"
+          ],
+          "pair": {
+            "es": "La fresa",
+            "t": "The strawberry"
+          }
+        },
+        {
+          "id": "u7l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Salado",
+              "t": "Salty"
+            },
+            {
+              "es": "La maleta",
+              "t": "The suitcase"
+            },
+            {
+              "es": "La mermelada",
+              "t": "The jam"
+            }
+          ]
+        },
+        {
+          "id": "u7l5e7",
+          "type": "choice",
+          "prompt": "«La medicina» se traduce como...",
+          "options": [
+            "the medicine",
+            "the keys",
+            "football",
+            "tomorrow"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La medicina",
+            "t": "The medicine"
+          }
+        },
+        {
+          "id": "u7l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The keys",
+          "options": [
+            "Las llaves",
+            "El fútbol",
+            "Mañana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las llaves",
+            "t": "The keys"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Antes",
+          "t": "Before"
+        },
+        {
+          "es": "Reírse",
+          "t": "To laugh"
+        },
+        {
+          "es": "La natación",
+          "t": "Swimming"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Antes»?",
+          "options": [
+            "before",
+            "to laugh",
+            "swimming",
+            "the hat"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Antes",
+            "t": "Before"
+          }
+        },
+        {
+          "id": "u7l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "To laugh",
+          "options": [
+            "Reírse",
+            "La natación",
+            "El sombrero"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Reírse",
+            "t": "To laugh"
+          }
+        },
+        {
+          "id": "u7l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "swimming",
+            "the",
+            "together"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La natación",
+            "t": "Swimming"
+          }
+        },
+        {
+          "id": "u7l6e4",
+          "type": "build",
+          "prompt": "Traduce: «El sombrero»",
+          "solution": "The hat",
+          "distractors": [
+            "together",
+            "cheap"
+          ],
+          "pair": {
+            "es": "El sombrero",
+            "t": "The hat"
+          }
+        },
+        {
+          "id": "u7l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «juntos»",
+          "solution": "Together",
+          "accept": [
+            "together",
+            "together"
+          ],
+          "pair": {
+            "es": "Juntos",
+            "t": "Together"
+          }
+        },
+        {
+          "id": "u7l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Barato",
+              "t": "Cheap"
+            },
+            {
+              "es": "Sí",
+              "t": "Yes"
+            },
+            {
+              "es": "La mano",
+              "t": "The hand"
+            }
+          ]
+        },
+        {
+          "id": "u7l6e7",
+          "type": "choice",
+          "prompt": "«La semana» se traduce como...",
+          "options": [
+            "the week",
+            "the arm",
+            "the desk",
+            "the checkout"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La semana",
+            "t": "The week"
+          }
+        },
+        {
+          "id": "u7l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The arm",
+          "options": [
+            "El brazo",
+            "El escritorio",
+            "La caja"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El brazo",
+            "t": "The arm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "El descuento",
+          "t": "The discount"
+        },
+        {
+          "es": "Educación",
+          "t": "Education"
+        },
+        {
+          "es": "Mezclar",
+          "t": "To mix"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El descuento»?",
+          "options": [
+            "the discount",
+            "education",
+            "to mix",
+            "the guitar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El descuento",
+            "t": "The discount"
+          }
+        },
+        {
+          "id": "u7l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Education",
+          "options": [
+            "Educación",
+            "Mezclar",
+            "La guitarra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Educación",
+            "t": "Education"
+          }
+        },
+        {
+          "id": "u7l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ mix",
+          "options": [
+            "to",
+            "the",
+            "party"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mezclar",
+            "t": "To mix"
+          }
+        },
+        {
+          "id": "u7l7e4",
+          "type": "build",
+          "prompt": "Traduce: «La guitarra»",
+          "solution": "The guitar",
+          "distractors": [
+            "party",
+            "the"
+          ],
+          "pair": {
+            "es": "La guitarra",
+            "t": "The guitar"
+          }
+        },
+        {
+          "id": "u7l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «fiesta/partido»",
+          "solution": "Party",
+          "accept": [
+            "party",
+            "party"
+          ],
+          "pair": {
+            "es": "Fiesta/partido",
+            "t": "Party"
+          }
+        },
+        {
+          "id": "u7l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El suéter",
+              "t": "The sweater"
+            },
+            {
+              "es": "La mesa",
+              "t": "The table"
+            },
+            {
+              "es": "Triste",
+              "t": "Sad"
+            }
+          ]
+        },
+        {
+          "id": "u7l7e7",
+          "type": "choice",
+          "prompt": "«El viento» se traduce como...",
+          "options": [
+            "the wind",
+            "after",
+            "the password",
+            "the passport"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El viento",
+            "t": "The wind"
+          }
+        },
+        {
+          "id": "u7l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "After",
+          "options": [
+            "Después",
+            "La contraseña",
+            "El pasaporte"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Después",
+            "t": "After"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "La película",
+          "t": "The movie"
+        },
+        {
+          "es": "La gasolinera",
+          "t": "The petrol station"
+        },
+        {
+          "es": "Intentar",
+          "t": "Try"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La película»?",
+          "options": [
+            "the movie",
+            "the petrol station",
+            "try",
+            "these"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La película",
+            "t": "The movie"
+          }
+        },
+        {
+          "id": "u7l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The petrol station",
+          "options": [
+            "La gasolinera",
+            "Intentar",
+            "Estos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La gasolinera",
+            "t": "The petrol station"
+          }
+        },
+        {
+          "id": "u7l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "try",
+            "these",
+            "thin"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Intentar",
+            "t": "Try"
+          }
+        },
+        {
+          "id": "u7l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Estos»",
+          "solution": "These",
+          "distractors": [
+            "thin",
+            "the"
+          ],
+          "pair": {
+            "es": "Estos",
+            "t": "These"
+          }
+        },
+        {
+          "id": "u7l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «delgado»",
+          "solution": "Thin",
+          "accept": [
+            "thin",
+            "thin"
+          ],
+          "pair": {
+            "es": "Delgado",
+            "t": "Thin"
+          }
+        },
+        {
+          "id": "u7l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La universidad",
+              "t": "The university"
+            },
+            {
+              "es": "El mono",
+              "t": "The monkey"
+            },
+            {
+              "es": "Natural",
+              "t": "Natural"
+            }
+          ]
+        },
+        {
+          "id": "u7l8e7",
+          "type": "choice",
+          "prompt": "«Eso creo» se traduce como...",
+          "options": [
+            "I think so",
+            "your",
+            "nervous",
+            "show"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Eso creo",
+            "t": "I think so"
+          }
+        },
+        {
+          "id": "u7l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Your",
+          "options": [
+            "Tu",
+            "Nervioso",
+            "Mostrar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tu",
+            "t": "Your"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "La sopa",
+          "t": "The soup"
+        },
+        {
+          "es": "La tía",
+          "t": "The aunt"
+        },
+        {
+          "es": "Charlar",
+          "t": "To chat"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La sopa»?",
+          "options": [
+            "the soup",
+            "the aunt",
+            "to chat",
+            "sour"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La sopa",
+            "t": "The soup"
+          }
+        },
+        {
+          "id": "u7l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The aunt",
+          "options": [
+            "La tía",
+            "Charlar",
+            "Ácido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tía",
+            "t": "The aunt"
+          }
+        },
+        {
+          "id": "u7l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ chat",
+          "options": [
+            "to",
+            "sour",
+            "happy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Charlar",
+            "t": "To chat"
+          }
+        },
+        {
+          "id": "u7l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Ácido»",
+          "solution": "Sour",
+          "distractors": [
+            "happy",
+            "good"
+          ],
+          "pair": {
+            "es": "Ácido",
+            "t": "Sour"
+          }
+        },
+        {
+          "id": "u7l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «feliz»",
+          "solution": "Happy",
+          "accept": [
+            "happy",
+            "happy"
+          ],
+          "pair": {
+            "es": "Feliz",
+            "t": "Happy"
+          }
+        },
+        {
+          "id": "u7l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Bueno",
+              "t": "Good"
+            },
+            {
+              "es": "Poder",
+              "t": "Power"
+            },
+            {
+              "es": "El café",
+              "t": "The coffee"
+            }
+          ]
+        },
+        {
+          "id": "u7l9e7",
+          "type": "choice",
+          "prompt": "«El poema» se traduce como...",
+          "options": [
+            "the poem",
+            "best",
+            "How much is it?",
+            "the oil"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El poema",
+            "t": "The poem"
+          }
+        },
+        {
+          "id": "u7l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Best",
+          "options": [
+            "Mejor",
+            "¿Cuánto cuesta?",
+            "El aceite"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mejor",
+            "t": "Best"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u7l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Orgulloso",
+          "t": "Proud"
+        },
+        {
+          "es": "La cola",
+          "t": "The queue"
+        },
+        {
+          "es": "Salir/dejar",
+          "t": "Leave"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u7l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Orgulloso»?",
+          "options": [
+            "proud",
+            "the queue",
+            "leave",
+            "the cat"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Orgulloso",
+            "t": "Proud"
+          }
+        },
+        {
+          "id": "u7l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The queue",
+          "options": [
+            "La cola",
+            "Salir/dejar",
+            "El gato"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cola",
+            "t": "The queue"
+          }
+        },
+        {
+          "id": "u7l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "leave",
+            "the",
+            "free"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Salir/dejar",
+            "t": "Leave"
+          }
+        },
+        {
+          "id": "u7l10e4",
+          "type": "build",
+          "prompt": "Traduce: «El gato»",
+          "solution": "The cat",
+          "distractors": [
+            "free",
+            "put"
+          ],
+          "pair": {
+            "es": "El gato",
+            "t": "The cat"
+          }
+        },
+        {
+          "id": "u7l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «gratis»",
+          "solution": "Free",
+          "accept": [
+            "free",
+            "free"
+          ],
+          "pair": {
+            "es": "Gratis",
+            "t": "Free"
+          }
+        },
+        {
+          "id": "u7l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Poner",
+              "t": "Put"
+            },
+            {
+              "es": "Lugar",
+              "t": "Place"
+            },
+            {
+              "es": "La pimienta",
+              "t": "The pepper"
+            }
+          ]
+        },
+        {
+          "id": "u7l10e7",
+          "type": "choice",
+          "prompt": "«Mostrar» se traduce como...",
+          "options": [
+            "show",
+            "the stranger",
+            "those",
+            "the country"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mostrar",
+            "t": "Show"
+          }
+        },
+        {
+          "id": "u7l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The stranger",
+          "options": [
+            "El desconocido",
+            "Esos",
+            "El país"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El desconocido",
+            "t": "The stranger"
+          }
+        }
       ]
     }
   ]

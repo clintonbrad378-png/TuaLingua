@@ -302,15 +302,20 @@ impl Db {
     }
 
     pub fn load(path: &Path) -> Self {
-        std::fs::read_to_string(path)
-            .ok()
-            .and_then(|raw| serde_json::from_str(&raw).ok())
-            .map(Self::sanitize)
-            .map(|mut db| {
-                db.version = SCHEMA_VERSION;
-                db
-            })
-            .unwrap_or_default()
+        let candidates = [
+            path.to_path_buf(),
+            path.with_extension("json.bak1"),
+            path.with_extension("json.bak2"),
+            path.with_extension("json.bak3"),
+        ];
+        for candidate in candidates {
+            let Ok(raw) = std::fs::read_to_string(&candidate) else { continue };
+            let Ok(parsed) = serde_json::from_str::<Self>(&raw) else { continue };
+            let mut db = Self::sanitize(parsed);
+            db.version = SCHEMA_VERSION;
+            return db;
+        }
+        Self::default()
     }
 
     pub fn load_from_str(raw: &str) -> Self {

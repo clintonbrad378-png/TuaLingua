@@ -22,11 +22,15 @@ pub struct DictCategory {
     pub words: Vec<DictEntry>,
 }
 
-const SOURCES: [(&str, &str); 4] = [
+const SOURCES: [(&str, &str); 8] = [
     ("en", include_str!("content/dictionary.json")),
     ("ru", include_str!("content/dictionary_ru.json")),
     ("it", include_str!("content/dictionary_it.json")),
     ("zh", include_str!("content/dictionary_zh.json")),
+    ("fr", include_str!("content/dictionary_fr.json")),
+    ("ar", include_str!("content/dictionary_ar.json")),
+    ("de", include_str!("content/dictionary_de.json")),
+    ("pt", include_str!("content/dictionary_pt.json")),
 ];
 
 static DICTIONARIES: OnceLock<HashMap<String, Vec<DictCategory>>> = OnceLock::new();
@@ -78,7 +82,7 @@ mod tests {
 
     #[test]
     fn dictionary_json_matches_dictionary() {
-        for lang in ["en", "ru", "it", "zh"] {
+        for lang in ["en", "ru", "it", "zh", "fr", "ar", "de", "pt"] {
             let cats = dictionary(lang);
             let value = dictionary_json(lang);
             let arr = value.as_array().expect("diccionario json es un array");
@@ -100,6 +104,7 @@ mod tests {
             );
             let mut ids = std::collections::HashSet::new();
             let mut seen = std::collections::HashSet::new();
+            let mut total = 0usize;
             for cat in cats {
                 assert!(
                     ids.insert(cat.id.as_str()),
@@ -128,8 +133,10 @@ mod tests {
                         assert!(!ex.t.trim().is_empty());
                         assert!(!ex.es.trim().is_empty());
                     }
+                    total += 1;
                 }
             }
+            assert!(total >= 500, "{}: se esperaban >= 500 palabras/frases, hay {}", lang.id, total);
         }
     }
 }

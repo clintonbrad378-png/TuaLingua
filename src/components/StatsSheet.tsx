@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import type { ProgressState, SrsCard, Unit } from "../types";
-import type { AudioMode } from "../lib/audio";
-import { ttsAvailable } from "../lib/audio";
 import { plural, setUiLang, UI_LANGS, levelTitle, uiLang, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
 import { IconFlame, IconBolt, IconTrophy, IconTarget, IconBook, IconBrain, IconClock } from "../components/icons";
@@ -55,8 +53,6 @@ export default function StatsSheet({
   units,
   progress,
   dueSoon,
-  audioMode,
-  onAudioMode,
   onClose,
   onReset,
   onDailyGoal,
@@ -66,8 +62,6 @@ export default function StatsSheet({
   units: Unit[];
   progress: ProgressState;
   dueSoon: SrsCard[] | null;
-  audioMode: AudioMode;
-  onAudioMode: (mode: AudioMode) => void;
   onClose: () => void;
   onReset: () => Promise<void>;
   onDailyGoal: (goal: number) => Promise<boolean> | void;
@@ -297,23 +291,6 @@ export default function StatsSheet({
                   onClick={() => setTheme(tid)}
                 >
                   {t(`st.theme_${tid}`)}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div className="set-row">
-            <span className="set-name">{t("st.audio_mode")}</span>
-            <div className="set-ctl theme-toggle">
-              {(["clip", "tts"] as const).map((mid) => (
-                <button
-                  key={mid}
-                  className={`step-btn aux ${audioMode === mid ? "on" : ""}`}
-                  aria-pressed={audioMode === mid}
-                  onClick={() => onAudioMode(mid)}
-                  disabled={mid === "tts" && !ttsAvailable()}
-                  title={mid === "tts" && !ttsAvailable() ? t("st.tts_unavailable") : undefined}
-                >
-                  {t(`st.audio_${mid}`)}
                 </button>
               ))}
             </div>

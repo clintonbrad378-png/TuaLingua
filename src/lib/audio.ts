@@ -1,18 +1,8 @@
-const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
-
 import { langBcp47, langOf } from "./langs";
-
-export type AudioMode = "clip" | "tts";
-
-const AUDIO_MODE_KEY = "tl-audio-mode";
 
 let ctx: AudioContext | null = null;
 let muted = false;
 let voiceLang = "en";
-let audioMode: AudioMode =
-  typeof localStorage !== "undefined" && localStorage.getItem(AUDIO_MODE_KEY) === "tts"
-    ? "tts"
-    : "clip";
 
 export function markActivated() {
   // kept for backward-compatible call sites
@@ -24,16 +14,6 @@ export function setVoiceLanguage(lang: string) {
     voiceLang = norm;
     voiceCache.clear();
   }
-}
-
-export function setAudioMode(mode: AudioMode) {
-  audioMode = mode;
-  if (typeof localStorage !== "undefined") localStorage.setItem(AUDIO_MODE_KEY, mode);
-  if (mode === "tts") stopClip();
-}
-
-export function getAudioMode(): AudioMode {
-  return audioMode;
 }
 
 export function setMuted(value: boolean) {
@@ -107,143 +87,13 @@ export function vibrate(pattern: number | number[]) {
   }
 }
 
-/* ---------- voz empaquetada (Piper) ---------- */
-
-const FNV_OFFSET = 0x811c9dc5;
-const FNV_PRIME = 0x01000193;
-
-function fnv1a(text: string): number {
-  let h = FNV_OFFSET;
-  for (let i = 0; i < text.length; i++) {
-    h ^= text.charCodeAt(i);
-    h = Math.imul(h, FNV_PRIME) >>> 0;
-  }
-  return h;
-}
-
-function hex(value: number): string {
-  return value.toString(16).padStart(8, "0");
-}
-
-export function clipKey(text: string): string {
-  const norm = text
-    .replace(/[(（][^)）]*[)）]/g, " ")
-    .trim()
-    .replace(/\s+/g, " ");
-  return hex(fnv1a(norm)) + hex(fnv1a(`${norm}#tualingua`));
-}
-
-const clips = new Map<string, HTMLAudioElement>();
-const MAX_CLIPS = 64;
-let current: HTMLAudioElement | null = null;
-
-function trimUrl(text: string): string {
-  return `${BASE}/audio/${voiceLang}/${clipKey(text)}.mp3`;
-}
-
-function evictStaleClips() {
-  while (clips.size > MAX_CLIPS) {
-    let stale: string | null = null;
-    for (const key of clips.keys()) {
-      if (!current || current.src !== clips.get(key)?.src) {
-        stale = key;
-        break;
-      }
-    }
-    if (!stale) break;
-    const el = clips.get(stale);
-    if (el) {
-      el.pause();
-      el.removeAttribute("src");
-      el.load();
-    }
-    clips.delete(stale);
-  }
-}
-
-function clipEl(url: string): HTMLAudioElement {
-  let el = clips.get(url);
-  if (!el) {
-    el = new Audio();
-    el.preload = "auto";
-    el.src = url;
-    clips.set(url, el);
-    evictStaleClips();
-  }
-  return el;
-}
-
-export function preloadClip(text: string) {
-  if (audioMode === "tts") return;
-  const el = clipEl(trimUrl(text));
-  try {
-    el.load();
-  } catch {
-    /* noop */
-  }
-}
-
-function stopClip() {
-  if (current) {
-    try {
-      current.pause();
-      current.currentTime = 0;
-    } catch {
-      /* noop */
-    }
-    current = null;
-  }
-}
-
 export function stopSpeech() {
-  stopClip();
-  if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-}
-
-function playChain(text: string, rate: number) {
-  const attempt = () => {
-    const el = clipEl(trimUrl(text));
-    let handled = false;
-    const fail = (err?: unknown) => {
-      if (handled) return;
-      if (err && typeof err === "object" && (err as { name?: string }).name === "AbortError") return;
-      handled = true;
-      el.onerror = null;
-      ttsSpeak(text, rate);
-    };
-    el.onerror = () => fail();
-    try {
-      el.currentTime = 0;
-    } catch {
-      /* noop */
-    }
-    el.playbackRate = rate < 1 ? Math.max(0.55, rate) : 1;
-    const withPitch = el as HTMLAudioElement & {
-      preservesPitch?: boolean;
-      webkitPreservesPitch?: boolean;
-    };
-    withPitch.preservesPitch = true;
-    withPitch.webkitPreservesPitch = true;
-    const promise = el.play();
-    if (promise && typeof promise.catch === "function") promise.catch(fail);
-    current = el;
-  };
-
-  attempt();
-}
-
-export function speak(text: string, rate = 1) {
-  if (muted || !text) return;
-  markActivated();
-  stopSpeech();
-  if (audioMode === "tts") {
-    ttsSpeak(text, rate);
-    return;
+  if (typeof window !== "undefined" && "speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
   }
-  playChain(text, rate);
 }
 
-/* ---------- TTS del sistema ---------- */
+/* ---------- TTS del sistema (Android) ---------- */
 
 let voicesReady = false;
 const voiceCache = new Map<string, SpeechSynthesisVoice>();
@@ -278,11 +128,12 @@ export function warmUpVoices() {
 }
 
 export function ttsAvailable(): boolean {
-  return "speechSynthesis" in window;
+  return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
-function ttsSpeak(text: string, rate: number) {
-  if (muted || !("speechSynthesis" in window)) return;
+export function speak(text: string, rate = 1) {
+  if (muted || !text) return;
+  if (!("speechSynthesis" in window)) return;
   const bcp = langBcp47(voiceLang);
   const clean = text.replace(/[(（][^)）]*[)）]/g, " ").replace(/\s+/g, " ").trim();
   const u = new SpeechSynthesisUtterance(clean || text);
@@ -290,6 +141,10 @@ function ttsSpeak(text: string, rate: number) {
   u.rate = rate;
   const found = pickVoice();
   if (found) u.voice = found;
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(u);
+  try {
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(u);
+  } catch {
+    /* noop */
+  }
 }

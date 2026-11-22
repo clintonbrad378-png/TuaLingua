@@ -1,6 +1,6 @@
 {
   "id": "u10",
-  "title": "Mundo real",
+  "title": "Real world",
   "emoji": "🌍",
   "color": "#00A7C4",
   "lessons": [
@@ -14,18 +14,136 @@
         "«By» solo si necesitas mencionar al agente: written by Orwell."
       ],
       "phrases": [
-        { "es": "La carta fue enviada ayer", "t": "The letter was sent yesterday" },
-        { "es": "Estos coches se fabrican en Japón", "t": "These cars are made in Japan" },
-        { "es": "La casa fue construida en 1920", "t": "The house was built in 1920" }
+        {
+          "es": "La carta fue enviada ayer",
+          "t": "The letter was sent yesterday"
+        },
+        {
+          "es": "Estos coches se fabrican en Japón",
+          "t": "These cars are made in Japan"
+        },
+        {
+          "es": "La casa fue construida en 1920",
+          "t": "The house was built in 1920"
+        }
       ],
       "exercises": [
-        { "id": "u10l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "The letter ___ sent yesterday.", "options": ["was", "were", "did"], "answer": 0, "pair": { "es": "La carta fue enviada ayer.", "t": "The letter was sent yesterday." }, "explain": "La carta (singular) + was + participio." },
-        { "id": "u10l1e2", "type": "choice", "prompt": "This bridge ___ built in 1890.", "options": ["was", "is", "were"], "answer": 0, "pair": { "es": "Este puente fue construido en 1890.", "t": "This bridge was built in 1890." }, "explain": "Pasado pasivo: was built." },
-        { "id": "u10l1e3", "type": "build", "prompt": "Traduce: «Estos teléfonos se fabrican en China»", "solution": "These phones are made in China", "distractors": ["making", "was"], "pair": { "es": "Estos teléfonos se fabrican en china", "t": "These phones are made in China" } },
-        { "id": "u10l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "The results will be published tomorrow.", "options": ["Los resultados se publicarán mañana.", "Los resultados se publicaron ayer.", "Los resultados se están publicando ahora."], "answer": 0, "pair": { "es": "Los resultados se publicarán mañana.", "t": "The results will be published tomorrow." } },
-        { "id": "u10l1e5", "type": "type", "prompt": "Escribe «fue hecho»", "solution": "was made", "accept": ["was made", "it was made"], "pair": { "es": "Fue hecho", "t": "Was made" } },
-        { "id": "u10l1e6", "type": "choice", "prompt": "Cada mañana limpian la habitación (rutina). The room ___ cleaned every morning.", "options": ["is", "was", "has"], "answer": 0, "pair": { "es": "La habitación se limpia cada mañana.", "t": "The room is cleaned every morning." }, "explain": "Rutina presente: is cleaned." },
-        { "id": "u10l1e7", "type": "match", "prompt": "Empareja la pasiva", "pairs": [{ "es": "Fue construido", "t": "Was built" }, { "es": "Se fabrican", "t": "Are made" }, { "es": "Se usa", "t": "Is used" }, { "es": "Se vendieron", "t": "Were sold" }] }
+        {
+          "id": "u10l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "The letter ___ sent yesterday.",
+          "options": [
+            "was",
+            "were",
+            "did"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La carta fue enviada ayer.",
+            "t": "The letter was sent yesterday."
+          },
+          "explain": "La carta (singular) + was + participio."
+        },
+        {
+          "id": "u10l1e2",
+          "type": "choice",
+          "prompt": "This bridge ___ built in 1890.",
+          "options": [
+            "was",
+            "is",
+            "were"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este puente fue construido en 1890.",
+            "t": "This bridge was built in 1890."
+          },
+          "explain": "Pasado pasivo: was built."
+        },
+        {
+          "id": "u10l1e3",
+          "type": "build",
+          "prompt": "Traduce: «Estos teléfonos se fabrican en China»",
+          "solution": "These phones are made in China",
+          "distractors": [
+            "making",
+            "was"
+          ],
+          "pair": {
+            "es": "Estos teléfonos se fabrican en china",
+            "t": "These phones are made in China"
+          }
+        },
+        {
+          "id": "u10l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The results will be published tomorrow.",
+          "options": [
+            "Los resultados se publicarán mañana.",
+            "Los resultados se publicaron ayer.",
+            "Los resultados se están publicando ahora."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los resultados se publicarán mañana.",
+            "t": "The results will be published tomorrow."
+          }
+        },
+        {
+          "id": "u10l1e5",
+          "type": "type",
+          "prompt": "Escribe «fue hecho»",
+          "solution": "Was made",
+          "accept": [
+            "was made",
+            "it was made"
+          ],
+          "pair": {
+            "es": "Fue hecho",
+            "t": "Was made"
+          }
+        },
+        {
+          "id": "u10l1e6",
+          "type": "choice",
+          "prompt": "Cada mañana limpian la habitación (rutina). The room ___ cleaned every morning.",
+          "options": [
+            "is",
+            "was",
+            "has"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La habitación se limpia cada mañana.",
+            "t": "The room is cleaned every morning."
+          },
+          "explain": "Rutina presente: is cleaned."
+        },
+        {
+          "id": "u10l1e7",
+          "type": "match",
+          "prompt": "Empareja la pasiva",
+          "pairs": [
+            {
+              "es": "Fue construido",
+              "t": "Was built"
+            },
+            {
+              "es": "Se fabrican",
+              "t": "Are made"
+            },
+            {
+              "es": "Se usa",
+              "t": "Is used"
+            },
+            {
+              "es": "Se vendieron",
+              "t": "Were sold"
+            }
+          ]
+        }
       ]
     },
     {
@@ -38,18 +156,137 @@
         "Cambian las referencias: today → that day, tomorrow → the next day."
       ],
       "phrases": [
-        { "es": "Dijo que estaba cansado", "t": "He said he was tired" },
-        { "es": "Me contó que había vivido en Canadá", "t": "She told me she had lived in Canada" },
-        { "es": "Dijeron que vendrían más tarde", "t": "They said they would come later" }
+        {
+          "es": "Dijo que estaba cansado",
+          "t": "He said he was tired"
+        },
+        {
+          "es": "Me contó que había vivido en Canadá",
+          "t": "She told me she had lived in Canada"
+        },
+        {
+          "es": "Dijeron que vendrían más tarde",
+          "t": "They said they would come later"
+        }
       ],
       "exercises": [
-        { "id": "u10l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "She said she ___ tired.", "options": ["was", "is", "were"], "answer": 0, "pair": { "es": "Dijo que estaba cansada.", "t": "She said she was tired." }, "explain": "Backshift: «I am» → she was." },
-        { "id": "u10l2e2", "type": "choice", "prompt": "He ___ me he was busy.", "options": ["told", "said", "talked"], "answer": 0, "pair": { "es": "Me dijo que estaba ocupado.", "t": "He told me he was busy." }, "explain": "«Tell» necesita destinatario: told me." },
-        { "id": "u10l2e3", "type": "build", "prompt": "Traduce: «Dijo que llegaría pronto»", "solution": "He said he would arrive soon", "distractors": ["will", "arrives"], "pair": { "es": "Dijo que llegaría pronto", "t": "He said he would arrive soon" } },
-        { "id": "u10l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "She told me she had finished the report.", "options": ["Me dijo que había terminado el informe.", "Me dijo que terminaría el informe.", "Me dijo que está terminando el informe."], "answer": 0, "pair": { "es": "Me dijo que había terminado el informe.", "t": "She told me she had finished the report." } },
-        { "id": "u10l2e5", "type": "type", "prompt": "Escribe «me dijo» (contar a alguien)", "solution": "told me", "accept": ["told me", "he told me", "she told me"], "pair": { "es": "Me dijo", "t": "Told me" } },
-        { "id": "u10l2e6", "type": "choice", "prompt": "«I am happy» → He said he ___ happy.", "options": ["was", "is", "be"], "answer": 0, "pair": { "es": "Dijo que estaba feliz.", "t": "He said he was happy." }, "explain": "Presente → pasado en el estilo indirecto." },
-        { "id": "u10l2e7", "type": "match", "prompt": "Empareja el estilo indirecto", "pairs": [{ "es": "Dijo (sin destinatario)", "t": "Said" }, { "es": "Me dijo", "t": "Told me" }, { "es": "Llegaría (futuro del pasado)", "t": "Would arrive" }, { "es": "Había hecho", "t": "Had done" }] }
+        {
+          "id": "u10l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She said she ___ tired.",
+          "options": [
+            "was",
+            "is",
+            "were"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dijo que estaba cansada.",
+            "t": "She said she was tired."
+          },
+          "explain": "Backshift: «I am» → she was."
+        },
+        {
+          "id": "u10l2e2",
+          "type": "choice",
+          "prompt": "He ___ me he was busy.",
+          "options": [
+            "told",
+            "said",
+            "talked"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me dijo que estaba ocupado.",
+            "t": "He told me he was busy."
+          },
+          "explain": "«Tell» necesita destinatario: told me."
+        },
+        {
+          "id": "u10l2e3",
+          "type": "build",
+          "prompt": "Traduce: «Dijo que llegaría pronto»",
+          "solution": "He said he would arrive soon",
+          "distractors": [
+            "will",
+            "arrives"
+          ],
+          "pair": {
+            "es": "Dijo que llegaría pronto",
+            "t": "He said he would arrive soon"
+          }
+        },
+        {
+          "id": "u10l2e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "She told me she had finished the report.",
+          "options": [
+            "Me dijo que había terminado el informe.",
+            "Me dijo que terminaría el informe.",
+            "Me dijo que está terminando el informe."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me dijo que había terminado el informe.",
+            "t": "She told me she had finished the report."
+          }
+        },
+        {
+          "id": "u10l2e5",
+          "type": "type",
+          "prompt": "Escribe «me dijo» (contar a alguien)",
+          "solution": "Told me",
+          "accept": [
+            "told me",
+            "he told me",
+            "she told me"
+          ],
+          "pair": {
+            "es": "Me dijo",
+            "t": "Told me"
+          }
+        },
+        {
+          "id": "u10l2e6",
+          "type": "choice",
+          "prompt": "«I am happy» → He said he ___ happy.",
+          "options": [
+            "was",
+            "is",
+            "be"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dijo que estaba feliz.",
+            "t": "He said he was happy."
+          },
+          "explain": "Presente → pasado en el estilo indirecto."
+        },
+        {
+          "id": "u10l2e7",
+          "type": "match",
+          "prompt": "Empareja el estilo indirecto",
+          "pairs": [
+            {
+              "es": "Dijo (sin destinatario)",
+              "t": "Said"
+            },
+            {
+              "es": "Me dijo",
+              "t": "Told me"
+            },
+            {
+              "es": "Llegaría (futuro del pasado)",
+              "t": "Would arrive"
+            },
+            {
+              "es": "Había hecho",
+              "t": "Had done"
+            }
+          ]
+        }
       ]
     },
     {
@@ -62,18 +299,137 @@
         "Negativo: If we hadn't left late… (si no hubiéramos salido tarde…)."
       ],
       "phrases": [
-        { "es": "Si hubiera estudiado, habría aprobado", "t": "If I had studied, I would have passed" },
-        { "es": "Si no hubiéramos salido tarde, no habríamos perdido el tren", "t": "If we hadn't left late, we wouldn't have missed the train" },
-        { "es": "¿Qué habrías hecho tú?", "t": "What would you have done?" }
+        {
+          "es": "Si hubiera estudiado, habría aprobado",
+          "t": "If I had studied, I would have passed"
+        },
+        {
+          "es": "Si no hubiéramos salido tarde, no habríamos perdido el tren",
+          "t": "If we hadn't left late, we wouldn't have missed the train"
+        },
+        {
+          "es": "¿Qué habrías hecho tú?",
+          "t": "What would you have done?"
+        }
       ],
       "exercises": [
-        { "id": "u10l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If I ___ known, I would have helped.", "options": ["had", "have", "would"], "answer": 0, "pair": { "es": "Si lo hubiera sabido, habría ayudado.", "t": "If I had known, I would have helped." }, "explain": "3ª condicional: if + had + participio." },
-        { "id": "u10l3e2", "type": "choice", "prompt": "If we had left earlier, we ___ the train.", "options": ["wouldn't have missed", "wouldn't miss", "hadn't missed"], "answer": 0, "pair": { "es": "Si hubiéramos salido antes, no habríamos perdido el tren.", "t": "If we had left earlier, we wouldn't have missed the train." }, "explain": "Consecuencia pasada: would(n't) have + participio." },
-        { "id": "u10l3e3", "type": "build", "prompt": "Traduce: «Si hubiera sabido la respuesta, te la habría dicho»", "solution": "If I had known the answer I would have told you", "distractors": ["knew", "will"], "pair": { "es": "Si hubiera sabido la respuesta, te la habría dicho", "t": "If I had known the answer, I would have told you" } },
-        { "id": "u10l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If she had studied more, she would have passed.", "options": ["Si hubiera estudiado más, habría aprobado.", "Si estudia más, aprobará.", "Estudió más y por eso aprobó."], "answer": 0, "pair": { "es": "Si hubiera estudiado más, habría aprobado.", "t": "If she had studied more, she would have passed." } },
-        { "id": "u10l3e5", "type": "type", "prompt": "Escribe «habría ido»", "solution": "I would have gone", "accept": ["i would have gone", "i'd have gone", "id have gone"], "pair": { "es": "Habría ido", "t": "I would have gone" } },
-        { "id": "u10l3e6", "type": "choice", "prompt": "I ___ have called you if I had known.", "options": ["would", "will", "had"], "answer": 0, "pair": { "es": "Te habría llamado si lo hubiera sabido.", "t": "I would have called you if I had known." }, "explain": "would have + participio." },
-        { "id": "u10l3e7", "type": "match", "prompt": "Empareja los elementos", "pairs": [{ "es": "Habría", "t": "Would have" }, { "es": "Hubiera hecho", "t": "Had done" }, { "es": "Arrepentimiento", "t": "Regret" }, { "es": "Ojalá", "t": "If only" }] }
+        {
+          "id": "u10l3e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "If I ___ known, I would have helped.",
+          "options": [
+            "had",
+            "have",
+            "would"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si lo hubiera sabido, habría ayudado.",
+            "t": "If I had known, I would have helped."
+          },
+          "explain": "3ª condicional: if + had + participio."
+        },
+        {
+          "id": "u10l3e2",
+          "type": "choice",
+          "prompt": "If we had left earlier, we ___ the train.",
+          "options": [
+            "wouldn't have missed",
+            "wouldn't miss",
+            "hadn't missed"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si hubiéramos salido antes, no habríamos perdido el tren.",
+            "t": "If we had left earlier, we wouldn't have missed the train."
+          },
+          "explain": "Consecuencia pasada: would(n't) have + participio."
+        },
+        {
+          "id": "u10l3e3",
+          "type": "build",
+          "prompt": "Traduce: «Si hubiera sabido la respuesta, te la habría dicho»",
+          "solution": "If I had known the answer I would have told you",
+          "distractors": [
+            "knew",
+            "will"
+          ],
+          "pair": {
+            "es": "Si hubiera sabido la respuesta, te la habría dicho",
+            "t": "If I had known the answer, I would have told you"
+          }
+        },
+        {
+          "id": "u10l3e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "If she had studied more, she would have passed.",
+          "options": [
+            "Si hubiera estudiado más, habría aprobado.",
+            "Si estudia más, aprobará.",
+            "Estudió más y por eso aprobó."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si hubiera estudiado más, habría aprobado.",
+            "t": "If she had studied more, she would have passed."
+          }
+        },
+        {
+          "id": "u10l3e5",
+          "type": "type",
+          "prompt": "Escribe «habría ido»",
+          "solution": "I would have gone",
+          "accept": [
+            "i would have gone",
+            "i'd have gone",
+            "id have gone"
+          ],
+          "pair": {
+            "es": "Habría ido",
+            "t": "I would have gone"
+          }
+        },
+        {
+          "id": "u10l3e6",
+          "type": "choice",
+          "prompt": "I ___ have called you if I had known.",
+          "options": [
+            "would",
+            "will",
+            "had"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Te habría llamado si lo hubiera sabido.",
+            "t": "I would have called you if I had known."
+          },
+          "explain": "would have + participio."
+        },
+        {
+          "id": "u10l3e7",
+          "type": "match",
+          "prompt": "Empareja los elementos",
+          "pairs": [
+            {
+              "es": "Habría",
+              "t": "Would have"
+            },
+            {
+              "es": "Hubiera hecho",
+              "t": "Had done"
+            },
+            {
+              "es": "Arrepentimiento",
+              "t": "Regret"
+            },
+            {
+              "es": "Ojalá",
+              "t": "If only"
+            }
+          ]
+        }
       ]
     },
     {
@@ -86,18 +442,1041 @@
         "«According to…» = según… para citar fuentes."
       ],
       "phrases": [
-        { "es": "Vamos a posponer la reunión", "t": "We are going to put off the meeting" },
-        { "es": "Necesitamos una idea nueva: ¿se te ocurre algo?", "t": "We need a new idea: can you come up with something?" },
-        { "es": "La empresa investigará el problema", "t": "The company will look into the problem" }
+        {
+          "es": "Vamos a posponer la reunión",
+          "t": "We are going to put off the meeting"
+        },
+        {
+          "es": "Necesitamos una idea nueva: ¿se te ocurre algo?",
+          "t": "We need a new idea: can you come up with something?"
+        },
+        {
+          "es": "La empresa investigará el problema",
+          "t": "The company will look into the problem"
+        }
       ],
       "exercises": [
-        { "id": "u10l4e1", "type": "match", "prompt": "Empareja los phrasal verbs", "pairs": [{ "es": "Posponer", "t": "Put off" }, { "es": "Ocurrírsele (una idea)", "t": "Come up with" }, { "es": "Investigar", "t": "Look into" }, { "es": "Sacar (un tema)", "t": "Bring up" }] },
-        { "id": "u10l4e2", "type": "fill", "prompt": "Completa la frase", "sentence": "We had to ___ the meeting until Friday.", "options": ["put off", "put on", "put out"], "answer": 0, "pair": { "es": "Tuvimos que posponer la reunión hasta el viernes.", "t": "We had to put off the meeting until Friday." }, "explain": "«Put off» = posponer." },
-        { "id": "u10l4e3", "type": "choice", "prompt": "She ___ a brilliant idea.", "options": ["came up with", "came across", "came back"], "answer": 0, "pair": { "es": "Se le ocurrió una idea brillante.", "t": "She came up with a brilliant idea." }, "explain": "«Come up with an idea» = ocurrírsele." },
-        { "id": "u10l4e4", "type": "build", "prompt": "Traduce: «Investigarán el problema pronto»", "solution": "They will look into the problem soon", "distractors": ["looking", "after"], "pair": { "es": "Investigarán el problema pronto", "t": "They will look into the problem soon" } },
-        { "id": "u10l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "According to the report, sales have increased.", "options": ["Según el informe, las ventas han aumentado.", "A pesar del informe, las ventas han bajado.", "El informe dice que venderemos más."], "answer": 0, "pair": { "es": "Según el informe, las ventas han aumentado.", "t": "According to the report, sales have increased." } },
-        { "id": "u10l4e6", "type": "type", "prompt": "Escribe «posponer»", "solution": "put off", "accept": ["put off"], "pair": { "es": "Posponer", "t": "Put off" } },
-        { "id": "u10l4e7", "type": "choice", "prompt": "The war ___ out in 1939.", "options": ["broke", "took", "put"], "answer": 0, "pair": { "es": "La guerra estalló en 1939.", "t": "The war broke out in 1939." }, "explain": "«Break out» = estallar (guerra, incendio)." }
+        {
+          "id": "u10l4e1",
+          "type": "match",
+          "prompt": "Empareja los phrasal verbs",
+          "pairs": [
+            {
+              "es": "Posponer",
+              "t": "Put off"
+            },
+            {
+              "es": "Ocurrírsele (una idea)",
+              "t": "Come up with"
+            },
+            {
+              "es": "Investigar",
+              "t": "Look into"
+            },
+            {
+              "es": "Sacar (un tema)",
+              "t": "Bring up"
+            }
+          ]
+        },
+        {
+          "id": "u10l4e2",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "We had to ___ the meeting until Friday.",
+          "options": [
+            "put off",
+            "put on",
+            "put out"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tuvimos que posponer la reunión hasta el viernes.",
+            "t": "We had to put off the meeting until Friday."
+          },
+          "explain": "«Put off» = posponer."
+        },
+        {
+          "id": "u10l4e3",
+          "type": "choice",
+          "prompt": "She ___ a brilliant idea.",
+          "options": [
+            "came up with",
+            "came across",
+            "came back"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Se le ocurrió una idea brillante.",
+            "t": "She came up with a brilliant idea."
+          },
+          "explain": "«Come up with an idea» = ocurrírsele."
+        },
+        {
+          "id": "u10l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Investigarán el problema pronto»",
+          "solution": "They will look into the problem soon",
+          "distractors": [
+            "looking",
+            "after"
+          ],
+          "pair": {
+            "es": "Investigarán el problema pronto",
+            "t": "They will look into the problem soon"
+          }
+        },
+        {
+          "id": "u10l4e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "According to the report, sales have increased.",
+          "options": [
+            "Según el informe, las ventas han aumentado.",
+            "A pesar del informe, las ventas han bajado.",
+            "El informe dice que venderemos más."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Según el informe, las ventas han aumentado.",
+            "t": "According to the report, sales have increased."
+          }
+        },
+        {
+          "id": "u10l4e6",
+          "type": "type",
+          "prompt": "Escribe «posponer»",
+          "solution": "Put off",
+          "accept": [
+            "put off"
+          ],
+          "pair": {
+            "es": "Posponer",
+            "t": "Put off"
+          }
+        },
+        {
+          "id": "u10l4e7",
+          "type": "choice",
+          "prompt": "The war ___ out in 1939.",
+          "options": [
+            "broke",
+            "took",
+            "put"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La guerra estalló en 1939.",
+            "t": "The war broke out in 1939."
+          },
+          "explain": "«Break out» = estallar (guerra, incendio)."
+        }
+      ]
+    },
+    {
+      "id": "u10l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "La letra",
+          "t": "The letter (alphabet)"
+        },
+        {
+          "es": "La mariposa",
+          "t": "The butterfly"
+        },
+        {
+          "es": "Pocos",
+          "t": "Few"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La letra»?",
+          "options": [
+            "the letter (alphabet)",
+            "the butterfly",
+            "few",
+            "week"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La letra",
+            "t": "The letter (alphabet)"
+          }
+        },
+        {
+          "id": "u10l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The butterfly",
+          "options": [
+            "La mariposa",
+            "Pocos",
+            "Semana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mariposa",
+            "t": "The butterfly"
+          }
+        },
+        {
+          "id": "u10l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "few",
+            "week",
+            "door"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pocos",
+            "t": "Few"
+          }
+        },
+        {
+          "id": "u10l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Semana»",
+          "solution": "Week",
+          "distractors": [
+            "door",
+            "the"
+          ],
+          "pair": {
+            "es": "Semana",
+            "t": "Week"
+          }
+        },
+        {
+          "id": "u10l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «puerta»",
+          "solution": "Door",
+          "accept": [
+            "door",
+            "door"
+          ],
+          "pair": {
+            "es": "Puerta",
+            "t": "Door"
+          }
+        },
+        {
+          "id": "u10l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La paz",
+              "t": "The peace"
+            },
+            {
+              "es": "El libro",
+              "t": "The book"
+            },
+            {
+              "es": "Abrir",
+              "t": "Open"
+            }
+          ]
+        },
+        {
+          "id": "u10l5e7",
+          "type": "choice",
+          "prompt": "«La receta» se traduce como...",
+          "options": [
+            "the recipe",
+            "to work",
+            "to fry",
+            "face"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La receta",
+            "t": "The recipe"
+          }
+        },
+        {
+          "id": "u10l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To work",
+          "options": [
+            "Trabajar",
+            "Freír",
+            "Cara"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Trabajar",
+            "t": "To work"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u10l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "El médico",
+          "t": "The doctor"
+        },
+        {
+          "es": "La fiesta",
+          "t": "The party"
+        },
+        {
+          "es": "El cajero automático",
+          "t": "The cash machine"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El médico»?",
+          "options": [
+            "the doctor",
+            "the party",
+            "the cash machine",
+            "the living room"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El médico",
+            "t": "The doctor"
+          }
+        },
+        {
+          "id": "u10l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The party",
+          "options": [
+            "La fiesta",
+            "El cajero automático",
+            "El salón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La fiesta",
+            "t": "The party"
+          }
+        },
+        {
+          "id": "u10l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "the ___ machine",
+          "options": [
+            "cash",
+            "the",
+            "cashx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cajero automático",
+            "t": "The cash machine"
+          }
+        },
+        {
+          "id": "u10l6e4",
+          "type": "build",
+          "prompt": "Traduce: «El salón»",
+          "solution": "The living room",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "El salón",
+            "t": "The living room"
+          }
+        },
+        {
+          "id": "u10l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la leche»",
+          "solution": "The milk",
+          "accept": [
+            "the milk",
+            "the milk"
+          ],
+          "pair": {
+            "es": "La leche",
+            "t": "The milk"
+          }
+        },
+        {
+          "id": "u10l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El idioma",
+              "t": "The language"
+            },
+            {
+              "es": "El té",
+              "t": "The tea"
+            },
+            {
+              "es": "La pimienta",
+              "t": "The pepper"
+            }
+          ]
+        },
+        {
+          "id": "u10l6e7",
+          "type": "choice",
+          "prompt": "«La página web» se traduce como...",
+          "options": [
+            "the website",
+            "the class",
+            "the petrol station",
+            "the mother"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La página web",
+            "t": "The website"
+          }
+        },
+        {
+          "id": "u10l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The class",
+          "options": [
+            "La clase",
+            "La gasolinera",
+            "La madre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La clase",
+            "t": "The class"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u10l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "Amarillo",
+          "t": "Yellow"
+        },
+        {
+          "es": "La mano",
+          "t": "The hand"
+        },
+        {
+          "es": "Sí",
+          "t": "Yes"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Amarillo»?",
+          "options": [
+            "yellow",
+            "the hand",
+            "yes",
+            "most"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amarillo",
+            "t": "Yellow"
+          }
+        },
+        {
+          "id": "u10l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The hand",
+          "options": [
+            "La mano",
+            "Sí",
+            "La mayoría"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mano",
+            "t": "The hand"
+          }
+        },
+        {
+          "id": "u10l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "yes",
+            "most",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sí",
+            "t": "Yes"
+          }
+        },
+        {
+          "id": "u10l7e4",
+          "type": "build",
+          "prompt": "Traduce: «La mayoría»",
+          "solution": "Most",
+          "distractors": [
+            "the",
+            "book"
+          ],
+          "pair": {
+            "es": "La mayoría",
+            "t": "Most"
+          }
+        },
+        {
+          "id": "u10l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la dirección»",
+          "solution": "The direction",
+          "accept": [
+            "the direction",
+            "the direction"
+          ],
+          "pair": {
+            "es": "La dirección",
+            "t": "The direction"
+          }
+        },
+        {
+          "id": "u10l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Libro",
+              "t": "Book"
+            },
+            {
+              "es": "Usar",
+              "t": "To use"
+            },
+            {
+              "es": "Hombre",
+              "t": "Man"
+            }
+          ]
+        },
+        {
+          "id": "u10l7e7",
+          "type": "choice",
+          "prompt": "«Dibujar» se traduce como...",
+          "options": [
+            "to draw",
+            "to chat",
+            "the turtle",
+            "the dessert"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dibujar",
+            "t": "To draw"
+          }
+        },
+        {
+          "id": "u10l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To chat",
+          "options": [
+            "Charlar",
+            "La tortuga",
+            "El postre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Charlar",
+            "t": "To chat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u10l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El ojo",
+          "t": "The eye"
+        },
+        {
+          "es": "Intentar",
+          "t": "Try"
+        },
+        {
+          "es": "Delicioso",
+          "t": "Delicious"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El ojo»?",
+          "options": [
+            "the eye",
+            "try",
+            "delicious",
+            "on"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ojo",
+            "t": "The eye"
+          }
+        },
+        {
+          "id": "u10l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Try",
+          "options": [
+            "Intentar",
+            "Delicioso",
+            "En/sobre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Intentar",
+            "t": "Try"
+          }
+        },
+        {
+          "id": "u10l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "delicious",
+            "on",
+            "yesterday"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Delicioso",
+            "t": "Delicious"
+          }
+        },
+        {
+          "id": "u10l8e4",
+          "type": "build",
+          "prompt": "Traduce: «En/sobre»",
+          "solution": "On",
+          "distractors": [
+            "yesterday",
+            "up"
+          ],
+          "pair": {
+            "es": "En/sobre",
+            "t": "On"
+          }
+        },
+        {
+          "id": "u10l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ayer»",
+          "solution": "Yesterday",
+          "accept": [
+            "yesterday",
+            "yesterday"
+          ],
+          "pair": {
+            "es": "Ayer",
+            "t": "Yesterday"
+          }
+        },
+        {
+          "id": "u10l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Arriba",
+              "t": "Up"
+            },
+            {
+              "es": "La sorpresa",
+              "t": "The surprise"
+            },
+            {
+              "es": "Incluir",
+              "t": "Include"
+            }
+          ]
+        },
+        {
+          "id": "u10l8e7",
+          "type": "choice",
+          "prompt": "«La nube» se traduce como...",
+          "options": [
+            "the cloud",
+            "the ticket",
+            "again",
+            "the guitar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La nube",
+            "t": "The cloud"
+          }
+        },
+        {
+          "id": "u10l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The ticket",
+          "options": [
+            "El billete",
+            "Otra vez",
+            "La guitarra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El billete",
+            "t": "The ticket"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u10l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "El vino",
+          "t": "The wine"
+        },
+        {
+          "es": "La oficina",
+          "t": "The office"
+        },
+        {
+          "es": "El viento",
+          "t": "The wind"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El vino»?",
+          "options": [
+            "the wine",
+            "the office",
+            "the wind",
+            "Where are you from?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El vino",
+            "t": "The wine"
+          }
+        },
+        {
+          "id": "u10l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The office",
+          "options": [
+            "La oficina",
+            "El viento",
+            "¿De dónde eres?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La oficina",
+            "t": "The office"
+          }
+        },
+        {
+          "id": "u10l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ wind",
+          "options": [
+            "the",
+            "Where",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El viento",
+            "t": "The wind"
+          }
+        },
+        {
+          "id": "u10l9e4",
+          "type": "build",
+          "prompt": "Traduce: «¿De dónde eres?»",
+          "solution": "Where are you from?",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "¿De dónde eres?",
+            "t": "Where are you from?"
+          }
+        },
+        {
+          "id": "u10l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el recuerdo»",
+          "solution": "The memory",
+          "accept": [
+            "the memory",
+            "the memory"
+          ],
+          "pair": {
+            "es": "El recuerdo",
+            "t": "The memory"
+          }
+        },
+        {
+          "id": "u10l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El pescado",
+              "t": "The fish (food)"
+            },
+            {
+              "es": "Las gafas",
+              "t": "The glasses"
+            },
+            {
+              "es": "Así que",
+              "t": "So"
+            }
+          ]
+        },
+        {
+          "id": "u10l9e7",
+          "type": "choice",
+          "prompt": "«Juntos» se traduce como...",
+          "options": [
+            "together",
+            "to turn",
+            "find",
+            "how"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juntos",
+            "t": "Together"
+          }
+        },
+        {
+          "id": "u10l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To turn",
+          "options": [
+            "Girar",
+            "Encontrar",
+            "Cómo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Girar",
+            "t": "To turn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u10l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "El plato",
+          "t": "The plate"
+        },
+        {
+          "es": "La semana",
+          "t": "The week"
+        },
+        {
+          "es": "El pan",
+          "t": "The bread"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u10l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El plato»?",
+          "options": [
+            "the plate",
+            "the week",
+            "the bread",
+            "some"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El plato",
+            "t": "The plate"
+          }
+        },
+        {
+          "id": "u10l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The week",
+          "options": [
+            "La semana",
+            "El pan",
+            "Algún/algunos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La semana",
+            "t": "The week"
+          }
+        },
+        {
+          "id": "u10l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ bread",
+          "options": [
+            "the",
+            "some",
+            "come"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pan",
+            "t": "The bread"
+          }
+        },
+        {
+          "id": "u10l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Algún/algunos»",
+          "solution": "Some",
+          "distractors": [
+            "come",
+            "I"
+          ],
+          "pair": {
+            "es": "Algún/algunos",
+            "t": "Some"
+          }
+        },
+        {
+          "id": "u10l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «venir»",
+          "solution": "Come",
+          "accept": [
+            "come",
+            "come"
+          ],
+          "pair": {
+            "es": "Venir",
+            "t": "Come"
+          }
+        },
+        {
+          "id": "u10l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "No lo entiendo",
+              "t": "I do not understand"
+            },
+            {
+              "es": "Parecer",
+              "t": "Seem"
+            },
+            {
+              "es": "El horno",
+              "t": "The oven"
+            }
+          ]
+        },
+        {
+          "id": "u10l10e7",
+          "type": "choice",
+          "prompt": "«Invitar» se traduce como...",
+          "options": [
+            "to invite",
+            "low",
+            "love",
+            "the beach"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Invitar",
+            "t": "To invite"
+          }
+        },
+        {
+          "id": "u10l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Low",
+          "options": [
+            "Bajo",
+            "Amar",
+            "La playa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bajo",
+            "t": "Low"
+          }
+        }
       ]
     }
   ]

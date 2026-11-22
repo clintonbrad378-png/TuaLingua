@@ -1,0 +1,2664 @@
+[
+  {
+    "id": "pt-greet",
+    "title": "Saludos",
+    "emoji": "👋",
+    "words": [
+      {
+        "t": "Olá",
+        "es": "Hola",
+        "pos": "phr"
+      },
+      {
+        "t": "Bom dia",
+        "es": "Buenos días",
+        "pos": "phr"
+      },
+      {
+        "t": "Boa tarde",
+        "es": "Buenas tardes",
+        "pos": "phr"
+      },
+      {
+        "t": "Boa noite",
+        "es": "Buenas noches",
+        "pos": "phr"
+      },
+      {
+        "t": "Tchau",
+        "es": "Adiós",
+        "pos": "phr"
+      },
+      {
+        "t": "Adeus",
+        "es": "Adiós formal",
+        "pos": "phr"
+      },
+      {
+        "t": "Por favor",
+        "es": "Por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "Obrigado",
+        "es": "Gracias",
+        "pos": "phr"
+      },
+      {
+        "t": "Muito obrigado",
+        "es": "Muchas gracias",
+        "pos": "phr"
+      },
+      {
+        "t": "De nada",
+        "es": "De nada",
+        "pos": "phr"
+      },
+      {
+        "t": "Desculpe",
+        "es": "Disculpe",
+        "pos": "phr"
+      },
+      {
+        "t": "Sim",
+        "es": "Sí",
+        "pos": "adv"
+      },
+      {
+        "t": "Não",
+        "es": "No",
+        "pos": "adv"
+      },
+      {
+        "t": "Como você se chama?",
+        "es": "¿Cómo te llamas?",
+        "pos": "phr"
+      },
+      {
+        "t": "Meu nome é...",
+        "es": "Me llamo...",
+        "pos": "phr"
+      },
+      {
+        "t": "Prazer",
+        "es": "Encantado",
+        "pos": "phr"
+      },
+      {
+        "t": "Como vai?",
+        "es": "¿Cómo estás?",
+        "pos": "phr"
+      },
+      {
+        "t": "Estou bem",
+        "es": "Estoy bien",
+        "pos": "phr"
+      },
+      {
+        "t": "Bem-vindo",
+        "es": "Bienvenido",
+        "pos": "phr"
+      },
+      {
+        "t": "Até logo",
+        "es": "Hasta luego",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "pt-people",
+    "title": "Personas",
+    "emoji": "👤",
+    "words": [
+      {
+        "t": "Homem",
+        "es": "Hombre",
+        "pos": "n"
+      },
+      {
+        "t": "Mulher",
+        "es": "Mujer",
+        "pos": "n"
+      },
+      {
+        "t": "Menino",
+        "es": "Chico",
+        "pos": "n"
+      },
+      {
+        "t": "Menina",
+        "es": "Chica",
+        "pos": "n"
+      },
+      {
+        "t": "Criança",
+        "es": "Niño",
+        "pos": "n"
+      },
+      {
+        "t": "Amigo",
+        "es": "Amigo",
+        "pos": "n"
+      },
+      {
+        "t": "Amiga",
+        "es": "Amiga",
+        "pos": "n"
+      },
+      {
+        "t": "Família",
+        "es": "Familia",
+        "pos": "n"
+      },
+      {
+        "t": "Mãe",
+        "es": "Madre",
+        "pos": "n"
+      },
+      {
+        "t": "Pai",
+        "es": "Padre",
+        "pos": "n"
+      },
+      {
+        "t": "Irmão",
+        "es": "Hermano",
+        "pos": "n"
+      },
+      {
+        "t": "Irmã",
+        "es": "Hermana",
+        "pos": "n"
+      },
+      {
+        "t": "Filho",
+        "es": "Hijo",
+        "pos": "n"
+      },
+      {
+        "t": "Filha",
+        "es": "Hija",
+        "pos": "n"
+      },
+      {
+        "t": "Marido",
+        "es": "Esposo",
+        "pos": "n"
+      },
+      {
+        "t": "Esposa",
+        "es": "Esposa",
+        "pos": "n"
+      },
+      {
+        "t": "Pais",
+        "es": "Padres",
+        "pos": "n"
+      },
+      {
+        "t": "Avô",
+        "es": "Abuelo",
+        "pos": "n"
+      },
+      {
+        "t": "Avó",
+        "es": "Abuela",
+        "pos": "n"
+      },
+      {
+        "t": "Pessoa",
+        "es": "Persona",
+        "pos": "n"
+      },
+      {
+        "t": "Pessoas",
+        "es": "Gente",
+        "pos": "n"
+      },
+      {
+        "t": "Nome",
+        "es": "Nombre",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-food",
+    "title": "Comida",
+    "emoji": "🍽️",
+    "words": [
+      {
+        "t": "Água",
+        "es": "Agua",
+        "pos": "n"
+      },
+      {
+        "t": "Pão",
+        "es": "Pan",
+        "pos": "n"
+      },
+      {
+        "t": "Queijo",
+        "es": "Queso",
+        "pos": "n"
+      },
+      {
+        "t": "Carne",
+        "es": "Carne",
+        "pos": "n"
+      },
+      {
+        "t": "Frango",
+        "es": "Pollo",
+        "pos": "n"
+      },
+      {
+        "t": "Peixe",
+        "es": "Pescado",
+        "pos": "n"
+      },
+      {
+        "t": "Arroz",
+        "es": "Arroz",
+        "pos": "n"
+      },
+      {
+        "t": "Ovo",
+        "es": "Huevo",
+        "pos": "n"
+      },
+      {
+        "t": "Fruta",
+        "es": "Fruta",
+        "pos": "n"
+      },
+      {
+        "t": "Legume",
+        "es": "Verdura",
+        "pos": "n"
+      },
+      {
+        "t": "Leite",
+        "es": "Leche",
+        "pos": "n"
+      },
+      {
+        "t": "Café",
+        "es": "Café",
+        "pos": "n"
+      },
+      {
+        "t": "Chá",
+        "es": "Té",
+        "pos": "n"
+      },
+      {
+        "t": "Açúcar",
+        "es": "Azúcar",
+        "pos": "n"
+      },
+      {
+        "t": "Sal",
+        "es": "Sal",
+        "pos": "n"
+      },
+      {
+        "t": "Sopa",
+        "es": "Sopa",
+        "pos": "n"
+      },
+      {
+        "t": "Salada",
+        "es": "Ensalada",
+        "pos": "n"
+      },
+      {
+        "t": "Café da manhã",
+        "es": "Desayuno",
+        "pos": "n"
+      },
+      {
+        "t": "Almoço",
+        "es": "Almuerzo",
+        "pos": "n"
+      },
+      {
+        "t": "Jantar",
+        "es": "Cena",
+        "pos": "n"
+      },
+      {
+        "t": "Restaurante",
+        "es": "Restaurante",
+        "pos": "n"
+      },
+      {
+        "t": "Cardápio",
+        "es": "Menú",
+        "pos": "n"
+      },
+      {
+        "t": "Conta",
+        "es": "Cuenta",
+        "pos": "n"
+      },
+      {
+        "t": "Maçã",
+        "es": "Manzana",
+        "pos": "n"
+      },
+      {
+        "t": "Banana",
+        "es": "Banano",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-city",
+    "title": "Ciudad y viaje",
+    "emoji": "🏙️",
+    "words": [
+      {
+        "t": "Cidade",
+        "es": "Ciudad",
+        "pos": "n"
+      },
+      {
+        "t": "Rua",
+        "es": "Calle",
+        "pos": "n"
+      },
+      {
+        "t": "Casa",
+        "es": "Casa",
+        "pos": "n"
+      },
+      {
+        "t": "Hotel",
+        "es": "Hotel",
+        "pos": "n"
+      },
+      {
+        "t": "Estação",
+        "es": "Estación",
+        "pos": "n"
+      },
+      {
+        "t": "Aeroporto",
+        "es": "Aeropuerto",
+        "pos": "n"
+      },
+      {
+        "t": "Loja",
+        "es": "Tienda",
+        "pos": "n"
+      },
+      {
+        "t": "Banco",
+        "es": "Banco",
+        "pos": "n"
+      },
+      {
+        "t": "Farmácia",
+        "es": "Farmacia",
+        "pos": "n"
+      },
+      {
+        "t": "Hospital",
+        "es": "Hospital",
+        "pos": "n"
+      },
+      {
+        "t": "Escola",
+        "es": "Escuela",
+        "pos": "n"
+      },
+      {
+        "t": "Parque",
+        "es": "Parque",
+        "pos": "n"
+      },
+      {
+        "t": "Ponte",
+        "es": "Puente",
+        "pos": "n"
+      },
+      {
+        "t": "Carro",
+        "es": "Coche",
+        "pos": "n"
+      },
+      {
+        "t": "Ônibus",
+        "es": "Autobús",
+        "pos": "n"
+      },
+      {
+        "t": "Trem",
+        "es": "Tren",
+        "pos": "n"
+      },
+      {
+        "t": "Avião",
+        "es": "Avión",
+        "pos": "n"
+      },
+      {
+        "t": "Bilhete",
+        "es": "Boleto",
+        "pos": "n"
+      },
+      {
+        "t": "Passaporte",
+        "es": "Pasaporte",
+        "pos": "n"
+      },
+      {
+        "t": "Mapa",
+        "es": "Mapa",
+        "pos": "n"
+      },
+      {
+        "t": "Mala",
+        "es": "Maleta",
+        "pos": "n"
+      },
+      {
+        "t": "Esquerda",
+        "es": "Izquierda",
+        "pos": "n"
+      },
+      {
+        "t": "Direita",
+        "es": "Derecha",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-home",
+    "title": "Casa",
+    "emoji": "🏠",
+    "words": [
+      {
+        "t": "Quarto",
+        "es": "Habitación",
+        "pos": "n"
+      },
+      {
+        "t": "Cozinha",
+        "es": "Cocina",
+        "pos": "n"
+      },
+      {
+        "t": "Banheiro",
+        "es": "Baño",
+        "pos": "n"
+      },
+      {
+        "t": "Mesa",
+        "es": "Mesa",
+        "pos": "n"
+      },
+      {
+        "t": "Cadeira",
+        "es": "Silla",
+        "pos": "n"
+      },
+      {
+        "t": "Cama",
+        "es": "Cama",
+        "pos": "n"
+      },
+      {
+        "t": "Porta",
+        "es": "Puerta",
+        "pos": "n"
+      },
+      {
+        "t": "Janela",
+        "es": "Ventana",
+        "pos": "n"
+      },
+      {
+        "t": "Chave",
+        "es": "Llave",
+        "pos": "n"
+      },
+      {
+        "t": "Telefone",
+        "es": "Teléfono",
+        "pos": "n"
+      },
+      {
+        "t": "Computador",
+        "es": "Computadora",
+        "pos": "n"
+      },
+      {
+        "t": "Livro",
+        "es": "Libro",
+        "pos": "n"
+      },
+      {
+        "t": "Bolsa",
+        "es": "Bolso",
+        "pos": "n"
+      },
+      {
+        "t": "Roupa",
+        "es": "Ropa",
+        "pos": "n"
+      },
+      {
+        "t": "Camisa",
+        "es": "Camisa",
+        "pos": "n"
+      },
+      {
+        "t": "Calça",
+        "es": "Pantalones",
+        "pos": "n"
+      },
+      {
+        "t": "Sapato",
+        "es": "Zapato",
+        "pos": "n"
+      },
+      {
+        "t": "Vestido",
+        "es": "Vestido",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-nature",
+    "title": "Naturaleza",
+    "emoji": "🌿",
+    "words": [
+      {
+        "t": "Sol",
+        "es": "Sol",
+        "pos": "n"
+      },
+      {
+        "t": "Lua",
+        "es": "Luna",
+        "pos": "n"
+      },
+      {
+        "t": "Céu",
+        "es": "Cielo",
+        "pos": "n"
+      },
+      {
+        "t": "Mar",
+        "es": "Mar",
+        "pos": "n"
+      },
+      {
+        "t": "Montanha",
+        "es": "Montaña",
+        "pos": "n"
+      },
+      {
+        "t": "Rio",
+        "es": "Río",
+        "pos": "n"
+      },
+      {
+        "t": "Árvore",
+        "es": "Árbol",
+        "pos": "n"
+      },
+      {
+        "t": "Flor",
+        "es": "Flor",
+        "pos": "n"
+      },
+      {
+        "t": "Chuva",
+        "es": "Lluvia",
+        "pos": "n"
+      },
+      {
+        "t": "Vento",
+        "es": "Viento",
+        "pos": "n"
+      },
+      {
+        "t": "Neve",
+        "es": "Nieve",
+        "pos": "n"
+      },
+      {
+        "t": "Fogo",
+        "es": "Fuego",
+        "pos": "n"
+      },
+      {
+        "t": "Cachorro",
+        "es": "Perro",
+        "pos": "n"
+      },
+      {
+        "t": "Gato",
+        "es": "Gato",
+        "pos": "n"
+      },
+      {
+        "t": "Pássaro",
+        "es": "Pájaro",
+        "pos": "n"
+      },
+      {
+        "t": "Animal",
+        "es": "Animal",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-body",
+    "title": "Cuerpo",
+    "emoji": "🫀",
+    "words": [
+      {
+        "t": "Corpo",
+        "es": "Cuerpo",
+        "pos": "n"
+      },
+      {
+        "t": "Cabeça",
+        "es": "Cabeza",
+        "pos": "n"
+      },
+      {
+        "t": "Mão",
+        "es": "Mano",
+        "pos": "n"
+      },
+      {
+        "t": "Olho",
+        "es": "Ojo",
+        "pos": "n"
+      },
+      {
+        "t": "Boca",
+        "es": "Boca",
+        "pos": "n"
+      },
+      {
+        "t": "Coração",
+        "es": "Corazón",
+        "pos": "n"
+      },
+      {
+        "t": "Rosto",
+        "es": "Cara",
+        "pos": "n"
+      },
+      {
+        "t": "Cabelo",
+        "es": "Cabello",
+        "pos": "n"
+      },
+      {
+        "t": "Pé",
+        "es": "Pie",
+        "pos": "n"
+      },
+      {
+        "t": "Braço",
+        "es": "Brazo",
+        "pos": "n"
+      },
+      {
+        "t": "Perna",
+        "es": "Pierna",
+        "pos": "n"
+      },
+      {
+        "t": "Nariz",
+        "es": "Nariz",
+        "pos": "n"
+      },
+      {
+        "t": "Orelha",
+        "es": "Oreja",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-time",
+    "title": "Tiempo",
+    "emoji": "⏰",
+    "words": [
+      {
+        "t": "Dia",
+        "es": "Día",
+        "pos": "n"
+      },
+      {
+        "t": "Semana",
+        "es": "Semana",
+        "pos": "n"
+      },
+      {
+        "t": "Mês",
+        "es": "Mes",
+        "pos": "n"
+      },
+      {
+        "t": "Ano",
+        "es": "Año",
+        "pos": "n"
+      },
+      {
+        "t": "Hora",
+        "es": "Hora",
+        "pos": "n"
+      },
+      {
+        "t": "Minuto",
+        "es": "Minuto",
+        "pos": "n"
+      },
+      {
+        "t": "Hoje",
+        "es": "Hoy",
+        "pos": "adv"
+      },
+      {
+        "t": "Amanhã",
+        "es": "Mañana",
+        "pos": "adv"
+      },
+      {
+        "t": "Ontem",
+        "es": "Ayer",
+        "pos": "adv"
+      },
+      {
+        "t": "Agora",
+        "es": "Ahora",
+        "pos": "adv"
+      },
+      {
+        "t": "Cedo",
+        "es": "Temprano",
+        "pos": "adv"
+      },
+      {
+        "t": "Tarde",
+        "es": "Tarde",
+        "pos": "adv"
+      },
+      {
+        "t": "Manhã",
+        "es": "Mañana (día)",
+        "pos": "n"
+      },
+      {
+        "t": "Noite",
+        "es": "Noche",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-numbers",
+    "title": "Números",
+    "emoji": "🔢",
+    "words": [
+      {
+        "t": "Zero",
+        "es": "Cero",
+        "pos": "n"
+      },
+      {
+        "t": "Um",
+        "es": "Uno",
+        "pos": "n"
+      },
+      {
+        "t": "Dois",
+        "es": "Dos",
+        "pos": "n"
+      },
+      {
+        "t": "Três",
+        "es": "Tres",
+        "pos": "n"
+      },
+      {
+        "t": "Quatro",
+        "es": "Cuatro",
+        "pos": "n"
+      },
+      {
+        "t": "Cinco",
+        "es": "Cinco",
+        "pos": "n"
+      },
+      {
+        "t": "Seis",
+        "es": "Seis",
+        "pos": "n"
+      },
+      {
+        "t": "Sete",
+        "es": "Siete",
+        "pos": "n"
+      },
+      {
+        "t": "Oito",
+        "es": "Ocho",
+        "pos": "n"
+      },
+      {
+        "t": "Nove",
+        "es": "Nueve",
+        "pos": "n"
+      },
+      {
+        "t": "Dez",
+        "es": "Diez",
+        "pos": "n"
+      },
+      {
+        "t": "Vinte",
+        "es": "Veinte",
+        "pos": "n"
+      },
+      {
+        "t": "Cem",
+        "es": "Cien",
+        "pos": "n"
+      },
+      {
+        "t": "Mil",
+        "es": "Mil",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-colors",
+    "title": "Colores",
+    "emoji": "🎨",
+    "words": [
+      {
+        "t": "Cor",
+        "es": "Color",
+        "pos": "n"
+      },
+      {
+        "t": "Vermelho",
+        "es": "Rojo",
+        "pos": "adj"
+      },
+      {
+        "t": "Azul",
+        "es": "Azul",
+        "pos": "adj"
+      },
+      {
+        "t": "Verde",
+        "es": "Verde",
+        "pos": "adj"
+      },
+      {
+        "t": "Amarelo",
+        "es": "Amarillo",
+        "pos": "adj"
+      },
+      {
+        "t": "Preto",
+        "es": "Negro",
+        "pos": "adj"
+      },
+      {
+        "t": "Branco",
+        "es": "Blanco",
+        "pos": "adj"
+      },
+      {
+        "t": "Cinza",
+        "es": "Gris",
+        "pos": "adj"
+      },
+      {
+        "t": "Marrom",
+        "es": "Marrón",
+        "pos": "adj"
+      },
+      {
+        "t": "Laranja",
+        "es": "Naranja",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "pt-verbs",
+    "title": "Verbos comunes",
+    "emoji": "⚡",
+    "words": [
+      {
+        "t": "Ser",
+        "es": "Ser",
+        "pos": "v"
+      },
+      {
+        "t": "Estar",
+        "es": "Estar",
+        "pos": "v"
+      },
+      {
+        "t": "Ter",
+        "es": "Tener",
+        "pos": "v"
+      },
+      {
+        "t": "Fazer",
+        "es": "Hacer",
+        "pos": "v"
+      },
+      {
+        "t": "Ir",
+        "es": "Ir",
+        "pos": "v"
+      },
+      {
+        "t": "Vir",
+        "es": "Venir",
+        "pos": "v"
+      },
+      {
+        "t": "Querer",
+        "es": "Querer",
+        "pos": "v"
+      },
+      {
+        "t": "Poder",
+        "es": "Poder",
+        "pos": "v"
+      },
+      {
+        "t": "Dever",
+        "es": "Deber",
+        "pos": "v"
+      },
+      {
+        "t": "Dizer",
+        "es": "Decir",
+        "pos": "v"
+      },
+      {
+        "t": "Ver",
+        "es": "Ver",
+        "pos": "v"
+      },
+      {
+        "t": "Saber",
+        "es": "Saber",
+        "pos": "v"
+      },
+      {
+        "t": "Dar",
+        "es": "Dar",
+        "pos": "v"
+      },
+      {
+        "t": "Comer",
+        "es": "Comer",
+        "pos": "v"
+      },
+      {
+        "t": "Beber",
+        "es": "Beber",
+        "pos": "v"
+      },
+      {
+        "t": "Dormir",
+        "es": "Dormir",
+        "pos": "v"
+      },
+      {
+        "t": "Falar",
+        "es": "Hablar",
+        "pos": "v"
+      },
+      {
+        "t": "Entender",
+        "es": "Entender",
+        "pos": "v"
+      },
+      {
+        "t": "Trabalhar",
+        "es": "Trabajar",
+        "pos": "v"
+      },
+      {
+        "t": "Estudar",
+        "es": "Estudiar",
+        "pos": "v"
+      },
+      {
+        "t": "Viver",
+        "es": "Vivir",
+        "pos": "v"
+      },
+      {
+        "t": "Comprar",
+        "es": "Comprar",
+        "pos": "v"
+      },
+      {
+        "t": "Pagar",
+        "es": "Pagar",
+        "pos": "v"
+      },
+      {
+        "t": "Abrir",
+        "es": "Abrir",
+        "pos": "v"
+      },
+      {
+        "t": "Fechar",
+        "es": "Cerrar",
+        "pos": "v"
+      },
+      {
+        "t": "Escrever",
+        "es": "Escribir",
+        "pos": "v"
+      },
+      {
+        "t": "Ler",
+        "es": "Leer",
+        "pos": "v"
+      },
+      {
+        "t": "Ligar",
+        "es": "Llamar",
+        "pos": "v"
+      },
+      {
+        "t": "Esperar",
+        "es": "Esperar",
+        "pos": "v"
+      },
+      {
+        "t": "Encontrar",
+        "es": "Encontrar",
+        "pos": "v"
+      },
+      {
+        "t": "Pensar",
+        "es": "Pensar",
+        "pos": "v"
+      },
+      {
+        "t": "Gostar",
+        "es": "Gustar",
+        "pos": "v"
+      },
+      {
+        "t": "Olhar",
+        "es": "Mirar",
+        "pos": "v"
+      },
+      {
+        "t": "Pegar",
+        "es": "Tomar",
+        "pos": "v"
+      },
+      {
+        "t": "Deixar",
+        "es": "Dejar",
+        "pos": "v"
+      },
+      {
+        "t": "Perguntar",
+        "es": "Preguntar",
+        "pos": "v"
+      }
+    ]
+  },
+  {
+    "id": "pt-adj",
+    "title": "Adjetivos comunes",
+    "emoji": "✨",
+    "words": [
+      {
+        "t": "Bom",
+        "es": "Bueno",
+        "pos": "adj"
+      },
+      {
+        "t": "Mau",
+        "es": "Malo",
+        "pos": "adj"
+      },
+      {
+        "t": "Grande",
+        "es": "Grande",
+        "pos": "adj"
+      },
+      {
+        "t": "Pequeno",
+        "es": "Pequeño",
+        "pos": "adj"
+      },
+      {
+        "t": "Novo",
+        "es": "Nuevo",
+        "pos": "adj"
+      },
+      {
+        "t": "Velho",
+        "es": "Viejo",
+        "pos": "adj"
+      },
+      {
+        "t": "Bonito",
+        "es": "Bonito",
+        "pos": "adj"
+      },
+      {
+        "t": "Jovem",
+        "es": "Joven",
+        "pos": "adj"
+      },
+      {
+        "t": "Fácil",
+        "es": "Fácil",
+        "pos": "adj"
+      },
+      {
+        "t": "Difícil",
+        "es": "Difícil",
+        "pos": "adj"
+      },
+      {
+        "t": "Importante",
+        "es": "Importante",
+        "pos": "adj"
+      },
+      {
+        "t": "Rápido",
+        "es": "Rápido",
+        "pos": "adj"
+      },
+      {
+        "t": "Lento",
+        "es": "Lento",
+        "pos": "adj"
+      },
+      {
+        "t": "Quente",
+        "es": "Caliente",
+        "pos": "adj"
+      },
+      {
+        "t": "Frio",
+        "es": "Frío",
+        "pos": "adj"
+      },
+      {
+        "t": "Feliz",
+        "es": "Feliz",
+        "pos": "adj"
+      },
+      {
+        "t": "Triste",
+        "es": "Triste",
+        "pos": "adj"
+      },
+      {
+        "t": "Cansado",
+        "es": "Cansado",
+        "pos": "adj"
+      },
+      {
+        "t": "Doente",
+        "es": "Enfermo",
+        "pos": "adj"
+      },
+      {
+        "t": "Cheio",
+        "es": "Lleno",
+        "pos": "adj"
+      },
+      {
+        "t": "Vazio",
+        "es": "Vacío",
+        "pos": "adj"
+      },
+      {
+        "t": "Limpo",
+        "es": "Limpio",
+        "pos": "adj"
+      },
+      {
+        "t": "Sujo",
+        "es": "Sucio",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "pt-adv",
+    "title": "Adverbios y conectores",
+    "emoji": "🔗",
+    "words": [
+      {
+        "t": "Muito",
+        "es": "Muy/Mucho",
+        "pos": "adv"
+      },
+      {
+        "t": "Também",
+        "es": "También",
+        "pos": "adv"
+      },
+      {
+        "t": "Sempre",
+        "es": "Siempre",
+        "pos": "adv"
+      },
+      {
+        "t": "Nunca",
+        "es": "Nunca",
+        "pos": "adv"
+      },
+      {
+        "t": "Frequentemente",
+        "es": "A menudo",
+        "pos": "adv"
+      },
+      {
+        "t": "Às vezes",
+        "es": "A veces",
+        "pos": "adv"
+      },
+      {
+        "t": "Já",
+        "es": "Ya",
+        "pos": "adv"
+      },
+      {
+        "t": "Ainda",
+        "es": "Todavía/Aún",
+        "pos": "adv"
+      },
+      {
+        "t": "Aqui",
+        "es": "Aquí",
+        "pos": "adv"
+      },
+      {
+        "t": "Lá",
+        "es": "Allí",
+        "pos": "adv"
+      },
+      {
+        "t": "Bem",
+        "es": "Bien",
+        "pos": "adv"
+      },
+      {
+        "t": "Mal",
+        "es": "Mal",
+        "pos": "adv"
+      },
+      {
+        "t": "Pouco",
+        "es": "Poco",
+        "pos": "adv"
+      },
+      {
+        "t": "Juntos",
+        "es": "Juntos",
+        "pos": "adv"
+      },
+      {
+        "t": "Mas",
+        "es": "Pero",
+        "pos": "adv"
+      },
+      {
+        "t": "E",
+        "es": "Y",
+        "pos": "adv"
+      },
+      {
+        "t": "Ou",
+        "es": "O",
+        "pos": "adv"
+      },
+      {
+        "t": "Porque",
+        "es": "Porque",
+        "pos": "adv"
+      },
+      {
+        "t": "Quando",
+        "es": "Cuándo",
+        "pos": "adv"
+      },
+      {
+        "t": "Onde",
+        "es": "Dónde",
+        "pos": "adv"
+      },
+      {
+        "t": "Como",
+        "es": "Cómo",
+        "pos": "adv"
+      },
+      {
+        "t": "Por que",
+        "es": "Por qué",
+        "pos": "adv"
+      },
+      {
+        "t": "Quem",
+        "es": "Quién",
+        "pos": "adv"
+      },
+      {
+        "t": "O que",
+        "es": "Qué",
+        "pos": "adv"
+      },
+      {
+        "t": "Com",
+        "es": "Con",
+        "pos": "adv"
+      },
+      {
+        "t": "Sem",
+        "es": "Sin",
+        "pos": "adv"
+      },
+      {
+        "t": "Para",
+        "es": "Para/Por",
+        "pos": "adv"
+      },
+      {
+        "t": "Em",
+        "es": "En",
+        "pos": "adv"
+      }
+    ]
+  },
+  {
+    "id": "pt-phrases",
+    "title": "Frases útiles",
+    "emoji": "💬",
+    "words": [
+      {
+        "t": "Não entendo",
+        "es": "No entiendo",
+        "pos": "phr"
+      },
+      {
+        "t": "Pode repetir?",
+        "es": "¿Puede repetir?",
+        "pos": "phr"
+      },
+      {
+        "t": "Você fala inglês?",
+        "es": "¿Hablas inglés?",
+        "pos": "phr"
+      },
+      {
+        "t": "Falo um pouco de português",
+        "es": "Hablo un poco de portugués",
+        "pos": "phr"
+      },
+      {
+        "t": "Quanto custa?",
+        "es": "¿Cuánto cuesta?",
+        "pos": "phr"
+      },
+      {
+        "t": "Onde fica o banheiro?",
+        "es": "¿Dónde está el baño?",
+        "pos": "phr"
+      },
+      {
+        "t": "Pode me ajudar?",
+        "es": "¿Puede ayudarme?",
+        "pos": "phr"
+      },
+      {
+        "t": "Preciso de ajuda",
+        "es": "Necesito ayuda",
+        "pos": "phr"
+      },
+      {
+        "t": "Não sei",
+        "es": "No lo sé",
+        "pos": "phr"
+      },
+      {
+        "t": "Tudo bem",
+        "es": "Está bien",
+        "pos": "phr"
+      },
+      {
+        "t": "Claro",
+        "es": "Por supuesto",
+        "pos": "phr"
+      },
+      {
+        "t": "Talvez",
+        "es": "Quizás",
+        "pos": "phr"
+      },
+      {
+        "t": "Não importa",
+        "es": "No importa",
+        "pos": "phr"
+      },
+      {
+        "t": "Desculpa",
+        "es": "Lo siento",
+        "pos": "phr"
+      },
+      {
+        "t": "Boa sorte",
+        "es": "Buena suerte",
+        "pos": "phr"
+      },
+      {
+        "t": "Bom apetite",
+        "es": "Buen provecho",
+        "pos": "phr"
+      },
+      {
+        "t": "Saúde!",
+        "es": "¡Salud!",
+        "pos": "phr"
+      },
+      {
+        "t": "Estou perdido",
+        "es": "Estoy perdido",
+        "pos": "phr"
+      },
+      {
+        "t": "Eu te amo",
+        "es": "Te quiero",
+        "pos": "phr"
+      },
+      {
+        "t": "Até mais",
+        "es": "Hasta luego",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "pt-common",
+    "title": "Palavras mais usadas",
+    "emoji": "⭐",
+    "words": [
+      {
+        "t": "Eu",
+        "es": "Yo",
+        "pos": "n"
+      },
+      {
+        "t": "Você",
+        "es": "Tú/Usted",
+        "pos": "n"
+      },
+      {
+        "t": "Ele",
+        "es": "Él",
+        "pos": "n"
+      },
+      {
+        "t": "Ela",
+        "es": "Ella",
+        "pos": "n"
+      },
+      {
+        "t": "Nós",
+        "es": "Nosotros",
+        "pos": "n"
+      },
+      {
+        "t": "Eles",
+        "es": "Ellos",
+        "pos": "n"
+      },
+      {
+        "t": "Meu",
+        "es": "Mi",
+        "pos": "adj"
+      },
+      {
+        "t": "Seu",
+        "es": "Tu/Su",
+        "pos": "adj"
+      },
+      {
+        "t": "Nosso",
+        "es": "Nuestro",
+        "pos": "adj"
+      },
+      {
+        "t": "Este",
+        "es": "Este",
+        "pos": "adj"
+      },
+      {
+        "t": "Cada",
+        "es": "Cada",
+        "pos": "adj"
+      },
+      {
+        "t": "Outro",
+        "es": "Otro",
+        "pos": "adj"
+      },
+      {
+        "t": "Todo",
+        "es": "Todo",
+        "pos": "adj"
+      },
+      {
+        "t": "Alguns",
+        "es": "Algunos",
+        "pos": "adj"
+      },
+      {
+        "t": "Algo",
+        "es": "Algo",
+        "pos": "n"
+      },
+      {
+        "t": "Nada",
+        "es": "Nada",
+        "pos": "n"
+      },
+      {
+        "t": "Alguém",
+        "es": "Alguien",
+        "pos": "n"
+      },
+      {
+        "t": "Ninguém",
+        "es": "Nadie",
+        "pos": "n"
+      },
+      {
+        "t": "Tempo",
+        "es": "Tiempo",
+        "pos": "n"
+      },
+      {
+        "t": "Vez",
+        "es": "Vez",
+        "pos": "n"
+      },
+      {
+        "t": "Mundo",
+        "es": "Mundo",
+        "pos": "n"
+      },
+      {
+        "t": "Vida",
+        "es": "Vida",
+        "pos": "n"
+      },
+      {
+        "t": "Lugar",
+        "es": "Lugar",
+        "pos": "n"
+      },
+      {
+        "t": "País",
+        "es": "País",
+        "pos": "n"
+      },
+      {
+        "t": "Trabalho",
+        "es": "Trabajo",
+        "pos": "n"
+      },
+      {
+        "t": "Dinheiro",
+        "es": "Dinero",
+        "pos": "n"
+      },
+      {
+        "t": "Número",
+        "es": "Número",
+        "pos": "n"
+      },
+      {
+        "t": "Pergunta",
+        "es": "Pregunta",
+        "pos": "n"
+      },
+      {
+        "t": "Resposta",
+        "es": "Respuesta",
+        "pos": "n"
+      },
+      {
+        "t": "Problema",
+        "es": "Problema",
+        "pos": "n"
+      },
+      {
+        "t": "Ideia",
+        "es": "Idea",
+        "pos": "n"
+      },
+      {
+        "t": "História",
+        "es": "Historia",
+        "pos": "n"
+      },
+      {
+        "t": "Palavra",
+        "es": "Palabra",
+        "pos": "n"
+      },
+      {
+        "t": "Parte",
+        "es": "Parte",
+        "pos": "n"
+      },
+      {
+        "t": "Grupo",
+        "es": "Grupo",
+        "pos": "n"
+      },
+      {
+        "t": "Começar",
+        "es": "Empezar",
+        "pos": "v"
+      },
+      {
+        "t": "Terminar",
+        "es": "Terminar",
+        "pos": "v"
+      },
+      {
+        "t": "Mudar",
+        "es": "Cambiar",
+        "pos": "v"
+      },
+      {
+        "t": "Usar",
+        "es": "Usar",
+        "pos": "v"
+      },
+      {
+        "t": "Tentar",
+        "es": "Intentar",
+        "pos": "v"
+      },
+      {
+        "t": "Mostrar",
+        "es": "Mostrar",
+        "pos": "v"
+      },
+      {
+        "t": "Jogar",
+        "es": "Jugar",
+        "pos": "v"
+      },
+      {
+        "t": "Correr",
+        "es": "Correr",
+        "pos": "v"
+      },
+      {
+        "t": "Caminhar",
+        "es": "Caminar",
+        "pos": "v"
+      },
+      {
+        "t": "Nadar",
+        "es": "Nadar",
+        "pos": "v"
+      },
+      {
+        "t": "Cantar",
+        "es": "Cantar",
+        "pos": "v"
+      },
+      {
+        "t": "Dançar",
+        "es": "Bailar",
+        "pos": "v"
+      },
+      {
+        "t": "Cozinhar",
+        "es": "Cocinar",
+        "pos": "v"
+      },
+      {
+        "t": "Limpar",
+        "es": "Limpiar",
+        "pos": "v"
+      },
+      {
+        "t": "Lavar",
+        "es": "Lavar",
+        "pos": "v"
+      },
+      {
+        "t": "Ajudar",
+        "es": "Ayudar",
+        "pos": "v"
+      },
+      {
+        "t": "Aprender",
+        "es": "Aprender",
+        "pos": "v"
+      },
+      {
+        "t": "Esquecer",
+        "es": "Olvidar",
+        "pos": "v"
+      },
+      {
+        "t": "Perder",
+        "es": "Perder",
+        "pos": "v"
+      },
+      {
+        "t": "Ganhar",
+        "es": "Ganar",
+        "pos": "v"
+      },
+      {
+        "t": "Escolher",
+        "es": "Elegir",
+        "pos": "v"
+      },
+      {
+        "t": "Decidir",
+        "es": "Decidir",
+        "pos": "v"
+      },
+      {
+        "t": "Acreditar",
+        "es": "Creer",
+        "pos": "v"
+      },
+      {
+        "t": "Seguir",
+        "es": "Seguir",
+        "pos": "v"
+      },
+      {
+        "t": "Levar",
+        "es": "Llevar",
+        "pos": "v"
+      },
+      {
+        "t": "Enviar",
+        "es": "Enviar",
+        "pos": "v"
+      },
+      {
+        "t": "Receber",
+        "es": "Recibir",
+        "pos": "v"
+      },
+      {
+        "t": "Construir",
+        "es": "Construir",
+        "pos": "v"
+      },
+      {
+        "t": "Quebrar",
+        "es": "Romper",
+        "pos": "v"
+      },
+      {
+        "t": "Cortar",
+        "es": "Cortar",
+        "pos": "v"
+      },
+      {
+        "t": "Dirigir",
+        "es": "Conducir",
+        "pos": "v"
+      },
+      {
+        "t": "Viajar",
+        "es": "Viajar",
+        "pos": "v"
+      },
+      {
+        "t": "Cair",
+        "es": "Caer",
+        "pos": "v"
+      },
+      {
+        "t": "Subir",
+        "es": "Subir",
+        "pos": "v"
+      },
+      {
+        "t": "Descer",
+        "es": "Bajar",
+        "pos": "v"
+      },
+      {
+        "t": "Morrer",
+        "es": "Morir",
+        "pos": "v"
+      },
+      {
+        "t": "Crescer",
+        "es": "Crecer",
+        "pos": "v"
+      },
+      {
+        "t": "Tornar-se",
+        "es": "Convertirse",
+        "pos": "v"
+      },
+      {
+        "t": "Ficar",
+        "es": "Quedarse",
+        "pos": "v"
+      },
+      {
+        "t": "Manter",
+        "es": "Mantener",
+        "pos": "v"
+      },
+      {
+        "t": "Permitir",
+        "es": "Permitir",
+        "pos": "v"
+      },
+      {
+        "t": "Adicionar",
+        "es": "Añadir",
+        "pos": "v"
+      },
+      {
+        "t": "Melhorar",
+        "es": "Mejorar",
+        "pos": "v"
+      },
+      {
+        "t": "Explicar",
+        "es": "Explicar",
+        "pos": "v"
+      },
+      {
+        "t": "Contar",
+        "es": "Contar",
+        "pos": "v"
+      },
+      {
+        "t": "Oferecer",
+        "es": "Ofrecer",
+        "pos": "v"
+      },
+      {
+        "t": "Aceitar",
+        "es": "Aceptar",
+        "pos": "v"
+      },
+      {
+        "t": "Recusar",
+        "es": "Rechazar",
+        "pos": "v"
+      },
+      {
+        "t": "Rir",
+        "es": "Reír",
+        "pos": "v"
+      },
+      {
+        "t": "Chorar",
+        "es": "Llorar",
+        "pos": "v"
+      },
+      {
+        "t": "Sonhar",
+        "es": "Soñar",
+        "pos": "v"
+      },
+      {
+        "t": "Primeiro",
+        "es": "Primero",
+        "pos": "adj"
+      },
+      {
+        "t": "Último",
+        "es": "Último",
+        "pos": "adj"
+      },
+      {
+        "t": "Próximo",
+        "es": "Próximo",
+        "pos": "adj"
+      },
+      {
+        "t": "Sozinho",
+        "es": "Solo",
+        "pos": "adj"
+      },
+      {
+        "t": "Seguro",
+        "es": "Seguro",
+        "pos": "adj"
+      },
+      {
+        "t": "Livre",
+        "es": "Libre",
+        "pos": "adj"
+      },
+      {
+        "t": "Ocupado",
+        "es": "Ocupado",
+        "pos": "adj"
+      },
+      {
+        "t": "Pronto",
+        "es": "Listo",
+        "pos": "adj"
+      },
+      {
+        "t": "Perto",
+        "es": "Cerca",
+        "pos": "adj"
+      },
+      {
+        "t": "Longe",
+        "es": "Lejos",
+        "pos": "adj"
+      },
+      {
+        "t": "Alto",
+        "es": "Alto",
+        "pos": "adj"
+      },
+      {
+        "t": "Baixo",
+        "es": "Bajo",
+        "pos": "adj"
+      },
+      {
+        "t": "Longo",
+        "es": "Largo",
+        "pos": "adj"
+      },
+      {
+        "t": "Curto",
+        "es": "Corto",
+        "pos": "adj"
+      },
+      {
+        "t": "Forte",
+        "es": "Fuerte",
+        "pos": "adj"
+      },
+      {
+        "t": "Fraco",
+        "es": "Débil",
+        "pos": "adj"
+      },
+      {
+        "t": "Rico",
+        "es": "Rico",
+        "pos": "adj"
+      },
+      {
+        "t": "Pobre",
+        "es": "Pobre",
+        "pos": "adj"
+      },
+      {
+        "t": "Aberto",
+        "es": "Abierto",
+        "pos": "adj"
+      },
+      {
+        "t": "Fechado",
+        "es": "Cerrado",
+        "pos": "adj"
+      },
+      {
+        "t": "Verdadeiro",
+        "es": "Verdadero",
+        "pos": "adj"
+      },
+      {
+        "t": "Falso",
+        "es": "Falso",
+        "pos": "adj"
+      },
+      {
+        "t": "Simples",
+        "es": "Simple",
+        "pos": "adj"
+      },
+      {
+        "t": "Necessário",
+        "es": "Necesario",
+        "pos": "adj"
+      },
+      {
+        "t": "Especial",
+        "es": "Especial",
+        "pos": "adj"
+      },
+      {
+        "t": "Normal",
+        "es": "Normal",
+        "pos": "adj"
+      },
+      {
+        "t": "Diferente",
+        "es": "Diferente",
+        "pos": "adj"
+      },
+      {
+        "t": "Igual",
+        "es": "Igual",
+        "pos": "adj"
+      },
+      {
+        "t": "Inteiro",
+        "es": "Entero",
+        "pos": "adj"
+      },
+      {
+        "t": "Público",
+        "es": "Público",
+        "pos": "adj"
+      },
+      {
+        "t": "Privado",
+        "es": "Privado",
+        "pos": "adj"
+      },
+      {
+        "t": "Em breve",
+        "es": "Pronto",
+        "pos": "adv"
+      },
+      {
+        "t": "Quase",
+        "es": "Casi",
+        "pos": "adv"
+      },
+      {
+        "t": "Realmente",
+        "es": "De verdad",
+        "pos": "adv"
+      },
+      {
+        "t": "Especialmente",
+        "es": "Especialmente",
+        "pos": "adv"
+      },
+      {
+        "t": "Normalmente",
+        "es": "Normalmente",
+        "pos": "adv"
+      },
+      {
+        "t": "Finalmente",
+        "es": "Finalmente",
+        "pos": "adv"
+      },
+      {
+        "t": "Acima",
+        "es": "Encima",
+        "pos": "adv"
+      },
+      {
+        "t": "Abaixo",
+        "es": "Debajo",
+        "pos": "adv"
+      },
+      {
+        "t": "Dentro",
+        "es": "Dentro",
+        "pos": "adv"
+      },
+      {
+        "t": "Fora",
+        "es": "Fuera",
+        "pos": "adv"
+      },
+      {
+        "t": "Na frente",
+        "es": "Delante",
+        "pos": "adv"
+      },
+      {
+        "t": "Atrás",
+        "es": "Detrás",
+        "pos": "adv"
+      },
+      {
+        "t": "Entre",
+        "es": "Entre",
+        "pos": "adv"
+      },
+      {
+        "t": "Segunda-feira",
+        "es": "Lunes",
+        "pos": "n"
+      },
+      {
+        "t": "Terça-feira",
+        "es": "Martes",
+        "pos": "n"
+      },
+      {
+        "t": "Quarta-feira",
+        "es": "Miércoles",
+        "pos": "n"
+      },
+      {
+        "t": "Quinta-feira",
+        "es": "Jueves",
+        "pos": "n"
+      },
+      {
+        "t": "Sexta-feira",
+        "es": "Viernes",
+        "pos": "n"
+      },
+      {
+        "t": "Sábado",
+        "es": "Sábado",
+        "pos": "n"
+      },
+      {
+        "t": "Domingo",
+        "es": "Domingo",
+        "pos": "n"
+      },
+      {
+        "t": "Janeiro",
+        "es": "Enero",
+        "pos": "n"
+      },
+      {
+        "t": "Fevereiro",
+        "es": "Febrero",
+        "pos": "n"
+      },
+      {
+        "t": "Março",
+        "es": "Marzo",
+        "pos": "n"
+      },
+      {
+        "t": "Abril",
+        "es": "Abril",
+        "pos": "n"
+      },
+      {
+        "t": "Maio",
+        "es": "Mayo",
+        "pos": "n"
+      },
+      {
+        "t": "Junho",
+        "es": "Junio",
+        "pos": "n"
+      },
+      {
+        "t": "Julho",
+        "es": "Julio",
+        "pos": "n"
+      },
+      {
+        "t": "Agosto",
+        "es": "Agosto",
+        "pos": "n"
+      },
+      {
+        "t": "Setembro",
+        "es": "Septiembre",
+        "pos": "n"
+      },
+      {
+        "t": "Outubro",
+        "es": "Octubre",
+        "pos": "n"
+      },
+      {
+        "t": "Novembro",
+        "es": "Noviembre",
+        "pos": "n"
+      },
+      {
+        "t": "Dezembro",
+        "es": "Diciembre",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "pt-extra",
+    "title": "Más vocabulario",
+    "emoji": "➕",
+    "words": [
+      {
+        "t": "Reparar",
+        "es": "Reparar",
+        "pos": "v"
+      },
+      {
+        "t": "Preparar",
+        "es": "Preparar",
+        "pos": "v"
+      },
+      {
+        "t": "Visitar",
+        "es": "Visitar",
+        "pos": "v"
+      },
+      {
+        "t": "Convidar",
+        "es": "Invitar",
+        "pos": "v"
+      },
+      {
+        "t": "Responder",
+        "es": "Responder",
+        "pos": "v"
+      },
+      {
+        "t": "Sentir",
+        "es": "Sentir",
+        "pos": "v"
+      },
+      {
+        "t": "Cheirar",
+        "es": "Oler",
+        "pos": "v"
+      },
+      {
+        "t": "Tocar",
+        "es": "Tocar",
+        "pos": "v"
+      },
+      {
+        "t": "Escutar",
+        "es": "Escuchar",
+        "pos": "v"
+      },
+      {
+        "t": "Ouvir",
+        "es": "Oír",
+        "pos": "v"
+      },
+      {
+        "t": "Leve",
+        "es": "Ligero",
+        "pos": "adj"
+      },
+      {
+        "t": "Pesado",
+        "es": "Pesado",
+        "pos": "adj"
+      },
+      {
+        "t": "Seco",
+        "es": "Seco",
+        "pos": "adj"
+      },
+      {
+        "t": "Molhado",
+        "es": "Mojado",
+        "pos": "adj"
+      },
+      {
+        "t": "Macio",
+        "es": "Suave",
+        "pos": "adj"
+      },
+      {
+        "t": "Duro",
+        "es": "Duro",
+        "pos": "adj"
+      },
+      {
+        "t": "Caro",
+        "es": "Caro",
+        "pos": "adj"
+      },
+      {
+        "t": "Barato",
+        "es": "Barato",
+        "pos": "adj"
+      },
+      {
+        "t": "Largo",
+        "es": "Ancho",
+        "pos": "adj"
+      },
+      {
+        "t": "Estreito",
+        "es": "Estrecho",
+        "pos": "adj"
+      },
+      {
+        "t": "Barulhento",
+        "es": "Ruidoso",
+        "pos": "adj"
+      },
+      {
+        "t": "Silencioso",
+        "es": "Silencioso",
+        "pos": "adj"
+      },
+      {
+        "t": "Primavera",
+        "es": "Primavera",
+        "pos": "n"
+      },
+      {
+        "t": "Verão",
+        "es": "Verano",
+        "pos": "n"
+      },
+      {
+        "t": "Outono",
+        "es": "Otoño",
+        "pos": "n"
+      },
+      {
+        "t": "Inverno",
+        "es": "Invierno",
+        "pos": "n"
+      },
+      {
+        "t": "Norte",
+        "es": "Norte",
+        "pos": "n"
+      },
+      {
+        "t": "Sul",
+        "es": "Sur",
+        "pos": "n"
+      },
+      {
+        "t": "Leste",
+        "es": "Este",
+        "pos": "n"
+      },
+      {
+        "t": "Oeste",
+        "es": "Oeste",
+        "pos": "n"
+      },
+      {
+        "t": "Pedir",
+        "es": "Pedir/Ordenar",
+        "pos": "v"
+      },
+      {
+        "t": "Entregar",
+        "es": "Entregar",
+        "pos": "v"
+      },
+      {
+        "t": "Puxar",
+        "es": "Jalar",
+        "pos": "v"
+      },
+      {
+        "t": "Empurrar",
+        "es": "Empujar",
+        "pos": "v"
+      },
+      {
+        "t": "Encher",
+        "es": "Llenar",
+        "pos": "v"
+      },
+      {
+        "t": "Esvaziar",
+        "es": "Vaciar",
+        "pos": "v"
+      },
+      {
+        "t": "Desenhar",
+        "es": "Dibujar",
+        "pos": "v"
+      },
+      {
+        "t": "Pintar",
+        "es": "Pintar",
+        "pos": "v"
+      },
+      {
+        "t": "Jardim",
+        "es": "Jardín",
+        "pos": "n"
+      },
+      {
+        "t": "Teto",
+        "es": "Techo",
+        "pos": "n"
+      },
+      {
+        "t": "Chão",
+        "es": "Suelo",
+        "pos": "n"
+      },
+      {
+        "t": "Parede",
+        "es": "Pared",
+        "pos": "n"
+      },
+      {
+        "t": "Xícara",
+        "es": "Taza",
+        "pos": "n"
+      },
+      {
+        "t": "Prato",
+        "es": "Plato",
+        "pos": "n"
+      },
+      {
+        "t": "Copo",
+        "es": "Vaso",
+        "pos": "n"
+      },
+      {
+        "t": "Faca",
+        "es": "Cuchillo",
+        "pos": "n"
+      },
+      {
+        "t": "Garfo",
+        "es": "Tenedor",
+        "pos": "n"
+      },
+      {
+        "t": "Colher",
+        "es": "Cuchara",
+        "pos": "n"
+      },
+      {
+        "t": "Médico",
+        "es": "Médico",
+        "pos": "n"
+      },
+      {
+        "t": "Enfermeira",
+        "es": "Enfermera",
+        "pos": "n"
+      },
+      {
+        "t": "Remédio",
+        "es": "Medicamento",
+        "pos": "n"
+      },
+      {
+        "t": "Dor",
+        "es": "Dolor",
+        "pos": "n"
+      },
+      {
+        "t": "Universidade",
+        "es": "Universidad",
+        "pos": "n"
+      },
+      {
+        "t": "Estudante",
+        "es": "Estudiante",
+        "pos": "n"
+      },
+      {
+        "t": "Professor",
+        "es": "Profesor",
+        "pos": "n"
+      },
+      {
+        "t": "Aula",
+        "es": "Clase",
+        "pos": "n"
+      },
+      {
+        "t": "Exame",
+        "es": "Examen",
+        "pos": "n"
+      },
+      {
+        "t": "Escritório",
+        "es": "Oficina",
+        "pos": "n"
+      },
+      {
+        "t": "Reunião",
+        "es": "Reunión",
+        "pos": "n"
+      },
+      {
+        "t": "Empresa",
+        "es": "Empresa",
+        "pos": "n"
+      },
+      {
+        "t": "Chefe",
+        "es": "Jefe",
+        "pos": "n"
+      },
+      {
+        "t": "Mensagem",
+        "es": "Mensaje",
+        "pos": "n"
+      },
+      {
+        "t": "E-mail",
+        "es": "Correo electrónico",
+        "pos": "n"
+      },
+      {
+        "t": "Senha",
+        "es": "Contraseña",
+        "pos": "n"
+      },
+      {
+        "t": "Tela",
+        "es": "Pantalla",
+        "pos": "n"
+      },
+      {
+        "t": "Filme",
+        "es": "Película",
+        "pos": "n"
+      },
+      {
+        "t": "Música",
+        "es": "Música",
+        "pos": "n"
+      },
+      {
+        "t": "Jogo",
+        "es": "Juego",
+        "pos": "n"
+      },
+      {
+        "t": "Esporte",
+        "es": "Deporte",
+        "pos": "n"
+      },
+      {
+        "t": "Sorrir",
+        "es": "Sonreír",
+        "pos": "v"
+      },
+      {
+        "t": "Beijar",
+        "es": "Besar",
+        "pos": "v"
+      },
+      {
+        "t": "Abraçar",
+        "es": "Abrazar",
+        "pos": "v"
+      },
+      {
+        "t": "Com fome",
+        "es": "Hambriento",
+        "pos": "adj"
+      },
+      {
+        "t": "Com sede",
+        "es": "Sediento",
+        "pos": "adj"
+      },
+      {
+        "t": "Com raiva",
+        "es": "Enojado",
+        "pos": "adj"
+      },
+      {
+        "t": "Com medo",
+        "es": "Asustado",
+        "pos": "adj"
+      },
+      {
+        "t": "Camiseta",
+        "es": "Camiseta",
+        "pos": "n"
+      },
+      {
+        "t": "Jaqueta",
+        "es": "Chaqueta",
+        "pos": "n"
+      },
+      {
+        "t": "Meias",
+        "es": "Calcetines",
+        "pos": "n"
+      }
+    ]
+  }
+]

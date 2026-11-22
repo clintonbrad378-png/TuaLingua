@@ -1,0 +1,1522 @@
+{
+  "id": "d7",
+  "title": "Pläne und Meinungen",
+  "emoji": "🗣️",
+  "color": "#FFB020",
+  "lessons": [
+    {
+      "id": "d7l1",
+      "title": "Planes",
+      "goal": "Hablar del futuro",
+      "tip": [
+        "«Ich werde...» para futuro.",
+        "«Morgen» = mañana."
+      ],
+      "phrases": [
+        {
+          "es": "Voy a viajar mañana",
+          "t": "Ich werde morgen reisen"
+        },
+        {
+          "es": "Quiero aprender alemán",
+          "t": "Ich möchte Deutsch lernen"
+        },
+        {
+          "es": "Nos vemos pronto",
+          "t": "Bis bald"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «voy a viajar mañana»?",
+          "options": [
+            "Ich werde morgen reisen",
+            "Ich möchte Deutsch lernen",
+            "Bis bald",
+            "Morgen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "Ich werde morgen reisen"
+          }
+        },
+        {
+          "id": "d7l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ich möchte Deutsch lernen",
+          "options": [
+            "Quiero aprender alemán",
+            "Nos vemos pronto",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero aprender alemán",
+            "t": "Ich möchte Deutsch lernen"
+          }
+        },
+        {
+          "id": "d7l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ bald",
+          "options": [
+            "Bis",
+            "Morgen",
+            "Bald"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nos vemos pronto",
+            "t": "Bis bald"
+          }
+        },
+        {
+          "id": "d7l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Voy a viajar mañana»",
+          "solution": "Ich werde morgen reisen",
+          "distractors": [
+            "Später",
+            "Immer"
+          ],
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "Ich werde morgen reisen"
+          }
+        },
+        {
+          "id": "d7l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mañana»",
+          "solution": "Morgen",
+          "accept": [
+            "Morgen",
+            "morgen"
+          ],
+          "pair": {
+            "es": "Mañana",
+            "t": "Morgen"
+          }
+        },
+        {
+          "id": "d7l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mañana",
+              "t": "Morgen"
+            },
+            {
+              "es": "Pronto",
+              "t": "Bald"
+            },
+            {
+              "es": "Después",
+              "t": "Später"
+            }
+          ]
+        },
+        {
+          "id": "d7l1e7",
+          "type": "choice",
+          "prompt": "«Siempre» se traduce como...",
+          "options": [
+            "Immer",
+            "Morgen",
+            "Bald",
+            "Später"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Siempre",
+            "t": "Immer"
+          }
+        },
+        {
+          "id": "d7l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ich werde morgen reisen",
+          "options": [
+            "Voy a viajar mañana",
+            "Quiero aprender alemán",
+            "Nos vemos pronto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Voy a viajar mañana",
+            "t": "Ich werde morgen reisen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l2",
+      "title": "Opiniones",
+      "goal": "Dar tu opinión",
+      "tip": [
+        "«Ich denke, dass...»",
+        "«Meiner Meinung nach...»"
+      ],
+      "phrases": [
+        {
+          "es": "Creo que es una buena idea",
+          "t": "Ich denke, das ist eine gute Idee"
+        },
+        {
+          "es": "En mi opinión, es difícil",
+          "t": "Meiner Meinung nach ist es schwierig"
+        },
+        {
+          "es": "Estoy de acuerdo",
+          "t": "Ich stimme zu"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «creo que es una buena idea»?",
+          "options": [
+            "Ich denke, das ist eine gute Idee",
+            "Meiner Meinung nach ist es schwierig",
+            "Ich stimme zu",
+            "Idee"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "Ich denke, das ist eine gute Idee"
+          }
+        },
+        {
+          "id": "d7l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Meiner Meinung nach ist es schwierig",
+          "options": [
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "En mi opinión, es difícil",
+            "t": "Meiner Meinung nach ist es schwierig"
+          }
+        },
+        {
+          "id": "d7l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ich ___ zu",
+          "options": [
+            "stimme",
+            "Idee",
+            "Meinung"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy de acuerdo",
+            "t": "Ich stimme zu"
+          }
+        },
+        {
+          "id": "d7l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Creo que es una buena idea»",
+          "solution": "Ich denke, das ist eine gute Idee",
+          "distractors": [
+            "Problem",
+            "Lösung"
+          ],
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "Ich denke, das ist eine gute Idee"
+          }
+        },
+        {
+          "id": "d7l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «idea»",
+          "solution": "Idee",
+          "accept": [
+            "Idee",
+            "idee"
+          ],
+          "pair": {
+            "es": "Idea",
+            "t": "Idee"
+          }
+        },
+        {
+          "id": "d7l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Idea",
+              "t": "Idee"
+            },
+            {
+              "es": "Opinión",
+              "t": "Meinung"
+            },
+            {
+              "es": "Problema",
+              "t": "Problem"
+            }
+          ]
+        },
+        {
+          "id": "d7l2e7",
+          "type": "choice",
+          "prompt": "«Solución» se traduce como...",
+          "options": [
+            "Lösung",
+            "Idee",
+            "Meinung",
+            "Problem"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Solución",
+            "t": "Lösung"
+          }
+        },
+        {
+          "id": "d7l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ich denke, das ist eine gute Idee",
+          "options": [
+            "Creo que es una buena idea",
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Creo que es una buena idea",
+            "t": "Ich denke, das ist eine gute Idee"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l3",
+      "title": "Tiempo libre",
+      "goal": "Hobbies",
+      "tip": [
+        "«Ich mag...» / «Ich gern...»",
+        "«Ich spiele...»"
+      ],
+      "phrases": [
+        {
+          "es": "Me gusta leer",
+          "t": "Ich lese gern"
+        },
+        {
+          "es": "Juego al fútbol",
+          "t": "Ich spiele Fußball"
+        },
+        {
+          "es": "Escucho música",
+          "t": "Ich höre Musik"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «me gusta leer»?",
+          "options": [
+            "Ich lese gern",
+            "Ich spiele Fußball",
+            "Ich höre Musik",
+            "Lesen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "Ich lese gern"
+          }
+        },
+        {
+          "id": "d7l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ich spiele Fußball",
+          "options": [
+            "Juego al fútbol",
+            "Escucho música",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juego al fútbol",
+            "t": "Ich spiele Fußball"
+          }
+        },
+        {
+          "id": "d7l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ich ___ Musik",
+          "options": [
+            "höre",
+            "Lesen",
+            "Fußball"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Escucho música",
+            "t": "Ich höre Musik"
+          }
+        },
+        {
+          "id": "d7l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Me gusta leer»",
+          "solution": "Ich lese gern",
+          "distractors": [
+            "Musik",
+            "Film"
+          ],
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "Ich lese gern"
+          }
+        },
+        {
+          "id": "d7l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «leer»",
+          "solution": "Lesen",
+          "accept": [
+            "Lesen",
+            "lesen"
+          ],
+          "pair": {
+            "es": "Leer",
+            "t": "Lesen"
+          }
+        },
+        {
+          "id": "d7l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Leer",
+              "t": "Lesen"
+            },
+            {
+              "es": "Fútbol",
+              "t": "Fußball"
+            },
+            {
+              "es": "Música",
+              "t": "Musik"
+            }
+          ]
+        },
+        {
+          "id": "d7l3e7",
+          "type": "choice",
+          "prompt": "«Película» se traduce como...",
+          "options": [
+            "Film",
+            "Lesen",
+            "Fußball",
+            "Musik"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Película",
+            "t": "Film"
+          }
+        },
+        {
+          "id": "d7l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ich lese gern",
+          "options": [
+            "Me gusta leer",
+            "Juego al fútbol",
+            "Escucho música"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta leer",
+            "t": "Ich lese gern"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l4",
+      "title": "Conversación",
+      "goal": "Frases de fluidez",
+      "tip": [
+        "Conectores: also, aber, auch.",
+        "«Könnten Sie...?» es cortés."
+      ],
+      "phrases": [
+        {
+          "es": "¿Podría ayudarme?",
+          "t": "Könnten Sie mir helfen?"
+        },
+        {
+          "es": "Por supuesto",
+          "t": "Natürlich"
+        },
+        {
+          "es": "No importa",
+          "t": "Macht nichts"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿podría ayudarme?»?",
+          "options": [
+            "Könnten Sie mir helfen?",
+            "Natürlich",
+            "Macht nichts",
+            "Natürlich"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "Könnten Sie mir helfen?"
+          }
+        },
+        {
+          "id": "d7l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Natürlich",
+          "options": [
+            "Por supuesto",
+            "No importa",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por supuesto",
+            "t": "Natürlich"
+          }
+        },
+        {
+          "id": "d7l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ nichts",
+          "options": [
+            "Macht",
+            "Natürlich",
+            "Vielleicht"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No importa",
+            "t": "Macht nichts"
+          }
+        },
+        {
+          "id": "d7l4e4",
+          "type": "build",
+          "prompt": "Traduce: «¿Podría ayudarme?»",
+          "solution": "Könnten Sie mir helfen?",
+          "distractors": [
+            "Wirklich",
+            "Zusammen"
+          ],
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "Könnten Sie mir helfen?"
+          }
+        },
+        {
+          "id": "d7l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «por supuesto»",
+          "solution": "Natürlich",
+          "accept": [
+            "Natürlich",
+            "natürlich"
+          ],
+          "pair": {
+            "es": "Por supuesto",
+            "t": "Natürlich"
+          }
+        },
+        {
+          "id": "d7l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Por supuesto",
+              "t": "Natürlich"
+            },
+            {
+              "es": "Quizás",
+              "t": "Vielleicht"
+            },
+            {
+              "es": "De verdad",
+              "t": "Wirklich"
+            }
+          ]
+        },
+        {
+          "id": "d7l4e7",
+          "type": "choice",
+          "prompt": "«Juntos» se traduce como...",
+          "options": [
+            "Zusammen",
+            "Natürlich",
+            "Vielleicht",
+            "Wirklich"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juntos",
+            "t": "Zusammen"
+          }
+        },
+        {
+          "id": "d7l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Könnten Sie mir helfen?",
+          "options": [
+            "¿Podría ayudarme?",
+            "Por supuesto",
+            "No importa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podría ayudarme?",
+            "t": "Könnten Sie mir helfen?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l5",
+      "title": "Extra Wörter 1",
+      "goal": "Wichtiger Wortschatz",
+      "tip": [
+        "Übe wichtige Wörter."
+      ],
+      "phrases": [
+        {
+          "es": "Delante",
+          "t": "Vorne"
+        },
+        {
+          "es": "Estoy bien",
+          "t": "Mir geht's gut"
+        },
+        {
+          "es": "Nueve",
+          "t": "Neun"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Delante»?",
+          "options": [
+            "Vorne",
+            "Mir geht's gut",
+            "Neun",
+            "Ich habe mich verlaufen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Delante",
+            "t": "Vorne"
+          }
+        },
+        {
+          "id": "d7l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Mir geht's gut",
+          "options": [
+            "Estoy bien",
+            "Nueve",
+            "Estoy perdido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy bien",
+            "t": "Mir geht's gut"
+          }
+        },
+        {
+          "id": "d7l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Neun",
+            "Ich",
+            "Drei"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nueve",
+            "t": "Neun"
+          }
+        },
+        {
+          "id": "d7l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Estoy perdido»",
+          "solution": "Ich habe mich verlaufen",
+          "distractors": [
+            "Drei",
+            "Hotel"
+          ],
+          "pair": {
+            "es": "Estoy perdido",
+            "t": "Ich habe mich verlaufen"
+          }
+        },
+        {
+          "id": "d7l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tres»",
+          "solution": "Drei",
+          "accept": [
+            "Drei",
+            "drei"
+          ],
+          "pair": {
+            "es": "Tres",
+            "t": "Drei"
+          }
+        },
+        {
+          "id": "d7l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Hotel",
+              "t": "Hotel"
+            },
+            {
+              "es": "Amarillo",
+              "t": "Gelb"
+            },
+            {
+              "es": "Oler",
+              "t": "Riechen"
+            }
+          ]
+        },
+        {
+          "id": "d7l5e7",
+          "type": "choice",
+          "prompt": "«Abuela» se traduce como...",
+          "options": [
+            "Großmutter",
+            "Machen",
+            "Vielleicht",
+            "Telefon"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Abuela",
+            "t": "Großmutter"
+          }
+        },
+        {
+          "id": "d7l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Machen",
+          "options": [
+            "Hacer",
+            "Quizás",
+            "Teléfono"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hacer",
+            "t": "Machen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l6",
+      "title": "Nützliche Sätze 2",
+      "goal": "Alltägliche Sätze",
+      "tip": [
+        "Sprich natürlich."
+      ],
+      "phrases": [
+        {
+          "es": "Veinte",
+          "t": "Zwanzig"
+        },
+        {
+          "es": "Boca",
+          "t": "Mund"
+        },
+        {
+          "es": "Besar",
+          "t": "Küssen"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Veinte»?",
+          "options": [
+            "Zwanzig",
+            "Mund",
+            "Küssen",
+            "Für"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Veinte",
+            "t": "Zwanzig"
+          }
+        },
+        {
+          "id": "d7l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Mund",
+          "options": [
+            "Boca",
+            "Besar",
+            "Para/Por"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Boca",
+            "t": "Mund"
+          }
+        },
+        {
+          "id": "d7l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Küssen",
+            "Für",
+            "Freitag"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Besar",
+            "t": "Küssen"
+          }
+        },
+        {
+          "id": "d7l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Para/Por»",
+          "solution": "Für",
+          "distractors": [
+            "Freitag",
+            "Leeren"
+          ],
+          "pair": {
+            "es": "Para/Por",
+            "t": "Für"
+          }
+        },
+        {
+          "id": "d7l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «viernes»",
+          "solution": "Freitag",
+          "accept": [
+            "Freitag",
+            "freitag"
+          ],
+          "pair": {
+            "es": "Viernes",
+            "t": "Freitag"
+          }
+        },
+        {
+          "id": "d7l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Vaciar",
+              "t": "Leeren"
+            },
+            {
+              "es": "Cuándo",
+              "t": "Wann"
+            },
+            {
+              "es": "Cara",
+              "t": "Gesicht"
+            }
+          ]
+        },
+        {
+          "id": "d7l6e7",
+          "type": "choice",
+          "prompt": "«Baño» se traduce como...",
+          "options": [
+            "Badezimmer",
+            "Brechen",
+            "Kommen",
+            "Fisch"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Baño",
+            "t": "Badezimmer"
+          }
+        },
+        {
+          "id": "d7l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Brechen",
+          "options": [
+            "Romper",
+            "Venir",
+            "Pescado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Romper",
+            "t": "Brechen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l7",
+      "title": "Wiederholung 3",
+      "goal": "Wiederholung",
+      "tip": [
+        "Festige das Gelernte."
+      ],
+      "phrases": [
+        {
+          "es": "Convertirse",
+          "t": "Werden"
+        },
+        {
+          "es": "Vacío",
+          "t": "Leer"
+        },
+        {
+          "es": "Hijo",
+          "t": "Sohn"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Convertirse»?",
+          "options": [
+            "Werden",
+            "Leer",
+            "Sohn",
+            "Wissen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Convertirse",
+            "t": "Werden"
+          }
+        },
+        {
+          "id": "d7l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Leer",
+          "options": [
+            "Vacío",
+            "Hijo",
+            "Saber"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vacío",
+            "t": "Leer"
+          }
+        },
+        {
+          "id": "d7l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Sohn",
+            "Wissen",
+            "Wählen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hijo",
+            "t": "Sohn"
+          }
+        },
+        {
+          "id": "d7l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Saber»",
+          "solution": "Wissen",
+          "distractors": [
+            "Wählen",
+            "Mieten"
+          ],
+          "pair": {
+            "es": "Saber",
+            "t": "Wissen"
+          }
+        },
+        {
+          "id": "d7l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «elegir»",
+          "solution": "Wählen",
+          "accept": [
+            "Wählen",
+            "wählen"
+          ],
+          "pair": {
+            "es": "Elegir",
+            "t": "Wählen"
+          }
+        },
+        {
+          "id": "d7l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Alquilar",
+              "t": "Mieten"
+            },
+            {
+              "es": "Nada",
+              "t": "Nichts"
+            },
+            {
+              "es": "Noche",
+              "t": "Nacht"
+            }
+          ]
+        },
+        {
+          "id": "d7l7e7",
+          "type": "choice",
+          "prompt": "«Flor» se traduce como...",
+          "options": [
+            "Blume",
+            "Flughafen",
+            "Schlecht",
+            "Mal"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Flor",
+            "t": "Blume"
+          }
+        },
+        {
+          "id": "d7l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Flughafen",
+          "options": [
+            "Aeropuerto",
+            "Malo",
+            "Vez"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Aeropuerto",
+            "t": "Flughafen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l8",
+      "title": "Hören 4",
+      "goal": "Hörverständnis",
+      "tip": [
+        "Trainiere dein Ohr."
+      ],
+      "phrases": [
+        {
+          "es": "Jueves",
+          "t": "Donnerstag"
+        },
+        {
+          "es": "Cómo",
+          "t": "Wie"
+        },
+        {
+          "es": "Ella/Ellos",
+          "t": "Sie"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Jueves»?",
+          "options": [
+            "Donnerstag",
+            "Wie",
+            "Sie",
+            "Sonntag"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Jueves",
+            "t": "Donnerstag"
+          }
+        },
+        {
+          "id": "d7l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Wie",
+          "options": [
+            "Cómo",
+            "Ella/Ellos",
+            "Domingo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cómo",
+            "t": "Wie"
+          }
+        },
+        {
+          "id": "d7l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Sie",
+            "Sonntag",
+            "Versuchen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ella/Ellos",
+            "t": "Sie"
+          }
+        },
+        {
+          "id": "d7l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Domingo»",
+          "solution": "Sonntag",
+          "distractors": [
+            "Versuchen",
+            "Schwer"
+          ],
+          "pair": {
+            "es": "Domingo",
+            "t": "Sonntag"
+          }
+        },
+        {
+          "id": "d7l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «intentar»",
+          "solution": "Versuchen",
+          "accept": [
+            "Versuchen",
+            "versuchen"
+          ],
+          "pair": {
+            "es": "Intentar",
+            "t": "Versuchen"
+          }
+        },
+        {
+          "id": "d7l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Pesado",
+              "t": "Schwer"
+            },
+            {
+              "es": "Recibir",
+              "t": "Bekommen"
+            },
+            {
+              "es": "Abrazar",
+              "t": "Umarmen"
+            }
+          ]
+        },
+        {
+          "id": "d7l8e7",
+          "type": "choice",
+          "prompt": "«Invierno» se traduce como...",
+          "options": [
+            "Winter",
+            "Zeit",
+            "Chef",
+            "Samstag"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Invierno",
+            "t": "Winter"
+          }
+        },
+        {
+          "id": "d7l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Zeit",
+          "options": [
+            "Tiempo",
+            "Jefe",
+            "Sábado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tiempo",
+            "t": "Zeit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l9",
+      "title": "Sprechen 5",
+      "goal": "Sprechen",
+      "tip": [
+        "Baue Vertrauen auf."
+      ],
+      "phrases": [
+        {
+          "es": "Hermana",
+          "t": "Schwester"
+        },
+        {
+          "es": "Alquilar",
+          "t": "Mieten"
+        },
+        {
+          "es": "Mujer",
+          "t": "Frau"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Hermana»?",
+          "options": [
+            "Schwester",
+            "Mieten",
+            "Frau",
+            "Wachsen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana",
+            "t": "Schwester"
+          }
+        },
+        {
+          "id": "d7l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Mieten",
+          "options": [
+            "Alquilar",
+            "Mujer",
+            "Crecer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Alquilar",
+            "t": "Mieten"
+          }
+        },
+        {
+          "id": "d7l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Frau",
+            "Wachsen",
+            "Sein"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mujer",
+            "t": "Frau"
+          }
+        },
+        {
+          "id": "d7l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Crecer»",
+          "solution": "Wachsen",
+          "distractors": [
+            "Sein",
+            "Acht"
+          ],
+          "pair": {
+            "es": "Crecer",
+            "t": "Wachsen"
+          }
+        },
+        {
+          "id": "d7l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ser/estar»",
+          "solution": "Sein",
+          "accept": [
+            "Sein",
+            "sein"
+          ],
+          "pair": {
+            "es": "Ser/Estar",
+            "t": "Sein"
+          }
+        },
+        {
+          "id": "d7l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ocho",
+              "t": "Acht"
+            },
+            {
+              "es": "Cocina",
+              "t": "Küche"
+            },
+            {
+              "es": "Viento",
+              "t": "Wind"
+            }
+          ]
+        },
+        {
+          "id": "d7l9e7",
+          "type": "choice",
+          "prompt": "«Enfermo» se traduce como...",
+          "options": [
+            "Krank",
+            "Leicht",
+            "Milch",
+            "Körper"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enfermo",
+            "t": "Krank"
+          }
+        },
+        {
+          "id": "d7l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Leicht",
+          "options": [
+            "Ligero",
+            "Leche",
+            "Cuerpo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ligero",
+            "t": "Leicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7l10",
+      "title": "Echtes Leben 6",
+      "goal": "Reale Situationen",
+      "tip": [
+        "Nutze die Sprache im Kontext."
+      ],
+      "phrases": [
+        {
+          "es": "Blanco",
+          "t": "Weiß"
+        },
+        {
+          "es": "Juego",
+          "t": "Spiel"
+        },
+        {
+          "es": "Mayo",
+          "t": "Mai"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "d7l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Blanco»?",
+          "options": [
+            "Weiß",
+            "Spiel",
+            "Mai",
+            "E-Mail"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Blanco",
+            "t": "Weiß"
+          }
+        },
+        {
+          "id": "d7l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Spiel",
+          "options": [
+            "Juego",
+            "Mayo",
+            "Correo electrónico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Juego",
+            "t": "Spiel"
+          }
+        },
+        {
+          "id": "d7l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Mai",
+            "E-Mail",
+            "Anrufen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mayo",
+            "t": "Mai"
+          }
+        },
+        {
+          "id": "d7l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Correo electrónico»",
+          "solution": "E-Mail",
+          "distractors": [
+            "Anrufen",
+            "April"
+          ],
+          "pair": {
+            "es": "Correo electrónico",
+            "t": "E-Mail"
+          }
+        },
+        {
+          "id": "d7l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «llamar»",
+          "solution": "Anrufen",
+          "accept": [
+            "Anrufen",
+            "anrufen"
+          ],
+          "pair": {
+            "es": "Llamar",
+            "t": "Anrufen"
+          }
+        },
+        {
+          "id": "d7l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Abril",
+              "t": "April"
+            },
+            {
+              "es": "Autobús",
+              "t": "Bus"
+            },
+            {
+              "es": "Venir",
+              "t": "Kommen"
+            }
+          ]
+        },
+        {
+          "id": "d7l10e7",
+          "type": "choice",
+          "prompt": "«Público» se traduce como...",
+          "options": [
+            "Öffentlich",
+            "Hoffen",
+            "Wenig",
+            "Nein"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Público",
+            "t": "Öffentlich"
+          }
+        },
+        {
+          "id": "d7l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Hoffen",
+          "options": [
+            "Esperar/Desear",
+            "Poco",
+            "No"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esperar/Desear",
+            "t": "Hoffen"
+          }
+        }
+      ]
+    }
+  ]
+}

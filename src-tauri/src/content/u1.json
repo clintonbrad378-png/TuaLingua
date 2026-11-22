@@ -1,6 +1,6 @@
 {
   "id": "u1",
-  "title": "Primeros pasos",
+  "title": "First steps",
   "emoji": "👋",
   "color": "#7C5CFF",
   "lessons": [
@@ -13,27 +13,52 @@
         "Para despedirte: «Bye», «Goodbye» o «See you» (nos vemos)."
       ],
       "phrases": [
-        { "es": "¡Hola! ¿Cómo estás?", "t": "Hi! How are you?" },
-        { "es": "Bien, gracias. ¿Y tú?", "t": "Good, thanks. And you?" },
-        { "es": "Nos vemos mañana", "t": "See you tomorrow" }
+        {
+          "es": "¡Hola! ¿Cómo estás?",
+          "t": "Hi! How are you?"
+        },
+        {
+          "es": "Bien, gracias. ¿Y tú?",
+          "t": "Good, thanks. And you?"
+        },
+        {
+          "es": "Nos vemos mañana",
+          "t": "See you tomorrow"
+        }
       ],
       "exercises": [
         {
           "id": "u1l1e1",
           "type": "choice",
           "prompt": "¿Cómo se dice «hola»?",
-          "options": ["Hello", "Bye", "Please", "Sorry"],
+          "options": [
+            "Hello",
+            "Bye",
+            "Please",
+            "Sorry"
+          ],
           "answer": 0,
-          "pair": { "es": "Hola", "t": "Hello" },
+          "pair": {
+            "es": "Hola",
+            "t": "Hello"
+          },
           "explain": "«Hello» y «Hi» significan hola."
         },
         {
           "id": "u1l1e2",
           "type": "choice",
           "prompt": "«Good morning» es…",
-          "options": ["Buenos días", "Buenas noches", "Buenas tardes", "Hasta luego"],
+          "options": [
+            "Buenos días",
+            "Buenas noches",
+            "Buenas tardes",
+            "Hasta luego"
+          ],
           "answer": 0,
-          "pair": { "es": "Buenos días", "t": "Good morning" }
+          "pair": {
+            "es": "Buenos días",
+            "t": "Good morning"
+          }
         },
         {
           "id": "u1l1e3",
@@ -46,15 +71,26 @@
             "Hasta luego, nos vemos"
           ],
           "answer": 0,
-          "pair": { "es": "¡Buenos días! ¿Cómo estás?", "t": "Good morning! How are you?" }
+          "pair": {
+            "es": "¡Buenos días! ¿Cómo estás?",
+            "t": "Good morning! How are you?"
+          }
         },
         {
           "id": "u1l1e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I ___ Ana.",
-          "options": ["am", "is", "are"],
-          "answer": 0, "pair": { "es": "Soy Ana.", "t": "I am Ana." },
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy Ana.",
+            "t": "I am Ana."
+          },
           "explain": "Con «I» el verbo «to be» es «am»: I am (I'm) Ana."
         },
         {
@@ -62,35 +98,68 @@
           "type": "build",
           "prompt": "Traduce: «Nos vemos mañana»",
           "solution": "See you tomorrow",
-          "distractors": ["today", "goodbye"],
-          "pair": { "es": "Nos vemos mañana", "t": "See you tomorrow" }
+          "distractors": [
+            "today",
+            "goodbye"
+          ],
+          "pair": {
+            "es": "Nos vemos mañana",
+            "t": "See you tomorrow"
+          }
         },
         {
           "id": "u1l1e6",
           "type": "type",
           "prompt": "Escribe en inglés: «gracias»",
-          "solution": "thank you",
-          "accept": ["thank you", "thanks", "thank you!"],
-          "pair": { "es": "Gracias", "t": "Thank you" },
+          "solution": "Thank you",
+          "accept": [
+            "thank you",
+            "thanks",
+            "thank you!"
+          ],
+          "pair": {
+            "es": "Gracias",
+            "t": "Thank you"
+          },
           "explain": "«Thanks» es más informal que «thank you»."
         },
         {
           "id": "u1l1e7",
           "type": "choice",
           "prompt": "¿Cuál de estas es una despedida?",
-          "options": ["Goodbye", "Hello", "Good morning", "Nice to meet you"],
+          "options": [
+            "Goodbye",
+            "Hello",
+            "Good morning",
+            "Nice to meet you"
+          ],
           "answer": 0,
-          "pair": { "es": "Adiós", "t": "Goodbye" }
+          "pair": {
+            "es": "Adiós",
+            "t": "Goodbye"
+          }
         },
         {
           "id": "u1l1e8",
           "type": "match",
           "prompt": "Empareja cada palabra con su traducción",
           "pairs": [
-            { "es": "Hola", "t": "Hello" },
-            { "es": "Adiós", "t": "Goodbye" },
-            { "es": "Buenos días", "t": "Good morning" },
-            { "es": "Gracias", "t": "Thank you" }
+            {
+              "es": "Hola",
+              "t": "Hello"
+            },
+            {
+              "es": "Adiós",
+              "t": "Goodbye"
+            },
+            {
+              "es": "Buenos días",
+              "t": "Good morning"
+            },
+            {
+              "es": "Gracias",
+              "t": "Thank you"
+            }
           ]
         }
       ]
@@ -104,26 +173,51 @@
         "Para la edad: «I am 20 years old» o «I'm 20»."
       ],
       "phrases": [
-        { "es": "Me llamo Ana", "t": "My name is Ana" },
-        { "es": "Soy de España", "t": "I'm from Spain" },
-        { "es": "Encantado de conocerte", "t": "Nice to meet you" }
+        {
+          "es": "Me llamo Ana",
+          "t": "My name is Ana"
+        },
+        {
+          "es": "Soy de España",
+          "t": "I'm from Spain"
+        },
+        {
+          "es": "Encantado de conocerte",
+          "t": "Nice to meet you"
+        }
       ],
       "exercises": [
         {
           "id": "u1l2e1",
           "type": "choice",
           "prompt": "¿Cómo se dice «Me llamo Ana»?",
-          "options": ["My name is Ana", "I have Ana", "You are Ana", "Ana is me"],
+          "options": [
+            "My name is Ana",
+            "I have Ana",
+            "You are Ana",
+            "Ana is me"
+          ],
           "answer": 0,
-          "pair": { "es": "Me llamo ana", "t": "My name is Ana" }
+          "pair": {
+            "es": "Me llamo ana",
+            "t": "My name is Ana"
+          }
         },
         {
           "id": "u1l2e2",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I ___ from Spain.",
-          "options": ["am", "is", "are"],
-          "answer": 0, "pair": { "es": "Soy de España.", "t": "I am from Spain." },
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy de España.",
+            "t": "I am from Spain."
+          },
           "explain": "«I am from…» significa «Soy de…»."
         },
         {
@@ -131,16 +225,30 @@
           "type": "build",
           "prompt": "Traduce: «Encantado de conocerte»",
           "solution": "Nice to meet you",
-          "distractors": ["meet", "too", "good"],
-          "pair": { "es": "Encantado de conocerte", "t": "Nice to meet you" }
+          "distractors": [
+            "meet",
+            "too",
+            "good"
+          ],
+          "pair": {
+            "es": "Encantado de conocerte",
+            "t": "Nice to meet you"
+          }
         },
         {
           "id": "u1l2e4",
           "type": "type",
           "prompt": "Escribe en inglés: «¿Cómo te llamas?»",
           "solution": "What is your name",
-          "accept": ["what is your name", "what's your name", "whats your name"],
-          "pair": { "es": "¿Cómo te llamas?", "t": "What is your name?" }
+          "accept": [
+            "what is your name",
+            "what's your name",
+            "whats your name"
+          ],
+          "pair": {
+            "es": "¿Cómo te llamas?",
+            "t": "What is your name?"
+          }
         },
         {
           "id": "u1l2e5",
@@ -152,25 +260,49 @@
             "Me llamo Carla. Soy de Madrid.",
             "Tengo 20 años. Soy de México."
           ],
-          "answer": 0, "pair": { "es": "Me llamo Carlos. Soy de México.", "t": "My name is Carlos. I'm from Mexico." }
+          "answer": 0,
+          "pair": {
+            "es": "Me llamo Carlos. Soy de México.",
+            "t": "My name is Carlos. I'm from Mexico."
+          }
         },
         {
           "id": "u1l2e6",
           "type": "choice",
           "prompt": "«I'm 20 years old» significa…",
-          "options": ["Tengo 20 años", "Soy el número 20", "Tengo 20 euros", "Cumplo años en 20 días"],
+          "options": [
+            "Tengo 20 años",
+            "Soy el número 20",
+            "Tengo 20 euros",
+            "Cumplo años en 20 días"
+          ],
           "answer": 0,
-          "pair": { "es": "Tengo 20 años", "t": "I am 20 years old" }
+          "pair": {
+            "es": "Tengo 20 años",
+            "t": "I am 20 years old"
+          }
         },
         {
           "id": "u1l2e7",
           "type": "match",
           "prompt": "Empareja cada expresión",
           "pairs": [
-            { "es": "Me llamo…", "t": "My name is…" },
-            { "es": "Soy de…", "t": "I am from…" },
-            { "es": "Encantado de conocerte", "t": "Nice to meet you" },
-            { "es": "¿Cómo te llamas?", "t": "What is your name?" }
+            {
+              "es": "Me llamo…",
+              "t": "My name is…"
+            },
+            {
+              "es": "Soy de…",
+              "t": "I am from…"
+            },
+            {
+              "es": "Encantado de conocerte",
+              "t": "Nice to meet you"
+            },
+            {
+              "es": "¿Cómo te llamas?",
+              "t": "What is your name?"
+            }
           ]
         },
         {
@@ -178,8 +310,16 @@
           "type": "fill",
           "prompt": "Completa la pregunta",
           "sentence": "Where ___ you from?",
-          "options": ["are", "is", "am"],
-          "answer": 0, "pair": { "es": "¿De dónde eres?", "t": "Where are you from?" },
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿De dónde eres?",
+            "t": "Where are you from?"
+          },
           "explain": "«Where are you from?» = ¿De dónde eres?"
         }
       ]
@@ -193,18 +333,35 @@
         "«You're welcome» responde a «Thank you»."
       ],
       "phrases": [
-        { "es": "Perdón, ¿me puedes ayudar?", "t": "Excuse me, can you help me?" },
-        { "es": "Muchas gracias", "t": "Thank you very much" },
-        { "es": "De nada", "t": "You're welcome" }
+        {
+          "es": "Perdón, ¿me puedes ayudar?",
+          "t": "Excuse me, can you help me?"
+        },
+        {
+          "es": "Muchas gracias",
+          "t": "Thank you very much"
+        },
+        {
+          "es": "De nada",
+          "t": "You're welcome"
+        }
       ],
       "exercises": [
         {
           "id": "u1l3e1",
           "type": "choice",
           "prompt": "¿Cómo se dice «por favor»?",
-          "options": ["Please", "Thanks", "Sorry", "Welcome"],
+          "options": [
+            "Please",
+            "Thanks",
+            "Sorry",
+            "Welcome"
+          ],
           "answer": 0,
-          "pair": { "es": "Por favor", "t": "Please" }
+          "pair": {
+            "es": "Por favor",
+            "t": "Please"
+          }
         },
         {
           "id": "u1l3e2",
@@ -217,59 +374,110 @@
             "Pides perdón"
           ],
           "answer": 0,
-          "pair": { "es": "De nada", "t": "You're welcome" }
+          "pair": {
+            "es": "De nada",
+            "t": "You're welcome"
+          }
         },
         {
           "id": "u1l3e3",
           "type": "type",
           "prompt": "Escribe en inglés: «perdón / lo siento»",
-          "solution": "sorry",
-          "accept": ["sorry", "i am sorry", "i'm sorry"],
-          "pair": { "es": "Lo siento", "t": "Sorry" }
+          "solution": "Sorry",
+          "accept": [
+            "sorry",
+            "i am sorry",
+            "i'm sorry"
+          ],
+          "pair": {
+            "es": "Lo siento",
+            "t": "Sorry"
+          }
         },
         {
           "id": "u1l3e4",
           "type": "build",
           "prompt": "Traduce: «Perdón, ¿me puedes ayudar?»",
           "solution": "Excuse me can you help me",
-          "distractors": ["sorry", "halp"],
-          "pair": { "es": "Perdón, ¿me puedes ayudar?", "t": "Excuse me, can you help me?" }
+          "distractors": [
+            "sorry",
+            "halp"
+          ],
+          "pair": {
+            "es": "Perdón, ¿me puedes ayudar?",
+            "t": "Excuse me, can you help me?"
+          }
         },
         {
           "id": "u1l3e5",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "Thank you very much!",
-          "options": ["¡Muchas gracias!", "¡De nada!", "¡Lo siento mucho!"],
+          "options": [
+            "¡Muchas gracias!",
+            "¡De nada!",
+            "¡Lo siento mucho!"
+          ],
           "answer": 0,
-          "pair": { "es": "Muchas gracias", "t": "Thank you very much" }
+          "pair": {
+            "es": "Muchas gracias",
+            "t": "Thank you very much"
+          }
         },
         {
           "id": "u1l3e6",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "___ me, where is the bathroom?",
-          "options": ["Excuse", "Sorry", "Please"],
-          "answer": 0, "pair": { "es": "Perdón, ¿dónde está el baño?", "t": "Excuse me, where is the bathroom?" },
+          "options": [
+            "Excuse",
+            "Sorry",
+            "Please"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Perdón, ¿dónde está el baño?",
+            "t": "Excuse me, where is the bathroom?"
+          },
           "explain": "«Excuse me» se usa para llamar la atención de alguien."
         },
         {
           "id": "u1l3e7",
           "type": "choice",
           "prompt": "«No problem» significa…",
-          "options": ["No hay problema", "No entiendo", "Nunca", "No es posible"],
+          "options": [
+            "No hay problema",
+            "No entiendo",
+            "Nunca",
+            "No es posible"
+          ],
           "answer": 0,
-          "pair": { "es": "No hay problema", "t": "No problem" }
+          "pair": {
+            "es": "No hay problema",
+            "t": "No problem"
+          }
         },
         {
           "id": "u1l3e8",
           "type": "match",
           "prompt": "Empareja cada expresión",
           "pairs": [
-            { "es": "Por favor", "t": "Please" },
-            { "es": "De nada", "t": "You're welcome" },
-            { "es": "Lo siento", "t": "Sorry" },
-            { "es": "No hay problema", "t": "No problem" }
+            {
+              "es": "Por favor",
+              "t": "Please"
+            },
+            {
+              "es": "De nada",
+              "t": "You're welcome"
+            },
+            {
+              "es": "Lo siento",
+              "t": "Sorry"
+            },
+            {
+              "es": "No hay problema",
+              "t": "No problem"
+            }
           ]
         }
       ]
@@ -283,9 +491,18 @@
         "Si no entiendes: «I don't understand». Si sabes poco: «I speak a little English»."
       ],
       "phrases": [
-        { "es": "¿Hablas inglés?", "t": "Do you speak English?" },
-        { "es": "No entiendo", "t": "I don't understand" },
-        { "es": "¿Puedes repetir, por favor?", "t": "Can you repeat, please?" }
+        {
+          "es": "¿Hablas inglés?",
+          "t": "Do you speak English?"
+        },
+        {
+          "es": "No entiendo",
+          "t": "I don't understand"
+        },
+        {
+          "es": "¿Puedes repetir, por favor?",
+          "t": "Can you repeat, please?"
+        }
       ],
       "exercises": [
         {
@@ -299,7 +516,10 @@
             "I understand"
           ],
           "answer": 0,
-          "pair": { "es": "No entiendo", "t": "I don't understand" },
+          "pair": {
+            "es": "No entiendo",
+            "t": "I don't understand"
+          },
           "explain": "«I don't know» significa «no sé»."
         },
         {
@@ -307,61 +527,1022 @@
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "Do you speak English?",
-          "options": ["¿Hablas inglés?", "¿Estudias inglés?", "¿Entiendes inglés?"],
+          "options": [
+            "¿Hablas inglés?",
+            "¿Estudias inglés?",
+            "¿Entiendes inglés?"
+          ],
           "answer": 0,
-          "pair": { "es": "¿Hablas inglés?", "t": "Do you speak English?" }
+          "pair": {
+            "es": "¿Hablas inglés?",
+            "t": "Do you speak English?"
+          }
         },
         {
           "id": "u1l4e3",
           "type": "build",
           "prompt": "Traduce: «¿Puedes repetir, por favor?»",
           "solution": "Can you repeat please",
-          "distractors": ["say", "speak"],
-          "pair": { "es": "¿Puedes repetir, por favor?", "t": "Can you repeat, please?" }
+          "distractors": [
+            "say",
+            "speak"
+          ],
+          "pair": {
+            "es": "¿Puedes repetir, por favor?",
+            "t": "Can you repeat, please?"
+          }
         },
         {
           "id": "u1l4e4",
           "type": "type",
           "prompt": "Escribe en inglés: «un poco»",
-          "solution": "a little",
-          "accept": ["a little", "a bit"],
-          "pair": { "es": "Un poco", "t": "A little" }
+          "solution": "A little",
+          "accept": [
+            "a little",
+            "a bit"
+          ],
+          "pair": {
+            "es": "Un poco",
+            "t": "A little"
+          }
         },
         {
           "id": "u1l4e5",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I speak ___ English.",
-          "options": ["a little", "a few", "many"],
-          "answer": 0, "pair": { "es": "Hablo un poco de inglés.", "t": "I speak a little English." },
+          "options": [
+            "a little",
+            "a few",
+            "many"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hablo un poco de inglés.",
+            "t": "I speak a little English."
+          },
           "explain": "«A little» = un poco. «A few» se usa con cosas contables: a few words."
         },
         {
           "id": "u1l4e6",
           "type": "choice",
           "prompt": "«What does it mean?» significa…",
-          "options": ["¿Qué significa?", "¿Qué quieres decir?", "¿Qué hora es?", "¿Qué haces?"],
+          "options": [
+            "¿Qué significa?",
+            "¿Qué quieres decir?",
+            "¿Qué hora es?",
+            "¿Qué haces?"
+          ],
           "answer": 0,
-          "pair": { "es": "¿Qué significa?", "t": "What does it mean?" }
+          "pair": {
+            "es": "¿Qué significa?",
+            "t": "What does it mean?"
+          }
         },
         {
           "id": "u1l4e7",
           "type": "match",
           "prompt": "Empareja cada expresión",
           "pairs": [
-            { "es": "¿Entiendes?", "t": "Do you understand?" },
-            { "es": "No sé", "t": "I don't know" },
-            { "es": "Hablo un poco", "t": "I speak a little" },
-            { "es": "¿Puedes repetir?", "t": "Can you repeat?" }
+            {
+              "es": "¿Entiendes?",
+              "t": "Do you understand?"
+            },
+            {
+              "es": "No sé",
+              "t": "I don't know"
+            },
+            {
+              "es": "Hablo un poco",
+              "t": "I speak a little"
+            },
+            {
+              "es": "¿Puedes repetir?",
+              "t": "Can you repeat?"
+            }
           ]
         },
         {
           "id": "u1l4e8",
           "type": "choice",
           "prompt": "«I don't know» es…",
-          "options": ["No sé", "No entiendo", "No quiero", "No puedo"],
+          "options": [
+            "No sé",
+            "No entiendo",
+            "No quiero",
+            "No puedo"
+          ],
           "answer": 0,
-          "pair": { "es": "No sé", "t": "I don't know" }
+          "pair": {
+            "es": "No sé",
+            "t": "I don't know"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Pararse",
+          "t": "Stand"
+        },
+        {
+          "es": "De nada",
+          "t": "You are welcome"
+        },
+        {
+          "es": "El pato",
+          "t": "The duck"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pararse»?",
+          "options": [
+            "stand",
+            "you are welcome",
+            "the duck",
+            "first"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pararse",
+            "t": "Stand"
+          }
+        },
+        {
+          "id": "u1l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "You are welcome",
+          "options": [
+            "De nada",
+            "El pato",
+            "Primero"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "De nada",
+            "t": "You are welcome"
+          }
+        },
+        {
+          "id": "u1l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ duck",
+          "options": [
+            "the",
+            "first",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pato",
+            "t": "The duck"
+          }
+        },
+        {
+          "id": "u1l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Primero»",
+          "solution": "First",
+          "distractors": [
+            "the",
+            "almost"
+          ],
+          "pair": {
+            "es": "Primero",
+            "t": "First"
+          }
+        },
+        {
+          "id": "u1l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la naranja»",
+          "solution": "The orange",
+          "accept": [
+            "the orange",
+            "the orange"
+          ],
+          "pair": {
+            "es": "La naranja",
+            "t": "The orange"
+          }
+        },
+        {
+          "id": "u1l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Casi",
+              "t": "Almost"
+            },
+            {
+              "es": "Jueves",
+              "t": "Thursday"
+            },
+            {
+              "es": "El partido",
+              "t": "The match"
+            }
+          ]
+        },
+        {
+          "id": "u1l5e7",
+          "type": "choice",
+          "prompt": "«El hijo» se traduce como...",
+          "options": [
+            "the son",
+            "four",
+            "watch",
+            "few"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El hijo",
+            "t": "The son"
+          }
+        },
+        {
+          "id": "u1l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Four",
+          "options": [
+            "Cuatro",
+            "Mirar/observar",
+            "Pocos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuatro",
+            "t": "Four"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "La planta",
+          "t": "The plant"
+        },
+        {
+          "es": "La mano",
+          "t": "The hand"
+        },
+        {
+          "es": "Decir",
+          "t": "Say"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La planta»?",
+          "options": [
+            "the plant",
+            "the hand",
+            "say",
+            "the price"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La planta",
+            "t": "The plant"
+          }
+        },
+        {
+          "id": "u1l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The hand",
+          "options": [
+            "La mano",
+            "Decir",
+            "El precio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mano",
+            "t": "The hand"
+          }
+        },
+        {
+          "id": "u1l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "say",
+            "the",
+            "sayx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Decir",
+            "t": "Say"
+          }
+        },
+        {
+          "id": "u1l6e4",
+          "type": "build",
+          "prompt": "Traduce: «El precio»",
+          "solution": "The price",
+          "distractors": [
+            "the",
+            "idea"
+          ],
+          "pair": {
+            "es": "El precio",
+            "t": "The price"
+          }
+        },
+        {
+          "id": "u1l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el bosque»",
+          "solution": "The forest",
+          "accept": [
+            "the forest",
+            "the forest"
+          ],
+          "pair": {
+            "es": "El bosque",
+            "t": "The forest"
+          }
+        },
+        {
+          "id": "u1l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Idea",
+              "t": "Idea"
+            },
+            {
+              "es": "Julio",
+              "t": "July"
+            },
+            {
+              "es": "La ballena",
+              "t": "The whale"
+            }
+          ]
+        },
+        {
+          "id": "u1l6e7",
+          "type": "choice",
+          "prompt": "«Propio» se traduce como...",
+          "options": [
+            "own",
+            "the fish (food)",
+            "when",
+            "change"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Propio",
+            "t": "Own"
+          }
+        },
+        {
+          "id": "u1l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The fish (food)",
+          "options": [
+            "El pescado",
+            "Cuándo",
+            "Cambiar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pescado",
+            "t": "The fish (food)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "Cara",
+          "t": "Face"
+        },
+        {
+          "es": "La caja",
+          "t": "The checkout"
+        },
+        {
+          "es": "Noche",
+          "t": "Night"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cara»?",
+          "options": [
+            "face",
+            "the checkout",
+            "night",
+            "the head"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cara",
+            "t": "Face"
+          }
+        },
+        {
+          "id": "u1l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The checkout",
+          "options": [
+            "La caja",
+            "Noche",
+            "La cabeza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La caja",
+            "t": "The checkout"
+          }
+        },
+        {
+          "id": "u1l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "night",
+            "the",
+            "nightx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Noche",
+            "t": "Night"
+          }
+        },
+        {
+          "id": "u1l7e4",
+          "type": "build",
+          "prompt": "Traduce: «La cabeza»",
+          "solution": "The head",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "La cabeza",
+            "t": "The head"
+          }
+        },
+        {
+          "id": "u1l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el examen»",
+          "solution": "The exam",
+          "accept": [
+            "the exam",
+            "the exam"
+          ],
+          "pair": {
+            "es": "El examen",
+            "t": "The exam"
+          }
+        },
+        {
+          "id": "u1l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El sol",
+              "t": "The sun"
+            },
+            {
+              "es": "El niño",
+              "t": "The child"
+            },
+            {
+              "es": "La respuesta",
+              "t": "The answer"
+            }
+          ]
+        },
+        {
+          "id": "u1l7e7",
+          "type": "choice",
+          "prompt": "«Minuto» se traduce como...",
+          "options": [
+            "minute",
+            "the scarf",
+            "the temperature",
+            "I am sorry"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Minuto",
+            "t": "Minute"
+          }
+        },
+        {
+          "id": "u1l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The scarf",
+          "options": [
+            "La bufanda",
+            "La temperatura",
+            "Lo siento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La bufanda",
+            "t": "The scarf"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "La flor",
+          "t": "The flower"
+        },
+        {
+          "es": "El elefante",
+          "t": "The elephant"
+        },
+        {
+          "es": "Mundo",
+          "t": "World"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La flor»?",
+          "options": [
+            "the flower",
+            "the elephant",
+            "world",
+            "the ingredient"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La flor",
+            "t": "The flower"
+          }
+        },
+        {
+          "id": "u1l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The elephant",
+          "options": [
+            "El elefante",
+            "Mundo",
+            "El ingrediente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El elefante",
+            "t": "The elephant"
+          }
+        },
+        {
+          "id": "u1l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "world",
+            "the",
+            "worldx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mundo",
+            "t": "World"
+          }
+        },
+        {
+          "id": "u1l8e4",
+          "type": "build",
+          "prompt": "Traduce: «El ingrediente»",
+          "solution": "The ingredient",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "El ingrediente",
+            "t": "The ingredient"
+          }
+        },
+        {
+          "id": "u1l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la pantalla»",
+          "solution": "The screen",
+          "accept": [
+            "the screen",
+            "the screen"
+          ],
+          "pair": {
+            "es": "La pantalla",
+            "t": "The screen"
+          }
+        },
+        {
+          "id": "u1l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El corazón",
+              "t": "The heart"
+            },
+            {
+              "es": "Liderar",
+              "t": "Lead"
+            },
+            {
+              "es": "Pensar",
+              "t": "Think"
+            }
+          ]
+        },
+        {
+          "id": "u1l8e7",
+          "type": "choice",
+          "prompt": "«Algún/algunos» se traduce como...",
+          "options": [
+            "some",
+            "the movie",
+            "the university",
+            "side"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Algún/algunos",
+            "t": "Some"
+          }
+        },
+        {
+          "id": "u1l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The movie",
+          "options": [
+            "La película",
+            "La universidad",
+            "Lado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La película",
+            "t": "The movie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "El vuelo",
+          "t": "The flight"
+        },
+        {
+          "es": "Chico",
+          "t": "Guy"
+        },
+        {
+          "es": "La cabeza",
+          "t": "The head"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El vuelo»?",
+          "options": [
+            "the flight",
+            "guy",
+            "the head",
+            "four"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El vuelo",
+            "t": "The flight"
+          }
+        },
+        {
+          "id": "u1l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Guy",
+          "options": [
+            "Chico",
+            "La cabeza",
+            "Cuatro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Chico",
+            "t": "Guy"
+          }
+        },
+        {
+          "id": "u1l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ head",
+          "options": [
+            "the",
+            "four",
+            "best"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cabeza",
+            "t": "The head"
+          }
+        },
+        {
+          "id": "u1l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Cuatro»",
+          "solution": "Four",
+          "distractors": [
+            "best",
+            "the"
+          ],
+          "pair": {
+            "es": "Cuatro",
+            "t": "Four"
+          }
+        },
+        {
+          "id": "u1l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mejor»",
+          "solution": "Best",
+          "accept": [
+            "best",
+            "best"
+          ],
+          "pair": {
+            "es": "Mejor",
+            "t": "Best"
+          }
+        },
+        {
+          "id": "u1l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La conversación",
+              "t": "The conversation"
+            },
+            {
+              "es": "El trabajo",
+              "t": "The job"
+            },
+            {
+              "es": "El piso",
+              "t": "The flat"
+            }
+          ]
+        },
+        {
+          "id": "u1l9e7",
+          "type": "choice",
+          "prompt": "«También» se traduce como...",
+          "options": [
+            "also",
+            "on",
+            "the cheese",
+            "the news"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "También",
+            "t": "Also"
+          }
+        },
+        {
+          "id": "u1l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "On",
+          "options": [
+            "En/sobre",
+            "El queso",
+            "Las noticias"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "En/sobre",
+            "t": "On"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u1l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "El primo",
+          "t": "The cousin"
+        },
+        {
+          "es": "El bosque",
+          "t": "The forest"
+        },
+        {
+          "es": "El supermercado",
+          "t": "The supermarket"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u1l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El primo»?",
+          "options": [
+            "the cousin",
+            "the forest",
+            "the supermarket",
+            "consider"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El primo",
+            "t": "The cousin"
+          }
+        },
+        {
+          "id": "u1l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The forest",
+          "options": [
+            "El bosque",
+            "El supermercado",
+            "Considerar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El bosque",
+            "t": "The forest"
+          }
+        },
+        {
+          "id": "u1l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ supermarket",
+          "options": [
+            "the",
+            "consider",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El supermercado",
+            "t": "The supermarket"
+          }
+        },
+        {
+          "id": "u1l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Considerar»",
+          "solution": "Consider",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Considerar",
+            "t": "Consider"
+          }
+        },
+        {
+          "id": "u1l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la solución»",
+          "solution": "The solution",
+          "accept": [
+            "the solution",
+            "the solution"
+          ],
+          "pair": {
+            "es": "La solución",
+            "t": "The solution"
+          }
+        },
+        {
+          "id": "u1l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El problema",
+              "t": "The problem"
+            },
+            {
+              "es": "El director",
+              "t": "The director"
+            },
+            {
+              "es": "Cien",
+              "t": "A hundred"
+            }
+          ]
+        },
+        {
+          "id": "u1l10e7",
+          "type": "choice",
+          "prompt": "«El brazo» se traduce como...",
+          "options": [
+            "the arm",
+            "the finger",
+            "the spring",
+            "the cake"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El brazo",
+            "t": "The arm"
+          }
+        },
+        {
+          "id": "u1l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The finger",
+          "options": [
+            "El dedo",
+            "La primavera",
+            "Pastel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El dedo",
+            "t": "The finger"
+          }
         }
       ]
     }

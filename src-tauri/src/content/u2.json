@@ -1,6 +1,6 @@
 {
   "id": "u2",
-  "title": "Números y tiempo",
+  "title": "Numbers and time",
   "emoji": "🔢",
   "color": "#00B8A9",
   "lessons": [
@@ -13,28 +13,57 @@
         "Fíjate: 3 = three pero 13 = thirteen."
       ],
       "phrases": [
-        { "es": "Tengo veinte años", "t": "I'm twenty years old" },
-        { "es": "Dos cafés, por favor", "t": "Two coffees, please" },
-        { "es": "Hay siete personas", "t": "There are seven people" }
+        {
+          "es": "Tengo veinte años",
+          "t": "I'm twenty years old"
+        },
+        {
+          "es": "Dos cafés, por favor",
+          "t": "Two coffees, please"
+        },
+        {
+          "es": "Hay siete personas",
+          "t": "There are seven people"
+        }
       ],
       "exercises": [
         {
           "id": "u2l1e1",
           "type": "choice",
           "prompt": "¿Cuál es «cinco»?",
-          "options": ["Five", "Four", "Nine", "Fifteen"],
+          "options": [
+            "Five",
+            "Four",
+            "Nine",
+            "Fifteen"
+          ],
           "answer": 0,
-          "pair": { "es": "Cinco", "t": "Five" }
+          "pair": {
+            "es": "Cinco",
+            "t": "Five"
+          }
         },
         {
           "id": "u2l1e2",
           "type": "match",
           "prompt": "Empareja los números",
           "pairs": [
-            { "es": "Uno", "t": "One" },
-            { "es": "Tres", "t": "Three" },
-            { "es": "Siete", "t": "Seven" },
-            { "es": "Diez", "t": "Ten" }
+            {
+              "es": "Uno",
+              "t": "One"
+            },
+            {
+              "es": "Tres",
+              "t": "Three"
+            },
+            {
+              "es": "Siete",
+              "t": "Seven"
+            },
+            {
+              "es": "Diez",
+              "t": "Ten"
+            }
           ]
         },
         {
@@ -42,51 +71,94 @@
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "I have three brothers.",
-          "options": ["Tengo tres hermanos.", "Tengo trece hermanos.", "Tengo dos hermanos."],
+          "options": [
+            "Tengo tres hermanos.",
+            "Tengo trece hermanos.",
+            "Tengo dos hermanos."
+          ],
           "answer": 0,
-          "pair": { "es": "Tengo tres hermanos", "t": "I have three brothers" }
+          "pair": {
+            "es": "Tengo tres hermanos",
+            "t": "I have three brothers"
+          }
         },
         {
           "id": "u2l1e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "There are ___ days in a week.",
-          "options": ["seven", "six", "seventeen"],
-          "answer": 0, "pair": { "es": "Hay siete días en una semana.", "t": "There are seven days in a week." },
+          "options": [
+            "seven",
+            "six",
+            "seventeen"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hay siete días en una semana.",
+            "t": "There are seven days in a week."
+          },
           "explain": "Una semana tiene 7 días: seven."
         },
         {
           "id": "u2l1e5",
           "type": "type",
           "prompt": "Escribe «doce» en inglés",
-          "solution": "twelve",
-          "accept": ["twelve", "12"],
-          "pair": { "es": "Doce", "t": "Twelve" }
+          "solution": "Twelve",
+          "accept": [
+            "twelve",
+            "12"
+          ],
+          "pair": {
+            "es": "Doce",
+            "t": "Twelve"
+          }
         },
         {
           "id": "u2l1e6",
           "type": "build",
           "prompt": "Traduce: «Tengo dos hermanas»",
           "solution": "I have two sisters",
-          "distractors": ["has", "three"],
-          "pair": { "es": "Tengo dos hermanas", "t": "I have two sisters" }
+          "distractors": [
+            "has",
+            "three"
+          ],
+          "pair": {
+            "es": "Tengo dos hermanas",
+            "t": "I have two sisters"
+          }
         },
         {
           "id": "u2l1e7",
           "type": "choice",
           "prompt": "«Eighteen» es…",
-          "options": ["18", "80", "8", "11"],
+          "options": [
+            "18",
+            "80",
+            "8",
+            "11"
+          ],
           "answer": 0,
-          "pair": { "es": "Dieciocho", "t": "Eighteen" },
+          "pair": {
+            "es": "Dieciocho",
+            "t": "Eighteen"
+          },
           "explain": "«-teen» termina en 13–19; «eighty» (terminado en -ty) es 80."
         },
         {
           "id": "u2l1e8",
           "type": "choice",
           "prompt": "Completa la serie: eleven, twelve, ___, fourteen",
-          "options": ["thirteen", "fifteen", "thirty", "forty"],
+          "options": [
+            "thirteen",
+            "fifteen",
+            "thirty",
+            "forty"
+          ],
           "answer": 0,
-          "pair": { "es": "Trece", "t": "Thirteen" }
+          "pair": {
+            "es": "Trece",
+            "t": "Thirteen"
+          }
         }
       ]
     },
@@ -99,43 +171,81 @@
         "«How much is it?» = ¿Cuánto cuesta?"
       ],
       "phrases": [
-        { "es": "¿Cuánto cuesta?", "t": "How much is it?" },
-        { "es": "Son veinte dólares", "t": "It's twenty dollars" },
-        { "es": "Es demasiado caro", "t": "It's too expensive" }
+        {
+          "es": "¿Cuánto cuesta?",
+          "t": "How much is it?"
+        },
+        {
+          "es": "Son veinte dólares",
+          "t": "It's twenty dollars"
+        },
+        {
+          "es": "Es demasiado caro",
+          "t": "It's too expensive"
+        }
       ],
       "exercises": [
         {
           "id": "u2l2e1",
           "type": "choice",
           "prompt": "«Thirty» es…",
-          "options": ["30", "13", "3", "300"],
+          "options": [
+            "30",
+            "13",
+            "3",
+            "300"
+          ],
           "answer": 0,
-          "pair": { "es": "Treinta", "t": "Thirty" }
+          "pair": {
+            "es": "Treinta",
+            "t": "Thirty"
+          }
         },
         {
           "id": "u2l2e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "That's one hundred dollars.",
-          "options": ["Son cien dólares.", "Son mil dólares.", "Son diez dólares."],
+          "options": [
+            "Son cien dólares.",
+            "Son mil dólares.",
+            "Son diez dólares."
+          ],
           "answer": 0,
-          "pair": { "es": "Cien dólares", "t": "One hundred dollars" }
+          "pair": {
+            "es": "Cien dólares",
+            "t": "One hundred dollars"
+          }
         },
         {
           "id": "u2l2e3",
           "type": "type",
           "prompt": "Escribe «cincuenta» en inglés",
-          "solution": "fifty",
-          "accept": ["fifty", "50"],
-          "pair": { "es": "Cincuenta", "t": "Fifty" }
+          "solution": "Fifty",
+          "accept": [
+            "fifty",
+            "50"
+          ],
+          "pair": {
+            "es": "Cincuenta",
+            "t": "Fifty"
+          }
         },
         {
           "id": "u2l2e4",
           "type": "fill",
           "prompt": "Completa la pregunta",
           "sentence": "___ much is it?",
-          "options": ["How", "What", "Who"],
-          "answer": 0, "pair": { "es": "¿Cuánto es?", "t": "How much is it?" },
+          "options": [
+            "How",
+            "What",
+            "Who"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuánto es?",
+            "t": "How much is it?"
+          },
           "explain": "«How much…?» = ¿Cuánto…? (para precios y cantidades)."
         },
         {
@@ -143,34 +253,69 @@
           "type": "build",
           "prompt": "Traduce: «Es veinte dólares»",
           "solution": "It is twenty dollars",
-          "distractors": ["are", "thirty"],
-          "pair": { "es": "Son veinte dólares", "t": "It is twenty dollars" }
+          "distractors": [
+            "are",
+            "thirty"
+          ],
+          "pair": {
+            "es": "Son veinte dólares",
+            "t": "It is twenty dollars"
+          }
         },
         {
           "id": "u2l2e6",
           "type": "choice",
           "prompt": "«One thousand» es…",
-          "options": ["1000", "100", "10000", "10"],
+          "options": [
+            "1000",
+            "100",
+            "10000",
+            "10"
+          ],
           "answer": 0,
-          "pair": { "es": "Mil", "t": "One thousand" }
+          "pair": {
+            "es": "Mil",
+            "t": "One thousand"
+          }
         },
         {
           "id": "u2l2e7",
           "type": "match",
           "prompt": "Empareja los números",
           "pairs": [
-            { "es": "Veinte", "t": "Twenty" },
-            { "es": "Cien", "t": "One hundred" },
-            { "es": "Mil", "t": "One thousand" },
-            { "es": "Noventa", "t": "Ninety" }
+            {
+              "es": "Veinte",
+              "t": "Twenty"
+            },
+            {
+              "es": "Cien",
+              "t": "One hundred"
+            },
+            {
+              "es": "Mil",
+              "t": "One thousand"
+            },
+            {
+              "es": "Noventa",
+              "t": "Ninety"
+            }
           ]
         },
         {
           "id": "u2l2e8",
           "type": "choice",
           "prompt": "¿Cómo se dice «45»?",
-          "options": ["Forty-five", "Fourteen-five", "Four-five", "Fifty-four"],
-          "answer": 0, "pair": { "es": "Cuarenta y cinco", "t": "Forty-five" },
+          "options": [
+            "Forty-five",
+            "Fourteen-five",
+            "Four-five",
+            "Fifty-four"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuarenta y cinco",
+            "t": "Forty-five"
+          },
           "explain": "45 = forty-five. Cuarenta y cinco."
         }
       ]
@@ -184,9 +329,18 @@
         "«Half past seven» = las siete y media. «O'clock» = en punto."
       ],
       "phrases": [
-        { "es": "¿Qué hora es?", "t": "What time is it?" },
-        { "es": "Son las tres en punto", "t": "It's three o'clock" },
-        { "es": "Nos vemos el lunes", "t": "See you on Monday" }
+        {
+          "es": "¿Qué hora es?",
+          "t": "What time is it?"
+        },
+        {
+          "es": "Son las tres en punto",
+          "t": "It's three o'clock"
+        },
+        {
+          "es": "Nos vemos el lunes",
+          "t": "See you on Monday"
+        }
       ],
       "exercises": [
         {
@@ -194,69 +348,131 @@
           "type": "match",
           "prompt": "Empareja los días",
           "pairs": [
-            { "es": "Lunes", "t": "Monday" },
-            { "es": "Miércoles", "t": "Wednesday" },
-            { "es": "Viernes", "t": "Friday" },
-            { "es": "Domingo", "t": "Sunday" }
+            {
+              "es": "Lunes",
+              "t": "Monday"
+            },
+            {
+              "es": "Miércoles",
+              "t": "Wednesday"
+            },
+            {
+              "es": "Viernes",
+              "t": "Friday"
+            },
+            {
+              "es": "Domingo",
+              "t": "Sunday"
+            }
           ]
         },
         {
           "id": "u2l3e2",
           "type": "choice",
           "prompt": "«Thursday» es…",
-          "options": ["jueves", "martes", "sábado", "miércoles"],
+          "options": [
+            "jueves",
+            "martes",
+            "sábado",
+            "miércoles"
+          ],
           "answer": 0,
-          "pair": { "es": "Jueves", "t": "Thursday" }
+          "pair": {
+            "es": "Jueves",
+            "t": "Thursday"
+          }
         },
         {
           "id": "u2l3e3",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "It's half past seven.",
-          "options": ["Son las siete y media.", "Son las seis y media.", "Son las siete menos cuarto."],
+          "options": [
+            "Son las siete y media.",
+            "Son las seis y media.",
+            "Son las siete menos cuarto."
+          ],
           "answer": 0,
-          "pair": { "es": "Las siete y media", "t": "Half past seven" }
+          "pair": {
+            "es": "Las siete y media",
+            "t": "Half past seven"
+          }
         },
         {
           "id": "u2l3e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "See you ___ Monday!",
-          "options": ["on", "in", "at"],
-          "answer": 0, "pair": { "es": "¡Nos vemos el lunes!", "t": "See you on Monday!" },
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Nos vemos el lunes!",
+            "t": "See you on Monday!"
+          },
           "explain": "Con días de la semana se usa «on»: on Monday."
         },
         {
           "id": "u2l3e5",
           "type": "type",
           "prompt": "Escribe «hoy» en inglés",
-          "solution": "today",
-          "accept": ["today"],
-          "pair": { "es": "Hoy", "t": "Today" }
+          "solution": "Today",
+          "accept": [
+            "today"
+          ],
+          "pair": {
+            "es": "Hoy",
+            "t": "Today"
+          }
         },
         {
           "id": "u2l3e6",
           "type": "build",
           "prompt": "Traduce: «¿Qué hora es?»",
           "solution": "What time is it",
-          "distractors": ["hour", "now"],
-          "pair": { "es": "¿Qué hora es?", "t": "What time is it?" }
+          "distractors": [
+            "hour",
+            "now"
+          ],
+          "pair": {
+            "es": "¿Qué hora es?",
+            "t": "What time is it?"
+          }
         },
         {
           "id": "u2l3e7",
           "type": "choice",
           "prompt": "«In the morning» significa…",
-          "options": ["Por la mañana", "Por la tarde", "Por la noche", "Al mediodía"],
+          "options": [
+            "Por la mañana",
+            "Por la tarde",
+            "Por la noche",
+            "Al mediodía"
+          ],
           "answer": 0,
-          "pair": { "es": "Por la mañana", "t": "In the morning" }
+          "pair": {
+            "es": "Por la mañana",
+            "t": "In the morning"
+          }
         },
         {
           "id": "u2l3e8",
           "type": "choice",
           "prompt": "«Tomorrow» y «yesterday» son…",
-          "options": ["mañana y ayer", "ayer y mañana", "hoy y ayer", "mañana y ahora"],
+          "options": [
+            "mañana y ayer",
+            "ayer y mañana",
+            "hoy y ayer",
+            "mañana y ahora"
+          ],
           "answer": 0,
-          "pair": { "es": "Mañana", "t": "Tomorrow" }
+          "pair": {
+            "es": "Mañana",
+            "t": "Tomorrow"
+          }
         }
       ]
     },
@@ -269,26 +485,51 @@
         "«Let's meet at five» = Quedamos a las cinco."
       ],
       "phrases": [
-        { "es": "¿Tienes tiempo mañana?", "t": "Do you have time tomorrow?" },
-        { "es": "Estoy ocupado ahora", "t": "I'm busy right now" },
-        { "es": "Quedamos a las cinco", "t": "Let's meet at five" }
+        {
+          "es": "¿Tienes tiempo mañana?",
+          "t": "Do you have time tomorrow?"
+        },
+        {
+          "es": "Estoy ocupado ahora",
+          "t": "I'm busy right now"
+        },
+        {
+          "es": "Quedamos a las cinco",
+          "t": "Let's meet at five"
+        }
       ],
       "exercises": [
         {
           "id": "u2l4e1",
           "type": "choice",
           "prompt": "¿Cómo se dice «la semana que viene»?",
-          "options": ["Next week", "Last week", "This week", "Tomorrow week"],
+          "options": [
+            "Next week",
+            "Last week",
+            "This week",
+            "Tomorrow week"
+          ],
           "answer": 0,
-          "pair": { "es": "La semana que viene", "t": "Next week" }
+          "pair": {
+            "es": "La semana que viene",
+            "t": "Next week"
+          }
         },
         {
           "id": "u2l4e2",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I'm ___ right now.",
-          "options": ["busy", "occupied", "working"],
-          "answer": 0, "pair": { "es": "Ahora mismo estoy ocupado.", "t": "I'm busy right now." },
+          "options": [
+            "busy",
+            "occupied",
+            "working"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ahora mismo estoy ocupado.",
+            "t": "I'm busy right now."
+          },
           "explain": "«Busy» = ocupado. Es la forma natural en inglés."
         },
         {
@@ -296,25 +537,43 @@
           "type": "build",
           "prompt": "Traduce: «Quedamos a las cinco»",
           "solution": "Let's meet at five",
-          "distractors": ["in", "to"],
-          "pair": { "es": "Quedamos a las cinco", "t": "Let's meet at five" }
+          "distractors": [
+            "in",
+            "to"
+          ],
+          "pair": {
+            "es": "Quedamos a las cinco",
+            "t": "Let's meet at five"
+          }
         },
         {
           "id": "u2l4e4",
           "type": "type",
           "prompt": "Escribe en inglés: «mañana» (el día siguiente)",
-          "solution": "tomorrow",
-          "accept": ["tomorrow"],
-          "pair": { "es": "Mañana", "t": "Tomorrow" }
+          "solution": "Tomorrow",
+          "accept": [
+            "tomorrow"
+          ],
+          "pair": {
+            "es": "Mañana",
+            "t": "Tomorrow"
+          }
         },
         {
           "id": "u2l4e5",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "Sorry, I'm busy today.",
-          "options": ["Lo siento, hoy estoy ocupado.", "Lo siento, hoy no puedo.", "Perdona, estoy cansado."],
+          "options": [
+            "Lo siento, hoy estoy ocupado.",
+            "Lo siento, hoy no puedo.",
+            "Perdona, estoy cansado."
+          ],
           "answer": 0,
-          "pair": { "es": "Hoy estoy ocupado", "t": "I'm busy today" }
+          "pair": {
+            "es": "Hoy estoy ocupado",
+            "t": "I'm busy today"
+          }
         },
         {
           "id": "u2l4e6",
@@ -326,17 +585,33 @@
             "¿Trabajas el viernes?",
             "¿Vienes el viernes?"
           ],
-          "answer": 0, "pair": { "es": "¿Tienes tiempo el viernes?", "t": "Do you have time on Friday?" }
+          "answer": 0,
+          "pair": {
+            "es": "¿Tienes tiempo el viernes?",
+            "t": "Do you have time on Friday?"
+          }
         },
         {
           "id": "u2l4e7",
           "type": "match",
           "prompt": "Empareja las palabras de tiempo",
           "pairs": [
-            { "es": "Hoy", "t": "Today" },
-            { "es": "Mañana", "t": "Tomorrow" },
-            { "es": "Ayer", "t": "Yesterday" },
-            { "es": "Ahora", "t": "Now" }
+            {
+              "es": "Hoy",
+              "t": "Today"
+            },
+            {
+              "es": "Mañana",
+              "t": "Tomorrow"
+            },
+            {
+              "es": "Ayer",
+              "t": "Yesterday"
+            },
+            {
+              "es": "Ahora",
+              "t": "Now"
+            }
           ]
         },
         {
@@ -344,9 +619,923 @@
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "Let's meet ___ six.",
-          "options": ["at", "on", "in"],
-          "answer": 0, "pair": { "es": "Quedamos a las seis.", "t": "Let's meet at six." },
+          "options": [
+            "at",
+            "on",
+            "in"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quedamos a las seis.",
+            "t": "Let's meet at six."
+          },
           "explain": "Con horas se usa «at»: at six (a las seis)."
+        }
+      ]
+    },
+    {
+      "id": "u2l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Ocho",
+          "t": "Eight"
+        },
+        {
+          "es": "Las llaves",
+          "t": "The keys"
+        },
+        {
+          "es": "Arriba",
+          "t": "Up"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Ocho»?",
+          "options": [
+            "eight",
+            "the keys",
+            "up",
+            "win"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ocho",
+            "t": "Eight"
+          }
+        },
+        {
+          "id": "u2l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The keys",
+          "options": [
+            "Las llaves",
+            "Arriba",
+            "Ganar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las llaves",
+            "t": "The keys"
+          }
+        },
+        {
+          "id": "u2l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "up",
+            "win",
+            "cheap"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Arriba",
+            "t": "Up"
+          }
+        },
+        {
+          "id": "u2l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Ganar»",
+          "solution": "Win",
+          "distractors": [
+            "cheap",
+            "the"
+          ],
+          "pair": {
+            "es": "Ganar",
+            "t": "Win"
+          }
+        },
+        {
+          "id": "u2l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «barato»",
+          "solution": "Cheap",
+          "accept": [
+            "cheap",
+            "cheap"
+          ],
+          "pair": {
+            "es": "Barato",
+            "t": "Cheap"
+          }
+        },
+        {
+          "id": "u2l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El vuelo",
+              "t": "The flight"
+            },
+            {
+              "es": "La boda",
+              "t": "The wedding"
+            },
+            {
+              "es": "Diciembre",
+              "t": "December"
+            }
+          ]
+        },
+        {
+          "id": "u2l5e7",
+          "type": "choice",
+          "prompt": "«Caliente» se traduce como...",
+          "options": [
+            "hot",
+            "to grill",
+            "and",
+            "the summer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caliente",
+            "t": "Hot"
+          }
+        },
+        {
+          "id": "u2l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To grill",
+          "options": [
+            "Asar a la parrilla",
+            "Y",
+            "El verano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Asar a la parrilla",
+            "t": "To grill"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u2l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Amarillo",
+          "t": "Yellow"
+        },
+        {
+          "es": "El cliente",
+          "t": "The customer"
+        },
+        {
+          "es": "Perder",
+          "t": "To lose"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Amarillo»?",
+          "options": [
+            "yellow",
+            "the customer",
+            "to lose",
+            "consider"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amarillo",
+            "t": "Yellow"
+          }
+        },
+        {
+          "id": "u2l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The customer",
+          "options": [
+            "El cliente",
+            "Perder",
+            "Considerar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cliente",
+            "t": "The customer"
+          }
+        },
+        {
+          "id": "u2l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ lose",
+          "options": [
+            "to",
+            "consider",
+            "idea"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Perder",
+            "t": "To lose"
+          }
+        },
+        {
+          "id": "u2l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Considerar»",
+          "solution": "Consider",
+          "distractors": [
+            "idea",
+            "the"
+          ],
+          "pair": {
+            "es": "Considerar",
+            "t": "Consider"
+          }
+        },
+        {
+          "id": "u2l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «idea»",
+          "solution": "Idea",
+          "accept": [
+            "idea",
+            "idea"
+          ],
+          "pair": {
+            "es": "Idea",
+            "t": "Idea"
+          }
+        },
+        {
+          "id": "u2l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La estrella",
+              "t": "The star"
+            },
+            {
+              "es": "El teléfono",
+              "t": "The phone"
+            },
+            {
+              "es": "Gris",
+              "t": "Grey"
+            }
+          ]
+        },
+        {
+          "id": "u2l6e7",
+          "type": "choice",
+          "prompt": "«El tío» se traduce como...",
+          "options": [
+            "the uncle",
+            "to chat",
+            "the grape",
+            "the fish"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tío",
+            "t": "The uncle"
+          }
+        },
+        {
+          "id": "u2l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To chat",
+          "options": [
+            "Charlar",
+            "La uva",
+            "El pez"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Charlar",
+            "t": "To chat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u2l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "El recuerdo",
+          "t": "The memory"
+        },
+        {
+          "es": "Entero",
+          "t": "Whole"
+        },
+        {
+          "es": "Ser/estar",
+          "t": "Be"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El recuerdo»?",
+          "options": [
+            "the memory",
+            "whole",
+            "be",
+            "difficult"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El recuerdo",
+            "t": "The memory"
+          }
+        },
+        {
+          "id": "u2l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Whole",
+          "options": [
+            "Entero",
+            "Ser/estar",
+            "Difícil"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entero",
+            "t": "Whole"
+          }
+        },
+        {
+          "id": "u2l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "be",
+            "difficult",
+            "eye"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ser/estar",
+            "t": "Be"
+          }
+        },
+        {
+          "id": "u2l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Difícil»",
+          "solution": "Difficult",
+          "distractors": [
+            "eye",
+            "the"
+          ],
+          "pair": {
+            "es": "Difícil",
+            "t": "Difficult"
+          }
+        },
+        {
+          "id": "u2l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ojo»",
+          "solution": "Eye",
+          "accept": [
+            "eye",
+            "eye"
+          ],
+          "pair": {
+            "es": "Ojo",
+            "t": "Eye"
+          }
+        },
+        {
+          "id": "u2l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La rodilla",
+              "t": "The knee"
+            },
+            {
+              "es": "La pareja",
+              "t": "The couple"
+            },
+            {
+              "es": "Caminar",
+              "t": "To walk"
+            }
+          ]
+        },
+        {
+          "id": "u2l7e7",
+          "type": "choice",
+          "prompt": "«Por supuesto» se traduce como...",
+          "options": [
+            "of course",
+            "we",
+            "tall",
+            "the roundabout"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por supuesto",
+            "t": "Of course"
+          }
+        },
+        {
+          "id": "u2l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "We",
+          "options": [
+            "Nosotros",
+            "Alto",
+            "La rotonda"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nosotros",
+            "t": "We"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u2l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El trabajo (tarea)",
+          "t": "The work"
+        },
+        {
+          "es": "La verdad",
+          "t": "The truth"
+        },
+        {
+          "es": "Malo",
+          "t": "Bad"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El trabajo (tarea)»?",
+          "options": [
+            "the work",
+            "the truth",
+            "bad",
+            "game"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El trabajo (tarea)",
+            "t": "The work"
+          }
+        },
+        {
+          "id": "u2l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The truth",
+          "options": [
+            "La verdad",
+            "Malo",
+            "Juego"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La verdad",
+            "t": "The truth"
+          }
+        },
+        {
+          "id": "u2l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "bad",
+            "game",
+            "week"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Malo",
+            "t": "Bad"
+          }
+        },
+        {
+          "id": "u2l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Juego»",
+          "solution": "Game",
+          "distractors": [
+            "week",
+            "the"
+          ],
+          "pair": {
+            "es": "Juego",
+            "t": "Game"
+          }
+        },
+        {
+          "id": "u2l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «semana»",
+          "solution": "Week",
+          "accept": [
+            "week",
+            "week"
+          ],
+          "pair": {
+            "es": "Semana",
+            "t": "Week"
+          }
+        },
+        {
+          "id": "u2l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La invitación",
+              "t": "The invitation"
+            },
+            {
+              "es": "Solo/justo",
+              "t": "Just"
+            },
+            {
+              "es": "Vender",
+              "t": "To sell"
+            }
+          ]
+        },
+        {
+          "id": "u2l8e7",
+          "type": "choice",
+          "prompt": "«Generoso» se traduce como...",
+          "options": [
+            "generous",
+            "the gift",
+            "some",
+            "the t-shirt"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Generoso",
+            "t": "Generous"
+          }
+        },
+        {
+          "id": "u2l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The gift",
+          "options": [
+            "El regalo",
+            "Algún/algunos",
+            "La camiseta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El regalo",
+            "t": "The gift"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u2l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "Dormir",
+          "t": "To sleep"
+        },
+        {
+          "es": "Generoso",
+          "t": "Generous"
+        },
+        {
+          "es": "La camiseta",
+          "t": "The t-shirt"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Dormir»?",
+          "options": [
+            "to sleep",
+            "generous",
+            "the t-shirt",
+            "company"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dormir",
+            "t": "To sleep"
+          }
+        },
+        {
+          "id": "u2l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Generous",
+          "options": [
+            "Generoso",
+            "La camiseta",
+            "Empresa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Generoso",
+            "t": "Generous"
+          }
+        },
+        {
+          "id": "u2l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ t-shirt",
+          "options": [
+            "the",
+            "company",
+            "force"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La camiseta",
+            "t": "The t-shirt"
+          }
+        },
+        {
+          "id": "u2l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Empresa»",
+          "solution": "Company",
+          "distractors": [
+            "force",
+            "the"
+          ],
+          "pair": {
+            "es": "Empresa",
+            "t": "Company"
+          }
+        },
+        {
+          "id": "u2l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «fuerza»",
+          "solution": "Force",
+          "accept": [
+            "force",
+            "force"
+          ],
+          "pair": {
+            "es": "Fuerza",
+            "t": "Force"
+          }
+        },
+        {
+          "id": "u2l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El cielo",
+              "t": "The sky"
+            },
+            {
+              "es": "La gasolinera",
+              "t": "The petrol station"
+            },
+            {
+              "es": "Casi seguro",
+              "t": "Almost sure"
+            }
+          ]
+        },
+        {
+          "id": "u2l9e7",
+          "type": "choice",
+          "prompt": "«Mejor» se traduce como...",
+          "options": [
+            "best",
+            "afraid",
+            "the internet",
+            "the sale"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mejor",
+            "t": "Best"
+          }
+        },
+        {
+          "id": "u2l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Afraid",
+          "options": [
+            "Con miedo",
+            "Internet",
+            "La rebaja"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Con miedo",
+            "t": "Afraid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u2l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "El grupo",
+          "t": "The band"
+        },
+        {
+          "es": "Tranquilo",
+          "t": "Calm"
+        },
+        {
+          "es": "El silencio",
+          "t": "The silence"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u2l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El grupo»?",
+          "options": [
+            "the band",
+            "calm",
+            "the silence",
+            "the novel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El grupo",
+            "t": "The band"
+          }
+        },
+        {
+          "id": "u2l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Calm",
+          "options": [
+            "Tranquilo",
+            "El silencio",
+            "La novela"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tranquilo",
+            "t": "Calm"
+          }
+        },
+        {
+          "id": "u2l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ silence",
+          "options": [
+            "the",
+            "running",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El silencio",
+            "t": "The silence"
+          }
+        },
+        {
+          "id": "u2l10e4",
+          "type": "build",
+          "prompt": "Traduce: «La novela»",
+          "solution": "The novel",
+          "distractors": [
+            "running",
+            "reason"
+          ],
+          "pair": {
+            "es": "La novela",
+            "t": "The novel"
+          }
+        },
+        {
+          "id": "u2l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el running»",
+          "solution": "Running",
+          "accept": [
+            "running",
+            "running"
+          ],
+          "pair": {
+            "es": "El running",
+            "t": "Running"
+          }
+        },
+        {
+          "id": "u2l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Razón",
+              "t": "Reason"
+            },
+            {
+              "es": "Naranja (color)",
+              "t": "Orange (color)"
+            },
+            {
+              "es": "Barato",
+              "t": "Cheap"
+            }
+          ]
+        },
+        {
+          "id": "u2l10e7",
+          "type": "choice",
+          "prompt": "«La luna» se traduce como...",
+          "options": [
+            "the moon",
+            "hiking",
+            "the person",
+            "mean"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La luna",
+            "t": "The moon"
+          }
+        },
+        {
+          "id": "u2l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Hiking",
+          "options": [
+            "El senderismo",
+            "La persona",
+            "Significar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El senderismo",
+            "t": "Hiking"
+          }
         }
       ]
     }

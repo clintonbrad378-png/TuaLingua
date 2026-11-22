@@ -1,0 +1,1522 @@
+{
+  "id": "p4",
+  "title": "Pessoas e família",
+  "emoji": "👨‍👩‍👧",
+  "color": "#8E6FFF",
+  "lessons": [
+    {
+      "id": "p4l1",
+      "title": "Familia",
+      "goal": "Hablar de familia",
+      "tip": [
+        "«Minha mãe / meu pai».",
+        "Posesivos concuerdan en género."
+      ],
+      "phrases": [
+        {
+          "es": "Mi madre es amable",
+          "t": "Minha mãe é gentil"
+        },
+        {
+          "es": "Tengo dos hermanos",
+          "t": "Tenho dois irmãos"
+        },
+        {
+          "es": "Mi familia es grande",
+          "t": "Minha família é grande"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «mi madre es amable»?",
+          "options": [
+            "Minha mãe é gentil",
+            "Tenho dois irmãos",
+            "Minha família é grande",
+            "Mãe"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mi madre es amable",
+            "t": "Minha mãe é gentil"
+          }
+        },
+        {
+          "id": "p4l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Tenho dois irmãos",
+          "options": [
+            "Tengo dos hermanos",
+            "Mi familia es grande",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo dos hermanos",
+            "t": "Tenho dois irmãos"
+          }
+        },
+        {
+          "id": "p4l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Minha ___ é grande",
+          "options": [
+            "família",
+            "Mãe",
+            "Pai"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mi familia es grande",
+            "t": "Minha família é grande"
+          }
+        },
+        {
+          "id": "p4l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Mi madre es amable»",
+          "solution": "Minha mãe é gentil",
+          "distractors": [
+            "Irmão",
+            "Irmã"
+          ],
+          "pair": {
+            "es": "Mi madre es amable",
+            "t": "Minha mãe é gentil"
+          }
+        },
+        {
+          "id": "p4l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «madre»",
+          "solution": "Mãe",
+          "accept": [
+            "Mãe",
+            "mãe"
+          ],
+          "pair": {
+            "es": "Madre",
+            "t": "Mãe"
+          }
+        },
+        {
+          "id": "p4l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Madre",
+              "t": "Mãe"
+            },
+            {
+              "es": "Padre",
+              "t": "Pai"
+            },
+            {
+              "es": "Hermano",
+              "t": "Irmão"
+            }
+          ]
+        },
+        {
+          "id": "p4l1e7",
+          "type": "choice",
+          "prompt": "«Hermana» se traduce como...",
+          "options": [
+            "Irmã",
+            "Mãe",
+            "Pai",
+            "Irmão"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana",
+            "t": "Irmã"
+          }
+        },
+        {
+          "id": "p4l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Minha mãe é gentil",
+          "options": [
+            "Mi madre es amable",
+            "Tengo dos hermanos",
+            "Mi familia es grande"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mi madre es amable",
+            "t": "Minha mãe é gentil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l2",
+      "title": "Amigos",
+      "goal": "Hablar de personas",
+      "tip": [
+        "«Este é meu amigo».",
+        "«Ele/Ela é...»"
+      ],
+      "phrases": [
+        {
+          "es": "Este es mi amigo",
+          "t": "Este é meu amigo"
+        },
+        {
+          "es": "Ella es muy simpática",
+          "t": "Ela é muito simpática"
+        },
+        {
+          "es": "Nos vemos mañana",
+          "t": "Nos vemos amanhã"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «este es mi amigo»?",
+          "options": [
+            "Este é meu amigo",
+            "Ela é muito simpática",
+            "Nos vemos amanhã",
+            "Amigo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este es mi amigo",
+            "t": "Este é meu amigo"
+          }
+        },
+        {
+          "id": "p4l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ela é muito simpática",
+          "options": [
+            "Ella es muy simpática",
+            "Nos vemos mañana",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ella es muy simpática",
+            "t": "Ela é muito simpática"
+          }
+        },
+        {
+          "id": "p4l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Nos ___ amanhã",
+          "options": [
+            "vemos",
+            "Amigo",
+            "Pessoa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nos vemos mañana",
+            "t": "Nos vemos amanhã"
+          }
+        },
+        {
+          "id": "p4l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Este es mi amigo»",
+          "solution": "Este é meu amigo",
+          "distractors": [
+            "Pessoas",
+            "Vizinho"
+          ],
+          "pair": {
+            "es": "Este es mi amigo",
+            "t": "Este é meu amigo"
+          }
+        },
+        {
+          "id": "p4l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «amigo»",
+          "solution": "Amigo",
+          "accept": [
+            "Amigo",
+            "amigo"
+          ],
+          "pair": {
+            "es": "Amigo",
+            "t": "Amigo"
+          }
+        },
+        {
+          "id": "p4l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Amigo",
+              "t": "Amigo"
+            },
+            {
+              "es": "Persona",
+              "t": "Pessoa"
+            },
+            {
+              "es": "Gente",
+              "t": "Pessoas"
+            }
+          ]
+        },
+        {
+          "id": "p4l2e7",
+          "type": "choice",
+          "prompt": "«Vecino» se traduce como...",
+          "options": [
+            "Vizinho",
+            "Amigo",
+            "Pessoa",
+            "Pessoas"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vecino",
+            "t": "Vizinho"
+          }
+        },
+        {
+          "id": "p4l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Este é meu amigo",
+          "options": [
+            "Este es mi amigo",
+            "Ella es muy simpática",
+            "Nos vemos mañana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este es mi amigo",
+            "t": "Este é meu amigo"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l3",
+      "title": "Descripciones",
+      "goal": "Describir personas",
+      "tip": [
+        "Adjetivos: alto, baixo, jovem.",
+        "«Ele/Ela é...»"
+      ],
+      "phrases": [
+        {
+          "es": "Él es alto",
+          "t": "Ele é alto"
+        },
+        {
+          "es": "Ella es joven",
+          "t": "Ela é jovem"
+        },
+        {
+          "es": "Es muy amable",
+          "t": "Ele é muito gentil"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «él es alto»?",
+          "options": [
+            "Ele é alto",
+            "Ela é jovem",
+            "Ele é muito gentil",
+            "Alto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Él es alto",
+            "t": "Ele é alto"
+          }
+        },
+        {
+          "id": "p4l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ela é jovem",
+          "options": [
+            "Ella es joven",
+            "Es muy amable",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ella es joven",
+            "t": "Ela é jovem"
+          }
+        },
+        {
+          "id": "p4l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ele ___ muito gentil",
+          "options": [
+            "é",
+            "Alto",
+            "Pequeno"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es muy amable",
+            "t": "Ele é muito gentil"
+          }
+        },
+        {
+          "id": "p4l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Él es alto»",
+          "solution": "Ele é alto",
+          "distractors": [
+            "Jovem",
+            "Gentil"
+          ],
+          "pair": {
+            "es": "Él es alto",
+            "t": "Ele é alto"
+          }
+        },
+        {
+          "id": "p4l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «alto»",
+          "solution": "Alto",
+          "accept": [
+            "Alto",
+            "alto"
+          ],
+          "pair": {
+            "es": "Alto",
+            "t": "Alto"
+          }
+        },
+        {
+          "id": "p4l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Alto",
+              "t": "Alto"
+            },
+            {
+              "es": "Pequeño",
+              "t": "Pequeno"
+            },
+            {
+              "es": "Joven",
+              "t": "Jovem"
+            }
+          ]
+        },
+        {
+          "id": "p4l3e7",
+          "type": "choice",
+          "prompt": "«Amable» se traduce como...",
+          "options": [
+            "Gentil",
+            "Alto",
+            "Pequeno",
+            "Jovem"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amable",
+            "t": "Gentil"
+          }
+        },
+        {
+          "id": "p4l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ele é alto",
+          "options": [
+            "Él es alto",
+            "Ella es joven",
+            "Es muy amable"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Él es alto",
+            "t": "Ele é alto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l4",
+      "title": "Sentimientos",
+      "goal": "Expresar emociones",
+      "tip": [
+        "«Estou feliz/triste».",
+        "«Eu me sinto...»"
+      ],
+      "phrases": [
+        {
+          "es": "Estoy feliz",
+          "t": "Estou feliz"
+        },
+        {
+          "es": "Estoy cansado",
+          "t": "Estou cansado"
+        },
+        {
+          "es": "Estoy preocupado",
+          "t": "Estou preocupado"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «estoy feliz»?",
+          "options": [
+            "Estou feliz",
+            "Estou cansado",
+            "Estou preocupado",
+            "Feliz"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy feliz",
+            "t": "Estou feliz"
+          }
+        },
+        {
+          "id": "p4l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Estou cansado",
+          "options": [
+            "Estoy cansado",
+            "Estoy preocupado",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy cansado",
+            "t": "Estou cansado"
+          }
+        },
+        {
+          "id": "p4l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ preocupado",
+          "options": [
+            "Estou",
+            "Feliz",
+            "Triste"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy preocupado",
+            "t": "Estou preocupado"
+          }
+        },
+        {
+          "id": "p4l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Estoy feliz»",
+          "solution": "Estou feliz",
+          "distractors": [
+            "Cansado",
+            "Preocupado"
+          ],
+          "pair": {
+            "es": "Estoy feliz",
+            "t": "Estou feliz"
+          }
+        },
+        {
+          "id": "p4l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «feliz»",
+          "solution": "Feliz",
+          "accept": [
+            "Feliz",
+            "feliz"
+          ],
+          "pair": {
+            "es": "Feliz",
+            "t": "Feliz"
+          }
+        },
+        {
+          "id": "p4l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Feliz",
+              "t": "Feliz"
+            },
+            {
+              "es": "Triste",
+              "t": "Triste"
+            },
+            {
+              "es": "Cansado",
+              "t": "Cansado"
+            }
+          ]
+        },
+        {
+          "id": "p4l4e7",
+          "type": "choice",
+          "prompt": "«Preocupado» se traduce como...",
+          "options": [
+            "Preocupado",
+            "Feliz",
+            "Triste",
+            "Cansado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Preocupado",
+            "t": "Preocupado"
+          }
+        },
+        {
+          "id": "p4l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Estou feliz",
+          "options": [
+            "Estoy feliz",
+            "Estoy cansado",
+            "Estoy preocupado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy feliz",
+            "t": "Estou feliz"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l5",
+      "title": "Palavras extras 1",
+      "goal": "Vocabulário chave",
+      "tip": [
+        "Pratique palavras importantes."
+      ],
+      "phrases": [
+        {
+          "es": "Abrir",
+          "t": "Abrir"
+        },
+        {
+          "es": "Otro",
+          "t": "Outro"
+        },
+        {
+          "es": "Finalmente",
+          "t": "Finalmente"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Abrir»?",
+          "options": [
+            "Abrir",
+            "Outro",
+            "Finalmente",
+            "Seguir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Abrir",
+            "t": "Abrir"
+          }
+        },
+        {
+          "id": "p4l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Outro",
+          "options": [
+            "Otro",
+            "Finalmente",
+            "Seguir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Otro",
+            "t": "Outro"
+          }
+        },
+        {
+          "id": "p4l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Finalmente",
+            "Seguir",
+            "Encher"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Finalmente",
+            "t": "Finalmente"
+          }
+        },
+        {
+          "id": "p4l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Seguir»",
+          "solution": "Seguir",
+          "distractors": [
+            "Encher",
+            "Mar"
+          ],
+          "pair": {
+            "es": "Seguir",
+            "t": "Seguir"
+          }
+        },
+        {
+          "id": "p4l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «llenar»",
+          "solution": "Encher",
+          "accept": [
+            "Encher",
+            "encher"
+          ],
+          "pair": {
+            "es": "Llenar",
+            "t": "Encher"
+          }
+        },
+        {
+          "id": "p4l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mar",
+              "t": "Mar"
+            },
+            {
+              "es": "Ofrecer",
+              "t": "Oferecer"
+            },
+            {
+              "es": "Sediento",
+              "t": "Com sede"
+            }
+          ]
+        },
+        {
+          "id": "p4l5e7",
+          "type": "choice",
+          "prompt": "«Dejar» se traduce como...",
+          "options": [
+            "Deixar",
+            "Café da manhã",
+            "Número",
+            "Na frente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dejar",
+            "t": "Deixar"
+          }
+        },
+        {
+          "id": "p4l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Café da manhã",
+          "options": [
+            "Desayuno",
+            "Número",
+            "Delante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Desayuno",
+            "t": "Café da manhã"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l6",
+      "title": "Frases úteis 2",
+      "goal": "Frases do dia a dia",
+      "tip": [
+        "Fale naturalmente."
+      ],
+      "phrases": [
+        {
+          "es": "Sábado",
+          "t": "Sábado"
+        },
+        {
+          "es": "Limpio",
+          "t": "Limpo"
+        },
+        {
+          "es": "Correo electrónico",
+          "t": "E-mail"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Sábado»?",
+          "options": [
+            "Sábado",
+            "Limpo",
+            "E-mail",
+            "Como vai?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sábado",
+            "t": "Sábado"
+          }
+        },
+        {
+          "id": "p4l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Limpo",
+          "options": [
+            "Limpio",
+            "Correo electrónico",
+            "¿Cómo estás?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Limpio",
+            "t": "Limpo"
+          }
+        },
+        {
+          "id": "p4l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "E-mail",
+            "Como",
+            "Calça"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Correo electrónico",
+            "t": "E-mail"
+          }
+        },
+        {
+          "id": "p4l6e4",
+          "type": "build",
+          "prompt": "Traduce: «¿Cómo estás?»",
+          "solution": "Como vai?",
+          "distractors": [
+            "Calça",
+            "Senha"
+          ],
+          "pair": {
+            "es": "¿Cómo estás?",
+            "t": "Como vai?"
+          }
+        },
+        {
+          "id": "p4l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «pantalones»",
+          "solution": "Calça",
+          "accept": [
+            "Calça",
+            "calça"
+          ],
+          "pair": {
+            "es": "Pantalones",
+            "t": "Calça"
+          }
+        },
+        {
+          "id": "p4l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Contraseña",
+              "t": "Senha"
+            },
+            {
+              "es": "Sucio",
+              "t": "Sujo"
+            },
+            {
+              "es": "Enfermo",
+              "t": "Doente"
+            }
+          ]
+        },
+        {
+          "id": "p4l6e7",
+          "type": "choice",
+          "prompt": "«Cada» se traduce como...",
+          "options": [
+            "Cada",
+            "Problema",
+            "Esporte",
+            "Filho"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cada",
+            "t": "Cada"
+          }
+        },
+        {
+          "id": "p4l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Problema",
+          "options": [
+            "Problema",
+            "Deporte",
+            "Hijo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Problema",
+            "t": "Problema"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l7",
+      "title": "Revisão 3",
+      "goal": "Revisão",
+      "tip": [
+        "Consolide o que aprendeu."
+      ],
+      "phrases": [
+        {
+          "es": "Cocina",
+          "t": "Cozinha"
+        },
+        {
+          "es": "Sentir",
+          "t": "Sentir"
+        },
+        {
+          "es": "Invitar",
+          "t": "Convidar"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cocina»?",
+          "options": [
+            "Cozinha",
+            "Sentir",
+            "Convidar",
+            "Rico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cocina",
+            "t": "Cozinha"
+          }
+        },
+        {
+          "id": "p4l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Sentir",
+          "options": [
+            "Sentir",
+            "Invitar",
+            "Rico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sentir",
+            "t": "Sentir"
+          }
+        },
+        {
+          "id": "p4l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Convidar",
+            "Rico",
+            "Desenhar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Invitar",
+            "t": "Convidar"
+          }
+        },
+        {
+          "id": "p4l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Rico»",
+          "solution": "Rico",
+          "distractors": [
+            "Desenhar",
+            "Teto"
+          ],
+          "pair": {
+            "es": "Rico",
+            "t": "Rico"
+          }
+        },
+        {
+          "id": "p4l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «dibujar»",
+          "solution": "Desenhar",
+          "accept": [
+            "Desenhar",
+            "desenhar"
+          ],
+          "pair": {
+            "es": "Dibujar",
+            "t": "Desenhar"
+          }
+        },
+        {
+          "id": "p4l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Techo",
+              "t": "Teto"
+            },
+            {
+              "es": "Encima",
+              "t": "Acima"
+            },
+            {
+              "es": "Conducir",
+              "t": "Dirigir"
+            }
+          ]
+        },
+        {
+          "id": "p4l7e7",
+          "type": "choice",
+          "prompt": "«Otoño» se traduce como...",
+          "options": [
+            "Outono",
+            "Preparar",
+            "Restaurante",
+            "Hora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Otoño",
+            "t": "Outono"
+          }
+        },
+        {
+          "id": "p4l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Preparar",
+          "options": [
+            "Preparar",
+            "Restaurante",
+            "Hora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Preparar",
+            "t": "Preparar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l8",
+      "title": "Escuta 4",
+      "goal": "Audição",
+      "tip": [
+        "Treine o ouvido."
+      ],
+      "phrases": [
+        {
+          "es": "Venir",
+          "t": "Vir"
+        },
+        {
+          "es": "Encontrar",
+          "t": "Encontrar"
+        },
+        {
+          "es": "Familia",
+          "t": "Família"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Venir»?",
+          "options": [
+            "Vir",
+            "Encontrar",
+            "Família",
+            "Faca"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Venir",
+            "t": "Vir"
+          }
+        },
+        {
+          "id": "p4l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Encontrar",
+          "options": [
+            "Encontrar",
+            "Familia",
+            "Cuchillo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Encontrar",
+            "t": "Encontrar"
+          }
+        },
+        {
+          "id": "p4l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Família",
+            "Faca",
+            "Limpar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Familia",
+            "t": "Família"
+          }
+        },
+        {
+          "id": "p4l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Cuchillo»",
+          "solution": "Faca",
+          "distractors": [
+            "Limpar",
+            "Entregar"
+          ],
+          "pair": {
+            "es": "Cuchillo",
+            "t": "Faca"
+          }
+        },
+        {
+          "id": "p4l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «limpiar»",
+          "solution": "Limpar",
+          "accept": [
+            "Limpar",
+            "limpar"
+          ],
+          "pair": {
+            "es": "Limpiar",
+            "t": "Limpar"
+          }
+        },
+        {
+          "id": "p4l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Entregar",
+              "t": "Entregar"
+            },
+            {
+              "es": "Empezar",
+              "t": "Começar"
+            },
+            {
+              "es": "Muy/Mucho",
+              "t": "Muito"
+            }
+          ]
+        },
+        {
+          "id": "p4l8e7",
+          "type": "choice",
+          "prompt": "«Marzo» se traduce como...",
+          "options": [
+            "Março",
+            "Resposta",
+            "Cada",
+            "Boa noite"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Marzo",
+            "t": "Março"
+          }
+        },
+        {
+          "id": "p4l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Resposta",
+          "options": [
+            "Respuesta",
+            "Cada",
+            "Buenas noches"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Respuesta",
+            "t": "Resposta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l9",
+      "title": "Fala 5",
+      "goal": "Conversação",
+      "tip": [
+        "Ganhe confiança."
+      ],
+      "phrases": [
+        {
+          "es": "Puerta",
+          "t": "Porta"
+        },
+        {
+          "es": "Mes",
+          "t": "Mês"
+        },
+        {
+          "es": "Sediento",
+          "t": "Com sede"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Puerta»?",
+          "options": [
+            "Porta",
+            "Mês",
+            "Com sede",
+            "Explicar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Puerta",
+            "t": "Porta"
+          }
+        },
+        {
+          "id": "p4l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Mês",
+          "options": [
+            "Mes",
+            "Sediento",
+            "Explicar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mes",
+            "t": "Mês"
+          }
+        },
+        {
+          "id": "p4l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ sede",
+          "options": [
+            "Com",
+            "Explicar",
+            "Julho"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sediento",
+            "t": "Com sede"
+          }
+        },
+        {
+          "id": "p4l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Explicar»",
+          "solution": "Explicar",
+          "distractors": [
+            "Julho",
+            "Roupa"
+          ],
+          "pair": {
+            "es": "Explicar",
+            "t": "Explicar"
+          }
+        },
+        {
+          "id": "p4l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «julio»",
+          "solution": "Julho",
+          "accept": [
+            "Julho",
+            "julho"
+          ],
+          "pair": {
+            "es": "Julio",
+            "t": "Julho"
+          }
+        },
+        {
+          "id": "p4l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ropa",
+              "t": "Roupa"
+            },
+            {
+              "es": "Gato",
+              "t": "Gato"
+            },
+            {
+              "es": "No importa",
+              "t": "Não importa"
+            }
+          ]
+        },
+        {
+          "id": "p4l9e7",
+          "type": "choice",
+          "prompt": "«Sal» se traduce como...",
+          "options": [
+            "Sal",
+            "Primavera",
+            "Escritório",
+            "Ônibus"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sal",
+            "t": "Sal"
+          }
+        },
+        {
+          "id": "p4l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Primavera",
+          "options": [
+            "Primavera",
+            "Oficina",
+            "Autobús"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Primavera",
+            "t": "Primavera"
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4l10",
+      "title": "Vida real 6",
+      "goal": "Situações reais",
+      "tip": [
+        "Use a língua em contexto."
+      ],
+      "phrases": [
+        {
+          "es": "Este",
+          "t": "Leste"
+        },
+        {
+          "es": "Caminar",
+          "t": "Caminhar"
+        },
+        {
+          "es": "Dar",
+          "t": "Dar"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "p4l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Este»?",
+          "options": [
+            "Leste",
+            "Caminhar",
+            "Dar",
+            "Junho"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este",
+            "t": "Leste"
+          }
+        },
+        {
+          "id": "p4l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Caminhar",
+          "options": [
+            "Caminar",
+            "Dar",
+            "Junio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caminar",
+            "t": "Caminhar"
+          }
+        },
+        {
+          "id": "p4l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Dar",
+            "Junho",
+            "Médico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dar",
+            "t": "Dar"
+          }
+        },
+        {
+          "id": "p4l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Junio»",
+          "solution": "Junho",
+          "distractors": [
+            "Médico",
+            "Bem"
+          ],
+          "pair": {
+            "es": "Junio",
+            "t": "Junho"
+          }
+        },
+        {
+          "id": "p4l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «médico»",
+          "solution": "Médico",
+          "accept": [
+            "Médico",
+            "médico"
+          ],
+          "pair": {
+            "es": "Médico",
+            "t": "Médico"
+          }
+        },
+        {
+          "id": "p4l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Bien",
+              "t": "Bem"
+            },
+            {
+              "es": "Intentar",
+              "t": "Tentar"
+            },
+            {
+              "es": "Oeste",
+              "t": "Oeste"
+            }
+          ]
+        },
+        {
+          "id": "p4l10e7",
+          "type": "choice",
+          "prompt": "«Esposa» se traduce como...",
+          "options": [
+            "Esposa",
+            "Desculpe",
+            "Tocar",
+            "Escolher"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Esposa",
+            "t": "Esposa"
+          }
+        },
+        {
+          "id": "p4l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Desculpe",
+          "options": [
+            "Disculpe",
+            "Tocar",
+            "Elegir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Disculpe",
+            "t": "Desculpe"
+          }
+        }
+      ]
+    }
+  ]
+}

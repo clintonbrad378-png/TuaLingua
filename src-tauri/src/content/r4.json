@@ -1,673 +1,1579 @@
 {
- "id": "r4",
- "title": "El día a día",
- "emoji": "🗓",
- "color": "#A78BFA",
- "lessons": [
-  {
-   "id": "r4l1",
-   "title": "Mi rutina",
-   "goal": "Cuenta tu día: del desayuno a la noche",
-   "tip": [
-    "«Я пью кофе» tiene el «bebo» dentro de «пью».",
-    "«Ложусь» es «me acuesto»; «встаю», «me levanto»."
-   ],
-   "phrases": [
+  "id": "r4",
+  "title": "Повседневная жизнь",
+  "emoji": "🗓",
+  "color": "#A78BFA",
+  "lessons": [
     {
-     "es": "Me levanto a las siete",
-     "t": "Я встаю в семь"
+      "id": "r4l1",
+      "title": "Mi rutina",
+      "goal": "Cuenta tu día: del desayuno a la noche",
+      "tip": [
+        "«Я пью кофе» tiene el «bebo» dentro de «пью».",
+        "«Ложусь» es «me acuesto»; «встаю», «me levanto»."
+      ],
+      "phrases": [
+        {
+          "es": "Me levanto a las siete",
+          "t": "Я встаю в семь"
+        },
+        {
+          "es": "Bebo café en el desayuno",
+          "t": "Я пью кофе на завтрак"
+        },
+        {
+          "es": "Trabajo por las mañanas",
+          "t": "Утром я работаю"
+        },
+        {
+          "es": "Ceno a las nueve",
+          "t": "Ужинаю в девять"
+        },
+        {
+          "es": "Estudio ruso todos los días",
+          "t": "Я учу русский каждый день"
+        },
+        {
+          "es": "Voy a dormir a las once",
+          "t": "В одиннадцать ложусь спать"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l1e1",
+          "type": "choice",
+          "prompt": "«Я встаю в семь» significa…",
+          "options": [
+            "Me levanto a las siete",
+            "Voy a las siete",
+            "Trabajo a las siete",
+            "Duermo a las siete"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me levanto a las siete",
+            "t": "Я встаю в семь"
+          }
+        },
+        {
+          "id": "r4l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Утром я работаю",
+          "options": [
+            "Trabajo por las mañanas",
+            "Trabajo por las noches",
+            "Mañana trabajaré"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Trabajo por las mañanas",
+            "t": "Утром я работаю"
+          }
+        },
+        {
+          "id": "r4l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Я пью ___ на завтрак.",
+          "options": [
+            "кофе",
+            "работать",
+            "прямо"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bebo café en el desayuno.",
+            "t": "Я пью кофе на завтрак."
+          }
+        },
+        {
+          "id": "r4l1e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «ceno a las nueve»",
+          "solution": "Ужинаю в девять",
+          "accept": [
+            "Ужинаю в девять",
+            "ужинаю в девять"
+          ],
+          "pair": {
+            "es": "Ceno a las nueve",
+            "t": "Ужинаю в девять"
+          }
+        },
+        {
+          "id": "r4l1e5",
+          "type": "build",
+          "prompt": "Traduce: «Me levanto a las siete»",
+          "solution": "Я встаю в семь",
+          "distractors": [
+            "девять",
+            "вечером"
+          ],
+          "pair": {
+            "es": "Me levanto a las siete",
+            "t": "Я встаю в семь"
+          }
+        },
+        {
+          "id": "r4l1e6",
+          "type": "choice",
+          "prompt": "«Я учу русский каждый день» dice que…",
+          "options": [
+            "Estudia ruso cada día",
+            "Enseña ruso a otros",
+            "Odio el ruso",
+            "Aprendió ayer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estudio ruso todos los días",
+            "t": "Я учу русский каждый день"
+          }
+        },
+        {
+          "id": "r4l1e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Me levanto a las siete",
+              "t": "Я встаю в семь"
+            },
+            {
+              "es": "Trabajo por las mañanas",
+              "t": "Утром я работаю"
+            },
+            {
+              "es": "Ceno a las nueve",
+              "t": "Ужинаю в девять"
+            },
+            {
+              "es": "Voy a dormir a las once",
+              "t": "В одиннадцать ложусь спать"
+            }
+          ]
+        },
+        {
+          "id": "r4l1e8",
+          "type": "type",
+          "prompt": "Escribe en ruso: «bebo café en el desayuno»",
+          "solution": "Я пью кофе на завтрак",
+          "accept": [
+            "Я пью кофе на завтрак",
+            "я пью кофе на завтрак"
+          ],
+          "pair": {
+            "es": "Bebo café en el desayuno",
+            "t": "Я пью кофе на завтрак"
+          }
+        }
+      ]
     },
     {
-     "es": "Bebo café en el desayuno",
-     "t": "Я пью кофе на завтрак"
+      "id": "r4l2",
+      "title": "El clima y la edad",
+      "goal": "Habla del clima y di cuántos años tienes",
+      "tip": [
+        "La edad va con dativo: «мне 25 лет» = «a mí 25 años».",
+        "«Идёт дождь» es literal «va la lluvia»: eso es «está lloviendo»."
+      ],
+      "phrases": [
+        {
+          "es": "¿Qué tiempo hace?",
+          "t": "Какая сегодня погода?"
+        },
+        {
+          "es": "Hace frío",
+          "t": "Холодно"
+        },
+        {
+          "es": "Hace calor",
+          "t": "Жарко"
+        },
+        {
+          "es": "Está lloviendo",
+          "t": "Идёт дождь"
+        },
+        {
+          "es": "Hace sol",
+          "t": "Солнечно"
+        },
+        {
+          "es": "Tengo veinticinco años",
+          "t": "Мне двадцать пять лет"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l2e1",
+          "type": "choice",
+          "prompt": "«Идёт дождь» significa…",
+          "options": [
+            "Está lloviendo",
+            "Está nevando",
+            "Hace sol",
+            "Hace viento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está lloviendo",
+            "t": "Идёт дождь"
+          }
+        },
+        {
+          "id": "r4l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Сегодня холодно",
+          "options": [
+            "Hoy hace frío",
+            "Hoy hace calor",
+            "Hoy llueve"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hoy hace frío",
+            "t": "Сегодня холодно"
+          }
+        },
+        {
+          "id": "r4l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Мне ___ лет.",
+          "options": [
+            "двадцать",
+            "дважды",
+            "работать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo veinte años.",
+            "t": "Мне двадцать лет."
+          },
+          "explain": "La edad va en dativo: «a mí» + número."
+        },
+        {
+          "id": "r4l2e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «hace sol»",
+          "solution": "Солнечно",
+          "accept": [
+            "Солнечно",
+            "солнечно"
+          ],
+          "pair": {
+            "es": "Hace sol",
+            "t": "Солнечно"
+          }
+        },
+        {
+          "id": "r4l2e5",
+          "type": "build",
+          "prompt": "Traduce: «Está lloviendo»",
+          "solution": "Идёт дождь",
+          "distractors": [
+            "холодно",
+            "ветер"
+          ],
+          "pair": {
+            "es": "Está lloviendo",
+            "t": "Идёт дождь"
+          }
+        },
+        {
+          "id": "r4l2e6",
+          "type": "choice",
+          "prompt": "«Мне двадцать пять лет» significa…",
+          "options": [
+            "Tengo veinticinco años",
+            "Me faltan veinticinco años",
+            "Tendré veinticinco años",
+            "Vivo hace veinticinco años"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo veinticinco años",
+            "t": "Мне двадцать пять лет"
+          }
+        },
+        {
+          "id": "r4l2e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "¿Qué tiempo hace?",
+              "t": "Какая сегодня погода?"
+            },
+            {
+              "es": "Hace frío",
+              "t": "Холодно"
+            },
+            {
+              "es": "Hace calor",
+              "t": "Жарко"
+            },
+            {
+              "es": "Hace sol",
+              "t": "Солнечно"
+            }
+          ]
+        },
+        {
+          "id": "r4l2e8",
+          "type": "type",
+          "prompt": "Escribe en ruso: «está nevando»",
+          "solution": "Идёт снег",
+          "accept": [
+            "Идёт снег",
+            "идёт снег"
+          ],
+          "pair": {
+            "es": "Está nevando",
+            "t": "Идёт снег"
+          }
+        }
+      ]
     },
     {
-     "es": "Trabajo por las mañanas",
-     "t": "Утром я работаю"
+      "id": "r4l3",
+      "title": "Gustos",
+      "goal": "Expresa lo que te gusta y lo que no",
+      "tip": [
+        "«Мне нравится + nominativo» vs «Я люблю + acusativo»: dos caminos para «gustar».",
+        "«Скучно» es «aburrido» (¡y también «me da pereza»!)."
+      ],
+      "phrases": [
+        {
+          "es": "Me gusta este libro",
+          "t": "Мне нравится эта книга"
+        },
+        {
+          "es": "Me encanta la música",
+          "t": "Я обожаю музыку"
+        },
+        {
+          "es": "Es muy interesante",
+          "t": "Это очень интересно"
+        },
+        {
+          "es": "Es aburrido",
+          "t": "Это скучно"
+        },
+        {
+          "es": "Prefiero el cine",
+          "t": "Я предпочитаю кино"
+        },
+        {
+          "es": "No me gusta madrugar",
+          "t": "Мне не нравится рано вставать"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l3e1",
+          "type": "choice",
+          "prompt": "«Мне нравится эта книга» significa…",
+          "options": [
+            "Me gusta este libro",
+            "Este libro es mío",
+            "No tengo este libro",
+            "Debo este libro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta este libro",
+            "t": "Мне нравится эта книга"
+          }
+        },
+        {
+          "id": "r4l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Мне не нравится рано вставать",
+          "options": [
+            "No me gusta madrugar",
+            "Me gusta madrugar",
+            "No me gusta el frío"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No me gusta madrugar",
+            "t": "Мне не нравится рано вставать"
+          }
+        },
+        {
+          "id": "r4l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Я ___ музыку.",
+          "options": [
+            "люблю",
+            "спасибо",
+            "работаю"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me encanta la música.",
+            "t": "Я люблю музыку."
+          }
+        },
+        {
+          "id": "r4l3e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «es aburrido»",
+          "solution": "Это скучно",
+          "accept": [
+            "Это скучно",
+            "это скучно"
+          ],
+          "pair": {
+            "es": "Es aburrido",
+            "t": "Это скучно"
+          }
+        },
+        {
+          "id": "r4l3e5",
+          "type": "build",
+          "prompt": "Traduce: «Prefiero el cine»",
+          "solution": "Я предпочитаю кино",
+          "distractors": [
+            "скучно",
+            "эту"
+          ],
+          "pair": {
+            "es": "Prefiero el cine",
+            "t": "Я предпочитаю кино"
+          }
+        },
+        {
+          "id": "r4l3e6",
+          "type": "choice",
+          "prompt": "«Это скучно» quiere decir…",
+          "options": [
+            "Es aburrido",
+            "Es interesante",
+            "Es importante",
+            "Es complicado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es aburrido",
+            "t": "Это скучно"
+          }
+        },
+        {
+          "id": "r4l3e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Me gusta este libro",
+              "t": "Мне нравится эта книга"
+            },
+            {
+              "es": "Es muy interesante",
+              "t": "Это очень интересно"
+            },
+            {
+              "es": "Es aburrido",
+              "t": "Это скучно"
+            },
+            {
+              "es": "Prefiero el cine",
+              "t": "Я предпочитаю кино"
+            }
+          ]
+        },
+        {
+          "id": "r4l3e8",
+          "type": "type",
+          "prompt": "Escribe en ruso: «me encanta la música»",
+          "solution": "Я обожаю музыку",
+          "accept": [
+            "Я обожаю музыку",
+            "я обожаю музыку"
+          ],
+          "pair": {
+            "es": "Me encanta la música",
+            "t": "Я обожаю музыку"
+          }
+        }
+      ]
     },
     {
-     "es": "Ceno a las nueve",
-     "t": "Ужинаю в девять"
+      "id": "r4l4",
+      "title": "Planes y proyectos",
+      "goal": "Di lo que quieres, debes y podrías hacer",
+      "tip": [
+        "«Мне надо…» = «tengo que…»; «я должен» = «debo».",
+        "«Договорились» cierra el pacto: «trato hecho»."
+      ],
+      "phrases": [
+        {
+          "es": "¿Qué harás mañana?",
+          "t": "Что ты будешь делать завтра?"
+        },
+        {
+          "es": "Quiero ir a Moscú",
+          "t": "Я хочу поехать в Москву"
+        },
+        {
+          "es": "Tengo que trabajar",
+          "t": "Мне надо работать"
+        },
+        {
+          "es": "¿Podrías ayudarme?",
+          "t": "Можешь мне помочь?"
+        },
+        {
+          "es": "Trato hecho",
+          "t": "Договорились"
+        },
+        {
+          "es": "¿Nos vemos el sábado?",
+          "t": "Встретимся в субботу?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l4e1",
+          "type": "choice",
+          "prompt": "«Мне надо работать» significa…",
+          "options": [
+            "Tengo que trabajar",
+            "Quiero trabajar",
+            "Puedo trabajar",
+            "Ya trabajé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo que trabajar",
+            "t": "Мне надо работать"
+          }
+        },
+        {
+          "id": "r4l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Встретимся в субботу?",
+          "options": [
+            "¿Nos vemos el sábado?",
+            "¿Vamos a pasear?",
+            "¿Estás el sábado?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Nos vemos el sábado?",
+            "t": "Встретимся в субботу?"
+          }
+        },
+        {
+          "id": "r4l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Я хочу ___ в Москву.",
+          "options": [
+            "поехать",
+            "давать",
+            "всегда"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero ir a Moscú.",
+            "t": "Я хочу поехать в Москву."
+          }
+        },
+        {
+          "id": "r4l4e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «¿podrías ayudarme?»",
+          "solution": "Можешь мне помочь",
+          "accept": [
+            "Можешь мне помочь",
+            "можешь мне помочь"
+          ],
+          "pair": {
+            "es": "¿Podrías ayudarme?",
+            "t": "Можешь мне помочь"
+          }
+        },
+        {
+          "id": "r4l4e5",
+          "type": "build",
+          "prompt": "Traduce: «Trato hecho»",
+          "solution": "Договорились",
+          "distractors": [
+            "сейчас",
+            "можно"
+          ],
+          "pair": {
+            "es": "Trato hecho",
+            "t": "Договорились"
+          }
+        },
+        {
+          "id": "r4l4e6",
+          "type": "choice",
+          "prompt": "«Что ты будешь делать завтра?» pregunta…",
+          "options": [
+            "Qué harás mañana",
+            "Qué hiciste ayer",
+            "Cuándo empiezas",
+            "A dónde vas hoy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Qué harás mañana?",
+            "t": "Что ты будешь делать завтра?"
+          }
+        },
+        {
+          "id": "r4l4e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Quiero ir a Moscú",
+              "t": "Я хочу поехать в Москву"
+            },
+            {
+              "es": "Tengo que trabajar",
+              "t": "Мне надо работать"
+            },
+            {
+              "es": "¿Podrías ayudarme?",
+              "t": "Можешь мне помочь?"
+            },
+            {
+              "es": "Trato hecho",
+              "t": "Договорились"
+            }
+          ]
+        },
+        {
+          "id": "r4l4e8",
+          "type": "type",
+          "prompt": "Escribe en ruso: «quiero ir a moscú»",
+          "solution": "Я хочу поехать в Москву",
+          "accept": [
+            "Я хочу поехать в Москву",
+            "я хочу поехать в москву"
+          ],
+          "pair": {
+            "es": "Quiero ir a moscú",
+            "t": "Я хочу поехать в Москву"
+          }
+        }
+      ]
     },
     {
-     "es": "Estudio ruso todos los días",
-     "t": "Я учу русский каждый день"
+      "id": "r4l5",
+      "title": "Дополнительные слова 1",
+      "goal": "Ключевые слова",
+      "tip": [
+        "Практикуйте важные слова."
+      ],
+      "phrases": [
+        {
+          "es": "Hola (formal)",
+          "t": "Здравствуйте"
+        },
+        {
+          "es": "Lento",
+          "t": "Медленный"
+        },
+        {
+          "es": "La lámpara",
+          "t": "Лампа"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Hola (formal)»?",
+          "options": [
+            "Здравствуйте",
+            "Медленный",
+            "лампа",
+            "пельмени"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hola (formal)",
+            "t": "Здравствуйте"
+          }
+        },
+        {
+          "id": "r4l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Медленный",
+          "options": [
+            "Lento",
+            "La lámpara",
+            "Los pelmeni"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lento",
+            "t": "Медленный"
+          }
+        },
+        {
+          "id": "r4l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "лампа",
+            "пельмени",
+            "Мочь"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La lámpara",
+            "t": "Лампа"
+          }
+        },
+        {
+          "id": "r4l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Los pelmeni»",
+          "solution": "Пельмени",
+          "distractors": [
+            "Мочь",
+            "Хлеб"
+          ],
+          "pair": {
+            "es": "Los pelmeni",
+            "t": "Пельмени"
+          }
+        },
+        {
+          "id": "r4l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «poder»",
+          "solution": "Мочь",
+          "accept": [
+            "Мочь",
+            "мочь"
+          ],
+          "pair": {
+            "es": "Poder",
+            "t": "Мочь"
+          }
+        },
+        {
+          "id": "r4l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Pan",
+              "t": "Хлеб"
+            },
+            {
+              "es": "Inmediatamente",
+              "t": "Сразу"
+            },
+            {
+              "es": "Pregunta",
+              "t": "Вопрос"
+            }
+          ]
+        },
+        {
+          "id": "r4l5e7",
+          "type": "choice",
+          "prompt": "«Lavar» se traduce como...",
+          "options": [
+            "Мыть",
+            "два",
+            "аккаунт",
+            "почта"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lavar",
+            "t": "Мыть"
+          }
+        },
+        {
+          "id": "r4l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Два",
+          "options": [
+            "Dos",
+            "La cuenta",
+            "El correo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dos",
+            "t": "Два"
+          }
+        }
+      ]
     },
     {
-     "es": "Voy a dormir a las once",
-     "t": "В одиннадцать ложусь спать"
+      "id": "r4l6",
+      "title": "Полезные фразы 2",
+      "goal": "Повседневные фразы",
+      "tip": [
+        "Говорите естественно."
+      ],
+      "phrases": [
+        {
+          "es": "La bicicleta",
+          "t": "Велосипед"
+        },
+        {
+          "es": "Pensar",
+          "t": "Думать"
+        },
+        {
+          "es": "Encontrar",
+          "t": "Находить"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La bicicleta»?",
+          "options": [
+            "велосипед",
+            "думать",
+            "Находить",
+            "Чистить"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La bicicleta",
+            "t": "Велосипед"
+          }
+        },
+        {
+          "id": "r4l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Думать",
+          "options": [
+            "Pensar",
+            "Encontrar",
+            "Limpiar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pensar",
+            "t": "Думать"
+          }
+        },
+        {
+          "id": "r4l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Находить",
+            "Чистить",
+            "успешный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Encontrar",
+            "t": "Находить"
+          }
+        },
+        {
+          "id": "r4l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Limpiar»",
+          "solution": "Чистить",
+          "distractors": [
+            "успешный",
+            "Сколько"
+          ],
+          "pair": {
+            "es": "Limpiar",
+            "t": "Чистить"
+          }
+        },
+        {
+          "id": "r4l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «exitoso»",
+          "solution": "Успешный",
+          "accept": [
+            "успешный",
+            "успешный"
+          ],
+          "pair": {
+            "es": "Exitoso",
+            "t": "Успешный"
+          }
+        },
+        {
+          "id": "r4l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "¿Cuánto cuesta?",
+              "t": "Сколько это стоит?"
+            },
+            {
+              "es": "La sopa",
+              "t": "Суп"
+            },
+            {
+              "es": "La gallina",
+              "t": "Курица"
+            }
+          ]
+        },
+        {
+          "id": "r4l6e7",
+          "type": "choice",
+          "prompt": "«Oír» se traduce como...",
+          "options": [
+            "слышать",
+            "шапка",
+            "жить",
+            "граница"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Oír",
+            "t": "Слышать"
+          }
+        },
+        {
+          "id": "r4l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Шапка",
+          "options": [
+            "El gorro",
+            "Vivir",
+            "La frontera"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El gorro",
+            "t": "Шапка"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r4l7",
+      "title": "Повторение 3",
+      "goal": "Повторение",
+      "tip": [
+        "Закрепите изученное."
+      ],
+      "phrases": [
+        {
+          "es": "Cansado",
+          "t": "Усталый"
+        },
+        {
+          "es": "Nombre",
+          "t": "Имя"
+        },
+        {
+          "es": "La oreja",
+          "t": "Ухо"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cansado»?",
+          "options": [
+            "Усталый",
+            "Имя",
+            "ухо",
+            "мышь"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cansado",
+            "t": "Усталый"
+          }
+        },
+        {
+          "id": "r4l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Имя",
+          "options": [
+            "Nombre",
+            "La oreja",
+            "El ratón (animal)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nombre",
+            "t": "Имя"
+          }
+        },
+        {
+          "id": "r4l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "ухо",
+            "мышь",
+            "помогать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La oreja",
+            "t": "Ухо"
+          }
+        },
+        {
+          "id": "r4l7e4",
+          "type": "build",
+          "prompt": "Traduce: «El ratón (animal)»",
+          "solution": "Мышь",
+          "distractors": [
+            "помогать",
+            "снегопад"
+          ],
+          "pair": {
+            "es": "El ratón (animal)",
+            "t": "Мышь"
+          }
+        },
+        {
+          "id": "r4l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «ayudar»",
+          "solution": "Помогать",
+          "accept": [
+            "помогать",
+            "помогать"
+          ],
+          "pair": {
+            "es": "Ayudar",
+            "t": "Помогать"
+          }
+        },
+        {
+          "id": "r4l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La nevada",
+              "t": "Снегопад"
+            },
+            {
+              "es": "Feliz",
+              "t": "Счастливый"
+            },
+            {
+              "es": "La abuela",
+              "t": "Бабушка"
+            }
+          ]
+        },
+        {
+          "id": "r4l7e7",
+          "type": "choice",
+          "prompt": "«El río» se traduce como...",
+          "options": [
+            "река",
+            "весёлый",
+            "прививка",
+            "аудирование"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El río",
+            "t": "Река"
+          }
+        },
+        {
+          "id": "r4l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Весёлый",
+          "options": [
+            "Alegre",
+            "La vacuna",
+            "La comprensión oral"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Alegre",
+            "t": "Весёлый"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r4l8",
+      "title": "Аудирование 4",
+      "goal": "Слушание",
+      "tip": [
+        "Тренируйте слух."
+      ],
+      "phrases": [
+        {
+          "es": "Cuándo",
+          "t": "Когда"
+        },
+        {
+          "es": "El restaurante",
+          "t": "Ресторан"
+        },
+        {
+          "es": "Agua",
+          "t": "Вода"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cuándo»?",
+          "options": [
+            "Когда",
+            "ресторан",
+            "Вода",
+            "Открытый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuándo",
+            "t": "Когда"
+          }
+        },
+        {
+          "id": "r4l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ресторан",
+          "options": [
+            "El restaurante",
+            "Agua",
+            "Abierto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El restaurante",
+            "t": "Ресторан"
+          }
+        },
+        {
+          "id": "r4l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Вода",
+            "Открытый",
+            "перрон"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Agua",
+            "t": "Вода"
+          }
+        },
+        {
+          "id": "r4l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Abierto»",
+          "solution": "Открытый",
+          "distractors": [
+            "перрон",
+            "Они"
+          ],
+          "pair": {
+            "es": "Abierto",
+            "t": "Открытый"
+          }
+        },
+        {
+          "id": "r4l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el andén»",
+          "solution": "Перрон",
+          "accept": [
+            "перрон",
+            "перрон"
+          ],
+          "pair": {
+            "es": "El andén",
+            "t": "Перрон"
+          }
+        },
+        {
+          "id": "r4l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Ellos",
+              "t": "Они"
+            },
+            {
+              "es": "¿dónde está el baño?",
+              "t": "Где здесь туалет?"
+            },
+            {
+              "es": "Los pelmeni",
+              "t": "Пельмени"
+            }
+          ]
+        },
+        {
+          "id": "r4l8e7",
+          "type": "choice",
+          "prompt": "«El sol» se traduce como...",
+          "options": [
+            "солнце",
+            "каша",
+            "жена",
+            "гречка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El sol",
+            "t": "Солнце"
+          }
+        },
+        {
+          "id": "r4l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Каша",
+          "options": [
+            "Las gachas",
+            "La esposa",
+            "El trigo sarraceno"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las gachas",
+            "t": "Каша"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r4l9",
+      "title": "Говорение 5",
+      "goal": "Разговор",
+      "tip": [
+        "Уверенность в речи."
+      ],
+      "phrases": [
+        {
+          "es": "Pero",
+          "t": "Но"
+        },
+        {
+          "es": "El viaje de trabajo",
+          "t": "Командировка"
+        },
+        {
+          "es": "Frío",
+          "t": "Холодный"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pero»?",
+          "options": [
+            "Но",
+            "командировка",
+            "холодный",
+            "месяц"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pero",
+            "t": "Но"
+          }
+        },
+        {
+          "id": "r4l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Командировка",
+          "options": [
+            "El viaje de trabajo",
+            "Frío",
+            "El mes"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El viaje de trabajo",
+            "t": "Командировка"
+          }
+        },
+        {
+          "id": "r4l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "холодный",
+            "месяц",
+            "пятьдесят"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Frío",
+            "t": "Холодный"
+          }
+        },
+        {
+          "id": "r4l9e4",
+          "type": "build",
+          "prompt": "Traduce: «El mes»",
+          "solution": "Месяц",
+          "distractors": [
+            "пятьдесят",
+            "Наверху"
+          ],
+          "pair": {
+            "es": "El mes",
+            "t": "Месяц"
+          }
+        },
+        {
+          "id": "r4l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cincuenta»",
+          "solution": "Пятьдесят",
+          "accept": [
+            "пятьдесят",
+            "пятьдесят"
+          ],
+          "pair": {
+            "es": "Cincuenta",
+            "t": "Пятьдесят"
+          }
+        },
+        {
+          "id": "r4l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Arriba",
+              "t": "Наверху"
+            },
+            {
+              "es": "El brazo, la mano",
+              "t": "Рука"
+            },
+            {
+              "es": "El verano",
+              "t": "Лето"
+            }
+          ]
+        },
+        {
+          "id": "r4l9e7",
+          "type": "choice",
+          "prompt": "«Nosotros» se traduce como...",
+          "options": [
+            "Мы",
+            "Книга",
+            "ребёнок",
+            "приложение"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nosotros",
+            "t": "Мы"
+          }
+        },
+        {
+          "id": "r4l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Книга",
+          "options": [
+            "Libro",
+            "El niño",
+            "La aplicación"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Libro",
+            "t": "Книга"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r4l10",
+      "title": "Реальные ситуации 6",
+      "goal": "Реальные ситуации",
+      "tip": [
+        "Язык в контексте."
+      ],
+      "phrases": [
+        {
+          "es": "La falda",
+          "t": "Юбка"
+        },
+        {
+          "es": "El pasaporte",
+          "t": "Паспорт"
+        },
+        {
+          "es": "La serpiente",
+          "t": "Змея"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r4l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La falda»?",
+          "options": [
+            "юбка",
+            "паспорт",
+            "змея",
+            "не за горами"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La falda",
+            "t": "Юбка"
+          }
+        },
+        {
+          "id": "r4l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Паспорт",
+          "options": [
+            "El pasaporte",
+            "La serpiente",
+            "A la vuelta de la esquina"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El pasaporte",
+            "t": "Паспорт"
+          }
+        },
+        {
+          "id": "r4l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "змея",
+            "не",
+            "Медленно"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La serpiente",
+            "t": "Змея"
+          }
+        },
+        {
+          "id": "r4l10e4",
+          "type": "build",
+          "prompt": "Traduce: «A la vuelta de la esquina»",
+          "solution": "Не за горами",
+          "distractors": [
+            "Медленно",
+            "добрый"
+          ],
+          "pair": {
+            "es": "A la vuelta de la esquina",
+            "t": "Не за горами"
+          }
+        },
+        {
+          "id": "r4l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «lento»",
+          "solution": "Медленно",
+          "accept": [
+            "Медленно",
+            "медленно"
+          ],
+          "pair": {
+            "es": "Lento",
+            "t": "Медленно"
+          }
+        },
+        {
+          "id": "r4l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Buenas tardes",
+              "t": "Добрый вечер"
+            },
+            {
+              "es": "Aeropuerto",
+              "t": "Аэропорт"
+            },
+            {
+              "es": "La merienda",
+              "t": "Полдник"
+            }
+          ]
+        },
+        {
+          "id": "r4l10e7",
+          "type": "choice",
+          "prompt": "«El autobús» se traduce como...",
+          "options": [
+            "автобус",
+            "Получать",
+            "солнце",
+            "театр"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El autobús",
+            "t": "Автобус"
+          }
+        },
+        {
+          "id": "r4l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Получать",
+          "options": [
+            "Recibir",
+            "El sol",
+            "El teatro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Recibir",
+            "t": "Получать"
+          }
+        }
+      ]
     }
-   ],
-   "exercises": [
-    {
-     "id": "r4l1e1",
-     "type": "choice",
-     "prompt": "«Я встаю в семь» significa…",
-     "options": [
-      "Me levanto a las siete",
-      "Voy a las siete",
-      "Trabajo a las siete",
-      "Duermo a las siete"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Me levanto a las siete",
-      "t": "Я встаю в семь"
-     }
-    },
-    {
-     "id": "r4l1e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Утром я работаю",
-     "options": [
-      "Trabajo por las mañanas",
-      "Trabajo por las noches",
-      "Mañana trabajaré"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Trabajo por las mañanas",
-      "t": "Утром я работаю"
-     }
-    },
-    {
-     "id": "r4l1e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Я пью ___ на завтрак.",
-     "options": [
-      "кофе",
-      "работать",
-      "прямо"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Bebo café en el desayuno.",
-      "t": "Я пью кофе на завтрак."
-     }
-    },
-    {
-     "id": "r4l1e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «ceno a las nueve»",
-     "solution": "Ужинаю в девять",
-     "accept": [
-      "Ужинаю в девять",
-      "ужинаю в девять"
-     ],
-     "pair": {
-      "es": "Ceno a las nueve",
-      "t": "Ужинаю в девять"
-     }
-    },
-    {
-     "id": "r4l1e5",
-     "type": "build",
-     "prompt": "Traduce: «Me levanto a las siete»",
-     "solution": "Я встаю в семь",
-     "distractors": [
-      "девять",
-      "вечером"
-     ],
-     "pair": {
-      "es": "Me levanto a las siete",
-      "t": "Я встаю в семь"
-     }
-    },
-    {
-     "id": "r4l1e6",
-     "type": "choice",
-     "prompt": "«Я учу русский каждый день» dice que…",
-     "options": [
-      "Estudia ruso cada día",
-      "Enseña ruso a otros",
-      "Odio el ruso",
-      "Aprendió ayer"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Estudio ruso todos los días",
-      "t": "Я учу русский каждый день"
-     }
-    },
-    {
-     "id": "r4l1e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Me levanto a las siete",
-       "t": "Я встаю в семь"
-      },
-      {
-       "es": "Trabajo por las mañanas",
-       "t": "Утром я работаю"
-      },
-      {
-       "es": "Ceno a las nueve",
-       "t": "Ужинаю в девять"
-      },
-      {
-       "es": "Voy a dormir a las once",
-       "t": "В одиннадцать ложусь спать"
-      }
-     ]
-    },
-    {
-     "id": "r4l1e8",
-     "type": "type",
-     "prompt": "Escribe en ruso: «bebo café en el desayuno»",
-     "solution": "Я пью кофе на завтрак",
-     "accept": [
-      "Я пью кофе на завтрак",
-      "я пью кофе на завтрак"
-     ],
-     "pair": {
-      "es": "Bebo café en el desayuno",
-      "t": "Я пью кофе на завтрак"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r4l2",
-   "title": "El clima y la edad",
-   "goal": "Habla del clima y di cuántos años tienes",
-   "tip": [
-    "La edad va con dativo: «мне 25 лет» = «a mí 25 años».",
-    "«Идёт дождь» es literal «va la lluvia»: eso es «está lloviendo»."
-   ],
-   "phrases": [
-    {
-     "es": "¿Qué tiempo hace?",
-     "t": "Какая сегодня погода?"
-    },
-    {
-     "es": "Hace frío",
-     "t": "Холодно"
-    },
-    {
-     "es": "Hace calor",
-     "t": "Жарко"
-    },
-    {
-     "es": "Está lloviendo",
-     "t": "Идёт дождь"
-    },
-    {
-     "es": "Hace sol",
-     "t": "Солнечно"
-    },
-    {
-     "es": "Tengo veinticinco años",
-     "t": "Мне двадцать пять лет"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r4l2e1",
-     "type": "choice",
-     "prompt": "«Идёт дождь» significa…",
-     "options": [
-      "Está lloviendo",
-      "Está nevando",
-      "Hace sol",
-      "Hace viento"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Está lloviendo",
-      "t": "Идёт дождь"
-     }
-    },
-    {
-     "id": "r4l2e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Сегодня холодно",
-     "options": [
-      "Hoy hace frío",
-      "Hoy hace calor",
-      "Hoy llueve"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Hoy hace frío",
-      "t": "Сегодня холодно"
-     }
-    },
-    {
-     "id": "r4l2e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Мне ___ лет.",
-     "options": [
-      "двадцать",
-      "дважды",
-      "работать"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo veinte años.",
-      "t": "Мне двадцать лет."
-     },
-     "explain": "La edad va en dativo: «a mí» + número."
-    },
-    {
-     "id": "r4l2e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «hace sol»",
-     "solution": "Солнечно",
-     "accept": [
-      "Солнечно",
-      "солнечно"
-     ],
-     "pair": {
-      "es": "Hace sol",
-      "t": "Солнечно"
-     }
-    },
-    {
-     "id": "r4l2e5",
-     "type": "build",
-     "prompt": "Traduce: «Está lloviendo»",
-     "solution": "Идёт дождь",
-     "distractors": [
-      "холодно",
-      "ветер"
-     ],
-     "pair": {
-      "es": "Está lloviendo",
-      "t": "Идёт дождь"
-     }
-    },
-    {
-     "id": "r4l2e6",
-     "type": "choice",
-     "prompt": "«Мне двадцать пять лет» significa…",
-     "options": [
-      "Tengo veinticinco años",
-      "Me faltan veinticinco años",
-      "Tendré veinticinco años",
-      "Vivo hace veinticinco años"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo veinticinco años",
-      "t": "Мне двадцать пять лет"
-     }
-    },
-    {
-     "id": "r4l2e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "¿Qué tiempo hace?",
-       "t": "Какая сегодня погода?"
-      },
-      {
-       "es": "Hace frío",
-       "t": "Холодно"
-      },
-      {
-       "es": "Hace calor",
-       "t": "Жарко"
-      },
-      {
-       "es": "Hace sol",
-       "t": "Солнечно"
-      }
-     ]
-    },
-    {
-     "id": "r4l2e8",
-     "type": "type",
-     "prompt": "Escribe en ruso: «está nevando»",
-     "solution": "Идёт снег",
-     "accept": [
-      "Идёт снег",
-      "идёт снег"
-     ],
-     "pair": {
-      "es": "Está nevando",
-      "t": "Идёт снег"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r4l3",
-   "title": "Gustos",
-   "goal": "Expresa lo que te gusta y lo que no",
-   "tip": [
-    "«Мне нравится + nominativo» vs «Я люблю + acusativo»: dos caminos para «gustar».",
-    "«Скучно» es «aburrido» (¡y también «me da pereza»!)."
-   ],
-   "phrases": [
-    {
-     "es": "Me gusta este libro",
-     "t": "Мне нравится эта книга"
-    },
-    {
-     "es": "Me encanta la música",
-     "t": "Я обожаю музыку"
-    },
-    {
-     "es": "Es muy interesante",
-     "t": "Это очень интересно"
-    },
-    {
-     "es": "Es aburrido",
-     "t": "Это скучно"
-    },
-    {
-     "es": "Prefiero el cine",
-     "t": "Я предпочитаю кино"
-    },
-    {
-     "es": "No me gusta madrugar",
-     "t": "Мне не нравится рано вставать"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r4l3e1",
-     "type": "choice",
-     "prompt": "«Мне нравится эта книга» significa…",
-     "options": [
-      "Me gusta este libro",
-      "Este libro es mío",
-      "No tengo este libro",
-      "Debo este libro"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Me gusta este libro",
-      "t": "Мне нравится эта книга"
-     }
-    },
-    {
-     "id": "r4l3e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Мне не нравится рано вставать",
-     "options": [
-      "No me gusta madrugar",
-      "Me gusta madrugar",
-      "No me gusta el frío"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "No me gusta madrugar",
-      "t": "Мне не нравится рано вставать"
-     }
-    },
-    {
-     "id": "r4l3e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Я ___ музыку.",
-     "options": [
-      "люблю",
-      "спасибо",
-      "работаю"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Me encanta la música.",
-      "t": "Я люблю музыку."
-     }
-    },
-    {
-     "id": "r4l3e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «es aburrido»",
-     "solution": "Это скучно",
-     "accept": [
-      "Это скучно",
-      "это скучно"
-     ],
-     "pair": {
-      "es": "Es aburrido",
-      "t": "Это скучно"
-     }
-    },
-    {
-     "id": "r4l3e5",
-     "type": "build",
-     "prompt": "Traduce: «Prefiero el cine»",
-     "solution": "Я предпочитаю кино",
-     "distractors": [
-      "скучно",
-      "эту"
-     ],
-     "pair": {
-      "es": "Prefiero el cine",
-      "t": "Я предпочитаю кино"
-     }
-    },
-    {
-     "id": "r4l3e6",
-     "type": "choice",
-     "prompt": "«Это скучно» quiere decir…",
-     "options": [
-      "Es aburrido",
-      "Es interesante",
-      "Es importante",
-      "Es complicado"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Es aburrido",
-      "t": "Это скучно"
-     }
-    },
-    {
-     "id": "r4l3e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Me gusta este libro",
-       "t": "Мне нравится эта книга"
-      },
-      {
-       "es": "Es muy interesante",
-       "t": "Это очень интересно"
-      },
-      {
-       "es": "Es aburrido",
-       "t": "Это скучно"
-      },
-      {
-       "es": "Prefiero el cine",
-       "t": "Я предпочитаю кино"
-      }
-     ]
-    },
-    {
-     "id": "r4l3e8",
-     "type": "type",
-     "prompt": "Escribe en ruso: «me encanta la música»",
-     "solution": "Я обожаю музыку",
-     "accept": [
-      "Я обожаю музыку",
-      "я обожаю музыку"
-     ],
-     "pair": {
-      "es": "Me encanta la música",
-      "t": "Я обожаю музыку"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r4l4",
-   "title": "Planes y proyectos",
-   "goal": "Di lo que quieres, debes y podrías hacer",
-   "tip": [
-    "«Мне надо…» = «tengo que…»; «я должен» = «debo».",
-    "«Договорились» cierra el pacto: «trato hecho»."
-   ],
-   "phrases": [
-    {
-     "es": "¿Qué harás mañana?",
-     "t": "Что ты будешь делать завтра?"
-    },
-    {
-     "es": "Quiero ir a Moscú",
-     "t": "Я хочу поехать в Москву"
-    },
-    {
-     "es": "Tengo que trabajar",
-     "t": "Мне надо работать"
-    },
-    {
-     "es": "¿Podrías ayudarme?",
-     "t": "Можешь мне помочь?"
-    },
-    {
-     "es": "Trato hecho",
-     "t": "Договорились"
-    },
-    {
-     "es": "¿Nos vemos el sábado?",
-     "t": "Встретимся в субботу?"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r4l4e1",
-     "type": "choice",
-     "prompt": "«Мне надо работать» significa…",
-     "options": [
-      "Tengo que trabajar",
-      "Quiero trabajar",
-      "Puedo trabajar",
-      "Ya trabajé"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo que trabajar",
-      "t": "Мне надо работать"
-     }
-    },
-    {
-     "id": "r4l4e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Встретимся в субботу?",
-     "options": [
-      "¿Nos vemos el sábado?",
-      "¿Vamos a pasear?",
-      "¿Estás el sábado?"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "¿Nos vemos el sábado?",
-      "t": "Встретимся в субботу?"
-     }
-    },
-    {
-     "id": "r4l4e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Я хочу ___ в Москву.",
-     "options": [
-      "поехать",
-      "давать",
-      "всегда"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Quiero ir a Moscú.",
-      "t": "Я хочу поехать в Москву."
-     }
-    },
-    {
-     "id": "r4l4e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «¿podrías ayudarme?»",
-     "solution": "Можешь мне помочь",
-     "accept": [
-      "Можешь мне помочь",
-      "можешь мне помочь"
-     ],
-     "pair": {
-      "es": "¿Podrías ayudarme?",
-      "t": "Можешь мне помочь"
-     }
-    },
-    {
-     "id": "r4l4e5",
-     "type": "build",
-     "prompt": "Traduce: «Trato hecho»",
-     "solution": "Договорились",
-     "distractors": [
-      "сейчас",
-      "можно"
-     ],
-     "pair": {
-      "es": "Trato hecho",
-      "t": "Договорились"
-     }
-    },
-    {
-     "id": "r4l4e6",
-     "type": "choice",
-     "prompt": "«Что ты будешь делать завтра?» pregunta…",
-     "options": [
-      "Qué harás mañana",
-      "Qué hiciste ayer",
-      "Cuándo empiezas",
-      "A dónde vas hoy"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "¿Qué harás mañana?",
-      "t": "Что ты будешь делать завтра?"
-     }
-    },
-    {
-     "id": "r4l4e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Quiero ir a Moscú",
-       "t": "Я хочу поехать в Москву"
-      },
-      {
-       "es": "Tengo que trabajar",
-       "t": "Мне надо работать"
-      },
-      {
-       "es": "¿Podrías ayudarme?",
-       "t": "Можешь мне помочь?"
-      },
-      {
-       "es": "Trato hecho",
-       "t": "Договорились"
-      }
-     ]
-    },
-    {
-     "id": "r4l4e8",
-     "type": "type",
-     "prompt": "Escribe en ruso: «quiero ir a moscú»",
-     "solution": "Я хочу поехать в Москву",
-     "accept": [
-      "Я хочу поехать в Москву",
-      "я хочу поехать в москву"
-     ],
-     "pair": {
-      "es": "Quiero ir a moscú",
-      "t": "Я хочу поехать в Москву"
-     }
-    }
-   ]
-  }
- ]
+  ]
 }

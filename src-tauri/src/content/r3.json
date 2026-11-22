@@ -1,680 +1,1586 @@
 {
- "id": "r3",
- "title": "La ciudad y la casa",
- "emoji": "🌉",
- "color": "#FB923C",
- "lessons": [
-  {
-   "id": "r3l1",
-   "title": "¿Dónde está?",
-   "goal": "Oriéntate: aquí, allí, lejos y cerca",
-   "tip": [
-    "«Где» sirve para cualquier pregunta de lugar.",
-    "«Это далеко» ya incluye el «está»: sobra el verbo."
-   ],
-   "phrases": [
+  "id": "r3",
+  "title": "Город и дом",
+  "emoji": "🌉",
+  "color": "#FB923C",
+  "lessons": [
     {
-     "es": "¿Dónde está el metro?",
-     "t": "Где метро?"
+      "id": "r3l1",
+      "title": "¿Dónde está?",
+      "goal": "Oriéntate: aquí, allí, lejos y cerca",
+      "tip": [
+        "«Где» sirve para cualquier pregunta de lugar.",
+        "«Это далеко» ya incluye el «está»: sobra el verbo."
+      ],
+      "phrases": [
+        {
+          "es": "¿Dónde está el metro?",
+          "t": "Где метро?"
+        },
+        {
+          "es": "Aquí",
+          "t": "Здесь"
+        },
+        {
+          "es": "Allí",
+          "t": "Там"
+        },
+        {
+          "es": "Está lejos",
+          "t": "Это далеко"
+        },
+        {
+          "es": "Está cerca",
+          "t": "Это близко"
+        },
+        {
+          "es": "La parada",
+          "t": "Остановка"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l1e1",
+          "type": "choice",
+          "prompt": "«Где метро?» significa…",
+          "options": [
+            "¿Dónde está el metro?",
+            "¿Cuándo viene el metro?",
+            "¿Por qué se cierra el metro?",
+            "¿Cuánto cuesta el metro?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está el metro?",
+            "t": "Где метро?"
+          }
+        },
+        {
+          "id": "r3l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Остановка здесь",
+          "options": [
+            "La parada está aquí",
+            "La parada está allí",
+            "La parada está lejos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La parada está aquí",
+            "t": "Остановка здесь"
+          }
+        },
+        {
+          "id": "r3l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Это не ___, это там.",
+          "options": [
+            "здесь",
+            "там",
+            "далеко"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No está aquí, está allí.",
+            "t": "Это не здесь, это там."
+          }
+        },
+        {
+          "id": "r3l1e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «aquí»",
+          "solution": "Здесь",
+          "accept": [
+            "Здесь",
+            "здесь"
+          ],
+          "pair": {
+            "es": "Aquí",
+            "t": "Здесь"
+          }
+        },
+        {
+          "id": "r3l1e5",
+          "type": "build",
+          "prompt": "Traduce: «¿Dónde está el metro»",
+          "solution": "Где метро?",
+          "distractors": [
+            "как",
+            "спасибо"
+          ],
+          "pair": {
+            "es": "¿Dónde está el metro?",
+            "t": "Где метро?"
+          }
+        },
+        {
+          "id": "r3l1e6",
+          "type": "choice",
+          "prompt": "¿Cuál significa «Это далеко»?",
+          "options": [
+            "Está lejos",
+            "Está cerca",
+            "Está cerrado",
+            "Está roto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está lejos",
+            "t": "Это далеко"
+          }
+        },
+        {
+          "id": "r3l1e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Aquí",
+              "t": "Здесь"
+            },
+            {
+              "es": "Allí",
+              "t": "Там"
+            },
+            {
+              "es": "Está lejos",
+              "t": "Это далеко"
+            },
+            {
+              "es": "La parada",
+              "t": "Остановка"
+            }
+          ]
+        },
+        {
+          "id": "r3l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Это близко",
+          "options": [
+            "Está cerca",
+            "Está lejos",
+            "Está aquí"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está cerca",
+            "t": "Это близко"
+          }
+        }
+      ]
     },
     {
-     "es": "Aquí",
-     "t": "Здесь"
+      "id": "r3l2",
+      "title": "Direcciones y hora",
+      "goal": "Señales: recto, izquierda, derecha y la hora",
+      "tip": [
+        "Con las horas se usa «в»: «в десять» = «a las diez».",
+        "«Прямо» significa «recto» y también «justo/directamente»."
+      ],
+      "phrases": [
+        {
+          "es": "Todo recto",
+          "t": "Прямо"
+        },
+        {
+          "es": "A la izquierda",
+          "t": "Налево"
+        },
+        {
+          "es": "A la derecha",
+          "t": "Направо"
+        },
+        {
+          "es": "A las diez",
+          "t": "В десять"
+        },
+        {
+          "es": "¿A qué hora?",
+          "t": "Во сколько?"
+        },
+        {
+          "es": "La esquina",
+          "t": "Угол"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l2e1",
+          "type": "choice",
+          "prompt": "«Налево» es…",
+          "options": [
+            "A la izquierda",
+            "A la derecha",
+            "Todo recto",
+            "A la vuelta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A la izquierda",
+            "t": "Налево"
+          }
+        },
+        {
+          "id": "r3l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Во сколько?",
+          "options": [
+            "¿A qué hora?",
+            "¿Qué es?",
+            "¿Cuánto cuesta?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿A qué hora?",
+            "t": "Во сколько?"
+          }
+        },
+        {
+          "id": "r3l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___, потом налево.",
+          "options": [
+            "Прямо",
+            "Слева",
+            "Стоять"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Todo recto y después a la izquierda.",
+            "t": "Прямо, потом налево."
+          },
+          "explain": "«потом» = después."
+        },
+        {
+          "id": "r3l2e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «a la derecha»",
+          "solution": "Направо",
+          "accept": [
+            "Направо",
+            "направо"
+          ],
+          "pair": {
+            "es": "A la derecha",
+            "t": "Направо"
+          }
+        },
+        {
+          "id": "r3l2e5",
+          "type": "build",
+          "prompt": "Traduce: «Todo recto»",
+          "solution": "Прямо",
+          "distractors": [
+            "нельзя",
+            "вам"
+          ],
+          "pair": {
+            "es": "Todo recto",
+            "t": "Прямо"
+          }
+        },
+        {
+          "id": "r3l2e6",
+          "type": "choice",
+          "prompt": "«В десять» es…",
+          "options": [
+            "A las diez",
+            "Diez veces",
+            "En la década",
+            "Diez años"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A las diez",
+            "t": "В десять"
+          }
+        },
+        {
+          "id": "r3l2e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Todo recto",
+              "t": "Прямо"
+            },
+            {
+              "es": "A la izquierda",
+              "t": "Налево"
+            },
+            {
+              "es": "A la derecha",
+              "t": "Направо"
+            },
+            {
+              "es": "La esquina",
+              "t": "Угол"
+            }
+          ]
+        },
+        {
+          "id": "r3l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Угол, потом прямо",
+          "options": [
+            "La esquina y luego todo recto",
+            "A la derecha y luego a la izquierda",
+            "Todo recto y luego a la esquina"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La esquina y luego todo recto",
+            "t": "Угол, потом прямо"
+          }
+        }
+      ]
     },
     {
-     "es": "Allí",
-     "t": "Там"
+      "id": "r3l3",
+      "title": "La familia",
+      "goal": "Presenta a tu familia con las palabras básicas",
+      "tip": [
+        "«У меня есть…» = «tengo…» (literal: «a mí hay…»).",
+        "«Моя семья» usa «моя» porque «семья» es femenino."
+      ],
+      "phrases": [
+        {
+          "es": "La mamá",
+          "t": "Мама"
+        },
+        {
+          "es": "El papá",
+          "t": "Папа"
+        },
+        {
+          "es": "El hermano",
+          "t": "Брат"
+        },
+        {
+          "es": "La hermana",
+          "t": "Сестра"
+        },
+        {
+          "es": "Tengo un hermano",
+          "t": "У меня есть брат"
+        },
+        {
+          "es": "Mi familia",
+          "t": "Моя семья"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l3e1",
+          "type": "choice",
+          "prompt": "«Сестра» significa…",
+          "options": [
+            "Hermana",
+            "Hermano",
+            "Madre",
+            "Abuela"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana",
+            "t": "Сестра"
+          }
+        },
+        {
+          "id": "r3l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "У меня есть брат и сестра",
+          "options": [
+            "Tengo un hermano y una hermana",
+            "Tengo dos hermanos",
+            "Mi familia es grande"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo un hermano y una hermana",
+            "t": "У меня есть брат и сестра"
+          }
+        },
+        {
+          "id": "r3l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ есть кот.",
+          "options": [
+            "У меня",
+            "Я есть",
+            "Мне"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo un gato.",
+            "t": "У меня есть кот."
+          },
+          "explain": "«У меня есть» es el «tengo» de posesión."
+        },
+        {
+          "id": "r3l3e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «mi familia»",
+          "solution": "Моя семья",
+          "accept": [
+            "Моя семья",
+            "моя семья"
+          ],
+          "pair": {
+            "es": "Mi familia",
+            "t": "Моя семья"
+          }
+        },
+        {
+          "id": "r3l3e5",
+          "type": "build",
+          "prompt": "Traduce: «Tengo un hermano»",
+          "solution": "У меня есть брат",
+          "distractors": [
+            "нет",
+            "хочу"
+          ],
+          "pair": {
+            "es": "Tengo un hermano",
+            "t": "У меня есть брат"
+          }
+        },
+        {
+          "id": "r3l3e6",
+          "type": "choice",
+          "prompt": "«Папа» es…",
+          "options": [
+            "El papá",
+            "La mamá",
+            "El hijo",
+            "El nieto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El papá",
+            "t": "Папа"
+          }
+        },
+        {
+          "id": "r3l3e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "La mamá",
+              "t": "Мама"
+            },
+            {
+              "es": "El papá",
+              "t": "Папа"
+            },
+            {
+              "es": "El hermano",
+              "t": "Брат"
+            },
+            {
+              "es": "La hermana",
+              "t": "Сестра"
+            }
+          ]
+        },
+        {
+          "id": "r3l3e8",
+          "type": "type",
+          "prompt": "Escribe en ruso: «tengo un gato»",
+          "solution": "У меня есть кот",
+          "accept": [
+            "У меня есть кот",
+            "у меня есть кот"
+          ],
+          "pair": {
+            "es": "Tengo un gato",
+            "t": "У меня есть кот"
+          }
+        }
+      ]
     },
     {
-     "es": "Está lejos",
-     "t": "Это далеко"
+      "id": "r3l4",
+      "title": "Comida y bebida",
+      "goal": "Pide de beber y de comer a la mesa",
+      "tip": [
+        "«Я голоден» es «tengo hambre» (literal: «estoy hambriento»).",
+        "«Приятного аппетита!» es el «que aproveche» ruso."
+      ],
+      "phrases": [
+        {
+          "es": "Agua",
+          "t": "Вода"
+        },
+        {
+          "es": "Pan",
+          "t": "Хлеб"
+        },
+        {
+          "es": "Café con leche",
+          "t": "Кофе с молоком"
+        },
+        {
+          "es": "Té",
+          "t": "Чай"
+        },
+        {
+          "es": "Tengo hambre",
+          "t": "Я голоден"
+        },
+        {
+          "es": "¡Que aproveche!",
+          "t": "Приятного аппетита!"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l4e1",
+          "type": "choice",
+          "prompt": "«Вода» significa…",
+          "options": [
+            "Agua",
+            "Vino",
+            "Leche",
+            "Comida"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Agua",
+            "t": "Вода"
+          }
+        },
+        {
+          "id": "r3l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Кофе с молоком, пожалуйста",
+          "options": [
+            "Café con leche, por favor",
+            "Té con limón, por favor",
+            "Solo café, por favor"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Café con leche, por favor",
+            "t": "Кофе с молоком, пожалуйста"
+          }
+        },
+        {
+          "id": "r3l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Я очень ___.",
+          "options": [
+            "голоден",
+            "вода",
+            "первый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo mucha hambre.",
+            "t": "Я очень голоден."
+          }
+        },
+        {
+          "id": "r3l4e4",
+          "type": "type",
+          "prompt": "Escribe en ruso: «té»",
+          "solution": "Чай",
+          "accept": [
+            "Чай",
+            "чай"
+          ],
+          "pair": {
+            "es": "Té",
+            "t": "Чай"
+          }
+        },
+        {
+          "id": "r3l4e5",
+          "type": "build",
+          "prompt": "Traduce: «¡Que aproveche»",
+          "solution": "Приятного аппетита!",
+          "distractors": [
+            "спасибо",
+            "вода"
+          ],
+          "pair": {
+            "es": "¡Que aproveche!",
+            "t": "Приятного аппетита!"
+          }
+        },
+        {
+          "id": "r3l4e6",
+          "type": "choice",
+          "prompt": "«Хлеб» es…",
+          "options": [
+            "Pan",
+            "Café",
+            "Té",
+            "Leche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pan",
+            "t": "Хлеб"
+          }
+        },
+        {
+          "id": "r3l4e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Agua",
+              "t": "Вода"
+            },
+            {
+              "es": "Pan",
+              "t": "Хлеб"
+            },
+            {
+              "es": "Té",
+              "t": "Чай"
+            },
+            {
+              "es": "Tengo hambre",
+              "t": "Я голоден"
+            }
+          ]
+        },
+        {
+          "id": "r3l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Я голоден",
+          "options": [
+            "Tengo hambre",
+            "Tengo sed",
+            "Estoy lleno"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo hambre",
+            "t": "Я голоден"
+          }
+        }
+      ]
     },
     {
-     "es": "Está cerca",
-     "t": "Это близко"
+      "id": "r3l5",
+      "title": "Дополнительные слова 1",
+      "goal": "Ключевые слова",
+      "tip": [
+        "Практикуйте важные слова."
+      ],
+      "phrases": [
+        {
+          "es": "Nublado",
+          "t": "Облачный"
+        },
+        {
+          "es": "Los muebles",
+          "t": "Мебель"
+        },
+        {
+          "es": "Viejo",
+          "t": "Старый"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Nublado»?",
+          "options": [
+            "облачный",
+            "мебель",
+            "старый",
+            "кожа"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nublado",
+            "t": "Облачный"
+          }
+        },
+        {
+          "id": "r3l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Мебель",
+          "options": [
+            "Los muebles",
+            "Viejo",
+            "La piel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los muebles",
+            "t": "Мебель"
+          }
+        },
+        {
+          "id": "r3l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "старый",
+            "кожа",
+            "спать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Viejo",
+            "t": "Старый"
+          }
+        },
+        {
+          "id": "r3l5e4",
+          "type": "build",
+          "prompt": "Traduce: «La piel»",
+          "solution": "Кожа",
+          "distractors": [
+            "спать",
+            "переживать"
+          ],
+          "pair": {
+            "es": "La piel",
+            "t": "Кожа"
+          }
+        },
+        {
+          "id": "r3l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «dormir»",
+          "solution": "Спать",
+          "accept": [
+            "спать",
+            "спать"
+          ],
+          "pair": {
+            "es": "Dormir",
+            "t": "Спать"
+          }
+        },
+        {
+          "id": "r3l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Preocuparse",
+              "t": "Переживать"
+            },
+            {
+              "es": "La nariz",
+              "t": "Нос"
+            },
+            {
+              "es": "Ahora",
+              "t": "Сейчас"
+            }
+          ]
+        },
+        {
+          "id": "r3l5e7",
+          "type": "choice",
+          "prompt": "«La primavera» se traduce como...",
+          "options": [
+            "весна",
+            "чёрный",
+            "радуга",
+            "Если"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La primavera",
+            "t": "Весна"
+          }
+        },
+        {
+          "id": "r3l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Чёрный",
+          "options": [
+            "Negro",
+            "El arcoíris",
+            "Si"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Negro",
+            "t": "Чёрный"
+          }
+        }
+      ]
     },
     {
-     "es": "La parada",
-     "t": "Остановка"
+      "id": "r3l6",
+      "title": "Полезные фразы 2",
+      "goal": "Повседневные фразы",
+      "tip": [
+        "Говорите естественно."
+      ],
+      "phrases": [
+        {
+          "es": "No lo entiendo",
+          "t": "Я не понимаю"
+        },
+        {
+          "es": "La notificación",
+          "t": "Уведомление"
+        },
+        {
+          "es": "Ir (a pie)",
+          "t": "Идти"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «No lo entiendo»?",
+          "options": [
+            "я не понимаю",
+            "уведомление",
+            "идти",
+            "Понимать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No lo entiendo",
+            "t": "Я не понимаю"
+          }
+        },
+        {
+          "id": "r3l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Уведомление",
+          "options": [
+            "La notificación",
+            "Ir (a pie)",
+            "Entender"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La notificación",
+            "t": "Уведомление"
+          }
+        },
+        {
+          "id": "r3l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "идти",
+            "Понимать",
+            "Получать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ir (a pie)",
+            "t": "Идти"
+          }
+        },
+        {
+          "id": "r3l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Entender»",
+          "solution": "Понимать",
+          "distractors": [
+            "Получать",
+            "школа"
+          ],
+          "pair": {
+            "es": "Entender",
+            "t": "Понимать"
+          }
+        },
+        {
+          "id": "r3l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «recibir»",
+          "solution": "Получать",
+          "accept": [
+            "Получать",
+            "получать"
+          ],
+          "pair": {
+            "es": "Recibir",
+            "t": "Получать"
+          }
+        },
+        {
+          "id": "r3l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La escuela",
+              "t": "Школа"
+            },
+            {
+              "es": "Ahora",
+              "t": "Сейчас"
+            },
+            {
+              "es": "La biblioteca",
+              "t": "Библиотека"
+            }
+          ]
+        },
+        {
+          "id": "r3l6e7",
+          "type": "choice",
+          "prompt": "«Alguien» se traduce como...",
+          "options": [
+            "Кто-то",
+            "сметана",
+            "кроме того",
+            "Ходить"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Alguien",
+            "t": "Кто-то"
+          }
+        },
+        {
+          "id": "r3l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Сметана",
+          "options": [
+            "La crema agria",
+            "Además",
+            "Caminar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La crema agria",
+            "t": "Сметана"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3l7",
+      "title": "Повторение 3",
+      "goal": "Повторение",
+      "tip": [
+        "Закрепите изученное."
+      ],
+      "phrases": [
+        {
+          "es": "Inmediatamente",
+          "t": "Сразу"
+        },
+        {
+          "es": "El avión",
+          "t": "Самолёт"
+        },
+        {
+          "es": "Enfermo",
+          "t": "Больной"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Inmediatamente»?",
+          "options": [
+            "Сразу",
+            "самолёт",
+            "больной",
+            "банк"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Inmediatamente",
+            "t": "Сразу"
+          }
+        },
+        {
+          "id": "r3l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Самолёт",
+          "options": [
+            "El avión",
+            "Enfermo",
+            "El banco"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El avión",
+            "t": "Самолёт"
+          }
+        },
+        {
+          "id": "r3l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "больной",
+            "банк",
+            "работать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enfermo",
+            "t": "Больной"
+          }
+        },
+        {
+          "id": "r3l7e4",
+          "type": "build",
+          "prompt": "Traduce: «El banco»",
+          "solution": "Банк",
+          "distractors": [
+            "работать",
+            "метро"
+          ],
+          "pair": {
+            "es": "El banco",
+            "t": "Банк"
+          }
+        },
+        {
+          "id": "r3l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «trabajar»",
+          "solution": "Работать",
+          "accept": [
+            "работать",
+            "работать"
+          ],
+          "pair": {
+            "es": "Trabajar",
+            "t": "Работать"
+          }
+        },
+        {
+          "id": "r3l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El metro",
+              "t": "Метро"
+            },
+            {
+              "es": "La capital",
+              "t": "Столица"
+            },
+            {
+              "es": "El suelo",
+              "t": "Пол"
+            }
+          ]
+        },
+        {
+          "id": "r3l7e7",
+          "type": "choice",
+          "prompt": "«La pastilla» se traduce como...",
+          "options": [
+            "таблетка",
+            "тётя",
+            "аптека",
+            "поздно"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La pastilla",
+            "t": "Таблетка"
+          }
+        },
+        {
+          "id": "r3l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Тётя",
+          "options": [
+            "La tía",
+            "La farmacia",
+            "Tarde"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tía",
+            "t": "Тётя"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3l8",
+      "title": "Аудирование 4",
+      "goal": "Слушание",
+      "tip": [
+        "Тренируйте слух."
+      ],
+      "phrases": [
+        {
+          "es": "La lluvia",
+          "t": "Дождь"
+        },
+        {
+          "es": "La experiencia (laboral)",
+          "t": "Стаж"
+        },
+        {
+          "es": "El depósito",
+          "t": "Вклад"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La lluvia»?",
+          "options": [
+            "дождь",
+            "стаж",
+            "вклад",
+            "полёт"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La lluvia",
+            "t": "Дождь"
+          }
+        },
+        {
+          "id": "r3l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Стаж",
+          "options": [
+            "La experiencia (laboral)",
+            "El depósito",
+            "El vuelo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La experiencia (laboral)",
+            "t": "Стаж"
+          }
+        },
+        {
+          "id": "r3l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "вклад",
+            "полёт",
+            "Книга"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El depósito",
+            "t": "Вклад"
+          }
+        },
+        {
+          "id": "r3l8e4",
+          "type": "build",
+          "prompt": "Traduce: «El vuelo»",
+          "solution": "Полёт",
+          "distractors": [
+            "Книга",
+            "пылесос"
+          ],
+          "pair": {
+            "es": "El vuelo",
+            "t": "Полёт"
+          }
+        },
+        {
+          "id": "r3l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «libro»",
+          "solution": "Книга",
+          "accept": [
+            "Книга",
+            "книга"
+          ],
+          "pair": {
+            "es": "Libro",
+            "t": "Книга"
+          }
+        },
+        {
+          "id": "r3l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La aspiradora",
+              "t": "Пылесос"
+            },
+            {
+              "es": "Él",
+              "t": "Он"
+            },
+            {
+              "es": "Gustar",
+              "t": "Нравиться"
+            }
+          ]
+        },
+        {
+          "id": "r3l8e7",
+          "type": "choice",
+          "prompt": "«Porque» se traduce como...",
+          "options": [
+            "Потому что",
+            "шарф",
+            "куртка",
+            "Ещё"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Porque",
+            "t": "Потому что"
+          }
+        },
+        {
+          "id": "r3l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Шарф",
+          "options": [
+            "La bufanda",
+            "La chaqueta",
+            "Todavía/Aún"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La bufanda",
+            "t": "Шарф"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3l9",
+      "title": "Говорение 5",
+      "goal": "Разговор",
+      "tip": [
+        "Уверенность в речи."
+      ],
+      "phrases": [
+        {
+          "es": "El examen",
+          "t": "Экзамен"
+        },
+        {
+          "es": "La consigna",
+          "t": "Задание"
+        },
+        {
+          "es": "Los padres",
+          "t": "Родители"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El examen»?",
+          "options": [
+            "экзамен",
+            "задание",
+            "родители",
+            "сдавать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El examen",
+            "t": "Экзамен"
+          }
+        },
+        {
+          "id": "r3l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Задание",
+          "options": [
+            "La consigna",
+            "Los padres",
+            "Alquilar (a otros)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La consigna",
+            "t": "Задание"
+          }
+        },
+        {
+          "id": "r3l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "родители",
+            "сдавать",
+            "Пить"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los padres",
+            "t": "Родители"
+          }
+        },
+        {
+          "id": "r3l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Alquilar (a otros)»",
+          "solution": "Сдавать",
+          "distractors": [
+            "Пить",
+            "граница"
+          ],
+          "pair": {
+            "es": "Alquilar (a otros)",
+            "t": "Сдавать"
+          }
+        },
+        {
+          "id": "r3l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «beber»",
+          "solution": "Пить",
+          "accept": [
+            "Пить",
+            "пить"
+          ],
+          "pair": {
+            "es": "Beber",
+            "t": "Пить"
+          }
+        },
+        {
+          "id": "r3l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La frontera",
+              "t": "Граница"
+            },
+            {
+              "es": "El algoritmo",
+              "t": "Алгоритм"
+            },
+            {
+              "es": "Sabroso",
+              "t": "Вкусный"
+            }
+          ]
+        },
+        {
+          "id": "r3l9e7",
+          "type": "choice",
+          "prompt": "«Caliente» se traduce como...",
+          "options": [
+            "Горячий",
+            "кухня",
+            "вечер",
+            "подготовиться"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caliente",
+            "t": "Горячий"
+          }
+        },
+        {
+          "id": "r3l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Кухня",
+          "options": [
+            "La cocina",
+            "La tarde",
+            "Prepararse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La cocina",
+            "t": "Кухня"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r3l10",
+      "title": "Реальные ситуации 6",
+      "goal": "Реальные ситуации",
+      "tip": [
+        "Язык в контексте."
+      ],
+      "phrases": [
+        {
+          "es": "Siete",
+          "t": "Семь"
+        },
+        {
+          "es": "El andén",
+          "t": "Перрон"
+        },
+        {
+          "es": "La sucursal",
+          "t": "Отделение"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r3l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Siete»?",
+          "options": [
+            "семь",
+            "перрон",
+            "отделение",
+            "Показывать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Siete",
+            "t": "Семь"
+          }
+        },
+        {
+          "id": "r3l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Перрон",
+          "options": [
+            "El andén",
+            "La sucursal",
+            "Mostrar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El andén",
+            "t": "Перрон"
+          }
+        },
+        {
+          "id": "r3l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "отделение",
+            "Показывать",
+            "пробка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La sucursal",
+            "t": "Отделение"
+          }
+        },
+        {
+          "id": "r3l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Mostrar»",
+          "solution": "Показывать",
+          "distractors": [
+            "пробка",
+            "успешный"
+          ],
+          "pair": {
+            "es": "Mostrar",
+            "t": "Показывать"
+          }
+        },
+        {
+          "id": "r3l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el atasco»",
+          "solution": "Пробка",
+          "accept": [
+            "пробка",
+            "пробка"
+          ],
+          "pair": {
+            "es": "El atasco",
+            "t": "Пробка"
+          }
+        },
+        {
+          "id": "r3l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Exitoso",
+              "t": "Успешный"
+            },
+            {
+              "es": "Dinero",
+              "t": "Деньги"
+            },
+            {
+              "es": "Poco",
+              "t": "Мало"
+            }
+          ]
+        },
+        {
+          "id": "r3l10e7",
+          "type": "choice",
+          "prompt": "«Pez» se traduce como...",
+          "options": [
+            "Рыба",
+            "жёлтый",
+            "Строить",
+            "парк"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pez",
+            "t": "Рыба"
+          }
+        },
+        {
+          "id": "r3l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Жёлтый",
+          "options": [
+            "Amarillo",
+            "Construir",
+            "El parque"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Amarillo",
+            "t": "Жёлтый"
+          }
+        }
+      ]
     }
-   ],
-   "exercises": [
-    {
-     "id": "r3l1e1",
-     "type": "choice",
-     "prompt": "«Где метро?» significa…",
-     "options": [
-      "¿Dónde está el metro?",
-      "¿Cuándo viene el metro?",
-      "¿Por qué se cierra el metro?",
-      "¿Cuánto cuesta el metro?"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "¿Dónde está el metro?",
-      "t": "Где метро?"
-     }
-    },
-    {
-     "id": "r3l1e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Остановка здесь",
-     "options": [
-      "La parada está aquí",
-      "La parada está allí",
-      "La parada está lejos"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "La parada está aquí",
-      "t": "Остановка здесь"
-     }
-    },
-    {
-     "id": "r3l1e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Это не ___, это там.",
-     "options": [
-      "здесь",
-      "там",
-      "далеко"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "No está aquí, está allí.",
-      "t": "Это не здесь, это там."
-     }
-    },
-    {
-     "id": "r3l1e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «aquí»",
-     "solution": "Здесь",
-     "accept": [
-      "Здесь",
-      "здесь"
-     ],
-     "pair": {
-      "es": "Aquí",
-      "t": "Здесь"
-     }
-    },
-    {
-     "id": "r3l1e5",
-     "type": "build",
-     "prompt": "Traduce: «¿Dónde está el metro»",
-     "solution": "Где метро?",
-     "distractors": [
-      "как",
-      "спасибо"
-     ],
-     "pair": {
-      "es": "¿Dónde está el metro?",
-      "t": "Где метро?"
-     }
-    },
-    {
-     "id": "r3l1e6",
-     "type": "choice",
-     "prompt": "¿Cuál significa «Это далеко»?",
-     "options": [
-      "Está lejos",
-      "Está cerca",
-      "Está cerrado",
-      "Está roto"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Está lejos",
-      "t": "Это далеко"
-     }
-    },
-    {
-     "id": "r3l1e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Aquí",
-       "t": "Здесь"
-      },
-      {
-       "es": "Allí",
-       "t": "Там"
-      },
-      {
-       "es": "Está lejos",
-       "t": "Это далеко"
-      },
-      {
-       "es": "La parada",
-       "t": "Остановка"
-      }
-     ]
-    },
-    {
-     "id": "r3l1e8",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Это близко",
-     "options": [
-      "Está cerca",
-      "Está lejos",
-      "Está aquí"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Está cerca",
-      "t": "Это близко"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r3l2",
-   "title": "Direcciones y hora",
-   "goal": "Señales: recto, izquierda, derecha y la hora",
-   "tip": [
-    "Con las horas se usa «в»: «в десять» = «a las diez».",
-    "«Прямо» significa «recto» y también «justo/directamente»."
-   ],
-   "phrases": [
-    {
-     "es": "Todo recto",
-     "t": "Прямо"
-    },
-    {
-     "es": "A la izquierda",
-     "t": "Налево"
-    },
-    {
-     "es": "A la derecha",
-     "t": "Направо"
-    },
-    {
-     "es": "A las diez",
-     "t": "В десять"
-    },
-    {
-     "es": "¿A qué hora?",
-     "t": "Во сколько?"
-    },
-    {
-     "es": "La esquina",
-     "t": "Угол"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r3l2e1",
-     "type": "choice",
-     "prompt": "«Налево» es…",
-     "options": [
-      "A la izquierda",
-      "A la derecha",
-      "Todo recto",
-      "A la vuelta"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "A la izquierda",
-      "t": "Налево"
-     }
-    },
-    {
-     "id": "r3l2e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Во сколько?",
-     "options": [
-      "¿A qué hora?",
-      "¿Qué es?",
-      "¿Cuánto cuesta?"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "¿A qué hora?",
-      "t": "Во сколько?"
-     }
-    },
-    {
-     "id": "r3l2e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "___, потом налево.",
-     "options": [
-      "Прямо",
-      "Слева",
-      "Стоять"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Todo recto y después a la izquierda.",
-      "t": "Прямо, потом налево."
-     },
-     "explain": "«потом» = después."
-    },
-    {
-     "id": "r3l2e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «a la derecha»",
-     "solution": "Направо",
-     "accept": [
-      "Направо",
-      "направо"
-     ],
-     "pair": {
-      "es": "A la derecha",
-      "t": "Направо"
-     }
-    },
-    {
-     "id": "r3l2e5",
-     "type": "build",
-     "prompt": "Traduce: «Todo recto»",
-     "solution": "Прямо",
-     "distractors": [
-      "нельзя",
-      "вам"
-     ],
-     "pair": {
-      "es": "Todo recto",
-      "t": "Прямо"
-     }
-    },
-    {
-     "id": "r3l2e6",
-     "type": "choice",
-     "prompt": "«В десять» es…",
-     "options": [
-      "A las diez",
-      "Diez veces",
-      "En la década",
-      "Diez años"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "A las diez",
-      "t": "В десять"
-     }
-    },
-    {
-     "id": "r3l2e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Todo recto",
-       "t": "Прямо"
-      },
-      {
-       "es": "A la izquierda",
-       "t": "Налево"
-      },
-      {
-       "es": "A la derecha",
-       "t": "Направо"
-      },
-      {
-       "es": "La esquina",
-       "t": "Угол"
-      }
-     ]
-    },
-    {
-     "id": "r3l2e8",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Угол, потом прямо",
-     "options": [
-      "La esquina y luego todo recto",
-      "A la derecha y luego a la izquierda",
-      "Todo recto y luego a la esquina"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "La esquina y luego todo recto",
-      "t": "Угол, потом прямо"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r3l3",
-   "title": "La familia",
-   "goal": "Presenta a tu familia con las palabras básicas",
-   "tip": [
-    "«У меня есть…» = «tengo…» (literal: «a mí hay…»).",
-    "«Моя семья» usa «моя» porque «семья» es femenino."
-   ],
-   "phrases": [
-    {
-     "es": "La mamá",
-     "t": "Мама"
-    },
-    {
-     "es": "El papá",
-     "t": "Папа"
-    },
-    {
-     "es": "El hermano",
-     "t": "Брат"
-    },
-    {
-     "es": "La hermana",
-     "t": "Сестра"
-    },
-    {
-     "es": "Tengo un hermano",
-     "t": "У меня есть брат"
-    },
-    {
-     "es": "Mi familia",
-     "t": "Моя семья"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r3l3e1",
-     "type": "choice",
-     "prompt": "«Сестра» significa…",
-     "options": [
-      "Hermana",
-      "Hermano",
-      "Madre",
-      "Abuela"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Hermana",
-      "t": "Сестра"
-     }
-    },
-    {
-     "id": "r3l3e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "У меня есть брат и сестра",
-     "options": [
-      "Tengo un hermano y una hermana",
-      "Tengo dos hermanos",
-      "Mi familia es grande"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo un hermano y una hermana",
-      "t": "У меня есть брат и сестра"
-     }
-    },
-    {
-     "id": "r3l3e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "___ есть кот.",
-     "options": [
-      "У меня",
-      "Я есть",
-      "Мне"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo un gato.",
-      "t": "У меня есть кот."
-     },
-     "explain": "«У меня есть» es el «tengo» de posesión."
-    },
-    {
-     "id": "r3l3e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «mi familia»",
-     "solution": "Моя семья",
-     "accept": [
-      "Моя семья",
-      "моя семья"
-     ],
-     "pair": {
-      "es": "Mi familia",
-      "t": "Моя семья"
-     }
-    },
-    {
-     "id": "r3l3e5",
-     "type": "build",
-     "prompt": "Traduce: «Tengo un hermano»",
-     "solution": "У меня есть брат",
-     "distractors": [
-      "нет",
-      "хочу"
-     ],
-     "pair": {
-      "es": "Tengo un hermano",
-      "t": "У меня есть брат"
-     }
-    },
-    {
-     "id": "r3l3e6",
-     "type": "choice",
-     "prompt": "«Папа» es…",
-     "options": [
-      "El papá",
-      "La mamá",
-      "El hijo",
-      "El nieto"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "El papá",
-      "t": "Папа"
-     }
-    },
-    {
-     "id": "r3l3e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "La mamá",
-       "t": "Мама"
-      },
-      {
-       "es": "El papá",
-       "t": "Папа"
-      },
-      {
-       "es": "El hermano",
-       "t": "Брат"
-      },
-      {
-       "es": "La hermana",
-       "t": "Сестра"
-      }
-     ]
-    },
-    {
-     "id": "r3l3e8",
-     "type": "type",
-     "prompt": "Escribe en ruso: «tengo un gato»",
-     "solution": "У меня есть кот",
-     "accept": [
-      "У меня есть кот",
-      "у меня есть кот"
-     ],
-     "pair": {
-      "es": "Tengo un gato",
-      "t": "У меня есть кот"
-     }
-    }
-   ]
-  },
-  {
-   "id": "r3l4",
-   "title": "Comida y bebida",
-   "goal": "Pide de beber y de comer a la mesa",
-   "tip": [
-    "«Я голоден» es «tengo hambre» (literal: «estoy hambriento»).",
-    "«Приятного аппетита!» es el «que aproveche» ruso."
-   ],
-   "phrases": [
-    {
-     "es": "Agua",
-     "t": "Вода"
-    },
-    {
-     "es": "Pan",
-     "t": "Хлеб"
-    },
-    {
-     "es": "Café con leche",
-     "t": "Кофе с молоком"
-    },
-    {
-     "es": "Té",
-     "t": "Чай"
-    },
-    {
-     "es": "Tengo hambre",
-     "t": "Я голоден"
-    },
-    {
-     "es": "¡Que aproveche!",
-     "t": "Приятного аппетита!"
-    }
-   ],
-   "exercises": [
-    {
-     "id": "r3l4e1",
-     "type": "choice",
-     "prompt": "«Вода» significa…",
-     "options": [
-      "Agua",
-      "Vino",
-      "Leche",
-      "Comida"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Agua",
-      "t": "Вода"
-     }
-    },
-    {
-     "id": "r3l4e2",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Кофе с молоком, пожалуйста",
-     "options": [
-      "Café con leche, por favor",
-      "Té con limón, por favor",
-      "Solo café, por favor"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Café con leche, por favor",
-      "t": "Кофе с молоком, пожалуйста"
-     }
-    },
-    {
-     "id": "r3l4e3",
-     "type": "fill",
-     "prompt": "Completa la frase",
-     "sentence": "Я очень ___.",
-     "options": [
-      "голоден",
-      "вода",
-      "первый"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo mucha hambre.",
-      "t": "Я очень голоден."
-     }
-    },
-    {
-     "id": "r3l4e4",
-     "type": "type",
-     "prompt": "Escribe en ruso: «té»",
-     "solution": "Чай",
-     "accept": [
-      "Чай",
-      "чай"
-     ],
-     "pair": {
-      "es": "Té",
-      "t": "Чай"
-     }
-    },
-    {
-     "id": "r3l4e5",
-     "type": "build",
-     "prompt": "Traduce: «¡Que aproveche»",
-     "solution": "Приятного аппетита!",
-     "distractors": [
-      "спасибо",
-      "вода"
-     ],
-     "pair": {
-      "es": "¡Que aproveche!",
-      "t": "Приятного аппетита!"
-     }
-    },
-    {
-     "id": "r3l4e6",
-     "type": "choice",
-     "prompt": "«Хлеб» es…",
-     "options": [
-      "Pan",
-      "Café",
-      "Té",
-      "Leche"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Pan",
-      "t": "Хлеб"
-     }
-    },
-    {
-     "id": "r3l4e7",
-     "type": "match",
-     "prompt": "Empareja cada palabra con su traducción",
-     "pairs": [
-      {
-       "es": "Agua",
-       "t": "Вода"
-      },
-      {
-       "es": "Pan",
-       "t": "Хлеб"
-      },
-      {
-       "es": "Té",
-       "t": "Чай"
-      },
-      {
-       "es": "Tengo hambre",
-       "t": "Я голоден"
-      }
-     ]
-    },
-    {
-     "id": "r3l4e8",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "Я голоден",
-     "options": [
-      "Tengo hambre",
-      "Tengo sed",
-      "Estoy lleno"
-     ],
-     "answer": 0,
-     "pair": {
-      "es": "Tengo hambre",
-      "t": "Я голоден"
-     }
-    }
-   ]
-  }
- ]
+  ]
 }

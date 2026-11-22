@@ -18,7 +18,7 @@ pub struct LanguageInfo {
     pub level: String,
 }
 
-const EN_SOURCES: [&str; 12] = [
+const EN_SOURCES: [&str; 16] = [
     include_str!("content/u1.json"),
     include_str!("content/u2.json"),
     include_str!("content/u3.json"),
@@ -31,9 +31,13 @@ const EN_SOURCES: [&str; 12] = [
     include_str!("content/u10.json"),
     include_str!("content/u11.json"),
     include_str!("content/u12.json"),
+    include_str!("content/u13.json"),
+    include_str!("content/u14.json"),
+    include_str!("content/u15.json"),
+    include_str!("content/u16.json"),
 ];
 
-const RU_SOURCES: [&str; 8] = [
+const RU_SOURCES: [&str; 12] = [
     include_str!("content/r1.json"),
     include_str!("content/r2.json"),
     include_str!("content/r3.json"),
@@ -42,20 +46,76 @@ const RU_SOURCES: [&str; 8] = [
     include_str!("content/r6.json"),
     include_str!("content/r7.json"),
     include_str!("content/r8.json"),
+    include_str!("content/r9.json"),
+    include_str!("content/r10.json"),
+    include_str!("content/r11.json"),
+    include_str!("content/r12.json"),
 ];
 
-const ZH_SOURCES: [&str; 4] = [
+const ZH_SOURCES: [&str; 8] = [
     include_str!("content/c1.json"),
     include_str!("content/c2.json"),
     include_str!("content/c3.json"),
     include_str!("content/c4.json"),
+    include_str!("content/c5.json"),
+    include_str!("content/c6.json"),
+    include_str!("content/c7.json"),
+    include_str!("content/c8.json"),
 ];
 
-const IT_SOURCES: [&str; 4] = [
+const FR_SOURCES: [&str; 8] = [
+    include_str!("content/f1.json"),
+    include_str!("content/f2.json"),
+    include_str!("content/f3.json"),
+    include_str!("content/f4.json"),
+    include_str!("content/f5.json"),
+    include_str!("content/f6.json"),
+    include_str!("content/f7.json"),
+    include_str!("content/f8.json"),
+];
+
+const AR_SOURCES: [&str; 8] = [
+    include_str!("content/a1.json"),
+    include_str!("content/a2.json"),
+    include_str!("content/a3.json"),
+    include_str!("content/a4.json"),
+    include_str!("content/a5.json"),
+    include_str!("content/a6.json"),
+    include_str!("content/a7.json"),
+    include_str!("content/a8.json"),
+];
+
+const DE_SOURCES: [&str; 8] = [
+    include_str!("content/d1.json"),
+    include_str!("content/d2.json"),
+    include_str!("content/d3.json"),
+    include_str!("content/d4.json"),
+    include_str!("content/d5.json"),
+    include_str!("content/d6.json"),
+    include_str!("content/d7.json"),
+    include_str!("content/d8.json"),
+];
+
+const PT_SOURCES: [&str; 8] = [
+    include_str!("content/p1.json"),
+    include_str!("content/p2.json"),
+    include_str!("content/p3.json"),
+    include_str!("content/p4.json"),
+    include_str!("content/p5.json"),
+    include_str!("content/p6.json"),
+    include_str!("content/p7.json"),
+    include_str!("content/p8.json"),
+];
+
+const IT_SOURCES: [&str; 8] = [
     include_str!("content/i1.json"),
     include_str!("content/i2.json"),
     include_str!("content/i3.json"),
     include_str!("content/i4.json"),
+    include_str!("content/i5.json"),
+    include_str!("content/i6.json"),
+    include_str!("content/i7.json"),
+    include_str!("content/i8.json"),
 ];
 
 fn sources(id: &str) -> Option<&[&str]> {
@@ -64,6 +124,10 @@ fn sources(id: &str) -> Option<&[&str]> {
         "ru" => Some(&RU_SOURCES),
         "it" => Some(&IT_SOURCES),
         "zh" => Some(&ZH_SOURCES),
+        "fr" => Some(&FR_SOURCES),
+        "ar" => Some(&AR_SOURCES),
+        "de" => Some(&DE_SOURCES),
+        "pt" => Some(&PT_SOURCES),
         _ => None,
     }
 }
@@ -161,14 +225,42 @@ fn language_info() -> &'static Vec<LanguageInfo> {
                 title: "Italiano".into(),
                 emoji: "🇮🇹".into(),
                 bcp47: "it-IT".into(),
-                level: "A1–A2".into(),
+                level: "A1–B1".into(),
             },
             LanguageInfo {
                 id: "zh".into(),
                 title: "Chino mandarín".into(),
                 emoji: "🇨🇳".into(),
                 bcp47: "zh-CN".into(),
-                level: "A1–A2".into(),
+                level: "A1–B1".into(),
+            },
+            LanguageInfo {
+                id: "fr".into(),
+                title: "Francés".into(),
+                emoji: "🇫🇷".into(),
+                bcp47: "fr-FR".into(),
+                level: "A1–B1".into(),
+            },
+            LanguageInfo {
+                id: "ar".into(),
+                title: "Árabe".into(),
+                emoji: "🇸🇦".into(),
+                bcp47: "ar-SA".into(),
+                level: "A1–B1".into(),
+            },
+            LanguageInfo {
+                id: "de".into(),
+                title: "Alemán".into(),
+                emoji: "🇩🇪".into(),
+                bcp47: "de-DE".into(),
+                level: "A1–B1".into(),
+            },
+            LanguageInfo {
+                id: "pt".into(),
+                title: "Portugués".into(),
+                emoji: "🇵🇹".into(),
+                bcp47: "pt-BR".into(),
+                level: "A1–B1".into(),
             },
         ]
     })
@@ -332,12 +424,16 @@ mod tests {
 
     #[test]
     fn catalog_is_valid() {
-        let en_exercises = validate("en", 12, 340);
-        let ru_exercises = validate("ru", 8, 230);
-        let it_exercises = validate("it", 4, 100);
-        let zh_exercises = validate("zh", 4, 100);
+        let en_exercises = validate("en", 16, 460);
+        let ru_exercises = validate("ru", 12, 350);
+        let it_exercises = validate("it", 8, 220);
+        let zh_exercises = validate("zh", 8, 220);
+        let fr_exercises = validate("fr", 8, 220);
+        let ar_exercises = validate("ar", 8, 220);
+        let de_exercises = validate("de", 8, 220);
+        let pt_exercises = validate("pt", 8, 220);
         assert!(
-            en_exercises + ru_exercises + it_exercises + zh_exercises >= 780,
+            en_exercises + ru_exercises + it_exercises + zh_exercises + fr_exercises + ar_exercises + de_exercises + pt_exercises >= 2200,
             "total {en_exercises} + {ru_exercises} + {it_exercises} + {zh_exercises}"
         );
     }
@@ -498,6 +594,33 @@ mod tests {
                             );
                         }
                     }
+                }
+            }
+        }
+    }
+
+    fn arabic_count(s: &str) -> usize {
+        s.chars().filter(|c| ('\u{0600}'..='\u{06FF}').contains(c) || ('\u{0750}'..='\u{077F}').contains(c)).count()
+    }
+
+    #[test]
+    fn arabic_content_uses_arabic_script() {
+        for unit in catalog("ar") {
+            for lesson in &unit.lessons {
+                for phrase in &lesson.phrases {
+                    assert!(arabic_count(&phrase.t) > 0, "frase sin árabe en {}: {}", lesson.id, phrase.t);
+                }
+            }
+        }
+    }
+
+    #[test]
+    fn french_content_is_present() {
+        for unit in catalog("fr") {
+            assert!(!unit.lessons.is_empty());
+            for lesson in &unit.lessons {
+                for phrase in &lesson.phrases {
+                    assert!(!phrase.t.trim().is_empty());
                 }
             }
         }

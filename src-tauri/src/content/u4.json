@@ -1,6 +1,6 @@
 {
   "id": "u4",
-  "title": "Viajes",
+  "title": "Travel",
   "emoji": "✈️",
   "color": "#3D8BFF",
   "lessons": [
@@ -13,9 +13,18 @@
         "«My flight is delayed» = Mi vuelo está retrasado."
       ],
       "phrases": [
-        { "es": "¿Dónde está la puerta?", "t": "Where is the gate?" },
-        { "es": "Mi vuelo está retrasado", "t": "My flight is delayed" },
-        { "es": "Aquí está mi pasaporte", "t": "Here is my passport" }
+        {
+          "es": "¿Dónde está la puerta?",
+          "t": "Where is the gate?"
+        },
+        {
+          "es": "Mi vuelo está retrasado",
+          "t": "My flight is delayed"
+        },
+        {
+          "es": "Aquí está mi pasaporte",
+          "t": "Here is my passport"
+        }
       ],
       "exercises": [
         {
@@ -23,68 +32,130 @@
           "type": "match",
           "prompt": "Empareja el vocabulario del aeropuerto",
           "pairs": [
-            { "es": "Vuelo", "t": "Flight" },
-            { "es": "Pasaporte", "t": "Passport" },
-            { "es": "Billete", "t": "Ticket" },
-            { "es": "Equipaje", "t": "Luggage" }
+            {
+              "es": "Vuelo",
+              "t": "Flight"
+            },
+            {
+              "es": "Pasaporte",
+              "t": "Passport"
+            },
+            {
+              "es": "Billete",
+              "t": "Ticket"
+            },
+            {
+              "es": "Equipaje",
+              "t": "Luggage"
+            }
           ]
         },
         {
           "id": "u4l1e2",
           "type": "choice",
           "prompt": "«Gate» es…",
-          "options": ["la puerta de embarque", "la pista", "la maleta", "el asiento"],
+          "options": [
+            "la puerta de embarque",
+            "la pista",
+            "la maleta",
+            "el asiento"
+          ],
           "answer": 0,
-          "pair": { "es": "Puerta de embarque", "t": "Gate" }
+          "pair": {
+            "es": "Puerta de embarque",
+            "t": "Gate"
+          }
         },
         {
           "id": "u4l1e3",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "My flight is delayed.",
-          "options": ["Mi vuelo está retrasado.", "Mi vuelo ha cancelado.", "Mi vuelo sale a las nueve."],
+          "options": [
+            "Mi vuelo está retrasado.",
+            "Mi vuelo ha cancelado.",
+            "Mi vuelo sale a las nueve."
+          ],
           "answer": 0,
-          "pair": { "es": "Mi vuelo está retrasado", "t": "My flight is delayed" }
+          "pair": {
+            "es": "Mi vuelo está retrasado",
+            "t": "My flight is delayed"
+          }
         },
         {
           "id": "u4l1e4",
           "type": "fill",
           "prompt": "Completa la pregunta",
           "sentence": "Where ___ my luggage?",
-          "options": ["is", "are", "am"],
-          "answer": 0, "pair": { "es": "¿Dónde está mi equipaje?", "t": "Where is my luggage?" },
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está mi equipaje?",
+            "t": "Where is my luggage?"
+          },
           "explain": "«Luggage» (equipaje) es incontable y va en singular."
         },
         {
           "id": "u4l1e5",
           "type": "type",
           "prompt": "Escribe «vuelo» en inglés",
-          "solution": "flight",
-          "accept": ["flight"],
-          "pair": { "es": "Vuelo", "t": "Flight" }
+          "solution": "Flight",
+          "accept": [
+            "flight"
+          ],
+          "pair": {
+            "es": "Vuelo",
+            "t": "Flight"
+          }
         },
         {
           "id": "u4l1e6",
           "type": "build",
           "prompt": "Traduce: «Aquí está mi pasaporte»",
           "solution": "Here is my passport",
-          "distractors": ["are", "ticket"],
-          "pair": { "es": "Aquí está mi pasaporte", "t": "Here is my passport" }
+          "distractors": [
+            "are",
+            "ticket"
+          ],
+          "pair": {
+            "es": "Aquí está mi pasaporte",
+            "t": "Here is my passport"
+          }
         },
         {
           "id": "u4l1e7",
           "type": "choice",
           "prompt": "«Boarding pass» significa…",
-          "options": ["tarjeta de embarque", "pasaporte", "billete de tren", "maleta de mano"],
+          "options": [
+            "tarjeta de embarque",
+            "pasaporte",
+            "billete de tren",
+            "maleta de mano"
+          ],
           "answer": 0,
-          "pair": { "es": "Tarjeta de embarque", "t": "Boarding pass" }
+          "pair": {
+            "es": "Tarjeta de embarque",
+            "t": "Boarding pass"
+          }
         },
         {
           "id": "u4l1e8",
           "type": "choice",
           "prompt": "«The plane takes off at six» = el avión…",
-          "options": ["despega a las seis", "aterriza a las seis", "se retrasa hasta las seis"],
-          "answer": 0, "pair": { "es": "El avión despega a las seis.", "t": "The plane takes off at six." },
+          "options": [
+            "despega a las seis",
+            "aterriza a las seis",
+            "se retrasa hasta las seis"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El avión despega a las seis.",
+            "t": "The plane takes off at six."
+          },
           "explain": "«Take off» = despegar. «Land» = aterrizar."
         }
       ]
@@ -98,18 +169,35 @@
         "«Is breakfast included?» = ¿Está incluido el desayuno?"
       ],
       "phrases": [
-        { "es": "Tengo una reserva", "t": "I have a reservation" },
-        { "es": "¿A qué hora es el check-out?", "t": "What time is check-out?" },
-        { "es": "¿Está incluido el desayuno?", "t": "Is breakfast included?" }
+        {
+          "es": "Tengo una reserva",
+          "t": "I have a reservation"
+        },
+        {
+          "es": "¿A qué hora es el check-out?",
+          "t": "What time is check-out?"
+        },
+        {
+          "es": "¿Está incluido el desayuno?",
+          "t": "Is breakfast included?"
+        }
       ],
       "exercises": [
         {
           "id": "u4l2e1",
           "type": "choice",
           "prompt": "«Key» es…",
-          "options": ["llave", "habitación", "cama", "ascensor"],
+          "options": [
+            "llave",
+            "habitación",
+            "cama",
+            "ascensor"
+          ],
           "answer": 0,
-          "pair": { "es": "Llave", "t": "Key" }
+          "pair": {
+            "es": "Llave",
+            "t": "Key"
+          }
         },
         {
           "id": "u4l2e2",
@@ -122,15 +210,26 @@
             "Quiero una habitación por dos noches."
           ],
           "answer": 0,
-          "pair": { "es": "Tengo una reserva", "t": "I have a reservation" }
+          "pair": {
+            "es": "Tengo una reserva",
+            "t": "I have a reservation"
+          }
         },
         {
           "id": "u4l2e3",
           "type": "fill",
           "prompt": "Completa la pregunta",
           "sentence": "Is breakfast ___?",
-          "options": ["included", "include", "including"],
-          "answer": 0, "pair": { "es": "¿Está incluido el desayuno?", "t": "Is breakfast included?" },
+          "options": [
+            "included",
+            "include",
+            "including"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Está incluido el desayuno?",
+            "t": "Is breakfast included?"
+          },
           "explain": "«Included» = incluido."
         },
         {
@@ -138,24 +237,43 @@
           "type": "build",
           "prompt": "Traduce: «Tengo una reserva»",
           "solution": "I have a reservation",
-          "distractors": ["had", "the"],
-          "pair": { "es": "Tengo una reserva", "t": "I have a reservation" }
+          "distractors": [
+            "had",
+            "the"
+          ],
+          "pair": {
+            "es": "Tengo una reserva",
+            "t": "I have a reservation"
+          }
         },
         {
           "id": "u4l2e5",
           "type": "type",
           "prompt": "Escribe «habitación» en inglés",
-          "solution": "room",
-          "accept": ["room"],
-          "pair": { "es": "Habitación", "t": "Room" }
+          "solution": "Room",
+          "accept": [
+            "room"
+          ],
+          "pair": {
+            "es": "Habitación",
+            "t": "Room"
+          }
         },
         {
           "id": "u4l2e6",
           "type": "choice",
           "prompt": "«Elevator» significa…",
-          "options": ["ascensor", "escalera", "pasillo", "lavabo"],
+          "options": [
+            "ascensor",
+            "escalera",
+            "pasillo",
+            "lavabo"
+          ],
           "answer": 0,
-          "pair": { "es": "Ascensor", "t": "Elevator" },
+          "pair": {
+            "es": "Ascensor",
+            "t": "Elevator"
+          },
           "explain": "En el Reino Unido dicen «lift»."
         },
         {
@@ -163,10 +281,22 @@
           "type": "match",
           "prompt": "Empareja el vocabulario del hotel",
           "pairs": [
-            { "es": "Habitación", "t": "Room" },
-            { "es": "Llave", "t": "Key" },
-            { "es": "Ascensor", "t": "Elevator" },
-            { "es": "Noche", "t": "Night" }
+            {
+              "es": "Habitación",
+              "t": "Room"
+            },
+            {
+              "es": "Llave",
+              "t": "Key"
+            },
+            {
+              "es": "Ascensor",
+              "t": "Elevator"
+            },
+            {
+              "es": "Noche",
+              "t": "Night"
+            }
           ]
         },
         {
@@ -180,7 +310,10 @@
             "pedir la llave"
           ],
           "answer": 0,
-          "pair": { "es": "Salida del hotel", "t": "Check-out" }
+          "pair": {
+            "es": "Salida del hotel",
+            "t": "Check-out"
+          }
         }
       ]
     },
@@ -193,18 +326,35 @@
         "«Next to» = al lado de. «Near» = cerca. «Far» = lejos."
       ],
       "phrases": [
-        { "es": "¿Dónde está el baño?", "t": "Where is the bathroom?" },
-        { "es": "Gira a la izquierda", "t": "Turn left" },
-        { "es": "Está al lado del banco", "t": "It's next to the bank" }
+        {
+          "es": "¿Dónde está el baño?",
+          "t": "Where is the bathroom?"
+        },
+        {
+          "es": "Gira a la izquierda",
+          "t": "Turn left"
+        },
+        {
+          "es": "Está al lado del banco",
+          "t": "It's next to the bank"
+        }
       ],
       "exercises": [
         {
           "id": "u4l3e1",
           "type": "choice",
           "prompt": "«Turn right» es…",
-          "options": ["gira a la derecha", "gira a la izquierda", "sigue recto", "para aquí"],
+          "options": [
+            "gira a la derecha",
+            "gira a la izquierda",
+            "sigue recto",
+            "para aquí"
+          ],
           "answer": 0,
-          "pair": { "es": "Derecha", "t": "Right" }
+          "pair": {
+            "es": "Derecha",
+            "t": "Right"
+          }
         },
         {
           "id": "u4l3e2",
@@ -217,32 +367,55 @@
             "Sigue recto y gira a la derecha."
           ],
           "answer": 0,
-          "pair": { "es": "Sigue recto", "t": "Go straight" }
+          "pair": {
+            "es": "Sigue recto",
+            "t": "Go straight"
+          }
         },
         {
           "id": "u4l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "Turn ___ at the corner.",
-          "options": ["left", "the left", "leftly"],
-          "answer": 0, "pair": { "es": "Gira a la izquierda en la esquina.", "t": "Turn left at the corner." },
+          "options": [
+            "left",
+            "the left",
+            "leftly"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gira a la izquierda en la esquina.",
+            "t": "Turn left at the corner."
+          },
           "explain": "Se dice «turn left» sin artículo."
         },
         {
           "id": "u4l3e4",
           "type": "type",
           "prompt": "Escribe «cerca» en inglés",
-          "solution": "near",
-          "accept": ["near", "close"],
-          "pair": { "es": "Cerca", "t": "Near" }
+          "solution": "Near",
+          "accept": [
+            "near",
+            "close"
+          ],
+          "pair": {
+            "es": "Cerca",
+            "t": "Near"
+          }
         },
         {
           "id": "u4l3e5",
           "type": "build",
           "prompt": "Traduce: «¿Dónde está el baño?»",
           "solution": "Where is the bathroom",
-          "distractors": ["What", "toilet"],
-          "pair": { "es": "¿Dónde está el baño?", "t": "Where is the bathroom?" }
+          "distractors": [
+            "What",
+            "toilet"
+          ],
+          "pair": {
+            "es": "¿Dónde está el baño?",
+            "t": "Where is the bathroom?"
+          }
         },
         {
           "id": "u4l3e6",
@@ -255,26 +428,49 @@
             "Está dentro del banco"
           ],
           "answer": 0,
-          "pair": { "es": "Al lado de", "t": "Next to" }
+          "pair": {
+            "es": "Al lado de",
+            "t": "Next to"
+          }
         },
         {
           "id": "u4l3e7",
           "type": "match",
           "prompt": "Empareja las direcciones",
           "pairs": [
-            { "es": "Izquierda", "t": "Left" },
-            { "es": "Derecha", "t": "Right" },
-            { "es": "Recto", "t": "Straight" },
-            { "es": "Lejos", "t": "Far" }
+            {
+              "es": "Izquierda",
+              "t": "Left"
+            },
+            {
+              "es": "Derecha",
+              "t": "Right"
+            },
+            {
+              "es": "Recto",
+              "t": "Straight"
+            },
+            {
+              "es": "Lejos",
+              "t": "Far"
+            }
           ]
         },
         {
           "id": "u4l3e8",
           "type": "choice",
           "prompt": "«Go straight» significa…",
-          "options": ["sigue recto", "gira", "para", "vuelve"],
+          "options": [
+            "sigue recto",
+            "gira",
+            "para",
+            "vuelve"
+          ],
           "answer": 0,
-          "pair": { "es": "Sigue recto", "t": "Go straight" }
+          "pair": {
+            "es": "Sigue recto",
+            "t": "Go straight"
+          }
         }
       ]
     },
@@ -287,35 +483,67 @@
         "«Just looking, thanks» = solo estoy mirando, gracias."
       ],
       "phrases": [
-        { "es": "¿Cuánto cuesta?", "t": "How much is it?" },
-        { "es": "Me lo llevo", "t": "I'll take it" },
-        { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" }
+        {
+          "es": "¿Cuánto cuesta?",
+          "t": "How much is it?"
+        },
+        {
+          "es": "Me lo llevo",
+          "t": "I'll take it"
+        },
+        {
+          "es": "¿Puedo pagar con tarjeta?",
+          "t": "Can I pay by card?"
+        }
       ],
       "exercises": [
         {
           "id": "u4l4e1",
           "type": "choice",
           "prompt": "¿Cómo preguntas el precio?",
-          "options": ["How much is it?", "How many is it?", "What cost?", "How price is it?"],
+          "options": [
+            "How much is it?",
+            "How many is it?",
+            "What cost?",
+            "How price is it?"
+          ],
           "answer": 0,
-          "pair": { "es": "Precio", "t": "Price" }
+          "pair": {
+            "es": "Precio",
+            "t": "Price"
+          }
         },
         {
           "id": "u4l4e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "Can I pay by card?",
-          "options": ["¿Puedo pagar con tarjeta?", "¿Puedo pagar en efectivo?", "¿Puedo pagar mañana?"],
+          "options": [
+            "¿Puedo pagar con tarjeta?",
+            "¿Puedo pagar en efectivo?",
+            "¿Puedo pagar mañana?"
+          ],
           "answer": 0,
-          "pair": { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" }
+          "pair": {
+            "es": "¿Puedo pagar con tarjeta?",
+            "t": "Can I pay by card?"
+          }
         },
         {
           "id": "u4l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "Can I pay ___ card?",
-          "options": ["by", "with", "in"],
-          "answer": 0, "pair": { "es": "¿Puedo pagar con tarjeta?", "t": "Can I pay by card?" },
+          "options": [
+            "by",
+            "with",
+            "in"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Puedo pagar con tarjeta?",
+            "t": "Can I pay by card?"
+          },
           "explain": "«Pay by card» o «pay with a card»; ambas valen."
         },
         {
@@ -323,34 +551,65 @@
           "type": "build",
           "prompt": "Traduce: «Me lo llevo»",
           "solution": "I'll take it",
-          "distractors": ["want", "this"],
-          "pair": { "es": "Me lo llevo", "t": "I'll take it" }
+          "distractors": [
+            "want",
+            "this"
+          ],
+          "pair": {
+            "es": "Me lo llevo",
+            "t": "I'll take it"
+          }
         },
         {
           "id": "u4l4e5",
           "type": "type",
           "prompt": "Escribe «barato» en inglés",
-          "solution": "cheap",
-          "accept": ["cheap"],
-          "pair": { "es": "Barato", "t": "Cheap" }
+          "solution": "Cheap",
+          "accept": [
+            "cheap"
+          ],
+          "pair": {
+            "es": "Barato",
+            "t": "Cheap"
+          }
         },
         {
           "id": "u4l4e6",
           "type": "choice",
           "prompt": "«Expensive» es…",
-          "options": ["caro", "barato", "grande", "nuevo"],
+          "options": [
+            "caro",
+            "barato",
+            "grande",
+            "nuevo"
+          ],
           "answer": 0,
-          "pair": { "es": "Caro", "t": "Expensive" }
+          "pair": {
+            "es": "Caro",
+            "t": "Expensive"
+          }
         },
         {
           "id": "u4l4e7",
           "type": "match",
           "prompt": "Empareja el vocabulario de compras",
           "pairs": [
-            { "es": "Talla", "t": "Size" },
-            { "es": "Efectivo", "t": "Cash" },
-            { "es": "Tarjeta", "t": "Card" },
-            { "es": "Recibo", "t": "Receipt" }
+            {
+              "es": "Talla",
+              "t": "Size"
+            },
+            {
+              "es": "Efectivo",
+              "t": "Cash"
+            },
+            {
+              "es": "Tarjeta",
+              "t": "Card"
+            },
+            {
+              "es": "Recibo",
+              "t": "Receipt"
+            }
           ]
         },
         {
@@ -364,7 +623,916 @@
             "Solo tengo efectivo"
           ],
           "answer": 0,
-          "pair": { "es": "Solo estoy mirando", "t": "I'm just looking" }
+          "pair": {
+            "es": "Solo estoy mirando",
+            "t": "I'm just looking"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "El tiempo libre",
+          "t": "The free time"
+        },
+        {
+          "es": "Ningún",
+          "t": "No"
+        },
+        {
+          "es": "Construir",
+          "t": "Build"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El tiempo libre»?",
+          "options": [
+            "the free time",
+            "no",
+            "build",
+            "speak"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El tiempo libre",
+            "t": "The free time"
+          }
+        },
+        {
+          "id": "u4l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "No",
+          "options": [
+            "Ningún",
+            "Construir",
+            "Hablar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ningún",
+            "t": "No"
+          }
+        },
+        {
+          "id": "u4l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "build",
+            "speak",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Construir",
+            "t": "Build"
+          }
+        },
+        {
+          "id": "u4l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Hablar»",
+          "solution": "Speak",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Hablar",
+            "t": "Speak"
+          }
+        },
+        {
+          "id": "u4l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «los vaqueros»",
+          "solution": "The jeans",
+          "accept": [
+            "the jeans",
+            "the jeans"
+          ],
+          "pair": {
+            "es": "Los vaqueros",
+            "t": "The jeans"
+          }
+        },
+        {
+          "id": "u4l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La hora / el tiempo",
+              "t": "The time"
+            },
+            {
+              "es": "Enojado",
+              "t": "Angry"
+            },
+            {
+              "es": "El vestido",
+              "t": "The dress"
+            }
+          ]
+        },
+        {
+          "id": "u4l5e7",
+          "type": "choice",
+          "prompt": "«Muy» se traduce como...",
+          "options": [
+            "very",
+            "the woman",
+            "real",
+            "difficult"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Muy",
+            "t": "Very"
+          }
+        },
+        {
+          "id": "u4l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The woman",
+          "options": [
+            "La mujer",
+            "Real",
+            "Difícil"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mujer",
+            "t": "The woman"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Comprar",
+          "t": "Buy"
+        },
+        {
+          "es": "El ciudadano",
+          "t": "The citizen"
+        },
+        {
+          "es": "La dirección",
+          "t": "The direction"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Comprar»?",
+          "options": [
+            "buy",
+            "the citizen",
+            "the direction",
+            "car"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Comprar",
+            "t": "Buy"
+          }
+        },
+        {
+          "id": "u4l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The citizen",
+          "options": [
+            "El ciudadano",
+            "La dirección",
+            "Coche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ciudadano",
+            "t": "The citizen"
+          }
+        },
+        {
+          "id": "u4l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ direction",
+          "options": [
+            "the",
+            "car",
+            "long"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La dirección",
+            "t": "The direction"
+          }
+        },
+        {
+          "id": "u4l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Coche»",
+          "solution": "Car",
+          "distractors": [
+            "long",
+            "problem"
+          ],
+          "pair": {
+            "es": "Coche",
+            "t": "Car"
+          }
+        },
+        {
+          "id": "u4l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «largo»",
+          "solution": "Long",
+          "accept": [
+            "long",
+            "long"
+          ],
+          "pair": {
+            "es": "Largo",
+            "t": "Long"
+          }
+        },
+        {
+          "id": "u4l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Problema",
+              "t": "Problem"
+            },
+            {
+              "es": "La tienda",
+              "t": "The shop"
+            },
+            {
+              "es": "La mariposa",
+              "t": "The butterfly"
+            }
+          ]
+        },
+        {
+          "id": "u4l6e7",
+          "type": "choice",
+          "prompt": "«Cabeza» se traduce como...",
+          "options": [
+            "head",
+            "short",
+            "seven",
+            "the wind"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cabeza",
+            "t": "Head"
+          }
+        },
+        {
+          "id": "u4l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Short",
+          "options": [
+            "Corto",
+            "Siete",
+            "El viento"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Corto",
+            "t": "Short"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "Línea",
+          "t": "Line"
+        },
+        {
+          "es": "La falda",
+          "t": "The skirt"
+        },
+        {
+          "es": "Cara",
+          "t": "Face"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Línea»?",
+          "options": [
+            "line",
+            "the skirt",
+            "face",
+            "to write"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Línea",
+            "t": "Line"
+          }
+        },
+        {
+          "id": "u4l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The skirt",
+          "options": [
+            "La falda",
+            "Cara",
+            "Escribir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La falda",
+            "t": "The skirt"
+          }
+        },
+        {
+          "id": "u4l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "face",
+            "to",
+            "woman"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cara",
+            "t": "Face"
+          }
+        },
+        {
+          "id": "u4l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Escribir»",
+          "solution": "To write",
+          "distractors": [
+            "woman",
+            "walk"
+          ],
+          "pair": {
+            "es": "Escribir",
+            "t": "To write"
+          }
+        },
+        {
+          "id": "u4l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «mujer»",
+          "solution": "Woman",
+          "accept": [
+            "woman",
+            "woman"
+          ],
+          "pair": {
+            "es": "Mujer",
+            "t": "Woman"
+          }
+        },
+        {
+          "id": "u4l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Caminar",
+              "t": "Walk"
+            },
+            {
+              "es": "La familia",
+              "t": "The family"
+            },
+            {
+              "es": "La tienda",
+              "t": "The shop"
+            }
+          ]
+        },
+        {
+          "id": "u4l7e7",
+          "type": "choice",
+          "prompt": "«Estos» se traduce como...",
+          "options": [
+            "these",
+            "the colleague",
+            "home",
+            "the flight"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estos",
+            "t": "These"
+          }
+        },
+        {
+          "id": "u4l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The colleague",
+          "options": [
+            "El compañero",
+            "Hogar",
+            "El vuelo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El compañero",
+            "t": "The colleague"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El restaurante",
+          "t": "The restaurant"
+        },
+        {
+          "es": "La razón",
+          "t": "The reason"
+        },
+        {
+          "es": "Leer",
+          "t": "Read"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El restaurante»?",
+          "options": [
+            "the restaurant",
+            "the reason",
+            "read",
+            "the pot"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El restaurante",
+            "t": "The restaurant"
+          }
+        },
+        {
+          "id": "u4l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The reason",
+          "options": [
+            "La razón",
+            "Leer",
+            "La olla"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La razón",
+            "t": "The reason"
+          }
+        },
+        {
+          "id": "u4l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "read",
+            "the",
+            "orange"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Leer",
+            "t": "Read"
+          }
+        },
+        {
+          "id": "u4l8e4",
+          "type": "build",
+          "prompt": "Traduce: «La olla»",
+          "solution": "The pot",
+          "distractors": [
+            "orange",
+            "about"
+          ],
+          "pair": {
+            "es": "La olla",
+            "t": "The pot"
+          }
+        },
+        {
+          "id": "u4l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «naranja (color)»",
+          "solution": "Orange (color)",
+          "accept": [
+            "orange (color)",
+            "orange (color)"
+          ],
+          "pair": {
+            "es": "Naranja (color)",
+            "t": "Orange (color)"
+          }
+        },
+        {
+          "id": "u4l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Sobre/acerca de",
+              "t": "About"
+            },
+            {
+              "es": "Incorrecto",
+              "t": "Wrong"
+            },
+            {
+              "es": "Invitar",
+              "t": "To invite"
+            }
+          ]
+        },
+        {
+          "id": "u4l8e7",
+          "type": "choice",
+          "prompt": "«El bar» se traduce como...",
+          "options": [
+            "the bar",
+            "stop",
+            "the series",
+            "the photo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El bar",
+            "t": "The bar"
+          }
+        },
+        {
+          "id": "u4l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Stop",
+          "options": [
+            "Parar",
+            "La serie",
+            "La foto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Parar",
+            "t": "Stop"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "¿Hablas inglés?",
+          "t": "Do you speak English?"
+        },
+        {
+          "es": "Agua",
+          "t": "Water"
+        },
+        {
+          "es": "El actor",
+          "t": "The actor"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «¿Hablas inglés?»?",
+          "options": [
+            "Do you speak English?",
+            "water",
+            "the actor",
+            "the word"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Hablas inglés?",
+            "t": "Do you speak English?"
+          }
+        },
+        {
+          "id": "u4l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Water",
+          "options": [
+            "Agua",
+            "El actor",
+            "La palabra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Agua",
+            "t": "Water"
+          }
+        },
+        {
+          "id": "u4l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ actor",
+          "options": [
+            "the",
+            "thex",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El actor",
+            "t": "The actor"
+          }
+        },
+        {
+          "id": "u4l9e4",
+          "type": "build",
+          "prompt": "Traduce: «La palabra»",
+          "solution": "The word",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "La palabra",
+            "t": "The word"
+          }
+        },
+        {
+          "id": "u4l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el cinturón»",
+          "solution": "The belt",
+          "accept": [
+            "the belt",
+            "the belt"
+          ],
+          "pair": {
+            "es": "El cinturón",
+            "t": "The belt"
+          }
+        },
+        {
+          "id": "u4l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El cliente",
+              "t": "The customer"
+            },
+            {
+              "es": "Más tarde",
+              "t": "Later"
+            },
+            {
+              "es": "Nervioso",
+              "t": "Nervous"
+            }
+          ]
+        },
+        {
+          "id": "u4l9e7",
+          "type": "choice",
+          "prompt": "«La canción» se traduce como...",
+          "options": [
+            "the song",
+            "the watch",
+            "the language",
+            "to take"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La canción",
+            "t": "The song"
+          }
+        },
+        {
+          "id": "u4l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The watch",
+          "options": [
+            "El reloj",
+            "El idioma",
+            "Coger"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El reloj",
+            "t": "The watch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u4l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Ocho",
+          "t": "Eight"
+        },
+        {
+          "es": "Los calcetines",
+          "t": "The socks"
+        },
+        {
+          "es": "Cuándo",
+          "t": "When"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u4l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Ocho»?",
+          "options": [
+            "eight",
+            "the socks",
+            "when",
+            "hour"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ocho",
+            "t": "Eight"
+          }
+        },
+        {
+          "id": "u4l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The socks",
+          "options": [
+            "Los calcetines",
+            "Cuándo",
+            "Hora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los calcetines",
+            "t": "The socks"
+          }
+        },
+        {
+          "id": "u4l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "when",
+            "hour",
+            "the"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuándo",
+            "t": "When"
+          }
+        },
+        {
+          "id": "u4l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Hora»",
+          "solution": "Hour",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "Hora",
+            "t": "Hour"
+          }
+        },
+        {
+          "id": "u4l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el título»",
+          "solution": "The title",
+          "accept": [
+            "the title",
+            "the title"
+          ],
+          "pair": {
+            "es": "El título",
+            "t": "The title"
+          }
+        },
+        {
+          "id": "u4l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Los vaqueros",
+              "t": "The jeans"
+            },
+            {
+              "es": "La biblioteca",
+              "t": "The library"
+            },
+            {
+              "es": "Amar",
+              "t": "Love"
+            }
+          ]
+        },
+        {
+          "id": "u4l10e7",
+          "type": "choice",
+          "prompt": "«Todavía» se traduce como...",
+          "options": [
+            "still",
+            "the letter",
+            "red",
+            "to sleep"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Todavía",
+            "t": "Still"
+          }
+        },
+        {
+          "id": "u4l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The letter",
+          "options": [
+            "La carta",
+            "Rojo",
+            "Dormir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La carta",
+            "t": "The letter"
+          }
         }
       ]
     }

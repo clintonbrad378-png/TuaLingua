@@ -1,379 +1,1626 @@
 {
- "id": "c3",
- "title": "Ciudad y rutina",
- "emoji": "🏙️",
- "color": "#60A5FA",
- "lessons": [
-  {
-   "id": "c3l1",
-   "title": "Lugares de la ciudad",
-   "goal": "Di dónde están tus sitios de siempre",
-   "tip": [
-    "Para decir dónde está algo se usa 在 (zài): 学校在北京 (xuéxiào zài Běijīng) «la escuela está en Pekín».",
-    "Los tonos siguen mandando en la ciudad: 八 (bā) «ocho» es 1º tono y 爸 (bà) «papá» es 4º tono.",
-    "哪里 (nǎlǐ) pregunta por el lugar; va al final de la frase, como el «¿dónde?» del español."
-   ],
-   "phrases": [
-    { "es": "Escuela", "t": "学校 (xuéxiào)" },
-    { "es": "Tienda", "t": "商店 (shāngdiàn)" },
-    { "es": "Hospital", "t": "医院 (yīyuàn)" },
-    { "es": "Parque", "t": "公园 (gōngyuán)" },
-    { "es": "Estar en", "t": "在 (zài)" },
-    { "es": "¿Dónde?", "t": "哪里 (nǎlǐ)" }
-   ],
-   "exercises": [
+  "id": "c3",
+  "title": "城市与日常",
+  "emoji": "🏙️",
+  "color": "#60A5FA",
+  "lessons": [
     {
-     "id": "c3l1e1",
-     "type": "choice",
-     "prompt": "«学校» significa…",
-     "options": ["Escuela", "Hospital", "Tienda", "Parque"],
-     "answer": 0,
-     "pair": { "es": "Escuela", "t": "学校 (xuéxiào)" }
+      "id": "c3l1",
+      "title": "Lugares de la ciudad",
+      "goal": "Di dónde están tus sitios de siempre",
+      "tip": [
+        "Para decir dónde está algo se usa 在 (zài): 学校在北京 (xuéxiào zài Běijīng) «la escuela está en Pekín».",
+        "Los tonos siguen mandando en la ciudad: 八 (bā) «ocho» es 1º tono y 爸 (bà) «papá» es 4º tono.",
+        "哪里 (nǎlǐ) pregunta por el lugar; va al final de la frase, como el «¿dónde?» del español."
+      ],
+      "phrases": [
+        {
+          "es": "Escuela",
+          "t": "学校 (xuéxiào)"
+        },
+        {
+          "es": "Tienda",
+          "t": "商店 (shāngdiàn)"
+        },
+        {
+          "es": "Hospital",
+          "t": "医院 (yīyuàn)"
+        },
+        {
+          "es": "Parque",
+          "t": "公园 (gōngyuán)"
+        },
+        {
+          "es": "Estar en",
+          "t": "在 (zài)"
+        },
+        {
+          "es": "¿Dónde?",
+          "t": "哪里 (nǎlǐ)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l1e1",
+          "type": "choice",
+          "prompt": "«学校» significa…",
+          "options": [
+            "Escuela",
+            "Hospital",
+            "Tienda",
+            "Parque"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Escuela",
+            "t": "学校 (xuéxiào)"
+          }
+        },
+        {
+          "id": "c3l1e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «hospital»?",
+          "options": [
+            "医院 (yīyuàn)",
+            "学校 (xuéxiào)",
+            "商店 (shāngdiàn)",
+            "公园 (gōngyuán)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hospital",
+            "t": "医院 (yīyuàn)"
+          }
+        },
+        {
+          "id": "c3l1e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "公园 在 哪里 (gōngyuán zài nǎlǐ)",
+          "options": [
+            "¿Dónde está el parque?",
+            "El parque es grande",
+            "Vamos al parque",
+            "La tienda está cerrada"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está el parque?",
+            "t": "公园在哪里 (gōngyuán zài nǎlǐ)"
+          },
+          "explain": "Estructura: lugar + 在 (zài) + pregunta."
+        },
+        {
+          "id": "c3l1e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «ba»?",
+          "audio": "八 (bā)",
+          "options": [
+            "八 (bā) · 1º",
+            "爸 (bà) · 4º",
+            "把 (bǎ) · 3º",
+            "拔 (bá) · 2º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El primer tono",
+            "t": "八 (bā)"
+          }
+        },
+        {
+          "id": "c3l1e5",
+          "type": "fill",
+          "prompt": "Completa «escuela» en pinyin",
+          "sentence": "wǒ de __ zài zhèr",
+          "options": [
+            "xuéxiào",
+            "yīyuàn",
+            "chá",
+            "qián"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mi escuela está aquí",
+            "t": "我的学校在这儿 (wǒ de xuéxiào zài zhèr)"
+          },
+          "explain": "这儿 (zhèr) «aquí» (en el sur: 这里 zhèlǐ)."
+        },
+        {
+          "id": "c3l1e6",
+          "type": "build",
+          "prompt": "Traduce: «¿Dónde está el parque?»",
+          "solution": "公园 在 哪里",
+          "distractors": [
+            "学校",
+            "几"
+          ],
+          "pair": {
+            "es": "¿Dónde está el parque?",
+            "t": "公园在哪里 (gōngyuán zài nǎlǐ)"
+          }
+        },
+        {
+          "id": "c3l1e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Tienda» (acepta hanzi o pinyin sin tonos)",
+          "solution": "商店",
+          "accept": [
+            "商店",
+            "shangdian"
+          ],
+          "pair": {
+            "es": "Tienda",
+            "t": "商店 (shāngdiàn)"
+          }
+        },
+        {
+          "id": "c3l1e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Escuela",
+              "t": "学校 (xuéxiào)"
+            },
+            {
+              "es": "Tienda",
+              "t": "商店 (shāngdiàn)"
+            },
+            {
+              "es": "Hospital",
+              "t": "医院 (yīyuàn)"
+            },
+            {
+              "es": "Parque",
+              "t": "公园 (gōngyuán)"
+            },
+            {
+              "es": "Estar en",
+              "t": "在 (zài)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c3l1e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «hospital»?",
-     "options": ["医院 (yīyuàn)", "学校 (xuéxiào)", "商店 (shāngdiàn)", "公园 (gōngyuán)"],
-     "answer": 0,
-     "pair": { "es": "Hospital", "t": "医院 (yīyuàn)" }
+      "id": "c3l2",
+      "title": "Moverte por la ciudad",
+      "goal": "Indica el camino y el transporte",
+      "tip": [
+        "坐 (zuò) sirve para «ir en» transporte: 坐地铁 (zuò dìtiě) «ir en metro».",
+        "这 (zhè) señala lo cercano y 那 (nà) lo lejano: zhè tiáo lù, «esta calle»."
+      ],
+      "phrases": [
+        {
+          "es": "Esto, este",
+          "t": "这 (zhè)"
+        },
+        {
+          "es": "Eso, ese",
+          "t": "那 (nà)"
+        },
+        {
+          "es": "Ir andando",
+          "t": "走 (zǒu)"
+        },
+        {
+          "es": "Ir en (transporte)",
+          "t": "坐 (zuò)"
+        },
+        {
+          "es": "Metro",
+          "t": "地铁 (dìtiě)"
+        },
+        {
+          "es": "Estación",
+          "t": "车站 (chēzhàn)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l2e1",
+          "type": "choice",
+          "prompt": "«地铁» significa…",
+          "options": [
+            "Metro",
+            "Autobús",
+            "Taxi",
+            "A pie"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Metro",
+            "t": "地铁 (dìtiě)"
+          }
+        },
+        {
+          "id": "c3l2e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «ir andando»?",
+          "options": [
+            "走 (zǒu)",
+            "坐 (zuò)",
+            "在 (zài)",
+            "买 (mǎi)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ir andando",
+            "t": "走 (zǒu)"
+          }
+        },
+        {
+          "id": "c3l2e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我们 坐 地铁 去 (wǒmen zuò dìtiě qù)",
+          "options": [
+            "Vamos en metro",
+            "Vamos a pie",
+            "¿Dónde está el metro?",
+            "El metro está lejos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vamos en metro",
+            "t": "我们坐地铁去 (wǒmen zuò dìtiě qù)"
+          },
+          "explain": "我们 (wǒmen) «nosotros»; 去 (qù) «ir a»."
+        },
+        {
+          "id": "c3l2e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «zhi»?",
+          "audio": "这 (zhè)",
+          "options": [
+            "这 (zhè) · 4º",
+            "只 (zhī) · 1º",
+            "直 (zhí) · 2º",
+            "纸 (zhǐ) · 3º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cuarto tono",
+            "t": "这 (zhè)"
+          }
+        },
+        {
+          "id": "c3l2e5",
+          "type": "fill",
+          "prompt": "Completa «estación» en pinyin",
+          "sentence": "dìtiě __ zài nǎlǐ?",
+          "options": [
+            "chēzhàn",
+            "gōngyuán",
+            "zǒu",
+            "shāngdiàn"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la estación de metro?",
+            "t": "地铁车站在哪里 (dìtiě chēzhàn zài nǎlǐ)"
+          },
+          "explain": "车 (chē) es vehículo: la estación es una «casa del vehículo»."
+        },
+        {
+          "id": "c3l2e6",
+          "type": "build",
+          "prompt": "Traduce: «Vamos a pie»",
+          "solution": "我们 走 吧",
+          "distractors": [
+            "坐",
+            "妈"
+          ],
+          "pair": {
+            "es": "Vamos a pie",
+            "t": "我们走吧 (wǒmen zǒu ba)"
+          },
+          "explain": "吧 (ba) al final suaviza la propuesta."
+        },
+        {
+          "id": "c3l2e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Esto, este» (acepta hanzi o pinyin sin tonos)",
+          "solution": "这",
+          "accept": [
+            "这",
+            "zhe"
+          ],
+          "pair": {
+            "es": "Esto, este",
+            "t": "这 (zhè)"
+          }
+        },
+        {
+          "id": "c3l2e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Esto, este",
+              "t": "这 (zhè)"
+            },
+            {
+              "es": "Eso, ese",
+              "t": "那 (nà)"
+            },
+            {
+              "es": "Ir andando",
+              "t": "走 (zǒu)"
+            },
+            {
+              "es": "Ir en (transporte)",
+              "t": "坐 (zuò)"
+            },
+            {
+              "es": "Metro",
+              "t": "地铁 (dìtiě)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c3l1e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "公园 在 哪里 (gōngyuán zài nǎlǐ)",
-     "options": ["¿Dónde está el parque?", "El parque es grande", "Vamos al parque", "La tienda está cerrada"],
-     "answer": 0,
-     "pair": { "es": "¿Dónde está el parque?", "t": "公园在哪里 (gōngyuán zài nǎlǐ)" },
-     "explain": "Estructura: lugar + 在 (zài) + pregunta."
+      "id": "c3l3",
+      "title": "Hoy, ayer y mañana",
+      "goal": "Sitúa el tiempo y pregunta la hora",
+      "tip": [
+        "La hora vá con 点 (diǎn): 现在几点 (xiànzài jǐ diǎn) «¿qué hora es ahora?».",
+        "Los tres pilares: 昨天 (zuótiān), 今天 (jīntiān), 明天 (míngtiān) — ayer, hoy, mañana."
+      ],
+      "phrases": [
+        {
+          "es": "Hoy",
+          "t": "今天 (jīntiān)"
+        },
+        {
+          "es": "Ayer",
+          "t": "昨天 (zuótiān)"
+        },
+        {
+          "es": "Mañana",
+          "t": "明天 (míngtiān)"
+        },
+        {
+          "es": "Ahora",
+          "t": "现在 (xiànzài)"
+        },
+        {
+          "es": "¿Qué hora es?",
+          "t": "现在几点 (xiànzài jǐ diǎn)"
+        },
+        {
+          "es": "En punto",
+          "t": "点 (diǎn)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l3e1",
+          "type": "choice",
+          "prompt": "«明天» significa…",
+          "options": [
+            "Mañana",
+            "Ayer",
+            "Hoy",
+            "Ahora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mañana",
+            "t": "明天 (míngtiān)"
+          }
+        },
+        {
+          "id": "c3l3e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «ahora»?",
+          "options": [
+            "现在 (xiànzài)",
+            "今天 (jīntiān)",
+            "昨天 (zuótiān)",
+            "几点 (jǐ diǎn)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ahora",
+            "t": "现在 (xiànzài)"
+          }
+        },
+        {
+          "id": "c3l3e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "现在 几点 (xiànzài jǐ diǎn)",
+          "options": [
+            "¿Qué hora es ahora?",
+            "¿Hoy qué hacemos?",
+            "Son las siete",
+            "Mañana temprano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Qué hora es ahora?",
+            "t": "现在几点 (xiànzài jǐ diǎn)"
+          },
+          "explain": "几 (jǐ) añade la idea de «cuántos»."
+        },
+        {
+          "id": "c3l3e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «sì»?",
+          "audio": "四 (sì)",
+          "options": [
+            "四 (sì) · 4º",
+            "十 (shí) · 2º",
+            "思 (sī) · 1º",
+            "以 (yǐ) · 3º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cuarto tono",
+            "t": "四 (sì)"
+          },
+          "explain": "四 (sì) y 十 (shí) suenan parecidos: sì cae (4º) y shí sube (2º)."
+        },
+        {
+          "id": "c3l3e5",
+          "type": "fill",
+          "prompt": "Completa «mañana» en pinyin",
+          "sentence": "__ wǒ qù xuéxiào",
+          "options": [
+            "míngtiān",
+            "zuótiān",
+            "jīntiān",
+            "xiànzài"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mañana voy a la escuela",
+            "t": "明天我去学校 (míngtiān wǒ qù xuéxiào)"
+          },
+          "explain": "En chino el tiempo va al PRINCIPIO de la frase."
+        },
+        {
+          "id": "c3l3e6",
+          "type": "build",
+          "prompt": "Traduce: «¿Qué hora es ahora?»",
+          "solution": "现在 几 点",
+          "distractors": [
+            "吗",
+            "家"
+          ],
+          "pair": {
+            "es": "¿Qué hora es ahora?",
+            "t": "现在几点 (xiànzài jǐ diǎn)"
+          }
+        },
+        {
+          "id": "c3l3e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Hoy» (acepta hanzi o pinyin sin tonos)",
+          "solution": "今天",
+          "accept": [
+            "今天",
+            "jintian"
+          ],
+          "pair": {
+            "es": "Hoy",
+            "t": "今天 (jīntiān)"
+          }
+        },
+        {
+          "id": "c3l3e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Hoy",
+              "t": "今天 (jīntiān)"
+            },
+            {
+              "es": "Ayer",
+              "t": "昨天 (zuótiān)"
+            },
+            {
+              "es": "Mañana",
+              "t": "明天 (míngtiān)"
+            },
+            {
+              "es": "Ahora",
+              "t": "现在 (xiànzài)"
+            },
+            {
+              "es": "¿Qué hora es?",
+              "t": "现在几点 (xiànzài jǐ diǎn)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c3l1e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «ba»?",
-     "audio": "八 (bā)",
-     "options": ["八 (bā) · 1º", "爸 (bà) · 4º", "把 (bǎ) · 3º", "拔 (bá) · 2º"],
-     "answer": 0,
-     "pair": { "es": "El primer tono", "t": "八 (bā)" }
+      "id": "c3l4",
+      "title": "Mi día a día",
+      "goal": "Cuenta tu rutina y cómo te sientes",
+      "tip": [
+        "起床 (qǐchuáng) es «salir de la cama»: suena como una acción, no un estado.",
+        "忙 (máng) y 累 (lèi) son dos estados de cada día laborable: 今天我很累 (jīntiān wǒ hěn lèi)."
+      ],
+      "phrases": [
+        {
+          "es": "Levantarse",
+          "t": "起床 (qǐchuáng)"
+        },
+        {
+          "es": "Dormir",
+          "t": "睡 (shuì)"
+        },
+        {
+          "es": "Por la mañana",
+          "t": "早上 (zǎoshang)"
+        },
+        {
+          "es": "Por la noche",
+          "t": "晚上 (wǎnshang)"
+        },
+        {
+          "es": "Ocupado",
+          "t": "忙 (máng)"
+        },
+        {
+          "es": "Cansado",
+          "t": "累 (lèi)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l4e1",
+          "type": "choice",
+          "prompt": "«累» significa…",
+          "options": [
+            "Cansado",
+            "Ocupado",
+            "Contento",
+            "Dormir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cansado",
+            "t": "累 (lèi)"
+          }
+        },
+        {
+          "id": "c3l4e2",
+          "type": "choice",
+          "prompt": "¿Cuál es «por la noche»?",
+          "options": [
+            "晚上 (wǎnshang)",
+            "早上 (zǎoshang)",
+            "现在 (xiànzài)",
+            "睡觉 (shuìjiào)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por la noche",
+            "t": "晚上 (wǎnshang)"
+          }
+        },
+        {
+          "id": "c3l4e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "我 很 累 (wǒ hěn lèi)",
+          "options": [
+            "Estoy muy cansado",
+            "Estoy muy ocupado",
+            "Voy a dormir",
+            "Es muy tarde"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy muy cansado",
+            "t": "我很累 (wǒ hěn lèi)"
+          }
+        },
+        {
+          "id": "c3l4e4",
+          "type": "listen",
+          "prompt": "Escucha: ¿qué tono oyes en «yi»?",
+          "audio": "亿 (yì)",
+          "options": [
+            "亿 (yì) · 4º",
+            "一 (yī) · 1º",
+            "宜 (yí) · 2º",
+            "以 (yǐ) · 3º"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cuarto tono",
+            "t": "亿 (yì)"
+          }
+        },
+        {
+          "id": "c3l4e5",
+          "type": "fill",
+          "prompt": "Completa «levantarse» en pinyin",
+          "sentence": "wǒ měitiān qīdiǎn __",
+          "options": [
+            "qǐchuáng",
+            "shuì",
+            "zǒu",
+            "qǐ"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cada día me levanto a las siete",
+            "t": "我每天七点起床 (wǒ měitiān qī diǎn qǐchuáng)"
+          },
+          "explain": "每天 (měitiān) «cada día»."
+        },
+        {
+          "id": "c3l4e6",
+          "type": "build",
+          "prompt": "Traduce: «Voy a dormir»",
+          "solution": "我 要 睡觉",
+          "distractors": [
+            "吃",
+            "妈妈"
+          ],
+          "pair": {
+            "es": "Voy a dormir",
+            "t": "我要睡觉 (wǒ yào shuìjiào)"
+          },
+          "explain": "睡觉 (shuìjiào) es la forma cotidiana de «dormir»."
+        },
+        {
+          "id": "c3l4e7",
+          "type": "type",
+          "prompt": "Escribe en Chino mandarín: «Ocupado» (acepta hanzi o pinyin sin tonos)",
+          "solution": "忙",
+          "accept": [
+            "忙",
+            "mang"
+          ],
+          "pair": {
+            "es": "Ocupado",
+            "t": "忙 (máng)"
+          }
+        },
+        {
+          "id": "c3l4e8",
+          "type": "match",
+          "prompt": "Une cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Levantarse",
+              "t": "起床 (qǐchuáng)"
+            },
+            {
+              "es": "Dormir",
+              "t": "睡 (shuì)"
+            },
+            {
+              "es": "Por la mañana",
+              "t": "早上 (zǎoshang)"
+            },
+            {
+              "es": "Por la noche",
+              "t": "晚上 (wǎnshang)"
+            },
+            {
+              "es": "Ocupado",
+              "t": "忙 (máng)"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "c3l1e5",
-     "type": "fill",
-     "prompt": "Completa «escuela» en pinyin",
-     "sentence": "wǒ de __ zài zhèr",
-     "options": ["xuéxiào", "yīyuàn", "chá", "qián"],
-     "answer": 0,
-     "pair": { "es": "Mi escuela está aquí", "t": "我的学校在这儿 (wǒ de xuéxiào zài zhèr)" },
-     "explain": "这儿 (zhèr) «aquí» (en el sur: 这里 zhèlǐ)."
+      "id": "c3l5",
+      "title": "额外词汇 1",
+      "goal": "关键词汇",
+      "tip": [
+        "练习重要词汇。"
+      ],
+      "phrases": [
+        {
+          "es": "Aeropuerto",
+          "t": "机场 (jīchǎng)"
+        },
+        {
+          "es": "¿Dónde está?",
+          "t": "在哪里？(zài nǎlǐ?)"
+        },
+        {
+          "es": "Helado",
+          "t": "冰淇淋 (bīngqílín)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Aeropuerto»?",
+          "options": [
+            "机场 (jīchǎng)",
+            "在哪里？(zài nǎlǐ?)",
+            "冰淇淋 (bīngqílín)",
+            "轻 (qīng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Aeropuerto",
+            "t": "机场 (jīchǎng)"
+          }
+        },
+        {
+          "id": "c3l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "在哪里？(zài nǎlǐ?)",
+          "options": [
+            "¿Dónde está?",
+            "Helado",
+            "Ligero"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está?",
+            "t": "在哪里？(zài nǎlǐ?)"
+          }
+        },
+        {
+          "id": "c3l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (bīngqílín)",
+          "options": [
+            "冰淇淋",
+            "轻",
+            "你"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Helado",
+            "t": "冰淇淋 (bīngqílín)"
+          }
+        },
+        {
+          "id": "c3l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Ligero»",
+          "solution": "轻 (qīng)",
+          "distractors": [
+            "你",
+            "我的中文不好"
+          ],
+          "pair": {
+            "es": "Ligero",
+            "t": "轻 (qīng)"
+          }
+        },
+        {
+          "id": "c3l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «tú»",
+          "solution": "你",
+          "accept": [
+            "你",
+            "ni"
+          ],
+          "pair": {
+            "es": "Tú",
+            "t": "你 (nǐ)"
+          }
+        },
+        {
+          "id": "c3l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Mi chino no es muy bueno",
+              "t": "我的中文不好 (wǒ de Zhōngwén bù hǎo)"
+            },
+            {
+              "es": "Vacío",
+              "t": "空 (kōng)"
+            },
+            {
+              "es": "Gustar",
+              "t": "喜欢 (xǐhuan)"
+            }
+          ]
+        },
+        {
+          "id": "c3l5e7",
+          "type": "choice",
+          "prompt": "«Lavar» se traduce como...",
+          "options": [
+            "洗 (xǐ)",
+            "短 (duǎn)",
+            "电梯 (diàntī)",
+            "能 (néng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lavar",
+            "t": "洗 (xǐ)"
+          }
+        },
+        {
+          "id": "c3l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "短 (duǎn)",
+          "options": [
+            "Corto",
+            "Ascensor",
+            "Poder"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Corto",
+            "t": "短 (duǎn)"
+          }
+        }
+      ]
     },
     {
-     "id": "c3l1e6",
-     "type": "build",
-     "prompt": "Traduce: «¿Dónde está el parque?»",
-     "solution": "公园 在 哪里",
-     "distractors": ["学校", "几"],
-     "pair": { "es": "¿Dónde está el parque?", "t": "公园在哪里 (gōngyuán zài nǎlǐ)" }
+      "id": "c3l6",
+      "title": "实用短语 2",
+      "goal": "日常短语",
+      "tip": [
+        "自然表达。"
+      ],
+      "phrases": [
+        {
+          "es": "Hermana menor",
+          "t": "妹妹 (mèimei)"
+        },
+        {
+          "es": "Dinero",
+          "t": "钱 (qián)"
+        },
+        {
+          "es": "Seguro",
+          "t": "安全 (ānquán)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Hermana menor»?",
+          "options": [
+            "妹妹 (mèimei)",
+            "钱 (qián)",
+            "安全 (ānquán)",
+            "蔬菜 (shūcài)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermana menor",
+            "t": "妹妹 (mèimei)"
+          }
+        },
+        {
+          "id": "c3l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "钱 (qián)",
+          "options": [
+            "Dinero",
+            "Seguro",
+            "Verdura"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dinero",
+            "t": "钱 (qián)"
+          }
+        },
+        {
+          "id": "c3l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (ānquán)",
+          "options": [
+            "安全",
+            "蔬菜",
+            "参加"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Seguro",
+            "t": "安全 (ānquán)"
+          }
+        },
+        {
+          "id": "c3l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Verdura»",
+          "solution": "蔬菜 (shūcài)",
+          "distractors": [
+            "参加",
+            "我渴了"
+          ],
+          "pair": {
+            "es": "Verdura",
+            "t": "蔬菜 (shūcài)"
+          }
+        },
+        {
+          "id": "c3l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «participar»",
+          "solution": "参加",
+          "accept": [
+            "参加",
+            "canjia"
+          ],
+          "pair": {
+            "es": "Participar",
+            "t": "参加 (cānjiā)"
+          }
+        },
+        {
+          "id": "c3l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Tengo sed",
+              "t": "我渴了 (wǒ kě le)"
+            },
+            {
+              "es": "Estar dispuesto",
+              "t": "愿意 (yuànyì)"
+            },
+            {
+              "es": "Sal",
+              "t": "盐 (yán)"
+            }
+          ]
+        },
+        {
+          "id": "c3l6e7",
+          "type": "choice",
+          "prompt": "«Conocer» se traduce como...",
+          "options": [
+            "认识 (rènshi)",
+            "我明白了 (wǒ míngbai le)",
+            "容易 (róngyì)",
+            "已经 (yǐjīng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Conocer",
+            "t": "认识 (rènshi)"
+          }
+        },
+        {
+          "id": "c3l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "我明白了 (wǒ míngbai le)",
+          "options": [
+            "Entiendo",
+            "Fácil",
+            "Ya"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entiendo",
+            "t": "我明白了 (wǒ míngbai le)"
+          }
+        }
+      ]
     },
     {
-     "id": "c3l1e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Tienda» (acepta hanzi o pinyin sin tonos)",
-     "solution": "商店",
-     "accept": ["商店", "shangdian"],
-     "pair": { "es": "Tienda", "t": "商店 (shāngdiàn)" }
+      "id": "c3l7",
+      "title": "复习 3",
+      "goal": "复习",
+      "tip": [
+        "巩固所学。"
+      ],
+      "phrases": [
+        {
+          "es": "Claro que sí",
+          "t": "当然可以 (dāngrán kěyǐ)"
+        },
+        {
+          "es": "Carne de pollo",
+          "t": "鸡肉 (jīròu)"
+        },
+        {
+          "es": "Siempre/Continuamente",
+          "t": "一直 (yīzhí)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Claro que sí»?",
+          "options": [
+            "当然可以 (dāngrán kěyǐ)",
+            "鸡肉 (jīròu)",
+            "一直 (yīzhí)",
+            "飞机 (fēijī)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Claro que sí",
+            "t": "当然可以 (dāngrán kěyǐ)"
+          }
+        },
+        {
+          "id": "c3l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "鸡肉 (jīròu)",
+          "options": [
+            "Carne de pollo",
+            "Siempre/Continuamente",
+            "Avión"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Carne de pollo",
+            "t": "鸡肉 (jīròu)"
+          }
+        },
+        {
+          "id": "c3l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (yīzhí)",
+          "options": [
+            "一直",
+            "飞机",
+            "公共汽车站"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Siempre/Continuamente",
+            "t": "一直 (yīzhí)"
+          }
+        },
+        {
+          "id": "c3l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Avión»",
+          "solution": "飞机 (fēijī)",
+          "distractors": [
+            "公共汽车站",
+            "吃"
+          ],
+          "pair": {
+            "es": "Avión",
+            "t": "飞机 (fēijī)"
+          }
+        },
+        {
+          "id": "c3l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «parada de bus»",
+          "solution": "公共汽车站",
+          "accept": [
+            "公共汽车站",
+            "gonggong qiche zhan",
+            "gonggongqichezhan"
+          ],
+          "pair": {
+            "es": "Parada de bus",
+            "t": "公共汽车站 (gōnggòng qìchē zhàn)"
+          }
+        },
+        {
+          "id": "c3l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Comer",
+              "t": "吃 (chī)"
+            },
+            {
+              "es": "País",
+              "t": "国家 (guójiā)"
+            },
+            {
+              "es": "Poner",
+              "t": "放 (fàng)"
+            }
+          ]
+        },
+        {
+          "id": "c3l7e7",
+          "type": "choice",
+          "prompt": "«Sopa» se traduce como...",
+          "options": [
+            "汤 (tāng)",
+            "加油 (jiāyóu)",
+            "医生 (yīshēng)",
+            "贵 (guì)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sopa",
+            "t": "汤 (tāng)"
+          }
+        },
+        {
+          "id": "c3l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "加油 (jiāyóu)",
+          "options": [
+            "¡ánimo!",
+            "Médico",
+            "Caro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡ánimo!",
+            "t": "加油 (jiāyóu)"
+          }
+        }
+      ]
     },
     {
-     "id": "c3l1e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Escuela", "t": "学校 (xuéxiào)" },
-      { "es": "Tienda", "t": "商店 (shāngdiàn)" },
-      { "es": "Hospital", "t": "医院 (yīyuàn)" },
-      { "es": "Parque", "t": "公园 (gōngyuán)" },
-      { "es": "Estar en", "t": "在 (zài)" }
-     ]
+      "id": "c3l8",
+      "title": "听力练习 4",
+      "goal": "听力",
+      "tip": [
+        "训练听力。"
+      ],
+      "phrases": [
+        {
+          "es": "Aunque",
+          "t": "虽然 (suīrán)"
+        },
+        {
+          "es": "Mesa",
+          "t": "桌子 (zhuōzi)"
+        },
+        {
+          "es": "Descubrir",
+          "t": "发现 (fāxiàn)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Aunque»?",
+          "options": [
+            "虽然 (suīrán)",
+            "桌子 (zhuōzi)",
+            "发现 (fāxiàn)",
+            "一样 (yīyàng)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Aunque",
+            "t": "虽然 (suīrán)"
+          }
+        },
+        {
+          "id": "c3l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "桌子 (zhuōzi)",
+          "options": [
+            "Mesa",
+            "Descubrir",
+            "Igual"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mesa",
+            "t": "桌子 (zhuōzi)"
+          }
+        },
+        {
+          "id": "c3l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (fāxiàn)",
+          "options": [
+            "发现",
+            "一样",
+            "可乐"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Descubrir",
+            "t": "发现 (fāxiàn)"
+          }
+        },
+        {
+          "id": "c3l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Igual»",
+          "solution": "一样 (yīyàng)",
+          "distractors": [
+            "可乐",
+            "没时间"
+          ],
+          "pair": {
+            "es": "Igual",
+            "t": "一样 (yīyàng)"
+          }
+        },
+        {
+          "id": "c3l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «refresco de cola»",
+          "solution": "可乐",
+          "accept": [
+            "可乐",
+            "kele"
+          ],
+          "pair": {
+            "es": "Refresco de cola",
+            "t": "可乐 (kělè)"
+          }
+        },
+        {
+          "id": "c3l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "No tengo tiempo",
+              "t": "没时间 (méi shíjiān)"
+            },
+            {
+              "es": "Plato",
+              "t": "盘子 (pánzi)"
+            },
+            {
+              "es": "No me gusta",
+              "t": "我不喜欢 (wǒ bù xǐhuan)"
+            }
+          ]
+        },
+        {
+          "id": "c3l8e7",
+          "type": "choice",
+          "prompt": "«O» se traduce como...",
+          "options": [
+            "或者 (huòzhě)",
+            "请进 (qǐng jìn)",
+            "姐姐 (jiějie)",
+            "事情 (shìqing)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "O",
+            "t": "或者 (huòzhě)"
+          }
+        },
+        {
+          "id": "c3l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "请进 (qǐng jìn)",
+          "options": [
+            "Pasa por favor",
+            "Hermana mayor",
+            "Asunto/Cosa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pasa por favor",
+            "t": "请进 (qǐng jìn)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3l9",
+      "title": "口语练习 5",
+      "goal": "口语",
+      "tip": [
+        "建立信心。"
+      ],
+      "phrases": [
+        {
+          "es": "Caballo",
+          "t": "马 (mǎ)"
+        },
+        {
+          "es": "Flor",
+          "t": "花 (huā)"
+        },
+        {
+          "es": "Cultura",
+          "t": "文化 (wénhuà)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Caballo»?",
+          "options": [
+            "马 (mǎ)",
+            "花 (huā)",
+            "文化 (wénhuà)",
+            "对面 (duìmiàn)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Caballo",
+            "t": "马 (mǎ)"
+          }
+        },
+        {
+          "id": "c3l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "花 (huā)",
+          "options": [
+            "Flor",
+            "Cultura",
+            "Enfrente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Flor",
+            "t": "花 (huā)"
+          }
+        },
+        {
+          "id": "c3l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (wénhuà)",
+          "options": [
+            "文化",
+            "对面",
+            "做饭"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cultura",
+            "t": "文化 (wénhuà)"
+          }
+        },
+        {
+          "id": "c3l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Enfrente»",
+          "solution": "对面 (duìmiàn)",
+          "distractors": [
+            "做饭",
+            "树"
+          ],
+          "pair": {
+            "es": "Enfrente",
+            "t": "对面 (duìmiàn)"
+          }
+        },
+        {
+          "id": "c3l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cocinar»",
+          "solution": "做饭",
+          "accept": [
+            "做饭",
+            "zuofan"
+          ],
+          "pair": {
+            "es": "Cocinar",
+            "t": "做饭 (zuòfàn)"
+          }
+        },
+        {
+          "id": "c3l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Árbol",
+              "t": "树 (shù)"
+            },
+            {
+              "es": "Naranja",
+              "t": "橙子 (chéngzi)"
+            },
+            {
+              "es": "Tengo hambre",
+              "t": "我饿了 (wǒ è le)"
+            }
+          ]
+        },
+        {
+          "id": "c3l9e7",
+          "type": "choice",
+          "prompt": "«Las orejas» se traduce como...",
+          "options": [
+            "耳朵 (ěrduo)",
+            "快点 (kuài diǎn)",
+            "故事 (gùshi)",
+            "新闻 (xīnwén)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las orejas",
+            "t": "耳朵 (ěrduo)"
+          }
+        },
+        {
+          "id": "c3l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "快点 (kuài diǎn)",
+          "options": [
+            "Más rápido",
+            "Historia/Cuento",
+            "Noticias"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Más rápido",
+            "t": "快点 (kuài diǎn)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c3l10",
+      "title": "真实场景 6",
+      "goal": "真实情境",
+      "tip": [
+        "在语境中使用语言。"
+      ],
+      "phrases": [
+        {
+          "es": "Palillos",
+          "t": "筷子 (kuàizi)"
+        },
+        {
+          "es": "Internet",
+          "t": "互联网 (hùliánwǎng)"
+        },
+        {
+          "es": "O",
+          "t": "或者 (huòzhě)"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "c3l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Palillos»?",
+          "options": [
+            "筷子 (kuàizi)",
+            "互联网 (hùliánwǎng)",
+            "或者 (huòzhě)",
+            "惊讶 (jīngyà)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Palillos",
+            "t": "筷子 (kuàizi)"
+          }
+        },
+        {
+          "id": "c3l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "互联网 (hùliánwǎng)",
+          "options": [
+            "Internet",
+            "O",
+            "Sorprendido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Internet",
+            "t": "互联网 (hùliánwǎng)"
+          }
+        },
+        {
+          "id": "c3l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ (huòzhě)",
+          "options": [
+            "或者",
+            "惊讶",
+            "同事"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "O",
+            "t": "或者 (huòzhě)"
+          }
+        },
+        {
+          "id": "c3l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Sorprendido»",
+          "solution": "惊讶 (jīngyà)",
+          "distractors": [
+            "同事",
+            "认识"
+          ],
+          "pair": {
+            "es": "Sorprendido",
+            "t": "惊讶 (jīngyà)"
+          }
+        },
+        {
+          "id": "c3l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «colega»",
+          "solution": "同事",
+          "accept": [
+            "同事",
+            "tongshi"
+          ],
+          "pair": {
+            "es": "Colega",
+            "t": "同事 (tóngshì)"
+          }
+        },
+        {
+          "id": "c3l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Conocer",
+              "t": "认识 (rènshi)"
+            },
+            {
+              "es": "Ropa",
+              "t": "衣服 (yīfu)"
+            },
+            {
+              "es": "Por eso",
+              "t": "所以 (suǒyǐ)"
+            }
+          ]
+        },
+        {
+          "id": "c3l10e7",
+          "type": "choice",
+          "prompt": "«¡estupendo!» se traduce como...",
+          "options": [
+            "太好了 (tài hǎo le)",
+            "到 (dào)",
+            "西班牙 (Xībānyá)",
+            "帮助 (bāngzhù)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡estupendo!",
+            "t": "太好了 (tài hǎo le)"
+          }
+        },
+        {
+          "id": "c3l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "到 (dào)",
+          "options": [
+            "Hasta/A",
+            "España",
+            "Ayudar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hasta/A",
+            "t": "到 (dào)"
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "c3l2",
-   "title": "Moverte por la ciudad",
-   "goal": "Indica el camino y el transporte",
-   "tip": [
-    "坐 (zuò) sirve para «ir en» transporte: 坐地铁 (zuò dìtiě) «ir en metro».",
-    "这 (zhè) señala lo cercano y 那 (nà) lo lejano: zhè tiáo lù, «esta calle»."
-   ],
-   "phrases": [
-    { "es": "Esto, este", "t": "这 (zhè)" },
-    { "es": "Eso, ese", "t": "那 (nà)" },
-    { "es": "Ir andando", "t": "走 (zǒu)" },
-    { "es": "Ir en (transporte)", "t": "坐 (zuò)" },
-    { "es": "Metro", "t": "地铁 (dìtiě)" },
-    { "es": "Estación", "t": "车站 (chēzhàn)" }
-   ],
-   "exercises": [
-    {
-     "id": "c3l2e1",
-     "type": "choice",
-     "prompt": "«地铁» significa…",
-     "options": ["Metro", "Autobús", "Taxi", "A pie"],
-     "answer": 0,
-     "pair": { "es": "Metro", "t": "地铁 (dìtiě)" }
-    },
-    {
-     "id": "c3l2e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «ir andando»?",
-     "options": ["走 (zǒu)", "坐 (zuò)", "在 (zài)", "买 (mǎi)"],
-     "answer": 0,
-     "pair": { "es": "Ir andando", "t": "走 (zǒu)" }
-    },
-    {
-     "id": "c3l2e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "我们 坐 地铁 去 (wǒmen zuò dìtiě qù)",
-     "options": ["Vamos en metro", "Vamos a pie", "¿Dónde está el metro?", "El metro está lejos"],
-     "answer": 0,
-     "pair": { "es": "Vamos en metro", "t": "我们坐地铁去 (wǒmen zuò dìtiě qù)" },
-     "explain": "我们 (wǒmen) «nosotros»; 去 (qù) «ir a»."
-    },
-    {
-     "id": "c3l2e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «zhi»?",
-     "audio": "这 (zhè)",
-     "options": ["这 (zhè) · 4º", "只 (zhī) · 1º", "直 (zhí) · 2º", "纸 (zhǐ) · 3º"],
-     "answer": 0,
-     "pair": { "es": "El cuarto tono", "t": "这 (zhè)" }
-    },
-    {
-     "id": "c3l2e5",
-     "type": "fill",
-     "prompt": "Completa «estación» en pinyin",
-     "sentence": "dìtiě __ zài nǎlǐ?",
-     "options": ["chēzhàn", "gōngyuán", "zǒu", "shāngdiàn"],
-     "answer": 0,
-     "pair": { "es": "¿Dónde está la estación de metro?", "t": "地铁车站在哪里 (dìtiě chēzhàn zài nǎlǐ)" },
-     "explain": "车 (chē) es vehículo: la estación es una «casa del vehículo»."
-    },
-    {
-     "id": "c3l2e6",
-     "type": "build",
-     "prompt": "Traduce: «Vamos a pie»",
-     "solution": "我们 走 吧",
-     "distractors": ["坐", "妈"],
-     "pair": { "es": "Vamos a pie", "t": "我们走吧 (wǒmen zǒu ba)" },
-     "explain": "吧 (ba) al final suaviza la propuesta."
-    },
-    {
-     "id": "c3l2e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Esto, este» (acepta hanzi o pinyin sin tonos)",
-     "solution": "这",
-     "accept": ["这", "zhe"],
-     "pair": { "es": "Esto, este", "t": "这 (zhè)" }
-    },
-    {
-     "id": "c3l2e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Esto, este", "t": "这 (zhè)" },
-      { "es": "Eso, ese", "t": "那 (nà)" },
-      { "es": "Ir andando", "t": "走 (zǒu)" },
-      { "es": "Ir en (transporte)", "t": "坐 (zuò)" },
-      { "es": "Metro", "t": "地铁 (dìtiě)" }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c3l3",
-   "title": "Hoy, ayer y mañana",
-   "goal": "Sitúa el tiempo y pregunta la hora",
-   "tip": [
-    "La hora vá con 点 (diǎn): 现在几点 (xiànzài jǐ diǎn) «¿qué hora es ahora?».",
-    "Los tres pilares: 昨天 (zuótiān), 今天 (jīntiān), 明天 (míngtiān) — ayer, hoy, mañana."
-   ],
-   "phrases": [
-    { "es": "Hoy", "t": "今天 (jīntiān)" },
-    { "es": "Ayer", "t": "昨天 (zuótiān)" },
-    { "es": "Mañana", "t": "明天 (míngtiān)" },
-    { "es": "Ahora", "t": "现在 (xiànzài)" },
-    { "es": "¿Qué hora es?", "t": "现在几点 (xiànzài jǐ diǎn)" },
-    { "es": "En punto", "t": "点 (diǎn)" }
-   ],
-   "exercises": [
-    {
-     "id": "c3l3e1",
-     "type": "choice",
-     "prompt": "«明天» significa…",
-     "options": ["Mañana", "Ayer", "Hoy", "Ahora"],
-     "answer": 0,
-     "pair": { "es": "Mañana", "t": "明天 (míngtiān)" }
-    },
-    {
-     "id": "c3l3e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «ahora»?",
-     "options": ["现在 (xiànzài)", "今天 (jīntiān)", "昨天 (zuótiān)", "几点 (jǐ diǎn)"],
-     "answer": 0,
-     "pair": { "es": "Ahora", "t": "现在 (xiànzài)" }
-    },
-    {
-     "id": "c3l3e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "现在 几点 (xiànzài jǐ diǎn)",
-     "options": ["¿Qué hora es ahora?", "¿Hoy qué hacemos?", "Son las siete", "Mañana temprano"],
-     "answer": 0,
-     "pair": { "es": "¿Qué hora es ahora?", "t": "现在几点 (xiànzài jǐ diǎn)" },
-     "explain": "几 (jǐ) añade la idea de «cuántos»."
-    },
-    {
-     "id": "c3l3e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «sì»?",
-     "audio": "四 (sì)",
-     "options": ["四 (sì) · 4º", "十 (shí) · 2º", "思 (sī) · 1º", "以 (yǐ) · 3º"],
-     "answer": 0,
-     "pair": { "es": "El cuarto tono", "t": "四 (sì)" },
-     "explain": "四 (sì) y 十 (shí) suenan parecidos: sì cae (4º) y shí sube (2º)."
-    },
-    {
-     "id": "c3l3e5",
-     "type": "fill",
-     "prompt": "Completa «mañana» en pinyin",
-     "sentence": "__ wǒ qù xuéxiào",
-     "options": ["míngtiān", "zuótiān", "jīntiān", "xiànzài"],
-     "answer": 0,
-     "pair": { "es": "Mañana voy a la escuela", "t": "明天我去学校 (míngtiān wǒ qù xuéxiào)" },
-     "explain": "En chino el tiempo va al PRINCIPIO de la frase."
-    },
-    {
-     "id": "c3l3e6",
-     "type": "build",
-     "prompt": "Traduce: «¿Qué hora es ahora?»",
-     "solution": "现在 几 点",
-     "distractors": ["吗", "家"],
-     "pair": { "es": "¿Qué hora es ahora?", "t": "现在几点 (xiànzài jǐ diǎn)" }
-    },
-    {
-     "id": "c3l3e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Hoy» (acepta hanzi o pinyin sin tonos)",
-     "solution": "今天",
-     "accept": ["今天", "jintian"],
-     "pair": { "es": "Hoy", "t": "今天 (jīntiān)" }
-    },
-    {
-     "id": "c3l3e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Hoy", "t": "今天 (jīntiān)" },
-      { "es": "Ayer", "t": "昨天 (zuótiān)" },
-      { "es": "Mañana", "t": "明天 (míngtiān)" },
-      { "es": "Ahora", "t": "现在 (xiànzài)" },
-      { "es": "¿Qué hora es?", "t": "现在几点 (xiànzài jǐ diǎn)" }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "c3l4",
-   "title": "Mi día a día",
-   "goal": "Cuenta tu rutina y cómo te sientes",
-   "tip": [
-    "起床 (qǐchuáng) es «salir de la cama»: suena como una acción, no un estado.",
-    "忙 (máng) y 累 (lèi) son dos estados de cada día laborable: 今天我很累 (jīntiān wǒ hěn lèi)."
-   ],
-   "phrases": [
-    { "es": "Levantarse", "t": "起床 (qǐchuáng)" },
-    { "es": "Dormir", "t": "睡 (shuì)" },
-    { "es": "Por la mañana", "t": "早上 (zǎoshang)" },
-    { "es": "Por la noche", "t": "晚上 (wǎnshang)" },
-    { "es": "Ocupado", "t": "忙 (máng)" },
-    { "es": "Cansado", "t": "累 (lèi)" }
-   ],
-   "exercises": [
-    {
-     "id": "c3l4e1",
-     "type": "choice",
-     "prompt": "«累» significa…",
-     "options": ["Cansado", "Ocupado", "Contento", "Dormir"],
-     "answer": 0,
-     "pair": { "es": "Cansado", "t": "累 (lèi)" }
-    },
-    {
-     "id": "c3l4e2",
-     "type": "choice",
-     "prompt": "¿Cuál es «por la noche»?",
-     "options": ["晚上 (wǎnshang)", "早上 (zǎoshang)", "现在 (xiànzài)", "睡觉 (shuìjiào)"],
-     "answer": 0,
-     "pair": { "es": "Por la noche", "t": "晚上 (wǎnshang)" }
-    },
-    {
-     "id": "c3l4e3",
-     "type": "listen",
-     "prompt": "Escucha y elige la traducción",
-     "audio": "我 很 累 (wǒ hěn lèi)",
-     "options": ["Estoy muy cansado", "Estoy muy ocupado", "Voy a dormir", "Es muy tarde"],
-     "answer": 0,
-     "pair": { "es": "Estoy muy cansado", "t": "我很累 (wǒ hěn lèi)" }
-    },
-    {
-     "id": "c3l4e4",
-     "type": "listen",
-     "prompt": "Escucha: ¿qué tono oyes en «yi»?",
-     "audio": "亿 (yì)",
-     "options": ["亿 (yì) · 4º", "一 (yī) · 1º", "宜 (yí) · 2º", "以 (yǐ) · 3º"],
-     "answer": 0,
-     "pair": { "es": "El cuarto tono", "t": "亿 (yì)" }
-    },
-    {
-     "id": "c3l4e5",
-     "type": "fill",
-     "prompt": "Completa «levantarse» en pinyin",
-     "sentence": "wǒ měitiān qīdiǎn __",
-     "options": ["qǐchuáng", "shuì", "zǒu", "qǐ"],
-     "answer": 0,
-     "pair": { "es": "Cada día me levanto a las siete", "t": "我每天七点起床 (wǒ měitiān qī diǎn qǐchuáng)" },
-     "explain": "每天 (měitiān) «cada día»."
-    },
-    {
-     "id": "c3l4e6",
-     "type": "build",
-     "prompt": "Traduce: «Voy a dormir»",
-     "solution": "我 要 睡觉",
-     "distractors": ["吃", "妈妈"],
-     "pair": { "es": "Voy a dormir", "t": "我要睡觉 (wǒ yào shuìjiào)" },
-     "explain": "睡觉 (shuìjiào) es la forma cotidiana de «dormir»."
-    },
-    {
-     "id": "c3l4e7",
-     "type": "type",
-     "prompt": "Escribe en Chino mandarín: «Ocupado» (acepta hanzi o pinyin sin tonos)",
-     "solution": "忙",
-     "accept": ["忙", "mang"],
-     "pair": { "es": "Ocupado", "t": "忙 (máng)" }
-    },
-    {
-     "id": "c3l4e8",
-     "type": "match",
-     "prompt": "Une cada palabra con su traducción",
-     "pairs": [
-      { "es": "Levantarse", "t": "起床 (qǐchuáng)" },
-      { "es": "Dormir", "t": "睡 (shuì)" },
-      { "es": "Por la mañana", "t": "早上 (zǎoshang)" },
-      { "es": "Por la noche", "t": "晚上 (wǎnshang)" },
-      { "es": "Ocupado", "t": "忙 (máng)" }
-     ]
-    }
-   ]
-  }
- ]
+  ]
 }

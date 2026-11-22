@@ -1,0 +1,1522 @@
+{
+  "id": "r12",
+  "title": "Живое общение",
+  "emoji": "🗣️",
+  "color": "#FF5D73",
+  "lessons": [
+    {
+      "id": "r12l1",
+      "title": "Мнения",
+      "goal": "Выражать мнение",
+      "tip": [
+        "«Я думаю, что...»",
+        "«По моему мнению...»"
+      ],
+      "phrases": [
+        {
+          "es": "Я думаю, это хорошая идея",
+          "t": "Я думаю, это хорошая идея"
+        },
+        {
+          "es": "По моему мнению, это трудно",
+          "t": "По моему мнению, это трудно"
+        },
+        {
+          "es": "Я согласен",
+          "t": "Я согласен"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «я думаю, это хорошая идея»?",
+          "options": [
+            "Я думаю, это хорошая идея",
+            "По моему мнению, это трудно",
+            "Я согласен",
+            "Идея"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я думаю, это хорошая идея",
+            "t": "Я думаю, это хорошая идея"
+          }
+        },
+        {
+          "id": "r12l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "По моему мнению, это трудно",
+          "options": [
+            "По моему мнению, это трудно",
+            "Я согласен",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "По моему мнению, это трудно",
+            "t": "По моему мнению, это трудно"
+          }
+        },
+        {
+          "id": "r12l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ согласен",
+          "options": [
+            "Я",
+            "Идея",
+            "Мнение"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я согласен",
+            "t": "Я согласен"
+          }
+        },
+        {
+          "id": "r12l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Я думаю, это хорошая идея»",
+          "solution": "Я думаю, это хорошая идея",
+          "distractors": [
+            "Проблема",
+            "Решение"
+          ],
+          "pair": {
+            "es": "Я думаю, это хорошая идея",
+            "t": "Я думаю, это хорошая идея"
+          }
+        },
+        {
+          "id": "r12l1e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «идея»",
+          "solution": "Идея",
+          "accept": [
+            "Идея",
+            "идея"
+          ],
+          "pair": {
+            "es": "Идея",
+            "t": "Идея"
+          }
+        },
+        {
+          "id": "r12l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Идея",
+              "t": "Идея"
+            },
+            {
+              "es": "Мнение",
+              "t": "Мнение"
+            },
+            {
+              "es": "Проблема",
+              "t": "Проблема"
+            }
+          ]
+        },
+        {
+          "id": "r12l1e7",
+          "type": "choice",
+          "prompt": "«Решение» se traduce como...",
+          "options": [
+            "Решение",
+            "Идея",
+            "Мнение",
+            "Проблема"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Решение",
+            "t": "Решение"
+          }
+        },
+        {
+          "id": "r12l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Я думаю, это хорошая идея",
+          "options": [
+            "Я думаю, это хорошая идея",
+            "По моему мнению, это трудно",
+            "Я согласен"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я думаю, это хорошая идея",
+            "t": "Я думаю, это хорошая идея"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l2",
+      "title": "Планы",
+      "goal": "Планы на будущее",
+      "tip": [
+        "«Завтра я...»",
+        "«Я хочу...»"
+      ],
+      "phrases": [
+        {
+          "es": "Завтра я поеду путешествовать",
+          "t": "Завтра я поеду путешествовать"
+        },
+        {
+          "es": "Я хочу учиться больше",
+          "t": "Я хочу учиться больше"
+        },
+        {
+          "es": "До скорого",
+          "t": "До скорого"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «завтра я поеду путешествовать»?",
+          "options": [
+            "Завтра я поеду путешествовать",
+            "Я хочу учиться больше",
+            "До скорого",
+            "Завтра"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Завтра я поеду путешествовать",
+            "t": "Завтра я поеду путешествовать"
+          }
+        },
+        {
+          "id": "r12l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Я хочу учиться больше",
+          "options": [
+            "Я хочу учиться больше",
+            "До скорого",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я хочу учиться больше",
+            "t": "Я хочу учиться больше"
+          }
+        },
+        {
+          "id": "r12l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ скорого",
+          "options": [
+            "До",
+            "Завтра",
+            "Скоро"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "До скорого",
+            "t": "До скорого"
+          }
+        },
+        {
+          "id": "r12l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Завтра я поеду путешествовать»",
+          "solution": "Завтра я поеду путешествовать",
+          "distractors": [
+            "Позже",
+            "Всегда"
+          ],
+          "pair": {
+            "es": "Завтра я поеду путешествовать",
+            "t": "Завтра я поеду путешествовать"
+          }
+        },
+        {
+          "id": "r12l2e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «завтра»",
+          "solution": "Завтра",
+          "accept": [
+            "Завтра",
+            "завтра"
+          ],
+          "pair": {
+            "es": "Завтра",
+            "t": "Завтра"
+          }
+        },
+        {
+          "id": "r12l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Завтра",
+              "t": "Завтра"
+            },
+            {
+              "es": "Скоро",
+              "t": "Скоро"
+            },
+            {
+              "es": "Позже",
+              "t": "Позже"
+            }
+          ]
+        },
+        {
+          "id": "r12l2e7",
+          "type": "choice",
+          "prompt": "«Всегда» se traduce como...",
+          "options": [
+            "Всегда",
+            "Завтра",
+            "Скоро",
+            "Позже"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Всегда",
+            "t": "Всегда"
+          }
+        },
+        {
+          "id": "r12l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Завтра я поеду путешествовать",
+          "options": [
+            "Завтра я поеду путешествовать",
+            "Я хочу учиться больше",
+            "До скорого"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Завтра я поеду путешествовать",
+            "t": "Завтра я поеду путешествовать"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l3",
+      "title": "Чувства",
+      "goal": "Эмоции",
+      "tip": [
+        "«Я счастлив/грустный».",
+        "«Я чувствую себя...»"
+      ],
+      "phrases": [
+        {
+          "es": "Я очень счастлив",
+          "t": "Я очень счастлив"
+        },
+        {
+          "es": "Я чувствую усталость",
+          "t": "Я чувствую усталость"
+        },
+        {
+          "es": "Я волнуюсь",
+          "t": "Я волнуюсь"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «я очень счастлив»?",
+          "options": [
+            "Я очень счастлив",
+            "Я чувствую усталость",
+            "Я волнуюсь",
+            "Счастливый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я очень счастлив",
+            "t": "Я очень счастлив"
+          }
+        },
+        {
+          "id": "r12l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Я чувствую усталость",
+          "options": [
+            "Я чувствую усталость",
+            "Я волнуюсь",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я чувствую усталость",
+            "t": "Я чувствую усталость"
+          }
+        },
+        {
+          "id": "r12l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ волнуюсь",
+          "options": [
+            "Я",
+            "Счастливый",
+            "Грустный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я волнуюсь",
+            "t": "Я волнуюсь"
+          }
+        },
+        {
+          "id": "r12l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Я очень счастлив»",
+          "solution": "Я очень счастлив",
+          "distractors": [
+            "Усталый",
+            "Взволнованный"
+          ],
+          "pair": {
+            "es": "Я очень счастлив",
+            "t": "Я очень счастлив"
+          }
+        },
+        {
+          "id": "r12l3e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «счастливый»",
+          "solution": "Счастливый",
+          "accept": [
+            "Счастливый",
+            "счастливый"
+          ],
+          "pair": {
+            "es": "Счастливый",
+            "t": "Счастливый"
+          }
+        },
+        {
+          "id": "r12l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Счастливый",
+              "t": "Счастливый"
+            },
+            {
+              "es": "Грустный",
+              "t": "Грустный"
+            },
+            {
+              "es": "Усталый",
+              "t": "Усталый"
+            }
+          ]
+        },
+        {
+          "id": "r12l3e7",
+          "type": "choice",
+          "prompt": "«Взволнованный» se traduce como...",
+          "options": [
+            "Взволнованный",
+            "Счастливый",
+            "Грустный",
+            "Усталый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Взволнованный",
+            "t": "Взволнованный"
+          }
+        },
+        {
+          "id": "r12l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Я очень счастлив",
+          "options": [
+            "Я очень счастлив",
+            "Я чувствую усталость",
+            "Я волнуюсь"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Я очень счастлив",
+            "t": "Я очень счастлив"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l4",
+      "title": "Свободная речь",
+      "goal": "Полезные фразы",
+      "tip": [
+        "Союзы: поэтому, но, тоже.",
+        "«Не могли бы вы...?» — вежливо."
+      ],
+      "phrases": [
+        {
+          "es": "Не могли бы вы помочь?",
+          "t": "Не могли бы вы помочь?"
+        },
+        {
+          "es": "Ничего страшного",
+          "t": "Ничего страшного"
+        },
+        {
+          "es": "Конечно",
+          "t": "Конечно"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «не могли бы вы помочь?»?",
+          "options": [
+            "Не могли бы вы помочь?",
+            "Ничего страшного",
+            "Конечно",
+            "Конечно"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Не могли бы вы помочь?",
+            "t": "Не могли бы вы помочь?"
+          }
+        },
+        {
+          "id": "r12l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ничего страшного",
+          "options": [
+            "Ничего страшного",
+            "Конечно",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ничего страшного",
+            "t": "Ничего страшного"
+          }
+        },
+        {
+          "id": "r12l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Конечно",
+            "Может",
+            "ok"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Конечно",
+            "t": "Конечно"
+          }
+        },
+        {
+          "id": "r12l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Не могли бы вы помочь?»",
+          "solution": "Не могли бы вы помочь?",
+          "distractors": [
+            "Правда",
+            "Вместе"
+          ],
+          "pair": {
+            "es": "Не могли бы вы помочь?",
+            "t": "Не могли бы вы помочь?"
+          }
+        },
+        {
+          "id": "r12l4e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «конечно»",
+          "solution": "Конечно",
+          "accept": [
+            "Конечно",
+            "конечно"
+          ],
+          "pair": {
+            "es": "Конечно",
+            "t": "Конечно"
+          }
+        },
+        {
+          "id": "r12l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Конечно",
+              "t": "Конечно"
+            },
+            {
+              "es": "Может быть",
+              "t": "Может быть"
+            },
+            {
+              "es": "Правда",
+              "t": "Правда"
+            }
+          ]
+        },
+        {
+          "id": "r12l4e7",
+          "type": "choice",
+          "prompt": "«Вместе» se traduce como...",
+          "options": [
+            "Вместе",
+            "Конечно",
+            "Может быть",
+            "Правда"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Вместе",
+            "t": "Вместе"
+          }
+        },
+        {
+          "id": "r12l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Не могли бы вы помочь?",
+          "options": [
+            "Не могли бы вы помочь?",
+            "Ничего страшного",
+            "Конечно"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Не могли бы вы помочь?",
+            "t": "Не могли бы вы помочь?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l5",
+      "title": "Дополнительные слова 1",
+      "goal": "Ключевые слова",
+      "tip": [
+        "Практикуйте важные слова."
+      ],
+      "phrases": [
+        {
+          "es": "Los guantes",
+          "t": "Перчатки"
+        },
+        {
+          "es": "Fiable",
+          "t": "Надёжный"
+        },
+        {
+          "es": "La naturaleza",
+          "t": "Природа"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Los guantes»?",
+          "options": [
+            "перчатки",
+            "надёжный",
+            "природа",
+            "театр"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Los guantes",
+            "t": "Перчатки"
+          }
+        },
+        {
+          "id": "r12l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Надёжный",
+          "options": [
+            "Fiable",
+            "La naturaleza",
+            "El teatro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fiable",
+            "t": "Надёжный"
+          }
+        },
+        {
+          "id": "r12l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "природа",
+            "театр",
+            "два"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La naturaleza",
+            "t": "Природа"
+          }
+        },
+        {
+          "id": "r12l5e4",
+          "type": "build",
+          "prompt": "Traduce: «El teatro»",
+          "solution": "Театр",
+          "distractors": [
+            "два",
+            "и"
+          ],
+          "pair": {
+            "es": "El teatro",
+            "t": "Театр"
+          }
+        },
+        {
+          "id": "r12l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «dos»",
+          "solution": "Два",
+          "accept": [
+            "два",
+            "два"
+          ],
+          "pair": {
+            "es": "Dos",
+            "t": "Два"
+          }
+        },
+        {
+          "id": "r12l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "No lo tenía ni en mente",
+              "t": "И в мыслях не было"
+            },
+            {
+              "es": "Tramitar",
+              "t": "Оформить"
+            },
+            {
+              "es": "Los muebles",
+              "t": "Мебель"
+            }
+          ]
+        },
+        {
+          "id": "r12l5e7",
+          "type": "choice",
+          "prompt": "«Palabra» se traduce como...",
+          "options": [
+            "Слово",
+            "Много",
+            "год",
+            "командировка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Palabra",
+            "t": "Слово"
+          }
+        },
+        {
+          "id": "r12l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Много",
+          "options": [
+            "Mucho",
+            "El año",
+            "El viaje de trabajo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mucho",
+            "t": "Много"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l6",
+      "title": "Полезные фразы 2",
+      "goal": "Повседневные фразы",
+      "tip": [
+        "Говорите естественно."
+      ],
+      "phrases": [
+        {
+          "es": "La helada",
+          "t": "Мороз"
+        },
+        {
+          "es": "Llegar tarde",
+          "t": "Опоздать"
+        },
+        {
+          "es": "El caballo",
+          "t": "Лошадь"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La helada»?",
+          "options": [
+            "мороз",
+            "опоздать",
+            "лошадь",
+            "платье"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La helada",
+            "t": "Мороз"
+          }
+        },
+        {
+          "id": "r12l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Опоздать",
+          "options": [
+            "Llegar tarde",
+            "El caballo",
+            "El vestido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Llegar tarde",
+            "t": "Опоздать"
+          }
+        },
+        {
+          "id": "r12l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "лошадь",
+            "платье",
+            "папа"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El caballo",
+            "t": "Лошадь"
+          }
+        },
+        {
+          "id": "r12l6e4",
+          "type": "build",
+          "prompt": "Traduce: «El vestido»",
+          "solution": "Платье",
+          "distractors": [
+            "папа",
+            "Чай"
+          ],
+          "pair": {
+            "es": "El vestido",
+            "t": "Платье"
+          }
+        },
+        {
+          "id": "r12l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el padre»",
+          "solution": "Папа",
+          "accept": [
+            "папа",
+            "папа"
+          ],
+          "pair": {
+            "es": "El padre",
+            "t": "Папа"
+          }
+        },
+        {
+          "id": "r12l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Té",
+              "t": "Чай"
+            },
+            {
+              "es": "El estómago",
+              "t": "Живот"
+            },
+            {
+              "es": "Cerca",
+              "t": "Рядом"
+            }
+          ]
+        },
+        {
+          "id": "r12l6e7",
+          "type": "choice",
+          "prompt": "«Empezar» se traduce como...",
+          "options": [
+            "Начинать",
+            "сто",
+            "пока",
+            "бабочка"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Empezar",
+            "t": "Начинать"
+          }
+        },
+        {
+          "id": "r12l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Сто",
+          "options": [
+            "Cien",
+            "Hasta luego",
+            "La mariposa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cien",
+            "t": "Сто"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l7",
+      "title": "Повторение 3",
+      "goal": "Повторение",
+      "tip": [
+        "Закрепите изученное."
+      ],
+      "phrases": [
+        {
+          "es": "El correo",
+          "t": "Почта"
+        },
+        {
+          "es": "El mapa",
+          "t": "Карта"
+        },
+        {
+          "es": "No",
+          "t": "Нет"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El correo»?",
+          "options": [
+            "почта",
+            "карта",
+            "Нет",
+            "Проблема"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El correo",
+            "t": "Почта"
+          }
+        },
+        {
+          "id": "r12l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Карта",
+          "options": [
+            "El mapa",
+            "No",
+            "Problema"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El mapa",
+            "t": "Карта"
+          }
+        },
+        {
+          "id": "r12l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Нет",
+            "Проблема",
+            "полёт"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No",
+            "t": "Нет"
+          }
+        },
+        {
+          "id": "r12l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Problema»",
+          "solution": "Проблема",
+          "distractors": [
+            "полёт",
+            "Привет"
+          ],
+          "pair": {
+            "es": "Problema",
+            "t": "Проблема"
+          }
+        },
+        {
+          "id": "r12l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el vuelo»",
+          "solution": "Полёт",
+          "accept": [
+            "полёт",
+            "полёт"
+          ],
+          "pair": {
+            "es": "El vuelo",
+            "t": "Полёт"
+          }
+        },
+        {
+          "id": "r12l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Hola (informal)",
+              "t": "Привет"
+            },
+            {
+              "es": "Los vaqueros",
+              "t": "Джинсы"
+            },
+            {
+              "es": "Los intereses",
+              "t": "Проценты"
+            }
+          ]
+        },
+        {
+          "id": "r12l7e7",
+          "type": "choice",
+          "prompt": "«La bufanda» se traduce como...",
+          "options": [
+            "шарф",
+            "счёт",
+            "настроение",
+            "тёплый"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La bufanda",
+            "t": "Шарф"
+          }
+        },
+        {
+          "id": "r12l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Счёт",
+          "options": [
+            "La factura",
+            "El humor",
+            "Cálido"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La factura",
+            "t": "Счёт"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l8",
+      "title": "Аудирование 4",
+      "goal": "Слушание",
+      "tip": [
+        "Тренируйте слух."
+      ],
+      "phrases": [
+        {
+          "es": "El ser humano",
+          "t": "Человек"
+        },
+        {
+          "es": "Lavar",
+          "t": "Мыть"
+        },
+        {
+          "es": "Cuándo",
+          "t": "Когда"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El ser humano»?",
+          "options": [
+            "человек",
+            "Мыть",
+            "Когда",
+            "жаль"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ser humano",
+            "t": "Человек"
+          }
+        },
+        {
+          "id": "r12l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Мыть",
+          "options": [
+            "Lavar",
+            "Cuándo",
+            "Qué pena"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Lavar",
+            "t": "Мыть"
+          }
+        },
+        {
+          "id": "r12l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Когда",
+            "жаль",
+            "закуска"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuándo",
+            "t": "Когда"
+          }
+        },
+        {
+          "id": "r12l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Qué pena»",
+          "solution": "Жаль",
+          "distractors": [
+            "закуска",
+            "улица"
+          ],
+          "pair": {
+            "es": "Qué pena",
+            "t": "Жаль"
+          }
+        },
+        {
+          "id": "r12l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el aperitivo»",
+          "solution": "Закуска",
+          "accept": [
+            "закуска",
+            "закуска"
+          ],
+          "pair": {
+            "es": "El aperitivo",
+            "t": "Закуска"
+          }
+        },
+        {
+          "id": "r12l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La calle",
+              "t": "Улица"
+            },
+            {
+              "es": "La parada",
+              "t": "Остановка"
+            },
+            {
+              "es": "Sí",
+              "t": "Да"
+            }
+          ]
+        },
+        {
+          "id": "r12l8e7",
+          "type": "choice",
+          "prompt": "«Complicado» se traduce como...",
+          "options": [
+            "сложный",
+            "трудный",
+            "жена",
+            "Часто"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Complicado",
+            "t": "Сложный"
+          }
+        },
+        {
+          "id": "r12l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Трудный",
+          "options": [
+            "Difícil",
+            "La esposa",
+            "A menudo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Difícil",
+            "t": "Трудный"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l9",
+      "title": "Говорение 5",
+      "goal": "Разговор",
+      "tip": [
+        "Уверенность в речи."
+      ],
+      "phrases": [
+        {
+          "es": "Cambiar",
+          "t": "Менять"
+        },
+        {
+          "es": "Todo apunta a que",
+          "t": "Судя по всему"
+        },
+        {
+          "es": "Tramitar",
+          "t": "Оформить"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cambiar»?",
+          "options": [
+            "Менять",
+            "судя по всему",
+            "оформить",
+            "кровать"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cambiar",
+            "t": "Менять"
+          }
+        },
+        {
+          "id": "r12l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Судя по всему",
+          "options": [
+            "Todo apunta a que",
+            "Tramitar",
+            "La cama"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Todo apunta a que",
+            "t": "Судя по всему"
+          }
+        },
+        {
+          "id": "r12l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "оформить",
+            "кровать",
+            "Почему"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tramitar",
+            "t": "Оформить"
+          }
+        },
+        {
+          "id": "r12l9e4",
+          "type": "build",
+          "prompt": "Traduce: «La cama»",
+          "solution": "Кровать",
+          "distractors": [
+            "Почему",
+            "Слово"
+          ],
+          "pair": {
+            "es": "La cama",
+            "t": "Кровать"
+          }
+        },
+        {
+          "id": "r12l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «por qué»",
+          "solution": "Почему",
+          "accept": [
+            "Почему",
+            "почему"
+          ],
+          "pair": {
+            "es": "Por qué",
+            "t": "Почему"
+          }
+        },
+        {
+          "id": "r12l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Palabra",
+              "t": "Слово"
+            },
+            {
+              "es": "Grande",
+              "t": "Большой"
+            },
+            {
+              "es": "Muy",
+              "t": "Очень"
+            }
+          ]
+        },
+        {
+          "id": "r12l9e7",
+          "type": "choice",
+          "prompt": "«Difícil» se traduce como...",
+          "options": [
+            "трудный",
+            "Никогда",
+            "плохой",
+            "видеть"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Difícil",
+            "t": "Трудный"
+          }
+        },
+        {
+          "id": "r12l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Никогда",
+          "options": [
+            "Nunca",
+            "Malo",
+            "Ver"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nunca",
+            "t": "Никогда"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12l10",
+      "title": "Реальные ситуации 6",
+      "goal": "Реальные ситуации",
+      "tip": [
+        "Язык в контексте."
+      ],
+      "phrases": [
+        {
+          "es": "La puerta",
+          "t": "Дверь"
+        },
+        {
+          "es": "Sustancioso",
+          "t": "Сытный"
+        },
+        {
+          "es": "El alquiler",
+          "t": "Аренда"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "r12l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La puerta»?",
+          "options": [
+            "дверь",
+            "сытный",
+            "аренда",
+            "тепло"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La puerta",
+            "t": "Дверь"
+          }
+        },
+        {
+          "id": "r12l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Сытный",
+          "options": [
+            "Sustancioso",
+            "El alquiler",
+            "Hace templado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sustancioso",
+            "t": "Сытный"
+          }
+        },
+        {
+          "id": "r12l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "аренда",
+            "тепло",
+            "довольный"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El alquiler",
+            "t": "Аренда"
+          }
+        },
+        {
+          "id": "r12l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Hace templado»",
+          "solution": "Тепло",
+          "distractors": [
+            "довольный",
+            "Кто-то"
+          ],
+          "pair": {
+            "es": "Hace templado",
+            "t": "Тепло"
+          }
+        },
+        {
+          "id": "r12l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «satisfecho»",
+          "solution": "Довольный",
+          "accept": [
+            "довольный",
+            "довольный"
+          ],
+          "pair": {
+            "es": "Satisfecho",
+            "t": "Довольный"
+          }
+        },
+        {
+          "id": "r12l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Alguien",
+              "t": "Кто-то"
+            },
+            {
+              "es": "La madre",
+              "t": "Мама"
+            },
+            {
+              "es": "Tener",
+              "t": "Иметь"
+            }
+          ]
+        },
+        {
+          "id": "r12l10e7",
+          "type": "choice",
+          "prompt": "«El sol» se traduce como...",
+          "options": [
+            "солнце",
+            "Внутри",
+            "музей",
+            "Место"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El sol",
+            "t": "Солнце"
+          }
+        },
+        {
+          "id": "r12l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Внутри",
+          "options": [
+            "Dentro",
+            "El museo",
+            "Lugar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dentro",
+            "t": "Внутри"
+          }
+        }
+      ]
+    }
+  ]
+}

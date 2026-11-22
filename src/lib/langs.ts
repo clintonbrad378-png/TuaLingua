@@ -27,7 +27,35 @@ export const LANGS: LanguageInfo[] = [
     title: "Chino mandarín",
     emoji: "🇨🇳",
     bcp47: "zh-CN",
-    level: "A1–A2",
+    level: "A1–B1",
+  },
+  {
+    id: "fr",
+    title: "Francés",
+    emoji: "🇫🇷",
+    bcp47: "fr-FR",
+    level: "A1–B1",
+  },
+  {
+    id: "ar",
+    title: "Árabe",
+    emoji: "🇸🇦",
+    bcp47: "ar-SA",
+    level: "A1–B1",
+  },
+  {
+    id: "de",
+    title: "Alemán",
+    emoji: "🇩🇪",
+    bcp47: "de-DE",
+    level: "A1–B1",
+  },
+  {
+    id: "pt",
+    title: "Portugués",
+    emoji: "🇵🇹",
+    bcp47: "pt-BR",
+    level: "A1–B1",
   },
 ];
 

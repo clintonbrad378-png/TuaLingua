@@ -1,6 +1,6 @@
 {
   "id": "u5",
-  "title": "Historias del pasado",
+  "title": "Past stories",
   "emoji": "🕰️",
   "color": "#E85D75",
   "lessons": [
@@ -14,18 +14,135 @@
         "Con «did» el verbo vuelve al infinitivo: «Did you went?» es incorrecto."
       ],
       "phrases": [
-        { "es": "Ayer trabajé hasta tarde", "t": "I worked late yesterday" },
-        { "es": "Visitamos Londres el año pasado", "t": "We visited London last year" },
-        { "es": "¿Qué hiciste el fin de semana?", "t": "What did you do at the weekend?" }
+        {
+          "es": "Ayer trabajé hasta tarde",
+          "t": "I worked late yesterday"
+        },
+        {
+          "es": "Visitamos Londres el año pasado",
+          "t": "We visited London last year"
+        },
+        {
+          "es": "¿Qué hiciste el fin de semana?",
+          "t": "What did you do at the weekend?"
+        }
       ],
       "exercises": [
-        { "id": "u5l1e1", "type": "match", "prompt": "Empareja las expresiones de tiempo", "pairs": [{ "es": "Ayer", "t": "Yesterday" }, { "es": "La semana pasada", "t": "Last week" }, { "es": "Hace dos días", "t": "Two days ago" }, { "es": "El fin de semana", "t": "At the weekend" }] },
-        { "id": "u5l1e2", "type": "choice", "prompt": "We ___ TV last night.", "options": ["watched", "visited", "played"], "answer": 0, "pair": { "es": "Vimos la tele anoche.", "t": "We watched TV last night." }, "explain": "Ver la tele es «watch TV»: watched." },
-        { "id": "u5l1e3", "type": "fill", "prompt": "Completa la frase", "sentence": "She ___ for the exam yesterday.", "options": ["studied", "studies", "studying"], "answer": 0, "pair": { "es": "Estudió para el examen ayer.", "t": "She studied for the exam yesterday." }, "explain": "study termina en consonante + y: studied." },
-        { "id": "u5l1e4", "type": "build", "prompt": "Traduce: «Trabajé en un hotel el año pasado»", "solution": "I worked in a hotel last year", "distractors": ["works", "next"], "pair": { "es": "Trabajé en un hotel el año pasado", "t": "I worked in a hotel last year" } },
-        { "id": "u5l1e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "We visited my grandparents last weekend.", "options": ["Visitamos a mis abuelos el fin de semana pasado.", "Visitaremos a mis abuelos el próximo fin de semana.", "Mis abuelos nos visitaron ayer."], "answer": 0, "pair": { "es": "Visitamos a mis abuelos el fin de semana pasado.", "t": "We visited my grandparents last weekend." } },
-        { "id": "u5l1e6", "type": "type", "prompt": "Escribe «ayer» en inglés", "solution": "yesterday", "accept": ["yesterday"], "pair": { "es": "Ayer", "t": "Yesterday" } },
-        { "id": "u5l1e7", "type": "choice", "prompt": "¿Qué pregunta es correcta?", "options": ["Did you go to the party?", "Did you went to the party?", "Did you goes to the party?"], "answer": 0, "pair": { "es": "¿Fuiste a la fiesta?", "t": "Did you go to the party?" }, "explain": "Tras «did» el verbo va en infinitivo: Did you go…?" }
+        {
+          "id": "u5l1e1",
+          "type": "match",
+          "prompt": "Empareja las expresiones de tiempo",
+          "pairs": [
+            {
+              "es": "Ayer",
+              "t": "Yesterday"
+            },
+            {
+              "es": "La semana pasada",
+              "t": "Last week"
+            },
+            {
+              "es": "Hace dos días",
+              "t": "Two days ago"
+            },
+            {
+              "es": "El fin de semana",
+              "t": "At the weekend"
+            }
+          ]
+        },
+        {
+          "id": "u5l1e2",
+          "type": "choice",
+          "prompt": "We ___ TV last night.",
+          "options": [
+            "watched",
+            "visited",
+            "played"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vimos la tele anoche.",
+            "t": "We watched TV last night."
+          },
+          "explain": "Ver la tele es «watch TV»: watched."
+        },
+        {
+          "id": "u5l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "She ___ for the exam yesterday.",
+          "options": [
+            "studied",
+            "studies",
+            "studying"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estudió para el examen ayer.",
+            "t": "She studied for the exam yesterday."
+          },
+          "explain": "study termina en consonante + y: studied."
+        },
+        {
+          "id": "u5l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Trabajé en un hotel el año pasado»",
+          "solution": "I worked in a hotel last year",
+          "distractors": [
+            "works",
+            "next"
+          ],
+          "pair": {
+            "es": "Trabajé en un hotel el año pasado",
+            "t": "I worked in a hotel last year"
+          }
+        },
+        {
+          "id": "u5l1e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "We visited my grandparents last weekend.",
+          "options": [
+            "Visitamos a mis abuelos el fin de semana pasado.",
+            "Visitaremos a mis abuelos el próximo fin de semana.",
+            "Mis abuelos nos visitaron ayer."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Visitamos a mis abuelos el fin de semana pasado.",
+            "t": "We visited my grandparents last weekend."
+          }
+        },
+        {
+          "id": "u5l1e6",
+          "type": "type",
+          "prompt": "Escribe «ayer» en inglés",
+          "solution": "Yesterday",
+          "accept": [
+            "yesterday"
+          ],
+          "pair": {
+            "es": "Ayer",
+            "t": "Yesterday"
+          }
+        },
+        {
+          "id": "u5l1e7",
+          "type": "choice",
+          "prompt": "¿Qué pregunta es correcta?",
+          "options": [
+            "Did you go to the party?",
+            "Did you went to the party?",
+            "Did you goes to the party?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Fuiste a la fiesta?",
+            "t": "Did you go to the party?"
+          },
+          "explain": "Tras «did» el verbo va en infinitivo: Did you go…?"
+        }
       ]
     },
     {
@@ -38,18 +155,136 @@
         "«Last night» (anoche), «this morning» (esta mañana) sin preposición."
       ],
       "phrases": [
-        { "es": "Fui al cine con Marta", "t": "I went to the cinema with Marta" },
-        { "es": "Vimos una película muy buena", "t": "We saw a very good film" },
-        { "es": "Llegué tarde porque perdí el autobús", "t": "I arrived late because I missed the bus" }
+        {
+          "es": "Fui al cine con Marta",
+          "t": "I went to the cinema with Marta"
+        },
+        {
+          "es": "Vimos una película muy buena",
+          "t": "We saw a very good film"
+        },
+        {
+          "es": "Llegué tarde porque perdí el autobús",
+          "t": "I arrived late because I missed the bus"
+        }
       ],
       "exercises": [
-        { "id": "u5l2e1", "type": "match", "prompt": "Empareja el verbo con su pasado", "pairs": [{ "es": "Ir", "t": "Went" }, { "es": "Ver", "t": "Saw" }, { "es": "Tomar", "t": "Took" }, { "es": "Hacer", "t": "Made" }] },
-        { "id": "u5l2e2", "type": "choice", "prompt": "She ___ dinner for everyone.", "options": ["made", "took", "did"], "answer": 0, "pair": { "es": "Hizo la cena para todos.", "t": "She made dinner for everyone." }, "explain": "«Make dinner»: preparar la cena." },
-        { "id": "u5l2e3", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to Rome two years ago.", "options": ["went", "goed", "gone"], "answer": 0, "pair": { "es": "Fui a Roma hace dos años.", "t": "I went to Rome two years ago." }, "explain": "El pasado de «go» es «went»." },
-        { "id": "u5l2e4", "type": "build", "prompt": "Traduce: «Perdí el tren esta mañana»", "solution": "I missed the train this morning", "distractors": ["lose", "losed"], "pair": { "es": "Perdí el tren esta mañana", "t": "I missed the train this morning" }, "explain": "«Miss the bus/train» = perderlo por llegar tarde." },
-        { "id": "u5l2e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "He took a taxi because he was late.", "options": ["Tomó un taxi porque llegaba tarde.", "Perdió el taxi porque era tarde.", "Tomará un taxi porque es tarde."], "answer": 0, "pair": { "es": "Tomó un taxi porque llegaba tarde.", "t": "He took a taxi because he was late." } },
-        { "id": "u5l2e6", "type": "type", "prompt": "Escribe «anoche» en inglés", "solution": "last night", "accept": ["last night"], "pair": { "es": "Anoche", "t": "Last night" } },
-        { "id": "u5l2e7", "type": "choice", "prompt": "I ___ watch TV yesterday.", "options": ["didn't", "don't", "not"], "answer": 0, "pair": { "es": "No vi la tele ayer.", "t": "I didn't watch TV yesterday." }, "explain": "Negativa en pasado: didn't + infinitivo." }
+        {
+          "id": "u5l2e1",
+          "type": "match",
+          "prompt": "Empareja el verbo con su pasado",
+          "pairs": [
+            {
+              "es": "Ir",
+              "t": "Went"
+            },
+            {
+              "es": "Ver",
+              "t": "Saw"
+            },
+            {
+              "es": "Tomar",
+              "t": "Took"
+            },
+            {
+              "es": "Hacer",
+              "t": "Made"
+            }
+          ]
+        },
+        {
+          "id": "u5l2e2",
+          "type": "choice",
+          "prompt": "She ___ dinner for everyone.",
+          "options": [
+            "made",
+            "took",
+            "did"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hizo la cena para todos.",
+            "t": "She made dinner for everyone."
+          },
+          "explain": "«Make dinner»: preparar la cena."
+        },
+        {
+          "id": "u5l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ to Rome two years ago.",
+          "options": [
+            "went",
+            "goed",
+            "gone"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fui a Roma hace dos años.",
+            "t": "I went to Rome two years ago."
+          },
+          "explain": "El pasado de «go» es «went»."
+        },
+        {
+          "id": "u5l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Perdí el tren esta mañana»",
+          "solution": "I missed the train this morning",
+          "distractors": [
+            "lose",
+            "losed"
+          ],
+          "pair": {
+            "es": "Perdí el tren esta mañana",
+            "t": "I missed the train this morning"
+          },
+          "explain": "«Miss the bus/train» = perderlo por llegar tarde."
+        },
+        {
+          "id": "u5l2e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "He took a taxi because he was late.",
+          "options": [
+            "Tomó un taxi porque llegaba tarde.",
+            "Perdió el taxi porque era tarde.",
+            "Tomará un taxi porque es tarde."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tomó un taxi porque llegaba tarde.",
+            "t": "He took a taxi because he was late."
+          }
+        },
+        {
+          "id": "u5l2e6",
+          "type": "type",
+          "prompt": "Escribe «anoche» en inglés",
+          "solution": "Last night",
+          "accept": [
+            "last night"
+          ],
+          "pair": {
+            "es": "Anoche",
+            "t": "Last night"
+          }
+        },
+        {
+          "id": "u5l2e7",
+          "type": "choice",
+          "prompt": "I ___ watch TV yesterday.",
+          "options": [
+            "didn't",
+            "don't",
+            "not"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No vi la tele ayer.",
+            "t": "I didn't watch TV yesterday."
+          },
+          "explain": "Negativa en pasado: didn't + infinitivo."
+        }
       ]
     },
     {
@@ -62,18 +297,135 @@
         "«While» acompaña a la acción larga: While I was reading, it started to rain."
       ],
       "phrases": [
-        { "es": "Estaba cocinando cuando me llamaste", "t": "I was cooking when you called me" },
-        { "es": "Mientras leía, empezó a llover", "t": "While I was reading, it started to rain" },
-        { "es": "¿Qué estabas haciendo a las ocho?", "t": "What were you doing at eight?" }
+        {
+          "es": "Estaba cocinando cuando me llamaste",
+          "t": "I was cooking when you called me"
+        },
+        {
+          "es": "Mientras leía, empezó a llover",
+          "t": "While I was reading, it started to rain"
+        },
+        {
+          "es": "¿Qué estabas haciendo a las ocho?",
+          "t": "What were you doing at eight?"
+        }
       ],
       "exercises": [
-        { "id": "u5l3e1", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ reading when she arrived.", "options": ["was", "were", "am"], "answer": 0, "pair": { "es": "Estaba leyendo cuando llegó.", "t": "I was reading when she arrived." }, "explain": "Con «I»: was + -ing." },
-        { "id": "u5l3e2", "type": "choice", "prompt": "While we ___ , we saw a deer.", "options": ["were walking", "walked", "walk"], "answer": 0, "pair": { "es": "Mientras caminábamos, vimos un ciervo.", "t": "While we were walking, we saw a deer." }, "explain": "«While» + pasado continuo para la acción larga." },
-        { "id": "u5l3e3", "type": "build", "prompt": "Traduce: «Estaba durmiendo cuando sonó el teléfono»", "solution": "I was sleeping when the phone rang", "distractors": ["sounds", "slept"], "pair": { "es": "Estaba durmiendo cuando sonó el teléfono", "t": "I was sleeping when the phone rang" } },
-        { "id": "u5l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "They were playing football when it started to rain.", "options": ["Estaban jugando al fútbol cuando empezó a llover.", "Jugaron al fútbol después de la lluvia.", "Están jugando al fútbol aunque llueve."], "answer": 0, "pair": { "es": "Estaban jugando al fútbol cuando empezó a llover.", "t": "They were playing football when it started to rain." } },
-        { "id": "u5l3e5", "type": "type", "prompt": "Escribe «mientras» en inglés", "solution": "while", "accept": ["while"], "pair": { "es": "Mientras", "t": "While" } },
-        { "id": "u5l3e6", "type": "choice", "prompt": "What ___ you doing at nine?", "options": ["were", "was", "did"], "answer": 0, "pair": { "es": "¿Qué estabas haciendo a las nueve?", "t": "What were you doing at nine?" }, "explain": "Con «you»: were + -ing." },
-        { "id": "u5l3e7", "type": "match", "prompt": "Empareja los conectores de tiempo", "pairs": [{ "es": "Mientras", "t": "While" }, { "es": "Cuando", "t": "When" }, { "es": "De repente", "t": "Suddenly" }, { "es": "En ese momento", "t": "At that moment" }] }
+        {
+          "id": "u5l3e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ reading when she arrived.",
+          "options": [
+            "was",
+            "were",
+            "am"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estaba leyendo cuando llegó.",
+            "t": "I was reading when she arrived."
+          },
+          "explain": "Con «I»: was + -ing."
+        },
+        {
+          "id": "u5l3e2",
+          "type": "choice",
+          "prompt": "While we ___ , we saw a deer.",
+          "options": [
+            "were walking",
+            "walked",
+            "walk"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mientras caminábamos, vimos un ciervo.",
+            "t": "While we were walking, we saw a deer."
+          },
+          "explain": "«While» + pasado continuo para la acción larga."
+        },
+        {
+          "id": "u5l3e3",
+          "type": "build",
+          "prompt": "Traduce: «Estaba durmiendo cuando sonó el teléfono»",
+          "solution": "I was sleeping when the phone rang",
+          "distractors": [
+            "sounds",
+            "slept"
+          ],
+          "pair": {
+            "es": "Estaba durmiendo cuando sonó el teléfono",
+            "t": "I was sleeping when the phone rang"
+          }
+        },
+        {
+          "id": "u5l3e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "They were playing football when it started to rain.",
+          "options": [
+            "Estaban jugando al fútbol cuando empezó a llover.",
+            "Jugaron al fútbol después de la lluvia.",
+            "Están jugando al fútbol aunque llueve."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estaban jugando al fútbol cuando empezó a llover.",
+            "t": "They were playing football when it started to rain."
+          }
+        },
+        {
+          "id": "u5l3e5",
+          "type": "type",
+          "prompt": "Escribe «mientras» en inglés",
+          "solution": "While",
+          "accept": [
+            "while"
+          ],
+          "pair": {
+            "es": "Mientras",
+            "t": "While"
+          }
+        },
+        {
+          "id": "u5l3e6",
+          "type": "choice",
+          "prompt": "What ___ you doing at nine?",
+          "options": [
+            "were",
+            "was",
+            "did"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Qué estabas haciendo a las nueve?",
+            "t": "What were you doing at nine?"
+          },
+          "explain": "Con «you»: were + -ing."
+        },
+        {
+          "id": "u5l3e7",
+          "type": "match",
+          "prompt": "Empareja los conectores de tiempo",
+          "pairs": [
+            {
+              "es": "Mientras",
+              "t": "While"
+            },
+            {
+              "es": "Cuando",
+              "t": "When"
+            },
+            {
+              "es": "De repente",
+              "t": "Suddenly"
+            },
+            {
+              "es": "En ese momento",
+              "t": "At that moment"
+            }
+          ]
+        }
       ]
     },
     {
@@ -86,18 +438,1041 @@
         "Negativa: didn't use to; pregunta: Did you use to…?"
       ],
       "phrases": [
-        { "es": "Primero desayunamos, luego salimos", "t": "First we had breakfast, then we went out" },
-        { "es": "Solía jugar al tenis cuando era niño", "t": "I used to play tennis when I was a child" },
-        { "es": "Al final, todos volvimos a casa", "t": "Finally, we all went back home" }
+        {
+          "es": "Primero desayunamos, luego salimos",
+          "t": "First we had breakfast, then we went out"
+        },
+        {
+          "es": "Solía jugar al tenis cuando era niño",
+          "t": "I used to play tennis when I was a child"
+        },
+        {
+          "es": "Al final, todos volvimos a casa",
+          "t": "Finally, we all went back home"
+        }
       ],
       "exercises": [
-        { "id": "u5l4e1", "type": "match", "prompt": "Empareja los conectores del relato", "pairs": [{ "es": "Primero", "t": "First" }, { "es": "Luego", "t": "Then" }, { "es": "Después de eso", "t": "After that" }, { "es": "Finalmente", "t": "Finally" }] },
-        { "id": "u5l4e2", "type": "fill", "prompt": "Completa la frase", "sentence": "I ___ to live in Madrid.", "options": ["used", "use", "using"], "answer": 0, "pair": { "es": "Solía vivir en Madrid.", "t": "I used to live in Madrid." }, "explain": "Hábito pasado: used to + infinitivo." },
-        { "id": "u5l4e3", "type": "choice", "prompt": "«Solía correr por las mañanas» es…", "options": ["I used to run in the mornings", "I use to ran in the mornings", "I am used run in the mornings"], "answer": 0, "pair": { "es": "Solía correr por las mañanas.", "t": "I used to run in the mornings." }, "explain": "used to + verbo en infinitivo, siempre." },
-        { "id": "u5l4e4", "type": "build", "prompt": "Traduce: «Primero fuimos al mercado y luego comimos»", "solution": "First we went to the market and then we ate", "distractors": ["than", "lately"], "pair": { "es": "Primero fuimos al mercado y luego comimos", "t": "First we went to the market and then we ate" } },
-        { "id": "u5l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "First we visited the museum, and after that we had lunch.", "options": ["Primero visitamos el museo y después de eso comimos.", "Primero comimos y después visitamos el museo.", "Visitamos el museo después de comer."], "answer": 0, "pair": { "es": "Primero visitamos el museo y después de eso comimos.", "t": "First we visited the museum, and after that we had lunch." } },
-        { "id": "u5l4e6", "type": "type", "prompt": "Escribe «solía» (hábito pasado)", "solution": "used to", "accept": ["used to"], "pair": { "es": "Solía", "t": "Used to" } },
-        { "id": "u5l4e7", "type": "choice", "prompt": "Elige el conector para CERRAR una historia", "options": ["Finally", "First", "Suddenly"], "answer": 0, "pair": { "es": "Finalmente", "t": "Finally" }, "explain": "«Finally» cierra el relato." }
+        {
+          "id": "u5l4e1",
+          "type": "match",
+          "prompt": "Empareja los conectores del relato",
+          "pairs": [
+            {
+              "es": "Primero",
+              "t": "First"
+            },
+            {
+              "es": "Luego",
+              "t": "Then"
+            },
+            {
+              "es": "Después de eso",
+              "t": "After that"
+            },
+            {
+              "es": "Finalmente",
+              "t": "Finally"
+            }
+          ]
+        },
+        {
+          "id": "u5l4e2",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "I ___ to live in Madrid.",
+          "options": [
+            "used",
+            "use",
+            "using"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Solía vivir en Madrid.",
+            "t": "I used to live in Madrid."
+          },
+          "explain": "Hábito pasado: used to + infinitivo."
+        },
+        {
+          "id": "u5l4e3",
+          "type": "choice",
+          "prompt": "«Solía correr por las mañanas» es…",
+          "options": [
+            "I used to run in the mornings",
+            "I use to ran in the mornings",
+            "I am used run in the mornings"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Solía correr por las mañanas.",
+            "t": "I used to run in the mornings."
+          },
+          "explain": "used to + verbo en infinitivo, siempre."
+        },
+        {
+          "id": "u5l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Primero fuimos al mercado y luego comimos»",
+          "solution": "First we went to the market and then we ate",
+          "distractors": [
+            "than",
+            "lately"
+          ],
+          "pair": {
+            "es": "Primero fuimos al mercado y luego comimos",
+            "t": "First we went to the market and then we ate"
+          }
+        },
+        {
+          "id": "u5l4e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "First we visited the museum, and after that we had lunch.",
+          "options": [
+            "Primero visitamos el museo y después de eso comimos.",
+            "Primero comimos y después visitamos el museo.",
+            "Visitamos el museo después de comer."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Primero visitamos el museo y después de eso comimos.",
+            "t": "First we visited the museum, and after that we had lunch."
+          }
+        },
+        {
+          "id": "u5l4e6",
+          "type": "type",
+          "prompt": "Escribe «solía» (hábito pasado)",
+          "solution": "Used to",
+          "accept": [
+            "used to"
+          ],
+          "pair": {
+            "es": "Solía",
+            "t": "Used to"
+          }
+        },
+        {
+          "id": "u5l4e7",
+          "type": "choice",
+          "prompt": "Elige el conector para CERRAR una historia",
+          "options": [
+            "Finally",
+            "First",
+            "Suddenly"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Finalmente",
+            "t": "Finally"
+          },
+          "explain": "«Finally» cierra el relato."
+        }
+      ]
+    },
+    {
+      "id": "u5l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "La rana",
+          "t": "The frog"
+        },
+        {
+          "es": "Nuestro",
+          "t": "Our"
+        },
+        {
+          "es": "La mariposa",
+          "t": "The butterfly"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La rana»?",
+          "options": [
+            "the frog",
+            "our",
+            "the butterfly",
+            "lot"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La rana",
+            "t": "The frog"
+          }
+        },
+        {
+          "id": "u5l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Our",
+          "options": [
+            "Nuestro",
+            "La mariposa",
+            "Mucho/lote"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nuestro",
+            "t": "Our"
+          }
+        },
+        {
+          "id": "u5l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ butterfly",
+          "options": [
+            "the",
+            "lot",
+            "thing"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mariposa",
+            "t": "The butterfly"
+          }
+        },
+        {
+          "id": "u5l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Mucho/lote»",
+          "solution": "Lot",
+          "distractors": [
+            "thing",
+            "the"
+          ],
+          "pair": {
+            "es": "Mucho/lote",
+            "t": "Lot"
+          }
+        },
+        {
+          "id": "u5l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «cosa»",
+          "solution": "Thing",
+          "accept": [
+            "thing",
+            "thing"
+          ],
+          "pair": {
+            "es": "Cosa",
+            "t": "Thing"
+          }
+        },
+        {
+          "id": "u5l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La serpiente",
+              "t": "The snake"
+            },
+            {
+              "es": "El arco iris",
+              "t": "The rainbow"
+            },
+            {
+              "es": "Y",
+              "t": "And"
+            }
+          ]
+        },
+        {
+          "id": "u5l5e7",
+          "type": "choice",
+          "prompt": "«El ratón (ordenador)» se traduce como...",
+          "options": [
+            "the mouse (computer)",
+            "the opinion",
+            "country",
+            "more"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ratón (ordenador)",
+            "t": "The mouse (computer)"
+          }
+        },
+        {
+          "id": "u5l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The opinion",
+          "options": [
+            "La opinión",
+            "País",
+            "Más"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La opinión",
+            "t": "The opinion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u5l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Gastar/pasar tiempo",
+          "t": "Spend"
+        },
+        {
+          "es": "A la derecha",
+          "t": "Right"
+        },
+        {
+          "es": "La tierra",
+          "t": "The earth"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Gastar/pasar tiempo»?",
+          "options": [
+            "spend",
+            "right",
+            "the earth",
+            "the aunt"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gastar/pasar tiempo",
+            "t": "Spend"
+          }
+        },
+        {
+          "id": "u5l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Right",
+          "options": [
+            "A la derecha",
+            "La tierra",
+            "La tía"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "A la derecha",
+            "t": "Right"
+          }
+        },
+        {
+          "id": "u5l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ earth",
+          "options": [
+            "the",
+            "problem",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tierra",
+            "t": "The earth"
+          }
+        },
+        {
+          "id": "u5l6e4",
+          "type": "build",
+          "prompt": "Traduce: «La tía»",
+          "solution": "The aunt",
+          "distractors": [
+            "problem",
+            "some"
+          ],
+          "pair": {
+            "es": "La tía",
+            "t": "The aunt"
+          }
+        },
+        {
+          "id": "u5l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «problema»",
+          "solution": "Problem",
+          "accept": [
+            "problem",
+            "problem"
+          ],
+          "pair": {
+            "es": "Problema",
+            "t": "Problem"
+          }
+        },
+        {
+          "id": "u5l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Algún/algunos",
+              "t": "Some"
+            },
+            {
+              "es": "El estudiante",
+              "t": "The student"
+            },
+            {
+              "es": "Gracias",
+              "t": "Thank you"
+            }
+          ]
+        },
+        {
+          "id": "u5l6e7",
+          "type": "choice",
+          "prompt": "«Natural» se traduce como...",
+          "options": [
+            "natural",
+            "the distance",
+            "young",
+            "the airport"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Natural",
+            "t": "Natural"
+          }
+        },
+        {
+          "id": "u5l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The distance",
+          "options": [
+            "La distancia",
+            "Joven",
+            "El aeropuerto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La distancia",
+            "t": "The distance"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u5l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "La biblioteca",
+          "t": "The library"
+        },
+        {
+          "es": "Incorrecto",
+          "t": "Wrong"
+        },
+        {
+          "es": "Ganar",
+          "t": "To win"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La biblioteca»?",
+          "options": [
+            "the library",
+            "wrong",
+            "to win",
+            "to"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La biblioteca",
+            "t": "The library"
+          }
+        },
+        {
+          "id": "u5l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Wrong",
+          "options": [
+            "Incorrecto",
+            "Ganar",
+            "A/para"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Incorrecto",
+            "t": "Wrong"
+          }
+        },
+        {
+          "id": "u5l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ win",
+          "options": [
+            "to",
+            "far",
+            "tox"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ganar",
+            "t": "To win"
+          }
+        },
+        {
+          "id": "u5l7e4",
+          "type": "build",
+          "prompt": "Traduce: «A/para»",
+          "solution": "To",
+          "distractors": [
+            "far",
+            "raise"
+          ],
+          "pair": {
+            "es": "A/para",
+            "t": "To"
+          }
+        },
+        {
+          "id": "u5l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «lejos»",
+          "solution": "Far",
+          "accept": [
+            "far",
+            "far"
+          ],
+          "pair": {
+            "es": "Lejos",
+            "t": "Far"
+          }
+        },
+        {
+          "id": "u5l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Levantar",
+              "t": "Raise"
+            },
+            {
+              "es": "El concierto",
+              "t": "The concert"
+            },
+            {
+              "es": "Creer",
+              "t": "Believe"
+            }
+          ]
+        },
+        {
+          "id": "u5l7e7",
+          "type": "choice",
+          "prompt": "«Profesor» se traduce como...",
+          "options": [
+            "teacher",
+            "six",
+            "as",
+            "to know"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Profesor",
+            "t": "Teacher"
+          }
+        },
+        {
+          "id": "u5l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Six",
+          "options": [
+            "Seis",
+            "Como",
+            "Saber"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Seis",
+            "t": "Six"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u5l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "Listo",
+          "t": "Ready"
+        },
+        {
+          "es": "Julio",
+          "t": "July"
+        },
+        {
+          "es": "La esperanza",
+          "t": "The hope"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Listo»?",
+          "options": [
+            "ready",
+            "July",
+            "the hope",
+            "the leaf"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Listo",
+            "t": "Ready"
+          }
+        },
+        {
+          "id": "u5l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "July",
+          "options": [
+            "Julio",
+            "La esperanza",
+            "La hoja"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Julio",
+            "t": "July"
+          }
+        },
+        {
+          "id": "u5l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ hope",
+          "options": [
+            "the",
+            "public",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La esperanza",
+            "t": "The hope"
+          }
+        },
+        {
+          "id": "u5l8e4",
+          "type": "build",
+          "prompt": "Traduce: «La hoja»",
+          "solution": "The leaf",
+          "distractors": [
+            "public",
+            "spicy"
+          ],
+          "pair": {
+            "es": "La hoja",
+            "t": "The leaf"
+          }
+        },
+        {
+          "id": "u5l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «público»",
+          "solution": "Public",
+          "accept": [
+            "public",
+            "public"
+          ],
+          "pair": {
+            "es": "Público",
+            "t": "Public"
+          }
+        },
+        {
+          "id": "u5l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Picante",
+              "t": "Spicy"
+            },
+            {
+              "es": "El mar",
+              "t": "The sea"
+            },
+            {
+              "es": "Azul",
+              "t": "Blue"
+            }
+          ]
+        },
+        {
+          "id": "u5l8e7",
+          "type": "choice",
+          "prompt": "«La tormenta» se traduce como...",
+          "options": [
+            "the storm",
+            "near",
+            "the laptop",
+            "the star"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tormenta",
+            "t": "The storm"
+          }
+        },
+        {
+          "id": "u5l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Near",
+          "options": [
+            "Cerca",
+            "El portátil",
+            "La estrella"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cerca",
+            "t": "Near"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u5l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "La piel",
+          "t": "The skin"
+        },
+        {
+          "es": "Antes",
+          "t": "Before"
+        },
+        {
+          "es": "Hombre",
+          "t": "Man"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La piel»?",
+          "options": [
+            "the skin",
+            "before",
+            "man",
+            "the reason"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La piel",
+            "t": "The skin"
+          }
+        },
+        {
+          "id": "u5l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Before",
+          "options": [
+            "Antes",
+            "Hombre",
+            "La razón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Antes",
+            "t": "Before"
+          }
+        },
+        {
+          "id": "u5l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "man",
+            "the",
+            "purple"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hombre",
+            "t": "Man"
+          }
+        },
+        {
+          "id": "u5l9e4",
+          "type": "build",
+          "prompt": "Traduce: «La razón»",
+          "solution": "The reason",
+          "distractors": [
+            "purple",
+            "strong"
+          ],
+          "pair": {
+            "es": "La razón",
+            "t": "The reason"
+          }
+        },
+        {
+          "id": "u5l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «morado»",
+          "solution": "Purple",
+          "accept": [
+            "purple",
+            "purple"
+          ],
+          "pair": {
+            "es": "Morado",
+            "t": "Purple"
+          }
+        },
+        {
+          "id": "u5l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Fuerte",
+              "t": "Strong"
+            },
+            {
+              "es": "Ya",
+              "t": "Already"
+            },
+            {
+              "es": "La autopista",
+              "t": "The highway"
+            }
+          ]
+        },
+        {
+          "id": "u5l9e7",
+          "type": "choice",
+          "prompt": "«Nunca» se traduce como...",
+          "options": [
+            "never",
+            "January",
+            "the cash",
+            "the metro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nunca",
+            "t": "Never"
+          }
+        },
+        {
+          "id": "u5l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "January",
+          "options": [
+            "Enero",
+            "El efectivo",
+            "El metro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enero",
+            "t": "January"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u5l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "La esposa",
+          "t": "The wife"
+        },
+        {
+          "es": "Enviar",
+          "t": "Send"
+        },
+        {
+          "es": "La camisa",
+          "t": "The shirt"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u5l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «La esposa»?",
+          "options": [
+            "the wife",
+            "send",
+            "the shirt",
+            "the boy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La esposa",
+            "t": "The wife"
+          }
+        },
+        {
+          "id": "u5l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Send",
+          "options": [
+            "Enviar",
+            "La camisa",
+            "El chico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Enviar",
+            "t": "Send"
+          }
+        },
+        {
+          "id": "u5l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ shirt",
+          "options": [
+            "the",
+            "to",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La camisa",
+            "t": "The shirt"
+          }
+        },
+        {
+          "id": "u5l10e4",
+          "type": "build",
+          "prompt": "Traduce: «El chico»",
+          "solution": "The boy",
+          "distractors": [
+            "to",
+            "die"
+          ],
+          "pair": {
+            "es": "El chico",
+            "t": "The boy"
+          }
+        },
+        {
+          "id": "u5l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «gastar»",
+          "solution": "To spend",
+          "accept": [
+            "to spend",
+            "to spend"
+          ],
+          "pair": {
+            "es": "Gastar",
+            "t": "To spend"
+          }
+        },
+        {
+          "id": "u5l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Morir",
+              "t": "Die"
+            },
+            {
+              "es": "Lunes",
+              "t": "Monday"
+            },
+            {
+              "es": "El té",
+              "t": "The tea"
+            }
+          ]
+        },
+        {
+          "id": "u5l10e7",
+          "type": "choice",
+          "prompt": "«La revista» se traduce como...",
+          "options": [
+            "the magazine",
+            "to train",
+            "the sister",
+            "spicy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La revista",
+            "t": "The magazine"
+          }
+        },
+        {
+          "id": "u5l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To train",
+          "options": [
+            "Entrenar",
+            "La hermana",
+            "Picante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Entrenar",
+            "t": "To train"
+          }
+        }
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "id": "u9",
-  "title": "Opiniones y sociedad",
+  "title": "Opinions and society",
   "emoji": "🗣️",
   "color": "#B05CFF",
   "lessons": [
@@ -14,18 +14,135 @@
         "Describe situaciones poco probables o imaginarias, no reales."
       ],
       "phrases": [
-        { "es": "Si tuviera más tiempo, viajaría más", "t": "If I had more time, I would travel more" },
-        { "es": "Yo de ti hablaría con ella", "t": "If I were you, I would talk to her" },
-        { "es": "¿Qué harías si ganaras la lotería?", "t": "What would you do if you won the lottery?" }
+        {
+          "es": "Si tuviera más tiempo, viajaría más",
+          "t": "If I had more time, I would travel more"
+        },
+        {
+          "es": "Yo de ti hablaría con ella",
+          "t": "If I were you, I would talk to her"
+        },
+        {
+          "es": "¿Qué harías si ganaras la lotería?",
+          "t": "What would you do if you won the lottery?"
+        }
       ],
       "exercises": [
-        { "id": "u9l1e1", "type": "fill", "prompt": "Completa la frase", "sentence": "If I ___ more money, I would travel.", "options": ["had", "have", "would have"], "answer": 0, "pair": { "es": "Si tuviera más dinero, viajaría.", "t": "If I had more money, I would travel." }, "explain": "Tras «if» en la 2ª condicional: pasado simple." },
-        { "id": "u9l1e2", "type": "choice", "prompt": "If I ___ you, I would apologise.", "options": ["were", "was being", "am"], "answer": 0, "pair": { "es": "Si yo fuera tú, me disculparía.", "t": "If I were you, I would apologise." }, "explain": "«If I were you» es la fórmula fija del consejo." },
-        { "id": "u9l1e3", "type": "build", "prompt": "Traduce: «¿Qué harías si pudieras vivir en cualquier país?»", "solution": "What would you do if you could live in any country", "distractors": ["can", "will"], "pair": { "es": "¿Qué harías si pudieras vivir en cualquier país?", "t": "What would you do if you could live in any country?" } },
-        { "id": "u9l1e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "If I were you, I would study harder.", "options": ["Yo de ti estudiaría más.", "Si hubiera estudiado más, habría aprobado.", "Estudio más porque tú me lo dices."], "answer": 0, "pair": { "es": "Yo de ti estudiaría más.", "t": "If I were you, I would study harder." } },
-        { "id": "u9l1e5", "type": "type", "prompt": "Escribe «si yo fuera tú»", "solution": "if I were you", "accept": ["if i were you"], "pair": { "es": "Si yo fuera tú", "t": "If I were you" } },
-        { "id": "u9l1e6", "type": "choice", "prompt": "She would be happier if she ___ her job.", "options": ["changed", "would change", "changes"], "answer": 0, "pair": { "es": "Estaría más feliz si cambiara de trabajo.", "t": "She would be happier if she changed her job." }, "explain": "Parte del «if» en pasado simple, nunca «would»." },
-        { "id": "u9l1e7", "type": "match", "prompt": "Empareja los elementos de la 2ª condicional", "pairs": [{ "es": "Yo de ti", "t": "If I were you" }, { "es": "Haría (condicional)", "t": "Would" }, { "es": "Si (hipótesis)", "t": "If" }, { "es": "Poco probable", "t": "Unlikely" }] }
+        {
+          "id": "u9l1e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "If I ___ more money, I would travel.",
+          "options": [
+            "had",
+            "have",
+            "would have"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si tuviera más dinero, viajaría.",
+            "t": "If I had more money, I would travel."
+          },
+          "explain": "Tras «if» en la 2ª condicional: pasado simple."
+        },
+        {
+          "id": "u9l1e2",
+          "type": "choice",
+          "prompt": "If I ___ you, I would apologise.",
+          "options": [
+            "were",
+            "was being",
+            "am"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Si yo fuera tú, me disculparía.",
+            "t": "If I were you, I would apologise."
+          },
+          "explain": "«If I were you» es la fórmula fija del consejo."
+        },
+        {
+          "id": "u9l1e3",
+          "type": "build",
+          "prompt": "Traduce: «¿Qué harías si pudieras vivir en cualquier país?»",
+          "solution": "What would you do if you could live in any country",
+          "distractors": [
+            "can",
+            "will"
+          ],
+          "pair": {
+            "es": "¿Qué harías si pudieras vivir en cualquier país?",
+            "t": "What would you do if you could live in any country?"
+          }
+        },
+        {
+          "id": "u9l1e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "If I were you, I would study harder.",
+          "options": [
+            "Yo de ti estudiaría más.",
+            "Si hubiera estudiado más, habría aprobado.",
+            "Estudio más porque tú me lo dices."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Yo de ti estudiaría más.",
+            "t": "If I were you, I would study harder."
+          }
+        },
+        {
+          "id": "u9l1e5",
+          "type": "type",
+          "prompt": "Escribe «si yo fuera tú»",
+          "solution": "If I were you",
+          "accept": [
+            "if i were you"
+          ],
+          "pair": {
+            "es": "Si yo fuera tú",
+            "t": "If I were you"
+          }
+        },
+        {
+          "id": "u9l1e6",
+          "type": "choice",
+          "prompt": "She would be happier if she ___ her job.",
+          "options": [
+            "changed",
+            "would change",
+            "changes"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estaría más feliz si cambiara de trabajo.",
+            "t": "She would be happier if she changed her job."
+          },
+          "explain": "Parte del «if» en pasado simple, nunca «would»."
+        },
+        {
+          "id": "u9l1e7",
+          "type": "match",
+          "prompt": "Empareja los elementos de la 2ª condicional",
+          "pairs": [
+            {
+              "es": "Yo de ti",
+              "t": "If I were you"
+            },
+            {
+              "es": "Haría (condicional)",
+              "t": "Would"
+            },
+            {
+              "es": "Si (hipótesis)",
+              "t": "If"
+            },
+            {
+              "es": "Poco probable",
+              "t": "Unlikely"
+            }
+          ]
+        }
       ]
     },
     {
@@ -38,18 +155,135 @@
         "El relativo sustituye al pronombre repetido: the man who called me ✓ / the man who he called me ✗."
       ],
       "phrases": [
-        { "es": "Es la profesora que me ayudó", "t": "She's the teacher who helped me" },
-        { "es": "Es una app que uso cada día", "t": "It's an app that I use every day" },
-        { "es": "La ciudad donde nací", "t": "The city where I was born" }
+        {
+          "es": "Es la profesora que me ayudó",
+          "t": "She's the teacher who helped me"
+        },
+        {
+          "es": "Es una app que uso cada día",
+          "t": "It's an app that I use every day"
+        },
+        {
+          "es": "La ciudad donde nací",
+          "t": "The city where I was born"
+        }
       ],
       "exercises": [
-        { "id": "u9l2e1", "type": "fill", "prompt": "Completa la frase", "sentence": "That's the man ___ helped me.", "options": ["who", "which", "whose"], "answer": 0, "pair": { "es": "Ese es el hombre que me ayudó.", "t": "That is the man who helped me." }, "explain": "Persona como sujeto: who." },
-        { "id": "u9l2e2", "type": "choice", "prompt": "This is the book ___ changed my life.", "options": ["which", "who", "where"], "answer": 0, "pair": { "es": "Este es el libro que cambió mi vida.", "t": "This is the book which changed my life." }, "explain": "Cosa: which (o that)." },
-        { "id": "u9l2e3", "type": "build", "prompt": "Traduce: «La ciudad donde vivimos es pequeña»", "solution": "The city where we live is small", "distractors": ["that", "who"], "pair": { "es": "La ciudad donde vivimos es pequeña", "t": "The city where we live is small" } },
-        { "id": "u9l2e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "She's the colleague whose office is next to mine.", "options": ["Es la compañera cuyo despacho está al lado del mío.", "Es la compañera que trabaja al lado de mi despacho.", "Es la compañera a la que no le gusta mi despacho."], "answer": 0, "pair": { "es": "Es la compañera cuyo despacho está al lado del mío.", "t": "She's the colleague whose office is next to mine." } },
-        { "id": "u9l2e5", "type": "type", "prompt": "Escribe «cuyo/a»", "solution": "whose", "accept": ["whose"], "pair": { "es": "Cuyo/a", "t": "Whose" } },
-        { "id": "u9l2e6", "type": "choice", "prompt": "I met a girl ___ speaks five languages.", "options": ["who", "which", "where"], "answer": 0, "pair": { "es": "Conocí a una chica que habla cinco idiomas.", "t": "I met a girl who speaks five languages." }, "explain": "Persona: who (sujeto del verbo speaks)." },
-        { "id": "u9l2e7", "type": "match", "prompt": "Empareja los relativos", "pairs": [{ "es": "Quien (personas)", "t": "Who" }, { "es": "Que (cosas)", "t": "Which" }, { "es": "Donde", "t": "Where" }, { "es": "Cuyo/a", "t": "Whose" }] }
+        {
+          "id": "u9l2e1",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "That's the man ___ helped me.",
+          "options": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ese es el hombre que me ayudó.",
+            "t": "That is the man who helped me."
+          },
+          "explain": "Persona como sujeto: who."
+        },
+        {
+          "id": "u9l2e2",
+          "type": "choice",
+          "prompt": "This is the book ___ changed my life.",
+          "options": [
+            "which",
+            "who",
+            "where"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Este es el libro que cambió mi vida.",
+            "t": "This is the book which changed my life."
+          },
+          "explain": "Cosa: which (o that)."
+        },
+        {
+          "id": "u9l2e3",
+          "type": "build",
+          "prompt": "Traduce: «La ciudad donde vivimos es pequeña»",
+          "solution": "The city where we live is small",
+          "distractors": [
+            "that",
+            "who"
+          ],
+          "pair": {
+            "es": "La ciudad donde vivimos es pequeña",
+            "t": "The city where we live is small"
+          }
+        },
+        {
+          "id": "u9l2e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "She's the colleague whose office is next to mine.",
+          "options": [
+            "Es la compañera cuyo despacho está al lado del mío.",
+            "Es la compañera que trabaja al lado de mi despacho.",
+            "Es la compañera a la que no le gusta mi despacho."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es la compañera cuyo despacho está al lado del mío.",
+            "t": "She's the colleague whose office is next to mine."
+          }
+        },
+        {
+          "id": "u9l2e5",
+          "type": "type",
+          "prompt": "Escribe «cuyo/a»",
+          "solution": "Whose",
+          "accept": [
+            "whose"
+          ],
+          "pair": {
+            "es": "Cuyo/a",
+            "t": "Whose"
+          }
+        },
+        {
+          "id": "u9l2e6",
+          "type": "choice",
+          "prompt": "I met a girl ___ speaks five languages.",
+          "options": [
+            "who",
+            "which",
+            "where"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Conocí a una chica que habla cinco idiomas.",
+            "t": "I met a girl who speaks five languages."
+          },
+          "explain": "Persona: who (sujeto del verbo speaks)."
+        },
+        {
+          "id": "u9l2e7",
+          "type": "match",
+          "prompt": "Empareja los relativos",
+          "pairs": [
+            {
+              "es": "Quien (personas)",
+              "t": "Who"
+            },
+            {
+              "es": "Que (cosas)",
+              "t": "Which"
+            },
+            {
+              "es": "Donde",
+              "t": "Where"
+            },
+            {
+              "es": "Cuyo/a",
+              "t": "Whose"
+            }
+          ]
+        }
       ]
     },
     {
@@ -62,18 +296,136 @@
         "No se usan con «to»: She must be at home ✓ / She must to be at home ✗."
       ],
       "phrases": [
-        { "es": "Debe de estar en casa, las luces están encendidas", "t": "He must be at home, the lights are on" },
-        { "es": "Puede que llueva mañana", "t": "It might rain tomorrow" },
-        { "es": "No puede ser verdad", "t": "It can't be true" }
+        {
+          "es": "Debe de estar en casa, las luces están encendidas",
+          "t": "He must be at home, the lights are on"
+        },
+        {
+          "es": "Puede que llueva mañana",
+          "t": "It might rain tomorrow"
+        },
+        {
+          "es": "No puede ser verdad",
+          "t": "It can't be true"
+        }
       ],
       "exercises": [
-        { "id": "u9l3e1", "type": "fill", "prompt": "Completa la deducción", "sentence": "The lights are on. She ___ be at home.", "options": ["must", "can't", "should"], "answer": 0, "pair": { "es": "Las luces están encendidas. Debe de estar en casa.", "t": "She must be at home." }, "explain": "Evidencia clara: must be." },
-        { "id": "u9l3e2", "type": "choice", "prompt": "That ___ be John — he's in Brazil!", "options": ["can't", "must", "might"], "answer": 0, "pair": { "es": "No puede ser John: está en Brasil.", "t": "That can't be John — he's in Brazil." }, "explain": "Es imposible: can't be." },
-        { "id": "u9l3e3", "type": "build", "prompt": "Traduce: «Puede que vayamos a Grecia este año»", "solution": "We might go to Greece this year", "distractors": ["maybe", "must"], "pair": { "es": "Puede que vayamos a grecia este año", "t": "We might go to Greece this year" } },
-        { "id": "u9l3e4", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "It can't be true, I don't believe it.", "options": ["No puede ser verdad, no me lo creo.", "Debe de ser verdad, aunque no me lo crea.", "Puede que sea verdad, no estoy seguro."], "answer": 0, "pair": { "es": "No puede ser verdad, no me lo creo.", "t": "It can't be true, I don't believe it." } },
-        { "id": "u9l3e5", "type": "type", "prompt": "Escribe «debe de ser» (deducción)", "solution": "it must be", "accept": ["it must be", "must be"], "pair": { "es": "Debe de ser", "t": "It must be" } },
-        { "id": "u9l3e6", "type": "choice", "prompt": "I'm not sure. She ___ still be asleep.", "options": ["might", "must", "can't"], "answer": 0, "pair": { "es": "Puede que aún esté dormida.", "t": "She might still be asleep." }, "explain": "Duda: might be." },
-        { "id": "u9l3e7", "type": "match", "prompt": "Empareja el grado de certeza", "pairs": [{ "es": "Debe de ser", "t": "Must be" }, { "es": "Puede que sea", "t": "Might be" }, { "es": "No puede ser", "t": "Can't be" }, { "es": "Seguro", "t": "Sure" }] }
+        {
+          "id": "u9l3e1",
+          "type": "fill",
+          "prompt": "Completa la deducción",
+          "sentence": "The lights are on. She ___ be at home.",
+          "options": [
+            "must",
+            "can't",
+            "should"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las luces están encendidas. Debe de estar en casa.",
+            "t": "She must be at home."
+          },
+          "explain": "Evidencia clara: must be."
+        },
+        {
+          "id": "u9l3e2",
+          "type": "choice",
+          "prompt": "That ___ be John — he's in Brazil!",
+          "options": [
+            "can't",
+            "must",
+            "might"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No puede ser John: está en Brasil.",
+            "t": "That can't be John — he's in Brazil."
+          },
+          "explain": "Es imposible: can't be."
+        },
+        {
+          "id": "u9l3e3",
+          "type": "build",
+          "prompt": "Traduce: «Puede que vayamos a Grecia este año»",
+          "solution": "We might go to Greece this year",
+          "distractors": [
+            "maybe",
+            "must"
+          ],
+          "pair": {
+            "es": "Puede que vayamos a grecia este año",
+            "t": "We might go to Greece this year"
+          }
+        },
+        {
+          "id": "u9l3e4",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "It can't be true, I don't believe it.",
+          "options": [
+            "No puede ser verdad, no me lo creo.",
+            "Debe de ser verdad, aunque no me lo crea.",
+            "Puede que sea verdad, no estoy seguro."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No puede ser verdad, no me lo creo.",
+            "t": "It can't be true, I don't believe it."
+          }
+        },
+        {
+          "id": "u9l3e5",
+          "type": "type",
+          "prompt": "Escribe «debe de ser» (deducción)",
+          "solution": "It must be",
+          "accept": [
+            "it must be",
+            "must be"
+          ],
+          "pair": {
+            "es": "Debe de ser",
+            "t": "It must be"
+          }
+        },
+        {
+          "id": "u9l3e6",
+          "type": "choice",
+          "prompt": "I'm not sure. She ___ still be asleep.",
+          "options": [
+            "might",
+            "must",
+            "can't"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Puede que aún esté dormida.",
+            "t": "She might still be asleep."
+          },
+          "explain": "Duda: might be."
+        },
+        {
+          "id": "u9l3e7",
+          "type": "match",
+          "prompt": "Empareja el grado de certeza",
+          "pairs": [
+            {
+              "es": "Debe de ser",
+              "t": "Must be"
+            },
+            {
+              "es": "Puede que sea",
+              "t": "Might be"
+            },
+            {
+              "es": "No puede ser",
+              "t": "Can't be"
+            },
+            {
+              "es": "Seguro",
+              "t": "Sure"
+            }
+          ]
+        }
       ]
     },
     {
@@ -86,18 +438,1041 @@
         "In my opinion / I'd say / It seems to me that… para introducir opinión."
       ],
       "phrases": [
-        { "es": "En mi opinión, es una buena idea", "t": "In my opinion, it's a good idea" },
-        { "es": "Por un lado es útil; por otro, es caro", "t": "On the one hand it's useful; on the other hand, it's expensive" },
-        { "es": "Sin embargo, mucha gente piensa lo contrario", "t": "However, many people think the opposite" }
+        {
+          "es": "En mi opinión, es una buena idea",
+          "t": "In my opinion, it's a good idea"
+        },
+        {
+          "es": "Por un lado es útil; por otro, es caro",
+          "t": "On the one hand it's useful; on the other hand, it's expensive"
+        },
+        {
+          "es": "Sin embargo, mucha gente piensa lo contrario",
+          "t": "However, many people think the opposite"
+        }
       ],
       "exercises": [
-        { "id": "u9l4e1", "type": "match", "prompt": "Empareja los conectores", "pairs": [{ "es": "Sin embargo", "t": "However" }, { "es": "Por lo tanto", "t": "Therefore" }, { "es": "En mi opinión", "t": "In my opinion" }, { "es": "Por otro lado", "t": "On the other hand" }] },
-        { "id": "u9l4e2", "type": "fill", "prompt": "Completa el texto", "sentence": "It's expensive. ___ , it's the best option.", "options": ["However", "For example", "Because"], "answer": 0, "pair": { "es": "Es caro. Sin embargo, es la mejor opción.", "t": "It is expensive. However, it is the best option." }, "explain": "Contraste entre las dos ideas: however." },
-        { "id": "u9l4e3", "type": "choice", "prompt": "«Por lo tanto» es…", "options": ["therefore", "purpose", "precisely"], "answer": 0, "pair": { "es": "Por lo tanto", "t": "Therefore" }, "explain": "«Therefore» introduce consecuencia." },
-        { "id": "u9l4e4", "type": "build", "prompt": "Traduce: «En mi opinión, el examen fue justo»", "solution": "In my opinion the exam was fair", "distractors": ["opinions", "since"], "pair": { "es": "En mi opinión, el examen fue justo", "t": "In my opinion, the exam was fair" } },
-        { "id": "u9l4e5", "type": "listen", "prompt": "Escucha y elige la traducción", "audio": "On the one hand it's cheap; on the other hand, it's far away.", "options": ["Por un lado es barato; por otro, está lejos.", "No solo es barato sino que además está lejos.", "Es barato, por lo tanto está lejos."], "answer": 0, "pair": { "es": "Por un lado es barato; por otro, está lejos.", "t": "On the one hand it's cheap; on the other hand, it's far away." } },
-        { "id": "u9l4e6", "type": "type", "prompt": "Escribe «sin embargo»", "solution": "however", "accept": ["however"], "pair": { "es": "Sin embargo", "t": "However" } },
-        { "id": "u9l4e7", "type": "choice", "prompt": "He didn't study. ___ , he failed.", "options": ["Therefore", "Although", "Despite"], "answer": 0, "pair": { "es": "No estudió. Por lo tanto, suspendió.", "t": "He didn't study. Therefore, he failed." }, "explain": "Consecuencia lógica: therefore." }
+        {
+          "id": "u9l4e1",
+          "type": "match",
+          "prompt": "Empareja los conectores",
+          "pairs": [
+            {
+              "es": "Sin embargo",
+              "t": "However"
+            },
+            {
+              "es": "Por lo tanto",
+              "t": "Therefore"
+            },
+            {
+              "es": "En mi opinión",
+              "t": "In my opinion"
+            },
+            {
+              "es": "Por otro lado",
+              "t": "On the other hand"
+            }
+          ]
+        },
+        {
+          "id": "u9l4e2",
+          "type": "fill",
+          "prompt": "Completa el texto",
+          "sentence": "It's expensive. ___ , it's the best option.",
+          "options": [
+            "However",
+            "For example",
+            "Because"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Es caro. Sin embargo, es la mejor opción.",
+            "t": "It is expensive. However, it is the best option."
+          },
+          "explain": "Contraste entre las dos ideas: however."
+        },
+        {
+          "id": "u9l4e3",
+          "type": "choice",
+          "prompt": "«Por lo tanto» es…",
+          "options": [
+            "therefore",
+            "purpose",
+            "precisely"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por lo tanto",
+            "t": "Therefore"
+          },
+          "explain": "«Therefore» introduce consecuencia."
+        },
+        {
+          "id": "u9l4e4",
+          "type": "build",
+          "prompt": "Traduce: «En mi opinión, el examen fue justo»",
+          "solution": "In my opinion the exam was fair",
+          "distractors": [
+            "opinions",
+            "since"
+          ],
+          "pair": {
+            "es": "En mi opinión, el examen fue justo",
+            "t": "In my opinion, the exam was fair"
+          }
+        },
+        {
+          "id": "u9l4e5",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "On the one hand it's cheap; on the other hand, it's far away.",
+          "options": [
+            "Por un lado es barato; por otro, está lejos.",
+            "No solo es barato sino que además está lejos.",
+            "Es barato, por lo tanto está lejos."
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Por un lado es barato; por otro, está lejos.",
+            "t": "On the one hand it's cheap; on the other hand, it's far away."
+          }
+        },
+        {
+          "id": "u9l4e6",
+          "type": "type",
+          "prompt": "Escribe «sin embargo»",
+          "solution": "However",
+          "accept": [
+            "however"
+          ],
+          "pair": {
+            "es": "Sin embargo",
+            "t": "However"
+          }
+        },
+        {
+          "id": "u9l4e7",
+          "type": "choice",
+          "prompt": "He didn't study. ___ , he failed.",
+          "options": [
+            "Therefore",
+            "Although",
+            "Despite"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No estudió. Por lo tanto, suspendió.",
+            "t": "He didn't study. Therefore, he failed."
+          },
+          "explain": "Consecuencia lógica: therefore."
+        }
+      ]
+    },
+    {
+      "id": "u9l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "Ayer",
+          "t": "Yesterday"
+        },
+        {
+          "es": "Hecho",
+          "t": "Fact"
+        },
+        {
+          "es": "El ojo",
+          "t": "The eye"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Ayer»?",
+          "options": [
+            "yesterday",
+            "fact",
+            "the eye",
+            "the house"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ayer",
+            "t": "Yesterday"
+          }
+        },
+        {
+          "id": "u9l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Fact",
+          "options": [
+            "Hecho",
+            "El ojo",
+            "La casa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hecho",
+            "t": "Fact"
+          }
+        },
+        {
+          "id": "u9l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ eye",
+          "options": [
+            "the",
+            "thex",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El ojo",
+            "t": "The eye"
+          }
+        },
+        {
+          "id": "u9l5e4",
+          "type": "build",
+          "prompt": "Traduce: «La casa»",
+          "solution": "The house",
+          "distractors": [
+            "the",
+            "the"
+          ],
+          "pair": {
+            "es": "La casa",
+            "t": "The house"
+          }
+        },
+        {
+          "id": "u9l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el dolor»",
+          "solution": "The pain",
+          "accept": [
+            "the pain",
+            "the pain"
+          ],
+          "pair": {
+            "es": "El dolor",
+            "t": "The pain"
+          }
+        },
+        {
+          "id": "u9l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El entrenador",
+              "t": "The coach"
+            },
+            {
+              "es": "Dentro de",
+              "t": "Into"
+            },
+            {
+              "es": "El aceite",
+              "t": "The oil"
+            }
+          ]
+        },
+        {
+          "id": "u9l5e7",
+          "type": "choice",
+          "prompt": "«La mesa» se traduce como...",
+          "options": [
+            "the table",
+            "to cook",
+            "the traffic light",
+            "the website"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mesa",
+            "t": "The table"
+          }
+        },
+        {
+          "id": "u9l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "To cook",
+          "options": [
+            "Cocinar",
+            "El semáforo",
+            "La página web"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cocinar",
+            "t": "To cook"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u9l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "Qué",
+          "t": "What"
+        },
+        {
+          "es": "Cómo",
+          "t": "How"
+        },
+        {
+          "es": "Cierto",
+          "t": "Certain"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Qué»?",
+          "options": [
+            "what",
+            "how",
+            "certain",
+            "the night"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Qué",
+            "t": "What"
+          }
+        },
+        {
+          "id": "u9l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "How",
+          "options": [
+            "Cómo",
+            "Cierto",
+            "La noche"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cómo",
+            "t": "How"
+          }
+        },
+        {
+          "id": "u9l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "certain",
+            "the",
+            "funny"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cierto",
+            "t": "Certain"
+          }
+        },
+        {
+          "id": "u9l6e4",
+          "type": "build",
+          "prompt": "Traduce: «La noche»",
+          "solution": "The night",
+          "distractors": [
+            "funny",
+            "other"
+          ],
+          "pair": {
+            "es": "La noche",
+            "t": "The night"
+          }
+        },
+        {
+          "id": "u9l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «gracioso»",
+          "solution": "Funny",
+          "accept": [
+            "funny",
+            "funny"
+          ],
+          "pair": {
+            "es": "Gracioso",
+            "t": "Funny"
+          }
+        },
+        {
+          "id": "u9l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Otro",
+              "t": "Other"
+            },
+            {
+              "es": "¿Cuánto cuesta?",
+              "t": "How much is it?"
+            },
+            {
+              "es": "El caballo",
+              "t": "The horse"
+            }
+          ]
+        },
+        {
+          "id": "u9l6e7",
+          "type": "choice",
+          "prompt": "«La clase» se traduce como...",
+          "options": [
+            "the class",
+            "the checkout",
+            "Where are you from?",
+            "not"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La clase",
+            "t": "The class"
+          }
+        },
+        {
+          "id": "u9l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The checkout",
+          "options": [
+            "La caja",
+            "¿De dónde eres?",
+            "No"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La caja",
+            "t": "The checkout"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u9l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "Pintar",
+          "t": "To paint"
+        },
+        {
+          "es": "Honesto",
+          "t": "Honest"
+        },
+        {
+          "es": "Él",
+          "t": "He"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Pintar»?",
+          "options": [
+            "to paint",
+            "honest",
+            "he",
+            "try"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pintar",
+            "t": "To paint"
+          }
+        },
+        {
+          "id": "u9l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Honest",
+          "options": [
+            "Honesto",
+            "Él",
+            "Intentar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Honesto",
+            "t": "Honest"
+          }
+        },
+        {
+          "id": "u9l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "he",
+            "try",
+            "day"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Él",
+            "t": "He"
+          }
+        },
+        {
+          "id": "u9l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Intentar»",
+          "solution": "Try",
+          "distractors": [
+            "day",
+            "the"
+          ],
+          "pair": {
+            "es": "Intentar",
+            "t": "Try"
+          }
+        },
+        {
+          "id": "u9l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «día»",
+          "solution": "Day",
+          "accept": [
+            "day",
+            "day"
+          ],
+          "pair": {
+            "es": "Día",
+            "t": "Day"
+          }
+        },
+        {
+          "id": "u9l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La lluvia",
+              "t": "The rain"
+            },
+            {
+              "es": "El actor",
+              "t": "The actor"
+            },
+            {
+              "es": "La empresa",
+              "t": "The company"
+            }
+          ]
+        },
+        {
+          "id": "u9l7e7",
+          "type": "choice",
+          "prompt": "«La actriz» se traduce como...",
+          "options": [
+            "the actress",
+            "the highway",
+            "me",
+            "the band"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La actriz",
+            "t": "The actress"
+          }
+        },
+        {
+          "id": "u9l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The highway",
+          "options": [
+            "La autopista",
+            "Mí",
+            "El grupo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La autopista",
+            "t": "The highway"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u9l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "El médico",
+          "t": "The doctor"
+        },
+        {
+          "es": "Ayudar",
+          "t": "Help"
+        },
+        {
+          "es": "El hermano",
+          "t": "The brother"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El médico»?",
+          "options": [
+            "the doctor",
+            "help",
+            "the brother",
+            "the nurse"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El médico",
+            "t": "The doctor"
+          }
+        },
+        {
+          "id": "u9l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Help",
+          "options": [
+            "Ayudar",
+            "El hermano",
+            "El enfermero"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ayudar",
+            "t": "Help"
+          }
+        },
+        {
+          "id": "u9l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ brother",
+          "options": [
+            "the",
+            "give",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El hermano",
+            "t": "The brother"
+          }
+        },
+        {
+          "id": "u9l8e4",
+          "type": "build",
+          "prompt": "Traduce: «El enfermero»",
+          "solution": "The nurse",
+          "distractors": [
+            "give",
+            "hot"
+          ],
+          "pair": {
+            "es": "El enfermero",
+            "t": "The nurse"
+          }
+        },
+        {
+          "id": "u9l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «dar»",
+          "solution": "Give",
+          "accept": [
+            "give",
+            "give"
+          ],
+          "pair": {
+            "es": "Dar",
+            "t": "Give"
+          }
+        },
+        {
+          "id": "u9l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Caliente",
+              "t": "Hot"
+            },
+            {
+              "es": "La nevera",
+              "t": "The fridge"
+            },
+            {
+              "es": "El postre",
+              "t": "The dessert"
+            }
+          ]
+        },
+        {
+          "id": "u9l8e7",
+          "type": "choice",
+          "prompt": "«En» se traduce como...",
+          "options": [
+            "at",
+            "the forest",
+            "How old are you?",
+            "Do you speak English?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "En",
+            "t": "At"
+          }
+        },
+        {
+          "id": "u9l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The forest",
+          "options": [
+            "El bosque",
+            "¿Cuántos años tienes?",
+            "¿Hablas inglés?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El bosque",
+            "t": "The forest"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u9l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "El juego de mesa",
+          "t": "The board game"
+        },
+        {
+          "es": "El invitado",
+          "t": "The guest"
+        },
+        {
+          "es": "El mensaje",
+          "t": "The message"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El juego de mesa»?",
+          "options": [
+            "the board game",
+            "the guest",
+            "the message",
+            "woman"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El juego de mesa",
+            "t": "The board game"
+          }
+        },
+        {
+          "id": "u9l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The guest",
+          "options": [
+            "El invitado",
+            "El mensaje",
+            "Mujer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El invitado",
+            "t": "The guest"
+          }
+        },
+        {
+          "id": "u9l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ message",
+          "options": [
+            "the",
+            "woman",
+            "back"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El mensaje",
+            "t": "The message"
+          }
+        },
+        {
+          "id": "u9l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Mujer»",
+          "solution": "Woman",
+          "distractors": [
+            "back",
+            "the"
+          ],
+          "pair": {
+            "es": "Mujer",
+            "t": "Woman"
+          }
+        },
+        {
+          "id": "u9l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «espalda/atrás»",
+          "solution": "Back",
+          "accept": [
+            "back",
+            "back"
+          ],
+          "pair": {
+            "es": "Espalda/atrás",
+            "t": "Back"
+          }
+        },
+        {
+          "id": "u9l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "La foto",
+              "t": "The photo"
+            },
+            {
+              "es": "La chaqueta",
+              "t": "The jacket"
+            },
+            {
+              "es": "La maleta",
+              "t": "The suitcase"
+            }
+          ]
+        },
+        {
+          "id": "u9l9e7",
+          "type": "choice",
+          "prompt": "«Abrir» se traduce como...",
+          "options": [
+            "open",
+            "need",
+            "if",
+            "the hope"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Abrir",
+            "t": "Open"
+          }
+        },
+        {
+          "id": "u9l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Need",
+          "options": [
+            "Necesitar",
+            "Si",
+            "La esperanza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesitar",
+            "t": "Need"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u9l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Las escaleras",
+          "t": "The stairs"
+        },
+        {
+          "es": "Escuela",
+          "t": "School"
+        },
+        {
+          "es": "El agua",
+          "t": "The water"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u9l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Las escaleras»?",
+          "options": [
+            "the stairs",
+            "school",
+            "the water",
+            "the cake"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Las escaleras",
+            "t": "The stairs"
+          }
+        },
+        {
+          "id": "u9l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "School",
+          "options": [
+            "Escuela",
+            "El agua",
+            "Pastel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Escuela",
+            "t": "School"
+          }
+        },
+        {
+          "id": "u9l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ water",
+          "options": [
+            "the",
+            "thex",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El agua",
+            "t": "The water"
+          }
+        },
+        {
+          "id": "u9l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Pastel»",
+          "solution": "The cake",
+          "distractors": [
+            "the",
+            "to"
+          ],
+          "pair": {
+            "es": "Pastel",
+            "t": "The cake"
+          }
+        },
+        {
+          "id": "u9l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «el viaje»",
+          "solution": "The trip",
+          "accept": [
+            "the trip",
+            "the trip"
+          ],
+          "pair": {
+            "es": "El viaje",
+            "t": "The trip"
+          }
+        },
+        {
+          "id": "u9l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Leer",
+              "t": "To read"
+            },
+            {
+              "es": "La mariposa",
+              "t": "The butterfly"
+            },
+            {
+              "es": "Difícil",
+              "t": "Difficult"
+            }
+          ]
+        },
+        {
+          "id": "u9l10e7",
+          "type": "choice",
+          "prompt": "«Rápido» se traduce como...",
+          "options": [
+            "fast",
+            "the weekend",
+            "already",
+            "tall"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Rápido",
+            "t": "Fast"
+          }
+        },
+        {
+          "id": "u9l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The weekend",
+          "options": [
+            "El fin de semana",
+            "Ya",
+            "Alto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El fin de semana",
+            "t": "The weekend"
+          }
+        }
       ]
     }
   ]

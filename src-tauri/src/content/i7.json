@@ -1,0 +1,1522 @@
+{
+  "id": "i7",
+  "title": "Lavoro e studio",
+  "emoji": "💼",
+  "color": "#8E6FFF",
+  "lessons": [
+    {
+      "id": "i7l1",
+      "title": "Profesiones",
+      "goal": "Hablar del trabajo",
+      "tip": [
+        "«Sono...» para tu profesión.",
+        "«Lavoro come...» = trabajo como..."
+      ],
+      "phrases": [
+        {
+          "es": "Soy profesor",
+          "t": "Sono insegnante"
+        },
+        {
+          "es": "Trabajo en una oficina",
+          "t": "Lavoro in un ufficio"
+        },
+        {
+          "es": "Busco trabajo",
+          "t": "Cerco lavoro"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «soy profesor»?",
+          "options": [
+            "Sono insegnante",
+            "Lavoro in un ufficio",
+            "Cerco lavoro",
+            "Insegnante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy profesor",
+            "t": "Sono insegnante"
+          }
+        },
+        {
+          "id": "i7l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Lavoro in un ufficio",
+          "options": [
+            "Trabajo en una oficina",
+            "Busco trabajo",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Trabajo en una oficina",
+            "t": "Lavoro in un ufficio"
+          }
+        },
+        {
+          "id": "i7l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ lavoro",
+          "options": [
+            "Cerco",
+            "Insegnante",
+            "Medico"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Busco trabajo",
+            "t": "Cerco lavoro"
+          }
+        },
+        {
+          "id": "i7l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Soy profesor»",
+          "solution": "Sono insegnante",
+          "distractors": [
+            "Ingegnere",
+            "Studente"
+          ],
+          "pair": {
+            "es": "Soy profesor",
+            "t": "Sono insegnante"
+          }
+        },
+        {
+          "id": "i7l1e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «profesor»",
+          "solution": "Insegnante",
+          "accept": [
+            "Insegnante",
+            "insegnante"
+          ],
+          "pair": {
+            "es": "Profesor",
+            "t": "Insegnante"
+          }
+        },
+        {
+          "id": "i7l1e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Profesor",
+              "t": "Insegnante"
+            },
+            {
+              "es": "Médico",
+              "t": "Medico"
+            },
+            {
+              "es": "Ingeniero",
+              "t": "Ingegnere"
+            }
+          ]
+        },
+        {
+          "id": "i7l1e7",
+          "type": "choice",
+          "prompt": "«Estudiante» en italiano es...",
+          "options": [
+            "Studente",
+            "Insegnante",
+            "Medico",
+            "Ingegnere"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estudiante",
+            "t": "Studente"
+          }
+        },
+        {
+          "id": "i7l1e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Sono insegnante",
+          "options": [
+            "Soy profesor",
+            "Trabajo en una oficina",
+            "Busco trabajo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy profesor",
+            "t": "Sono insegnante"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l2",
+      "title": "En la oficina",
+      "goal": "Comunicación laboral",
+      "tip": [
+        "«Riunione» = reunión.",
+        "«Inviare un'email» = enviar un correo."
+      ],
+      "phrases": [
+        {
+          "es": "Tengo una reunión",
+          "t": "Ho una riunione"
+        },
+        {
+          "es": "Envío el correo",
+          "t": "Invio l'email"
+        },
+        {
+          "es": "El proyecto es importante",
+          "t": "Il progetto è importante"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «tengo una reunión»?",
+          "options": [
+            "Ho una riunione",
+            "Invio l'email",
+            "Il progetto è importante",
+            "Riunione"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo una reunión",
+            "t": "Ho una riunione"
+          }
+        },
+        {
+          "id": "i7l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Invio l'email",
+          "options": [
+            "Envío el correo",
+            "El proyecto es importante",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Envío el correo",
+            "t": "Invio l'email"
+          }
+        },
+        {
+          "id": "i7l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Il ___ è importante",
+          "options": [
+            "progetto",
+            "Riunione",
+            "Email"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El proyecto es importante",
+            "t": "Il progetto è importante"
+          }
+        },
+        {
+          "id": "i7l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Tengo una reunión»",
+          "solution": "Ho una riunione",
+          "distractors": [
+            "Progetto",
+            "Capo"
+          ],
+          "pair": {
+            "es": "Tengo una reunión",
+            "t": "Ho una riunione"
+          }
+        },
+        {
+          "id": "i7l2e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «reunión»",
+          "solution": "Riunione",
+          "accept": [
+            "Riunione",
+            "riunione"
+          ],
+          "pair": {
+            "es": "Reunión",
+            "t": "Riunione"
+          }
+        },
+        {
+          "id": "i7l2e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Reunión",
+              "t": "Riunione"
+            },
+            {
+              "es": "Correo",
+              "t": "Email"
+            },
+            {
+              "es": "Proyecto",
+              "t": "Progetto"
+            }
+          ]
+        },
+        {
+          "id": "i7l2e7",
+          "type": "choice",
+          "prompt": "«Jefe» en italiano es...",
+          "options": [
+            "Capo",
+            "Riunione",
+            "Email",
+            "Progetto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Jefe",
+            "t": "Capo"
+          }
+        },
+        {
+          "id": "i7l2e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ho una riunione",
+          "options": [
+            "Tengo una reunión",
+            "Envío el correo",
+            "El proyecto es importante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo una reunión",
+            "t": "Ho una riunione"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l3",
+      "title": "Escuela",
+      "goal": "En clase",
+      "tip": [
+        "«Ho un esame» = tengo un examen.",
+        "«Non capisco» = no entiendo."
+      ],
+      "phrases": [
+        {
+          "es": "Tengo un examen",
+          "t": "Ho un esame"
+        },
+        {
+          "es": "No entiendo la pregunta",
+          "t": "Non capisco la domanda"
+        },
+        {
+          "es": "La clase es interesante",
+          "t": "La lezione è interessante"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l3e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «tengo un examen»?",
+          "options": [
+            "Ho un esame",
+            "Non capisco la domanda",
+            "La lezione è interessante",
+            "Esame"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo un examen",
+            "t": "Ho un esame"
+          }
+        },
+        {
+          "id": "i7l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Non capisco la domanda",
+          "options": [
+            "No entiendo la pregunta",
+            "La clase es interesante",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No entiendo la pregunta",
+            "t": "Non capisco la domanda"
+          }
+        },
+        {
+          "id": "i7l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "La ___ è interessante",
+          "options": [
+            "lezione",
+            "Esame",
+            "Domanda"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La clase es interesante",
+            "t": "La lezione è interessante"
+          }
+        },
+        {
+          "id": "i7l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Tengo un examen»",
+          "solution": "Ho un esame",
+          "distractors": [
+            "Lezione",
+            "Libro"
+          ],
+          "pair": {
+            "es": "Tengo un examen",
+            "t": "Ho un esame"
+          }
+        },
+        {
+          "id": "i7l3e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «examen»",
+          "solution": "Esame",
+          "accept": [
+            "Esame",
+            "esame"
+          ],
+          "pair": {
+            "es": "Examen",
+            "t": "Esame"
+          }
+        },
+        {
+          "id": "i7l3e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Examen",
+              "t": "Esame"
+            },
+            {
+              "es": "Pregunta",
+              "t": "Domanda"
+            },
+            {
+              "es": "Clase",
+              "t": "Lezione"
+            }
+          ]
+        },
+        {
+          "id": "i7l3e7",
+          "type": "choice",
+          "prompt": "«Libro» en italiano es...",
+          "options": [
+            "Libro",
+            "Esame",
+            "Domanda",
+            "Lezione"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Libro",
+            "t": "Libro"
+          }
+        },
+        {
+          "id": "i7l3e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ho un esame",
+          "options": [
+            "Tengo un examen",
+            "No entiendo la pregunta",
+            "La clase es interesante"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo un examen",
+            "t": "Ho un esame"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l4",
+      "title": "Tecnología",
+      "goal": "Uso digital",
+      "tip": [
+        "«Scaricare» = descargar.",
+        "«Password» se usa igual."
+      ],
+      "phrases": [
+        {
+          "es": "Descargo la aplicación",
+          "t": "Scarico l'app"
+        },
+        {
+          "es": "Olvidé la contraseña",
+          "t": "Ho dimenticato la password"
+        },
+        {
+          "es": "Mi teléfono no funciona",
+          "t": "Il mio telefono non funziona"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l4e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «descargo la aplicación»?",
+          "options": [
+            "Scarico l'app",
+            "Ho dimenticato la password",
+            "Il mio telefono non funziona",
+            "App"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Descargo la aplicación",
+            "t": "Scarico l'app"
+          }
+        },
+        {
+          "id": "i7l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ho dimenticato la password",
+          "options": [
+            "Olvidé la contraseña",
+            "Mi teléfono no funciona",
+            "No lo sé"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Olvidé la contraseña",
+            "t": "Ho dimenticato la password"
+          }
+        },
+        {
+          "id": "i7l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Il ___ telefono non funziona",
+          "options": [
+            "mio",
+            "App",
+            "Password"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mi teléfono no funciona",
+            "t": "Il mio telefono non funziona"
+          }
+        },
+        {
+          "id": "i7l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Descargo la aplicación»",
+          "solution": "Scarico l'app",
+          "distractors": [
+            "Schermo",
+            "Messaggio"
+          ],
+          "pair": {
+            "es": "Descargo la aplicación",
+            "t": "Scarico l'app"
+          }
+        },
+        {
+          "id": "i7l4e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «aplicación»",
+          "solution": "App",
+          "accept": [
+            "App",
+            "app"
+          ],
+          "pair": {
+            "es": "Aplicación",
+            "t": "App"
+          }
+        },
+        {
+          "id": "i7l4e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Aplicación",
+              "t": "App"
+            },
+            {
+              "es": "Contraseña",
+              "t": "Password"
+            },
+            {
+              "es": "Pantalla",
+              "t": "Schermo"
+            }
+          ]
+        },
+        {
+          "id": "i7l4e7",
+          "type": "choice",
+          "prompt": "«Mensaje» en italiano es...",
+          "options": [
+            "Messaggio",
+            "App",
+            "Password",
+            "Schermo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mensaje",
+            "t": "Messaggio"
+          }
+        },
+        {
+          "id": "i7l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Scarico l'app",
+          "options": [
+            "Descargo la aplicación",
+            "Olvidé la contraseña",
+            "Mi teléfono no funciona"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Descargo la aplicación",
+            "t": "Scarico l'app"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l5",
+      "title": "Parole extra 1",
+      "goal": "Vocabolario chiave",
+      "tip": [
+        "Pratica parole importanti."
+      ],
+      "phrases": [
+        {
+          "es": "Comprar",
+          "t": "Comprare"
+        },
+        {
+          "es": "Privado",
+          "t": "Privato"
+        },
+        {
+          "es": "Qué",
+          "t": "Cosa"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Comprar»?",
+          "options": [
+            "Comprare",
+            "Privato",
+            "Cosa",
+            "Possibile"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Comprar",
+            "t": "Comprare"
+          }
+        },
+        {
+          "id": "i7l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Privato",
+          "options": [
+            "Privado",
+            "Qué",
+            "Posible"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Privado",
+            "t": "Privato"
+          }
+        },
+        {
+          "id": "i7l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Cosa",
+            "Possibile",
+            "Mezzo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Qué",
+            "t": "Cosa"
+          }
+        },
+        {
+          "id": "i7l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Posible»",
+          "solution": "Possibile",
+          "distractors": [
+            "Mezzo",
+            "persona"
+          ],
+          "pair": {
+            "es": "Posible",
+            "t": "Possibile"
+          }
+        },
+        {
+          "id": "i7l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «medio»",
+          "solution": "Mezzo",
+          "accept": [
+            "Mezzo",
+            "mezzo"
+          ],
+          "pair": {
+            "es": "Medio",
+            "t": "Mezzo"
+          }
+        },
+        {
+          "id": "i7l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Persona",
+              "t": "Persona"
+            },
+            {
+              "es": "Está bien",
+              "t": "Va bene"
+            },
+            {
+              "es": "Abril",
+              "t": "Aprile"
+            }
+          ]
+        },
+        {
+          "id": "i7l5e7",
+          "type": "choice",
+          "prompt": "«Dónde» se traduce como...",
+          "options": [
+            "Dove",
+            "buono",
+            "Dente",
+            "Piede"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dónde",
+            "t": "Dove"
+          }
+        },
+        {
+          "id": "i7l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Buono",
+          "options": [
+            "Bueno",
+            "Diente",
+            "Pie"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bueno",
+            "t": "Buono"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l6",
+      "title": "Frasi utili 2",
+      "goal": "Frasi quotidiane",
+      "tip": [
+        "Parla in modo naturale."
+      ],
+      "phrases": [
+        {
+          "es": "Cantar",
+          "t": "Cantare"
+        },
+        {
+          "es": "Nacer",
+          "t": "Nascere"
+        },
+        {
+          "es": "Despertarse",
+          "t": "Svegliarsi"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Cantar»?",
+          "options": [
+            "Cantare",
+            "Nascere",
+            "Svegliarsi",
+            "Riconoscere"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cantar",
+            "t": "Cantare"
+          }
+        },
+        {
+          "id": "i7l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Nascere",
+          "options": [
+            "Nacer",
+            "Despertarse",
+            "Reconocer"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nacer",
+            "t": "Nascere"
+          }
+        },
+        {
+          "id": "i7l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Svegliarsi",
+            "Riconoscere",
+            "Animale"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Despertarse",
+            "t": "Svegliarsi"
+          }
+        },
+        {
+          "id": "i7l6e4",
+          "type": "build",
+          "prompt": "Traduce: «Reconocer»",
+          "solution": "Riconoscere",
+          "distractors": [
+            "Animale",
+            "Forse"
+          ],
+          "pair": {
+            "es": "Reconocer",
+            "t": "Riconoscere"
+          }
+        },
+        {
+          "id": "i7l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «animal»",
+          "solution": "Animale",
+          "accept": [
+            "Animale",
+            "animale"
+          ],
+          "pair": {
+            "es": "Animal",
+            "t": "Animale"
+          }
+        },
+        {
+          "id": "i7l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Quizás",
+              "t": "Forse"
+            },
+            {
+              "es": "Tarea",
+              "t": "Compito"
+            },
+            {
+              "es": "Escribir",
+              "t": "Scrivere"
+            }
+          ]
+        },
+        {
+          "id": "i7l6e7",
+          "type": "choice",
+          "prompt": "«Luna» se traduce como...",
+          "options": [
+            "Luna",
+            "Ristorante",
+            "ospedale",
+            "Insieme"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Luna",
+            "t": "Luna"
+          }
+        },
+        {
+          "id": "i7l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ristorante",
+          "options": [
+            "Restaurante",
+            "Hospital",
+            "Juntos"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Restaurante",
+            "t": "Ristorante"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l7",
+      "title": "Ripasso 3",
+      "goal": "Ripasso",
+      "tip": [
+        "Consolida ciò che hai imparato."
+      ],
+      "phrases": [
+        {
+          "es": "Silla",
+          "t": "Sedia"
+        },
+        {
+          "es": "Persona",
+          "t": "Persona"
+        },
+        {
+          "es": "Nariz",
+          "t": "Naso"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Silla»?",
+          "options": [
+            "sedia",
+            "persona",
+            "Naso",
+            "Agosto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Silla",
+            "t": "Sedia"
+          }
+        },
+        {
+          "id": "i7l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Persona",
+          "options": [
+            "Persona",
+            "Nariz",
+            "Agosto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Persona",
+            "t": "Persona"
+          }
+        },
+        {
+          "id": "i7l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Naso",
+            "Agosto",
+            "Trovare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nariz",
+            "t": "Naso"
+          }
+        },
+        {
+          "id": "i7l7e4",
+          "type": "build",
+          "prompt": "Traduce: «Agosto»",
+          "solution": "Agosto",
+          "distractors": [
+            "Trovare",
+            "Facile"
+          ],
+          "pair": {
+            "es": "Agosto",
+            "t": "Agosto"
+          }
+        },
+        {
+          "id": "i7l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «encontrar»",
+          "solution": "Trovare",
+          "accept": [
+            "Trovare",
+            "trovare"
+          ],
+          "pair": {
+            "es": "Encontrar",
+            "t": "Trovare"
+          }
+        },
+        {
+          "id": "i7l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Fácil",
+              "t": "Facile"
+            },
+            {
+              "es": "Niña",
+              "t": "Bambina"
+            },
+            {
+              "es": "Mejorar",
+              "t": "Migliorare"
+            }
+          ]
+        },
+        {
+          "id": "i7l7e7",
+          "type": "choice",
+          "prompt": "«Frío» se traduce como...",
+          "options": [
+            "Freddo",
+            "dolore",
+            "domani",
+            "Mattina"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Frío",
+            "t": "Freddo"
+          }
+        },
+        {
+          "id": "i7l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Dolore",
+          "options": [
+            "Dolor",
+            "Mañana",
+            "Mañana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Dolor",
+            "t": "Dolore"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l8",
+      "title": "Ascolto 4",
+      "goal": "Ascolto",
+      "tip": [
+        "Allena l'orecchio."
+      ],
+      "phrases": [
+        {
+          "es": "Disculpa",
+          "t": "Scusa"
+        },
+        {
+          "es": "Pobre",
+          "t": "Povero"
+        },
+        {
+          "es": "Cuando",
+          "t": "Quando"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Disculpa»?",
+          "options": [
+            "Scusa",
+            "Povero",
+            "Quando",
+            "Idea"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Disculpa",
+            "t": "Scusa"
+          }
+        },
+        {
+          "id": "i7l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Povero",
+          "options": [
+            "Pobre",
+            "Cuando",
+            "Idea"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pobre",
+            "t": "Povero"
+          }
+        },
+        {
+          "id": "i7l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Quando",
+            "Idea",
+            "Sopra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Cuando",
+            "t": "Quando"
+          }
+        },
+        {
+          "id": "i7l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Idea»",
+          "solution": "Idea",
+          "distractors": [
+            "Sopra",
+            "polizia"
+          ],
+          "pair": {
+            "es": "Idea",
+            "t": "Idea"
+          }
+        },
+        {
+          "id": "i7l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «encima»",
+          "solution": "Sopra",
+          "accept": [
+            "Sopra",
+            "sopra"
+          ],
+          "pair": {
+            "es": "Encima",
+            "t": "Sopra"
+          }
+        },
+        {
+          "id": "i7l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Policía",
+              "t": "Polizia"
+            },
+            {
+              "es": "Dolor",
+              "t": "Dolore"
+            },
+            {
+              "es": "Tarde",
+              "t": "Pomeriggio"
+            }
+          ]
+        },
+        {
+          "id": "i7l8e7",
+          "type": "choice",
+          "prompt": "«Hola / Adiós (informal)» se traduce como...",
+          "options": [
+            "Ciao",
+            "Scegliere",
+            "Notizia",
+            "Mercoledì"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hola / Adiós (informal)",
+            "t": "Ciao"
+          }
+        },
+        {
+          "id": "i7l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Scegliere",
+          "options": [
+            "Elegir",
+            "Noticia",
+            "Miércoles"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Elegir",
+            "t": "Scegliere"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l9",
+      "title": "Conversazione 5",
+      "goal": "Parlare",
+      "tip": [
+        "Costruisci sicurezza."
+      ],
+      "phrases": [
+        {
+          "es": "Morado",
+          "t": "Viola"
+        },
+        {
+          "es": "Bolso",
+          "t": "Borsa"
+        },
+        {
+          "es": "Sentarse",
+          "t": "Sedersi"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Morado»?",
+          "options": [
+            "Viola",
+            "Borsa",
+            "Sedersi",
+            "Vuoto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Morado",
+            "t": "Viola"
+          }
+        },
+        {
+          "id": "i7l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Borsa",
+          "options": [
+            "Bolso",
+            "Sentarse",
+            "Vacío"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bolso",
+            "t": "Borsa"
+          }
+        },
+        {
+          "id": "i7l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Sedersi",
+            "Vuoto",
+            "Parlo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Sentarse",
+            "t": "Sedersi"
+          }
+        },
+        {
+          "id": "i7l9e4",
+          "type": "build",
+          "prompt": "Traduce: «Vacío»",
+          "solution": "Vuoto",
+          "distractors": [
+            "Parlo",
+            "Paura"
+          ],
+          "pair": {
+            "es": "Vacío",
+            "t": "Vuoto"
+          }
+        },
+        {
+          "id": "i7l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «hablo un poco de italiano»",
+          "solution": "Parlo un po' di italiano",
+          "accept": [
+            "Parlo un po' di italiano",
+            "parlo un po' di italiano"
+          ],
+          "pair": {
+            "es": "Hablo un poco de italiano",
+            "t": "Parlo un po' di italiano"
+          }
+        },
+        {
+          "id": "i7l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Miedo",
+              "t": "Paura"
+            },
+            {
+              "es": "Caso",
+              "t": "Caso"
+            },
+            {
+              "es": "Está bien",
+              "t": "Va bene"
+            }
+          ]
+        },
+        {
+          "id": "i7l9e7",
+          "type": "choice",
+          "prompt": "«Negro» se traduce como...",
+          "options": [
+            "Nero",
+            "Ricevere",
+            "Tra",
+            "finestra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Negro",
+            "t": "Nero"
+          }
+        },
+        {
+          "id": "i7l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Ricevere",
+          "options": [
+            "Recibir",
+            "Entre",
+            "Ventana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Recibir",
+            "t": "Ricevere"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i7l10",
+      "title": "Vita reale 6",
+      "goal": "Situazioni reali",
+      "tip": [
+        "Usa la lingua nel contesto."
+      ],
+      "phrases": [
+        {
+          "es": "Bajar",
+          "t": "Scendere"
+        },
+        {
+          "es": "Hermano",
+          "t": "Fratello"
+        },
+        {
+          "es": "Padres",
+          "t": "Genitori"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i7l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Bajar»?",
+          "options": [
+            "Scendere",
+            "fratello",
+            "Genitori",
+            "Tanto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Bajar",
+            "t": "Scendere"
+          }
+        },
+        {
+          "id": "i7l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Fratello",
+          "options": [
+            "Hermano",
+            "Padres",
+            "Tanto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hermano",
+            "t": "Fratello"
+          }
+        },
+        {
+          "id": "i7l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "Genitori",
+            "Tanto",
+            "Pantaloni"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Padres",
+            "t": "Genitori"
+          }
+        },
+        {
+          "id": "i7l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Tanto»",
+          "solution": "Tanto",
+          "distractors": [
+            "Pantaloni",
+            "Cappotto"
+          ],
+          "pair": {
+            "es": "Tanto",
+            "t": "Tanto"
+          }
+        },
+        {
+          "id": "i7l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «pantalones»",
+          "solution": "Pantaloni",
+          "accept": [
+            "Pantaloni",
+            "pantaloni"
+          ],
+          "pair": {
+            "es": "Pantalones",
+            "t": "Pantaloni"
+          }
+        },
+        {
+          "id": "i7l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Abrigo",
+              "t": "Cappotto"
+            },
+            {
+              "es": "Cansado",
+              "t": "Stanco"
+            },
+            {
+              "es": "Computadora",
+              "t": "Computer"
+            }
+          ]
+        },
+        {
+          "id": "i7l10e7",
+          "type": "choice",
+          "prompt": "«Terminar» se traduce como...",
+          "options": [
+            "Finire",
+            "Vestito",
+            "arrivo",
+            "Dente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Terminar",
+            "t": "Finire"
+          }
+        },
+        {
+          "id": "i7l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Vestito",
+          "options": [
+            "Vestido",
+            "Llegada",
+            "Diente"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vestido",
+            "t": "Vestito"
+          }
+        }
+      ]
+    }
+  ]
+}

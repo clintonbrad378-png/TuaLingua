@@ -1,6 +1,6 @@
 {
   "id": "u3",
-  "title": "Comida y bebida",
+  "title": "Food and drink",
   "emoji": "🍽️",
   "color": "#FF8A3D",
   "lessons": [
@@ -13,9 +13,18 @@
         "«I'm hungry» = Tengo hambre. «I'm thirsty» = Tengo sed."
       ],
       "phrases": [
-        { "es": "Me gusta el café", "t": "I like coffee" },
-        { "es": "¿Quieres agua?", "t": "Do you want water?" },
-        { "es": "Tengo hambre", "t": "I'm hungry" }
+        {
+          "es": "Me gusta el café",
+          "t": "I like coffee"
+        },
+        {
+          "es": "¿Quieres agua?",
+          "t": "Do you want water?"
+        },
+        {
+          "es": "Tengo hambre",
+          "t": "I'm hungry"
+        }
       ],
       "exercises": [
         {
@@ -23,69 +32,131 @@
           "type": "match",
           "prompt": "Empareja los alimentos",
           "pairs": [
-            { "es": "Agua", "t": "Water" },
-            { "es": "Pan", "t": "Bread" },
-            { "es": "Leche", "t": "Milk" },
-            { "es": "Manzana", "t": "Apple" }
+            {
+              "es": "Agua",
+              "t": "Water"
+            },
+            {
+              "es": "Pan",
+              "t": "Bread"
+            },
+            {
+              "es": "Leche",
+              "t": "Milk"
+            },
+            {
+              "es": "Manzana",
+              "t": "Apple"
+            }
           ]
         },
         {
           "id": "u3l1e2",
           "type": "choice",
           "prompt": "«Chicken» es…",
-          "options": ["pollo", "queso", "carne", "pescado"],
+          "options": [
+            "pollo",
+            "queso",
+            "carne",
+            "pescado"
+          ],
           "answer": 0,
-          "pair": { "es": "Pollo", "t": "Chicken" }
+          "pair": {
+            "es": "Pollo",
+            "t": "Chicken"
+          }
         },
         {
           "id": "u3l1e3",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "I would like some water, please.",
-          "options": ["Quisiera agua, por favor.", "Quisiera un café, por favor.", "No quiero agua, gracias."],
+          "options": [
+            "Quisiera agua, por favor.",
+            "Quisiera un café, por favor.",
+            "No quiero agua, gracias."
+          ],
           "answer": 0,
-          "pair": { "es": "Quisiera agua, por favor", "t": "I would like some water, please" }
+          "pair": {
+            "es": "Quisiera agua, por favor",
+            "t": "I would like some water, please"
+          }
         },
         {
           "id": "u3l1e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I ___ coffee.",
-          "options": ["like", "likes", "liking"],
-          "answer": 0, "pair": { "es": "Me gusta el café.", "t": "I like coffee." },
+          "options": [
+            "like",
+            "likes",
+            "liking"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta el café.",
+            "t": "I like coffee."
+          },
           "explain": "Con «I» se usa «like». «He likes» lleva la -s."
         },
         {
           "id": "u3l1e5",
           "type": "type",
           "prompt": "Escribe «té» en inglés",
-          "solution": "tea",
-          "accept": ["tea"],
-          "pair": { "es": "Té", "t": "Tea" }
+          "solution": "Tea",
+          "accept": [
+            "tea"
+          ],
+          "pair": {
+            "es": "Té",
+            "t": "Tea"
+          }
         },
         {
           "id": "u3l1e6",
           "type": "build",
           "prompt": "Traduce: «Me gusta el queso»",
           "solution": "I like cheese",
-          "distractors": ["likes", "the"],
-          "pair": { "es": "Me gusta el queso", "t": "I like cheese" }
+          "distractors": [
+            "likes",
+            "the"
+          ],
+          "pair": {
+            "es": "Me gusta el queso",
+            "t": "I like cheese"
+          }
         },
         {
           "id": "u3l1e7",
           "type": "choice",
           "prompt": "«I'm hungry» significa…",
-          "options": ["Tengo hambre", "Tengo sed", "Estoy cansado", "Quiero cocinar"],
+          "options": [
+            "Tengo hambre",
+            "Tengo sed",
+            "Estoy cansado",
+            "Quiero cocinar"
+          ],
           "answer": 0,
-          "pair": { "es": "Tengo hambre", "t": "I'm hungry" }
+          "pair": {
+            "es": "Tengo hambre",
+            "t": "I'm hungry"
+          }
         },
         {
           "id": "u3l1e8",
           "type": "choice",
           "prompt": "¿Cuál de estas NO es comida?",
-          "options": ["Table", "Rice", "Egg", "Bread"],
+          "options": [
+            "Table",
+            "Rice",
+            "Egg",
+            "Bread"
+          ],
           "answer": 0,
-          "pair": { "es": "Arroz", "t": "Rice" },
+          "pair": {
+            "es": "Arroz",
+            "t": "Rice"
+          },
           "explain": "«Table» es una mesa. «Rice» = arroz, «egg» = huevo, «bread» = pan."
         }
       ]
@@ -99,18 +170,35 @@
         "«The bill, please» (UK) o «the check, please» (US) = la cuenta, por favor."
       ],
       "phrases": [
-        { "es": "Una mesa para dos, por favor", "t": "A table for two, please" },
-        { "es": "Quisiera un café, por favor", "t": "I would like a coffee, please" },
-        { "es": "La cuenta, por favor", "t": "The bill, please" }
+        {
+          "es": "Una mesa para dos, por favor",
+          "t": "A table for two, please"
+        },
+        {
+          "es": "Quisiera un café, por favor",
+          "t": "I would like a coffee, please"
+        },
+        {
+          "es": "La cuenta, por favor",
+          "t": "The bill, please"
+        }
       ],
       "exercises": [
         {
           "id": "u3l2e1",
           "type": "choice",
           "prompt": "¿Cómo pides la cuenta?",
-          "options": ["The bill, please", "The menu, please", "A table, please", "The ticket, please"],
+          "options": [
+            "The bill, please",
+            "The menu, please",
+            "A table, please",
+            "The ticket, please"
+          ],
           "answer": 0,
-          "pair": { "es": "La cuenta", "t": "The bill" },
+          "pair": {
+            "es": "La cuenta",
+            "t": "The bill"
+          },
           "explain": "En Estados Unidos también se dice «the check»."
         },
         {
@@ -118,52 +206,99 @@
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "A table for two, please.",
-          "options": ["Una mesa para dos, por favor.", "Una mesa para cuatro, por favor.", "La cuenta para dos, por favor."],
+          "options": [
+            "Una mesa para dos, por favor.",
+            "Una mesa para cuatro, por favor.",
+            "La cuenta para dos, por favor."
+          ],
           "answer": 0,
-          "pair": { "es": "Una mesa para dos", "t": "A table for two" }
+          "pair": {
+            "es": "Una mesa para dos",
+            "t": "A table for two"
+          }
         },
         {
           "id": "u3l2e3",
           "type": "build",
           "prompt": "Traduce: «Quisiera un café, por favor»",
           "solution": "I would like a coffee please",
-          "distractors": ["want", "the"],
-          "pair": { "es": "Quisiera un café", "t": "I would like a coffee" }
+          "distractors": [
+            "want",
+            "the"
+          ],
+          "pair": {
+            "es": "Quisiera un café",
+            "t": "I would like a coffee"
+          }
         },
         {
           "id": "u3l2e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "Can I have the ___, please?",
-          "options": ["menu", "letter", "paper"],
-          "answer": 0, "pair": { "es": "¿Me trae la carta, por favor?", "t": "Can I have the menu, please?" },
+          "options": [
+            "menu",
+            "letter",
+            "paper"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Me trae la carta, por favor?",
+            "t": "Can I have the menu, please?"
+          },
           "explain": "«Menu» = la carta / el menú del restaurante."
         },
         {
           "id": "u3l2e5",
           "type": "type",
           "prompt": "Escribe en inglés: «camarero»",
-          "solution": "waiter",
-          "accept": ["waiter", "waitress"],
-          "pair": { "es": "Camarero", "t": "Waiter" }
+          "solution": "Waiter",
+          "accept": [
+            "waiter",
+            "waitress"
+          ],
+          "pair": {
+            "es": "Camarero",
+            "t": "Waiter"
+          }
         },
         {
           "id": "u3l2e6",
           "type": "choice",
           "prompt": "«It's delicious» significa…",
-          "options": ["Está delicioso", "Está frío", "Está picante", "Es caro"],
+          "options": [
+            "Está delicioso",
+            "Está frío",
+            "Está picante",
+            "Es caro"
+          ],
           "answer": 0,
-          "pair": { "es": "Delicioso", "t": "Delicious" }
+          "pair": {
+            "es": "Delicioso",
+            "t": "Delicious"
+          }
         },
         {
           "id": "u3l2e7",
           "type": "match",
           "prompt": "Empareja los objetos de la mesa",
           "pairs": [
-            { "es": "Mesa", "t": "Table" },
-            { "es": "Tenedor", "t": "Fork" },
-            { "es": "Cuchillo", "t": "Knife" },
-            { "es": "Vaso", "t": "Glass" }
+            {
+              "es": "Mesa",
+              "t": "Table"
+            },
+            {
+              "es": "Tenedor",
+              "t": "Fork"
+            },
+            {
+              "es": "Cuchillo",
+              "t": "Knife"
+            },
+            {
+              "es": "Vaso",
+              "t": "Glass"
+            }
           ]
         },
         {
@@ -171,8 +306,16 @@
           "type": "fill",
           "prompt": "Completa la pregunta",
           "sentence": "___ you have a table for two?",
-          "options": ["Do", "Are", "Have"],
-          "answer": 0, "pair": { "es": "¿Tienen mesa para dos?", "t": "Do you have a table for two?" },
+          "options": [
+            "Do",
+            "Are",
+            "Have"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Tienen mesa para dos?",
+            "t": "Do you have a table for two?"
+          },
           "explain": "Las preguntas con «have» usan «Do»: Do you have…?"
         }
       ]
@@ -186,9 +329,18 @@
         "«Snack» = tentempié o merienda."
       ],
       "phrases": [
-        { "es": "Desayuno a las ocho", "t": "I have breakfast at eight" },
-        { "es": "¿Qué desayunas?", "t": "What do you have for breakfast?" },
-        { "es": "Ceno a las nueve", "t": "I have dinner at nine" }
+        {
+          "es": "Desayuno a las ocho",
+          "t": "I have breakfast at eight"
+        },
+        {
+          "es": "¿Qué desayunas?",
+          "t": "What do you have for breakfast?"
+        },
+        {
+          "es": "Ceno a las nueve",
+          "t": "I have dinner at nine"
+        }
       ],
       "exercises": [
         {
@@ -196,68 +348,130 @@
           "type": "match",
           "prompt": "Empareja las comidas",
           "pairs": [
-            { "es": "Desayuno", "t": "Breakfast" },
-            { "es": "Almuerzo / comida", "t": "Lunch" },
-            { "es": "Cena", "t": "Dinner" },
-            { "es": "Tentempié", "t": "Snack" }
+            {
+              "es": "Desayuno",
+              "t": "Breakfast"
+            },
+            {
+              "es": "Almuerzo / comida",
+              "t": "Lunch"
+            },
+            {
+              "es": "Cena",
+              "t": "Dinner"
+            },
+            {
+              "es": "Tentempié",
+              "t": "Snack"
+            }
           ]
         },
         {
           "id": "u3l3e2",
           "type": "choice",
           "prompt": "«Breakfast» es…",
-          "options": ["desayuno", "cena", "postre", "comida"],
+          "options": [
+            "desayuno",
+            "cena",
+            "postre",
+            "comida"
+          ],
           "answer": 0,
-          "pair": { "es": "Desayuno", "t": "Breakfast" }
+          "pair": {
+            "es": "Desayuno",
+            "t": "Breakfast"
+          }
         },
         {
           "id": "u3l3e3",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
           "audio": "I have lunch at two.",
-          "options": ["Como a las dos.", "Ceno a las dos.", "Desayuno a las dos."],
+          "options": [
+            "Como a las dos.",
+            "Ceno a las dos.",
+            "Desayuno a las dos."
+          ],
           "answer": 0,
-          "pair": { "es": "Como a las dos", "t": "I have lunch at two" }
+          "pair": {
+            "es": "Como a las dos",
+            "t": "I have lunch at two"
+          }
         },
         {
           "id": "u3l3e4",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I ___ dinner at nine.",
-          "options": ["have", "eat", "take"],
-          "answer": 0, "pair": { "es": "Ceno a las nueve.", "t": "I have dinner at nine." },
+          "options": [
+            "have",
+            "eat",
+            "take"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ceno a las nueve.",
+            "t": "I have dinner at nine."
+          },
           "explain": "Lo natural es «have dinner». «Eat dinner» también existe, pero menos común."
         },
         {
           "id": "u3l3e5",
           "type": "type",
           "prompt": "Escribe en inglés: «sed» (como en «tengo sed»)",
-          "solution": "thirsty",
-          "accept": ["thirsty"],
-          "pair": { "es": "Sed", "t": "Thirsty" }
+          "solution": "Thirsty",
+          "accept": [
+            "thirsty"
+          ],
+          "pair": {
+            "es": "Sed",
+            "t": "Thirsty"
+          }
         },
         {
           "id": "u3l3e6",
           "type": "build",
           "prompt": "Traduce: «Desayuno a las ocho»",
           "solution": "I have breakfast at eight",
-          "distractors": ["eat", "in"],
-          "pair": { "es": "Desayuno a las ocho", "t": "I have breakfast at eight" }
+          "distractors": [
+            "eat",
+            "in"
+          ],
+          "pair": {
+            "es": "Desayuno a las ocho",
+            "t": "I have breakfast at eight"
+          }
         },
         {
           "id": "u3l3e7",
           "type": "choice",
           "prompt": "«I'm thirsty» significa…",
-          "options": ["Tengo sed", "Tengo hambre", "Estoy cansado", "Quiero dormir"],
+          "options": [
+            "Tengo sed",
+            "Tengo hambre",
+            "Estoy cansado",
+            "Quiero dormir"
+          ],
           "answer": 0,
-          "pair": { "es": "Tengo sed", "t": "I'm thirsty" }
+          "pair": {
+            "es": "Tengo sed",
+            "t": "I'm thirsty"
+          }
         },
         {
           "id": "u3l3e8",
           "type": "choice",
           "prompt": "¿Qué se desayuna normalmente? Elige en inglés:",
-          "options": ["Eggs and toast", "Steak and salad", "Soup and rice"],
-          "answer": 0, "pair": { "es": "Huevos y tostadas", "t": "Eggs and toast" },
+          "options": [
+            "Eggs and toast",
+            "Steak and salad",
+            "Soup and rice"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Huevos y tostadas",
+            "t": "Eggs and toast"
+          },
           "explain": "«Eggs and toast» = huevos con tostadas."
         }
       ]
@@ -271,34 +485,65 @@
         "«Spicy» = picante. «Sweet» = dulce. «Salty» = salado."
       ],
       "phrases": [
-        { "es": "No como carne", "t": "I don't eat meat" },
-        { "es": "Soy vegetariano", "t": "I'm vegetarian" },
-        { "es": "¿Es picante?", "t": "Is it spicy?" }
+        {
+          "es": "No como carne",
+          "t": "I don't eat meat"
+        },
+        {
+          "es": "Soy vegetariano",
+          "t": "I'm vegetarian"
+        },
+        {
+          "es": "¿Es picante?",
+          "t": "Is it spicy?"
+        }
       ],
       "exercises": [
         {
           "id": "u3l4e1",
           "type": "choice",
           "prompt": "«I don't eat meat» significa…",
-          "options": ["No como carne", "No me gusta la carne", "No quiero carne hoy", "Como poca carne"],
+          "options": [
+            "No como carne",
+            "No me gusta la carne",
+            "No quiero carne hoy",
+            "Como poca carne"
+          ],
           "answer": 0,
-          "pair": { "es": "No como carne", "t": "I don't eat meat" }
+          "pair": {
+            "es": "No como carne",
+            "t": "I don't eat meat"
+          }
         },
         {
           "id": "u3l4e2",
           "type": "type",
           "prompt": "Escribe en inglés: «picante»",
-          "solution": "spicy",
-          "accept": ["spicy", "hot"],
-          "pair": { "es": "Picante", "t": "Spicy" }
+          "solution": "Spicy",
+          "accept": [
+            "spicy",
+            "hot"
+          ],
+          "pair": {
+            "es": "Picante",
+            "t": "Spicy"
+          }
         },
         {
           "id": "u3l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
           "sentence": "I ___ eat meat.",
-          "options": ["don't", "no", "not"],
-          "answer": 0, "pair": { "es": "No como carne.", "t": "I don't eat meat." },
+          "options": [
+            "don't",
+            "no",
+            "not"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No como carne.",
+            "t": "I don't eat meat."
+          },
           "explain": "Para negar en presente se usa «don't» + verbo."
         },
         {
@@ -306,8 +551,14 @@
           "type": "build",
           "prompt": "Traduce: «¿Es picante?»",
           "solution": "Is it spicy",
-          "distractors": ["Does", "hot"],
-          "pair": { "es": "¿Es picante?", "t": "Is it spicy?" }
+          "distractors": [
+            "Does",
+            "hot"
+          ],
+          "pair": {
+            "es": "¿Es picante?",
+            "t": "Is it spicy?"
+          }
         },
         {
           "id": "u3l4e5",
@@ -320,34 +571,971 @@
             "Como verdura. ¿Tienen ensalada?"
           ],
           "answer": 0,
-          "pair": { "es": "Soy vegetariano", "t": "I'm vegetarian" }
+          "pair": {
+            "es": "Soy vegetariano",
+            "t": "I'm vegetarian"
+          }
         },
         {
           "id": "u3l4e6",
           "type": "choice",
           "prompt": "«Sweet» y «salty» son…",
-          "options": ["dulce y salado", "salado y dulce", "ácido y dulce", "picante y dulce"],
+          "options": [
+            "dulce y salado",
+            "salado y dulce",
+            "ácido y dulce",
+            "picante y dulce"
+          ],
           "answer": 0,
-          "pair": { "es": "Dulce", "t": "Sweet" }
+          "pair": {
+            "es": "Dulce",
+            "t": "Sweet"
+          }
         },
         {
           "id": "u3l4e7",
           "type": "match",
           "prompt": "Empareja los sabores",
           "pairs": [
-            { "es": "Dulce", "t": "Sweet" },
-            { "es": "Salado", "t": "Salty" },
-            { "es": "Picante", "t": "Spicy" },
-            { "es": "Sano", "t": "Healthy" }
+            {
+              "es": "Dulce",
+              "t": "Sweet"
+            },
+            {
+              "es": "Salado",
+              "t": "Salty"
+            },
+            {
+              "es": "Picante",
+              "t": "Spicy"
+            },
+            {
+              "es": "Sano",
+              "t": "Healthy"
+            }
           ]
         },
         {
           "id": "u3l4e8",
           "type": "choice",
           "prompt": "«I prefer tea» significa…",
-          "options": ["Prefiero el té", "Odio el té", "Quiero té", "No quiero té"],
+          "options": [
+            "Prefiero el té",
+            "Odio el té",
+            "Quiero té",
+            "No quiero té"
+          ],
           "answer": 0,
-          "pair": { "es": "Prefiero", "t": "I prefer" }
+          "pair": {
+            "es": "Prefiero",
+            "t": "I prefer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l5",
+      "title": "Extra words 1",
+      "goal": "Key vocabulary",
+      "tip": [
+        "Practice important words."
+      ],
+      "phrases": [
+        {
+          "es": "El cargador",
+          "t": "The charger"
+        },
+        {
+          "es": "Tener",
+          "t": "Have"
+        },
+        {
+          "es": "Quizás",
+          "t": "Maybe"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l5e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El cargador»?",
+          "options": [
+            "the charger",
+            "have",
+            "maybe",
+            "big"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El cargador",
+            "t": "The charger"
+          }
+        },
+        {
+          "id": "u3l5e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Have",
+          "options": [
+            "Tener",
+            "Quizás",
+            "Grande"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tener",
+            "t": "Have"
+          }
+        },
+        {
+          "id": "u3l5e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "maybe",
+            "big",
+            "walk"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quizás",
+            "t": "Maybe"
+          }
+        },
+        {
+          "id": "u3l5e4",
+          "type": "build",
+          "prompt": "Traduce: «Grande»",
+          "solution": "Big",
+          "distractors": [
+            "walk",
+            "What"
+          ],
+          "pair": {
+            "es": "Grande",
+            "t": "Big"
+          }
+        },
+        {
+          "id": "u3l5e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «caminar»",
+          "solution": "Walk",
+          "accept": [
+            "walk",
+            "walk"
+          ],
+          "pair": {
+            "es": "Caminar",
+            "t": "Walk"
+          }
+        },
+        {
+          "id": "u3l5e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "¡Qué pena!",
+              "t": "What a pity!"
+            },
+            {
+              "es": "Tu",
+              "t": "Your"
+            },
+            {
+              "es": "El cuento",
+              "t": "The story"
+            }
+          ]
+        },
+        {
+          "id": "u3l5e7",
+          "type": "choice",
+          "prompt": "«La mayoría» se traduce como...",
+          "options": [
+            "most",
+            "See you later!",
+            "the hope",
+            "the movie"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La mayoría",
+            "t": "Most"
+          }
+        },
+        {
+          "id": "u3l5e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "See you later!",
+          "options": [
+            "¡Hasta luego!",
+            "La esperanza",
+            "La película"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Hasta luego!",
+            "t": "See you later!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l6",
+      "title": "Useful phrases 2",
+      "goal": "Everyday phrases",
+      "tip": [
+        "Speak naturally."
+      ],
+      "phrases": [
+        {
+          "es": "El teatro",
+          "t": "The theatre"
+        },
+        {
+          "es": "El perro",
+          "t": "The dog"
+        },
+        {
+          "es": "El mercado",
+          "t": "The market"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l6e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El teatro»?",
+          "options": [
+            "the theatre",
+            "the dog",
+            "the market",
+            "the letter (alphabet)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El teatro",
+            "t": "The theatre"
+          }
+        },
+        {
+          "id": "u3l6e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The dog",
+          "options": [
+            "El perro",
+            "El mercado",
+            "La letra"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El perro",
+            "t": "The dog"
+          }
+        },
+        {
+          "id": "u3l6e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ market",
+          "options": [
+            "the",
+            "reason",
+            "thex"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El mercado",
+            "t": "The market"
+          }
+        },
+        {
+          "id": "u3l6e4",
+          "type": "build",
+          "prompt": "Traduce: «La letra»",
+          "solution": "The letter (alphabet)",
+          "distractors": [
+            "reason",
+            "to"
+          ],
+          "pair": {
+            "es": "La letra",
+            "t": "The letter (alphabet)"
+          }
+        },
+        {
+          "id": "u3l6e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «razón»",
+          "solution": "Reason",
+          "accept": [
+            "reason",
+            "reason"
+          ],
+          "pair": {
+            "es": "Razón",
+            "t": "Reason"
+          }
+        },
+        {
+          "id": "u3l6e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Conducir",
+              "t": "To drive"
+            },
+            {
+              "es": "El día",
+              "t": "The day"
+            },
+            {
+              "es": "Nivel",
+              "t": "Level"
+            }
+          ]
+        },
+        {
+          "id": "u3l6e7",
+          "type": "choice",
+          "prompt": "«Mitad» se traduce como...",
+          "options": [
+            "half",
+            "name",
+            "the traffic light",
+            "July"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mitad",
+            "t": "Half"
+          }
+        },
+        {
+          "id": "u3l6e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Name",
+          "options": [
+            "Nombre",
+            "El semáforo",
+            "Julio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nombre",
+            "t": "Name"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l7",
+      "title": "Review and practice 3",
+      "goal": "Review",
+      "tip": [
+        "Consolidate what you learned."
+      ],
+      "phrases": [
+        {
+          "es": "El profesor",
+          "t": "The teacher"
+        },
+        {
+          "es": "Importante",
+          "t": "Important"
+        },
+        {
+          "es": "El padre",
+          "t": "The father"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l7e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «El profesor»?",
+          "options": [
+            "the teacher",
+            "important",
+            "the father",
+            "hiking"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El profesor",
+            "t": "The teacher"
+          }
+        },
+        {
+          "id": "u3l7e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Important",
+          "options": [
+            "Importante",
+            "El padre",
+            "El senderismo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Importante",
+            "t": "Important"
+          }
+        },
+        {
+          "id": "u3l7e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ father",
+          "options": [
+            "the",
+            "hiking",
+            "include"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El padre",
+            "t": "The father"
+          }
+        },
+        {
+          "id": "u3l7e4",
+          "type": "build",
+          "prompt": "Traduce: «El senderismo»",
+          "solution": "Hiking",
+          "distractors": [
+            "include",
+            "tall"
+          ],
+          "pair": {
+            "es": "El senderismo",
+            "t": "Hiking"
+          }
+        },
+        {
+          "id": "u3l7e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «incluir»",
+          "solution": "Include",
+          "accept": [
+            "include",
+            "include"
+          ],
+          "pair": {
+            "es": "Incluir",
+            "t": "Include"
+          }
+        },
+        {
+          "id": "u3l7e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Alto",
+              "t": "Tall"
+            },
+            {
+              "es": "La respuesta",
+              "t": "The answer"
+            },
+            {
+              "es": "Grande",
+              "t": "Big"
+            }
+          ]
+        },
+        {
+          "id": "u3l7e7",
+          "type": "choice",
+          "prompt": "«El queso» se traduce como...",
+          "options": [
+            "the cheese",
+            "free",
+            "lot",
+            "feel"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El queso",
+            "t": "The cheese"
+          }
+        },
+        {
+          "id": "u3l7e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "Free",
+          "options": [
+            "Gratis",
+            "Mucho/lote",
+            "Sentir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gratis",
+            "t": "Free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l8",
+      "title": "Listening focus 4",
+      "goal": "Listening",
+      "tip": [
+        "Train your ear."
+      ],
+      "phrases": [
+        {
+          "es": "Solo/justo",
+          "t": "Just"
+        },
+        {
+          "es": "Pararse",
+          "t": "Stand"
+        },
+        {
+          "es": "¿Puedes repetirlo?",
+          "t": "Could you repeat that?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l8e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Solo/justo»?",
+          "options": [
+            "just",
+            "stand",
+            "Could you repeat that?",
+            "to write"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Solo/justo",
+            "t": "Just"
+          }
+        },
+        {
+          "id": "u3l8e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Stand",
+          "options": [
+            "Pararse",
+            "¿Puedes repetirlo?",
+            "Escribir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Pararse",
+            "t": "Stand"
+          }
+        },
+        {
+          "id": "u3l8e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Could ___ repeat that?",
+          "options": [
+            "you",
+            "to",
+            "teacher"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Puedes repetirlo?",
+            "t": "Could you repeat that?"
+          }
+        },
+        {
+          "id": "u3l8e4",
+          "type": "build",
+          "prompt": "Traduce: «Escribir»",
+          "solution": "To write",
+          "distractors": [
+            "teacher",
+            "the"
+          ],
+          "pair": {
+            "es": "Escribir",
+            "t": "To write"
+          }
+        },
+        {
+          "id": "u3l8e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «profesor»",
+          "solution": "Teacher",
+          "accept": [
+            "teacher",
+            "teacher"
+          ],
+          "pair": {
+            "es": "Profesor",
+            "t": "Teacher"
+          }
+        },
+        {
+          "id": "u3l8e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "El tío",
+              "t": "The uncle"
+            },
+            {
+              "es": "La orilla",
+              "t": "The shore"
+            },
+            {
+              "es": "La elección",
+              "t": "The choice"
+            }
+          ]
+        },
+        {
+          "id": "u3l8e7",
+          "type": "choice",
+          "prompt": "«De nada» se traduce como...",
+          "options": [
+            "you are welcome",
+            "How are you?",
+            "him",
+            "find"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "De nada",
+            "t": "You are welcome"
+          }
+        },
+        {
+          "id": "u3l8e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "How are you?",
+          "options": [
+            "¿Cómo estás?",
+            "Él (obj)",
+            "Encontrar"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cómo estás?",
+            "t": "How are you?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l9",
+      "title": "Speaking focus 5",
+      "goal": "Speaking",
+      "tip": [
+        "Build confidence."
+      ],
+      "phrases": [
+        {
+          "es": "Nivel",
+          "t": "Level"
+        },
+        {
+          "es": "La policía",
+          "t": "The police"
+        },
+        {
+          "es": "Mucho/lote",
+          "t": "Lot"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l9e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Nivel»?",
+          "options": [
+            "level",
+            "the police",
+            "lot",
+            "the map"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nivel",
+            "t": "Level"
+          }
+        },
+        {
+          "id": "u3l9e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "The police",
+          "options": [
+            "La policía",
+            "Mucho/lote",
+            "El mapa"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La policía",
+            "t": "The police"
+          }
+        },
+        {
+          "id": "u3l9e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___",
+          "options": [
+            "lot",
+            "the",
+            "lotx"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mucho/lote",
+            "t": "Lot"
+          }
+        },
+        {
+          "id": "u3l9e4",
+          "type": "build",
+          "prompt": "Traduce: «El mapa»",
+          "solution": "The map",
+          "distractors": [
+            "the",
+            "large"
+          ],
+          "pair": {
+            "es": "El mapa",
+            "t": "The map"
+          }
+        },
+        {
+          "id": "u3l9e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «la serie»",
+          "solution": "The series",
+          "accept": [
+            "the series",
+            "the series"
+          ],
+          "pair": {
+            "es": "La serie",
+            "t": "The series"
+          }
+        },
+        {
+          "id": "u3l9e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Grande",
+              "t": "Large"
+            },
+            {
+              "es": "Grupo",
+              "t": "Group"
+            },
+            {
+              "es": "El café",
+              "t": "The coffee"
+            }
+          ]
+        },
+        {
+          "id": "u3l9e7",
+          "type": "choice",
+          "prompt": "«Gastar» se traduce como...",
+          "options": [
+            "to spend",
+            "the earth",
+            "the doctor",
+            "nine"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gastar",
+            "t": "To spend"
+          }
+        },
+        {
+          "id": "u3l9e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "The earth",
+          "options": [
+            "La tierra",
+            "El médico",
+            "Nueve"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "La tierra",
+            "t": "The earth"
+          }
+        }
+      ]
+    },
+    {
+      "id": "u3l10",
+      "title": "Real life 6",
+      "goal": "Real situations",
+      "tip": [
+        "Use language in context."
+      ],
+      "phrases": [
+        {
+          "es": "Reciente",
+          "t": "Recent"
+        },
+        {
+          "es": "Gran/genial",
+          "t": "Great"
+        },
+        {
+          "es": "El invierno",
+          "t": "The winter"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "u3l10e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «Reciente»?",
+          "options": [
+            "recent",
+            "great",
+            "the winter",
+            "every day"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Reciente",
+            "t": "Recent"
+          }
+        },
+        {
+          "id": "u3l10e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Great",
+          "options": [
+            "Gran/genial",
+            "El invierno",
+            "Todos los días"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gran/genial",
+            "t": "Great"
+          }
+        },
+        {
+          "id": "u3l10e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ winter",
+          "options": [
+            "the",
+            "every",
+            "love"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El invierno",
+            "t": "The winter"
+          }
+        },
+        {
+          "id": "u3l10e4",
+          "type": "build",
+          "prompt": "Traduce: «Todos los días»",
+          "solution": "Every day",
+          "distractors": [
+            "love",
+            "large"
+          ],
+          "pair": {
+            "es": "Todos los días",
+            "t": "Every day"
+          }
+        },
+        {
+          "id": "u3l10e5",
+          "type": "type",
+          "prompt": "Escribe en el idioma destino: «amar»",
+          "solution": "Love",
+          "accept": [
+            "love",
+            "love"
+          ],
+          "pair": {
+            "es": "Amar",
+            "t": "Love"
+          }
+        },
+        {
+          "id": "u3l10e6",
+          "type": "match",
+          "prompt": "Une las parejas",
+          "pairs": [
+            {
+              "es": "Grande",
+              "t": "Large"
+            },
+            {
+              "es": "Ácido",
+              "t": "Sour"
+            },
+            {
+              "es": "La vaca",
+              "t": "The cow"
+            }
+          ]
+        },
+        {
+          "id": "u3l10e7",
+          "type": "choice",
+          "prompt": "«Mucho» se traduce como...",
+          "options": [
+            "a lot",
+            "and",
+            "to understand",
+            "create"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mucho",
+            "t": "A lot"
+          }
+        },
+        {
+          "id": "u3l10e8",
+          "type": "listen",
+          "prompt": "Escucha y elige",
+          "audio": "And",
+          "options": [
+            "Y",
+            "Entender",
+            "Crear"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Y",
+            "t": "And"
+          }
         }
       ]
     }
