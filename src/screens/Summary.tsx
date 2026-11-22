@@ -3,7 +3,8 @@ import type { SessionSummary } from "../types";
 import { sfx, speak } from "../lib/audio";
 import { levelTitle, plural, t, useUiLang } from "../i18n";
 import Confetti from "../components/Confetti";
-import Mascot from "../components/Mascot";
+import { IconVolume } from "../components/icons";
+import BrandMark from "../components/BrandMark";
 
 export default function Summary({
   summary,
@@ -51,6 +52,16 @@ export default function Summary({
   const R = 62;
   const C = 2 * Math.PI * R;
   const ringPct = summary.total > 0 ? summary.accuracy / 100 : 0;
+  const grade =
+    summary.accuracy >= 90
+      ? "A"
+      : summary.accuracy >= 80
+        ? "B"
+        : summary.accuracy >= 70
+          ? "C"
+          : summary.accuracy >= 55
+            ? "D"
+            : "F";
 
   return (
     <div className="screen summary">
@@ -86,8 +97,8 @@ export default function Summary({
         </div>
       </div>
 
-      <div className={`summary-mascot ${mounted ? "in" : ""}`}>
-        <Mascot mood={summary.accuracy >= 70 ? "happy" : "idle"} size={92} />
+      <div className={`summary-mark ${mounted ? "in" : ""}`} aria-hidden="true">
+        <BrandMark size={72} />
       </div>
 
       <h1 aria-live="polite">
@@ -102,6 +113,10 @@ export default function Summary({
           </span>
         ))}
       </div>
+
+      <p className={`grade grade-${grade}`} role="img" aria-label={t("s.grade")}>
+        {grade}
+      </p>
 
       <p className="xp-count">+{xpShown} XP</p>
       <p className="summary-detail">
@@ -129,7 +144,7 @@ export default function Summary({
                 {w.es} <b>→</b> {w.t}
               </span>
               <button className="spk" onClick={() => speak(w.t)} aria-label={t("s.listen")}>
-                🔊
+                <IconVolume size={18}/>
               </button>
             </div>
           ))}

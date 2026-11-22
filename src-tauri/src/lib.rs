@@ -87,6 +87,25 @@ fn toggle_deck_card(es: String, t: String, state: State<'_, AppState>) -> Res<Ve
     })
 }
 
+#[derive(serde::Deserialize)]
+struct DeckCardDto {
+    es: String,
+    t: String,
+}
+
+#[tauri::command]
+fn add_deck_many(cards: Vec<DeckCardDto>, state: State<'_, AppState>) -> Res<Vec<PhraseDto>> {
+    lock_and_save(&state, |db| {
+        let pairs = cards
+            .iter()
+            .filter(|c| !c.es.trim().is_empty() && !c.t.trim().is_empty())
+            .map(|c| (c.es.clone(), c.t.clone()))
+            .collect::<Vec<_>>();
+        db.add_deck_many(&pairs);
+        db.deck_cards()
+    })
+}
+
 #[tauri::command]
 fn clear_deck(state: State<'_, AppState>) -> Res<Vec<PhraseDto>> {
     lock_and_save(&state, |db| {
@@ -147,8 +166,11 @@ fn set_daily_goal(goal: u32, state: State<'_, AppState>) -> Res<Value> {
 #[tauri::command]
 fn reset_progress(state: State<'_, AppState>) -> Res<Value> {
     let mut db = lock_db(&state)?;
+    // Conservamos el idioma activo: es su elección y resetear progreso
+    // no necesariamente debe cambiar de idioma de estudio.
+    let lang = db.lang.clone();
     *db = Db::default();
-    db.lang = catalog::EN.to_string();
+    db.lang = lang;
     let snapshot = to_json(db.snapshot_ref())?;
     db.save(&state.path)?;
     Ok(snapshot)
@@ -208,6 +230,7 @@ pub fn run() {
             set_language,
             get_deck,
             toggle_deck_card,
+            add_deck_many,
             clear_deck,
             get_progress,
             complete_lesson,

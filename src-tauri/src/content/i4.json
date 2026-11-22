@@ -1,0 +1,632 @@
+{
+  "id": "i4",
+  "title": "Conversar con confianza",
+  "emoji": "💬",
+  "color": "#8E6FFF",
+  "lessons": [
+    {
+      "id": "i4l1",
+      "title": "Gustos y preferencias",
+      "goal": "Decir lo que te gusta y lo que prefieres",
+      "tip": [
+        "«Mi piace» = me gusta (una cosa). «Mi piacciono» = me gustan (varias).",
+        "«Preferisco…» es útil para elegir."
+      ],
+      "phrases": [
+        {
+          "es": "Me gusta la música",
+          "t": "Mi piace la musica"
+        },
+        {
+          "es": "Me gusta la pizza",
+          "t": "Mi piace la pizza"
+        },
+        {
+          "es": "Prefiero el té",
+          "t": "Preferisco il tè"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i4l1e1",
+          "type": "choice",
+          "prompt": "«Mi piace la pizza» significa…",
+          "options": [
+            "Me gusta la pizza",
+            "Quiero pizza",
+            "Hago pizza",
+            "Veo pizza"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta la pizza",
+            "t": "Mi piace la pizza"
+          }
+        },
+        {
+          "id": "i4l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Preferisco il tè",
+          "options": [
+            "Prefiero el té",
+            "Prefiero el café",
+            "Prefiero el agua"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Prefiero el té",
+            "t": "Preferisco il tè"
+          }
+        },
+        {
+          "id": "i4l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Mi ___ la musica.",
+          "options": [
+            "piace",
+            "piacciono",
+            "piaci"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me gusta la música",
+            "t": "Mi piace la musica"
+          }
+        },
+        {
+          "id": "i4l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Prefiero el té»",
+          "solution": "Preferisco il tè",
+          "distractors": [
+            "caffè",
+            "acqua"
+          ],
+          "pair": {
+            "es": "Prefiero el té",
+            "t": "Preferisco il tè"
+          }
+        },
+        {
+          "id": "i4l1e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Me gusta",
+              "t": "Mi piace"
+            },
+            {
+              "es": "Prefiero",
+              "t": "Preferisco"
+            },
+            {
+              "es": "Amo",
+              "t": "Amo"
+            },
+            {
+              "es": "No me gusta",
+              "t": "Non mi piace"
+            }
+          ]
+        },
+        {
+          "id": "i4l1e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «música»",
+          "solution": "musica",
+          "accept": [
+            "musica",
+            "Musica"
+          ],
+          "pair": {
+            "es": "Música",
+            "t": "Musica"
+          }
+        },
+        {
+          "id": "i4l1e7",
+          "type": "choice",
+          "prompt": "Para decir que algo no te gusta:",
+          "options": [
+            "Non mi piace",
+            "Mi piace",
+            "Preferisco",
+            "Voglio"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No me gusta",
+            "t": "Non mi piace"
+          }
+        },
+        {
+          "id": "i4l1e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ il tè.",
+          "options": [
+            "Preferisco",
+            "Preferisci",
+            "Preferisce"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Prefiero el té",
+            "t": "Preferisco il tè"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i4l2",
+      "title": "En el trabajo o clase",
+      "goal": "Hablar de actividades y objetivos simples",
+      "tip": [
+        "«Sto imparando l'italiano» = Estoy aprendiendo italiano.",
+        "Usa «perché» para explicar por qué haces algo."
+      ],
+      "phrases": [
+        {
+          "es": "Estoy aprendiendo italiano",
+          "t": "Sto imparando l'italiano"
+        },
+        {
+          "es": "Trabajo en una oficina",
+          "t": "Lavoro in un ufficio"
+        },
+        {
+          "es": "Estudio porque me gusta",
+          "t": "Studio perché mi piace"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i4l2e1",
+          "type": "choice",
+          "prompt": "«Sto imparando l'italiano» significa…",
+          "options": [
+            "Estoy aprendiendo italiano",
+            "Hablo italiano perfecto",
+            "Enseño italiano",
+            "Olvido italiano"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy aprendiendo italiano",
+            "t": "Sto imparando l'italiano"
+          }
+        },
+        {
+          "id": "i4l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Lavoro in un ufficio",
+          "options": [
+            "Trabajo en una oficina",
+            "Vivo en una oficina",
+            "Como en una oficina"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Trabajo en una oficina",
+            "t": "Lavoro in un ufficio"
+          }
+        },
+        {
+          "id": "i4l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Sto ___ l'italiano.",
+          "options": [
+            "imparando",
+            "imparo",
+            "imparare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Estoy aprendiendo italiano",
+            "t": "Sto imparando l'italiano"
+          }
+        },
+        {
+          "id": "i4l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Estudio porque me gusta»",
+          "solution": "Studio perché mi piace",
+          "distractors": [
+            "lavoro",
+            "domani"
+          ],
+          "pair": {
+            "es": "Estudio porque me gusta",
+            "t": "Studio perché mi piace"
+          }
+        },
+        {
+          "id": "i4l2e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Estudiar",
+              "t": "Studiare"
+            },
+            {
+              "es": "Trabajar",
+              "t": "Lavorare"
+            },
+            {
+              "es": "Aprender",
+              "t": "Imparare"
+            },
+            {
+              "es": "Entender",
+              "t": "Capire"
+            }
+          ]
+        },
+        {
+          "id": "i4l2e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «estudio»",
+          "solution": "studio",
+          "accept": [
+            "studio",
+            "Studio"
+          ],
+          "pair": {
+            "es": "Estudio",
+            "t": "Studio"
+          }
+        },
+        {
+          "id": "i4l2e7",
+          "type": "choice",
+          "prompt": "«Perché» se usa para…",
+          "options": [
+            "explicar la razón",
+            "preguntar la hora",
+            "saludar",
+            "pedir comida"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Explicar la razón",
+            "t": "Perché"
+          }
+        },
+        {
+          "id": "i4l2e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Lavoro in un ___",
+          "options": [
+            "ufficio",
+            "stazione",
+            "bagno"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Trabajo en una oficina",
+            "t": "Lavoro in un ufficio"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i4l3",
+      "title": "Hacer planes con otras personas",
+      "goal": "Invitar, aceptar y proponer planes",
+      "tip": [
+        "«Ti va di…?» es una forma natural de invitar.",
+        "«Certo!» o «Va bene!» sirven para aceptar."
+      ],
+      "phrases": [
+        {
+          "es": "¿Te apetece tomar un café?",
+          "t": "Ti va di prendere un caffè?"
+        },
+        {
+          "es": "¡Claro!",
+          "t": "Certo!"
+        },
+        {
+          "es": "Nos vemos a las ocho",
+          "t": "Ci vediamo alle otto"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i4l3e1",
+          "type": "choice",
+          "prompt": "«Ti va di prendere un caffè?» es…",
+          "options": [
+            "¿Te apetece tomar un café?",
+            "¿Quieres vender un café?",
+            "¿Dónde está el café?",
+            "¿Cuánto cuesta el café?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Te apetece tomar un café?",
+            "t": "Ti va di prendere un caffè?"
+          }
+        },
+        {
+          "id": "i4l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Ci vediamo alle otto",
+          "options": [
+            "Nos vemos a las ocho",
+            "Nos vemos a las dos",
+            "Nos vemos mañana"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nos vemos a las ocho",
+            "t": "Ci vediamo alle otto"
+          }
+        },
+        {
+          "id": "i4l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ci vediamo alle ___",
+          "options": [
+            "otto",
+            "sei",
+            "nove"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Nos vemos a las ocho",
+            "t": "Ci vediamo alle otto"
+          }
+        },
+        {
+          "id": "i4l3e4",
+          "type": "build",
+          "prompt": "Traduce: «¡Claro!»",
+          "solution": "Certo!",
+          "distractors": [
+            "No",
+            "Forse"
+          ],
+          "pair": {
+            "es": "¡Claro!",
+            "t": "Certo!"
+          }
+        },
+        {
+          "id": "i4l3e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Claro",
+              "t": "Certo"
+            },
+            {
+              "es": "Quizás",
+              "t": "Forse"
+            },
+            {
+              "es": "Esta noche",
+              "t": "Stasera"
+            },
+            {
+              "es": "Juntos",
+              "t": "Insieme"
+            }
+          ]
+        },
+        {
+          "id": "i4l3e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «quizás»",
+          "solution": "forse",
+          "accept": [
+            "forse",
+            "Forse"
+          ],
+          "pair": {
+            "es": "Quizás",
+            "t": "Forse"
+          }
+        },
+        {
+          "id": "i4l3e7",
+          "type": "choice",
+          "prompt": "Para aceptar un plan puedes decir…",
+          "options": [
+            "Va bene!",
+            "Non capisco",
+            "È lontano",
+            "Troppo caro"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¡Vale!",
+            "t": "Va bene!"
+          }
+        },
+        {
+          "id": "i4l3e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ti ___ di prendere un caffè?",
+          "options": [
+            "va",
+            "vai",
+            "vado"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Te apetece tomar un café?",
+            "t": "Ti va di prendere un caffè?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i4l4",
+      "title": "Describir experiencias",
+      "goal": "Contar cosas simples que hiciste o viviste",
+      "tip": [
+        "El passato prossimo es muy común para hablar del pasado reciente.",
+        "«Ho visitato…» = Visité / He visitado…"
+      ],
+      "phrases": [
+        {
+          "es": "He visitado Roma",
+          "t": "Ho visitato Roma"
+        },
+        {
+          "es": "Fue una experiencia bonita",
+          "t": "È stata una bella esperienza"
+        },
+        {
+          "es": "Quiero volver",
+          "t": "Voglio tornare"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i4l4e1",
+          "type": "choice",
+          "prompt": "«Ho visitato Roma» significa…",
+          "options": [
+            "He visitado Roma",
+            "Visitaré Roma",
+            "Vivo en Roma",
+            "Estoy en Roma"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "He visitado Roma",
+            "t": "Ho visitato Roma"
+          }
+        },
+        {
+          "id": "i4l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Voglio tornare",
+          "options": [
+            "Quiero volver",
+            "Quiero comer",
+            "Quiero dormir"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Quiero volver",
+            "t": "Voglio tornare"
+          }
+        },
+        {
+          "id": "i4l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ho ___ Roma.",
+          "options": [
+            "visitato",
+            "visito",
+            "visitare"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "He visitado Roma",
+            "t": "Ho visitato Roma"
+          }
+        },
+        {
+          "id": "i4l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Quiero volver»",
+          "solution": "Voglio tornare",
+          "distractors": [
+            "partire",
+            "mangiare"
+          ],
+          "pair": {
+            "es": "Quiero volver",
+            "t": "Voglio tornare"
+          }
+        },
+        {
+          "id": "i4l4e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Ayer",
+              "t": "Ieri"
+            },
+            {
+              "es": "Viaje",
+              "t": "Viaggio"
+            },
+            {
+              "es": "Experiencia",
+              "t": "Esperienza"
+            },
+            {
+              "es": "Volver",
+              "t": "Tornare"
+            }
+          ]
+        },
+        {
+          "id": "i4l4e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «viaje»",
+          "solution": "viaggio",
+          "accept": [
+            "viaggio",
+            "Viaggio"
+          ],
+          "pair": {
+            "es": "Viaje",
+            "t": "Viaggio"
+          }
+        },
+        {
+          "id": "i4l4e7",
+          "type": "choice",
+          "prompt": "«È stata una bella esperienza» expresa…",
+          "options": [
+            "una experiencia positiva",
+            "una dirección",
+            "un precio",
+            "una hora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Una experiencia positiva",
+            "t": "È stata una bella esperienza"
+          }
+        },
+        {
+          "id": "i4l4e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "È stata una bella ___",
+          "options": [
+            "esperienza",
+            "stazione",
+            "chiave"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Fue una experiencia bonita",
+            "t": "È stata una bella esperienza"
+          }
+        }
+      ]
+    }
+  ]
+}

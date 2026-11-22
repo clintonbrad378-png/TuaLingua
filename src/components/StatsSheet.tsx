@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import type { ProgressState, SrsCard, Unit } from "../types";
+import type { AudioMode } from "../lib/audio";
+import { ttsAvailable } from "../lib/audio";
 import { plural, setUiLang, UI_LANGS, levelTitle, uiLang, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
+import { IconFlame, IconBolt, IconTrophy, IconTarget, IconBook, IconBrain, IconClock } from "../components/icons";
 
 const CAL_WEEKS = 13;
 const CAL_DAYS = CAL_WEEKS * 7;
@@ -15,6 +18,22 @@ function pad(n: number): string {
 
 function isoDay(d: Date): string {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+type Theme = "auto" | "light" | "dark";
+
+/** Camino de la línea de XP de los últimos días (viewBox 0–100). */
+function xpChartPoints(history: { day: string; xp: number }[]): string {
+  if (history.length === 0) return "";
+  const max = Math.max(1, ...history.map((h) => h.xp));
+  const n = history.length;
+  return history
+    .map((h, i) => {
+      const x = (n === 1 ? 0.5 : i / (n - 1)) * 100;
+      const y = 100 - (h.xp / max) * 100;
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    })
+    .join(" ");
 }
 
 function calendarCells(history: { day: string; xp: number }[], goal: number) {
@@ -36,6 +55,8 @@ export default function StatsSheet({
   units,
   progress,
   dueSoon,
+  audioMode,
+  onAudioMode,
   onClose,
   onReset,
   onDailyGoal,
@@ -45,6 +66,8 @@ export default function StatsSheet({
   units: Unit[];
   progress: ProgressState;
   dueSoon: SrsCard[] | null;
+  audioMode: AudioMode;
+  onAudioMode: (mode: AudioMode) => void;
   onClose: () => void;
   onReset: () => Promise<void>;
   onDailyGoal: (goal: number) => Promise<boolean> | void;
@@ -59,6 +82,15 @@ export default function StatsSheet({
   const [busy, setBusy] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [uiSelect, setUiSelect] = useState<ReturnType<typeof uiLang>>(uiLang());
+  const [theme, setTheme] = useState<Theme>(() => {
+    const v = localStorage.getItem("tl-theme");
+    return v === "light" || v === "dark" ? v : "auto";
+  });
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme === "auto" ? "" : theme;
+    localStorage.setItem("tl-theme", theme);
+  }, [theme]);
 
   useSheetFocus(sheetRef, true, onClose);
 
@@ -73,6 +105,7 @@ export default function StatsSheet({
       ? Math.round((progress.total_correct / progress.total_answers) * 100)
       : 0;
   const levelPct = Math.min(100, Math.round((progress.level_xp / progress.level_needed) * 100));
+  const lessonsDone = Object.values(progress.lessons).filter((l) => l.stars > 0).length;
 
   async function reset() {
     if (!confirming) {
@@ -160,30 +193,50 @@ export default function StatsSheet({
           </div>
         </div>
 
+        {progress.history.length > 0 && (
+          <div className="xp-chart">
+            <p className="xp-chart-label">{t("st.xp_trend")}</p>
+            <svg className="xp-chart-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <polyline
+                fill="none"
+                stroke="#8E6FFF"
+                strokeWidth="4"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                points={xpChartPoints(progress.history)}
+              />
+            </svg>
+          </div>
+        )}
+
         <div className="stats-grid">
           <div className="stat">
-            <b>⚡ {progress.xp}</b>
+            <b><IconBolt size={15}/> {progress.xp}</b>
             <span>{t("st.xp_total")}</span>
           </div>
           <div className="stat">
-            <b>🔥 {progress.streak}</b>
+            <b><IconFlame size={15}/> {progress.streak}</b>
             <span>{t("st.streak")}</span>
           </div>
           <div className="stat">
-            <b>🏆 {progress.best_streak}</b>
+            <b><IconTrophy size={15}/> {progress.best_streak}</b>
             <span>{t("st.best_streak")}</span>
           </div>
           <div className="stat">
-            <b>🎯 {accuracy}%</b>
+            <b><IconTarget size={15}/> {accuracy}%</b>
             <span>{t("st.accuracy")}</span>
           </div>
           <div className="stat">
-            <b>📚 {progress.words_learned}</b>
+            <b><IconBook size={15}/> {progress.words_learned}</b>
             <span>{t("st.words")}</span>
           </div>
           <div className="stat">
-            <b>🧠 {progress.due_count}</b>
+            <b><IconBrain size={15}/> {progress.due_count}</b>
             <span>{t("st.due")}</span>
+          </div>
+          <div className="stat">
+            <b><IconClock size={15}/> {lessonsDone}</b>
+            <span>{t("st.total_lessons")}</span>
           </div>
         </div>
 
@@ -232,6 +285,39 @@ export default function StatsSheet({
               ))}
             </div>
           </div>
+
+          <div className="set-row">
+            <span className="set-name">{t("st.theme")}</span>
+            <div className="set-ctl theme-toggle">
+              {(["auto", "light", "dark"] as const).map((tid) => (
+                <button
+                  key={tid}
+                  className={`step-btn aux ${theme === tid ? "on" : ""}`}
+                  aria-pressed={theme === tid}
+                  onClick={() => setTheme(tid)}
+                >
+                  {t(`st.theme_${tid}`)}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="set-row">
+            <span className="set-name">{t("st.audio_mode")}</span>
+            <div className="set-ctl theme-toggle">
+              {(["clip", "tts"] as const).map((mid) => (
+                <button
+                  key={mid}
+                  className={`step-btn aux ${audioMode === mid ? "on" : ""}`}
+                  aria-pressed={audioMode === mid}
+                  onClick={() => onAudioMode(mid)}
+                  disabled={mid === "tts" && !ttsAvailable()}
+                  title={mid === "tts" && !ttsAvailable() ? t("st.tts_unavailable") : undefined}
+                >
+                  {t(`st.audio_${mid}`)}
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="set-row">
             <span className="set-name">{t("st.export")} / {t("st.import")}</span>
             <div className="set-ctl">
@@ -254,6 +340,12 @@ export default function StatsSheet({
               title={`${c.day} · ${c.xp} XP`}
             />
           ))}
+        </div>
+        <div className="cal-legend">
+          {[0, 1, 2, 3, 4].map((l) => (
+            <i key={l} className={`cal-cell lvl${l}`} />
+          ))}
+          <span>{t("st.cal_legend")}</span>
         </div>
         <p className="sheet-hint">{t("st.calendar_hint")}</p>
 

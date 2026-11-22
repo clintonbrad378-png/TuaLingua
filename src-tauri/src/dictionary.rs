@@ -22,9 +22,11 @@ pub struct DictCategory {
     pub words: Vec<DictEntry>,
 }
 
-const SOURCES: [(&str, &str); 2] = [
+const SOURCES: [(&str, &str); 4] = [
     ("en", include_str!("content/dictionary.json")),
     ("ru", include_str!("content/dictionary_ru.json")),
+    ("it", include_str!("content/dictionary_it.json")),
+    ("zh", include_str!("content/dictionary_zh.json")),
 ];
 
 static DICTIONARIES: OnceLock<HashMap<String, Vec<DictCategory>>> = OnceLock::new();
@@ -76,7 +78,7 @@ mod tests {
 
     #[test]
     fn dictionary_json_matches_dictionary() {
-        for lang in ["en", "ru"] {
+        for lang in ["en", "ru", "it", "zh"] {
             let cats = dictionary(lang);
             let value = dictionary_json(lang);
             let arr = value.as_array().expect("diccionario json es un array");

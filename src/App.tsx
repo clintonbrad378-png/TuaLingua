@@ -10,10 +10,11 @@ import type {
   SessionSummary,
   SrsCard,
   Unit,
+  VocabWord,
 } from "./types";
 import { api, buildFlashExercises, buildReview, poolOf } from "./api";
 import { DEFAULT_LANG, langOf } from "./lib/langs";
-import { markActivated, setVoiceLanguage, warmUpVoices } from "./lib/audio";
+import { getAudioMode, markActivated, setAudioMode, setVoiceLanguage, warmUpVoices, type AudioMode } from "./lib/audio";
 import { t as tr, useUiLang } from "./i18n";
 import { open as fileOpen, save as fileSave } from "@tauri-apps/plugin-dialog";
 import Home from "./screens/Home";
@@ -22,8 +23,10 @@ import Summary from "./screens/Summary";
 import Dictionary from "./screens/Dictionary";
 import Flashcards from "./screens/Flashcards";
 import StatsSheet from "./components/StatsSheet";
-import Mascot from "./components/Mascot";
+import Welcome from "./components/Welcome";
+import BrandMark from "./components/BrandMark";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { IconAlert, IconX } from "./components/icons";
 
 type Screen =
   | { name: "home" }
@@ -46,9 +49,20 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [screen, setScreen] = useState<Screen>({ name: "home" });
   const [statsOpen, setStatsOpen] = useState(false);
+  const [welcomeOpen, setWelcomeOpen] = useState(false);
   const [dueSoon, setDueSoon] = useState<SrsCard[] | null>(null);
   const [lang, setLang] = useState(DEFAULT_LANG);
   const [switching, setSwitching] = useState<string | null>(null);
+  const [audioMode, setAudioModeState] = useState<AudioMode>(getAudioMode());
+
+  // Bienvenida: solo en primer uso (nunca se repite).
+  useEffect(() => {
+    if (!progress) return;
+    if (progress.total_answers > 0) return;
+    if (localStorage.getItem("tl-welcome")) return;
+    localStorage.setItem("tl-welcome", "1");
+    setWelcomeOpen(true);
+  }, [progress]);
 
   const load = useCallback(async () => {
     try {
@@ -91,6 +105,10 @@ export default function App() {
   useEffect(() => {
     setVoiceLanguage(lang);
   }, [lang]);
+
+  useEffect(() => {
+    setAudioMode(audioMode);
+  }, [audioMode]);
 
   async function refreshProgress() {
     try {
@@ -170,18 +188,25 @@ export default function App() {
     }
   }
 
+  /** Pool para generar ejercicios: diccionario con ejemplos + frases de las
+   * unidades, sin duplicados por texto del idioma destino. */
   const flashPool = useMemo(() => {
     if (!units || !dict) return [];
-    const base = poolOf(units);
-    const seen = new Set(base.map((p) => p.t.toLowerCase()));
-    const merged = [...base];
+    const merged: VocabWord[] = [];
+    const seen = new Set<string>();
     for (const category of dict) {
       for (const w of category.words) {
-        if (!seen.has(w.t.toLowerCase())) {
-          seen.add(w.t.toLowerCase());
-          merged.push({ es: w.es, t: w.t });
-        }
+        const key = w.t.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        merged.push({ es: w.es, t: w.t, ex: w.ex });
       }
+    }
+    for (const p of poolOf(units)) {
+      const key = p.t.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      merged.push({ es: p.es, t: p.t });
     }
     return merged;
   }, [units, dict]);
@@ -200,10 +225,22 @@ export default function App() {
     void refreshProgress();
   }
 
-  function startFlashQuiz() {
-    if (deck.length < 2 || !flashPool.length) return;
-    const exercises = buildFlashExercises(deck, flashPool, lang);
+  function startFlashQuiz(words: VocabWord[]) {
+    if (words.length < 2 || !flashPool.length) return;
+    const exercises = buildFlashExercises(words, flashPool, lang);
     setScreen({ name: "flash-quiz", exercises, session: Date.now() });
+  }
+
+  function addAllToDeck(words: Phrase[]) {
+    if (!words.length) return;
+    const d = [...deck];
+    for (const w of words) d.push(w);
+    setDeck(d);
+    api
+      .addDeckMany(words)
+      .then((persist) => setDeck(persist))
+      .catch(() => setDeck(deck));
+    void refreshProgress();
   }
 
   async function handleFlashQuizFinish(
@@ -273,7 +310,7 @@ export default function App() {
     return (
       <div className="app">
         <div className="screen splash">
-          <Mascot mood="sad" size={110} />
+          <BrandMark size={84} />
           <p className="tag">{tr("app.something_went_wrong")}</p>
           <p className="error-text">{error}</p>
           <button className="btn btn-primary" onClick={() => void load()}>
@@ -288,7 +325,7 @@ export default function App() {
     return (
       <div className="app">
         <div className="screen splash">
-          <Mascot mood="idle" size={120} />
+          <BrandMark size={96} />
           <h1 className="brand">
             Tua<span>Lingua</span>
           </h1>
@@ -308,7 +345,7 @@ export default function App() {
       <div className="app">
         {error && (
           <div className="error-banner" role="alert">
-            <span>⚠️ {error}</span>
+            <span className="banner-msg"><IconAlert size={16}/> {error}</span>
             <button
               className="btn banner-btn"
               onClick={() => void load()}
@@ -317,7 +354,7 @@ export default function App() {
               {tr("app.retry")}
             </button>
             <button className="icon-btn" onClick={() => setError(null)} aria-label={tr("app.close")}>
-              ✕
+              <IconX size={16}/>
             </button>
           </div>
         )}
@@ -357,13 +394,13 @@ export default function App() {
 
         {screen.name === "flashcards" && dict && (
           <Flashcards
-            dictCategories={dict}
+            categories={dict}
             deck={deck}
             onBack={() => {
               void refreshProgress();
               setScreen({ name: "home" });
             }}
-            onRemove={toggleDeckCard}
+            onToggle={toggleDeckCard}
             onClear={() => {
               const d = [...deck];
               setDeck([]);
@@ -373,6 +410,7 @@ export default function App() {
                 .catch(() => setDeck(d));
               void refreshProgress();
             }}
+            onAddAll={addAllToDeck}
             onOpenDictionary={() => setScreen({ name: "dictionary" })}
             onStartQuiz={startFlashQuiz}
           />
@@ -397,6 +435,12 @@ export default function App() {
             key={screen.session}
             mode="lesson"
             lang={lang}
+            intro={{
+              title: screen.lesson.title,
+              goal: screen.lesson.goal,
+              tip: screen.lesson.tip,
+              phrases: screen.lesson.phrases,
+            }}
             exercises={screen.lesson.exercises}
             onExit={() => setScreen({ name: "home" })}
             onFinish={(c, t, m, r) => void handleLessonFinish(screen.lesson, c, t, m, r)}
@@ -450,11 +494,15 @@ export default function App() {
           />
         )}
 
+        {welcomeOpen && <Welcome onClose={() => setWelcomeOpen(false)} />}
+
         {statsOpen && progress && (
           <StatsSheet
             units={units}
             progress={progress}
             dueSoon={dueSoon}
+            audioMode={audioMode}
+            onAudioMode={(mode) => setAudioModeState(mode)}
             onClose={() => {
               setStatsOpen(false);
               void refreshProgress();

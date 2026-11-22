@@ -1,0 +1,632 @@
+{
+  "id": "i3",
+  "title": "Moverte y hacer planes",
+  "emoji": "🗺️",
+  "color": "#21B667",
+  "lessons": [
+    {
+      "id": "i3l1",
+      "title": "La ciudad y direcciones",
+      "goal": "Pedir y entender direcciones básicas",
+      "tip": [
+        "«Dov'è…?» es la pregunta clave para orientarte.",
+        "«A destra» = a la derecha, «a sinistra» = a la izquierda."
+      ],
+      "phrases": [
+        {
+          "es": "¿Dónde está la estación?",
+          "t": "Dov'è la stazione?"
+        },
+        {
+          "es": "Gira a la derecha",
+          "t": "Gira a destra"
+        },
+        {
+          "es": "Está cerca",
+          "t": "È vicino"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l1e1",
+          "type": "choice",
+          "prompt": "«Dov'è la stazione?» significa…",
+          "options": [
+            "¿Dónde está la estación?",
+            "¿Dónde está el hotel?",
+            "¿Dónde está la plaza?",
+            "¿Dónde está el banco?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la estación?",
+            "t": "Dov'è la stazione?"
+          }
+        },
+        {
+          "id": "i3l1e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Gira a destra",
+          "options": [
+            "Gira a la derecha",
+            "Gira a la izquierda",
+            "Sigue recto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gira a la derecha",
+            "t": "Gira a destra"
+          }
+        },
+        {
+          "id": "i3l1e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Gira a ___",
+          "options": [
+            "destra",
+            "sinistra",
+            "dritto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Gira a la derecha",
+            "t": "Gira a destra"
+          }
+        },
+        {
+          "id": "i3l1e4",
+          "type": "build",
+          "prompt": "Traduce: «Está cerca»",
+          "solution": "È vicino",
+          "distractors": [
+            "lontano",
+            "stazione"
+          ],
+          "pair": {
+            "es": "Está cerca",
+            "t": "È vicino"
+          }
+        },
+        {
+          "id": "i3l1e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Derecha",
+              "t": "Destra"
+            },
+            {
+              "es": "Izquierda",
+              "t": "Sinistra"
+            },
+            {
+              "es": "Recto",
+              "t": "Dritto"
+            },
+            {
+              "es": "Cerca",
+              "t": "Vicino"
+            }
+          ]
+        },
+        {
+          "id": "i3l1e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «izquierda»",
+          "solution": "sinistra",
+          "accept": [
+            "sinistra",
+            "Sinistra"
+          ],
+          "pair": {
+            "es": "Izquierda",
+            "t": "Sinistra"
+          }
+        },
+        {
+          "id": "i3l1e7",
+          "type": "choice",
+          "prompt": "«È lontano» significa…",
+          "options": [
+            "Está lejos",
+            "Está cerca",
+            "Está aquí",
+            "Está abierto"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Está lejos",
+            "t": "È lontano"
+          }
+        },
+        {
+          "id": "i3l1e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Dov'è la ___?",
+          "options": [
+            "stazione",
+            "stazioni",
+            "staziona"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está la estación?",
+            "t": "Dov'è la stazione?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l2",
+      "title": "Transporte",
+      "goal": "Hablar de medios de transporte y billetes",
+      "tip": [
+        "«Un biglietto» es un billete/ticket.",
+        "Para preguntar por horarios: «A che ora…?»"
+      ],
+      "phrases": [
+        {
+          "es": "Un billete para Roma, por favor",
+          "t": "Un biglietto per Roma, per favore"
+        },
+        {
+          "es": "¿A qué hora sale el tren?",
+          "t": "A che ora parte il treno?"
+        },
+        {
+          "es": "Quiero tomar el autobús",
+          "t": "Voglio prendere l'autobus"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l2e1",
+          "type": "choice",
+          "prompt": "«Un biglietto per Roma» es…",
+          "options": [
+            "Un billete para Roma",
+            "Un tren para Roma",
+            "Una calle en Roma",
+            "Un hotel en Roma"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Un billete para Roma",
+            "t": "Un biglietto per Roma"
+          }
+        },
+        {
+          "id": "i3l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "A che ora parte il treno?",
+          "options": [
+            "¿A qué hora sale el tren?",
+            "¿Dónde está el tren?",
+            "¿Cuánto cuesta el tren?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿A qué hora sale el tren?",
+            "t": "A che ora parte il treno?"
+          }
+        },
+        {
+          "id": "i3l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "A che ora ___ il treno?",
+          "options": [
+            "parte",
+            "parti",
+            "partono"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿A qué hora sale el tren?",
+            "t": "A che ora parte il treno?"
+          }
+        },
+        {
+          "id": "i3l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Quiero tomar el autobús»",
+          "solution": "Voglio prendere l'autobus",
+          "distractors": [
+            "treno",
+            "biglietto"
+          ],
+          "pair": {
+            "es": "Quiero tomar el autobús",
+            "t": "Voglio prendere l'autobus"
+          }
+        },
+        {
+          "id": "i3l2e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Tren",
+              "t": "Treno"
+            },
+            {
+              "es": "Autobús",
+              "t": "Autobus"
+            },
+            {
+              "es": "Billete",
+              "t": "Biglietto"
+            },
+            {
+              "es": "Aeropuerto",
+              "t": "Aeroporto"
+            }
+          ]
+        },
+        {
+          "id": "i3l2e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «tren»",
+          "solution": "treno",
+          "accept": [
+            "treno",
+            "Treno"
+          ],
+          "pair": {
+            "es": "Tren",
+            "t": "Treno"
+          }
+        },
+        {
+          "id": "i3l2e7",
+          "type": "choice",
+          "prompt": "«L'autobus» es…",
+          "options": [
+            "el autobús",
+            "el avión",
+            "el barco",
+            "la bicicleta"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El autobús",
+            "t": "L'autobus"
+          }
+        },
+        {
+          "id": "i3l2e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Un ___ per Roma, per favore.",
+          "options": [
+            "biglietto",
+            "bagno",
+            "banco"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Un billete para Roma, por favor",
+            "t": "Un biglietto per Roma, per favore"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l3",
+      "title": "Tiempo y planes",
+      "goal": "Hablar de días, horas y planes simples",
+      "tip": [
+        "«Oggi» = hoy, «domani» = mañana, «ieri» = ayer.",
+        "Para hacer planes: «Possiamo…?» = ¿Podemos…?"
+      ],
+      "phrases": [
+        {
+          "es": "Hoy trabajo",
+          "t": "Oggi lavoro"
+        },
+        {
+          "es": "Mañana nos vemos",
+          "t": "Domani ci vediamo"
+        },
+        {
+          "es": "¿Podemos quedar a las seis?",
+          "t": "Possiamo vederci alle sei?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l3e1",
+          "type": "choice",
+          "prompt": "«Domani ci vediamo» significa…",
+          "options": [
+            "Mañana nos vemos",
+            "Hoy nos vemos",
+            "Ayer nos vimos",
+            "Nos vemos ahora"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mañana nos vemos",
+            "t": "Domani ci vediamo"
+          }
+        },
+        {
+          "id": "i3l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Possiamo vederci alle sei?",
+          "options": [
+            "¿Podemos quedar a las seis?",
+            "¿Podemos comer a las seis?",
+            "¿Podemos salir a las seis?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podemos quedar a las seis?",
+            "t": "Possiamo vederci alle sei?"
+          }
+        },
+        {
+          "id": "i3l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ lavoro.",
+          "options": [
+            "Oggi",
+            "Ieri",
+            "Domani"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hoy trabajo",
+            "t": "Oggi lavoro"
+          }
+        },
+        {
+          "id": "i3l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Mañana nos vemos»",
+          "solution": "Domani ci vediamo",
+          "distractors": [
+            "oggi",
+            "ieri"
+          ],
+          "pair": {
+            "es": "Mañana nos vemos",
+            "t": "Domani ci vediamo"
+          }
+        },
+        {
+          "id": "i3l3e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Hoy",
+              "t": "Oggi"
+            },
+            {
+              "es": "Mañana",
+              "t": "Domani"
+            },
+            {
+              "es": "Ayer",
+              "t": "Ieri"
+            },
+            {
+              "es": "Ahora",
+              "t": "Adesso"
+            }
+          ]
+        },
+        {
+          "id": "i3l3e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «hoy»",
+          "solution": "oggi",
+          "accept": [
+            "oggi",
+            "Oggi"
+          ],
+          "pair": {
+            "es": "Hoy",
+            "t": "Oggi"
+          }
+        },
+        {
+          "id": "i3l3e7",
+          "type": "choice",
+          "prompt": "«Ieri» significa…",
+          "options": [
+            "ayer",
+            "hoy",
+            "mañana",
+            "siempre"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Ayer",
+            "t": "Ieri"
+          }
+        },
+        {
+          "id": "i3l3e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Possiamo vederci alle ___?",
+          "options": [
+            "sei",
+            "sette",
+            "nove"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Podemos quedar a las seis?",
+            "t": "Possiamo vederci alle sei?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i3l4",
+      "title": "Emergencias y ayuda",
+      "goal": "Pedir ayuda en situaciones básicas",
+      "tip": [
+        "«Aiuto!» es universal y urgente.",
+        "«Ho bisogno di…» = Necesito…"
+      ],
+      "phrases": [
+        {
+          "es": "Necesito ayuda",
+          "t": "Ho bisogno di aiuto"
+        },
+        {
+          "es": "He perdido mi pasaporte",
+          "t": "Ho perso il mio passaporto"
+        },
+        {
+          "es": "¿Dónde está el hospital?",
+          "t": "Dov'è l'ospedale?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i3l4e1",
+          "type": "choice",
+          "prompt": "«Ho bisogno di aiuto» significa…",
+          "options": [
+            "Necesito ayuda",
+            "Necesito agua",
+            "Necesito tiempo",
+            "Necesito dinero"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesito ayuda",
+            "t": "Ho bisogno di aiuto"
+          }
+        },
+        {
+          "id": "i3l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Dov'è l'ospedale?",
+          "options": [
+            "¿Dónde está el hospital?",
+            "¿Dónde está el hotel?",
+            "¿Dónde está la estación?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde está el hospital?",
+            "t": "Dov'è l'ospedale?"
+          }
+        },
+        {
+          "id": "i3l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ho ___ di aiuto.",
+          "options": [
+            "bisogno",
+            "voglia",
+            "tempo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Necesito ayuda",
+            "t": "Ho bisogno di aiuto"
+          }
+        },
+        {
+          "id": "i3l4e4",
+          "type": "build",
+          "prompt": "Traduce: «He perdido mi pasaporte»",
+          "solution": "Ho perso il mio passaporto",
+          "distractors": [
+            "biglietto",
+            "telefono"
+          ],
+          "pair": {
+            "es": "He perdido mi pasaporte",
+            "t": "Ho perso il mio passaporto"
+          }
+        },
+        {
+          "id": "i3l4e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Ayuda",
+              "t": "Aiuto"
+            },
+            {
+              "es": "Hospital",
+              "t": "Ospedale"
+            },
+            {
+              "es": "Policía",
+              "t": "Polizia"
+            },
+            {
+              "es": "Pasaporte",
+              "t": "Passaporto"
+            }
+          ]
+        },
+        {
+          "id": "i3l4e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «ayuda»",
+          "solution": "aiuto",
+          "accept": [
+            "aiuto",
+            "Aiuto"
+          ],
+          "pair": {
+            "es": "Ayuda",
+            "t": "Aiuto"
+          }
+        },
+        {
+          "id": "i3l4e7",
+          "type": "choice",
+          "prompt": "Si tienes una urgencia médica preguntas por…",
+          "options": [
+            "l'ospedale",
+            "il cinema",
+            "il ristorante",
+            "il museo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "El hospital",
+            "t": "L'ospedale"
+          }
+        },
+        {
+          "id": "i3l4e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ho perso il mio ___",
+          "options": [
+            "passaporto",
+            "caffè",
+            "tavolo"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "He perdido mi pasaporte",
+            "t": "Ho perso il mio passaporto"
+          }
+        }
+      ]
+    }
+  ]
+}

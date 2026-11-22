@@ -1,46 +1,57 @@
 import { useMemo, useRef, useState } from "react";
-import type { DictCategory, Phrase } from "../types";
+import type { DictCategory, Phrase, VocabWord } from "../types";
 import { shuffled } from "../lib/text";
 import { sfx, speak, vibrate } from "../lib/audio";
 import { plural, t, useUiLang } from "../i18n";
 import { deckKeyOf } from "./Dictionary";
+import { IconChevronLeft, IconVolume, IconCheck, IconX, IconPlus, IconCards } from "../components/icons";
+
+const DECK_SOURCE = "deck";
 
 export default function Flashcards({
-  dictCategories,
+  categories,
   deck,
   onBack,
-  onRemove,
+  onToggle,
   onClear,
+  onAddAll,
   onOpenDictionary,
   onStartQuiz,
 }: {
-  dictCategories: DictCategory[];
+  categories: DictCategory[];
   deck: Phrase[];
   onBack: () => void;
-  onRemove: (phrase: Phrase) => void;
+  onToggle: (phrase: Phrase) => void;
   onClear: () => void;
+  onAddAll: (words: Phrase[]) => void;
   onOpenDictionary: () => void;
-  onStartQuiz: () => void;
+  onStartQuiz: (words: VocabWord[]) => void;
 }) {
   useUiLang();
+  const [source, setSource] = useState(DECK_SOURCE);
   const [studying, setStudying] = useState(false);
   const [confirming, setConfirming] = useState(false);
   const studyRef = useRef(Date.now());
 
   const posOf = useMemo(() => {
     const m = new Map<string, string>();
-    for (const cat of dictCategories) {
+    for (const cat of categories) {
       for (const w of cat.words) {
         if (w.pos) m.set(deckKeyOf(w), w.pos);
       }
     }
     return m;
-  }, [dictCategories]);
+  }, [categories]);
 
-  if (studying) {
+  const deckSet = useMemo(() => new Set(deck.map(deckKeyOf)), [deck]);
+  const isDeck = source === DECK_SOURCE;
+  const category = isDeck ? undefined : categories.find((c) => c.id === source);
+  const words = isDeck ? deck : category?.words ?? [];
+
+  if (studying && words.length) {
     return (
       <StudyMode
-        cards={deck}
+        cards={words}
         posOf={posOf}
         seed={studyRef.current}
         onExit={() => setStudying(false)}
@@ -48,7 +59,7 @@ export default function Flashcards({
     );
   }
 
-  async function clearDeck() {
+  function clearDeck() {
     if (!confirming) {
       setConfirming(true);
       return;
@@ -57,19 +68,58 @@ export default function Flashcards({
     onClear();
   }
 
+  const pending = words.filter((w) => !deckSet.has(deckKeyOf(w)));
+
   return (
     <div className="screen fc">
       <header className="page-head">
         <button className="icon-btn" onClick={onBack} aria-label={t("d.back")}>
-          ‹
+          <IconChevronLeft size={22}/>
         </button>
         <h2 className="page-title">{t("f.title")}</h2>
-        <span className="chip-stat dim">🃏 <b>{deck.length}</b></span>
+        <button
+          className={`chip-stat deck-chip ${isDeck ? "on-deck" : ""}`}
+          onClick={() => {
+            sfx.tap();
+            setSource(DECK_SOURCE);
+          }}
+          aria-label={t("f.source_deck")}
+        >
+          <IconCards size={16}/> <b>{deck.length}</b>
+        </button>
       </header>
 
-      {deck.length === 0 ? (
+      <div className="chip-row" role="tablist" aria-label={t("f.title")}>
+        <button
+          role="tab"
+          aria-selected={isDeck}
+          className={`cat-chip ${isDeck ? "on" : ""}`}
+          onClick={() => {
+            sfx.tap();
+            setSource(DECK_SOURCE);
+          }}
+        >
+          <IconCards size={14}/> {t("f.source_deck")}
+        </button>
+        {categories.map((c) => (
+          <button
+            key={c.id}
+            role="tab"
+            aria-selected={c.id === source}
+            className={`cat-chip ${c.id === source ? "on" : ""}`}
+            onClick={() => {
+              sfx.tap();
+              setSource(c.id);
+            }}
+          >
+            {c.emoji} {c.title}
+          </button>
+        ))}
+      </div>
+
+      {isDeck && deck.length === 0 ? (
         <div className="fc-empty">
-          <p className="fc-empty-emoji">🃏</p>
+          <div className="fc-empty-emoji"><IconCards size={48}/></div>
           <h3>{t("f.empty_title")}</h3>
           <p className="fc-empty-text">{t("f.empty_text")}</p>
           <button className="btn big btn-primary" onClick={onOpenDictionary}>
@@ -78,9 +128,21 @@ export default function Flashcards({
         </div>
       ) : (
         <>
+          <p className="dict-meta">
+            {isDeck
+              ? plural(deck.length, "f.deck_words_one", "f.deck_words_many")
+              : t("d.cat_words", {
+                  emoji: category?.emoji ?? "",
+                  title: category?.title ?? "",
+                  n: words.length,
+                  s: plural(words.length, "d.word_one", "d.word_many"),
+                })}
+          </p>
+
           <div className="fc-actions">
             <button
               className="btn big btn-primary"
+              disabled={words.length === 0}
               onClick={() => {
                 studyRef.current = Date.now();
                 sfx.tap();
@@ -91,20 +153,36 @@ export default function Flashcards({
             </button>
             <button
               className="btn big ghost"
-              onClick={onStartQuiz}
-              disabled={deck.length < 2}
+              onClick={() => onStartQuiz(words)}
+              disabled={words.length < 2}
             >
               {t("f.practice")}
             </button>
+            {!isDeck &&
+              (pending.length > 0 ? (
+                <button
+                  className="btn big deck-add-btn"
+                  onClick={() => {
+                    sfx.tap();
+                    onAddAll(words.filter((w) => !deckSet.has(deckKeyOf(w))));
+                  }}
+                >
+                  ＋ {t("f.add_all", { n: pending.length })}
+                </button>
+              ) : (
+                <p className="fc-deck-done"><IconCheck size={14}/> {t("f.add_all_done")}</p>
+              ))}
           </div>
           <p className="fc-hint">{t("f.hint")}</p>
 
-          <p className="sheet-label">{t("f.deck")}</p>
+          <p className="sheet-label">{isDeck ? t("f.deck") : category?.title ?? ""}</p>
           <div className="word-list">
-            {deck.map((p) => {
-              const pos = posOf.get(deckKeyOf(p));
+            {words.map((p) => {
+              const key = deckKeyOf(p);
+              const picked = deckSet.has(key);
+              const pos = posOf.get(key);
               return (
-                <div className="word-row" key={deckKeyOf(p)}>
+                <div className={`word-row ${picked ? "picked" : ""}`} key={key}>
                   <div className="word-click">
                     <p className="word-en">
                       {p.t}
@@ -114,17 +192,17 @@ export default function Flashcards({
                   </div>
                   <div className="word-actions">
                     <button className="spk" onClick={() => speak(p.t)} aria-label={t("f.listen", { word: p.t })}>
-                      🔊
+                      <IconVolume size={18}/>
                     </button>
                     <button
-                      className="pick on"
+                      className={`pick ${picked ? "on" : ""}`}
                       onClick={() => {
                         sfx.tap();
-                        onRemove(p);
+                        onToggle(p);
                       }}
-                      aria-label={t("f.remove")}
+                      aria-label={picked ? t("d.remove") : t("d.add")}
                     >
-                      ✕
+                      {isDeck ? <IconX size={15}/> : picked ? <IconCheck size={15}/> : <IconPlus size={15}/>}
                     </button>
                   </div>
                 </div>
@@ -132,9 +210,11 @@ export default function Flashcards({
             })}
           </div>
 
-          <button className="btn big danger-btn fc-clear" onClick={clearDeck}>
-            {confirming ? t("f.confirm") : t("f.clear")}
-          </button>
+          {isDeck && (
+            <button className="btn big danger-btn fc-clear" onClick={clearDeck}>
+              {confirming ? t("f.confirm") : t("f.clear")}
+            </button>
+          )}
         </>
       )}
     </div>
@@ -162,7 +242,11 @@ function StudyMode({
   const pos = done ? undefined : posOf.get(deckKeyOf(card));
 
   function reveal() {
-    if (done || flipped) return;
+    if (done) return;
+    if (flipped) {
+      setFlipped(false);
+      return;
+    }
     sfx.tap();
     setFlipped(true);
     speak(card.t);
@@ -185,7 +269,7 @@ function StudyMode({
     return (
       <div className="screen fc">
         <div className="fc-end">
-          <p className="fc-empty-emoji">✅</p>
+          <div className="fc-empty-emoji done"><IconCheck size={40}/></div>
           <h3>{t("f.done")}</h3>
           <p className="fc-empty-text">
             {t("f.done_text", {
@@ -205,7 +289,7 @@ function StudyMode({
     <div className="screen fc study">
       <header className="page-head">
         <button className="icon-btn" onClick={onExit} aria-label={t("f.exit_study")}>
-          ✕
+          <IconX size={20}/>
         </button>
         <p className="fc-progress">
           {i + 1} / {order.length}
@@ -240,7 +324,7 @@ function StudyMode({
               }}
               aria-label={t("f.listen_btn")}
             >
-              🔊
+              <IconVolume size={18}/>
             </button>
           </>
         )}
@@ -250,7 +334,7 @@ function StudyMode({
         <button className="btn ghost" onClick={prev} disabled={i === 0}>
           {t("f.prev")}
         </button>
-        <button className="btn btn-primary" onClick={next} disabled={flipped}>
+        <button className="btn btn-primary" onClick={next}>
           {i + 1 === order.length ? t("f.finish") : t("f.next")}
         </button>
       </div>

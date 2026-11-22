@@ -1,6 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { buildFlashExercises, FLASH_BATCH, buildReview, poolOf } from "./api";
-import type { Phrase, Unit } from "./types";
+import {
+  buildFlashExercises,
+  FLASH_BATCH,
+  buildReview,
+  fillFromExample,
+  poolOf,
+} from "./api";
+import type { Phrase, Unit, VocabWord } from "./types";
 
 function unitWith(lessonId: string, phrases: Phrase[], matchPairs?: Phrase[], pairPhrase?: Phrase): Unit {
   return {
@@ -141,25 +147,37 @@ describe("buildFlashExercises", () => {
     { es: "quepa", t: "окно" },
   ];
 
-  it("genera un ejercicio por palabra del mazo con ids únicos", () => {
+  const withExamples = deck.map((p) => ({
+    ...p,
+    ex: {
+      t: `This is a ${p.t}`,
+      es: `Esto es un ${p.es}`,
+    },
+  }));
+
+  it("genera un ejercicio por palabra del mazo y cierra con match", () => {
     const exercises = buildFlashExercises(deck, pool, "ru");
-    expect(exercises).toHaveLength(deck.length);
-    expect(new Set(exercises.map((e) => e.id)).size).toBe(deck.length);
-    for (const ex of exercises) {
-      expect(ex.pair).toBeDefined();
-    }
+    expect(exercises).toHaveLength(deck.length + 1);
+    const last = exercises[deck.length];
+    if (last.type !== "match") throw new Error("el cierre es match");
+    expect(last.pairs.length).toBe(5);
+    expect(
+      last.pairs.every((p) =>
+        deck.some((d) => d.t.toLowerCase() === p.t.toLowerCase()),
+      ),
+    ).toBe(true);
   });
 
-  it("limita el lote al máximo FLASH_BATCH", () => {
-    const big: Phrase[] = [];
+  it("limita el lote al máximo FLASH_BATCH (más el match final)", () => {
+    const big: VocabWord[] = [];
     for (let i = 0; i < FLASH_BATCH + 20; i++) {
       big.push({ es: `es-${i}`, t: `t-${i}` });
     }
     const giantPool = [...big, ...pool];
     const exercises = buildFlashExercises(big, giantPool, "ru");
-    expect(exercises).toHaveLength(FLASH_BATCH);
+    expect(exercises).toHaveLength(FLASH_BATCH + 1);
     const ids = new Set(exercises.map((e) => e.id));
-    expect(ids.size).toBe(FLASH_BATCH);
+    expect(ids.size).toBe(FLASH_BATCH + 1);
   });
 
   it("las de elección incluyen distractores distintos de la respuesta", () => {
@@ -189,15 +207,85 @@ describe("buildFlashExercises", () => {
     }
   });
 
-  it("cada ejercicio lleva su pair del mazo", () => {
-    const exercises = buildFlashExercises(deck, pool, "ru");
-    const deckKeys = new Set(deck.map((p) => p.t.toLowerCase()));
-    for (const ex of exercises) {
-      expect(deckKeys.has(ex.pair!.t.toLowerCase())).toBe(true);
+  it("con ejemplos genera fill con ___ y opciones únicas", () => {
+    const exercises = buildFlashExercises(withExamples, pool, "ru");
+    const fills = exercises.filter((e) => e.type === "fill") as Extract<
+      (typeof exercises)[number],
+      { type: "fill" }
+    >[];
+    expect(fills).toHaveLength(1);
+    for (const ex of fills) {
+      expect(ex.sentence).toContain("___");
+      expect(ex.sentence.split("___")).toHaveLength(2);
+      expect(ex.options).toHaveLength(4);
+      expect(new Set(ex.options).size).toBe(4);
+      expect(ex.options[ex.answer]).toBeDefined();
     }
   });
 
-  it("no rompe con un mazo de una sola palabra", () => {
+  it("fillFromExample: hueco exacto y respuesta correcta en options", () => {
+    const word: VocabWord = {
+      es: "el perro",
+      t: "the dog",
+      ex: { t: "The dog is my best friend", es: "El perro es mi mejor amigo" },
+    };
+    const richPool: Phrase[] = [
+      { es: "la manzana", t: "the apple" },
+      { es: "el pan", t: "the bread" },
+      { es: "la sal", t: "the salt" },
+      { es: "el gato", t: "the cat" },
+      { es: "la mesa", t: "the table" },
+    ];
+    const ex = fillFromExample(word, richPool, "fx1");
+    expect(ex).not.toBeNull();
+    if (!ex || ex.type !== "fill") throw new Error("esperaba fill");
+    expect(ex.sentence).toBe("The ___ is my best friend");
+    expect(ex.options).toHaveLength(4);
+    expect(new Set(ex.options).size).toBe(4);
+    expect(ex.options[ex.answer]).toBe("dog");
+    expect(ex.pair).toEqual({ es: "el perro", t: "the dog" });
+  });
+
+  it("fillFromExample: null sin ejemplo o sin coincidencia en la frase", () => {
+    const pool: Phrase[] = [
+      { es: "a", t: "x" },
+      { es: "b", t: "y" },
+      { es: "c", t: "z" },
+      { es: "d", t: "w" },
+    ];
+    expect(
+      fillFromExample(
+        { es: "a", t: "word" },
+        pool,
+        "fx2",
+      ),
+    ).toBeNull();
+    expect(
+      fillFromExample(
+        { es: "a", t: "la palabra", ex: { t: "Un ejemplo sin nada", es: "aa" } },
+        pool,
+        "fx3",
+      ),
+    ).toBeNull();
+  });
+
+  it("cada ejercicio aparte de match lleva pair del mazo", () => {
+    const exercises = buildFlashExercises(deck, pool, "ru");
+    const deckKeys = new Set(deck.map((p) => p.t.toLowerCase()));
+    for (const ex of exercises) {
+      if (ex.type === "match") continue;
+      expect(deckKeys.has(ex.pair!.t.toLowerCase())).toBe(true);
+    }
+    const match = exercises.find((e) => e.type === "match") as Extract<
+      (typeof exercises)[number],
+      { type: "match" }
+    >;
+    for (const p of match.pairs) {
+      expect(deckKeys.has(p.t.toLowerCase())).toBe(true);
+    }
+  });
+
+  it("no rompe con un mazo de una sola palabra (sin match)", () => {
     const tiny = buildFlashExercises([{ es: "a", t: "b" }], [
       { es: "a", t: "b" },
       { es: "x", t: "y" },

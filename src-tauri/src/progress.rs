@@ -247,18 +247,19 @@ fn backup_path(path: &Path, n: usize) -> PathBuf {
 }
 
 /// Rota progress.json → .bak1 → .bak2 → .bak3 (descarta el más viejo).
+/// Copia de atrás hacia adelante: bak3 ← bak2, bak2 ← bak1, bak1 ← path,
+/// para que nada se sobrescriba antes de rotar.
 fn rotate_backups(path: &Path) {
-    let mut next = if path.exists() { Some(path.to_path_buf()) } else { None };
-    for n in 1..=SAVE_BACKUPS {
-        let Some(src) = next.take() else { break };
-        let b = backup_path(path, n);
-        if n < SAVE_BACKUPS {
-            // El siguiente destino es la copia anterior del siguiente turno.
-            next = Some(b.clone());
-        } else if b.exists() {
-            let _ = std::fs::remove_file(&b);
+    for n in (1..=SAVE_BACKUPS).rev() {
+        let src = if n == 1 {
+            path.to_path_buf()
+        } else {
+            backup_path(path, n - 1)
+        };
+        if !src.exists() {
+            continue;
         }
-        let _ = std::fs::copy(&src, &b);
+        let _ = std::fs::copy(&src, &backup_path(path, n));
     }
 }
 
@@ -347,7 +348,17 @@ impl Db {
             std::fs::create_dir_all(parent)
                 .map_err(|e| format!("no se pudo crear la carpeta destino: {e}"))?;
         }
-        std::fs::write(target, raw)
+        // Escritura atómica (tmp + rename) igual que `save`: el usuario manda
+        // un backup y no puede dejar un archivo parcial si se interrumpe.
+        let tmp = target.with_extension("json.tmp");
+        {
+            let mut file = std::fs::File::create(&tmp)
+                .map_err(|e| format!("no se pudo crear el archivo temporal: {e}"))?;
+            file.write_all(raw.as_bytes())
+                .and_then(|_| file.sync_all())
+                .map_err(|e| format!("no se pudo escribir {target:?}: {e}"))?;
+        }
+        std::fs::rename(&tmp, target)
             .map_err(|e| format!("no se pudo escribir {target:?}: {e}"))
     }
 
@@ -487,6 +498,20 @@ impl Db {
         true
     }
 
+    /// Añade al mazo las tarjetas nuevas del idioma activo (ignora duplicados
+    /// y todo lo que ya estuviera guardado). Devuelve cuántas entraron.
+    pub fn add_deck_many(&mut self, cards: &[(String, String)]) -> usize {
+        let mut added = 0;
+        for (es, t) in cards {
+            if self.has_deck_card(es, t) {
+                continue;
+            }
+            self.deck.push(PhraseDto::new(self.lang(), es, t));
+            added += 1;
+        }
+        added
+    }
+
     pub fn clear_deck(&mut self) {
         self.deck.retain(|c| c.lang != self.lang);
     }
@@ -586,23 +611,26 @@ impl Db {
             .checked_mul(100)
             .and_then(|v| v.checked_div(answers_total))
             .unwrap_or(0);
-        let mut xp_gained = answers_correct * 10 + combo_max * 2;
+        let mut xp_gained = answers_correct
+            .saturating_mul(10)
+            .saturating_add(combo_max.saturating_mul(2));
         if answers_total > 0 && accuracy == 100 {
-            xp_gained += 25;
+            xp_gained = xp_gained.saturating_add(25);
         } else if accuracy >= 80 {
-            xp_gained += 10;
+            xp_gained = xp_gained.saturating_add(10);
         }
 
         let (level_before, _, _) = level_parts(self.xp);
-        self.xp += xp_gained;
+        self.xp = self.xp.saturating_add(xp_gained);
 
         let tstr = today().to_string();
         if self.xp_day.as_deref() != Some(&tstr) {
             self.xp_day = Some(tstr.clone());
             self.xp_today = 0;
         }
-        self.xp_today += xp_gained;
-        *self.history.entry(tstr.clone()).or_insert(0) += xp_gained;
+        self.xp_today = self.xp_today.saturating_add(xp_gained);
+        let day_xp = self.history.entry(tstr.clone()).or_insert(0);
+        *day_xp = day_xp.saturating_add(xp_gained);
 
         let mut streak_up = false;
         match self.last_active.as_deref() {
@@ -878,6 +906,24 @@ mod tests {
         db.clear_deck();
         assert_eq!(db.deck.len(), 1);
         assert_eq!(db.deck[0].lang, "en");
+    }
+
+    #[test]
+    fn add_deck_many_no_duplicates() {
+        let mut db = Db::default();
+        db.toggle_deck("hola", "hello");
+        let added = db.add_deck_many(&[
+            ("hola".into(), "hello".into()),
+            ("gato".into(), "cat".into()),
+            ("gato".into(), "cat".into()),
+            ("perro".into(), "dog".into()),
+        ]);
+        assert_eq!(added, 2);
+        assert_eq!(db.deck_count(), 3);
+        // Wcase: no entra nada duplicado aunque cambien mayúsculas.
+        let again = db.add_deck_many(&[("GATO".into(), "Cat".into())]);
+        assert_eq!(again, 0);
+        db.deck.iter().for_each(|c| assert_eq!(c.lang, "en"));
     }
 
     #[test]

@@ -1,0 +1,375 @@
+{
+ "id": "c4",
+ "title": "Gente, planes y cortesía",
+ "emoji": "🧑‍🤝‍🧑",
+ "color": "#F87171",
+ "lessons": [
+  {
+   "id": "c4l1",
+   "title": "Cómo es la gente",
+   "goal": "Describe a las personas con adjetivos",
+   "tip": [
+    "En chino el adjetivo va DESPUÉS de lo descrito y con 很 (hěn) delante: 她很漂亮 (tā hěn piàoliang) «ella es guapa».",
+    "Serie «shi» para afinar el oído: 师 (shī) 1º, 十 (shí) 2º, 史 (shǐ) 3º, 是 (shì) 4º: mismo sonido, cuatro tonos.",
+    "她 (tā) es «ella» y él también se escribe 他 (tā): suena igual, el carácter decide el género escrito."
+   ],
+   "phrases": [
+    { "es": "Alto", "t": "高 (gāo)" },
+    { "es": "Bajo", "t": "矮 (ǎi)" },
+    { "es": "Guapo", "t": "帅 (shuài)" },
+    { "es": "Bonita", "t": "漂亮 (piàoliang)" },
+    { "es": "Inteligente", "t": "聪明 (cōngming)" },
+    { "es": "Joven", "t": "年轻 (niánqīng)" }
+   ],
+   "exercises": [
+    {
+     "id": "c4l1e1",
+     "type": "choice",
+     "prompt": "«聪明» significa…",
+     "options": ["Inteligente", "Alto", "Guapo", "Joven"],
+     "answer": 0,
+     "pair": { "es": "Inteligente", "t": "聪明 (cōngming)" }
+    },
+    {
+     "id": "c4l1e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «bonita»?",
+     "options": ["漂亮 (piàoliang)", "高 (gāo)", "矮 (ǎi)", "年轻 (niánqīng)"],
+     "answer": 0,
+     "pair": { "es": "Bonita", "t": "漂亮 (piàoliang)" }
+    },
+    {
+     "id": "c4l1e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "他 很 高 (tā hěn gāo)",
+     "options": ["Es alto", "Es bajo", "Es muy joven", "Es guapo"],
+     "answer": 0,
+     "pair": { "es": "Es alto", "t": "他很高 (tā hěn gāo)" }
+    },
+    {
+     "id": "c4l1e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «shi»?",
+     "audio": "师 (shī)",
+     "options": ["师 (shī) · 1º", "十 (shí) · 2º", "史 (shǐ) · 3º", "是 (shì) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El primer tono", "t": "师 (shī)" }
+    },
+    {
+     "id": "c4l1e5",
+     "type": "fill",
+     "prompt": "Completa «alto» en pinyin",
+     "sentence": "wǒ de gēge hěn __",
+     "options": ["gāo", "ǎi", "shuài", "le"],
+     "answer": 0,
+     "pair": { "es": "Mi hermano es muy alto", "t": "我的哥哥很高 (wǒ de gēge hěn gāo)" }
+    },
+    {
+     "id": "c4l1e6",
+     "type": "build",
+     "prompt": "Traduce: «Ella es muy guapa»",
+     "solution": "她 很 漂亮",
+     "distractors": ["他", "水"],
+     "pair": { "es": "Ella es muy guapa", "t": "她很漂亮 (tā hěn piàoliang)" },
+     "explain": "她 (tā) es ella y 他 (tā) es él: suenan exactamente igual, solo cambia el carácter."
+    },
+    {
+     "id": "c4l1e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Joven» (acepta hanzi o pinyin sin tonos)",
+     "solution": "年轻",
+     "accept": ["年轻", "nianqing"],
+     "pair": { "es": "Joven", "t": "年轻 (niánqīng)" }
+    },
+    {
+     "id": "c4l1e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Alto", "t": "高 (gāo)" },
+      { "es": "Bajo", "t": "矮 (ǎi)" },
+      { "es": "Guapo", "t": "帅 (shuài)" },
+      { "es": "Bonita", "t": "漂亮 (piàoliang)" },
+      { "es": "Inteligente", "t": "聪明 (cōngming)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4l2",
+   "title": "Ánimo y emociones",
+   "goal": "Di cómo te sientes y anima a los demás",
+   "tip": [
+    "高兴 (gāoxìng) y 开心 (kāixīn) son «alegre»; 生气 (shēngqì) es enfado real:",
+    "加油 (jiāyóu) se usa para animar: literalmente «¡a por él!»."
+   ],
+   "phrases": [
+    { "es": "Feliz", "t": "开心 (kāixīn)" },
+    { "es": "Contento", "t": "高兴 (gāoxìng)" },
+    { "es": "Enfadado", "t": "生气 (shēngqì)" },
+    { "es": "Triste", "t": "难过 (nánguò)" },
+    { "es": "¡Ánimo!", "t": "加油 (jiāyóu)" },
+    { "es": "No pasa nada", "t": "没关系 (méi guānxi)" }
+   ],
+   "exercises": [
+    {
+     "id": "c4l2e1",
+     "type": "choice",
+     "prompt": "«生气» significa…",
+     "options": ["Enfadado", "Feliz", "Triste", "Cansado"],
+     "answer": 0,
+     "pair": { "es": "Enfadado", "t": "生气 (shēngqì)" }
+    },
+    {
+     "id": "c4l2e2",
+     "type": "choice",
+     "prompt": "¿Cómo animas a alguien?",
+     "options": ["加油 (jiāyóu)", "生气 (shēngqì)", "难过 (nánguò)", "没关系 (méi guānxi)"],
+     "answer": 0,
+     "pair": { "es": "¡Ánimo!", "t": "加油 (jiāyóu)" }
+    },
+    {
+     "id": "c4l2e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "别 生气 (bié shēngqì)",
+     "options": ["No te enfades", "Estoy contento", "No pasa nada", "Estoy un poco triste"],
+     "answer": 0,
+     "pair": { "es": "No te enfades", "t": "别生气 (bié shēngqì)" },
+     "explain": "别 (bié) marca el imperativo negativo: «no…!»."
+    },
+    {
+     "id": "c4l2e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «shi»?",
+     "audio": "是 (shì)",
+     "options": ["是 (shì) · 4º", "师 (shī) · 1º", "十 (shí) · 2º", "史 (shǐ) · 3º"],
+     "answer": 0,
+     "pair": { "es": "El cuarto tono", "t": "是 (shì)" },
+     "explain": "是 (shì) es el verbo «ser» más usado en presentaciones: 我是中国人 (wǒ shì Zhōngguó rén)."
+    },
+    {
+     "id": "c4l2e5",
+     "type": "fill",
+     "prompt": "Completa «feliz» en pinyin",
+     "sentence": "jīntiān wǒ hěn __",
+     "options": ["kāixīn", "shēngqì", "nánguò", "máng"],
+     "answer": 0,
+     "pair": { "es": "Hoy estoy feliz", "t": "今天我很开心 (jīntiān wǒ hěn kāixīn)" }
+    },
+    {
+     "id": "c4l2e6",
+     "type": "build",
+     "prompt": "Traduce: «No pasa nada»",
+     "solution": "没 关系",
+     "distractors": ["很", "妈"],
+     "pair": { "es": "No pasa nada", "t": "没关系 (méi guānxi)" }
+    },
+    {
+     "id": "c4l2e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Triste» (acepta hanzi o pinyin sin tonos)",
+     "solution": "难过",
+     "accept": ["难过", "nanguo"],
+     "pair": { "es": "Triste", "t": "难过 (nánguò)" }
+    },
+    {
+     "id": "c4l2e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Feliz", "t": "开心 (kāixīn)" },
+      { "es": "Contento", "t": "高兴 (gāoxìng)" },
+      { "es": "Enfadado", "t": "生气 (shēngqì)" },
+      { "es": "Triste", "t": "难过 (nánguò)" },
+      { "es": "¡Ánimo!", "t": "加油 (jiāyóu)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4l3",
+   "title": "Planes y deseos",
+   "goal": "Propón planes y di qué puedes hacer",
+   "tip": [
+    "想 (xiǎng) expresa deseo, 会 (huì) habilidad y 可以 (kěyǐ) permiso.",
+    "Para proponer: 周末我想去公园 (zhōumò wǒ xiǎng qù gōngyuán), «el finde quiero ir al parque»."
+   ],
+   "phrases": [
+    { "es": "Querer (deseo)", "t": "想 (xiǎng)" },
+    { "es": "Saber hacer", "t": "会 (huì)" },
+    { "es": "Poder (permiso)", "t": "可以 (kěyǐ)" },
+    { "es": "Fin de semana", "t": "周末 (zhōumò)" },
+    { "es": "Juntos", "t": "一起 (yìqǐ)" },
+    { "es": "Vámonos", "t": "我们走吧 (wǒmen zǒu ba)" }
+   ],
+   "exercises": [
+    {
+     "id": "c4l3e1",
+     "type": "choice",
+     "prompt": "«可以» significa…",
+     "options": ["Poder (permiso)", "Saber hacer", "Querer (deseo)", "Juntos"],
+     "answer": 0,
+     "pair": { "es": "Poder (permiso)", "t": "可以 (kěyǐ)" }
+    },
+    {
+     "id": "c4l3e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «fin de semana»?",
+     "options": ["周末 (zhōumò)", "一起 (yìqǐ)", "会 (huì)", "想 (xiǎng)"],
+     "answer": 0,
+     "pair": { "es": "Fin de semana", "t": "周末 (zhōumò)" }
+    },
+    {
+     "id": "c4l3e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "周末 我们 一起 去 (zhōumò wǒmen yìqǐ qù)",
+     "options": ["El fin de semana vamos juntos", "El fin de semana trabajo", "Vamos juntos ahora", "Mañana nos vemos"],
+     "answer": 0,
+     "pair": { "es": "Fin de semana vamos juntos", "t": "周末我们一起去 (zhōumò wǒmen yìqǐ qù)" }
+    },
+    {
+     "id": "c4l3e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «yi»?",
+     "audio": "宜 (yí)",
+     "options": ["宜 (yí) · 2º", "一 (yī) · 1º", "以 (yǐ) · 3º", "亿 (yì) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El segundo tono", "t": "宜 (yí)" }
+    },
+    {
+     "id": "c4l3e5",
+     "type": "fill",
+     "prompt": "Completa «querer (deseo)» en pinyin",
+     "sentence": "wǒ __ xué zhōngwén",
+     "options": ["xiǎng", "huì", "kěyǐ", "shì"],
+     "answer": 0,
+     "pair": { "es": "Quiero aprender chino", "t": "我想学中文 (wǒ xiǎng xué zhōngwén)" },
+     "explain": "学 (xué) también aparece en 学生 (xuésheng), «estudiante»."
+    },
+    {
+     "id": "c4l3e6",
+     "type": "build",
+     "prompt": "Traduce: «Quiero aprender chino»",
+     "solution": "我 想 学 中文",
+     "distractors": ["妈", "水"],
+     "pair": { "es": "Quiero aprender chino", "t": "我想学中文 (wǒ xiǎng xué zhōngwén)" }
+    },
+    {
+     "id": "c4l3e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Saber hacer» (acepta hanzi o pinyin sin tonos)",
+     "solution": "会",
+     "accept": ["会", "hui"],
+     "pair": { "es": "Saber hacer", "t": "会 (huì)" }
+    },
+    {
+     "id": "c4l3e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Querer (deseo)", "t": "想 (xiǎng)" },
+      { "es": "Saber hacer", "t": "会 (huì)" },
+      { "es": "Poder (permiso)", "t": "可以 (kěyǐ)" },
+      { "es": "Fin de semana", "t": "周末 (zhōumò)" },
+      { "es": "Juntos", "t": "一起 (yìqǐ)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c4l4",
+   "title": "Conversación de supervivencia",
+   "goal": "Pide que repitan, sé educado y despídete bien",
+   "tip": [
+    "Pide repetición: 请再说一遍 (qǐng zài shuō yíbiàn) «repítelo otra vez, por favor».",
+    "中文 (Zhōngwén) es «el chino (lengua)»: 中国 (Zhōngguó) es el país."
+   ],
+   "phrases": [
+    { "es": "No lo entiendo", "t": "我不明白 (wǒ bù míngbai)" },
+    { "es": "Habla más lento", "t": "请说慢一点 (qǐng shuō màn yìdiǎn)" },
+    { "es": "Repítelo otra vez", "t": "请再说一遍 (qǐng zài shuō yíbiàn)" },
+    { "es": "Sin problema", "t": "没问题 (méi wèntí)" },
+    { "es": "Buena suerte", "t": "祝你好运 (zhù nǐ hǎo yùn)" },
+    { "es": "Encantado de conocerte", "t": "很高兴认识你 (hěn gāoxìng rènshi nǐ)" }
+   ],
+   "exercises": [
+    {
+     "id": "c4l4e1",
+     "type": "choice",
+     "prompt": "«没问题» significa…",
+     "options": ["Sin problema", "No lo entiendo", "Buena suerte", "Cuidado"],
+     "answer": 0,
+     "pair": { "es": "Sin problema", "t": "没问题 (méi wèntí)" }
+    },
+    {
+     "id": "c4l4e2",
+     "type": "choice",
+     "prompt": "¿Cómo pides que hable más lento?",
+     "options": ["请说慢一点 (qǐng shuō màn yìdiǎn)", "我自己来 (wǒ zìjǐ lái)", "没问题 (méi wèntí)", "祝你好运 (zhù nǐ hǎo yùn)"],
+     "answer": 0,
+     "pair": { "es": "Habla más lento", "t": "请说慢一点 (qǐng shuō màn yìdiǎn)" }
+    },
+    {
+     "id": "c4l4e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "很 高兴 认识 你 (hěn gāoxìng rènshi nǐ)",
+     "options": ["Encantado de conocerte", "Buena suerte", "No entiendo nada", "Sin problema"],
+     "answer": 0,
+     "pair": { "es": "Encantado de conocerte", "t": "很高兴认识你 (hěn gāoxìng rènshi nǐ)" },
+     "explain": "认识 (rènshi) es «conocer (personas)»."
+    },
+    {
+     "id": "c4l4e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «shi»?",
+     "audio": "史 (shǐ)",
+     "options": ["史 (shǐ) · 3º", "师 (shī) · 1º", "十 (shí) · 2º", "是 (shì) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El tercer tono", "t": "史 (shǐ)" }
+    },
+    {
+     "id": "c4l4e5",
+     "type": "fill",
+     "prompt": "Completa la petición de repetición",
+     "sentence": "qǐng zài shuō __",
+     "options": ["yíbiàn", "shì", "míngbai", "màn"],
+     "answer": 0,
+     "pair": { "es": "Repítelo otra vez", "t": "请再说一遍 (qǐng zài shuō yíbiàn)" },
+     "explain": "一遍 (yíbiàn) «una vez»: 再 «otra vez» ya cuida la repetición."
+    },
+    {
+     "id": "c4l4e6",
+     "type": "build",
+     "prompt": "Traduce: «No lo entiendo»",
+     "solution": "我 不 明白",
+     "distractors": ["很", "妈"],
+     "pair": { "es": "No lo entiendo", "t": "我不明白 (wǒ bù míngbai)" }
+    },
+    {
+     "id": "c4l4e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Sin problema» (acepta hanzi o pinyin sin tonos)",
+     "solution": "没问题",
+     "accept": ["没问题", "mei wenti"],
+     "pair": { "es": "Sin problema", "t": "没问题 (méi wèntí)" }
+    },
+    {
+     "id": "c4l4e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "No lo entiendo", "t": "我不明白 (wǒ bù míngbai)" },
+      { "es": "Habla más lento", "t": "请说慢一点 (qǐng shuō màn yìdiǎn)" },
+      { "es": "Repítelo otra vez", "t": "请再说一遍 (qǐng zài shuō yíbiàn)" },
+      { "es": "Sin problema", "t": "没问题 (méi wèntí)" },
+      { "es": "Buena suerte", "t": "祝你好运 (zhù nǐ hǎo yùn)" }
+     ]
+    }
+   ]
+  }
+ ]
+}

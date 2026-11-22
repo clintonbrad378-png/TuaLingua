@@ -1,23 +1,26 @@
 # TuaLingua
 
-Aprende inglés o ruso desde el español con lecciones cortas e interactivas. App hecha con **Rust + Tauri 2** (backend que gestiona contenido, repetición espaciada, rachas y XP) y **React + TypeScript** (interfaz juguetona con TTS, sonidos y háptica).
+Aprende idiomas desde el español con práctica enfocada en frases útiles. App hecha con **Rust + Tauri 2** (backend con contenido, progreso, SRS, rachas y XP) y **React + TypeScript** (interfaz responsive con audio y modo TTS del dispositivo).
 
 ## Funcionalidad
 
-- **Inglés (12 unidades / 48 lecciones) y ruso (8 unidades / 32 lecciones)**, de A1 a B2 (pasados, perfectos, condicionales, pasiva, estilo indirecto, phrasal verbs, collocations de examen…)
+- **Idiomas**: inglés, ruso, italiano y chino mandarín con lecciones, repaso SRS y práctica de frases.
+- **Chino con todo**: 汉字 + pinyin con tonos en cada tarjeta, una minilección de los 4 tonos por unidad, ejercicios de oído para distinguirlos y escritura que acepta hanzi o pinyin sin tonos
 - Unidad final «Rumbo al B2» en inglés con estructuras típicas de examen (transformaciones, coletillas, inversión, condicionales mixtas)
 - Repaso inteligente con repetición espaciada (SRS tipo Anki, planificado en Rust)
-- **Diccionario por categorías** (16 categorías por idioma, ~420 entradas cada uno con traducción, tipo de palabra y ejemplo) con búsqueda instantánea en inglés/español o ruso/español
-- **Flashcards personales**: selecciona palabras del diccionario en tu mazo, estúdialas con tarjetas que se voltean y practícalas con ejercicios (opción mixta/escucha/escritura) que dan XP y entran en tu plan de repaso
+- **Diccionario por categorías** (28 categorías en inglés, 27 en ruso y 12 en chino, con traducción, tipo de palabra y ejemplo) con búsqueda instantánea en inglés/español, ruso/español o chino (con pinyin)/español
+- **Flashcards con vocabulario por categorías**: estudia tu mazo personal o cualquier categoría del diccionario (por idioma) con tarjetas que se voltean y practícalas con 5 tipos de ejercicio interactivos (elección, escritura, escucha, completar frase con ejemplo y unir parejas) que dan XP y entran en tu plan de repaso
+- **Miniclase tipo Duolingo antes del test**: cada lección empieza con la meta, consejos y el vocabulario clave en tarjetas con audio para escuchar cada palabra; solo después empiezan los ejercicios
+- **Añadir en bloque**: guarda toda una categoría en tu mazo con un toque (comando nativo `add_deck_many`, sin duplicados)
 - XP, niveles (7 títulos), rachas diarias, **meta diaria configurable** y estrellas por lección
 - **Calendario de rachas** (últimos 3 meses) en las estadísticas
 - **Exportar / importar progreso** como archivo JSON (respaldo o traslado entre dispositivos); los guardados conservan 3 backups rotativos en la carpeta de datos
 - **Idioma de la interfaz** seleccionable (español / inglés)
 - Tema oscuro en toda la interfaz (y en la status bar de Android)
 - Navegación completa con teclado y estilo accesible (foco visible, diálogos con foco atrapado, `prefers-reduced-motion`)
-- **Voz neuronal incorporada**: 937 frases (Piper, mp3) empaquetadas en la app, sin depender del TTS del sistema; si falta un clip se usa el TTS del sistema como respaldo
+- **Audio flexible**: clips empaquetados cuando existen y opción en Ajustes para usar TTS nativo del teléfono/dispositivo (útil cuando falta un clip o prefieres voz del sistema).
 - Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
-- 100% offline: el contenido y las voces van en el binario y el progreso se guarda en JSON
+- Offline-first: el contenido y progreso se guardan localmente; el audio puede usar clips locales o TTS del dispositivo.
 
 ## Voces
 

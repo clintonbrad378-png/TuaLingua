@@ -1,0 +1,608 @@
+[
+  {
+    "id": "it-greet",
+    "title": "Saludos y cortesía",
+    "emoji": "👋",
+    "words": [
+      {
+        "t": "Ciao",
+        "es": "Hola / Adiós (informal)",
+        "pos": "phr",
+        "ex": {
+          "t": "Ciao, come stai?",
+          "es": "Hola, ¿cómo estás?"
+        }
+      },
+      {
+        "t": "Buongiorno",
+        "es": "Buenos días",
+        "pos": "phr",
+        "ex": {
+          "t": "Buongiorno, signora.",
+          "es": "Buenos días, señora."
+        }
+      },
+      {
+        "t": "Buonasera",
+        "es": "Buenas tardes/noches",
+        "pos": "phr"
+      },
+      {
+        "t": "Arrivederci",
+        "es": "Adiós (formal)",
+        "pos": "phr"
+      },
+      {
+        "t": "Per favore",
+        "es": "Por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "Grazie",
+        "es": "Gracias",
+        "pos": "phr",
+        "ex": {
+          "t": "Grazie mille!",
+          "es": "¡Muchas gracias!"
+        }
+      },
+      {
+        "t": "Prego",
+        "es": "De nada",
+        "pos": "phr"
+      },
+      {
+        "t": "Scusa",
+        "es": "Disculpa",
+        "pos": "phr"
+      },
+      {
+        "t": "Mi scusi",
+        "es": "Disculpe (formal)",
+        "pos": "phr"
+      },
+      {
+        "t": "Piacere",
+        "es": "Mucho gusto",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "it-people",
+    "title": "Personas y familia",
+    "emoji": "👨‍👩‍👧",
+    "words": [
+      {
+        "t": "io",
+        "es": "yo",
+        "pos": "n"
+      },
+      {
+        "t": "tu",
+        "es": "tú",
+        "pos": "n"
+      },
+      {
+        "t": "amico",
+        "es": "amigo",
+        "pos": "n",
+        "ex": {
+          "t": "Lui è il mio amico.",
+          "es": "Él es mi amigo."
+        }
+      },
+      {
+        "t": "famiglia",
+        "es": "familia",
+        "pos": "n"
+      },
+      {
+        "t": "madre",
+        "es": "madre",
+        "pos": "n"
+      },
+      {
+        "t": "padre",
+        "es": "padre",
+        "pos": "n"
+      },
+      {
+        "t": "fratello",
+        "es": "hermano",
+        "pos": "n"
+      },
+      {
+        "t": "sorella",
+        "es": "hermana",
+        "pos": "n"
+      },
+      {
+        "t": "figlio",
+        "es": "hijo",
+        "pos": "n"
+      },
+      {
+        "t": "persona",
+        "es": "persona",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "it-food",
+    "title": "Comida y bebida",
+    "emoji": "🍝",
+    "words": [
+      {
+        "t": "acqua",
+        "es": "agua",
+        "pos": "n",
+        "ex": {
+          "t": "Vorrei dell'acqua.",
+          "es": "Quisiera agua."
+        }
+      },
+      {
+        "t": "caffè",
+        "es": "café",
+        "pos": "n"
+      },
+      {
+        "t": "pane",
+        "es": "pan",
+        "pos": "n"
+      },
+      {
+        "t": "formaggio",
+        "es": "queso",
+        "pos": "n"
+      },
+      {
+        "t": "mela",
+        "es": "manzana",
+        "pos": "n"
+      },
+      {
+        "t": "latte",
+        "es": "leche",
+        "pos": "n"
+      },
+      {
+        "t": "pizza",
+        "es": "pizza",
+        "pos": "n"
+      },
+      {
+        "t": "pasta",
+        "es": "pasta",
+        "pos": "n"
+      },
+      {
+        "t": "colazione",
+        "es": "desayuno",
+        "pos": "n"
+      },
+      {
+        "t": "conto",
+        "es": "cuenta",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "it-city",
+    "title": "Ciudad y transporte",
+    "emoji": "🚆",
+    "words": [
+      {
+        "t": "stazione",
+        "es": "estación",
+        "pos": "n"
+      },
+      {
+        "t": "treno",
+        "es": "tren",
+        "pos": "n"
+      },
+      {
+        "t": "autobus",
+        "es": "autobús",
+        "pos": "n"
+      },
+      {
+        "t": "biglietto",
+        "es": "billete",
+        "pos": "n",
+        "ex": {
+          "t": "Un biglietto per Roma.",
+          "es": "Un billete para Roma."
+        }
+      },
+      {
+        "t": "strada",
+        "es": "calle",
+        "pos": "n"
+      },
+      {
+        "t": "centro",
+        "es": "centro",
+        "pos": "n"
+      },
+      {
+        "t": "aeroporto",
+        "es": "aeropuerto",
+        "pos": "n"
+      },
+      {
+        "t": "hotel",
+        "es": "hotel",
+        "pos": "n"
+      },
+      {
+        "t": "mappa",
+        "es": "mapa",
+        "pos": "n"
+      },
+      {
+        "t": "destra",
+        "es": "derecha",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "it-home",
+    "title": "Casa y objetos",
+    "emoji": "🏠",
+    "words": [
+      {
+        "t": "casa",
+        "es": "casa",
+        "pos": "n"
+      },
+      {
+        "t": "cucina",
+        "es": "cocina",
+        "pos": "n"
+      },
+      {
+        "t": "bagno",
+        "es": "baño",
+        "pos": "n"
+      },
+      {
+        "t": "tavolo",
+        "es": "mesa",
+        "pos": "n"
+      },
+      {
+        "t": "sedia",
+        "es": "silla",
+        "pos": "n"
+      },
+      {
+        "t": "chiave",
+        "es": "llave",
+        "pos": "n",
+        "ex": {
+          "t": "La chiave è sul tavolo.",
+          "es": "La llave está sobre la mesa."
+        }
+      },
+      {
+        "t": "porta",
+        "es": "puerta",
+        "pos": "n"
+      },
+      {
+        "t": "finestra",
+        "es": "ventana",
+        "pos": "n"
+      },
+      {
+        "t": "letto",
+        "es": "cama",
+        "pos": "n"
+      },
+      {
+        "t": "camera",
+        "es": "habitación",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "it-verbs",
+    "title": "Verbos útiles",
+    "emoji": "⚡",
+    "words": [
+      {
+        "t": "essere",
+        "es": "ser/estar",
+        "pos": "v"
+      },
+      {
+        "t": "avere",
+        "es": "tener",
+        "pos": "v"
+      },
+      {
+        "t": "andare",
+        "es": "ir",
+        "pos": "v"
+      },
+      {
+        "t": "fare",
+        "es": "hacer",
+        "pos": "v"
+      },
+      {
+        "t": "volere",
+        "es": "querer",
+        "pos": "v"
+      },
+      {
+        "t": "potere",
+        "es": "poder",
+        "pos": "v"
+      },
+      {
+        "t": "capire",
+        "es": "entender",
+        "pos": "v",
+        "ex": {
+          "t": "Non capisco.",
+          "es": "No entiendo."
+        }
+      },
+      {
+        "t": "parlare",
+        "es": "hablar",
+        "pos": "v"
+      },
+      {
+        "t": "mangiare",
+        "es": "comer",
+        "pos": "v"
+      },
+      {
+        "t": "lavorare",
+        "es": "trabajar",
+        "pos": "v"
+      }
+    ]
+  },
+  {
+    "id": "it-adj",
+    "title": "Adjetivos comunes",
+    "emoji": "✨",
+    "words": [
+      {
+        "t": "grande",
+        "es": "grande",
+        "pos": "adj"
+      },
+      {
+        "t": "piccolo",
+        "es": "pequeño",
+        "pos": "adj"
+      },
+      {
+        "t": "buono",
+        "es": "bueno",
+        "pos": "adj"
+      },
+      {
+        "t": "cattivo",
+        "es": "malo",
+        "pos": "adj"
+      },
+      {
+        "t": "caro",
+        "es": "caro",
+        "pos": "adj"
+      },
+      {
+        "t": "vicino",
+        "es": "cerca",
+        "pos": "adj"
+      },
+      {
+        "t": "lontano",
+        "es": "lejos",
+        "pos": "adj"
+      },
+      {
+        "t": "nuovo",
+        "es": "nuevo",
+        "pos": "adj"
+      },
+      {
+        "t": "vecchio",
+        "es": "viejo",
+        "pos": "adj"
+      },
+      {
+        "t": "bello",
+        "es": "bonito",
+        "pos": "adj"
+      }
+    ]
+  },
+  {
+    "id": "it-time",
+    "title": "Tiempo y planificación",
+    "emoji": "🕒",
+    "words": [
+      {
+        "t": "oggi",
+        "es": "hoy",
+        "pos": "adv"
+      },
+      {
+        "t": "domani",
+        "es": "mañana",
+        "pos": "adv"
+      },
+      {
+        "t": "ieri",
+        "es": "ayer",
+        "pos": "adv"
+      },
+      {
+        "t": "adesso",
+        "es": "ahora",
+        "pos": "adv"
+      },
+      {
+        "t": "ora",
+        "es": "hora",
+        "pos": "n"
+      },
+      {
+        "t": "giorno",
+        "es": "día",
+        "pos": "n"
+      },
+      {
+        "t": "settimana",
+        "es": "semana",
+        "pos": "n"
+      },
+      {
+        "t": "sempre",
+        "es": "siempre",
+        "pos": "adv"
+      },
+      {
+        "t": "mai",
+        "es": "nunca",
+        "pos": "adv"
+      },
+      {
+        "t": "presto",
+        "es": "temprano/pronto",
+        "pos": "adv"
+      }
+    ]
+  },
+  {
+    "id": "it-travel",
+    "title": "Viajes y lugares",
+    "emoji": "🧳",
+    "words": [
+      {
+        "t": "viaggio",
+        "es": "viaje",
+        "pos": "n",
+        "ex": {
+          "t": "Buon viaggio!",
+          "es": "¡Buen viaje!"
+        }
+      },
+      {
+        "t": "passaporto",
+        "es": "pasaporte",
+        "pos": "n"
+      },
+      {
+        "t": "spiaggia",
+        "es": "playa",
+        "pos": "n"
+      },
+      {
+        "t": "museo",
+        "es": "museo",
+        "pos": "n"
+      },
+      {
+        "t": "città",
+        "es": "ciudad",
+        "pos": "n"
+      },
+      {
+        "t": "valigia",
+        "es": "maleta",
+        "pos": "n"
+      },
+      {
+        "t": "uscita",
+        "es": "salida",
+        "pos": "n"
+      },
+      {
+        "t": "partenza",
+        "es": "salida/partida",
+        "pos": "n"
+      },
+      {
+        "t": "arrivo",
+        "es": "llegada",
+        "pos": "n"
+      },
+      {
+        "t": "piazza",
+        "es": "plaza",
+        "pos": "n"
+      }
+    ]
+  },
+  {
+    "id": "it-health",
+    "title": "Salud y emergencias",
+    "emoji": "🩺",
+    "words": [
+      {
+        "t": "aiuto",
+        "es": "ayuda",
+        "pos": "n"
+      },
+      {
+        "t": "ospedale",
+        "es": "hospital",
+        "pos": "n"
+      },
+      {
+        "t": "medico",
+        "es": "médico",
+        "pos": "n"
+      },
+      {
+        "t": "farmacia",
+        "es": "farmacia",
+        "pos": "n"
+      },
+      {
+        "t": "dolore",
+        "es": "dolor",
+        "pos": "n"
+      },
+      {
+        "t": "malato",
+        "es": "enfermo",
+        "pos": "adj"
+      },
+      {
+        "t": "emergenza",
+        "es": "emergencia",
+        "pos": "n"
+      },
+      {
+        "t": "polizia",
+        "es": "policía",
+        "pos": "n"
+      },
+      {
+        "t": "bene",
+        "es": "bien",
+        "pos": "adv"
+      },
+      {
+        "t": "ricetta",
+        "es": "receta médica",
+        "pos": "n"
+      }
+    ]
+  }
+]

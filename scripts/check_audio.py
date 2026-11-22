@@ -13,16 +13,28 @@ Sale con código 1 si algo no cuadra, para poder usarlo en CI.
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "src-tauri" / "src" / "content"
-CONTENT_GLOBS = {"en": "u*.json", "ru": "r*.json"}
-
+CONTENT_GLOBS = {"en": "u*.json", "ru": "r*.json", "it": "i*.json", "zh": "c*.json"}
+DICTIONARIES = {
+    "en": "dictionary.json",
+    "ru": "dictionary_ru.json",
+    "it": "dictionary_it.json",
+    "zh": "dictionary_zh.json",
+}
 MASK = 0xFFFFFFFF
 PRIME = 0x01000193
 OFFSET = 0x811C9DC5
+
+
+def speech_text(text: str) -> str:
+    """La voz no debe leer el pinyin entre paréntesis de las entradas chinas
+    (misma regla que src/lib/audio.ts y generate_audio.py)."""
+    return re.sub(r"[(（][^)）]*[)）]", " ", text)
 
 
 def fnv1a(text: str) -> int:
@@ -36,12 +48,12 @@ def fnv1a(text: str) -> int:
 
 
 def clip_key(text: str) -> str:
-    norm = " ".join(text.split())
+    norm = " ".join(speech_text(text).split())
     return f"{fnv1a(norm):08x}{fnv1a(norm + '#tualingua'):08x}"
 
 
 def collect_strings(args) -> set[str]:
-    """Textos que la app intenta reproducir (phrases, audio, pairs, type)."""
+    """Textos que la app intenta reproducir (lecciones + diccionario)."""
     strings: set[str] = set()
     glob = CONTENT_GLOBS[args.lang]
     for path in sorted(CONTENT.glob(glob)):
@@ -54,17 +66,28 @@ def collect_strings(args) -> set[str]:
                     strings.add(ex["audio"])
                 if ex.get("pair"):
                     strings.add(ex["pair"]["t"])
-                if ex.get("type") == "match":
+                if ex["type"] == "match":
                     for pair in ex.get("pairs", []):
                         strings.add(pair["t"])
-                if ex.get("type") == "type" and ex.get("solution"):
+                if ex["type"] == "type" and ex.get("solution"):
                     strings.add(ex["solution"])
+    dict_path = CONTENT / DICTIONARIES[args.lang]
+    if dict_path.exists():
+        dictionary = json.loads(dict_path.read_text(encoding="utf-8"))
+        for category in dictionary:
+            for word in category["words"]:
+                strings.add(word["t"])
     return {s for s in strings if s.strip()}
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--lang", choices=("en", "ru"), default="en")
+    parser.add_argument("--lang", choices=("en", "ru", "it", "zh"), default="en")
+    parser.add_argument(
+        "--allow-missing",
+        action="store_true",
+        help="no falla si faltan clips (útil cuando el idioma usa TTS del sistema como respaldo)",
+    )
     args = parser.parse_args()
     out_dir = ROOT / "public" / "audio" / args.lang
     if not out_dir.is_dir():
@@ -99,8 +122,9 @@ def main() -> int:
         print("    regenera con: python3 scripts/generate_audio.py --prune ...")
 
     if problems:
-        print(f"\nFALLO: {problems} problema(s) de audio")
-        return 1
+        msg = f"\n{'AVISO' if args.allow_missing else 'FALLO'}: {problems} problema(s) de audio"
+        print(msg)
+        return 0 if args.allow_missing else 1
 
     print(
         f"✓ audio correcto: {len(strings)} textos, {len(mp3)} mp3, "

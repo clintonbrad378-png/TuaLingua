@@ -41,6 +41,8 @@ jobs:
         run: |
           python3 scripts/check_audio.py --lang en
           python3 scripts/check_audio.py --lang ru
+          python3 scripts/check_audio.py --lang it --allow-missing
+          python3 scripts/check_audio.py --lang zh
 
       - name: ESLint
         run: npm run lint

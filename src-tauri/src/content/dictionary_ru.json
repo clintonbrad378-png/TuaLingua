@@ -4,18 +4,82 @@
     "title": "Personas y emociones",
     "emoji": "👥",
     "words": [
-      { "t": "человек", "es": "el ser humano", "pos": "n", "ex": { "t": "Каждый человек уникален", "es": "Cada persona es única" } },
-      { "t": "женщина", "es": "la mujer", "pos": "n" },
-      { "t": "мужчина", "es": "el hombre", "pos": "n" },
-      { "t": "ребёнок", "es": "el niño", "pos": "n" },
-      { "t": "друг", "es": "el amigo", "pos": "n" },
-      { "t": "сосед", "es": "el vecino", "pos": "n" },
-      { "t": "чувство", "es": "el sentimiento", "pos": "n", "ex": { "t": "Это чувство знакомо многим", "es": "Este sentimiento le es familiar a muchos" } },
-      { "t": "настроение", "es": "el humor", "pos": "n", "ex": { "t": "Настроение поднялось после прогулки", "es": "El ánimo subió tras el paseo" } },
-      { "t": "довольный", "es": "satisfecho", "pos": "adj" },
-      { "t": "расстроенный", "es": "disgustado", "pos": "adj" },
-      { "t": "уверенный", "es": "seguro (de sí)", "pos": "adj" },
-      { "t": "переживать", "es": "preocuparse", "pos": "v", "ex": { "t": "Не переживай, всё будет хорошо", "es": "No te preocupes, todo irá bien" } }
+      {
+        "t": "человек",
+        "es": "el ser humano",
+        "pos": "n",
+        "ex": {
+          "t": "Каждый человек уникален",
+          "es": "Cada persona es única"
+        }
+      },
+      {
+        "t": "женщина",
+        "es": "la mujer",
+        "pos": "n"
+      },
+      {
+        "t": "мужчина",
+        "es": "el hombre",
+        "pos": "n"
+      },
+      {
+        "t": "ребёнок",
+        "es": "el niño",
+        "pos": "n"
+      },
+      {
+        "t": "друг",
+        "es": "el amigo",
+        "pos": "n"
+      },
+      {
+        "t": "сосед",
+        "es": "el vecino",
+        "pos": "n"
+      },
+      {
+        "t": "чувство",
+        "es": "el sentimiento",
+        "pos": "n",
+        "ex": {
+          "t": "Это чувство знакомо многим",
+          "es": "Este sentimiento le es familiar a muchos"
+        }
+      },
+      {
+        "t": "настроение",
+        "es": "el humor",
+        "pos": "n",
+        "ex": {
+          "t": "Настроение поднялось после прогулки",
+          "es": "El ánimo subió tras el paseo"
+        }
+      },
+      {
+        "t": "довольный",
+        "es": "satisfecho",
+        "pos": "adj"
+      },
+      {
+        "t": "расстроенный",
+        "es": "disgustado",
+        "pos": "adj"
+      },
+      {
+        "t": "уверенный",
+        "es": "seguro (de sí)",
+        "pos": "adj"
+      },
+      {
+        "t": "переживать",
+        "es": "preocuparse",
+        "pos": "v",
+        "ex": {
+          "t": "Не переживай, всё будет хорошо",
+          "es": "No te preocupes, todo irá bien"
+        }
+      }
     ]
   },
   {
@@ -23,18 +87,78 @@
     "title": "Ciudad y servicios",
     "emoji": "🏙️",
     "words": [
-      { "t": "район", "es": "el distrito", "pos": "n" },
-      { "t": "улица", "es": "la calle", "pos": "n" },
-      { "t": "аптека", "es": "la farmacia", "pos": "n" },
-      { "t": "поликлиника", "es": "el ambulatorio", "pos": "n" },
-      { "t": "библиотека", "es": "la biblioteca", "pos": "n" },
-      { "t": "отделение", "es": "la sucursal", "pos": "n" },
-      { "t": "услуга", "es": "el servicio", "pos": "n" },
-      { "t": "ремонт", "es": "la reparación", "pos": "n", "ex": { "t": "Ремонт закончат к пятнице", "es": "Terminarán la reparación para el viernes" } },
-      { "t": "тротуар", "es": "la acera", "pos": "n" },
-      { "t": "перекрёсток", "es": "el cruce", "pos": "n", "ex": { "t": "На перекрёстке поставили новый светофор", "es": "En el cruce pusieron un semáforo nuevo" } },
-      { "t": "светофор", "es": "el semáforo", "pos": "n" },
-      { "t": "сдавать", "es": "alquilar (a otros)", "pos": "v", "ex": { "t": "Он сдаёт квартиру студентам", "es": "Él alquila el piso a estudiantes" } }
+      {
+        "t": "район",
+        "es": "el distrito",
+        "pos": "n"
+      },
+      {
+        "t": "улица",
+        "es": "la calle",
+        "pos": "n"
+      },
+      {
+        "t": "аптека",
+        "es": "la farmacia",
+        "pos": "n"
+      },
+      {
+        "t": "поликлиника",
+        "es": "el ambulatorio",
+        "pos": "n"
+      },
+      {
+        "t": "библиотека",
+        "es": "la biblioteca",
+        "pos": "n"
+      },
+      {
+        "t": "отделение",
+        "es": "la sucursal",
+        "pos": "n"
+      },
+      {
+        "t": "услуга",
+        "es": "el servicio",
+        "pos": "n"
+      },
+      {
+        "t": "ремонт",
+        "es": "la reparación",
+        "pos": "n",
+        "ex": {
+          "t": "Ремонт закончат к пятнице",
+          "es": "Terminarán la reparación para el viernes"
+        }
+      },
+      {
+        "t": "тротуар",
+        "es": "la acera",
+        "pos": "n"
+      },
+      {
+        "t": "перекрёсток",
+        "es": "el cruce",
+        "pos": "n",
+        "ex": {
+          "t": "На перекрёстке поставили новый светофор",
+          "es": "En el cruce pusieron un semáforo nuevo"
+        }
+      },
+      {
+        "t": "светофор",
+        "es": "el semáforo",
+        "pos": "n"
+      },
+      {
+        "t": "сдавать",
+        "es": "alquilar (a otros)",
+        "pos": "v",
+        "ex": {
+          "t": "Он сдаёт квартиру студентам",
+          "es": "Él alquila el piso a estudiantes"
+        }
+      }
     ]
   },
   {
@@ -42,18 +166,78 @@
     "title": "Comida y bebida",
     "emoji": "🍜",
     "words": [
-      { "t": "блюдо", "es": "el plato", "pos": "n", "ex": { "t": "Это блюдо мне очень нравится", "es": "Este plato me gusta mucho" } },
-      { "t": "закуска", "es": "el aperitivo", "pos": "n" },
-      { "t": "суп", "es": "la sopa", "pos": "n" },
-      { "t": "каша", "es": "las gachas", "pos": "n" },
-      { "t": "полдник", "es": "la merienda", "pos": "n" },
-      { "t": "напиток", "es": "la bebida", "pos": "n" },
-      { "t": "вкусный", "es": "sabroso", "pos": "adj" },
-      { "t": "сытный", "es": "sustancioso", "pos": "adj" },
-      { "t": "пробовать", "es": "probar", "pos": "v", "ex": { "t": "Пробовали ли вы настоящие пельмени?", "es": "¿Han probado los pelmeni auténticos?" } },
-      { "t": "пельмени", "es": "los pelmeni", "pos": "n", "ex": { "t": "Пельмени едят со сметаной", "es": "Los pelmeni se comen con crema agria" } },
-      { "t": "сметана", "es": "la crema agria", "pos": "n" },
-      { "t": "гречка", "es": "el trigo sarraceno", "pos": "n" }
+      {
+        "t": "блюдо",
+        "es": "el plato",
+        "pos": "n",
+        "ex": {
+          "t": "Это блюдо мне очень нравится",
+          "es": "Este plato me gusta mucho"
+        }
+      },
+      {
+        "t": "закуска",
+        "es": "el aperitivo",
+        "pos": "n"
+      },
+      {
+        "t": "суп",
+        "es": "la sopa",
+        "pos": "n"
+      },
+      {
+        "t": "каша",
+        "es": "las gachas",
+        "pos": "n"
+      },
+      {
+        "t": "полдник",
+        "es": "la merienda",
+        "pos": "n"
+      },
+      {
+        "t": "напиток",
+        "es": "la bebida",
+        "pos": "n"
+      },
+      {
+        "t": "вкусный",
+        "es": "sabroso",
+        "pos": "adj"
+      },
+      {
+        "t": "сытный",
+        "es": "sustancioso",
+        "pos": "adj"
+      },
+      {
+        "t": "пробовать",
+        "es": "probar",
+        "pos": "v",
+        "ex": {
+          "t": "Пробовали ли вы настоящие пельмени?",
+          "es": "¿Han probado los pelmeni auténticos?"
+        }
+      },
+      {
+        "t": "пельмени",
+        "es": "los pelmeni",
+        "pos": "n",
+        "ex": {
+          "t": "Пельмени едят со сметаной",
+          "es": "Los pelmeni se comen con crema agria"
+        }
+      },
+      {
+        "t": "сметана",
+        "es": "la crema agria",
+        "pos": "n"
+      },
+      {
+        "t": "гречка",
+        "es": "el trigo sarraceno",
+        "pos": "n"
+      }
     ]
   },
   {
@@ -61,18 +245,82 @@
     "title": "Cuerpo y salud",
     "emoji": "🩺",
     "words": [
-      { "t": "здоровье", "es": "la salud", "pos": "n", "ex": { "t": "Здоровье важнее всех денег", "es": "La salud importa más que el dinero" } },
-      { "t": "симптом", "es": "el síntoma", "pos": "n" },
-      { "t": "температура", "es": "la fiebre", "pos": "n" },
-      { "t": "врач", "es": "el médico", "pos": "n" },
-      { "t": "таблетка", "es": "la pastilla", "pos": "n" },
-      { "t": "лечение", "es": "el tratamiento", "pos": "n", "ex": { "t": "Лечение заняло целый месяц", "es": "El tratamiento llevó todo un mes" } },
-      { "t": "аллергия", "es": "la alergia", "pos": "n" },
-      { "t": "больной", "es": "enfermo", "pos": "adj" },
-      { "t": "осмотр", "es": "el chequeo", "pos": "n" },
-      { "t": "прививка", "es": "la vacuna", "pos": "n" },
-      { "t": "выздороветь", "es": "curarse", "pos": "v", "ex": { "t": "Он выздоровел за две недели", "es": "Se curó en dos semanas" } },
-      { "t": "болеть", "es": "doler / estar enfermo", "pos": "v", "ex": { "t": "У меня болит спина", "es": "Me duele la espalda" } }
+      {
+        "t": "здоровье",
+        "es": "la salud",
+        "pos": "n",
+        "ex": {
+          "t": "Здоровье важнее всех денег",
+          "es": "La salud importa más que el dinero"
+        }
+      },
+      {
+        "t": "симптом",
+        "es": "el síntoma",
+        "pos": "n"
+      },
+      {
+        "t": "температура",
+        "es": "la fiebre",
+        "pos": "n"
+      },
+      {
+        "t": "врач",
+        "es": "el médico",
+        "pos": "n"
+      },
+      {
+        "t": "таблетка",
+        "es": "la pastilla",
+        "pos": "n"
+      },
+      {
+        "t": "лечение",
+        "es": "el tratamiento",
+        "pos": "n",
+        "ex": {
+          "t": "Лечение заняло целый месяц",
+          "es": "El tratamiento llevó todo un mes"
+        }
+      },
+      {
+        "t": "аллергия",
+        "es": "la alergia",
+        "pos": "n"
+      },
+      {
+        "t": "больной",
+        "es": "enfermo",
+        "pos": "adj"
+      },
+      {
+        "t": "осмотр",
+        "es": "el chequeo",
+        "pos": "n"
+      },
+      {
+        "t": "прививка",
+        "es": "la vacuna",
+        "pos": "n"
+      },
+      {
+        "t": "выздороветь",
+        "es": "curarse",
+        "pos": "v",
+        "ex": {
+          "t": "Он выздоровел за две недели",
+          "es": "Se curó en dos semanas"
+        }
+      },
+      {
+        "t": "болеть",
+        "es": "doler / estar enfermo",
+        "pos": "v",
+        "ex": {
+          "t": "У меня болит спина",
+          "es": "Me duele la espalda"
+        }
+      }
     ]
   },
   {
@@ -80,18 +328,74 @@
     "title": "Casa y vida diaria",
     "emoji": "🏠",
     "words": [
-      { "t": "квартира", "es": "el piso", "pos": "n" },
-      { "t": "мебель", "es": "los muebles", "pos": "n" },
-      { "t": "посуда", "es": "la vajilla", "pos": "n" },
-      { "t": "аренда", "es": "el alquiler", "pos": "n", "ex": { "t": "Аренда дорожает каждый год", "es": "El alquiler sube cada año" } },
-      { "t": "убирать", "es": "limpiar (la casa)", "pos": "v", "ex": { "t": "Я убираю квартиру по субботам", "es": "Limpio el piso los sábados" } },
-      { "t": "порядок", "es": "el orden", "pos": "n" },
-      { "t": "стирка", "es": "la colada", "pos": "n" },
-      { "t": "пылесос", "es": "la aspiradora", "pos": "n" },
-      { "t": "готовить", "es": "cocinar", "pos": "v" },
-      { "t": "будильник", "es": "el despertador", "pos": "n" },
-      { "t": "бытовая техника", "es": "los electrodomésticos", "pos": "phr" },
-      { "t": "подмести", "es": "barrer", "pos": "v" }
+      {
+        "t": "квартира",
+        "es": "el piso",
+        "pos": "n"
+      },
+      {
+        "t": "мебель",
+        "es": "los muebles",
+        "pos": "n"
+      },
+      {
+        "t": "посуда",
+        "es": "la vajilla",
+        "pos": "n"
+      },
+      {
+        "t": "аренда",
+        "es": "el alquiler",
+        "pos": "n",
+        "ex": {
+          "t": "Аренда дорожает каждый год",
+          "es": "El alquiler sube cada año"
+        }
+      },
+      {
+        "t": "убирать",
+        "es": "limpiar (la casa)",
+        "pos": "v",
+        "ex": {
+          "t": "Я убираю квартиру по субботам",
+          "es": "Limpio el piso los sábados"
+        }
+      },
+      {
+        "t": "порядок",
+        "es": "el orden",
+        "pos": "n"
+      },
+      {
+        "t": "стирка",
+        "es": "la colada",
+        "pos": "n"
+      },
+      {
+        "t": "пылесос",
+        "es": "la aspiradora",
+        "pos": "n"
+      },
+      {
+        "t": "готовить",
+        "es": "cocinar",
+        "pos": "v"
+      },
+      {
+        "t": "будильник",
+        "es": "el despertador",
+        "pos": "n"
+      },
+      {
+        "t": "бытовая техника",
+        "es": "los electrodomésticos",
+        "pos": "phr"
+      },
+      {
+        "t": "подмести",
+        "es": "barrer",
+        "pos": "v"
+      }
     ]
   },
   {
@@ -99,18 +403,82 @@
     "title": "Trabajo y negocio",
     "emoji": "💼",
     "words": [
-      { "t": "работодатель", "es": "el empleador", "pos": "n" },
-      { "t": "сотрудник", "es": "el empleado", "pos": "n" },
-      { "t": "зарплата", "es": "el sueldo", "pos": "n" },
-      { "t": "стаж", "es": "la experiencia (laboral)", "pos": "n", "ex": { "t": "У него большой стаж в IT", "es": "Tiene mucha experiencia en IT" } },
-      { "t": "собеседование", "es": "la entrevista de trabajo", "pos": "n", "ex": { "t": "Собеседование пройдёт в офисе", "es": "La entrevista será en la oficina" } },
-      { "t": "командировка", "es": "el viaje de trabajo", "pos": "n" },
-      { "t": "повышение", "es": "el ascenso", "pos": "n", "ex": { "t": "Ему обещают повышение в феврале", "es": "Le prometen un ascenso en febrero" } },
-      { "t": "премия", "es": "la prima", "pos": "n" },
-      { "t": "занятый", "es": "ocupado", "pos": "adj" },
-      { "t": "уволить", "es": "despedir (a alguien)", "pos": "v" },
-      { "t": "уволиться", "es": "renunciar", "pos": "v" },
-      { "t": "оформить", "es": "tramitar", "pos": "v", "ex": { "t": "Оформление заняло два дня", "es": "El trámite llevó dos días" } }
+      {
+        "t": "работодатель",
+        "es": "el empleador",
+        "pos": "n"
+      },
+      {
+        "t": "сотрудник",
+        "es": "el empleado",
+        "pos": "n"
+      },
+      {
+        "t": "зарплата",
+        "es": "el sueldo",
+        "pos": "n"
+      },
+      {
+        "t": "стаж",
+        "es": "la experiencia (laboral)",
+        "pos": "n",
+        "ex": {
+          "t": "У него большой стаж в IT",
+          "es": "Tiene mucha experiencia en IT"
+        }
+      },
+      {
+        "t": "собеседование",
+        "es": "la entrevista de trabajo",
+        "pos": "n",
+        "ex": {
+          "t": "Собеседование пройдёт в офисе",
+          "es": "La entrevista será en la oficina"
+        }
+      },
+      {
+        "t": "командировка",
+        "es": "el viaje de trabajo",
+        "pos": "n"
+      },
+      {
+        "t": "повышение",
+        "es": "el ascenso",
+        "pos": "n",
+        "ex": {
+          "t": "Ему обещают повышение в феврале",
+          "es": "Le prometen un ascenso en febrero"
+        }
+      },
+      {
+        "t": "премия",
+        "es": "la prima",
+        "pos": "n"
+      },
+      {
+        "t": "занятый",
+        "es": "ocupado",
+        "pos": "adj"
+      },
+      {
+        "t": "уволить",
+        "es": "despedir (a alguien)",
+        "pos": "v"
+      },
+      {
+        "t": "уволиться",
+        "es": "renunciar",
+        "pos": "v"
+      },
+      {
+        "t": "оформить",
+        "es": "tramitar",
+        "pos": "v",
+        "ex": {
+          "t": "Оформление заняло два дня",
+          "es": "El trámite llevó dos días"
+        }
+      }
     ]
   },
   {
@@ -118,18 +486,78 @@
     "title": "Educación y examen",
     "emoji": "🎓",
     "words": [
-      { "t": "экзамен", "es": "el examen", "pos": "n" },
-      { "t": "сертификат", "es": "el certificado", "pos": "n" },
-      { "t": "уровень", "es": "el nivel", "pos": "n", "ex": { "t": "Мой уровень уже выше среднего", "es": "Mi nivel ya es más que intermedio" } },
-      { "t": "задание", "es": "la consigna", "pos": "n" },
-      { "t": "ошибка", "es": "el error", "pos": "n" },
-      { "t": "успешный", "es": "exitoso", "pos": "adj" },
-      { "t": "словарь", "es": "el diccionario", "pos": "n" },
-      { "t": "аудирование", "es": "la comprensión oral", "pos": "n" },
-      { "t": "правописание", "es": "la ortografía", "pos": "n" },
-      { "t": "сложный", "es": "complicado", "pos": "adj" },
-      { "t": "подготовиться", "es": "prepararse", "pos": "v", "ex": { "t": "Я готовлюсь к тесту каждый вечер", "es": "Me preparo para el examen cada noche" } },
-      { "t": "записаться", "es": "inscribirse", "pos": "v", "ex": { "t": "Запишись на курс заранее", "es": "Inscríbete al curso por adelantado" } }
+      {
+        "t": "экзамен",
+        "es": "el examen",
+        "pos": "n"
+      },
+      {
+        "t": "сертификат",
+        "es": "el certificado",
+        "pos": "n"
+      },
+      {
+        "t": "уровень",
+        "es": "el nivel",
+        "pos": "n",
+        "ex": {
+          "t": "Мой уровень уже выше среднего",
+          "es": "Mi nivel ya es más que intermedio"
+        }
+      },
+      {
+        "t": "задание",
+        "es": "la consigna",
+        "pos": "n"
+      },
+      {
+        "t": "ошибка",
+        "es": "el error",
+        "pos": "n"
+      },
+      {
+        "t": "успешный",
+        "es": "exitoso",
+        "pos": "adj"
+      },
+      {
+        "t": "словарь",
+        "es": "el diccionario",
+        "pos": "n"
+      },
+      {
+        "t": "аудирование",
+        "es": "la comprensión oral",
+        "pos": "n"
+      },
+      {
+        "t": "правописание",
+        "es": "la ortografía",
+        "pos": "n"
+      },
+      {
+        "t": "сложный",
+        "es": "complicado",
+        "pos": "adj"
+      },
+      {
+        "t": "подготовиться",
+        "es": "prepararse",
+        "pos": "v",
+        "ex": {
+          "t": "Я готовлюсь к тесту каждый вечер",
+          "es": "Me preparo para el examen cada noche"
+        }
+      },
+      {
+        "t": "записаться",
+        "es": "inscribirse",
+        "pos": "v",
+        "ex": {
+          "t": "Запишись на курс заранее",
+          "es": "Inscríbete al curso por adelantado"
+        }
+      }
     ]
   },
   {
@@ -137,18 +565,78 @@
     "title": "Transporte y viajes",
     "emoji": "✈️",
     "words": [
-      { "t": "вокзал", "es": "la estación de tren", "pos": "n" },
-      { "t": "билет", "es": "el billete", "pos": "n" },
-      { "t": "перрон", "es": "el andén", "pos": "n" },
-      { "t": "полёт", "es": "el vuelo", "pos": "n" },
-      { "t": "багаж", "es": "el equipaje", "pos": "n" },
-      { "t": "стойка регистрации", "es": "el mostrador de facturación", "pos": "phr" },
-      { "t": "прямой", "es": "directo", "pos": "adj", "ex": { "t": "Мы летим прямым рейсом", "es": "Volamos en vuelo directo" } },
-      { "t": "пункт назначения", "es": "el destino", "pos": "phr" },
-      { "t": "таможня", "es": "la aduana", "pos": "n" },
-      { "t": "посадка", "es": "el embarque", "pos": "n" },
-      { "t": "забронировать", "es": "reservar", "pos": "v", "ex": { "t": "Я забронировал отель заранее", "es": "Reservé el hotel por adelantado" } },
-      { "t": "опоздать", "es": "llegar tarde", "pos": "v", "ex": { "t": "Самолёт не ждёт опаздывающих", "es": "El avión no espera a los retrasados" } }
+      {
+        "t": "вокзал",
+        "es": "la estación de tren",
+        "pos": "n"
+      },
+      {
+        "t": "билет",
+        "es": "el billete",
+        "pos": "n"
+      },
+      {
+        "t": "перрон",
+        "es": "el andén",
+        "pos": "n"
+      },
+      {
+        "t": "полёт",
+        "es": "el vuelo",
+        "pos": "n"
+      },
+      {
+        "t": "багаж",
+        "es": "el equipaje",
+        "pos": "n"
+      },
+      {
+        "t": "стойка регистрации",
+        "es": "el mostrador de facturación",
+        "pos": "phr"
+      },
+      {
+        "t": "прямой",
+        "es": "directo",
+        "pos": "adj",
+        "ex": {
+          "t": "Мы летим прямым рейсом",
+          "es": "Volamos en vuelo directo"
+        }
+      },
+      {
+        "t": "пункт назначения",
+        "es": "el destino",
+        "pos": "phr"
+      },
+      {
+        "t": "таможня",
+        "es": "la aduana",
+        "pos": "n"
+      },
+      {
+        "t": "посадка",
+        "es": "el embarque",
+        "pos": "n"
+      },
+      {
+        "t": "забронировать",
+        "es": "reservar",
+        "pos": "v",
+        "ex": {
+          "t": "Я забронировал отель заранее",
+          "es": "Reservé el hotel por adelantado"
+        }
+      },
+      {
+        "t": "опоздать",
+        "es": "llegar tarde",
+        "pos": "v",
+        "ex": {
+          "t": "Самолёт не ждёт опаздывающих",
+          "es": "El avión no espera a los retrasados"
+        }
+      }
     ]
   },
   {
@@ -156,18 +644,78 @@
     "title": "Naturaleza y clima",
     "emoji": "🌨️",
     "words": [
-      { "t": "погода", "es": "el tiempo", "pos": "n" },
-      { "t": "облачный", "es": "nublado", "pos": "adj" },
-      { "t": "мороз", "es": "la helada", "pos": "n" },
-      { "t": "гроза", "es": "la tormenta", "pos": "n" },
-      { "t": "снегопад", "es": "la nevada", "pos": "n" },
-      { "t": "потепление", "es": "el calentamiento", "pos": "n", "ex": { "t": "Потепление планеты тревожит учёных", "es": "El calentamiento del planeta preocupa a los científicos" } },
-      { "t": "лес", "es": "el bosque", "pos": "n" },
-      { "t": "река", "es": "el río", "pos": "n" },
-      { "t": "влажный", "es": "húmedo", "pos": "adj" },
-      { "t": "природа", "es": "la naturaleza", "pos": "n" },
-      { "t": "таять", "es": "derretirse", "pos": "v", "ex": { "t": "Снег тает уже в марте", "es": "La nieve ya se derrite en marzo" } },
-      { "t": "вырубать", "es": "talar", "pos": "v", "ex": { "t": "Нельзя вырубать старые леса", "es": "No se pueden talar los bosques viejos" } }
+      {
+        "t": "погода",
+        "es": "el tiempo",
+        "pos": "n"
+      },
+      {
+        "t": "облачный",
+        "es": "nublado",
+        "pos": "adj"
+      },
+      {
+        "t": "мороз",
+        "es": "la helada",
+        "pos": "n"
+      },
+      {
+        "t": "гроза",
+        "es": "la tormenta",
+        "pos": "n"
+      },
+      {
+        "t": "снегопад",
+        "es": "la nevada",
+        "pos": "n"
+      },
+      {
+        "t": "потепление",
+        "es": "el calentamiento",
+        "pos": "n",
+        "ex": {
+          "t": "Потепление планеты тревожит учёных",
+          "es": "El calentamiento del planeta preocupa a los científicos"
+        }
+      },
+      {
+        "t": "лес",
+        "es": "el bosque",
+        "pos": "n"
+      },
+      {
+        "t": "река",
+        "es": "el río",
+        "pos": "n"
+      },
+      {
+        "t": "влажный",
+        "es": "húmedo",
+        "pos": "adj"
+      },
+      {
+        "t": "природа",
+        "es": "la naturaleza",
+        "pos": "n"
+      },
+      {
+        "t": "таять",
+        "es": "derretirse",
+        "pos": "v",
+        "ex": {
+          "t": "Снег тает уже в марте",
+          "es": "La nieve ya se derrite en marzo"
+        }
+      },
+      {
+        "t": "вырубать",
+        "es": "talar",
+        "pos": "v",
+        "ex": {
+          "t": "Нельзя вырубать старые леса",
+          "es": "No se pueden talar los bosques viejos"
+        }
+      }
     ]
   },
   {
@@ -175,18 +723,74 @@
     "title": "Tecnología y redes",
     "emoji": "📱",
     "words": [
-      { "t": "устройство", "es": "el dispositivo", "pos": "n" },
-      { "t": "приложение", "es": "la aplicación", "pos": "n" },
-      { "t": "алгоритм", "es": "el algoritmo", "pos": "n" },
-      { "t": "пароль", "es": "la contraseña", "pos": "n" },
-      { "t": "аккаунт", "es": "la cuenta", "pos": "n" },
-      { "t": "сообщение", "es": "el mensaje", "pos": "n" },
-      { "t": "уведомление", "es": "la notificación", "pos": "n" },
-      { "t": "надёжный", "es": "fiable", "pos": "adj" },
-      { "t": "сеть", "es": "la red", "pos": "n" },
-      { "t": "облачное хранилище", "es": "el almacenamiento en la nube", "pos": "phr" },
-      { "t": "обновить", "es": "actualizar", "pos": "v", "ex": { "t": "Приложение нужно обновить", "es": "Hay que actualizar la aplicación" } },
-      { "t": "скачать", "es": "descargar", "pos": "v", "ex": { "t": "Я скачал карту города", "es": "Descargué el mapa de la ciudad" } }
+      {
+        "t": "устройство",
+        "es": "el dispositivo",
+        "pos": "n"
+      },
+      {
+        "t": "приложение",
+        "es": "la aplicación",
+        "pos": "n"
+      },
+      {
+        "t": "алгоритм",
+        "es": "el algoritmo",
+        "pos": "n"
+      },
+      {
+        "t": "пароль",
+        "es": "la contraseña",
+        "pos": "n"
+      },
+      {
+        "t": "аккаунт",
+        "es": "la cuenta",
+        "pos": "n"
+      },
+      {
+        "t": "сообщение",
+        "es": "el mensaje",
+        "pos": "n"
+      },
+      {
+        "t": "уведомление",
+        "es": "la notificación",
+        "pos": "n"
+      },
+      {
+        "t": "надёжный",
+        "es": "fiable",
+        "pos": "adj"
+      },
+      {
+        "t": "сеть",
+        "es": "la red",
+        "pos": "n"
+      },
+      {
+        "t": "облачное хранилище",
+        "es": "el almacenamiento en la nube",
+        "pos": "phr"
+      },
+      {
+        "t": "обновить",
+        "es": "actualizar",
+        "pos": "v",
+        "ex": {
+          "t": "Приложение нужно обновить",
+          "es": "Hay que actualizar la aplicación"
+        }
+      },
+      {
+        "t": "скачать",
+        "es": "descargar",
+        "pos": "v",
+        "ex": {
+          "t": "Я скачал карту города",
+          "es": "Descargué el mapa de la ciudad"
+        }
+      }
     ]
   },
   {
@@ -194,18 +798,78 @@
     "title": "Dinero e impuestos",
     "emoji": "💰",
     "words": [
-      { "t": "налог", "es": "el impuesto", "pos": "n" },
-      { "t": "счёт", "es": "la factura", "pos": "n" },
-      { "t": "сдача", "es": "el cambio (devuelto)", "pos": "n" },
-      { "t": "вклад", "es": "el depósito", "pos": "n" },
-      { "t": "абонемент", "es": "el abono", "pos": "n", "ex": { "t": "Абонемент в спортзал стоит дорого", "es": "El abono del gimnasio es caro" } },
-      { "t": "скидка", "es": "el descuento", "pos": "n" },
-      { "t": "проценты", "es": "los intereses", "pos": "n" },
-      { "t": "кредит", "es": "el préstamo", "pos": "n" },
-      { "t": "дорогой", "es": "caro", "pos": "adj" },
-      { "t": "дешёвый", "es": "barato", "pos": "adj" },
-      { "t": "экономить", "es": "ahorrar", "pos": "v", "ex": { "t": "Я экономлю на кофе", "es": "Ahorro en el café" } },
-      { "t": "заплатить", "es": "pagar", "pos": "v", "ex": { "t": "Счёт уже заплачен", "es": "La factura ya está pagada" } }
+      {
+        "t": "налог",
+        "es": "el impuesto",
+        "pos": "n"
+      },
+      {
+        "t": "счёт",
+        "es": "la factura",
+        "pos": "n"
+      },
+      {
+        "t": "сдача",
+        "es": "el cambio (devuelto)",
+        "pos": "n"
+      },
+      {
+        "t": "вклад",
+        "es": "el depósito",
+        "pos": "n"
+      },
+      {
+        "t": "абонемент",
+        "es": "el abono",
+        "pos": "n",
+        "ex": {
+          "t": "Абонемент в спортзал стоит дорого",
+          "es": "El abono del gimnasio es caro"
+        }
+      },
+      {
+        "t": "скидка",
+        "es": "el descuento",
+        "pos": "n"
+      },
+      {
+        "t": "проценты",
+        "es": "los intereses",
+        "pos": "n"
+      },
+      {
+        "t": "кредит",
+        "es": "el préstamo",
+        "pos": "n"
+      },
+      {
+        "t": "дорогой",
+        "es": "caro",
+        "pos": "adj"
+      },
+      {
+        "t": "дешёвый",
+        "es": "barato",
+        "pos": "adj"
+      },
+      {
+        "t": "экономить",
+        "es": "ahorrar",
+        "pos": "v",
+        "ex": {
+          "t": "Я экономлю на кофе",
+          "es": "Ahorro en el café"
+        }
+      },
+      {
+        "t": "заплатить",
+        "es": "pagar",
+        "pos": "v",
+        "ex": {
+          "t": "Счёт уже заплачен",
+          "es": "La factura ya está pagada"
+        }
+      }
     ]
   },
   {
@@ -213,18 +877,2167 @@
     "title": "Expresiones útiles",
     "emoji": "💬",
     "words": [
-      { "t": "иметь в виду", "es": "tener en mente", "pos": "phr", "ex": { "t": "Что вы имеете в виду?", "es": "¿Qué quiere usted decir?" } },
-      { "t": "судя по всему", "es": "todo apunta a que", "pos": "phr" },
-      { "t": "не за горами", "es": "a la vuelta de la esquina", "pos": "phr" },
-      { "t": "взять себя в руки", "es": "controlarse", "pos": "phr" },
-      { "t": "как две капли воды", "es": "idéntico, como dos gotas de agua", "pos": "phr" },
-      { "t": "из рук вон плохо", "es": "pésimamente", "pos": "phr" },
-      { "t": "оставаться при своём мнении", "es": "mantener su opinión", "pos": "phr" },
-      { "t": "с одной стороны… с другой стороны", "es": "por un lado… por otro lado", "pos": "phr" },
-      { "t": "тем не менее", "es": "sin embargo", "pos": "phr" },
-      { "t": "кроме того", "es": "además", "pos": "phr" },
-      { "t": "скорее всего", "es": "lo más probable", "pos": "phr" },
-      { "t": "и в мыслях не было", "es": "no lo tenía ni en mente", "pos": "phr" }
+      {
+        "t": "иметь в виду",
+        "es": "tener en mente",
+        "pos": "phr",
+        "ex": {
+          "t": "Что вы имеете в виду?",
+          "es": "¿Qué quiere usted decir?"
+        }
+      },
+      {
+        "t": "судя по всему",
+        "es": "todo apunta a que",
+        "pos": "phr"
+      },
+      {
+        "t": "не за горами",
+        "es": "a la vuelta de la esquina",
+        "pos": "phr"
+      },
+      {
+        "t": "взять себя в руки",
+        "es": "controlarse",
+        "pos": "phr"
+      },
+      {
+        "t": "как две капли воды",
+        "es": "idéntico, como dos gotas de agua",
+        "pos": "phr"
+      },
+      {
+        "t": "из рук вон плохо",
+        "es": "pésimamente",
+        "pos": "phr"
+      },
+      {
+        "t": "оставаться при своём мнении",
+        "es": "mantener su opinión",
+        "pos": "phr"
+      },
+      {
+        "t": "с одной стороны… с другой стороны",
+        "es": "por un lado… por otro lado",
+        "pos": "phr"
+      },
+      {
+        "t": "тем не менее",
+        "es": "sin embargo",
+        "pos": "phr"
+      },
+      {
+        "t": "кроме того",
+        "es": "además",
+        "pos": "phr"
+      },
+      {
+        "t": "скорее всего",
+        "es": "lo más probable",
+        "pos": "phr"
+      },
+      {
+        "t": "и в мыслях не было",
+        "es": "no lo tenía ni en mente",
+        "pos": "phr"
+      }
+    ]
+  },
+  {
+    "id": "ru-family",
+    "title": "Familia y gente",
+    "emoji": "👨‍👩‍👧",
+    "words": [
+      {
+        "t": "семья",
+        "es": "la familia",
+        "pos": "n",
+        "ex": {
+          "t": "Наша семья живёт в этом доме",
+          "es": "Nuestra familia vive en esta casa"
+        }
+      },
+      {
+        "t": "мама",
+        "es": "la madre",
+        "pos": "n",
+        "ex": {
+          "t": "Мама готовит ужин на кухне",
+          "es": "Mamá prepara la cena en la cocina"
+        }
+      },
+      {
+        "t": "папа",
+        "es": "el padre",
+        "pos": "n",
+        "ex": {
+          "t": "Папа работает в офисе",
+          "es": "Papá trabaja en la oficina"
+        }
+      },
+      {
+        "t": "сын",
+        "es": "el hijo",
+        "pos": "n",
+        "ex": {
+          "t": "Мой сын учится в школе",
+          "es": "Mi hijo estudia en la escuela"
+        }
+      },
+      {
+        "t": "дочь",
+        "es": "la hija",
+        "pos": "n",
+        "ex": {
+          "t": "Дочь играет в парке",
+          "es": "La hija juega en el parque"
+        }
+      },
+      {
+        "t": "брат",
+        "es": "el hermano",
+        "pos": "n",
+        "ex": {
+          "t": "Мой брат старше меня",
+          "es": "Mi hermano es mayor que yo"
+        }
+      },
+      {
+        "t": "сестра",
+        "es": "la hermana",
+        "pos": "n",
+        "ex": {
+          "t": "Сестра любит рисовать",
+          "es": "A mi hermana le gusta dibujar"
+        }
+      },
+      {
+        "t": "бабушка",
+        "es": "la abuela",
+        "pos": "n",
+        "ex": {
+          "t": "Бабушка рассказывает семейные истории",
+          "es": "La abuela cuenta historias de la familia"
+        }
+      },
+      {
+        "t": "дедушка",
+        "es": "el abuelo",
+        "pos": "n",
+        "ex": {
+          "t": "Дедушка смотрит футбол по телевизору",
+          "es": "El abuelo ve el fútbol en la tele"
+        }
+      },
+      {
+        "t": "дядя",
+        "es": "el tío",
+        "pos": "n",
+        "ex": {
+          "t": "Мой дядя живёт в деревне",
+          "es": "Mi tío vive en el pueblo"
+        }
+      },
+      {
+        "t": "тётя",
+        "es": "la tía",
+        "pos": "n",
+        "ex": {
+          "t": "Тётя принесла вкусный торт",
+          "es": "La tía trajo un pastel delicioso"
+        }
+      },
+      {
+        "t": "муж",
+        "es": "el marido",
+        "pos": "n",
+        "ex": {
+          "t": "Муж помогает по дому",
+          "es": "El marido ayuda en casa"
+        }
+      },
+      {
+        "t": "жена",
+        "es": "la esposa",
+        "pos": "n",
+        "ex": {
+          "t": "Жена работает врачом",
+          "es": "La esposa trabaja de médica"
+        }
+      },
+      {
+        "t": "родители",
+        "es": "los padres",
+        "pos": "n",
+        "ex": {
+          "t": "Родители ждут нас вечером",
+          "es": "Los padres nos esperan por la tarde"
+        }
+      },
+      {
+        "t": "внук",
+        "es": "el nieto",
+        "pos": "n",
+        "ex": {
+          "t": "Внук приезжает на выходные",
+          "es": "El nieto viene el fin de semana"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-numbers",
+    "title": "Números",
+    "emoji": "🔢",
+    "words": [
+      {
+        "t": "ноль",
+        "es": "el cero",
+        "pos": "n",
+        "ex": {
+          "t": "У меня сегодня ноль рублей",
+          "es": "Hoy tengo cero rublos"
+        }
+      },
+      {
+        "t": "один",
+        "es": "uno",
+        "pos": "n",
+        "ex": {
+          "t": "Остался один билет",
+          "es": "Queda una entrada"
+        }
+      },
+      {
+        "t": "два",
+        "es": "dos",
+        "pos": "n",
+        "ex": {
+          "t": "У меня два брата",
+          "es": "Tengo dos hermanos"
+        }
+      },
+      {
+        "t": "три",
+        "es": "tres",
+        "pos": "n",
+        "ex": {
+          "t": "Три книги на столе",
+          "es": "Tres libros sobre la mesa"
+        }
+      },
+      {
+        "t": "четыре",
+        "es": "cuatro",
+        "pos": "n",
+        "ex": {
+          "t": "У собаки четыре лапы",
+          "es": "El perro tiene cuatro patas"
+        }
+      },
+      {
+        "t": "пять",
+        "es": "cinco",
+        "pos": "n",
+        "ex": {
+          "t": "Магазин закрывается в пять часов",
+          "es": "La tienda cierra a las cinco"
+        }
+      },
+      {
+        "t": "шесть",
+        "es": "seis",
+        "pos": "n",
+        "ex": {
+          "t": "Шесть дней в неделю я работаю",
+          "es": "Trabajo seis días a la semana"
+        }
+      },
+      {
+        "t": "семь",
+        "es": "siete",
+        "pos": "n",
+        "ex": {
+          "t": "В команде семь человек",
+          "es": "Siete personas en el equipo"
+        }
+      },
+      {
+        "t": "восемь",
+        "es": "ocho",
+        "pos": "n",
+        "ex": {
+          "t": "Автобус идёт восемь минут",
+          "es": "El bus tarda ocho minutos"
+        }
+      },
+      {
+        "t": "девять",
+        "es": "nueve",
+        "pos": "n",
+        "ex": {
+          "t": "Урок начинается в девять",
+          "es": "La clase empieza a las nueve"
+        }
+      },
+      {
+        "t": "десять",
+        "es": "diez",
+        "pos": "n",
+        "ex": {
+          "t": "У меня десять новых слов",
+          "es": "Tengo diez palabras nuevas"
+        }
+      },
+      {
+        "t": "двадцать",
+        "es": "veinte",
+        "pos": "n",
+        "ex": {
+          "t": "Двадцать лет назад здесь был парк",
+          "es": "Hace veinte años aquí había un parque"
+        }
+      },
+      {
+        "t": "пятьдесят",
+        "es": "cincuenta",
+        "pos": "n",
+        "ex": {
+          "t": "Скорость — пятьдесят километров в час",
+          "es": "La velocidad es de cincuenta kilómetros por hora"
+        }
+      },
+      {
+        "t": "сто",
+        "es": "cien",
+        "pos": "n",
+        "ex": {
+          "t": "Эта рубашка стоит сто рублей",
+          "es": "Esta camisa cuesta cien rublos"
+        }
+      },
+      {
+        "t": "тысяча",
+        "es": "mil",
+        "pos": "n",
+        "ex": {
+          "t": "Тысяча людей смотрела матч",
+          "es": "Mil personas vieron el partido"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-colors",
+    "title": "Colores",
+    "emoji": "🎨",
+    "words": [
+      {
+        "t": "красный",
+        "es": "rojo",
+        "pos": "adj",
+        "ex": {
+          "t": "Красный свет — стой",
+          "es": "Con luz roja, para"
+        }
+      },
+      {
+        "t": "оранжевый",
+        "es": "naranja",
+        "pos": "adj",
+        "ex": {
+          "t": "Сегодня оранжевый закат",
+          "es": "El atardecer es naranja hoy"
+        }
+      },
+      {
+        "t": "жёлтый",
+        "es": "amarillo",
+        "pos": "adj",
+        "ex": {
+          "t": "У меня жёлтый зонт",
+          "es": "Tengo un paraguas amarillo"
+        }
+      },
+      {
+        "t": "зелёный",
+        "es": "verde",
+        "pos": "adj",
+        "ex": {
+          "t": "Зелёный чай полезен",
+          "es": "El té verde es sano"
+        }
+      },
+      {
+        "t": "голубой",
+        "es": "azul claro",
+        "pos": "adj",
+        "ex": {
+          "t": "Небо голубое и чистое",
+          "es": "El cielo es azul y limpio"
+        }
+      },
+      {
+        "t": "синий",
+        "es": "azul",
+        "pos": "adj",
+        "ex": {
+          "t": "Новая машина синяя",
+          "es": "El coche nuevo es azul"
+        }
+      },
+      {
+        "t": "фиолетовый",
+        "es": "violeta",
+        "pos": "adj",
+        "ex": {
+          "t": "Фиолетовый цветок на окне",
+          "es": "Una flor violeta en la ventana"
+        }
+      },
+      {
+        "t": "розовый",
+        "es": "rosa",
+        "pos": "adj",
+        "ex": {
+          "t": "Розовый подарок для сестры",
+          "es": "Un regalo rosa para la hermana"
+        }
+      },
+      {
+        "t": "коричневый",
+        "es": "marrón",
+        "pos": "adj",
+        "ex": {
+          "t": "Коричневый медведь в лесу",
+          "es": "Un oso marrón en el bosque"
+        }
+      },
+      {
+        "t": "чёрный",
+        "es": "negro",
+        "pos": "adj",
+        "ex": {
+          "t": "Чёрный кофе по утрам",
+          "es": "Café negro por la mañana"
+        }
+      },
+      {
+        "t": "белый",
+        "es": "blanco",
+        "pos": "adj",
+        "ex": {
+          "t": "Белый снег покрывает улицу",
+          "es": "La nieve blanca cubre la calle"
+        }
+      },
+      {
+        "t": "серый",
+        "es": "gris",
+        "pos": "adj",
+        "ex": {
+          "t": "Серый кот спит на стуле",
+          "es": "Un gato gris duerme en la silla"
+        }
+      },
+      {
+        "t": "светлый",
+        "es": "claro",
+        "pos": "adj",
+        "ex": {
+          "t": "У нас светлая квартира",
+          "es": "Tenemos un piso luminoso"
+        }
+      },
+      {
+        "t": "тёмный",
+        "es": "oscuro",
+        "pos": "adj",
+        "ex": {
+          "t": "Ночь бывает очень тёмной",
+          "es": "La noche puede ser muy oscura"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-core-verbs",
+    "title": "Verbos esenciales",
+    "emoji": "🔁",
+    "words": [
+      {
+        "t": "быть",
+        "es": "ser o estar",
+        "pos": "v",
+        "ex": {
+          "t": "Завтра будет дождь",
+          "es": "Mañana habrá lluvia"
+        }
+      },
+      {
+        "t": "делать",
+        "es": "hacer",
+        "pos": "v",
+        "ex": {
+          "t": "Что ты делаешь вечером?",
+          "es": "¿Qué haces por la tarde?"
+        }
+      },
+      {
+        "t": "идти",
+        "es": "ir (a pie)",
+        "pos": "v",
+        "ex": {
+          "t": "Я иду в магазин",
+          "es": "Voy a la tienda"
+        }
+      },
+      {
+        "t": "ехать",
+        "es": "ir (en vehículo)",
+        "pos": "v",
+        "ex": {
+          "t": "Мы едем на дачу",
+          "es": "Vamos a la casa de campo"
+        }
+      },
+      {
+        "t": "видеть",
+        "es": "ver",
+        "pos": "v",
+        "ex": {
+          "t": "Я вижу тебя из окна",
+          "es": "Te veo desde la ventana"
+        }
+      },
+      {
+        "t": "слышать",
+        "es": "oír",
+        "pos": "v",
+        "ex": {
+          "t": "Слышишь этот шум?",
+          "es": "¿Oyes ese ruido?"
+        }
+      },
+      {
+        "t": "говорить",
+        "es": "hablar",
+        "pos": "v",
+        "ex": {
+          "t": "Мы говорим о работе",
+          "es": "Hablamos del trabajo"
+        }
+      },
+      {
+        "t": "читать",
+        "es": "leer",
+        "pos": "v",
+        "ex": {
+          "t": "Я читаю перед сном",
+          "es": "Leo antes de dormir"
+        }
+      },
+      {
+        "t": "писать",
+        "es": "escribir",
+        "pos": "v",
+        "ex": {
+          "t": "Он пишет сообщение другу",
+          "es": "Escribe un mensaje a un amigo"
+        }
+      },
+      {
+        "t": "думать",
+        "es": "pensar",
+        "pos": "v",
+        "ex": {
+          "t": "Я думаю, что ты прав",
+          "es": "Creo que tienes razón"
+        }
+      },
+      {
+        "t": "хотеть",
+        "es": "querer",
+        "pos": "v",
+        "ex": {
+          "t": "Я хочу чай с молоком",
+          "es": "Quiero té con leche"
+        }
+      },
+      {
+        "t": "чувствовать",
+        "es": "sentir",
+        "pos": "v",
+        "ex": {
+          "t": "Я чувствую себя хорошо",
+          "es": "Me siento bien"
+        }
+      },
+      {
+        "t": "любить",
+        "es": "amar",
+        "pos": "v",
+        "ex": {
+          "t": "Я люблю свою семью",
+          "es": "Amo a mi familia"
+        }
+      },
+      {
+        "t": "жить",
+        "es": "vivir",
+        "pos": "v",
+        "ex": {
+          "t": "Мы живём в центре города",
+          "es": "Vivimos en el centro de la ciudad"
+        }
+      },
+      {
+        "t": "спать",
+        "es": "dormir",
+        "pos": "v",
+        "ex": {
+          "t": "Ребёнок спит днём",
+          "es": "El niño duerme por el día"
+        }
+      },
+      {
+        "t": "работать",
+        "es": "trabajar",
+        "pos": "v",
+        "ex": {
+          "t": "Она работает в банке",
+          "es": "Ella trabaja en un banco"
+        }
+      },
+      {
+        "t": "учиться",
+        "es": "estudiar",
+        "pos": "v",
+        "ex": {
+          "t": "Я учусь на первом курсе",
+          "es": "Estudio el primer curso"
+        }
+      },
+      {
+        "t": "ждать",
+        "es": "esperar",
+        "pos": "v",
+        "ex": {
+          "t": "Мы ждём автобус на остановке",
+          "es": "Esperamos el bus en la parada"
+        }
+      },
+      {
+        "t": "искать",
+        "es": "buscar",
+        "pos": "v",
+        "ex": {
+          "t": "Я ищу свои ключи",
+          "es": "Busco mis llaves"
+        }
+      },
+      {
+        "t": "помогать",
+        "es": "ayudar",
+        "pos": "v",
+        "ex": {
+          "t": "Сосед помогает с ремонтом",
+          "es": "El vecino ayuda con la reparación"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-adj",
+    "title": "Adjetivos útiles",
+    "emoji": "🌟",
+    "words": [
+      {
+        "t": "большой",
+        "es": "grande",
+        "pos": "adj",
+        "ex": {
+          "t": "Это большая и светлая комната",
+          "es": "Es una habitación grande y luminosa"
+        }
+      },
+      {
+        "t": "маленький",
+        "es": "pequeño",
+        "pos": "adj",
+        "ex": {
+          "t": "Маленькие собаки милые",
+          "es": "Los perros pequeños son lindos"
+        }
+      },
+      {
+        "t": "новый",
+        "es": "nuevo",
+        "pos": "adj",
+        "ex": {
+          "t": "Новый телефон работает быстро",
+          "es": "El teléfono nuevo funciona rápido"
+        }
+      },
+      {
+        "t": "старый",
+        "es": "viejo",
+        "pos": "adj",
+        "ex": {
+          "t": "Старый дом стоит у дороги",
+          "es": "La casa vieja está junto a la carretera"
+        }
+      },
+      {
+        "t": "хороший",
+        "es": "bueno",
+        "pos": "adj",
+        "ex": {
+          "t": "Это хороший фильм",
+          "es": "Es una buena película"
+        }
+      },
+      {
+        "t": "плохой",
+        "es": "malo",
+        "pos": "adj",
+        "ex": {
+          "t": "На весь день плохая погода",
+          "es": "Mal tiempo para todo el día"
+        }
+      },
+      {
+        "t": "красивый",
+        "es": "bonito",
+        "pos": "adj",
+        "ex": {
+          "t": "Красивый вид на горы",
+          "es": "Bonitas vistas a las montañas"
+        }
+      },
+      {
+        "t": "интересный",
+        "es": "interesante",
+        "pos": "adj",
+        "ex": {
+          "t": "Книга очень интересная",
+          "es": "El libro es muy interesante"
+        }
+      },
+      {
+        "t": "лёгкий",
+        "es": "fácil, ligero",
+        "pos": "adj",
+        "ex": {
+          "t": "Это лёгкий вопрос",
+          "es": "Es una pregunta fácil"
+        }
+      },
+      {
+        "t": "трудный",
+        "es": "difícil",
+        "pos": "adj",
+        "ex": {
+          "t": "Русская грамматика трудная",
+          "es": "La gramática rusa es difícil"
+        }
+      },
+      {
+        "t": "тёплый",
+        "es": "cálido",
+        "pos": "adj",
+        "ex": {
+          "t": "Наступили тёплые дни",
+          "es": "Llegaron los días cálidos"
+        }
+      },
+      {
+        "t": "холодный",
+        "es": "frío",
+        "pos": "adj",
+        "ex": {
+          "t": "Холодная вода в реке",
+          "es": "Agua fría en el río"
+        }
+      },
+      {
+        "t": "весёлый",
+        "es": "alegre",
+        "pos": "adj",
+        "ex": {
+          "t": "Он весёлый и добрый",
+          "es": "Es alegre y amable"
+        }
+      },
+      {
+        "t": "грустный",
+        "es": "triste",
+        "pos": "adj",
+        "ex": {
+          "t": "Грустная песня на радио",
+          "es": "Una canción triste en la radio"
+        }
+      },
+      {
+        "t": "быстрый",
+        "es": "rápido",
+        "pos": "adj",
+        "ex": {
+          "t": "Быстрый поезд до столицы",
+          "es": "Un tren rápido a la capital"
+        }
+      },
+      {
+        "t": "спокойный",
+        "es": "tranquilo",
+        "pos": "adj",
+        "ex": {
+          "t": "Спокойный вечер дома",
+          "es": "Una noche tranquila en casa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-time",
+    "title": "Tiempo y calendario",
+    "emoji": "📅",
+    "words": [
+      {
+        "t": "сегодня",
+        "es": "hoy",
+        "pos": "adv",
+        "ex": {
+          "t": "Сегодня я много работал",
+          "es": "Hoy he trabajado mucho"
+        }
+      },
+      {
+        "t": "завтра",
+        "es": "mañana",
+        "pos": "adv",
+        "ex": {
+          "t": "Завтра у нас встреча",
+          "es": "Mañana tenemos reunión"
+        }
+      },
+      {
+        "t": "вчера",
+        "es": "ayer",
+        "pos": "adv",
+        "ex": {
+          "t": "Вчера шёл дождь",
+          "es": "Ayer llovió"
+        }
+      },
+      {
+        "t": "сейчас",
+        "es": "ahora",
+        "pos": "adv",
+        "ex": {
+          "t": "Сейчас я занят",
+          "es": "Ahora estoy ocupado"
+        }
+      },
+      {
+        "t": "потом",
+        "es": "luego",
+        "pos": "adv",
+        "ex": {
+          "t": "Потом мы пойдём в кино",
+          "es": "Luego iremos al cine"
+        }
+      },
+      {
+        "t": "день",
+        "es": "el día",
+        "pos": "n",
+        "ex": {
+          "t": "Хороший день для прогулки",
+          "es": "Un buen día para pasear"
+        }
+      },
+      {
+        "t": "неделя",
+        "es": "la semana",
+        "pos": "n",
+        "ex": {
+          "t": "На этой неделе много дел",
+          "es": "Esta semana hay mucho trabajo"
+        }
+      },
+      {
+        "t": "месяц",
+        "es": "el mes",
+        "pos": "n",
+        "ex": {
+          "t": "План на месяц готов",
+          "es": "El plan del mes está listo"
+        }
+      },
+      {
+        "t": "год",
+        "es": "el año",
+        "pos": "n",
+        "ex": {
+          "t": "Новый год мы встречаем дома",
+          "es": "Recibimos el año nuevo en casa"
+        }
+      },
+      {
+        "t": "час",
+        "es": "la hora",
+        "pos": "n",
+        "ex": {
+          "t": "Через час будет встреча",
+          "es": "En una hora habrá reunión"
+        }
+      },
+      {
+        "t": "минута",
+        "es": "el minuto",
+        "pos": "n",
+        "ex": {
+          "t": "Подожди пять минут",
+          "es": "Espera cinco minutos"
+        }
+      },
+      {
+        "t": "утро",
+        "es": "la mañana",
+        "pos": "n",
+        "ex": {
+          "t": "Утро начинается с кофе",
+          "es": "La mañana empieza con café"
+        }
+      },
+      {
+        "t": "вечер",
+        "es": "la tarde",
+        "pos": "n",
+        "ex": {
+          "t": "Вечером мы гуляем в парке",
+          "es": "Por la tarde paseamos por el parque"
+        }
+      },
+      {
+        "t": "ночь",
+        "es": "la noche",
+        "pos": "n",
+        "ex": {
+          "t": "Ночь была очень тихой",
+          "es": "La noche fue muy silenciosa"
+        }
+      },
+      {
+        "t": "выходные",
+        "es": "el fin de semana",
+        "pos": "n",
+        "ex": {
+          "t": "На выходных едем к морю",
+          "es": "El fin de semana vamos al mar"
+        }
+      },
+      {
+        "t": "рано",
+        "es": "temprano",
+        "pos": "adv",
+        "ex": {
+          "t": "Я прихожу домой рано",
+          "es": "Llego a casa temprano"
+        }
+      },
+      {
+        "t": "поздно",
+        "es": "tarde",
+        "pos": "adv",
+        "ex": {
+          "t": "Уже поздно, идём домой",
+          "es": "Ya es tarde, vamos a casa"
+        }
+      },
+      {
+        "t": "время",
+        "es": "el tiempo",
+        "pos": "n",
+        "ex": {
+          "t": "Время идёт очень быстро",
+          "es": "El tiempo pasa muy rápido"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-body",
+    "title": "El cuerpo",
+    "emoji": "🦴",
+    "words": [
+      {
+        "t": "голова",
+        "es": "la cabeza",
+        "pos": "n",
+        "ex": {
+          "t": "У меня болит голова",
+          "es": "Me duele la cabeza"
+        }
+      },
+      {
+        "t": "лицо",
+        "es": "la cara",
+        "pos": "n",
+        "ex": {
+          "t": "У неё доброе лицо",
+          "es": "Tiene una cara amable"
+        }
+      },
+      {
+        "t": "глаз",
+        "es": "el ojo",
+        "pos": "n",
+        "ex": {
+          "t": "У кошки зелёные глаза",
+          "es": "El gato tiene ojos verdes"
+        }
+      },
+      {
+        "t": "ухо",
+        "es": "la oreja",
+        "pos": "n",
+        "ex": {
+          "t": "Музыка громкая для ушей",
+          "es": "La música es fuerte para los oídos"
+        }
+      },
+      {
+        "t": "нос",
+        "es": "la nariz",
+        "pos": "n",
+        "ex": {
+          "t": "Нос чувствует запах супа",
+          "es": "La nariz huele el aroma de la sopa"
+        }
+      },
+      {
+        "t": "рот",
+        "es": "la boca",
+        "pos": "n",
+        "ex": {
+          "t": "Не говори с полным ртом",
+          "es": "No hables con la boca llena"
+        }
+      },
+      {
+        "t": "зубы",
+        "es": "los dientes",
+        "pos": "n",
+        "ex": {
+          "t": "Чисти зубы каждый день",
+          "es": "Lávate los dientes cada día"
+        }
+      },
+      {
+        "t": "шея",
+        "es": "el cuello",
+        "pos": "n",
+        "ex": {
+          "t": "После компьютера шея болит",
+          "es": "Tras el ordenador, el cuello duele"
+        }
+      },
+      {
+        "t": "рука",
+        "es": "el brazo, la mano",
+        "pos": "n",
+        "ex": {
+          "t": "Держи книгу в руке",
+          "es": "Sujeta el libro con la mano"
+        }
+      },
+      {
+        "t": "нога",
+        "es": "la pierna",
+        "pos": "n",
+        "ex": {
+          "t": "После бега ноги устали",
+          "es": "Tras correr, las piernas están cansadas"
+        }
+      },
+      {
+        "t": "палец",
+        "es": "el dedo",
+        "pos": "n",
+        "ex": {
+          "t": "Он указывает пальцем на карту",
+          "es": "Señala el mapa con el dedo"
+        }
+      },
+      {
+        "t": "спина",
+        "es": "la espalda",
+        "pos": "n",
+        "ex": {
+          "t": "У меня болит спина",
+          "es": "Me duele la espalda"
+        }
+      },
+      {
+        "t": "сердце",
+        "es": "el corazón",
+        "pos": "n",
+        "ex": {
+          "t": "Сердце бьётся быстро при беге",
+          "es": "El corazón late rápido al correr"
+        }
+      },
+      {
+        "t": "живот",
+        "es": "el estómago",
+        "pos": "n",
+        "ex": {
+          "t": "После обеда у него болит живот",
+          "es": "Tras la comida le duele el estómago"
+        }
+      },
+      {
+        "t": "кожа",
+        "es": "la piel",
+        "pos": "n",
+        "ex": {
+          "t": "Кожа чувствует холод",
+          "es": "La piel siente el frío"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-animals",
+    "title": "Animales",
+    "emoji": "🐾",
+    "words": [
+      {
+        "t": "собака",
+        "es": "el perro",
+        "pos": "n",
+        "ex": {
+          "t": "Собака любит гулять в парке",
+          "es": "El perro adora el paseo por el parque"
+        }
+      },
+      {
+        "t": "кошка",
+        "es": "el gato",
+        "pos": "n",
+        "ex": {
+          "t": "Кошка спит на диване",
+          "es": "El gato duerme en el sofá"
+        }
+      },
+      {
+        "t": "лошадь",
+        "es": "el caballo",
+        "pos": "n",
+        "ex": {
+          "t": "Лошадь бежит по полю",
+          "es": "El caballo corre por el campo"
+        }
+      },
+      {
+        "t": "корова",
+        "es": "la vaca",
+        "pos": "n",
+        "ex": {
+          "t": "Корова даёт молоко каждое утро",
+          "es": "La vaca da leche cada mañana"
+        }
+      },
+      {
+        "t": "свинья",
+        "es": "el cerdo",
+        "pos": "n",
+        "ex": {
+          "t": "На ферме живут свиньи",
+          "es": "En la granja viven cerdos"
+        }
+      },
+      {
+        "t": "курица",
+        "es": "la gallina",
+        "pos": "n",
+        "ex": {
+          "t": "Курица снесла свежее яйцо",
+          "es": "La gallina puso un huevo fresco"
+        }
+      },
+      {
+        "t": "мышь",
+        "es": "el ratón (animal)",
+        "pos": "n",
+        "ex": {
+          "t": "В амбаре живут мыши",
+          "es": "En el granero viven ratones"
+        }
+      },
+      {
+        "t": "кролик",
+        "es": "el conejo",
+        "pos": "n",
+        "ex": {
+          "t": "Кролик ест морковь",
+          "es": "El conejo come zanahoria"
+        }
+      },
+      {
+        "t": "волк",
+        "es": "el lobo",
+        "pos": "n",
+        "ex": {
+          "t": "Волк живёт в лесу",
+          "es": "El lobo vive en el bosque"
+        }
+      },
+      {
+        "t": "медведь",
+        "es": "el oso",
+        "pos": "n",
+        "ex": {
+          "t": "Медведь спит зимой",
+          "es": "El oso duerme en invierno"
+        }
+      },
+      {
+        "t": "лиса",
+        "es": "el zorro",
+        "pos": "n",
+        "ex": {
+          "t": "Лиса есть в этой сказке",
+          "es": "El zorro aparece en este cuento"
+        }
+      },
+      {
+        "t": "обезьяна",
+        "es": "el mono",
+        "pos": "n",
+        "ex": {
+          "t": "Обезьяна прыгает по деревьям",
+          "es": "El mono salta entre los árboles"
+        }
+      },
+      {
+        "t": "змея",
+        "es": "la serpiente",
+        "pos": "n",
+        "ex": {
+          "t": "Змея ползёт по траве",
+          "es": "La serpiente se desliza por la hierba"
+        }
+      },
+      {
+        "t": "бабочка",
+        "es": "la mariposa",
+        "pos": "n",
+        "ex": {
+          "t": "Бабочка садится на цветок",
+          "es": "La mariposa se posa en la flor"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-house",
+    "title": "La casa y los muebles",
+    "emoji": "🪑",
+    "words": [
+      {
+        "t": "дом",
+        "es": "la casa",
+        "pos": "n",
+        "ex": {
+          "t": "Наш дом стоит у леса",
+          "es": "Nuestra casa está junto al bosque"
+        }
+      },
+      {
+        "t": "комната",
+        "es": "la habitación",
+        "pos": "n",
+        "ex": {
+          "t": "Комната полна света",
+          "es": "La habitación está llena de luz"
+        }
+      },
+      {
+        "t": "кухня",
+        "es": "la cocina",
+        "pos": "n",
+        "ex": {
+          "t": "На кухне пахнет пирогом",
+          "es": "En la cocina huele a pastel"
+        }
+      },
+      {
+        "t": "спальня",
+        "es": "el dormitorio",
+        "pos": "n",
+        "ex": {
+          "t": "Спальня тихая и тёмная",
+          "es": "El dormitorio es tranquilo y oscuro"
+        }
+      },
+      {
+        "t": "ванная",
+        "es": "el baño",
+        "pos": "n",
+        "ex": {
+          "t": "Ванная комната на втором этаже",
+          "es": "El baño está en el segundo piso"
+        }
+      },
+      {
+        "t": "окно",
+        "es": "la ventana",
+        "pos": "n",
+        "ex": {
+          "t": "Открой окно на минуту",
+          "es": "Abre la ventana un minuto"
+        }
+      },
+      {
+        "t": "дверь",
+        "es": "la puerta",
+        "pos": "n",
+        "ex": {
+          "t": "Дверь скрипит по ночи",
+          "es": "La puerta cruje por la noche"
+        }
+      },
+      {
+        "t": "стол",
+        "es": "la mesa",
+        "pos": "n",
+        "ex": {
+          "t": "На столе стоят чашки",
+          "es": "En la mesa hay tazas"
+        }
+      },
+      {
+        "t": "стул",
+        "es": "la silla",
+        "pos": "n",
+        "ex": {
+          "t": "Стул мягкий и удобный",
+          "es": "La silla es blanda y cómoda"
+        }
+      },
+      {
+        "t": "кровать",
+        "es": "la cama",
+        "pos": "n",
+        "ex": {
+          "t": "Кровать большая, двуспальная",
+          "es": "La cama es grande y doble"
+        }
+      },
+      {
+        "t": "лампа",
+        "es": "la lámpara",
+        "pos": "n",
+        "ex": {
+          "t": "Лампа освещает комнату",
+          "es": "La lámpara ilumina la habitación"
+        }
+      },
+      {
+        "t": "шкаф",
+        "es": "el armario",
+        "pos": "n",
+        "ex": {
+          "t": "Одежда лежит в шкафу",
+          "es": "La ropa está en el armario"
+        }
+      },
+      {
+        "t": "пол",
+        "es": "el suelo",
+        "pos": "n",
+        "ex": {
+          "t": "Пол чистый после уборки",
+          "es": "El suelo está limpio tras la limpieza"
+        }
+      },
+      {
+        "t": "зеркало",
+        "es": "el espejo",
+        "pos": "n",
+        "ex": {
+          "t": "Зеркало висит в прихожей",
+          "es": "El espejo cuelga en la entrada"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-clothes",
+    "title": "Ropa y accesorios",
+    "emoji": "👕",
+    "words": [
+      {
+        "t": "футболка",
+        "es": "la camiseta",
+        "pos": "n",
+        "ex": {
+          "t": "Летом я ношу только футболку",
+          "es": "En verano solo llevo camiseta"
+        }
+      },
+      {
+        "t": "рубашка",
+        "es": "la camisa",
+        "pos": "n",
+        "ex": {
+          "t": "Белая рубашка для собеседования",
+          "es": "Camisa blanca para la entrevista"
+        }
+      },
+      {
+        "t": "джинсы",
+        "es": "los vaqueros",
+        "pos": "n",
+        "ex": {
+          "t": "Я ношу джинсы каждый день",
+          "es": "Llevo vaqueros cada día"
+        }
+      },
+      {
+        "t": "платье",
+        "es": "el vestido",
+        "pos": "n",
+        "ex": {
+          "t": "Новое платье для праздника",
+          "es": "Un vestido nuevo para la fiesta"
+        }
+      },
+      {
+        "t": "юбка",
+        "es": "la falda",
+        "pos": "n",
+        "ex": {
+          "t": "Она носит юбку в офисе",
+          "es": "Lleva falda en la oficina"
+        }
+      },
+      {
+        "t": "куртка",
+        "es": "la chaqueta",
+        "pos": "n",
+        "ex": {
+          "t": "Куртка защищает от ветра",
+          "es": "La chaqueta protege del viento"
+        }
+      },
+      {
+        "t": "свитер",
+        "es": "el suéter",
+        "pos": "n",
+        "ex": {
+          "t": "Тёплый свитер в мороз",
+          "es": "Suéter cálido en la helada"
+        }
+      },
+      {
+        "t": "шапка",
+        "es": "el gorro",
+        "pos": "n",
+        "ex": {
+          "t": "В холод носим шапку",
+          "es": "Con frío nos ponemos gorro"
+        }
+      },
+      {
+        "t": "шарф",
+        "es": "la bufanda",
+        "pos": "n",
+        "ex": {
+          "t": "Шарф закрывает шею",
+          "es": "La bufanda cubre el cuello"
+        }
+      },
+      {
+        "t": "перчатки",
+        "es": "los guantes",
+        "pos": "n",
+        "ex": {
+          "t": "На морозе надевай перчатки",
+          "es": "Con la helada ponte guantes"
+        }
+      },
+      {
+        "t": "очки",
+        "es": "las gafas",
+        "pos": "n",
+        "ex": {
+          "t": "Очки помогают читать мелкий текст",
+          "es": "Las gafas ayudan a leer letra pequeña"
+        }
+      },
+      {
+        "t": "обувь",
+        "es": "el calzado",
+        "pos": "n",
+        "ex": {
+          "t": "Удобная обувь важна в горах",
+          "es": "Un calzado cómodo importa en las montañas"
+        }
+      },
+      {
+        "t": "зонт",
+        "es": "el paraguas",
+        "pos": "n",
+        "ex": {
+          "t": "Зонт спасает от дождя",
+          "es": "El paraguas salva de la lluvia"
+        }
+      },
+      {
+        "t": "сумка",
+        "es": "el bolso",
+        "pos": "n",
+        "ex": {
+          "t": "Сумка висит на плече",
+          "es": "El bolso cuelga del hombro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-places",
+    "title": "Lugares en la ciudad",
+    "emoji": "🌆",
+    "words": [
+      {
+        "t": "город",
+        "es": "la ciudad",
+        "pos": "n",
+        "ex": {
+          "t": "Город шумит до утра",
+          "es": "La ciudad bulle hasta la mañana"
+        }
+      },
+      {
+        "t": "магазин",
+        "es": "la tienda",
+        "pos": "n",
+        "ex": {
+          "t": "Магазин рядом с домом",
+          "es": "La tienda está cerca de casa"
+        }
+      },
+      {
+        "t": "супермаркет",
+        "es": "el supermercado",
+        "pos": "n",
+        "ex": {
+          "t": "В супермаркете большие скидки",
+          "es": "En el supermercado hay grandes descuentos"
+        }
+      },
+      {
+        "t": "ресторан",
+        "es": "el restaurante",
+        "pos": "n",
+        "ex": {
+          "t": "Ресторан полон людей в пятницу",
+          "es": "El restaurante se llena el viernes"
+        }
+      },
+      {
+        "t": "кафе",
+        "es": "la cafetería",
+        "pos": "n",
+        "ex": {
+          "t": "В кафе пахнет свежим кофе",
+          "es": "En la cafetería huele a café nuevo"
+        }
+      },
+      {
+        "t": "кино",
+        "es": "el cine",
+        "pos": "n",
+        "ex": {
+          "t": "Мы идём в кино вечером",
+          "es": "Vamos al cine esta tarde"
+        }
+      },
+      {
+        "t": "театр",
+        "es": "el teatro",
+        "pos": "n",
+        "ex": {
+          "t": "Театр открыт в выходные",
+          "es": "El teatro abre el fin de semana"
+        }
+      },
+      {
+        "t": "музей",
+        "es": "el museo",
+        "pos": "n",
+        "ex": {
+          "t": "Музей открыт по воскресеньям",
+          "es": "El museo abre los domingos"
+        }
+      },
+      {
+        "t": "парк",
+        "es": "el parque",
+        "pos": "n",
+        "ex": {
+          "t": "Дети играют в парке",
+          "es": "Los niños juegan en el parque"
+        }
+      },
+      {
+        "t": "школа",
+        "es": "la escuela",
+        "pos": "n",
+        "ex": {
+          "t": "Школа начинается в сентябре",
+          "es": "La escuela empieza en septiembre"
+        }
+      },
+      {
+        "t": "университет",
+        "es": "la universidad",
+        "pos": "n",
+        "ex": {
+          "t": "Университет рядом с парком",
+          "es": "La universidad está junto al parque"
+        }
+      },
+      {
+        "t": "больница",
+        "es": "el hospital",
+        "pos": "n",
+        "ex": {
+          "t": "Больница работает круглосуточно",
+          "es": "El hospital atiende día y noche"
+        }
+      },
+      {
+        "t": "почта",
+        "es": "el correo",
+        "pos": "n",
+        "ex": {
+          "t": "Почта открывается в восемь",
+          "es": "El correo abre a las ocho"
+        }
+      },
+      {
+        "t": "банк",
+        "es": "el banco",
+        "pos": "n",
+        "ex": {
+          "t": "Банк открывается в девять",
+          "es": "El banco abre a las nueve"
+        }
+      },
+      {
+        "t": "площадь",
+        "es": "la plaza",
+        "pos": "n",
+        "ex": {
+          "t": "На площади стоит памятник",
+          "es": "En la plaza hay un monumento"
+        }
+      },
+      {
+        "t": "мост",
+        "es": "el puente",
+        "pos": "n",
+        "ex": {
+          "t": "Мост соединяет два района",
+          "es": "El puente une dos barrios"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-transport",
+    "title": "El transporte",
+    "emoji": "🚌",
+    "words": [
+      {
+        "t": "машина",
+        "es": "el coche",
+        "pos": "n",
+        "ex": {
+          "t": "Машина стоит на парковке",
+          "es": "El coche está en el aparcamiento"
+        }
+      },
+      {
+        "t": "автобус",
+        "es": "el autobús",
+        "pos": "n",
+        "ex": {
+          "t": "Автобус ходит каждые десять минут",
+          "es": "El autobús pasa cada diez minutos"
+        }
+      },
+      {
+        "t": "поезд",
+        "es": "el tren",
+        "pos": "n",
+        "ex": {
+          "t": "Поезд прибывает на второй путь",
+          "es": "El tren llega a la segunda vía"
+        }
+      },
+      {
+        "t": "самолёт",
+        "es": "el avión",
+        "pos": "n",
+        "ex": {
+          "t": "Самолёт летит высоко над облаками",
+          "es": "El avión vuela alto sobre las nubes"
+        }
+      },
+      {
+        "t": "трамвай",
+        "es": "el tranvía",
+        "pos": "n",
+        "ex": {
+          "t": "Трамвай плавно едет по улице",
+          "es": "El tranvía avanza suave por la calle"
+        }
+      },
+      {
+        "t": "метро",
+        "es": "el metro",
+        "pos": "n",
+        "ex": {
+          "t": "Метро работает до полуночи",
+          "es": "El metro va hasta la medianoche"
+        }
+      },
+      {
+        "t": "велосипед",
+        "es": "la bicicleta",
+        "pos": "n",
+        "ex": {
+          "t": "Велосипед — мой транспорт летом",
+          "es": "La bici es mi transporte en verano"
+        }
+      },
+      {
+        "t": "такси",
+        "es": "el taxi",
+        "pos": "n",
+        "ex": {
+          "t": "Такси приезжает быстро",
+          "es": "El taxi llega rápido"
+        }
+      },
+      {
+        "t": "водитель",
+        "es": "el conductor",
+        "pos": "n",
+        "ex": {
+          "t": "Водитель аккуратно ведёт машину",
+          "es": "El conductor lleva el coche con cuidado"
+        }
+      },
+      {
+        "t": "пассажир",
+        "es": "el pasajero",
+        "pos": "n",
+        "ex": {
+          "t": "На вокзале много пассажиров",
+          "es": "En la estación hay muchos pasajeros"
+        }
+      },
+      {
+        "t": "остановка",
+        "es": "la parada",
+        "pos": "n",
+        "ex": {
+          "t": "Остановка автобуса рядом с рынком",
+          "es": "La parada del autobús queda junto al mercado"
+        }
+      },
+      {
+        "t": "пробка",
+        "es": "el atasco",
+        "pos": "n",
+        "ex": {
+          "t": "Утром в городе большая пробка",
+          "es": "Por la mañana hay un atasco enorme"
+        }
+      },
+      {
+        "t": "дорога",
+        "es": "la carretera",
+        "pos": "n",
+        "ex": {
+          "t": "Дорога ведёт к морю",
+          "es": "La carretera lleva al mar"
+        }
+      },
+      {
+        "t": "парковка",
+        "es": "el aparcamiento",
+        "pos": "n",
+        "ex": {
+          "t": "Парковка у отеля платная",
+          "es": "El aparcamiento del hotel es de pago"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-seasons",
+    "title": "Estaciones y clima",
+    "emoji": "🌦️",
+    "words": [
+      {
+        "t": "дождь",
+        "es": "la lluvia",
+        "pos": "n",
+        "ex": {
+          "t": "Дождь обещали на вечер",
+          "es": "Prometen lluvia para la noche"
+        }
+      },
+      {
+        "t": "снег",
+        "es": "la nieve",
+        "pos": "n",
+        "ex": {
+          "t": "Снег лежит на крыше",
+          "es": "La nieve cubre el tejado"
+        }
+      },
+      {
+        "t": "ветер",
+        "es": "el viento",
+        "pos": "n",
+        "ex": {
+          "t": "Ветер гонит листья по улице",
+          "es": "El viento arrastra las hojas por la calle"
+        }
+      },
+      {
+        "t": "солнце",
+        "es": "el sol",
+        "pos": "n",
+        "ex": {
+          "t": "Солнце село за город",
+          "es": "El sol se puso tras la ciudad"
+        }
+      },
+      {
+        "t": "радуга",
+        "es": "el arcoíris",
+        "pos": "n",
+        "ex": {
+          "t": "После грозы появилась радуга",
+          "es": "Tras la tormenta apareció un arcoíris"
+        }
+      },
+      {
+        "t": "весна",
+        "es": "la primavera",
+        "pos": "n",
+        "ex": {
+          "t": "Весна приходит с цветами",
+          "es": "La primavera llega con flores"
+        }
+      },
+      {
+        "t": "лето",
+        "es": "el verano",
+        "pos": "n",
+        "ex": {
+          "t": "Летом река полна людей",
+          "es": "En verano el río se llena de gente"
+        }
+      },
+      {
+        "t": "осень",
+        "es": "el otoño",
+        "pos": "n",
+        "ex": {
+          "t": "Осенью падают листья",
+          "es": "En otoño caen las hojas"
+        }
+      },
+      {
+        "t": "зима",
+        "es": "el invierno",
+        "pos": "n",
+        "ex": {
+          "t": "Зимой у нас много снега",
+          "es": "En invierno aquí cae mucha nieve"
+        }
+      },
+      {
+        "t": "жарко",
+        "es": "hace calor",
+        "pos": "adv",
+        "ex": {
+          "t": "В июле в городе жарко",
+          "es": "En julio hace calor en la ciudad"
+        }
+      },
+      {
+        "t": "холодно",
+        "es": "hace frío",
+        "pos": "adv",
+        "ex": {
+          "t": "Зимой за городом холодно",
+          "es": "En invierno, fuera de la ciudad, hace frío"
+        }
+      },
+      {
+        "t": "тепло",
+        "es": "hace templado",
+        "pos": "adv",
+        "ex": {
+          "t": "В мае уже совсем тепло",
+          "es": "En mayo ya hace un tiempo suave"
+        }
+      },
+      {
+        "t": "туча",
+        "es": "el nubarrón",
+        "pos": "n",
+        "ex": {
+          "t": "Туча закрывает солнце",
+          "es": "El nubarrón tapa el sol"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-society",
+    "title": "País y sociedad",
+    "emoji": "🌍",
+    "words": [
+      {
+        "t": "страна",
+        "es": "el país",
+        "pos": "n",
+        "ex": {
+          "t": "Наша страна большая и разная",
+          "es": "Nuestro país es grande y variado"
+        }
+      },
+      {
+        "t": "деревня",
+        "es": "el pueblo",
+        "pos": "n",
+        "ex": {
+          "t": "Летом я уезжаю в деревню",
+          "es": "En verano me voy al pueblo"
+        }
+      },
+      {
+        "t": "столица",
+        "es": "la capital",
+        "pos": "n",
+        "ex": {
+          "t": "Столица живёт быстрее провинции",
+          "es": "La capital vive más rápido que la provincia"
+        }
+      },
+      {
+        "t": "язык",
+        "es": "el idioma",
+        "pos": "n",
+        "ex": {
+          "t": "Языки открывают двери",
+          "es": "Los idiomas abren puertas"
+        }
+      },
+      {
+        "t": "народ",
+        "es": "el pueblo (gente)",
+        "pos": "n",
+        "ex": {
+          "t": "Народ собрался на площади",
+          "es": "El pueblo se reunió en la plaza"
+        }
+      },
+      {
+        "t": "правительство",
+        "es": "el gobierno",
+        "pos": "n",
+        "ex": {
+          "t": "Правительство обсуждает налоги",
+          "es": "El gobierno discute los impuestos"
+        }
+      },
+      {
+        "t": "президент",
+        "es": "el presidente",
+        "pos": "n",
+        "ex": {
+          "t": "Президент выступил с речью",
+          "es": "El presidente dio un discurso"
+        }
+      },
+      {
+        "t": "полиция",
+        "es": "la policía",
+        "pos": "n",
+        "ex": {
+          "t": "Полиция пришла быстро",
+          "es": "La policía llegó rápido"
+        }
+      },
+      {
+        "t": "война",
+        "es": "la guerra",
+        "pos": "n",
+        "ex": {
+          "t": "В войне нет победителей",
+          "es": "En la guerra no hay vencedores"
+        }
+      },
+      {
+        "t": "мир",
+        "es": "la paz",
+        "pos": "n",
+        "ex": {
+          "t": "Мы хотим мира",
+          "es": "Queremos paz"
+        }
+      },
+      {
+        "t": "культура",
+        "es": "la cultura",
+        "pos": "n",
+        "ex": {
+          "t": "Культура страны богата и стара",
+          "es": "La cultura del país es rica y antigua"
+        }
+      },
+      {
+        "t": "история",
+        "es": "la historia",
+        "pos": "n",
+        "ex": {
+          "t": "История города живёт в зданиях",
+          "es": "La historia de la ciudad vive en sus edificios"
+        }
+      },
+      {
+        "t": "карта",
+        "es": "el mapa",
+        "pos": "n",
+        "ex": {
+          "t": "Без карты в горах сложно",
+          "es": "Sin mapa es difícil en las montañas"
+        }
+      },
+      {
+        "t": "граница",
+        "es": "la frontera",
+        "pos": "n",
+        "ex": {
+          "t": "На границе проверяют документы",
+          "es": "En la frontera revisan los documentos"
+        }
+      },
+      {
+        "t": "паспорт",
+        "es": "el pasaporte",
+        "pos": "n",
+        "ex": {
+          "t": "Паспорт всегда со мной в поездке",
+          "es": "El pasaporte siempre va conmigo en el viaje"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ru-conv",
+    "title": "Preguntas y conversación",
+    "emoji": "🗣️",
+    "words": [
+      {
+        "t": "извините",
+        "es": "disculpa",
+        "pos": "phr"
+      },
+      {
+        "t": "пожалуйста",
+        "es": "por favor",
+        "pos": "phr"
+      },
+      {
+        "t": "спасибо",
+        "es": "gracias",
+        "pos": "phr"
+      },
+      {
+        "t": "доброе утро",
+        "es": "buenos días",
+        "pos": "phr"
+      },
+      {
+        "t": "добрый вечер",
+        "es": "buenas tardes",
+        "pos": "phr"
+      },
+      {
+        "t": "пока",
+        "es": "hasta luego",
+        "pos": "phr"
+      },
+      {
+        "t": "хорошо",
+        "es": "vale",
+        "pos": "phr"
+      },
+      {
+        "t": "конечно",
+        "es": "claro",
+        "pos": "phr"
+      },
+      {
+        "t": "наверное",
+        "es": "seguramente",
+        "pos": "phr"
+      },
+      {
+        "t": "жаль",
+        "es": "qué pena",
+        "pos": "phr"
+      },
+      {
+        "t": "как дела?",
+        "es": "¿qué tal?",
+        "pos": "phr"
+      },
+      {
+        "t": "сколько стоит?",
+        "es": "¿cuánto vale?",
+        "pos": "phr"
+      },
+      {
+        "t": "где здесь туалет?",
+        "es": "¿dónde está el baño?",
+        "pos": "phr"
+      },
+      {
+        "t": "я не понимаю",
+        "es": "no lo entiendo",
+        "pos": "phr"
+      },
+      {
+        "t": "с удовольствием",
+        "es": "con gusto",
+        "pos": "phr"
+      }
     ]
   }
 ]

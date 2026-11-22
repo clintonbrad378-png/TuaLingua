@@ -1,0 +1,635 @@
+{
+  "id": "i1",
+  "title": "Bases para comunicarte",
+  "emoji": "👋",
+  "color": "#2F9BFF",
+  "lessons": [
+    {
+      "id": "i1l1",
+      "title": "Saludos y presentaciones",
+      "goal": "Saludar, presentarte y ser cortés",
+      "tip": [
+        "«Ciao» es informal; «Buongiorno» y «Buonasera» son más formales.",
+        "Para presentarte: «Mi chiamo…» o «Sono…»."
+      ],
+      "phrases": [
+        {
+          "es": "Hola, me llamo Ana",
+          "t": "Ciao, mi chiamo Ana"
+        },
+        {
+          "es": "Buenos días",
+          "t": "Buongiorno"
+        },
+        {
+          "es": "Mucho gusto",
+          "t": "Piacere"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i1l1e1",
+          "type": "choice",
+          "prompt": "¿Cómo se dice «hola» (informal)?",
+          "options": [
+            "Ciao",
+            "Grazie",
+            "Prego",
+            "Sera"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Hola",
+            "t": "Ciao"
+          }
+        },
+        {
+          "id": "i1l1e2",
+          "type": "choice",
+          "prompt": "«Buongiorno» significa…",
+          "options": [
+            "Buenos días",
+            "Buenas noches",
+            "Adiós",
+            "Perdón"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Buenos días",
+            "t": "Buongiorno"
+          }
+        },
+        {
+          "id": "i1l1e3",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Piacere di conoscerti",
+          "options": [
+            "Mucho gusto en conocerte",
+            "Tengo hambre",
+            "¿Dónde está la estación?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Mucho gusto en conocerte",
+            "t": "Piacere di conoscerti"
+          }
+        },
+        {
+          "id": "i1l1e4",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Mi ___ Ana.",
+          "options": [
+            "chiamo",
+            "sono",
+            "hai"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Me llamo Ana",
+            "t": "Mi chiamo Ana"
+          },
+          "explain": "«Mi chiamo» es la forma más común para decir tu nombre."
+        },
+        {
+          "id": "i1l1e5",
+          "type": "build",
+          "prompt": "Traduce: «Buenos días, soy Ana»",
+          "solution": "Buongiorno, sono Ana",
+          "distractors": [
+            "notte",
+            "chiamo"
+          ],
+          "pair": {
+            "es": "Buenos días, soy Ana",
+            "t": "Buongiorno, sono Ana"
+          }
+        },
+        {
+          "id": "i1l1e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «gracias»",
+          "solution": "grazie",
+          "accept": [
+            "grazie",
+            "Grazie"
+          ],
+          "pair": {
+            "es": "Gracias",
+            "t": "Grazie"
+          }
+        },
+        {
+          "id": "i1l1e7",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Hola",
+              "t": "Ciao"
+            },
+            {
+              "es": "Gracias",
+              "t": "Grazie"
+            },
+            {
+              "es": "Por favor",
+              "t": "Per favore"
+            },
+            {
+              "es": "Adiós",
+              "t": "Arrivederci"
+            }
+          ]
+        },
+        {
+          "id": "i1l1e8",
+          "type": "choice",
+          "prompt": "Elige la respuesta cortés a «Grazie»",
+          "options": [
+            "Prego",
+            "Ciao",
+            "Nome",
+            "Notte"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "De nada",
+            "t": "Prego"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i1l2",
+      "title": "Datos personales",
+      "goal": "Decir tu nombre, país y hablar de ti",
+      "tip": [
+        "«Sono di Spagna» = Soy de España.",
+        "«E tu?» sirve para devolver la pregunta."
+      ],
+      "phrases": [
+        {
+          "es": "Soy de España",
+          "t": "Sono di Spagna"
+        },
+        {
+          "es": "Vivo en Madrid",
+          "t": "Vivo a Madrid"
+        },
+        {
+          "es": "¿Y tú?",
+          "t": "E tu?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i1l2e1",
+          "type": "choice",
+          "prompt": "¿Cómo dices «Soy de España»?",
+          "options": [
+            "Sono di Spagna",
+            "Ho Spagna",
+            "Vado Spagna",
+            "Sei di Spagna"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy de España",
+            "t": "Sono di Spagna"
+          }
+        },
+        {
+          "id": "i1l2e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Vivo a Madrid",
+          "options": [
+            "Vivo en Madrid",
+            "Voy a Madrid",
+            "Soy Madrid"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Vivo en Madrid",
+            "t": "Vivo a Madrid"
+          }
+        },
+        {
+          "id": "i1l2e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "___ di Spagna.",
+          "options": [
+            "Sono",
+            "Sei",
+            "Ho"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Soy de España",
+            "t": "Sono di Spagna"
+          }
+        },
+        {
+          "id": "i1l2e4",
+          "type": "build",
+          "prompt": "Traduce: «Vivo en Roma»",
+          "solution": "Vivo a Roma",
+          "distractors": [
+            "di",
+            "sono"
+          ],
+          "pair": {
+            "es": "Vivo en Roma",
+            "t": "Vivo a Roma"
+          }
+        },
+        {
+          "id": "i1l2e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «¿y tú?»",
+          "solution": "e tu?",
+          "accept": [
+            "e tu?",
+            "E tu?",
+            "e tu"
+          ],
+          "pair": {
+            "es": "¿Y tú?",
+            "t": "E tu?"
+          }
+        },
+        {
+          "id": "i1l2e6",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Soy",
+              "t": "Sono"
+            },
+            {
+              "es": "Vivo",
+              "t": "Vivo"
+            },
+            {
+              "es": "España",
+              "t": "Spagna"
+            },
+            {
+              "es": "Italia",
+              "t": "Italia"
+            }
+          ]
+        },
+        {
+          "id": "i1l2e7",
+          "type": "choice",
+          "prompt": "«Dove abiti?» significa…",
+          "options": [
+            "¿Dónde vives?",
+            "¿Cómo te llamas?",
+            "¿Qué haces?",
+            "¿Cuántos años tienes?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde vives?",
+            "t": "Dove abiti?"
+          }
+        },
+        {
+          "id": "i1l2e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Dove ___?",
+          "options": [
+            "abiti",
+            "abito",
+            "abita"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Dónde vives?",
+            "t": "Dove abiti?"
+          },
+          "explain": "Con «tu» se usa «abiti»."
+        }
+      ]
+    },
+    {
+      "id": "i1l3",
+      "title": "Números y edad",
+      "goal": "Usar números básicos y decir tu edad",
+      "tip": [
+        "«Ho venti anni» = Tengo 20 años (en italiano se usa «tener»).",
+        "Los números 1-10 son la base para precios, horas y edad."
+      ],
+      "phrases": [
+        {
+          "es": "Tengo veinte años",
+          "t": "Ho venti anni"
+        },
+        {
+          "es": "Tengo un hermano",
+          "t": "Ho un fratello"
+        },
+        {
+          "es": "¿Cuántos años tienes?",
+          "t": "Quanti anni hai?"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i1l3e1",
+          "type": "choice",
+          "prompt": "«Ho venti anni» significa…",
+          "options": [
+            "Tengo veinte años",
+            "Tengo dos años",
+            "Tengo doce años",
+            "Tengo treinta años"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo veinte años",
+            "t": "Ho venti anni"
+          }
+        },
+        {
+          "id": "i1l3e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Quanti anni hai?",
+          "options": [
+            "¿Cuántos años tienes?",
+            "¿Dónde vives?",
+            "¿Qué hora es?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuántos años tienes?",
+            "t": "Quanti anni hai?"
+          }
+        },
+        {
+          "id": "i1l3e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Ho ___ anni.",
+          "options": [
+            "venti",
+            "due",
+            "sono"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tengo veinte años",
+            "t": "Ho venti anni"
+          }
+        },
+        {
+          "id": "i1l3e4",
+          "type": "build",
+          "prompt": "Traduce: «Tengo un hermano»",
+          "solution": "Ho un fratello",
+          "distractors": [
+            "sorella",
+            "sono"
+          ],
+          "pair": {
+            "es": "Tengo un hermano",
+            "t": "Ho un fratello"
+          }
+        },
+        {
+          "id": "i1l3e5",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Uno",
+              "t": "Uno"
+            },
+            {
+              "es": "Dos",
+              "t": "Due"
+            },
+            {
+              "es": "Tres",
+              "t": "Tre"
+            },
+            {
+              "es": "Cuatro",
+              "t": "Quattro"
+            }
+          ]
+        },
+        {
+          "id": "i1l3e6",
+          "type": "type",
+          "prompt": "Escribe en italiano: «cinco»",
+          "solution": "cinque",
+          "accept": [
+            "cinque",
+            "Cinque"
+          ],
+          "pair": {
+            "es": "Cinco",
+            "t": "Cinque"
+          }
+        },
+        {
+          "id": "i1l3e7",
+          "type": "choice",
+          "prompt": "Para la edad en italiano usas…",
+          "options": [
+            "avere (tener)",
+            "essere (ser)",
+            "andare (ir)",
+            "fare (hacer)"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Tener",
+            "t": "Avere"
+          }
+        },
+        {
+          "id": "i1l3e8",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Quanti anni ___?",
+          "options": [
+            "hai",
+            "ho",
+            "ha"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Cuántos años tienes?",
+            "t": "Quanti anni hai?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "i1l4",
+      "title": "Frases útiles del día a día",
+      "goal": "Usar frases cortas para comunicarte con educación",
+      "tip": [
+        "«Scusa» es informal, «Mi scusi» es formal.",
+        "«Non capisco» te ayuda cuando no entiendes."
+      ],
+      "phrases": [
+        {
+          "es": "No entiendo",
+          "t": "Non capisco"
+        },
+        {
+          "es": "¿Puedes repetir, por favor?",
+          "t": "Puoi ripetere, per favore?"
+        },
+        {
+          "es": "Disculpa",
+          "t": "Scusa"
+        }
+      ],
+      "exercises": [
+        {
+          "id": "i1l4e1",
+          "type": "choice",
+          "prompt": "«Non capisco» significa…",
+          "options": [
+            "No entiendo",
+            "No quiero",
+            "No tengo",
+            "No voy"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No entiendo",
+            "t": "Non capisco"
+          }
+        },
+        {
+          "id": "i1l4e2",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Puoi ripetere, per favore?",
+          "options": [
+            "¿Puedes repetir, por favor?",
+            "¿Puedes venir, por favor?",
+            "¿Puedes pagar, por favor?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Puedes repetir, por favor?",
+            "t": "Puoi ripetere, per favore?"
+          }
+        },
+        {
+          "id": "i1l4e3",
+          "type": "fill",
+          "prompt": "Completa la frase",
+          "sentence": "Non ___",
+          "options": [
+            "capisco",
+            "capisci",
+            "capire"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "No entiendo",
+            "t": "Non capisco"
+          }
+        },
+        {
+          "id": "i1l4e4",
+          "type": "build",
+          "prompt": "Traduce: «Disculpa, no entiendo»",
+          "solution": "Scusa, non capisco",
+          "distractors": [
+            "grazie",
+            "prego"
+          ],
+          "pair": {
+            "es": "Disculpa, no entiendo",
+            "t": "Scusa, non capisco"
+          }
+        },
+        {
+          "id": "i1l4e5",
+          "type": "type",
+          "prompt": "Escribe en italiano: «por favor»",
+          "solution": "per favore",
+          "accept": [
+            "per favore",
+            "Per favore"
+          ],
+          "pair": {
+            "es": "Por favor",
+            "t": "Per favore"
+          }
+        },
+        {
+          "id": "i1l4e6",
+          "type": "match",
+          "prompt": "Empareja cada palabra con su traducción",
+          "pairs": [
+            {
+              "es": "Disculpa",
+              "t": "Scusa"
+            },
+            {
+              "es": "No entiendo",
+              "t": "Non capisco"
+            },
+            {
+              "es": "Por favor",
+              "t": "Per favore"
+            },
+            {
+              "es": "De nada",
+              "t": "Prego"
+            }
+          ]
+        },
+        {
+          "id": "i1l4e7",
+          "type": "choice",
+          "prompt": "¿Qué dices si no oíste bien?",
+          "options": [
+            "Puoi ripetere, per favore?",
+            "Buongiorno",
+            "Mi chiamo Ana",
+            "Ho venti anni"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "¿Puedes repetir, por favor?",
+            "t": "Puoi ripetere, per favore?"
+          }
+        },
+        {
+          "id": "i1l4e8",
+          "type": "listen",
+          "prompt": "Escucha y elige la traducción",
+          "audio": "Scusa, non capisco",
+          "options": [
+            "Disculpa, no entiendo",
+            "Gracias, entiendo",
+            "Hola, ¿qué tal?"
+          ],
+          "answer": 0,
+          "pair": {
+            "es": "Disculpa, no entiendo",
+            "t": "Scusa, non capisco"
+          }
+        }
+      ]
+    }
+  ]
+}

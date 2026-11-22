@@ -1,6 +1,6 @@
 import { Component, type ErrorInfo, type ReactNode } from "react";
 import { t } from "../i18n";
-import Mascot from "./Mascot";
+import BrandMark from "./BrandMark";
 
 /** Última red de seguridad: si una pantalla explota, mostramos un fallback
  * recuperable en vez de dejar el WebView en blanco. */
@@ -32,7 +32,7 @@ export default class ErrorBoundary extends Component<
     return (
       <div className="app">
         <div className="screen splash" role="alert">
-          <Mascot mood="sad" size={110} />
+          <BrandMark size={84} />
           <p className="tag">{t("app.something_went_wrong")}</p>
           <p className="error-text">{error.message}</p>
           <button className="btn btn-primary" onClick={this.reset}>

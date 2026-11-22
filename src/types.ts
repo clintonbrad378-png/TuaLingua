@@ -1,5 +1,8 @@
 export type Phrase = { es: string; t: string };
 
+/** Palabra de vocabulario que puede traer frase de ejemplo (del diccionario). */
+export type VocabWord = Phrase & { ex?: Phrase | null };
+
 export type LanguageInfo = {
   id: string;
   title: string;
@@ -44,6 +47,14 @@ export type Lesson = {
   tip: string[];
   phrases: Phrase[];
   exercises: Exercise[];
+};
+
+/** Contenido de la miniclase que precede a los ejercicios de una lección. */
+export type TeachIntro = {
+  title: string;
+  goal: string;
+  tip: string[];
+  phrases: Phrase[];
 };
 
 export type Unit = {

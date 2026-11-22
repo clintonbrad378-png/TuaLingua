@@ -15,6 +15,20 @@ export const LANGS: LanguageInfo[] = [
     bcp47: "ru-RU",
     level: "A1–B2",
   },
+  {
+    id: "it",
+    title: "Italiano",
+    emoji: "🇮🇹",
+    bcp47: "it-IT",
+    level: "A1–B2",
+  },
+  {
+    id: "zh",
+    title: "Chino mandarín",
+    emoji: "🇨🇳",
+    bcp47: "zh-CN",
+    level: "A1–A2",
+  },
 ];
 
 export const DEFAULT_LANG = "en";

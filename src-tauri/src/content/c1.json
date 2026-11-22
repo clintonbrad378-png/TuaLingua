@@ -1,0 +1,385 @@
+{
+ "id": "c1",
+ "title": "Tonos y primeros saludos",
+ "emoji": "🌱",
+ "color": "#34D399",
+ "lessons": [
+  {
+   "id": "c1l1",
+   "title": "Los cuatro tonos y «hola»",
+   "goal": "Distingue los cuatro tonos del mandarín y saluda, agradece y despídete",
+   "tip": [
+    "El mandarín tiene 4 tonos: mā (1º, alto y plano), má (2º, sube), mǎ (3º, baja y sube) y mà (4º, cae). El quinto es neutro (a), breve y ligero.",
+    "En la app verás 汉字 (pīnyīn): primero el carácter, después su pronunciación con el tono marcado.",
+    "El mismo sonido cambia de sentido con el tono: 妈 (mā) madre, 麻 (má) cáñamo, 马 (mǎ) caballo y 骂 (mà) insultar."
+   ],
+   "phrases": [
+    { "es": "Hola", "t": "你好 (nǐ hǎo)" },
+    { "es": "Gracias", "t": "谢谢 (xièxie)" },
+    { "es": "Adiós", "t": "再见 (zàijiàn)" },
+    { "es": "Por favor", "t": "请 (qǐng)" },
+    { "es": "Lo siento", "t": "对不起 (duìbuqǐ)" },
+    { "es": "Vale", "t": "好 (hǎo)" }
+   ],
+   "exercises": [
+    {
+     "id": "c1l1e1",
+     "type": "choice",
+     "prompt": "«谢谢» significa…",
+     "options": ["Gracias", "Adiós", "Perdón", "Hola"],
+     "answer": 0,
+     "pair": { "es": "Gracias", "t": "谢谢 (xièxie)" },
+     "explain": "谢谢 (xièxie): 4º tono en xiè y tono neutro en xie."
+    },
+    {
+     "id": "c1l1e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «lo siento»?",
+     "options": ["对不起 (duìbuqǐ)", "好 (hǎo)", "再见 (zàijiàn)", "请 (qǐng)"],
+     "answer": 0,
+     "pair": { "es": "Lo siento", "t": "对不起 (duìbuqǐ)" }
+    },
+    {
+     "id": "c1l1e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "你好 (nǐ hǎo)",
+     "options": ["Hola", "Adiós", "Gracias", "Vale"],
+     "answer": 0,
+     "pair": { "es": "Hola", "t": "你好 (nǐ hǎo)" },
+     "explain": "Dos 3º tonos seguidos: el primero suena más parecido a un 2º tono (nín hǎo de saludo formal es otra cosa)."
+    },
+    {
+     "id": "c1l1e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «ma»?",
+     "audio": "妈 (mā)",
+     "options": ["妈 (mā) · 1º", "麻 (má) · 2º", "马 (mǎ) · 3º", "骂 (mà) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El primer tono", "t": "妈 (mā)" },
+     "explain": "El 1º tono es alto y se mantiene plano, como cantar una nota fija."
+    },
+    {
+     "id": "c1l1e5",
+     "type": "fill",
+     "prompt": "Completa la pregunta de cortesía en pinyin",
+     "sentence": "nǐ __ ma?",
+     "options": ["hǎo", "mà", "mā", "shì"],
+     "answer": 0,
+     "pair": { "es": "¿Qué tal?", "t": "你好吗 (nǐ hǎo ma)" },
+     "explain": "吗 (ma) neutro al final convierte la frase en pregunta."
+    },
+    {
+     "id": "c1l1e6",
+     "type": "build",
+     "prompt": "Traduce: «Estoy muy bien»",
+     "solution": "我 很 好",
+     "distractors": ["吗", "妈"],
+     "pair": { "es": "Estoy muy bien", "t": "我很好 (wǒ hěn hǎo)" },
+     "explain": "很 (hěn) acerca «muy» aunque el adjetivo solo no suele ir solo en chino."
+    },
+    {
+     "id": "c1l1e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Hola» (acepta hanzi o pinyin sin tonos)",
+     "solution": "你好",
+     "accept": ["你好", "ni hao"],
+     "pair": { "es": "Hola", "t": "你好 (nǐ hǎo)" }
+    },
+    {
+     "id": "c1l1e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Hola", "t": "你好 (nǐ hǎo)" },
+      { "es": "Gracias", "t": "谢谢 (xièxie)" },
+      { "es": "Adiós", "t": "再见 (zàijiàn)" },
+      { "es": "Por favor", "t": "请 (qǐng)" },
+      { "es": "Vale", "t": "好 (hǎo)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1l2",
+   "title": "Preguntas de siempre",
+   "goal": "Pregunta el nombre y responde con tu nombre",
+   "tip": [
+    "Las preguntas se forman añadiendo 吗 (ma) al final o usando palabras interrogativas: 什么 (shénme) «qué», 哪里 (nǎlǐ) «dónde».",
+    "请 (qǐng) sola vale por «por favor»; 请问 (qǐngwèn) añade «una pregunta»: la manera educada de abrir conversación.",
+    "什么 (shénme) = «qué», 哪里 (nǎlǐ) = «dónde»: están al final de la pregunta."
+   ],
+   "phrases": [
+    { "es": "Yo", "t": "我 (wǒ)" },
+    { "es": "Tú", "t": "你 (nǐ)" },
+    { "es": "¿Cómo te llamas?", "t": "你叫什么名字 (nǐ jiào shénme míngzi)" },
+    { "es": "Me llamo", "t": "我叫 (wǒ jiào)" },
+    { "es": "Perdón, una pregunta", "t": "请问 (qǐngwèn)" },
+    { "es": "Sí, correcto", "t": "对 (duì)" }
+   ],
+   "exercises": [
+    {
+     "id": "c1l2e1",
+     "type": "choice",
+     "prompt": "«我» significa…",
+     "options": ["Yo", "Tú", "Nombre", "Correcto"],
+     "answer": 0,
+     "pair": { "es": "Yo", "t": "我 (wǒ)" }
+    },
+    {
+     "id": "c1l2e2",
+     "type": "choice",
+     "prompt": "¿Cómo preguntas educadamente algo?",
+     "options": ["请问 (qǐngwèn)", "对 (duì)", "我 (wǒ)", "你 (nǐ)"],
+     "answer": 0,
+     "pair": { "es": "Perdón, una pregunta", "t": "请问 (qǐngwèn)" }
+    },
+    {
+     "id": "c1l2e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "你叫什么名字 (nǐ jiào shénme míngzi)",
+     "options": ["¿Cómo te llamas?", "¿Dónde está tu casa?", "¿Cuántos años tienes?", "Me llamo Ana"],
+     "answer": 0,
+     "pair": { "es": "¿Cómo te llamas?", "t": "你叫什么名字 (nǐ jiào shénme míngzi)" },
+     "explain": "叫 (jiào) es «llamar(se)»; 什么 (shénme), «qué»."
+    },
+    {
+     "id": "c1l2e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «ma»?",
+     "audio": "麻 (má)",
+     "options": ["麻 (má) · 2º", "妈 (mā) · 1º", "马 (mǎ) · 3º", "骂 (mà) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El segundo tono", "t": "麻 (má)" },
+     "explain": "El 2º tono sube desde medio a agudo, como si pidieras «¿ah sí?»."
+    },
+    {
+     "id": "c1l2e5",
+     "type": "fill",
+     "prompt": "Completa «nombre» en pinyin",
+     "sentence": "nǐ jiào shénme __",
+     "options": ["míngzi", "mā", "mà", "shì"],
+     "answer": 0,
+     "pair": { "es": "¿Cómo te llamas?", "t": "你叫什么名字 (nǐ jiào shénme míngzi)" },
+     "explain": "名字 (míngzi) es «nombre»: míng con 2º tono y zi neutro."
+    },
+    {
+     "id": "c1l2e6",
+     "type": "build",
+     "prompt": "Traduce: «¿Cómo te llamas?»",
+     "solution": "你 叫 什么 名字",
+     "distractors": ["我", "妈"],
+     "pair": { "es": "¿Cómo te llamas?", "t": "你叫什么名字 (nǐ jiào shénme míngzi)" }
+    },
+    {
+     "id": "c1l2e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Tú» (acepta hanzi o pinyin sin tonos)",
+     "solution": "你",
+     "accept": ["你", "ni"],
+     "pair": { "es": "Tú", "t": "你 (nǐ)" }
+    },
+    {
+     "id": "c1l2e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Yo", "t": "我 (wǒ)" },
+      { "es": "Tú", "t": "你 (nǐ)" },
+      { "es": "¿Cómo te llamas?", "t": "你叫什么名字 (nǐ jiào shénme míngzi)" },
+      { "es": "Perdón, una pregunta", "t": "请问 (qǐngwèn)" },
+      { "es": "Sí, correcto", "t": "对 (duì)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1l3",
+   "title": "La familia",
+   "goal": "Nombra a los tuyos en mandarín",
+   "tip": [
+    "家 (jiā) significa «casa y familia» de un tirón: 我家 (wǒ jiā) «mi casa / mi familia».",
+    "Los familiares se repiten (bàba, māma): suena más cariñoso que una sola sílaba."
+   ],
+   "phrases": [
+    { "es": "Papá", "t": "爸爸 (bàba)" },
+    { "es": "Mamá", "t": "妈妈 (māma)" },
+    { "es": "Hermano mayor", "t": "哥哥 (gēge)" },
+    { "es": "Hermana menor", "t": "妹妹 (mèimei)" },
+    { "es": "Familia y casa", "t": "家 (jiā)" },
+    { "es": "Hijo", "t": "儿子 (érzi)" }
+   ],
+   "exercises": [
+    {
+     "id": "c1l3e1",
+     "type": "choice",
+     "prompt": "«妈妈» significa…",
+     "options": ["Mamá", "Hijo", "Casa", "Hermana menor"],
+     "answer": 0,
+     "pair": { "es": "Mamá", "t": "妈妈 (māma)" },
+     "explain": "Fíjate: 妈 (mā) con 1º tono, mientras 马 (mǎ) caballo lleva 3º."
+    },
+    {
+     "id": "c1l3e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «hermana menor»?",
+     "options": ["妹妹 (mèimei)", "哥哥 (gēge)", "妈妈 (māma)", "儿子 (érzi)"],
+     "answer": 0,
+     "pair": { "es": "Hermana menor", "t": "妹妹 (mèimei)" }
+    },
+    {
+     "id": "c1l3e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "我 家 在 北京 (wǒ jiā zài Běijīng)",
+     "options": ["Mi casa está en Pekín", "Mi hermano trabaja en Pekín", "¿Dónde está tu casa?", "Vivo con mi familia"],
+     "answer": 0,
+     "pair": { "es": "Mi casa está en Pekín", "t": "我家在北京 (wǒ jiā zài Běijīng)" },
+     "explain": "在 (zài) es «estar en» un lugar."
+    },
+    {
+     "id": "c1l3e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «ba»?",
+     "audio": "拔 (bá)",
+     "options": ["拔 (bá) · 2º", "八 (bā) · 1º", "把 (bǎ) · 3º", "爸 (bà) · 4º"],
+     "answer": 0,
+     "pair": { "es": "El segundo tono", "t": "拔 (bá)" },
+     "explain": "El 2º tono empieza medio y sube, como cuando pides que te repitan: «¿eh?»."
+    },
+    {
+     "id": "c1l3e5",
+     "type": "fill",
+     "prompt": "Completa «papá» en pinyin",
+     "sentence": "wǒ de __ zài jiā",
+     "options": ["bàba", "māma", "gēge", "mèimei"],
+     "answer": 0,
+     "pair": { "es": "Mi papá está en casa", "t": "我的爸爸在家 (wǒ de bàba zài jiā)" },
+     "explain": "的 (de) une el poseedor: 我 de casa = «mi casa»."
+    },
+    {
+     "id": "c1l3e6",
+     "type": "build",
+     "prompt": "Traduce: «Mi casa está en Pekín»",
+     "solution": "我 家 在 北京",
+     "distractors": ["妈", "儿"],
+     "pair": { "es": "Mi casa está en Pekín", "t": "我家在北京 (wǒ jiā zài Běijīng)" }
+    },
+    {
+     "id": "c1l3e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Familia y casa» (acepta hanzi o pinyin sin tonos)",
+     "solution": "家",
+     "accept": ["家", "jia"],
+     "pair": { "es": "Familia y casa", "t": "家 (jiā)" }
+    },
+    {
+     "id": "c1l3e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Papá", "t": "爸爸 (bàba)" },
+      { "es": "Mamá", "t": "妈妈 (māma)" },
+      { "es": "Hermano mayor", "t": "哥哥 (gēge)" },
+      { "es": "Hermana menor", "t": "妹妹 (mèimei)" },
+      { "es": "Familia y casa", "t": "家 (jiā)" }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c1l4",
+   "title": "Los números",
+   "goal": "Cuenta de uno a diez y pregunta «¿cuántos?»",
+   "tip": [
+    "一 (yī) cambia de tono según lo que sigue: cuando se cuenta va casi plano, pero en palabras suena yí o yì. Escucha y repite."
+   ],
+   "phrases": [
+    { "es": "Uno", "t": "一 (yī)" },
+    { "es": "Tres", "t": "三 (sān)" },
+    { "es": "Cinco", "t": "五 (wǔ)" },
+    { "es": "Siete", "t": "七 (qī)" },
+    { "es": "Diez", "t": "十 (shí)" },
+    { "es": "¿Cuántos?", "t": "几 (jǐ)" }
+   ],
+   "exercises": [
+    {
+     "id": "c1l4e1",
+     "type": "choice",
+     "prompt": "«五» significa…",
+     "options": ["Cinco", "Siete", "Diez", "Dos"],
+     "answer": 0,
+     "pair": { "es": "Cinco", "t": "五 (wǔ)" }
+    },
+    {
+     "id": "c1l4e2",
+     "type": "choice",
+     "prompt": "¿Cuál es «diez»?",
+     "options": ["十 (shí)", "三 (sān)", "七 (qī)", "一 (yī)"],
+     "answer": 0,
+     "pair": { "es": "Diez", "t": "十 (shí)" }
+    },
+    {
+     "id": "c1l4e3",
+     "type": "listen",
+     "prompt": "Escucha y elige la traducción",
+     "audio": "一 (yī) 三 (sān) 五 (wǔ)",
+     "options": ["Uno, tres, cinco", "Dos, cuatro, seis", "Tres, cinco, siete", "Cinco, siete, diez"],
+     "answer": 0,
+     "pair": { "es": "Cinco", "t": "五 (wǔ)" },
+     "explain": "五 (wǔ) lleva 3º tono: la voz baja y luego sube."
+    },
+    {
+     "id": "c1l4e4",
+     "type": "listen",
+     "prompt": "Escucha: ¿qué tono oyes en «ji»?",
+     "audio": "几 (jǐ)",
+     "options": ["几 (jǐ) · 3º", "鸡 (jī) · 1º", "急 (jí) · 2º", "记 (jì) · 4º"],
+     "answer": 0,
+     "pair": { "es": "¿Cuántos?", "t": "几 (jǐ)" },
+     "explain": "3º tono: la voz baja y vuelve a subir."
+    },
+    {
+     "id": "c1l4e5",
+     "type": "fill",
+     "prompt": "Completa la secuencia en pinyin",
+     "sentence": "yī èr __ sì wǔ",
+     "options": ["sān", "ì", "shì", "liù"],
+     "answer": 0,
+     "pair": { "es": "Tres", "t": "三 (sān)" },
+     "explain": "Contar: 一 (yī) 二 (èr) 三 (sān) 四 (sì) 五 (wǔ)."
+    },
+    {
+     "id": "c1l4e6",
+     "type": "build",
+     "prompt": "Traduce: «Cuántas personas?»",
+     "solution": "几 个 人",
+     "distractors": ["吧"],
+     "pair": { "es": "¿Cuántas personas?", "t": "几个人 (jǐ ge rén)" },
+     "explain": "人 (rén) es «persona», y 个 (ge) la medida genérica para contar."
+    },
+    {
+     "id": "c1l4e7",
+     "type": "type",
+     "prompt": "Escribe en Chino mandarín: «Siete» (acepta hanzi o pinyin sin tonos)",
+     "solution": "七",
+     "accept": ["七", "qi"],
+     "pair": { "es": "Siete", "t": "七 (qī)" }
+    },
+    {
+     "id": "c1l4e8",
+     "type": "match",
+     "prompt": "Une cada palabra con su traducción",
+     "pairs": [
+      { "es": "Uno", "t": "一 (yī)" },
+      { "es": "Tres", "t": "三 (sān)" },
+      { "es": "Cinco", "t": "五 (wǔ)" },
+      { "es": "Siete", "t": "七 (qī)" },
+      { "es": "Diez", "t": "十 (shí)" }
+     ]
+    }
+   ]
+  }
+ ]
+}

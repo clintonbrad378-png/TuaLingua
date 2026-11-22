@@ -2,17 +2,20 @@ const BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
 import { langBcp47, langOf } from "./langs";
 
-/* Solo mp3: los dos formatos duplicaban el tamaño de la app y los WebViews
- * donde corre Tauri (Chromium/WKWebView/webkit2gtk) reproducen mp3 sin
- * problemas. Si un clip falla, la cadena cae al TTS del sistema. */
+export type AudioMode = "clip" | "tts";
+
+const AUDIO_MODE_KEY = "tl-audio-mode";
 
 let ctx: AudioContext | null = null;
 let muted = false;
-let activated = false;
 let voiceLang = "en";
+let audioMode: AudioMode =
+  typeof localStorage !== "undefined" && localStorage.getItem(AUDIO_MODE_KEY) === "tts"
+    ? "tts"
+    : "clip";
 
 export function markActivated() {
-  activated = true;
+  // kept for backward-compatible call sites
 }
 
 export function setVoiceLanguage(lang: string) {
@@ -21,6 +24,16 @@ export function setVoiceLanguage(lang: string) {
     voiceLang = norm;
     voiceCache.clear();
   }
+}
+
+export function setAudioMode(mode: AudioMode) {
+  audioMode = mode;
+  if (typeof localStorage !== "undefined") localStorage.setItem(AUDIO_MODE_KEY, mode);
+  if (mode === "tts") stopClip();
+}
+
+export function getAudioMode(): AudioMode {
+  return audioMode;
 }
 
 export function setMuted(value: boolean) {
@@ -113,7 +126,10 @@ function hex(value: number): string {
 }
 
 export function clipKey(text: string): string {
-  const norm = text.trim().replace(/\s+/g, " ");
+  const norm = text
+    .replace(/[(（][^)）]*[)）]/g, " ")
+    .trim()
+    .replace(/\s+/g, " ");
   return hex(fnv1a(norm)) + hex(fnv1a(`${norm}#tualingua`));
 }
 
@@ -158,6 +174,7 @@ function clipEl(url: string): HTMLAudioElement {
 }
 
 export function preloadClip(text: string) {
+  if (audioMode === "tts") return;
   const el = clipEl(trimUrl(text));
   try {
     el.load();
@@ -166,7 +183,7 @@ export function preloadClip(text: string) {
   }
 }
 
-export function stopSpeech() {
+function stopClip() {
   if (current) {
     try {
       current.pause();
@@ -176,6 +193,10 @@ export function stopSpeech() {
     }
     current = null;
   }
+}
+
+export function stopSpeech() {
+  stopClip();
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
 }
 
@@ -212,12 +233,17 @@ function playChain(text: string, rate: number) {
 }
 
 export function speak(text: string, rate = 1) {
-  if (muted || !text || !activated) return;
+  if (muted || !text) return;
+  markActivated();
   stopSpeech();
+  if (audioMode === "tts") {
+    ttsSpeak(text, rate);
+    return;
+  }
   playChain(text, rate);
 }
 
-/* ---------- TTS del sistema (respaldo) ---------- */
+/* ---------- TTS del sistema ---------- */
 
 let voicesReady = false;
 const voiceCache = new Map<string, SpeechSynthesisVoice>();
@@ -228,12 +254,12 @@ function pickVoice(): SpeechSynthesisVoice | null {
   if (voiceCache.has(bcp)) return voiceCache.get(bcp) ?? null;
   const voices = window.speechSynthesis.getVoices();
   if (!voices.length) return null;
-  const base = bcp.split("-")[0];
+  const base = bcp.split("-")[0].toLowerCase();
+  const normLang = (v: SpeechSynthesisVoice) => v.lang.replace("_", "-").toLowerCase();
   const found =
-    voices.find((v) => v.lang === bcp && /google|natural|samantha/i.test(v.name)) ??
-    voices.find((v) => v.lang === bcp) ??
-    voices.find((v) => v.lang.replace("_", "-").toLowerCase() === base) ??
-    voices.find((v) => v.lang.toLowerCase().startsWith(base)) ??
+    voices.find((v) => normLang(v) === bcp.toLowerCase() && /google|natural|samantha|enhanced/i.test(v.name)) ??
+    voices.find((v) => normLang(v) === bcp.toLowerCase()) ??
+    voices.find((v) => normLang(v).startsWith(base)) ??
     null;
   if (found) voiceCache.set(bcp, found);
   return found ?? null;
@@ -258,7 +284,8 @@ export function ttsAvailable(): boolean {
 function ttsSpeak(text: string, rate: number) {
   if (muted || !("speechSynthesis" in window)) return;
   const bcp = langBcp47(voiceLang);
-  const u = new SpeechSynthesisUtterance(text);
+  const clean = text.replace(/[(（][^)）]*[)）]/g, " ").replace(/\s+/g, " ").trim();
+  const u = new SpeechSynthesisUtterance(clean || text);
   u.lang = bcp;
   u.rate = rate;
   const found = pickVoice();
@@ -266,4 +293,3 @@ function ttsSpeak(text: string, rate: number) {
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(u);
 }
-

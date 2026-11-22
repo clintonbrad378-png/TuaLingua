@@ -44,10 +44,26 @@ const RU_SOURCES: [&str; 8] = [
     include_str!("content/r8.json"),
 ];
 
+const ZH_SOURCES: [&str; 4] = [
+    include_str!("content/c1.json"),
+    include_str!("content/c2.json"),
+    include_str!("content/c3.json"),
+    include_str!("content/c4.json"),
+];
+
+const IT_SOURCES: [&str; 4] = [
+    include_str!("content/i1.json"),
+    include_str!("content/i2.json"),
+    include_str!("content/i3.json"),
+    include_str!("content/i4.json"),
+];
+
 fn sources(id: &str) -> Option<&[&str]> {
     match id {
         "en" => Some(&EN_SOURCES),
         "ru" => Some(&RU_SOURCES),
+        "it" => Some(&IT_SOURCES),
+        "zh" => Some(&ZH_SOURCES),
         _ => None,
     }
 }
@@ -140,6 +156,20 @@ fn language_info() -> &'static Vec<LanguageInfo> {
                 bcp47: "ru-RU".into(),
                 level: "A1–B2".into(),
             },
+            LanguageInfo {
+                id: "it".into(),
+                title: "Italiano".into(),
+                emoji: "🇮🇹".into(),
+                bcp47: "it-IT".into(),
+                level: "A1–A2".into(),
+            },
+            LanguageInfo {
+                id: "zh".into(),
+                title: "Chino mandarín".into(),
+                emoji: "🇨🇳".into(),
+                bcp47: "zh-CN".into(),
+                level: "A1–A2".into(),
+            },
         ]
     })
 }
@@ -202,7 +232,7 @@ mod tests {
 
     #[test]
     fn catalog_json_matches_catalog() {
-        for lang in ["en", "ru"] {
+        for lang in ["en", "ru", "it"] {
             let units = catalog(lang);
             let value = catalog_json(lang);
             let arr = value.as_array().expect("catálogo json es un array");
@@ -296,13 +326,19 @@ mod tests {
         s.chars().filter(|c| ('\u{0400}'..='\u{04FF}').contains(c)).count()
     }
 
+    fn hanzi_count(s: &str) -> usize {
+        s.chars().filter(|c| ('\u{4E00}'..='\u{9FFF}').contains(c)).count()
+    }
+
     #[test]
     fn catalog_is_valid() {
         let en_exercises = validate("en", 12, 340);
         let ru_exercises = validate("ru", 8, 230);
+        let it_exercises = validate("it", 4, 100);
+        let zh_exercises = validate("zh", 4, 100);
         assert!(
-            en_exercises + ru_exercises >= 580,
-            "total {en_exercises} + {ru_exercises}"
+            en_exercises + ru_exercises + it_exercises + zh_exercises >= 780,
+            "total {en_exercises} + {ru_exercises} + {it_exercises} + {zh_exercises}"
         );
     }
 
@@ -348,6 +384,19 @@ mod tests {
     }
 
     #[test]
+    fn italian_content_is_present() {
+        for unit in catalog("it") {
+            assert!(!unit.lessons.is_empty());
+            for lesson in &unit.lessons {
+                for phrase in &lesson.phrases {
+                    assert!(!phrase.t.trim().is_empty());
+                    assert!(!phrase.es.trim().is_empty());
+                }
+            }
+        }
+    }
+
+    #[test]
     fn english_content_has_no_cyrillic() {
         for unit in catalog("en") {
             for lesson in &unit.lessons {
@@ -357,6 +406,97 @@ mod tests {
                 for ex in &lesson.exercises {
                     if let Some(pair) = &ex.pair {
                         assert_eq!(cyrillic_count(&pair.t), 0, "{}", ex.id);
+                    }
+                }
+            }
+        }
+    }
+
+    #[test]
+    fn chinese_content_uses_hanzi() {
+        for unit in catalog("zh") {
+            assert!(
+                unit.lessons
+                    .iter()
+                    .flat_map(|l| l.tip.iter())
+                    .any(|tip| tip.contains("tono")),
+                "{} no explica los tonos",
+                unit.id
+            );
+            for lesson in &unit.lessons {
+                for phrase in &lesson.phrases {
+                    assert!(
+                        hanzi_count(&phrase.t) > 0,
+                        "frase sin hanzi en {}: {}",
+                        lesson.id,
+                        phrase.t
+                    );
+                    assert!(
+                        phrase.t.contains('('),
+                        "frase sin pinyin entre paréntesis en {}: {}",
+                        lesson.id,
+                        phrase.t
+                    );
+                }
+                for ex in &lesson.exercises {
+                    if let Some(pair) = &ex.pair {
+                        assert!(
+                            hanzi_count(&pair.t) > 0,
+                            "pair sin hanzi en {}: {}",
+                            ex.id,
+                            pair.t
+                        );
+                    }
+                    match &ex.kind {
+                        ExerciseKind::Listen { audio, .. } => {
+                            assert!(hanzi_count(audio) > 0, "audio sin hanzi en {}", ex.id);
+                        }
+                        ExerciseKind::Build { solution, .. }
+                        | ExerciseKind::Type { solution, .. } => {
+                            assert!(
+                                hanzi_count(solution) > 0,
+                                "solución sin hanzi en {}",
+                                ex.id
+                            );
+                        }
+                        ExerciseKind::Match { pairs } => {
+                            for pair in pairs {
+                                assert!(
+                                    hanzi_count(&pair.t) > 0,
+                                    "match sin hanzi en {}",
+                                    ex.id
+                                );
+                            }
+                        }
+                        _ => {}
+                    }
+                }
+            }
+        }
+    }
+
+    #[test]
+    fn zh_type_accepts_pinyin_sin_tonos() {
+        const TONES: &str = "āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ";
+        for unit in catalog("zh") {
+            for lesson in &unit.lessons {
+                for ex in &lesson.exercises {
+                    if let ExerciseKind::Type { solution, accept } = &ex.kind {
+                        assert_eq!(
+                            hanzi_count(solution),
+                            solution.chars().count(),
+                            "solution de type no es hanzi puro en {}",
+                            ex.id
+                        );
+                        for a in accept {
+                            assert!(
+                                hanzi_count(a) > 0
+                                    || !TONES.chars().any(|tone| a.contains(tone)),
+                                "accept con pinyin tonalizado en {}: {}",
+                                ex.id,
+                                a
+                            );
+                        }
                     }
                 }
             }
