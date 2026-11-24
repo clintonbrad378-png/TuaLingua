@@ -210,10 +210,11 @@ export async function listTtsVoices(): Promise<TtsVoice[]> {
   const out: TtsVoice[] = [];
   if (inTauri) {
     try {
-      const native = await invoke<Array<{ id: string; name: string; lang: string; default?: boolean }>>(
+      const native = await invoke<Array<{ id: string; name: string; lang: string; default?: boolean }> | { voices?: Array<{ id: string; name: string; lang: string; default?: boolean }> }>(
         "plugin:native-tts|voices",
       );
-      for (const v of native) {
+      const list = Array.isArray(native) ? native : native.voices ?? [];
+      for (const v of list) {
         out.push({ ...v, engine: "native" });
       }
     } catch {

@@ -118,7 +118,9 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
                 Log.w(TAG, "No se pudieron listar voces", e)
             }
         }
-        invoke.resolve(arr)
+        val out = JSObject()
+        out.put("voices", arr)
+        invoke.resolve(out)
     }
 
     override fun onDestroy(activity: AppCompatActivity) {
