@@ -2,6 +2,21 @@ import { useEffect, useRef, useState } from "react";
 import type { ProgressState, SrsCard, Unit } from "../types";
 import { plural, setUiLang, UI_LANGS, levelTitle, uiLang, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
+import {
+  getTtsEngine,
+  getTtsRate,
+  getTtsVoicePref,
+  listTtsVoices,
+  setTtsEngine,
+  setTtsRate,
+  setTtsVoicePref,
+  testTts,
+  getTtsError,
+  subscribeAudio,
+  type TtsEngine,
+  type TtsVoice,
+} from "../lib/audio";
+import { langBcp47 } from "../lib/langs";
 import { IconFlame, IconBolt, IconTrophy, IconTarget, IconBook, IconBrain, IconClock } from "../components/icons";
 
 const CAL_WEEKS = 13;
@@ -76,6 +91,11 @@ export default function StatsSheet({
   const [busy, setBusy] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [uiSelect, setUiSelect] = useState<ReturnType<typeof uiLang>>(uiLang());
+  const [ttsEngine, setTtsEngineState] = useState<TtsEngine>(() => getTtsEngine());
+  const [ttsRate, setTtsRateState] = useState<number>(() => getTtsRate());
+  const [ttsVoice, setTtsVoiceState] = useState<string>(() => getTtsVoicePref());
+  const [ttsVoices, setTtsVoices] = useState<TtsVoice[]>([]);
+  const [ttsError, setTtsError] = useState<string | null>(() => getTtsError());
   const [theme, setTheme] = useState<Theme>(() => {
     const v = localStorage.getItem("tl-theme");
     return v === "light" || v === "dark" ? v : "auto";
@@ -85,6 +105,17 @@ export default function StatsSheet({
     document.documentElement.dataset.theme = theme === "auto" ? "" : theme;
     localStorage.setItem("tl-theme", theme);
   }, [theme]);
+
+  useEffect(() => {
+    const unsub = subscribeAudio(() => { setTtsError(getTtsError()); });
+    return () => { unsub(); };
+  }, []);
+
+  useEffect(() => {
+    let alive = true;
+    void listTtsVoices().then((v) => { if (alive) setTtsVoices(v); });
+    return () => { alive = false; };
+  }, [ttsEngine, progress.lang]);
 
   useSheetFocus(sheetRef, true, onClose);
 
@@ -295,6 +326,60 @@ export default function StatsSheet({
               ))}
             </div>
           </div>
+          <div className="set-row set-col">
+            <span className="set-name">{t("st.tts_engine")}</span>
+            <div className="set-ctl theme-toggle">
+              {(["auto", "native", "web"] as const).map((id) => (
+                <button
+                  key={id}
+                  className={`step-btn aux ${ttsEngine === id ? "on" : ""}`}
+                  aria-pressed={ttsEngine === id}
+                  onClick={() => { setTtsEngineState(id); setTtsEngine(id); }}
+                >
+                  {t(`st.tts_engine_${id}`)}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="set-row set-col">
+            <span className="set-name">{t("st.tts_voice")}</span>
+            <select
+              className="set-select"
+              value={ttsVoice}
+              onChange={(e) => { setTtsVoiceState(e.target.value); setTtsVoicePref(e.target.value); }}
+              aria-label={t("st.tts_voice")}
+            >
+              <option value="">{t("st.tts_voice_default")}</option>
+              {ttsVoices
+                .filter((v) => {
+                  const bcp = langBcp47(progress.lang).toLowerCase().split("-")[0];
+                  return !v.lang || v.lang.toLowerCase().replace("_", "-").startsWith(bcp);
+                })
+                .map((v) => (
+                  <option key={`${v.engine}:${v.id}`} value={v.engine === "web" ? `web:${v.id.replace(/^web:/, "")}` : v.id}>
+                    {v.name} ({v.engine})
+                  </option>
+                ))}
+            </select>
+          </div>
+          <div className="set-row">
+            <span className="set-name">{t("st.tts_rate")}</span>
+            <div className="set-ctl">
+              <input
+                type="range"
+                min={0.5}
+                max={1.5}
+                step={0.1}
+                value={ttsRate}
+                onChange={(e) => { const n = Number(e.target.value); setTtsRateState(n); setTtsRate(n); }}
+                aria-label={t("st.tts_rate")}
+              />
+              <strong className="set-val">{ttsRate.toFixed(1)}x</strong>
+              <button className="step-btn aux" onClick={() => void testTts()}>{t("st.tts_test")}</button>
+            </div>
+          </div>
+          {ttsError && <p className="sheet-hint warn">{t("st.tts_error")}: {ttsError}</p>}
+          <p className="sheet-hint">{t("st.tts_hint")}</p>
           <div className="set-row">
             <span className="set-name">{t("st.export")} / {t("st.import")}</span>
             <div className="set-ctl">

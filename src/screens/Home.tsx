@@ -107,21 +107,23 @@ export default function Home({
     <div className="screen home-v2">
       <header className="topbar">
         <div className="topbar-brand">
-          <BrandMark size={36} />
-          <div>
+          <BrandMark size={44} />
+          <div className="topbar-brand-copy">
             <p className="topbar-name">TuaLingua</p>
             <button className="topbar-lang" onClick={() => setPickOpen(true)} aria-label={t("home.change_lang")}>
-              {langOf(lang).emoji} {targetLangName(lang)}
+              <span className="topbar-lang-flag" aria-hidden="true">{langOf(lang).emoji}</span>
+              <span className="topbar-lang-label">{targetLangName(lang)}</span>
+              <span className="topbar-lang-caret" aria-hidden="true">▾</span>
             </button>
           </div>
         </div>
         <div className="topbar-actions">
-          <div className="stat-pill" title={t("st.streak")}><IconFlame size={16} /><span>{progress.streak}</span></div>
-          <div className="stat-pill" title={t("st.xp_total")}><IconBolt size={16} /><span>{progress.xp}</span></div>
+          <div className="stat-pill" title={t("st.streak")}><IconFlame size={18} /><span>{progress.streak}</span></div>
+          <div className="stat-pill" title={t("st.xp_total")}><IconBolt size={18} /><span>{progress.xp}</span></div>
           <button className="icon-circle" onClick={() => setMutedUi((m) => !m)} aria-label={muted ? t("home.unmute") : t("home.mute")}>
-            {muted ? <IconMute size={18}/> : <IconVolume size={18}/>} 
+            {muted ? <IconMute size={20}/> : <IconVolume size={20}/>} 
           </button>
-          <button className="icon-circle" onClick={onStats} aria-label={t("home.stats")}><IconSettings size={18}/></button>
+          <button className="icon-circle" onClick={onStats} aria-label={t("home.stats")}><IconSettings size={20}/></button>
         </div>
       </header>
 

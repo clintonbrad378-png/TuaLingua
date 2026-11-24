@@ -18,13 +18,13 @@ Aprende idiomas desde el español con práctica enfocada en frases útiles. App 
 - **Idioma de la interfaz** seleccionable (español / inglés)
 - Tema oscuro en toda la interfaz (y en la status bar de Android)
 - Navegación completa con teclado y estilo accesible (foco visible, diálogos con foco atrapado, `prefers-reduced-motion`)
-- **Audio flexible**: clips empaquetados cuando existen y opción en Ajustes para usar TTS nativo del teléfono/dispositivo (útil cuando falta un clip o prefieres voz del sistema).
+- **Audio flexible**: TTS nativo del dispositivo (Android `TextToSpeech` vía plugin propio de Tauri) y Web Speech en escritorio, con selección automática de voz e idioma.
 - Audio de interfaz y háptica generados en tiempo de ejecución, sin assets externos
 - Offline-first: el contenido y progreso se guardan localmente; el audio puede usar clips locales o TTS del dispositivo.
 
 ## Audio
 
-La app usa TTS nativo del dispositivo (`speechSynthesis`) para pronunciar palabras y frases. No se empaquetan archivos de audio.
+La app pronuncia palabras y frases con la voz del sistema. En Android usa el motor TTS nativo (`TextToSpeech`) mediante el plugin local `src-tauri/plugins/tauri-plugin-native-tts`, porque el WebView de Android no implementa `speechSynthesis`. En escritorio usa la Web Speech API. No se empaquetan archivos de audio.
 
 ## Desarrollo
 

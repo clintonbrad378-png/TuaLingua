@@ -213,6 +213,7 @@ fn import_progress(path: String, state: State<'_, AppState>) -> Res<Value> {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_dialog::init())
+        .plugin(tauri_plugin_native_tts::init())
         .setup(|app| {
             let dir = app.path().app_data_dir()?;
             let path = dir.join("progress.json");

@@ -1,8 +1,96 @@
+import { invoke, isTauri } from "@tauri-apps/api/core";
 import { langBcp47, langOf } from "./langs";
+
+export type TtsEngine = "auto" | "native" | "web";
+export type TtsVoice = { id: string; name: string; lang: string; default?: boolean; engine: "native" | "web" };
+export type TtsStatus = { available: boolean; engine: "native" | "web" | "none"; error?: string | null };
+
+const ENGINE_KEY = "tl-tts-engine";
+const VOICE_KEY = "tl-tts-voice";
+const RATE_KEY = "tl-tts-rate";
 
 let ctx: AudioContext | null = null;
 let muted = false;
 let voiceLang = "en";
+let enginePref: TtsEngine = readEngine();
+let voicePref: string = typeof localStorage !== "undefined" ? localStorage.getItem(VOICE_KEY) ?? "" : "";
+let ratePref: number = readRate();
+let lastError: string | null = null;
+const listeners = new Set<() => void>();
+
+const inTauri = typeof window !== "undefined" && isTauri();
+const isAndroid =
+  typeof navigator !== "undefined" && /Android/i.test(navigator.userAgent);
+
+function readEngine(): TtsEngine {
+  if (typeof localStorage === "undefined") return "auto";
+  const v = localStorage.getItem(ENGINE_KEY);
+  return v === "native" || v === "web" || v === "auto" ? v : "auto";
+}
+
+function readRate(): number {
+  if (typeof localStorage === "undefined") return 1;
+  const v = Number(localStorage.getItem(RATE_KEY));
+  return Number.isFinite(v) ? Math.min(1.5, Math.max(0.5, v)) : 1;
+}
+
+function emit() {
+  listeners.forEach((fn) => fn());
+}
+
+export function subscribeAudio(fn: () => void) {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
+export function getTtsError() {
+  return lastError;
+}
+
+function setError(err: unknown) {
+  const msg = err instanceof Error ? err.message : typeof err === "string" ? err : null;
+  if (msg && msg !== lastError) {
+    lastError = msg;
+    emit();
+  }
+}
+
+function clearError() {
+  if (lastError !== null) {
+    lastError = null;
+    emit();
+  }
+}
+
+export function getTtsEngine(): TtsEngine {
+  return enginePref;
+}
+
+export function setTtsEngine(v: TtsEngine) {
+  enginePref = v;
+  if (typeof localStorage !== "undefined") localStorage.setItem(ENGINE_KEY, v);
+  emit();
+}
+
+export function getTtsVoicePref() {
+  return voicePref;
+}
+
+export function setTtsVoicePref(id: string) {
+  voicePref = id;
+  if (typeof localStorage !== "undefined") localStorage.setItem(VOICE_KEY, id);
+  emit();
+}
+
+export function getTtsRate() {
+  return ratePref;
+}
+
+export function setTtsRate(v: number) {
+  ratePref = Math.min(1.5, Math.max(0.5, v));
+  if (typeof localStorage !== "undefined") localStorage.setItem(RATE_KEY, String(ratePref));
+  emit();
+}
 
 export function markActivated() {
   // kept for backward-compatible call sites
@@ -13,12 +101,14 @@ export function setVoiceLanguage(lang: string) {
   if (norm !== voiceLang) {
     voiceLang = norm;
     voiceCache.clear();
+    emit();
   }
 }
 
 export function setMuted(value: boolean) {
   muted = value;
   if (muted) stopSpeech();
+  emit();
 }
 
 export function isMuted() {
@@ -87,64 +177,172 @@ export function vibrate(pattern: number | number[]) {
   }
 }
 
-export function stopSpeech() {
-  if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
+/* ---------- TTS providers ---------- */
+
+function webSpeechAvailable() {
+  return typeof window !== "undefined" && "speechSynthesis" in window;
+}
+
+function shouldUseNative() {
+  if (enginePref === "web") return false;
+  if (enginePref === "native") return inTauri;
+  return inTauri && isAndroid;
+}
+
+function shouldUseWebFallback() {
+  if (enginePref === "native") return false;
+  return webSpeechAvailable();
+}
+
+export async function getNativeTtsStatus(): Promise<TtsStatus> {
+  if (!inTauri) return { available: false, engine: "native", error: "not-tauri" };
+  try {
+    const res = await invoke<{ available: boolean; engine?: string; error?: string | null }>(
+      "plugin:native-tts|status",
+    );
+    return { available: !!res.available, engine: "native", error: res.error ?? null };
+  } catch (e) {
+    return { available: false, engine: "native", error: e instanceof Error ? e.message : String(e) };
   }
 }
 
-/* ---------- TTS del sistema (Android) ---------- */
+export async function listTtsVoices(): Promise<TtsVoice[]> {
+  const out: TtsVoice[] = [];
+  if (inTauri) {
+    try {
+      const native = await invoke<Array<{ id: string; name: string; lang: string; default?: boolean }>>(
+        "plugin:native-tts|voices",
+      );
+      for (const v of native) {
+        out.push({ ...v, engine: "native" });
+      }
+    } catch {
+      /* noop */
+    }
+  }
+  if (webSpeechAvailable()) {
+    for (const v of window.speechSynthesis.getVoices()) {
+      out.push({
+        id: `web:${v.voiceURI || v.name}`,
+        name: v.name,
+        lang: v.lang,
+        default: v.default,
+        engine: "web",
+      });
+    }
+  }
+  return out;
+}
 
 let voicesReady = false;
 const voiceCache = new Map<string, SpeechSynthesisVoice>();
 
-function pickVoice(): SpeechSynthesisVoice | null {
-  if (!("speechSynthesis" in window)) return null;
-  const bcp = langBcp47(voiceLang);
-  if (voiceCache.has(bcp)) return voiceCache.get(bcp) ?? null;
+function pickWebVoice(): SpeechSynthesisVoice | null {
+  if (!webSpeechAvailable()) return null;
+  const bcp = langBcp47(voiceLang).toLowerCase();
+  const base = bcp.split("-")[0];
   const voices = window.speechSynthesis.getVoices();
   if (!voices.length) return null;
-  const base = bcp.split("-")[0].toLowerCase();
+
+  if (voicePref.startsWith("web:")) {
+    const wanted = voicePref.slice(4);
+    const exact = voices.find((v) => (v.voiceURI || v.name) === wanted);
+    if (exact) return exact;
+  }
+
+  if (voiceCache.has(bcp)) return voiceCache.get(bcp) ?? null;
   const normLang = (v: SpeechSynthesisVoice) => v.lang.replace("_", "-").toLowerCase();
   const found =
-    voices.find((v) => normLang(v) === bcp.toLowerCase() && /google|natural|samantha|enhanced/i.test(v.name)) ??
-    voices.find((v) => normLang(v) === bcp.toLowerCase()) ??
+    voices.find((v) => normLang(v) === bcp && /google|natural|samantha|enhanced|microsoft/i.test(v.name)) ??
+    voices.find((v) => normLang(v) === bcp) ??
     voices.find((v) => normLang(v).startsWith(base)) ??
+    voices.find((v) => v.default) ??
     null;
   if (found) voiceCache.set(bcp, found);
-  return found ?? null;
+  return found;
 }
 
 export function warmUpVoices() {
-  if (!("speechSynthesis" in window)) return;
+  if (!webSpeechAvailable()) return;
   if (!voicesReady) {
     voicesReady = true;
     window.speechSynthesis.onvoiceschanged = () => {
       voiceCache.clear();
-      pickVoice();
+      pickWebVoice();
+      emit();
     };
   }
-  pickVoice();
+  pickWebVoice();
 }
 
 export function ttsAvailable(): boolean {
-  return typeof window !== "undefined" && "speechSynthesis" in window;
+  return inTauri || webSpeechAvailable();
 }
 
-export function speak(text: string, rate = 1) {
-  if (muted || !text) return;
-  if (!("speechSynthesis" in window)) return;
+export function stopSpeech() {
+  if (inTauri) {
+    void invoke("plugin:native-tts|stop").catch(() => {
+      /* noop */
+    });
+  }
+  if (webSpeechAvailable()) {
+    window.speechSynthesis.cancel();
+  }
+}
+
+function cleanText(text: string) {
+  return text.replace(/[(（][^)）]*[)）]/g, " ").replace(/\s+/g, " ").trim() || text;
+}
+
+function speakWeb(text: string, rate: number) {
+  if (!webSpeechAvailable()) throw new Error("Web Speech no disponible");
   const bcp = langBcp47(voiceLang);
-  const clean = text.replace(/[(（][^)）]*[)）]/g, " ").replace(/\s+/g, " ").trim();
-  const u = new SpeechSynthesisUtterance(clean || text);
+  const u = new SpeechSynthesisUtterance(text);
   u.lang = bcp;
   u.rate = rate;
-  const found = pickVoice();
+  const found = pickWebVoice();
   if (found) u.voice = found;
-  try {
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(u);
-  } catch {
-    /* noop */
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(u);
+}
+
+async function speakNative(text: string, rate: number) {
+  const voiceId = voicePref && !voicePref.startsWith("web:") ? voicePref : null;
+  await invoke("plugin:native-tts|speak", {
+    text,
+    lang: langBcp47(voiceLang),
+    rate,
+    voiceId,
+  });
+}
+
+export function speak(text: string, rate = ratePref) {
+  if (muted || !text) return;
+  const clean = cleanText(text);
+  const effectiveRate = Math.min(1.5, Math.max(0.5, rate));
+
+  const tryWeb = (err?: unknown) => {
+    if (err) setError(err);
+    if (!shouldUseWebFallback()) return;
+    try {
+      speakWeb(clean, effectiveRate);
+      if (!err) clearError();
+    } catch (e) {
+      setError(e);
+    }
+  };
+
+  if (shouldUseNative()) {
+    void speakNative(clean, effectiveRate)
+      .then(() => clearError())
+      .catch((e) => tryWeb(e));
+    return;
   }
+
+  tryWeb();
+}
+
+export async function testTts() {
+  const sample = "Hola, esto es una prueba de voz.";
+  speak(sample, ratePref);
 }
