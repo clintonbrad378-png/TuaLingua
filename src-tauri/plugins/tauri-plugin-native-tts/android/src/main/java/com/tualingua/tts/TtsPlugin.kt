@@ -174,18 +174,22 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
         executor.execute {
             val defaultPkg = defaultEnginePkg()
             if (enginePkg == null || enginePkg == defaultPkg) {
+                val handle = handles[defaultPkg] ?: handles["__default__"] ?: handles.values.firstOrNull { it.ready }
+                if (handle != null && handle.ready) {
+                    resolveVoices(invoke, handle.engine)
+                    return@execute
+                }
                 mainHandler.post {
-                    val handle = getOrCreateHandle(null)
-                    if (handle.ready) invoke.resolve(voicesPayload(handle.engine))
-                    else if (handle.unavailable) {
-                        val out = JSObject(); out.put("voices", JSArray()); invoke.resolve(out)
-                    } else handle.pending.add(PendingSpeak("__list__", null, 1f, null, null, invoke))
+                    val h = getOrCreateHandle(null)
+                    if (h.ready) executor.execute { resolveVoices(invoke, h.engine) }
+                    else if (h.unavailable) resolveVoices(invoke, null)
+                    else h.pending.add(PendingSpeak("__list__", null, 1f, null, null, invoke))
                 }
                 return@execute
             }
             val handle = handles[enginePkg]
             if (handle != null && handle.ready) {
-                invoke.resolve(voicesPayload(handle.engine))
+                resolveVoices(invoke, handle.engine)
                 return@execute
             }
             if (handle != null && !handle.unavailable) {
@@ -250,11 +254,9 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
         try {
             var temp: TextToSpeech? = null
             temp = TextToSpeech(activity.applicationContext, { status ->
-                mainHandler.post {
+                executor.execute {
                     try {
-                        val out = JSObject()
-                        out.put("voices", if (status == TextToSpeech.SUCCESS) voicesPayloadArray(temp) else JSArray())
-                        invoke.resolve(out)
+                        resolveVoices(invoke, if (status == TextToSpeech.SUCCESS) temp else null)
                     } finally {
                         try { temp?.shutdown() } catch (_: Exception) {}
                     }
@@ -262,8 +264,14 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
             }, enginePkg)
         } catch (e: Exception) {
             Log.w(TAG, "No se pudieron listar voces para $enginePkg", e)
-            val out = JSObject(); out.put("voices", JSArray()); invoke.resolve(out)
+            resolveVoices(invoke, null)
         }
+    }
+
+    private fun resolveVoices(invoke: Invoke, tts: TextToSpeech?) {
+        val out = JSObject()
+        out.put("voices", voicesPayloadArray(tts))
+        invoke.resolve(out)
     }
 
     private fun voicesPayloadArray(tts: TextToSpeech?): JSArray {
@@ -353,7 +361,7 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
         handle.pending.clear()
         items.forEach { item ->
             if (item.text == "__list__") {
-                item.invoke.resolve(voicesPayload(handle.engine))
+                executor.execute { resolveVoices(item.invoke, handle.engine) }
             } else {
                 speakNow(handle, item.text, item.lang, item.rate, item.voiceId, item.invoke)
             }
