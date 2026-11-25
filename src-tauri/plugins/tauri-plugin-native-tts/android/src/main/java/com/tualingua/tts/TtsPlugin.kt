@@ -65,9 +65,16 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
     private fun defaultEnginePkg(): String? {
         handles.values.firstOrNull()?.engine?.defaultEngine?.let { return it }
         return try {
-            @Suppress("DEPRECATION")
-            android.speech.tts.TextToSpeech.Engine.DEFAULT_ENGINE
-                .takeIf { it.isNotBlank() && it != "com.android.tts" }
+            val ctx = activity.applicationContext
+            val pm = ctx.packageManager
+            val intent = android.content.Intent(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA)
+            val services = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                pm.queryIntentActivities(intent, PackageManager.ResolveInfoFlags.of(0))
+            } else {
+                @Suppress("DEPRECATION")
+                pm.queryIntentActivities(intent, 0)
+            }
+            services.mapNotNull { it.activityInfo?.packageName }.firstOrNull()
         } catch (_: Exception) {
             null
         }
