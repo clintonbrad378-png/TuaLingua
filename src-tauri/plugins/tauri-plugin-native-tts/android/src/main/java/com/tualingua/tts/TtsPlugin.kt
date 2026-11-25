@@ -63,7 +63,7 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
     }
 
     private fun defaultEnginePkg(): String? {
-        handles.values.firstOrNull()?.engine?.defaultEngine?.let { return it }
+        handles.values.firstOrNull { it.ready }?.engine?.defaultEngine?.let { return it }
         return try {
             val ctx = activity.applicationContext
             val pm = ctx.packageManager
@@ -74,7 +74,8 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
                 @Suppress("DEPRECATION")
                 pm.queryIntentActivities(intent, 0)
             }
-            services.mapNotNull { it.activityInfo?.packageName }.firstOrNull()
+            val pkgs = services.mapNotNull { it.activityInfo?.packageName }.distinct()
+            pkgs.firstOrNull { it == "com.google.android.tts" } ?: pkgs.firstOrNull()
         } catch (_: Exception) {
             null
         }
@@ -140,19 +141,18 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
                     pm.queryIntentActivities(intent, 0)
                 }
                 val defaultPkg = defaultEnginePkg()
+                val pkgs = services.mapNotNull { it.activityInfo?.packageName }.distinct().toMutableList()
+                listOf("com.google.android.tts", "com.samsung.SMT").forEach { known ->
+                    if (!pkgs.contains(known)) {
+                        try { pm.getPackageInfo(known, 0); pkgs.add(known) } catch (_: Exception) {}
+                    }
+                }
                 val arr = JSArray()
-                services.mapNotNull { it.activityInfo?.packageName }.distinct().forEach { pkg ->
+                pkgs.forEach { pkg ->
                     val o = JSObject()
                     o.put("id", pkg)
                     o.put("label", engineLabel(pkg))
                     o.put("default", pkg == defaultPkg)
-                    arr.put(o)
-                }
-                if (arr.length() == 0 && defaultPkg != null) {
-                    val o = JSObject()
-                    o.put("id", defaultPkg)
-                    o.put("label", engineLabel(defaultPkg))
-                    o.put("default", true)
                     arr.put(o)
                 }
                 val out = JSObject()
@@ -181,6 +181,15 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
                         val out = JSObject(); out.put("voices", JSArray()); invoke.resolve(out)
                     } else handle.pending.add(PendingSpeak("__list__", null, 1f, null, null, invoke))
                 }
+                return@execute
+            }
+            val handle = handles[enginePkg]
+            if (handle != null && handle.ready) {
+                invoke.resolve(voicesPayload(handle.engine))
+                return@execute
+            }
+            if (handle != null && !handle.unavailable) {
+                mainHandler.post { handle.pending.add(PendingSpeak("__list__", null, 1f, null, enginePkg, invoke)) }
                 return@execute
             }
             listVoicesFromEngine(enginePkg, invoke)
