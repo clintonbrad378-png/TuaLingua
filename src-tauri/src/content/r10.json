@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "r10l1",
-      "title": "Транспорт",
-      "goal": "В пути",
+      "title": "De viaje",
+      "goal": "Moverte por la ciudad",
       "tip": [
-        "«Где находится...?»",
-        "«Билет до...»"
+        "Pregunta por lugares y billetes.",
+        "Fíjate en las preposiciones de destino."
       ],
       "phrases": [
         {
-          "es": "Где вокзал?",
+          "es": "¿Dónde está la estación?",
           "t": "Где вокзал?"
         },
         {
-          "es": "Билет до Москвы",
+          "es": "Un billete a Moscú",
           "t": "Билет до Москвы"
         },
         {
-          "es": "Автобус опаздывает",
+          "es": "El autobús llega tarde",
           "t": "Автобус опаздывает"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "r10l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «где вокзал?»?",
+          "prompt": "¿Cómo se dice «¿Dónde está la estación?»?",
           "options": [
             "Где вокзал?",
             "Билет до Москвы",
             "Автобус опаздывает",
-            "Вокзал"
+            "Поезд"
           ],
           "answer": 0,
           "pair": {
-            "es": "Где вокзал?",
+            "es": "¿Dónde está la estación?",
             "t": "Где вокзал?"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Билет до Москвы",
           "options": [
-            "Билет до Москвы",
-            "Автобус опаздывает",
-            "No lo sé"
+            "Un billete a Moscú",
+            "¿Dónde está la estación?",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "Билет до Москвы",
+            "es": "Un billete a Moscú",
             "t": "Билет до Москвы"
           }
         },
@@ -65,43 +65,45 @@
           "prompt": "Completa la frase",
           "sentence": "___ опаздывает",
           "options": [
-            "Автобус",
-            "Вокзал",
-            "Билет"
+            "автобус",
+            "поезд",
+            "самолёт"
           ],
           "answer": 0,
           "pair": {
-            "es": "Автобус опаздывает",
+            "es": "El autobús llega tarde",
             "t": "Автобус опаздывает"
-          }
+          },
+          "explain": "Pregunta por lugares y billetes."
         },
         {
           "id": "r10l1e4",
           "type": "build",
-          "prompt": "Traduce: «Где вокзал?»",
+          "prompt": "Traduce: «¿Dónde está la estación?»",
           "solution": "Где вокзал?",
           "distractors": [
-            "Автобус",
-            "Поезд"
+            "Билет",
+            "Автобус"
           ],
           "pair": {
-            "es": "Где вокзал?",
+            "es": "¿Dónde está la estación?",
             "t": "Где вокзал?"
           }
         },
         {
           "id": "r10l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «вокзал»",
+          "prompt": "Escribe en el idioma destino: «La estación»",
           "solution": "Вокзал",
           "accept": [
             "Вокзал",
             "вокзал"
           ],
           "pair": {
-            "es": "Вокзал",
+            "es": "La estación",
             "t": "Вокзал"
-          }
+          },
+          "explain": "Fíjate en las preposiciones de destino."
         },
         {
           "id": "r10l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Вокзал",
+              "es": "La estación",
               "t": "Вокзал"
             },
             {
-              "es": "Билет",
+              "es": "El billete",
               "t": "Билет"
             },
             {
-              "es": "Автобус",
+              "es": "El autobús",
               "t": "Автобус"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "r10l1e7",
           "type": "choice",
-          "prompt": "«Поезд» se traduce como...",
+          "prompt": "«El tren» se traduce como...",
           "options": [
             "Поезд",
             "Вокзал",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Поезд",
+            "es": "El tren",
             "t": "Поезд"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "Где вокзал?",
           "options": [
-            "Где вокзал?",
-            "Билет до Москвы",
-            "Автобус опаздывает"
+            "¿Dónde está la estación?",
+            "Un billete a Moscú",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "Где вокзал?",
+            "es": "¿Dónde está la estación?",
             "t": "Где вокзал?"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "r10l2",
-      "title": "Отель",
-      "goal": "В отеле",
+      "title": "En el hotel",
+      "goal": "Reservar y alojarte",
       "tip": [
-        "«У меня бронь».",
-        "«Есть ли Wi-Fi?»"
+        "Usa fórmulas de reserva y petición.",
+        "Fíjate en el vocabulario del hotel."
       ],
       "phrases": [
         {
-          "es": "У меня бронь",
+          "es": "Tengo una reserva",
           "t": "У меня бронь"
         },
         {
-          "es": "Ключ, пожалуйста",
+          "es": "La llave, por favor",
           "t": "Ключ, пожалуйста"
         },
         {
-          "es": "Есть ли Wi-Fi?",
+          "es": "¿Hay Wi-Fi?",
           "t": "Есть ли Wi-Fi?"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "r10l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «у меня бронь»?",
+          "prompt": "¿Cómo se dice «Tengo una reserva»?",
           "options": [
             "У меня бронь",
             "Ключ, пожалуйста",
             "Есть ли Wi-Fi?",
-            "Комната"
+            "Ресепшен"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня бронь",
+            "es": "Tengo una reserva",
             "t": "У меня бронь"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Ключ, пожалуйста",
           "options": [
-            "Ключ, пожалуйста",
-            "Есть ли Wi-Fi?",
-            "No lo sé"
+            "La llave, por favor",
+            "Tengo una reserva",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "Ключ, пожалуйста",
+            "es": "La llave, por favor",
             "t": "Ключ, пожалуйста"
           }
         },
@@ -215,45 +217,47 @@
           "id": "r10l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Есть ___ Wi-Fi?",
+          "sentence": "Есть ли ___?",
           "options": [
-            "ли",
-            "Комната",
-            "Ключ"
+            "Wi-Fi",
+            "бассейн",
+            "лифт"
           ],
           "answer": 0,
           "pair": {
-            "es": "Есть ли Wi-Fi?",
+            "es": "¿Hay Wi-Fi?",
             "t": "Есть ли Wi-Fi?"
-          }
+          },
+          "explain": "Usa fórmulas de reserva y petición."
         },
         {
           "id": "r10l2e4",
           "type": "build",
-          "prompt": "Traduce: «У меня бронь»",
+          "prompt": "Traduce: «Tengo una reserva»",
           "solution": "У меня бронь",
           "distractors": [
-            "Бронь",
-            "Ресепшен"
+            "Ключ",
+            "Бронь"
           ],
           "pair": {
-            "es": "У меня бронь",
+            "es": "Tengo una reserva",
             "t": "У меня бронь"
           }
         },
         {
           "id": "r10l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «комната»",
+          "prompt": "Escribe en el idioma destino: «La habitación»",
           "solution": "Комната",
           "accept": [
             "Комната",
             "комната"
           ],
           "pair": {
-            "es": "Комната",
+            "es": "La habitación",
             "t": "Комната"
-          }
+          },
+          "explain": "Fíjate en el vocabulario del hotel."
         },
         {
           "id": "r10l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Комната",
+              "es": "La habitación",
               "t": "Комната"
             },
             {
-              "es": "Ключ",
+              "es": "La llave",
               "t": "Ключ"
             },
             {
-              "es": "Бронь",
+              "es": "La reserva",
               "t": "Бронь"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "r10l2e7",
           "type": "choice",
-          "prompt": "«Ресепшен» se traduce como...",
+          "prompt": "«La recepción» se traduce como...",
           "options": [
             "Ресепшен",
             "Комната",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Ресепшен",
+            "es": "La recepción",
             "t": "Ресепшен"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "У меня бронь",
           "options": [
-            "У меня бронь",
-            "Ключ, пожалуйста",
-            "Есть ли Wi-Fi?"
+            "Tengo una reserva",
+            "La llave, por favor",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня бронь",
+            "es": "Tengo una reserva",
             "t": "У меня бронь"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "r10l3",
-      "title": "Направления",
-      "goal": "Как пройти",
+      "title": "Direcciones",
+      "goal": "Pedir y dar indicaciones",
       "tip": [
-        "«Налево/направо».",
-        "«Прямо»."
+        "Aprende a dar indicaciones.",
+        "Fíjate en las palabras de posición."
       ],
       "phrases": [
         {
-          "es": "Поверните налево",
+          "es": "Gira a la izquierda",
           "t": "Поверните налево"
         },
         {
-          "es": "Идите прямо",
+          "es": "Sigue todo recto",
           "t": "Идите прямо"
         },
         {
-          "es": "Это рядом",
+          "es": "Está cerca de aquí",
           "t": "Это рядом"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "r10l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «поверните налево»?",
+          "prompt": "¿Cómo se dice «Gira a la izquierda»?",
           "options": [
             "Поверните налево",
             "Идите прямо",
             "Это рядом",
-            "Налево"
+            "Рядом"
           ],
           "answer": 0,
           "pair": {
-            "es": "Поверните налево",
+            "es": "Gira a la izquierda",
             "t": "Поверните налево"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Идите прямо",
           "options": [
-            "Идите прямо",
-            "Это рядом",
-            "No lo sé"
+            "Sigue todo recto",
+            "Gira a la izquierda",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "Идите прямо",
+            "es": "Sigue todo recto",
             "t": "Идите прямо"
           }
         },
@@ -367,45 +371,47 @@
           "id": "r10l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ рядом",
+          "sentence": "Это ___",
           "options": [
-            "Это",
-            "Налево",
-            "Направо"
+            "рядом",
+            "далеко",
+            "слева"
           ],
           "answer": 0,
           "pair": {
-            "es": "Это рядом",
+            "es": "Está cerca de aquí",
             "t": "Это рядом"
-          }
+          },
+          "explain": "Aprende a dar indicaciones."
         },
         {
           "id": "r10l3e4",
           "type": "build",
-          "prompt": "Traduce: «Поверните налево»",
+          "prompt": "Traduce: «Gira a la izquierda»",
           "solution": "Поверните налево",
           "distractors": [
-            "Прямо",
-            "Рядом"
+            "Направо",
+            "Прямо"
           ],
           "pair": {
-            "es": "Поверните налево",
+            "es": "Gira a la izquierda",
             "t": "Поверните налево"
           }
         },
         {
           "id": "r10l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «налево»",
+          "prompt": "Escribe en el idioma destino: «Izquierda»",
           "solution": "Налево",
           "accept": [
             "Налево",
             "налево"
           ],
           "pair": {
-            "es": "Налево",
+            "es": "Izquierda",
             "t": "Налево"
-          }
+          },
+          "explain": "Fíjate en las palabras de posición."
         },
         {
           "id": "r10l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Налево",
+              "es": "Izquierda",
               "t": "Налево"
             },
             {
-              "es": "Направо",
+              "es": "Derecha",
               "t": "Направо"
             },
             {
-              "es": "Прямо",
+              "es": "Recto",
               "t": "Прямо"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "r10l3e7",
           "type": "choice",
-          "prompt": "«Рядом» se traduce como...",
+          "prompt": "«Cerca» se traduce como...",
           "options": [
             "Рядом",
             "Налево",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Рядом",
+            "es": "Cerca",
             "t": "Рядом"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "Поверните налево",
           "options": [
-            "Поверните налево",
-            "Идите прямо",
-            "Это рядом"
+            "Gira a la izquierda",
+            "Sigue todo recto",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "Поверните налево",
+            "es": "Gira a la izquierda",
             "t": "Поверните налево"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "r10l4",
-      "title": "Проблемы",
-      "goal": "Проблемы в поездке",
+      "title": "Emergencias",
+      "goal": "Pedir ayuda en problemas",
       "tip": [
-        "«Я потерял...»",
-        "«Мне нужна помощь»."
+        "Pide ayuda de forma clara.",
+        "Fíjate en el vocabulario de emergencias."
       ],
       "phrases": [
         {
-          "es": "Я потерял паспорт",
+          "es": "He perdido mi pasaporte",
           "t": "Я потерял паспорт"
         },
         {
-          "es": "Мне нужна помощь",
+          "es": "Necesito ayuda",
           "t": "Мне нужна помощь"
         },
         {
-          "es": "Где посольство?",
+          "es": "¿Dónde está la embajada?",
           "t": "Где посольство?"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "r10l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «я потерял паспорт»?",
+          "prompt": "¿Cómo se dice «He perdido mi pasaporte»?",
           "options": [
             "Я потерял паспорт",
             "Мне нужна помощь",
             "Где посольство?",
-            "Паспорт"
+            "Полиция"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я потерял паспорт",
+            "es": "He perdido mi pasaporte",
             "t": "Я потерял паспорт"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Мне нужна помощь",
           "options": [
-            "Мне нужна помощь",
-            "Где посольство?",
-            "No lo sé"
+            "Necesito ayuda",
+            "He perdido mi pasaporte",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "Мне нужна помощь",
+            "es": "Necesito ayuda",
             "t": "Мне нужна помощь"
           }
         },
@@ -519,45 +525,47 @@
           "id": "r10l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ посольство?",
+          "sentence": "Где ___?",
           "options": [
-            "Где",
-            "Паспорт",
-            "Помощь"
+            "посольство",
+            "вокзал",
+            "аптека"
           ],
           "answer": 0,
           "pair": {
-            "es": "Где посольство?",
+            "es": "¿Dónde está la embajada?",
             "t": "Где посольство?"
-          }
+          },
+          "explain": "Pide ayuda de forma clara."
         },
         {
           "id": "r10l4e4",
           "type": "build",
-          "prompt": "Traduce: «Я потерял паспорт»",
+          "prompt": "Traduce: «He perdido mi pasaporte»",
           "solution": "Я потерял паспорт",
           "distractors": [
-            "Посольство",
-            "Полиция"
+            "Помощь",
+            "Посольство"
           ],
           "pair": {
-            "es": "Я потерял паспорт",
+            "es": "He perdido mi pasaporte",
             "t": "Я потерял паспорт"
           }
         },
         {
           "id": "r10l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «паспорт»",
+          "prompt": "Escribe en el idioma destino: «El pasaporte»",
           "solution": "Паспорт",
           "accept": [
             "Паспорт",
             "паспорт"
           ],
           "pair": {
-            "es": "Паспорт",
+            "es": "El pasaporte",
             "t": "Паспорт"
-          }
+          },
+          "explain": "Fíjate en el vocabulario de emergencias."
         },
         {
           "id": "r10l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Паспорт",
+              "es": "El pasaporte",
               "t": "Паспорт"
             },
             {
-              "es": "Помощь",
+              "es": "La ayuda",
               "t": "Помощь"
             },
             {
-              "es": "Посольство",
+              "es": "La embajada",
               "t": "Посольство"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "r10l4e7",
           "type": "choice",
-          "prompt": "«Полиция» se traduce como...",
+          "prompt": "«La policía» se traduce como...",
           "options": [
             "Полиция",
             "Паспорт",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Полиция",
+            "es": "La policía",
             "t": "Полиция"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Я потерял паспорт",
           "options": [
-            "Я потерял паспорт",
-            "Мне нужна помощь",
-            "Где посольство?"
+            "He perdido mi pasaporte",
+            "Necesito ayuda",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я потерял паспорт",
+            "es": "He perdido mi pasaporte",
             "t": "Я потерял паспорт"
           }
         }

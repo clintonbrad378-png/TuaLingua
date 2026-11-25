@@ -51,7 +51,7 @@
           "options": [
             "Quiero aprender portugués",
             "Nos vemos pronto",
-            "No lo sé"
+            "Voy a viajar mañana"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
-            "Até",
-            "Amanhã",
-            "Em"
+            "Até logo",
+            "Vou viajar amanhã",
+            "Quero aprender português"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "En mi opinión, es difícil",
             "Estoy de acuerdo",
-            "No lo sé"
+            "Creo que es una buena idea"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +215,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
-            "Eu",
-            "Ideia",
-            "Opinião"
+            "Eu concordo",
+            "Eu acho que é uma boa ideia",
+            "Na minha opinião, é difícil"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +353,7 @@
           "options": [
             "Juego al fútbol",
             "Escucho música",
-            "No lo sé"
+            "Me gusta leer"
           ],
           "answer": 0,
           "pair": {
@@ -366,9 +366,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Escucho música\"?",
           "options": [
-            "ouço",
-            "Ler",
-            "Futebol"
+            "Eu ouço música",
+            "Eu gosto de ler",
+            "Eu jogo futebol"
           ],
           "answer": 0,
           "pair": {
@@ -504,7 +504,7 @@
           "options": [
             "Por supuesto",
             "No importa",
-            "No lo sé"
+            "¿Podría ayudarme?"
           ],
           "answer": 0,
           "pair": {
@@ -517,9 +517,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"No importa\"?",
           "options": [
-            "Não",
-            "Claro",
-            "Talvez"
+            "Não importa",
+            "Você poderia me ajudar?",
+            "Claro"
           ],
           "answer": 0,
           "pair": {
@@ -1050,7 +1050,7 @@
           "options": [
             "Ofrecer",
             "Palabra",
-            "No lo sé"
+            "A menudo"
           ],
           "answer": 0,
           "pair": {

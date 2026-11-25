@@ -51,7 +51,7 @@
           "options": [
             "Trabajo en una oficina",
             "Busco trabajo",
-            "No lo sé"
+            "Soy profesor"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Busco trabajo\"?",
           "options": [
-            "procurando",
-            "Professor",
-            "Médico"
+            "Estou procurando trabalho",
+            "Eu sou professor",
+            "Eu trabalho em um escritório"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "Envío un correo",
             "El plazo es mañana",
-            "No lo sé"
+            "Tengo una reunión"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "No entiendo la pregunta",
             "La clase es interesante",
-            "No lo sé"
+            "Tengo un examen"
           ],
           "answer": 0,
           "pair": {
@@ -506,7 +506,7 @@
           "options": [
             "Olvidé mi contraseña",
             "Mi teléfono no funciona",
-            "No lo sé"
+            "Descargo la aplicación"
           ],
           "answer": 0,
           "pair": {

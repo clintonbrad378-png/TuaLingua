@@ -6,24 +6,24 @@
   "lessons": [
     {
       "id": "c8l1",
-      "title": "意见",
-      "goal": "表达意见",
+      "title": "Opiniones",
+      "goal": "Expresar acuerdo y opinión",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我觉得...」",
-        "「我同意」。"
+        "Expresa acuerdo y opinión.",
+        "Fíjate en las fórmulas de opinión."
       ],
       "phrases": [
         {
-          "es": "我觉得这是个好主意",
+          "es": "Creo que es una buena idea",
           "t": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)"
         },
         {
-          "es": "在我看来，这很难",
+          "es": "En mi opinión, es difícil",
           "t": "在我看来，这很难 (zài wǒ kànlái, zhè hěn nán)"
         },
         {
-          "es": "我同意你",
+          "es": "Estoy de acuerdo contigo",
           "t": "我同意你 (wǒ tóngyì nǐ)"
         }
       ],
@@ -31,16 +31,16 @@
         {
           "id": "c8l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我觉得这是个好主意»?",
+          "prompt": "¿Cómo se dice «Creo que es una buena idea»?",
           "options": [
             "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)",
             "在我看来，这很难 (zài wǒ kànlái, zhè hěn nán)",
             "我同意你 (wǒ tóngyì nǐ)",
-            "主意 (zhǔyi)"
+            "解决办法 (jiějué bànfǎ)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我觉得这是个好主意",
+            "es": "Creo que es una buena idea",
             "t": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)"
           }
         },
@@ -50,13 +50,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "在我看来，这很难 (zài wǒ kànlái, zhè hěn nán)",
           "options": [
-            "在我看来，这很难",
-            "我同意你",
-            "No lo sé"
+            "En mi opinión, es difícil",
+            "Creo que es una buena idea",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "在我看来，这很难",
+            "es": "En mi opinión, es difícil",
             "t": "在我看来，这很难 (zài wǒ kànlái, zhè hěn nán)"
           }
         },
@@ -64,45 +64,47 @@
           "id": "c8l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我同意你 ___ tóngyì nǐ)",
+          "sentence": "我同意你 (wǒ ___ nǐ)",
           "options": [
-            "(wǒ",
-            "主意",
-            "意见"
+            "tóngyì",
+            "fǎnduì",
+            "xǐhuan"
           ],
           "answer": 0,
           "pair": {
-            "es": "我同意你",
+            "es": "Estoy de acuerdo contigo",
             "t": "我同意你 (wǒ tóngyì nǐ)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c8l1e4",
           "type": "build",
-          "prompt": "Traduce: «我觉得这是个好主意»",
+          "prompt": "Traduce: «Creo que es una buena idea»",
           "solution": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)",
           "distractors": [
-            "问题",
-            "解决办法"
+            "意见",
+            "问题"
           ],
           "pair": {
-            "es": "我觉得这是个好主意",
+            "es": "Creo que es una buena idea",
             "t": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)"
           }
         },
         {
           "id": "c8l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «主意»",
+          "prompt": "Escribe en el idioma destino: «La idea»",
           "solution": "主意",
           "accept": [
             "主意",
             "zhuyi"
           ],
           "pair": {
-            "es": "主意",
+            "es": "La idea",
             "t": "主意 (zhǔyi)"
-          }
+          },
+          "explain": "Expresa acuerdo y opinión."
         },
         {
           "id": "c8l1e6",
@@ -110,15 +112,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "主意",
+              "es": "La idea",
               "t": "主意 (zhǔyi)"
             },
             {
-              "es": "意见",
+              "es": "La opinión",
               "t": "意见 (yìjiàn)"
             },
             {
-              "es": "问题",
+              "es": "El problema",
               "t": "问题 (wèntí)"
             }
           ]
@@ -126,7 +128,7 @@
         {
           "id": "c8l1e7",
           "type": "choice",
-          "prompt": "«解决办法» se traduce como...",
+          "prompt": "«La solución» se traduce como...",
           "options": [
             "解决办法 (jiějué bànfǎ)",
             "主意 (zhǔyi)",
@@ -135,7 +137,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "解决办法",
+            "es": "La solución",
             "t": "解决办法 (jiějué bànfǎ)"
           }
         },
@@ -145,13 +147,13 @@
           "prompt": "Escucha y elige",
           "audio": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)",
           "options": [
-            "我觉得这是个好主意",
-            "在我看来，这很难",
-            "我同意你"
+            "Creo que es una buena idea",
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "我觉得这是个好主意",
+            "es": "Creo que es una buena idea",
             "t": "我觉得这是个好主意 (wǒ juéde zhè shì gè hǎo zhǔyi)"
           }
         }
@@ -159,24 +161,24 @@
     },
     {
       "id": "c8l2",
-      "title": "计划",
-      "goal": "未来计划",
+      "title": "Planes",
+      "goal": "Hablar del futuro",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「明天我要...」",
-        "「我想...」。"
+        "Habla de planes futuros.",
+        "Fíjate en los marcadores de tiempo."
       ],
       "phrases": [
         {
-          "es": "明天我要去旅行",
+          "es": "Voy a viajar mañana",
           "t": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)"
         },
         {
-          "es": "我想学更多",
+          "es": "Quiero aprender más",
           "t": "我想学更多 (wǒ xiǎng xué gèng duō)"
         },
         {
-          "es": "回头见",
+          "es": "Hasta pronto",
           "t": "回头见 (huítóu jiàn)"
         }
       ],
@@ -184,16 +186,16 @@
         {
           "id": "c8l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «明天我要去旅行»?",
+          "prompt": "¿Cómo se dice «Voy a viajar mañana»?",
           "options": [
             "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)",
             "我想学更多 (wǒ xiǎng xué gèng duō)",
             "回头见 (huítóu jiàn)",
-            "明天 (míngtiān)"
+            "总是 (zǒngshì)"
           ],
           "answer": 0,
           "pair": {
-            "es": "明天我要去旅行",
+            "es": "Voy a viajar mañana",
             "t": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)"
           }
         },
@@ -203,13 +205,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我想学更多 (wǒ xiǎng xué gèng duō)",
           "options": [
-            "我想学更多",
-            "回头见",
-            "No lo sé"
+            "Quiero aprender más",
+            "Voy a viajar mañana",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "我想学更多",
+            "es": "Quiero aprender más",
             "t": "我想学更多 (wǒ xiǎng xué gèng duō)"
           }
         },
@@ -217,45 +219,47 @@
           "id": "c8l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "回头见 ___ jiàn)",
+          "sentence": "回头见 (___ jiàn)",
           "options": [
-            "(huítóu",
-            "明天",
-            "很快"
+            "huítóu",
+            "míngtiān",
+            "wǎnshang"
           ],
           "answer": 0,
           "pair": {
-            "es": "回头见",
+            "es": "Hasta pronto",
             "t": "回头见 (huítóu jiàn)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c8l2e4",
           "type": "build",
-          "prompt": "Traduce: «明天我要去旅行»",
+          "prompt": "Traduce: «Voy a viajar mañana»",
           "solution": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)",
           "distractors": [
-            "以后",
-            "总是"
+            "很快",
+            "以后"
           ],
           "pair": {
-            "es": "明天我要去旅行",
+            "es": "Voy a viajar mañana",
             "t": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)"
           }
         },
         {
           "id": "c8l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «明天»",
+          "prompt": "Escribe en el idioma destino: «Mañana»",
           "solution": "明天",
           "accept": [
             "明天",
             "mingtian"
           ],
           "pair": {
-            "es": "明天",
+            "es": "Mañana",
             "t": "明天 (míngtiān)"
-          }
+          },
+          "explain": "Habla de planes futuros."
         },
         {
           "id": "c8l2e6",
@@ -263,15 +267,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "明天",
+              "es": "Mañana",
               "t": "明天 (míngtiān)"
             },
             {
-              "es": "很快",
+              "es": "Pronto",
               "t": "很快 (hěn kuài)"
             },
             {
-              "es": "以后",
+              "es": "Más tarde",
               "t": "以后 (yǐhòu)"
             }
           ]
@@ -279,7 +283,7 @@
         {
           "id": "c8l2e7",
           "type": "choice",
-          "prompt": "«总是» se traduce como...",
+          "prompt": "«Siempre» se traduce como...",
           "options": [
             "总是 (zǒngshì)",
             "明天 (míngtiān)",
@@ -288,7 +292,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "总是",
+            "es": "Siempre",
             "t": "总是 (zǒngshì)"
           }
         },
@@ -298,13 +302,13 @@
           "prompt": "Escucha y elige",
           "audio": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)",
           "options": [
-            "明天我要去旅行",
-            "我想学更多",
-            "回头见"
+            "Voy a viajar mañana",
+            "Quiero aprender más",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "明天我要去旅行",
+            "es": "Voy a viajar mañana",
             "t": "明天我要去旅行 (míngtiān wǒ yào qù lǚxíng)"
           }
         }
@@ -312,24 +316,24 @@
     },
     {
       "id": "c8l3",
-      "title": "感受",
-      "goal": "表达感受",
+      "title": "Emociones",
+      "goal": "Expresar estados de ánimo",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "«我很开心/难过»。",
-        "「我觉得累」。"
+        "Expresa emociones.",
+        "Fíjate en el género y el número."
       ],
       "phrases": [
         {
-          "es": "我很开心",
+          "es": "Estoy muy feliz",
           "t": "我很开心 (wǒ hěn kāixīn)"
         },
         {
-          "es": "我觉得累",
+          "es": "Me siento cansado",
           "t": "我觉得累 (wǒ juéde lèi)"
         },
         {
-          "es": "我很担心",
+          "es": "Estoy preocupado",
           "t": "我很担心 (wǒ hěn dānxīn)"
         }
       ],
@@ -337,16 +341,16 @@
         {
           "id": "c8l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我很开心»?",
+          "prompt": "¿Cómo se dice «Estoy muy feliz»?",
           "options": [
             "我很开心 (wǒ hěn kāixīn)",
             "我觉得累 (wǒ juéde lèi)",
             "我很担心 (wǒ hěn dānxīn)",
-            "开心 (kāixīn)"
+            "担心 (dānxīn)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我很开心",
+            "es": "Estoy muy feliz",
             "t": "我很开心 (wǒ hěn kāixīn)"
           }
         },
@@ -356,13 +360,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我觉得累 (wǒ juéde lèi)",
           "options": [
-            "我觉得累",
-            "我很担心",
-            "No lo sé"
+            "Me siento cansado",
+            "Estoy muy feliz",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "我觉得累",
+            "es": "Me siento cansado",
             "t": "我觉得累 (wǒ juéde lèi)"
           }
         },
@@ -370,45 +374,47 @@
           "id": "c8l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我很担心 ___ hěn dānxīn)",
+          "sentence": "我很担心 (wǒ hěn ___)",
           "options": [
-            "(wǒ",
-            "开心",
-            "难过"
+            "dānxīn",
+            "kāixīn",
+            "nánguò"
           ],
           "answer": 0,
           "pair": {
-            "es": "我很担心",
+            "es": "Estoy preocupado",
             "t": "我很担心 (wǒ hěn dānxīn)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c8l3e4",
           "type": "build",
-          "prompt": "Traduce: «我很开心»",
+          "prompt": "Traduce: «Estoy muy feliz»",
           "solution": "我很开心 (wǒ hěn kāixīn)",
           "distractors": [
-            "累",
-            "担心"
+            "难过",
+            "累"
           ],
           "pair": {
-            "es": "我很开心",
+            "es": "Estoy muy feliz",
             "t": "我很开心 (wǒ hěn kāixīn)"
           }
         },
         {
           "id": "c8l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «开心»",
+          "prompt": "Escribe en el idioma destino: «Feliz»",
           "solution": "开心",
           "accept": [
             "开心",
             "kaixin"
           ],
           "pair": {
-            "es": "开心",
+            "es": "Feliz",
             "t": "开心 (kāixīn)"
-          }
+          },
+          "explain": "Expresa emociones."
         },
         {
           "id": "c8l3e6",
@@ -416,15 +422,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "开心",
+              "es": "Feliz",
               "t": "开心 (kāixīn)"
             },
             {
-              "es": "难过",
+              "es": "Triste",
               "t": "难过 (nánguò)"
             },
             {
-              "es": "累",
+              "es": "Cansado",
               "t": "累 (lèi)"
             }
           ]
@@ -432,7 +438,7 @@
         {
           "id": "c8l3e7",
           "type": "choice",
-          "prompt": "«担心» se traduce como...",
+          "prompt": "«Preocupado» se traduce como...",
           "options": [
             "担心 (dānxīn)",
             "开心 (kāixīn)",
@@ -441,7 +447,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "担心",
+            "es": "Preocupado",
             "t": "担心 (dānxīn)"
           }
         },
@@ -451,13 +457,13 @@
           "prompt": "Escucha y elige",
           "audio": "我很开心 (wǒ hěn kāixīn)",
           "options": [
-            "我很开心",
-            "我觉得累",
-            "我很担心"
+            "Estoy muy feliz",
+            "Me siento cansado",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "我很开心",
+            "es": "Estoy muy feliz",
             "t": "我很开心 (wǒ hěn kāixīn)"
           }
         }
@@ -465,24 +471,24 @@
     },
     {
       "id": "c8l4",
-      "title": "流利表达",
-      "goal": "实用短语",
+      "title": "Pedir ayuda",
+      "goal": "Ofrecer y pedir ayuda",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "连接词：所以、但是、也。",
-        "「你能...吗？」更礼貌。"
+        "Pide y ofrece ayuda.",
+        "Fíjate en las fórmulas de cortesía."
       ],
       "phrases": [
         {
-          "es": "你能帮我吗？",
+          "es": "¿Podrías ayudarme?",
           "t": "你能帮我吗？(nǐ néng bāng wǒ ma?)"
         },
         {
-          "es": "没关系",
+          "es": "No importa",
           "t": "没关系 (méi guānxi)"
         },
         {
-          "es": "当然",
+          "es": "Por supuesto",
           "t": "当然 (dāngrán)"
         }
       ],
@@ -490,16 +496,16 @@
         {
           "id": "c8l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «你能帮我吗？»?",
+          "prompt": "¿Cómo se dice «¿Podrías ayudarme?»?",
           "options": [
             "你能帮我吗？(nǐ néng bāng wǒ ma?)",
             "没关系 (méi guānxi)",
             "当然 (dāngrán)",
-            "也许 (yěxǔ)"
+            "一起 (yīqǐ)"
           ],
           "answer": 0,
           "pair": {
-            "es": "你能帮我吗？",
+            "es": "¿Podrías ayudarme?",
             "t": "你能帮我吗？(nǐ néng bāng wǒ ma?)"
           }
         },
@@ -509,13 +515,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "没关系 (méi guānxi)",
           "options": [
-            "没关系",
-            "当然",
-            "No lo sé"
+            "No importa",
+            "¿Podrías ayudarme?",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "没关系",
+            "es": "No importa",
             "t": "没关系 (méi guānxi)"
           }
         },
@@ -523,45 +529,47 @@
           "id": "c8l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ (dāngrán)",
+          "sentence": "没关系 (méi ___)",
           "options": [
-            "当然",
-            "也许",
-            "也许 (yěxǔ)"
+            "guānxi",
+            "wèntí",
+            "shìr"
           ],
           "answer": 0,
           "pair": {
-            "es": "当然",
-            "t": "当然 (dāngrán)"
-          }
+            "es": "No importa",
+            "t": "没关系 (méi guānxi)"
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c8l4e4",
           "type": "build",
-          "prompt": "Traduce: «你能帮我吗？»",
+          "prompt": "Traduce: «¿Podrías ayudarme?»",
           "solution": "你能帮我吗？(nǐ néng bāng wǒ ma?)",
           "distractors": [
-            "真的",
-            "一起"
+            "也许",
+            "真的"
           ],
           "pair": {
-            "es": "你能帮我吗？",
+            "es": "¿Podrías ayudarme?",
             "t": "你能帮我吗？(nǐ néng bāng wǒ ma?)"
           }
         },
         {
           "id": "c8l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «当然»",
+          "prompt": "Escribe en el idioma destino: «Por supuesto»",
           "solution": "当然",
           "accept": [
             "当然",
             "dangran"
           ],
           "pair": {
-            "es": "当然",
+            "es": "Por supuesto",
             "t": "当然 (dāngrán)"
-          }
+          },
+          "explain": "Pide y ofrece ayuda."
         },
         {
           "id": "c8l4e6",
@@ -569,15 +577,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "当然",
+              "es": "Por supuesto",
               "t": "当然 (dāngrán)"
             },
             {
-              "es": "也许",
+              "es": "Quizás",
               "t": "也许 (yěxǔ)"
             },
             {
-              "es": "真的",
+              "es": "De verdad",
               "t": "真的 (zhēn de)"
             }
           ]
@@ -585,7 +593,7 @@
         {
           "id": "c8l4e7",
           "type": "choice",
-          "prompt": "«一起» se traduce como...",
+          "prompt": "«Juntos» se traduce como...",
           "options": [
             "一起 (yīqǐ)",
             "当然 (dāngrán)",
@@ -594,7 +602,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "一起",
+            "es": "Juntos",
             "t": "一起 (yīqǐ)"
           }
         },
@@ -604,13 +612,13 @@
           "prompt": "Escucha y elige",
           "audio": "你能帮我吗？(nǐ néng bāng wǒ ma?)",
           "options": [
-            "你能帮我吗？",
-            "没关系",
-            "当然"
+            "¿Podrías ayudarme?",
+            "No importa",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "你能帮我吗？",
+            "es": "¿Podrías ayudarme?",
             "t": "你能帮我吗？(nǐ néng bāng wǒ ma?)"
           }
         }
@@ -976,9 +984,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cómo estás?\"?",
           "options": [
-            "hǎo",
-            "左",
-            "面包"
+            "你好吗？(nǐ hǎo ma?)",
+            "左 (zuǒ)",
+            "包 (bāo)"
           ],
           "answer": 0,
           "pair": {

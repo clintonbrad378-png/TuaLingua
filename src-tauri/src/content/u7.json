@@ -177,8 +177,8 @@
           "sentence": "I think robots ___ do all the housework.",
           "options": [
             "will",
-            "She probably won't come — she's exhausted.",
-            "OK, I will answer it."
+            "can",
+            "might"
           ],
           "answer": 0,
           "pair": {
@@ -454,8 +454,8 @@
           "sentence": "I will call you when I ___ home.",
           "options": [
             "get",
-            "will get",
-            "Wait until the light turns green."
+            "arrive",
+            "come"
           ],
           "answer": 0,
           "pair": {
@@ -547,7 +547,7 @@
           "options": [
             "Would",
             "Will",
-            "I will send you a message as soon as I arrive"
+            "Could"
           ],
           "answer": 0,
           "pair": {
@@ -617,9 +617,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El perro\"?",
           "options": [
-            "the",
-            "The jam",
-            "The suitcase"
+            "The dog",
+            "The keys",
+            "The grape"
           ],
           "answer": 0,
           "pair": {
@@ -917,9 +917,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Mezclar\"?",
           "options": [
-            "to",
-            "the",
-            "party"
+            "To mix",
+            "The wind",
+            "The guitar"
           ],
           "answer": 0,
           "pair": {
@@ -1217,9 +1217,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Charlar\"?",
           "options": [
-            "to",
-            "sour",
-            "happy"
+            "To chat",
+            "The soup",
+            "The aunt"
           ],
           "answer": 0,
           "pair": {

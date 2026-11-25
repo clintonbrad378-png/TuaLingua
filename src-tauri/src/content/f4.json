@@ -51,7 +51,7 @@
           "options": [
             "Tengo dos hermanos",
             "Mi familia es grande",
-            "No lo sé"
+            "Mi madre es amable"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "Ella es muy simpática",
             "Nos vemos mañana",
-            "No lo sé"
+            "Este es mi amigo"
           ],
           "answer": 0,
           "pair": {
@@ -355,7 +355,7 @@
           "options": [
             "Ella es joven",
             "Es muy amable",
-            "No lo sé"
+            "Él es alto"
           ],
           "answer": 0,
           "pair": {
@@ -507,7 +507,7 @@
           "options": [
             "Estoy cansado",
             "Estoy preocupado",
-            "No lo sé"
+            "Estoy feliz"
           ],
           "answer": 0,
           "pair": {
@@ -520,9 +520,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
-            "suis",
-            "Heureux",
-            "Triste"
+            "Je suis inquiet",
+            "Je suis heureux",
+            "Je suis fatigué"
           ],
           "answer": 0,
           "pair": {

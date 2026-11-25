@@ -66,8 +66,8 @@
           "sentence": "___ un caffè, per favore.",
           "options": [
             "Vorrei",
-            "Conto",
-            "Vorrei un caffè, per favore"
+            "Prendo",
+            "Porto"
           ],
           "answer": 0,
           "pair": {
@@ -220,9 +220,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cuánto cuesta?\"?",
           "options": [
-            "costa",
-            "Vorrei un chilo di mele",
-            "Pane"
+            "Quanto costa?",
+            "È troppo caro",
+            "Vorrei un chilo di mele"
           ],
           "answer": 0,
           "pair": {
@@ -302,9 +302,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Es demasiado caro\"?",
           "options": [
-            "caro",
-            "Formaggio",
-            "chilo"
+            "È troppo caro",
+            "Quanto costa?",
+            "Vorrei un chilo di mele"
           ],
           "answer": 0,
           "pair": {
@@ -376,8 +376,8 @@
           "sentence": "Faccio ___ a casa.",
           "options": [
             "colazione",
-            "Mi sveglio alle sette",
-            "Svegliarsi"
+            "cena",
+            "pranzo"
           ],
           "answer": 0,
           "pair": {
@@ -459,8 +459,8 @@
           "sentence": "Mi ___ alle sette.",
           "options": [
             "sveglio",
-            "Svegliarsi",
-            "Mi sveglio alle sette"
+            "alzo",
+            "preparo"
           ],
           "answer": 0,
           "pair": {
@@ -530,9 +530,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Dónde está el baño?\"?",
           "options": [
-            "bagno",
-            "Cucina",
-            "La chiave"
+            "Dov'è il bagno?",
+            "La chiave",
+            "La cucina è grande"
           ],
           "answer": 0,
           "pair": {
@@ -614,8 +614,8 @@
           "sentence": "La cucina è ___",
           "options": [
             "grande",
-            "La chiave è sul tavolo",
-            "Casa"
+            "piccola",
+            "bella"
           ],
           "answer": 0,
           "pair": {

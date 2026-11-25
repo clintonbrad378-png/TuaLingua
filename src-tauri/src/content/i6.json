@@ -51,7 +51,7 @@
           "options": [
             "Un billete para Roma",
             "El tren llega tarde",
-            "No lo sé"
+            "¿Dónde está la estación?"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "La llave, por favor",
             "¿Hay wifi?",
-            "No lo sé"
+            "Tengo una reserva"
           ],
           "answer": 0,
           "pair": {
@@ -216,9 +216,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
-            "il",
-            "Camera",
-            "Chiave"
+            "C'è il wifi?",
+            "Ho una prenotazione",
+            "La chiave, per favore"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Sigue recto",
             "Está cerca",
-            "No lo sé"
+            "Gira a la derecha"
           ],
           "answer": 0,
           "pair": {
@@ -367,9 +367,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Está cerca\"?",
           "options": [
-            "È",
-            "Destra",
-            "Sinistra"
+            "È vicino",
+            "Vai dritto",
+            "Gira a destra"
           ],
           "answer": 0,
           "pair": {
@@ -505,7 +505,7 @@
           "options": [
             "Necesito un médico",
             "He perdido mi pasaporte",
-            "No lo sé"
+            "Ayuda"
           ],
           "answer": 0,
           "pair": {
@@ -536,7 +536,7 @@
           "solution": "Aiuto!",
           "distractors": [
             "Passaporto",
-            "Aiuto"
+            "Pericolo"
           ],
           "pair": {
             "es": "¡Ayuda!",

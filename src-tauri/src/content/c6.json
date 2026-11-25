@@ -6,24 +6,24 @@
   "lessons": [
     {
       "id": "c6l1",
-      "title": "交通",
-      "goal": "出行",
+      "title": "De viaje",
+      "goal": "Moverte por la ciudad",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「...在哪里？」问位置。",
-        "「去...的票」。"
+        "Pregunta por lugares y billetes.",
+        "Fíjate en las preposiciones de destino."
       ],
       "phrases": [
         {
-          "es": "车站在哪里？",
+          "es": "¿Dónde está la estación?",
           "t": "车站在哪里？(chēzhàn zài nǎlǐ?)"
         },
         {
-          "es": "一张去北京的票",
+          "es": "Un billete a Pekín",
           "t": "一张去北京的票 (yī zhāng qù Běijīng de piào)"
         },
         {
-          "es": "公交车晚点了",
+          "es": "El autobús llega tarde",
           "t": "公交车晚点了 (gōngjiāochē wǎndiǎn le)"
         }
       ],
@@ -31,16 +31,16 @@
         {
           "id": "c6l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «车站在哪里？»?",
+          "prompt": "¿Cómo se dice «¿Dónde está la estación?»?",
           "options": [
             "车站在哪里？(chēzhàn zài nǎlǐ?)",
             "一张去北京的票 (yī zhāng qù Běijīng de piào)",
             "公交车晚点了 (gōngjiāochē wǎndiǎn le)",
-            "车站 (chēzhàn)"
+            "火车 (huǒchē)"
           ],
           "answer": 0,
           "pair": {
-            "es": "车站在哪里？",
+            "es": "¿Dónde está la estación?",
             "t": "车站在哪里？(chēzhàn zài nǎlǐ?)"
           }
         },
@@ -50,13 +50,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "一张去北京的票 (yī zhāng qù Běijīng de piào)",
           "options": [
-            "一张去北京的票",
-            "公交车晚点了",
-            "No lo sé"
+            "Un billete a Pekín",
+            "¿Dónde está la estación?",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "一张去北京的票",
+            "es": "Un billete a Pekín",
             "t": "一张去北京的票 (yī zhāng qù Běijīng de piào)"
           }
         },
@@ -64,45 +64,47 @@
           "id": "c6l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "公交车晚点了 ___ wǎndiǎn le)",
+          "sentence": "公交车晚点了 (gōngjiāochē ___ le)",
           "options": [
-            "(gōngjiāochē",
-            "车站",
-            "票"
+            "wǎndiǎn",
+            "zǎo",
+            "lái"
           ],
           "answer": 0,
           "pair": {
-            "es": "公交车晚点了",
+            "es": "El autobús llega tarde",
             "t": "公交车晚点了 (gōngjiāochē wǎndiǎn le)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c6l1e4",
           "type": "build",
-          "prompt": "Traduce: «车站在哪里？»",
+          "prompt": "Traduce: «¿Dónde está la estación?»",
           "solution": "车站在哪里？(chēzhàn zài nǎlǐ?)",
           "distractors": [
-            "公交车",
-            "火车"
+            "票",
+            "公交车"
           ],
           "pair": {
-            "es": "车站在哪里？",
+            "es": "¿Dónde está la estación?",
             "t": "车站在哪里？(chēzhàn zài nǎlǐ?)"
           }
         },
         {
           "id": "c6l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «车站»",
+          "prompt": "Escribe en el idioma destino: «La estación»",
           "solution": "车站",
           "accept": [
             "车站",
             "chezhan"
           ],
           "pair": {
-            "es": "车站",
+            "es": "La estación",
             "t": "车站 (chēzhàn)"
-          }
+          },
+          "explain": "Pregunta por lugares y billetes."
         },
         {
           "id": "c6l1e6",
@@ -110,15 +112,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "车站",
+              "es": "La estación",
               "t": "车站 (chēzhàn)"
             },
             {
-              "es": "票",
+              "es": "El billete",
               "t": "票 (piào)"
             },
             {
-              "es": "公交车",
+              "es": "El autobús",
               "t": "公交车 (gōngjiāochē)"
             }
           ]
@@ -126,7 +128,7 @@
         {
           "id": "c6l1e7",
           "type": "choice",
-          "prompt": "«火车» se traduce como...",
+          "prompt": "«El tren» se traduce como...",
           "options": [
             "火车 (huǒchē)",
             "车站 (chēzhàn)",
@@ -135,7 +137,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "火车",
+            "es": "El tren",
             "t": "火车 (huǒchē)"
           }
         },
@@ -145,13 +147,13 @@
           "prompt": "Escucha y elige",
           "audio": "车站在哪里？(chēzhàn zài nǎlǐ?)",
           "options": [
-            "车站在哪里？",
-            "一张去北京的票",
-            "公交车晚点了"
+            "¿Dónde está la estación?",
+            "Un billete a Pekín",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "车站在哪里？",
+            "es": "¿Dónde está la estación?",
             "t": "车站在哪里？(chēzhàn zài nǎlǐ?)"
           }
         }
@@ -159,24 +161,24 @@
     },
     {
       "id": "c6l2",
-      "title": "酒店",
-      "goal": "住酒店",
+      "title": "En el hotel",
+      "goal": "Reservar y alojarte",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我有预订」。",
-        "「有Wi-Fi吗？」"
+        "Usa fórmulas de reserva y petición.",
+        "Fíjate en el vocabulario del hotel."
       ],
       "phrases": [
         {
-          "es": "我有预订",
+          "es": "Tengo una reserva",
           "t": "我有预订 (wǒ yǒu yùdìng)"
         },
         {
-          "es": "请给我钥匙",
+          "es": "La llave, por favor",
           "t": "请给我钥匙 (qǐng gěi wǒ yàoshi)"
         },
         {
-          "es": "有Wi-Fi吗？",
+          "es": "¿Hay Wi-Fi?",
           "t": "有Wi-Fi吗？(yǒu Wi-Fi ma?)"
         }
       ],
@@ -184,16 +186,16 @@
         {
           "id": "c6l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我有预订»?",
+          "prompt": "¿Cómo se dice «Tengo una reserva»?",
           "options": [
             "我有预订 (wǒ yǒu yùdìng)",
             "请给我钥匙 (qǐng gěi wǒ yàoshi)",
             "有Wi-Fi吗？(yǒu Wi-Fi ma?)",
-            "房间 (fángjiān)"
+            "前台 (qiántái)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有预订",
+            "es": "Tengo una reserva",
             "t": "我有预订 (wǒ yǒu yùdìng)"
           }
         },
@@ -203,13 +205,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "请给我钥匙 (qǐng gěi wǒ yàoshi)",
           "options": [
-            "请给我钥匙",
-            "有Wi-Fi吗？",
-            "No lo sé"
+            "La llave, por favor",
+            "Tengo una reserva",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "请给我钥匙",
+            "es": "La llave, por favor",
             "t": "请给我钥匙 (qǐng gěi wǒ yàoshi)"
           }
         },
@@ -217,45 +219,47 @@
           "id": "c6l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "有___吗？(yǒu Wi-Fi ma?)",
+          "sentence": "有Wi-Fi吗？(yǒu ___ ma?)",
           "options": [
             "Wi-Fi",
-            "房间",
-            "钥匙"
+            "chábēi",
+            "kōngtiáo"
           ],
           "answer": 0,
           "pair": {
-            "es": "有Wi-Fi吗？",
+            "es": "¿Hay Wi-Fi?",
             "t": "有Wi-Fi吗？(yǒu Wi-Fi ma?)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c6l2e4",
           "type": "build",
-          "prompt": "Traduce: «我有预订»",
+          "prompt": "Traduce: «Tengo una reserva»",
           "solution": "我有预订 (wǒ yǒu yùdìng)",
           "distractors": [
-            "预订",
+            "钥匙",
             "前台"
           ],
           "pair": {
-            "es": "我有预订",
+            "es": "Tengo una reserva",
             "t": "我有预订 (wǒ yǒu yùdìng)"
           }
         },
         {
           "id": "c6l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «房间»",
+          "prompt": "Escribe en el idioma destino: «La habitación»",
           "solution": "房间",
           "accept": [
             "房间",
             "fangjian"
           ],
           "pair": {
-            "es": "房间",
+            "es": "La habitación",
             "t": "房间 (fángjiān)"
-          }
+          },
+          "explain": "Usa fórmulas de reserva y petición."
         },
         {
           "id": "c6l2e6",
@@ -263,15 +267,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "房间",
+              "es": "La habitación",
               "t": "房间 (fángjiān)"
             },
             {
-              "es": "钥匙",
+              "es": "La llave",
               "t": "钥匙 (yàoshi)"
             },
             {
-              "es": "预订",
+              "es": "La reserva",
               "t": "预订 (yùdìng)"
             }
           ]
@@ -279,7 +283,7 @@
         {
           "id": "c6l2e7",
           "type": "choice",
-          "prompt": "«前台» se traduce como...",
+          "prompt": "«La recepción» se traduce como...",
           "options": [
             "前台 (qiántái)",
             "房间 (fángjiān)",
@@ -288,7 +292,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "前台",
+            "es": "La recepción",
             "t": "前台 (qiántái)"
           }
         },
@@ -298,13 +302,13 @@
           "prompt": "Escucha y elige",
           "audio": "我有预订 (wǒ yǒu yùdìng)",
           "options": [
-            "我有预订",
-            "请给我钥匙",
-            "有Wi-Fi吗？"
+            "Tengo una reserva",
+            "La llave, por favor",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有预订",
+            "es": "Tengo una reserva",
             "t": "我有预订 (wǒ yǒu yùdìng)"
           }
         }
@@ -312,24 +316,24 @@
     },
     {
       "id": "c6l3",
-      "title": "问路",
-      "goal": "问方向",
+      "title": "Direcciones",
+      "goal": "Pedir y dar indicaciones",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「往左/往右转」。",
-        "「一直走」。"
+        "Aprende a dar indicaciones.",
+        "Fíjate en las palabras de posición."
       ],
       "phrases": [
         {
-          "es": "往左转",
+          "es": "Gira a la izquierda",
           "t": "往左转 (wǎng zuǒ zhuǎn)"
         },
         {
-          "es": "一直走",
+          "es": "Sigue todo recto",
           "t": "一直走 (yīzhí zǒu)"
         },
         {
-          "es": "就在附近",
+          "es": "Está cerca de aquí",
           "t": "就在附近 (jiù zài fùjìn)"
         }
       ],
@@ -337,16 +341,16 @@
         {
           "id": "c6l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «往左转»?",
+          "prompt": "¿Cómo se dice «Gira a la izquierda»?",
           "options": [
             "往左转 (wǎng zuǒ zhuǎn)",
             "一直走 (yīzhí zǒu)",
             "就在附近 (jiù zài fùjìn)",
-            "左 (zuǒ)"
+            "附近 (fùjìn)"
           ],
           "answer": 0,
           "pair": {
-            "es": "往左转",
+            "es": "Gira a la izquierda",
             "t": "往左转 (wǎng zuǒ zhuǎn)"
           }
         },
@@ -356,13 +360,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "一直走 (yīzhí zǒu)",
           "options": [
-            "一直走",
-            "就在附近",
-            "No lo sé"
+            "Sigue todo recto",
+            "Gira a la izquierda",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "一直走",
+            "es": "Sigue todo recto",
             "t": "一直走 (yīzhí zǒu)"
           }
         },
@@ -370,45 +374,47 @@
           "id": "c6l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "就在附近 ___ zài fùjìn)",
+          "sentence": "就在附近 (jiù zài ___)",
           "options": [
-            "(jiù",
-            "左",
-            "右"
+            "fùjìn",
+            "yuǎn",
+            "zuǒbiān"
           ],
           "answer": 0,
           "pair": {
-            "es": "就在附近",
+            "es": "Está cerca de aquí",
             "t": "就在附近 (jiù zài fùjìn)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c6l3e4",
           "type": "build",
-          "prompt": "Traduce: «往左转»",
+          "prompt": "Traduce: «Gira a la izquierda»",
           "solution": "往左转 (wǎng zuǒ zhuǎn)",
           "distractors": [
-            "直走",
-            "附近"
+            "右",
+            "直走"
           ],
           "pair": {
-            "es": "往左转",
+            "es": "Gira a la izquierda",
             "t": "往左转 (wǎng zuǒ zhuǎn)"
           }
         },
         {
           "id": "c6l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «左»",
+          "prompt": "Escribe en el idioma destino: «Izquierda»",
           "solution": "左",
           "accept": [
             "左",
             "zuo"
           ],
           "pair": {
-            "es": "左",
+            "es": "Izquierda",
             "t": "左 (zuǒ)"
-          }
+          },
+          "explain": "Aprende a dar indicaciones."
         },
         {
           "id": "c6l3e6",
@@ -416,15 +422,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "左",
+              "es": "Izquierda",
               "t": "左 (zuǒ)"
             },
             {
-              "es": "右",
+              "es": "Derecha",
               "t": "右 (yòu)"
             },
             {
-              "es": "直走",
+              "es": "Recto",
               "t": "直走 (zhí zǒu)"
             }
           ]
@@ -432,7 +438,7 @@
         {
           "id": "c6l3e7",
           "type": "choice",
-          "prompt": "«附近» se traduce como...",
+          "prompt": "«Cerca» se traduce como...",
           "options": [
             "附近 (fùjìn)",
             "左 (zuǒ)",
@@ -441,7 +447,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "附近",
+            "es": "Cerca",
             "t": "附近 (fùjìn)"
           }
         },
@@ -451,13 +457,13 @@
           "prompt": "Escucha y elige",
           "audio": "往左转 (wǎng zuǒ zhuǎn)",
           "options": [
-            "往左转",
-            "一直走",
-            "就在附近"
+            "Gira a la izquierda",
+            "Sigue todo recto",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "往左转",
+            "es": "Gira a la izquierda",
             "t": "往左转 (wǎng zuǒ zhuǎn)"
           }
         }
@@ -465,24 +471,24 @@
     },
     {
       "id": "c6l4",
-      "title": "问题",
-      "goal": "旅行问题",
+      "title": "Emergencias",
+      "goal": "Pedir ayuda en problemas",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我丢了...」",
-        "「我需要帮助」。"
+        "Pide ayuda de forma clara.",
+        "Fíjate en el vocabulario de emergencias."
       ],
       "phrases": [
         {
-          "es": "我丢了护照",
+          "es": "He perdido mi pasaporte",
           "t": "我丢了护照 (wǒ diū le hùzhào)"
         },
         {
-          "es": "我需要帮助",
+          "es": "Necesito ayuda",
           "t": "我需要帮助 (wǒ xūyào bāngzhù)"
         },
         {
-          "es": "大使馆在哪里？",
+          "es": "¿Dónde está la embajada?",
           "t": "大使馆在哪里？(dàshǐguǎn zài nǎlǐ?)"
         }
       ],
@@ -490,16 +496,16 @@
         {
           "id": "c6l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我丢了护照»?",
+          "prompt": "¿Cómo se dice «He perdido mi pasaporte»?",
           "options": [
             "我丢了护照 (wǒ diū le hùzhào)",
             "我需要帮助 (wǒ xūyào bāngzhù)",
             "大使馆在哪里？(dàshǐguǎn zài nǎlǐ?)",
-            "护照 (hùzhào)"
+            "警察 (jǐngchá)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我丢了护照",
+            "es": "He perdido mi pasaporte",
             "t": "我丢了护照 (wǒ diū le hùzhào)"
           }
         },
@@ -509,13 +515,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我需要帮助 (wǒ xūyào bāngzhù)",
           "options": [
-            "我需要帮助",
-            "大使馆在哪里？",
-            "No lo sé"
+            "Necesito ayuda",
+            "He perdido mi pasaporte",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "我需要帮助",
+            "es": "Necesito ayuda",
             "t": "我需要帮助 (wǒ xūyào bāngzhù)"
           }
         },
@@ -523,45 +529,47 @@
           "id": "c6l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "大使馆在哪里？(dàshǐguǎn ___ nǎlǐ?)",
+          "sentence": "大使馆在哪里？(dàshǐguǎn zài ___?)",
           "options": [
-            "zài",
-            "护照",
-            "帮助"
+            "nǎlǐ",
+            "shénme",
+            "shéi"
           ],
           "answer": 0,
           "pair": {
-            "es": "大使馆在哪里？",
+            "es": "¿Dónde está la embajada?",
             "t": "大使馆在哪里？(dàshǐguǎn zài nǎlǐ?)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c6l4e4",
           "type": "build",
-          "prompt": "Traduce: «我丢了护照»",
+          "prompt": "Traduce: «He perdido mi pasaporte»",
           "solution": "我丢了护照 (wǒ diū le hùzhào)",
           "distractors": [
-            "大使馆",
-            "警察"
+            "帮助",
+            "大使馆"
           ],
           "pair": {
-            "es": "我丢了护照",
+            "es": "He perdido mi pasaporte",
             "t": "我丢了护照 (wǒ diū le hùzhào)"
           }
         },
         {
           "id": "c6l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «护照»",
+          "prompt": "Escribe en el idioma destino: «El pasaporte»",
           "solution": "护照",
           "accept": [
             "护照",
             "huzhao"
           ],
           "pair": {
-            "es": "护照",
+            "es": "El pasaporte",
             "t": "护照 (hùzhào)"
-          }
+          },
+          "explain": "Pide ayuda de forma clara."
         },
         {
           "id": "c6l4e6",
@@ -569,15 +577,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "护照",
+              "es": "El pasaporte",
               "t": "护照 (hùzhào)"
             },
             {
-              "es": "帮助",
+              "es": "La ayuda",
               "t": "帮助 (bāngzhù)"
             },
             {
-              "es": "大使馆",
+              "es": "La embajada",
               "t": "大使馆 (dàshǐguǎn)"
             }
           ]
@@ -585,7 +593,7 @@
         {
           "id": "c6l4e7",
           "type": "choice",
-          "prompt": "«警察» se traduce como...",
+          "prompt": "«La policía» se traduce como...",
           "options": [
             "警察 (jǐngchá)",
             "护照 (hùzhào)",
@@ -594,7 +602,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "警察",
+            "es": "La policía",
             "t": "警察 (jǐngchá)"
           }
         },
@@ -604,13 +612,13 @@
           "prompt": "Escucha y elige",
           "audio": "我丢了护照 (wǒ diū le hùzhào)",
           "options": [
-            "我丢了护照",
-            "我需要帮助",
-            "大使馆在哪里？"
+            "He perdido mi pasaporte",
+            "Necesito ayuda",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "我丢了护照",
+            "es": "He perdido mi pasaporte",
             "t": "我丢了护照 (wǒ diū le hùzhào)"
           }
         }
@@ -1506,13 +1514,13 @@
           "prompt": "Escucha y elige",
           "audio": "我不知道 (wǒ bù zhīdào)",
           "options": [
-            "No lo sé",
+            "No sé",
             "Trabajar",
             "Bienvenido"
           ],
           "answer": 0,
           "pair": {
-            "es": "No lo sé",
+            "es": "No sé",
             "t": "我不知道 (wǒ bù zhīdào)"
           }
         }

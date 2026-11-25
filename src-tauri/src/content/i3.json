@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Gira a la derecha\"?",
           "options": [
-            "destra",
-            "sinistra",
-            "dritto"
+            "Gira a destra",
+            "È vicino",
+            "È lontano"
           ],
           "answer": 0,
           "pair": {
@@ -146,9 +146,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Dónde está la estación?\"?",
           "options": [
-            "stazione",
+            "Dov'è la stazione?",
             "È vicino",
-            "Dov'è la stazione?"
+            "È lontano"
           ],
           "answer": 0,
           "pair": {
@@ -303,8 +303,8 @@
           "sentence": "Un ___ per Roma, per favore.",
           "options": [
             "biglietto",
-            "A che ora parte il treno?",
-            "Aeroporto"
+            "posto",
+            "orario"
           ],
           "answer": 0,
           "pair": {
@@ -374,9 +374,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Hoy trabajo\"?",
           "options": [
-            "Oggi",
-            "Ieri",
-            "Domani"
+            "Oggi lavoro",
+            "Domani ci vediamo",
+            "Possiamo vederci alle sei?"
           ],
           "answer": 0,
           "pair": {
@@ -458,8 +458,8 @@
           "sentence": "Possiamo vederci alle ___?",
           "options": [
             "sei",
-            "Domani ci vediamo",
-            "Possiamo vederci alle sei?"
+            "sette",
+            "cinque"
           ],
           "answer": 0,
           "pair": {

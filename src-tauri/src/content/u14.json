@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "u14l1",
-      "title": "Transport",
-      "goal": "Getting around",
+      "title": "De viaje",
+      "goal": "Moverte por la ciudad",
       "tip": [
-        "'Where is...?' asks for location.",
-        "'A ticket to...' for buying tickets."
+        "Pregunta por lugares y billetes.",
+        "Fíjate en las preposiciones de destino."
       ],
       "phrases": [
         {
-          "es": "Where is the station?",
+          "es": "¿Dónde está la estación?",
           "t": "Where is the station?"
         },
         {
-          "es": "A ticket to London",
+          "es": "Un billete a Londres",
           "t": "A ticket to London"
         },
         {
-          "es": "The bus is late",
+          "es": "El autobús llega tarde",
           "t": "The bus is late"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "u14l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «where is the station?»?",
+          "prompt": "¿Cómo se dice «¿Dónde está la estación?»?",
           "options": [
             "Where is the station?",
             "A ticket to London",
             "The bus is late",
-            "Station"
+            "Train"
           ],
           "answer": 0,
           "pair": {
-            "es": "Where is the station?",
+            "es": "¿Dónde está la estación?",
             "t": "Where is the station?"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "A ticket to London",
           "options": [
-            "A ticket to London",
-            "The bus is late",
-            "No lo sé"
+            "Un billete a Londres",
+            "¿Dónde está la estación?",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "A ticket to London",
+            "es": "Un billete a Londres",
             "t": "A ticket to London"
           }
         },
@@ -66,42 +66,44 @@
           "sentence": "The ___ is late",
           "options": [
             "bus",
-            "Station",
-            "Ticket"
+            "train",
+            "plane"
           ],
           "answer": 0,
           "pair": {
-            "es": "The bus is late",
+            "es": "El autobús llega tarde",
             "t": "The bus is late"
-          }
+          },
+          "explain": "Pregunta por lugares y billetes."
         },
         {
           "id": "u14l1e4",
           "type": "build",
-          "prompt": "Traduce: «Where is the station?»",
+          "prompt": "Traduce: «¿Dónde está la estación?»",
           "solution": "Where is the station?",
           "distractors": [
-            "Bus",
-            "Train"
+            "Ticket",
+            "Bus"
           ],
           "pair": {
-            "es": "Where is the station?",
+            "es": "¿Dónde está la estación?",
             "t": "Where is the station?"
           }
         },
         {
           "id": "u14l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «station»",
+          "prompt": "Escribe en el idioma destino: «La estación»",
           "solution": "Station",
           "accept": [
             "Station",
             "station"
           ],
           "pair": {
-            "es": "Station",
+            "es": "La estación",
             "t": "Station"
-          }
+          },
+          "explain": "Fíjate en las preposiciones de destino."
         },
         {
           "id": "u14l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Station",
+              "es": "La estación",
               "t": "Station"
             },
             {
-              "es": "Ticket",
+              "es": "El billete",
               "t": "Ticket"
             },
             {
-              "es": "Bus",
+              "es": "El autobús",
               "t": "Bus"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "u14l1e7",
           "type": "choice",
-          "prompt": "«Train» se traduce como...",
+          "prompt": "«El tren» se traduce como...",
           "options": [
             "Train",
             "Station",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Train",
+            "es": "El tren",
             "t": "Train"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "Where is the station?",
           "options": [
-            "Where is the station?",
-            "A ticket to London",
-            "The bus is late"
+            "¿Dónde está la estación?",
+            "Un billete a Londres",
+            "El autobús llega tarde"
           ],
           "answer": 0,
           "pair": {
-            "es": "Where is the station?",
+            "es": "¿Dónde está la estación?",
             "t": "Where is the station?"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "u14l2",
-      "title": "Hotel",
-      "goal": "At the hotel",
+      "title": "En el hotel",
+      "goal": "Reservar y alojarte",
       "tip": [
-        "'I have a reservation'.",
-        "Ask with 'Is there...?'"
+        "Usa fórmulas de reserva y petición.",
+        "Fíjate en el vocabulario del hotel."
       ],
       "phrases": [
         {
-          "es": "I have a reservation",
+          "es": "Tengo una reserva",
           "t": "I have a reservation"
         },
         {
-          "es": "The key, please",
+          "es": "La llave, por favor",
           "t": "The key, please"
         },
         {
-          "es": "Is there Wi-Fi?",
+          "es": "¿Hay Wi-Fi?",
           "t": "Is there Wi-Fi?"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "u14l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i have a reservation»?",
+          "prompt": "¿Cómo se dice «Tengo una reserva»?",
           "options": [
             "I have a reservation",
             "The key, please",
             "Is there Wi-Fi?",
-            "Room"
+            "Reception"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have a reservation",
+            "es": "Tengo una reserva",
             "t": "I have a reservation"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "The key, please",
           "options": [
-            "The key, please",
-            "Is there Wi-Fi?",
-            "No lo sé"
+            "La llave, por favor",
+            "Tengo una reserva",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "The key, please",
+            "es": "La llave, por favor",
             "t": "The key, please"
           }
         },
@@ -215,45 +217,47 @@
           "id": "u14l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Is ___ Wi-Fi?",
+          "sentence": "Is there ___?",
           "options": [
-            "there",
-            "Room",
-            "Key"
+            "Wi-Fi",
+            "a pool",
+            "a lift"
           ],
           "answer": 0,
           "pair": {
-            "es": "Is there Wi-Fi?",
+            "es": "¿Hay Wi-Fi?",
             "t": "Is there Wi-Fi?"
-          }
+          },
+          "explain": "Usa fórmulas de reserva y petición."
         },
         {
           "id": "u14l2e4",
           "type": "build",
-          "prompt": "Traduce: «I have a reservation»",
+          "prompt": "Traduce: «Tengo una reserva»",
           "solution": "I have a reservation",
           "distractors": [
-            "Reservation",
-            "Reception"
+            "Key",
+            "Reservation"
           ],
           "pair": {
-            "es": "I have a reservation",
+            "es": "Tengo una reserva",
             "t": "I have a reservation"
           }
         },
         {
           "id": "u14l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «room»",
+          "prompt": "Escribe en el idioma destino: «La habitación»",
           "solution": "Room",
           "accept": [
             "Room",
             "room"
           ],
           "pair": {
-            "es": "Room",
+            "es": "La habitación",
             "t": "Room"
-          }
+          },
+          "explain": "Fíjate en el vocabulario del hotel."
         },
         {
           "id": "u14l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Room",
+              "es": "La habitación",
               "t": "Room"
             },
             {
-              "es": "Key",
+              "es": "La llave",
               "t": "Key"
             },
             {
-              "es": "Reservation",
+              "es": "La reserva",
               "t": "Reservation"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "u14l2e7",
           "type": "choice",
-          "prompt": "«Reception» se traduce como...",
+          "prompt": "«La recepción» se traduce como...",
           "options": [
             "Reception",
             "Room",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Reception",
+            "es": "La recepción",
             "t": "Reception"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "I have a reservation",
           "options": [
-            "I have a reservation",
-            "The key, please",
-            "Is there Wi-Fi?"
+            "Tengo una reserva",
+            "La llave, por favor",
+            "¿Hay Wi-Fi?"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have a reservation",
+            "es": "Tengo una reserva",
             "t": "I have a reservation"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "u14l3",
-      "title": "Directions",
-      "goal": "Ask for directions",
+      "title": "Direcciones",
+      "goal": "Pedir y dar indicaciones",
       "tip": [
-        "Turn left/right.",
-        "Go straight ahead."
+        "Aprende a dar indicaciones.",
+        "Fíjate en las palabras de posición."
       ],
       "phrases": [
         {
-          "es": "Turn left",
+          "es": "Gira a la izquierda",
           "t": "Turn left"
         },
         {
-          "es": "Go straight ahead",
+          "es": "Sigue todo recto",
           "t": "Go straight ahead"
         },
         {
-          "es": "It's near here",
+          "es": "Está cerca de aquí",
           "t": "It's near here"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "u14l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «turn left»?",
+          "prompt": "¿Cómo se dice «Gira a la izquierda»?",
           "options": [
             "Turn left",
             "Go straight ahead",
             "It's near here",
-            "Left"
+            "Near"
           ],
           "answer": 0,
           "pair": {
-            "es": "Turn left",
+            "es": "Gira a la izquierda",
             "t": "Turn left"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Go straight ahead",
           "options": [
-            "Go straight ahead",
-            "It's near here",
-            "No lo sé"
+            "Sigue todo recto",
+            "Gira a la izquierda",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "Go straight ahead",
+            "es": "Sigue todo recto",
             "t": "Go straight ahead"
           }
         },
@@ -370,42 +374,44 @@
           "sentence": "It's ___ here",
           "options": [
             "near",
-            "Left",
-            "Right"
+            "far",
+            "left"
           ],
           "answer": 0,
           "pair": {
-            "es": "It's near here",
+            "es": "Está cerca de aquí",
             "t": "It's near here"
-          }
+          },
+          "explain": "Aprende a dar indicaciones."
         },
         {
           "id": "u14l3e4",
           "type": "build",
-          "prompt": "Traduce: «Turn left»",
+          "prompt": "Traduce: «Gira a la izquierda»",
           "solution": "Turn left",
           "distractors": [
-            "Straight",
-            "Near"
+            "Right",
+            "Straight"
           ],
           "pair": {
-            "es": "Turn left",
+            "es": "Gira a la izquierda",
             "t": "Turn left"
           }
         },
         {
           "id": "u14l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «left»",
+          "prompt": "Escribe en el idioma destino: «Izquierda»",
           "solution": "Left",
           "accept": [
             "Left",
             "left"
           ],
           "pair": {
-            "es": "Left",
+            "es": "Izquierda",
             "t": "Left"
-          }
+          },
+          "explain": "Fíjate en las palabras de posición."
         },
         {
           "id": "u14l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Left",
+              "es": "Izquierda",
               "t": "Left"
             },
             {
-              "es": "Right",
+              "es": "Derecha",
               "t": "Right"
             },
             {
-              "es": "Straight",
+              "es": "Recto",
               "t": "Straight"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "u14l3e7",
           "type": "choice",
-          "prompt": "«Near» se traduce como...",
+          "prompt": "«Cerca» se traduce como...",
           "options": [
             "Near",
             "Left",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Near",
+            "es": "Cerca",
             "t": "Near"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "Turn left",
           "options": [
-            "Turn left",
-            "Go straight ahead",
-            "It's near here"
+            "Gira a la izquierda",
+            "Sigue todo recto",
+            "Está cerca de aquí"
           ],
           "answer": 0,
           "pair": {
-            "es": "Turn left",
+            "es": "Gira a la izquierda",
             "t": "Turn left"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "u14l4",
-      "title": "Problems",
-      "goal": "Travel problems",
+      "title": "Emergencias",
+      "goal": "Pedir ayuda en problemas",
       "tip": [
-        "'I lost...' for lost items.",
-        "'I need help' for emergencies."
+        "Pide ayuda de forma clara.",
+        "Fíjate en el vocabulario de emergencias."
       ],
       "phrases": [
         {
-          "es": "I lost my passport",
+          "es": "He perdido mi pasaporte",
           "t": "I lost my passport"
         },
         {
-          "es": "I need help",
+          "es": "Necesito ayuda",
           "t": "I need help"
         },
         {
-          "es": "Where is the embassy?",
+          "es": "¿Dónde está la embajada?",
           "t": "Where is the embassy?"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "u14l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i lost my passport»?",
+          "prompt": "¿Cómo se dice «He perdido mi pasaporte»?",
           "options": [
             "I lost my passport",
             "I need help",
             "Where is the embassy?",
-            "Passport"
+            "Police"
           ],
           "answer": 0,
           "pair": {
-            "es": "I lost my passport",
+            "es": "He perdido mi pasaporte",
             "t": "I lost my passport"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I need help",
           "options": [
-            "I need help",
-            "Where is the embassy?",
-            "No lo sé"
+            "Necesito ayuda",
+            "He perdido mi pasaporte",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "I need help",
+            "es": "Necesito ayuda",
             "t": "I need help"
           }
         },
@@ -519,45 +525,47 @@
           "id": "u14l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Where ___ the embassy?",
+          "sentence": "Where is the ___?",
           "options": [
-            "is",
-            "Passport",
-            "Help"
+            "embassy",
+            "hotel",
+            "station"
           ],
           "answer": 0,
           "pair": {
-            "es": "Where is the embassy?",
+            "es": "¿Dónde está la embajada?",
             "t": "Where is the embassy?"
-          }
+          },
+          "explain": "Pide ayuda de forma clara."
         },
         {
           "id": "u14l4e4",
           "type": "build",
-          "prompt": "Traduce: «I lost my passport»",
+          "prompt": "Traduce: «He perdido mi pasaporte»",
           "solution": "I lost my passport",
           "distractors": [
-            "Embassy",
-            "Police"
+            "Help",
+            "Embassy"
           ],
           "pair": {
-            "es": "I lost my passport",
+            "es": "He perdido mi pasaporte",
             "t": "I lost my passport"
           }
         },
         {
           "id": "u14l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «passport»",
+          "prompt": "Escribe en el idioma destino: «El pasaporte»",
           "solution": "Passport",
           "accept": [
             "Passport",
             "passport"
           ],
           "pair": {
-            "es": "Passport",
+            "es": "El pasaporte",
             "t": "Passport"
-          }
+          },
+          "explain": "Fíjate en el vocabulario de emergencias."
         },
         {
           "id": "u14l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Passport",
+              "es": "El pasaporte",
               "t": "Passport"
             },
             {
-              "es": "Help",
+              "es": "La ayuda",
               "t": "Help"
             },
             {
-              "es": "Embassy",
+              "es": "La embajada",
               "t": "Embassy"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "u14l4e7",
           "type": "choice",
-          "prompt": "«Police» se traduce como...",
+          "prompt": "«La policía» se traduce como...",
           "options": [
             "Police",
             "Passport",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Police",
+            "es": "La policía",
             "t": "Police"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "I lost my passport",
           "options": [
-            "I lost my passport",
-            "I need help",
-            "Where is the embassy?"
+            "He perdido mi pasaporte",
+            "Necesito ayuda",
+            "¿Dónde está la embajada?"
           ],
           "answer": 0,
           "pair": {
-            "es": "I lost my passport",
+            "es": "He perdido mi pasaporte",
             "t": "I lost my passport"
           }
         }
@@ -671,9 +679,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La lengua\"?",
           "options": [
-            "the",
-            "I",
-            "Low"
+            "The tongue",
+            "The sun",
+            "To start"
           ],
           "answer": 0,
           "pair": {
@@ -837,7 +845,7 @@
           "prompt": "Traduce: «Otro»",
           "solution": "Other",
           "distractors": [
-            "the",
+            "another",
             "say"
           ],
           "pair": {
@@ -1121,9 +1129,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Los vaqueros\"?",
           "options": [
-            "the",
-            "ready",
-            "Great"
+            "The jeans",
+            "To know",
+            "The salt"
           ],
           "answer": 0,
           "pair": {
@@ -1421,9 +1429,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El ciudadano\"?",
           "options": [
-            "the",
-            "start",
-            "Stay"
+            "The citizen",
+            "To vote",
+            "The noise"
           ],
           "answer": 0,
           "pair": {

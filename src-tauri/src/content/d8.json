@@ -51,7 +51,7 @@
           "options": [
             "El menú, por favor",
             "Estaba delicioso",
-            "No lo sé"
+            "Quisiera reservar una mesa"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estaba delicioso\"?",
           "options": [
-            "war",
-            "Tisch",
-            "Speisekarte"
+            "Es war lecker",
+            "Die Speisekarte, bitte",
+            "Ich möchte einen Tisch reservieren"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "¿Dónde está la puerta?",
             "Tengo una maleta",
-            "No lo sé"
+            "¿A qué hora sale el tren?"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "¿Lo tiene en otra talla?",
             "Quiero pagar con tarjeta",
-            "No lo sé"
+            "Busco una farmacia"
           ],
           "answer": 0,
           "pair": {
@@ -506,7 +506,7 @@
           "options": [
             "Buena suerte",
             "Hasta la próxima",
-            "No lo sé"
+            "Fue un placer"
           ],
           "answer": 0,
           "pair": {

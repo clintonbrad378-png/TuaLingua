@@ -35,8 +35,8 @@
           "sentence": "If I ___ more money, I would travel.",
           "options": [
             "had",
-            "If I were you, I would talk to her",
-            "If I were you, I would study harder."
+            "have",
+            "did"
           ],
           "answer": 0,
           "pair": {
@@ -482,8 +482,8 @@
           "sentence": "It's expensive. ___ , it's the best option.",
           "options": [
             "However",
-            "On the one hand it's cheap; on the other hand, it's far away.",
-            "On the other hand"
+            "Therefore",
+            "Besides"
           ],
           "answer": 0,
           "pair": {
@@ -628,9 +628,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El ojo\"?",
           "options": [
-            "the",
+            "The eye",
             "To cook",
-            "Into"
+            "The pain"
           ],
           "answer": 0,
           "pair": {
@@ -1078,9 +1078,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El hermano\"?",
           "options": [
-            "the",
-            "give",
-            "The brother"
+            "The brother",
+            "The nurse",
+            "The doctor"
           ],
           "answer": 0,
           "pair": {
@@ -1228,9 +1228,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El mensaje\"?",
           "options": [
-            "the",
-            "woman",
-            "back"
+            "The message",
+            "The guest",
+            "The board game"
           ],
           "answer": 0,
           "pair": {
@@ -1378,9 +1378,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El agua\"?",
           "options": [
-            "the",
-            "School",
-            "The water"
+            "The water",
+            "The cake",
+            "The trip"
           ],
           "answer": 0,
           "pair": {

@@ -51,7 +51,7 @@
           "options": [
             "Estoy enfermo",
             "Necesito un médico",
-            "No lo sé"
+            "Me duele la cabeza"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "¿Tiene aspirina?",
             "¿Cómo se toma?",
-            "No lo sé"
+            "Necesito este medicamento"
           ],
           "answer": 0,
           "pair": {
@@ -216,9 +216,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cómo se toma?\"?",
           "options": [
-            "Como",
-            "Remédio",
-            "Farmácia"
+            "Como tomar?",
+            "Tem aspirina?",
+            "Preciso deste remédio"
           ],
           "answer": 0,
           "pair": {
@@ -338,7 +338,7 @@
             "Socorro!",
             "Chame a polícia",
             "É uma emergência",
-            "Socorro"
+            "Perigo"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Llame a la policía",
             "Es una emergencia",
-            "No lo sé"
+            "Ayuda"
           ],
           "answer": 0,
           "pair": {
@@ -367,9 +367,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Es una emergencia\"?",
           "options": [
-            "uma",
-            "Socorro",
-            "Polícia"
+            "É uma emergência",
+            "Chame a polícia",
+            "Perigo"
           ],
           "answer": 0,
           "pair": {
@@ -505,7 +505,7 @@
           "options": [
             "Como sano",
             "Duermo bien",
-            "No lo sé"
+            "Hago deporte"
           ],
           "answer": 0,
           "pair": {
@@ -518,9 +518,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
-            "durmo",
-            "Esporte",
-            "Saúde"
+            "Eu durmo bem",
+            "Eu faço esporte",
+            "Eu como saudável"
           ],
           "answer": 0,
           "pair": {

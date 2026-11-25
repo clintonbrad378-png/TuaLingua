@@ -631,9 +631,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La chica\"?",
           "options": [
-            "the",
-            "to",
-            "To draw"
+            "The girl",
+            "To draw",
+            "The jam"
           ],
           "answer": 0,
           "pair": {
@@ -931,9 +931,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El director\"?",
           "options": [
-            "the",
-            "send",
-            "he"
+            "The director",
+            "Calm",
+            "Free"
           ],
           "answer": 0,
           "pair": {
@@ -1231,9 +1231,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El ánimo\"?",
           "options": [
-            "the",
-            "meet",
-            "The square"
+            "The mood",
+            "The square",
+            "The turtle"
           ],
           "answer": 0,
           "pair": {
@@ -1381,9 +1381,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La noche\"?",
           "options": [
-            "the",
-            "yesterday",
-            "Own"
+            "The night",
+            "The car",
+            "The aunt"
           ],
           "answer": 0,
           "pair": {

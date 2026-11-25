@@ -112,12 +112,11 @@
           "id": "c2l1e5",
           "type": "fill",
           "prompt": "Completa «carne» en pinyin",
-          "sentence": "zhège cài méiyǒu __",
+          "sentence": "zhège cài méiyǒu ___",
           "options": [
             "ròu",
             "yú",
-            "鱼 (yú)",
-            "这个菜没有肉 (zhège cài méiyǒu ròu)"
+            "jīdàn"
           ],
           "answer": 0,
           "pair": {
@@ -290,12 +289,11 @@
           "id": "c2l2e5",
           "type": "fill",
           "prompt": "Completa «beber» en pinyin",
-          "sentence": "wǒ xiǎng __ chá",
+          "sentence": "wǒ xiǎng ___ chá",
           "options": [
             "hē",
-            "爸 (bà)",
-            "喝 (hē)",
-            "菜单 (càidān)"
+            "chī",
+            "mǎi"
           ],
           "answer": 0,
           "pair": {
@@ -468,12 +466,11 @@
           "id": "c2l3e5",
           "type": "fill",
           "prompt": "Completa «te» en pinyin",
-          "sentence": "qǐng gěi wǒ yì __",
+          "sentence": "qǐng gěi wǒ yì ___",
           "options": [
             "bēi chá",
-            "请给我一杯茶 (qǐng gěi wǒ yì bēi chá)",
-            "咖啡 (kāfēi)",
-            "我不喜欢咖啡 (wǒ bù xǐhuan kāfēi)"
+            "bēi kāfēi",
+            "bēi shuǐ"
           ],
           "answer": 0,
           "pair": {
@@ -646,12 +643,11 @@
           "id": "c2l4e5",
           "type": "fill",
           "prompt": "Completa la pregunta del precio",
-          "sentence": "zhège __ qián?",
+          "sentence": "zhège ___ qián?",
           "options": [
             "duōshao",
-            "这太贵了 (zhè tài guì le)",
-            "块 (kuài)",
-            "贵 (guì)"
+            "shénme",
+            "nǎlǐ"
           ],
           "answer": 0,
           "pair": {

@@ -244,9 +244,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Todo recto y después a la izquierda.\"?",
           "options": [
-            "Прямо",
-            "Направо",
-            "В десять"
+            "Прямо, потом налево.",
+            "В десять",
+            "Во сколько?"
           ],
           "answer": 0,
           "pair": {
@@ -412,9 +412,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Tengo un gato.\"?",
           "options": [
-            "У меня",
-            "Я есть",
-            "Сестра"
+            "У меня есть кот.",
+            "Моя семья",
+            "У меня есть брат"
           ],
           "answer": 0,
           "pair": {
@@ -578,9 +578,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Tengo mucha hambre.\"?",
           "options": [
-            "голоден",
-            "вода",
-            "Кофе с молоком"
+            "Я очень голоден.",
+            "Я голоден",
+            "Приятного аппетита!"
           ],
           "answer": 0,
           "pair": {

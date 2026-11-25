@@ -51,7 +51,7 @@
           "options": [
             "La farmacia está cerca",
             "Voy al supermercado",
-            "No lo sé"
+            "¿Dónde está la estación?"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Voy al supermercado\"?",
           "options": [
-            "ao",
-            "Estação",
-            "Farmácia"
+            "Vou ao supermercado",
+            "Onde fica a estação?",
+            "A farmácia fica perto"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "El tren llega tarde",
             "¿Dónde está la parada?",
-            "No lo sé"
+            "Un billete a Lisboa"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Sigue recto",
             "Está cerca de aquí",
-            "No lo sé"
+            "Gira a la derecha"
           ],
           "answer": 0,
           "pair": {
@@ -367,9 +367,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Está cerca de aquí\"?",
           "options": [
-            "perto",
-            "Direita",
-            "Esquerda"
+            "Fica perto daqui",
+            "Vire à direita",
+            "Siga em frente"
           ],
           "answer": 0,
           "pair": {
@@ -505,7 +505,7 @@
           "options": [
             "La llave, por favor",
             "¿Hay wifi?",
-            "No lo sé"
+            "Tengo una reserva"
           ],
           "answer": 0,
           "pair": {
@@ -518,9 +518,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
-            "Tem",
-            "Quarto",
-            "Chave"
+            "Tem wi-fi?",
+            "Tenho uma reserva",
+            "A chave, por favor"
           ],
           "answer": 0,
           "pair": {
@@ -968,9 +968,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy bien\"?",
           "options": [
-            "Estou",
-            "Banana",
-            "Cabeça"
+            "Estou bem",
+            "Mala",
+            "Igual"
           ],
           "answer": 0,
           "pair": {

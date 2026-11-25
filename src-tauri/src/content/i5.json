@@ -51,7 +51,7 @@
           "options": [
             "Desayuno en la cocina",
             "Limpio la casa",
-            "No lo sé"
+            "Me despierto a las siete"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Limpio la casa\"?",
           "options": [
-            "la",
-            "Alzarsi",
-            "Dormire"
+            "Pulisco la casa",
+            "Mi sveglio alle sette",
+            "Faccio colazione in cucina"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "Quisiera una camisa",
             "Es demasiado caro",
-            "No lo sé"
+            "¿Cuánto cuesta?"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +215,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Es demasiado caro\"?",
           "options": [
-            "troppo",
-            "Economico",
-            "Caro"
+            "È troppo caro",
+            "Quanto costa?",
+            "Vorrei una camicia"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +353,7 @@
           "options": [
             "Hoy llueve",
             "Hace buen tiempo",
-            "No lo sé"
+            "Hace calor"
           ],
           "answer": 0,
           "pair": {
@@ -366,9 +366,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Hace buen tiempo\"?",
           "options": [
-            "bel",
-            "Sole",
-            "Pioggia"
+            "Fa bel tempo",
+            "Fa caldo",
+            "Oggi piove"
           ],
           "answer": 0,
           "pair": {
@@ -504,7 +504,7 @@
           "options": [
             "Me encanta leer",
             "Juego al fútbol",
-            "No lo sé"
+            "Me gusta la música"
           ],
           "answer": 0,
           "pair": {
@@ -517,9 +517,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Juego al fútbol\"?",
           "options": [
-            "a",
-            "Cantare",
-            "Ballare"
+            "Gioco a calcio",
+            "Mi piace leggere",
+            "Mi piace la musica"
           ],
           "answer": 0,
           "pair": {
@@ -1417,9 +1417,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Buena suerte\"?",
           "options": [
-            "Buona",
-            "Difficile",
-            "Scuro"
+            "Buona fortuna",
+            "Solo",
+            "Vuoto"
           ],
           "answer": 0,
           "pair": {

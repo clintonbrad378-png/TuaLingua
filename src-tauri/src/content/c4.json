@@ -110,12 +110,11 @@
           "id": "c4l1e5",
           "type": "fill",
           "prompt": "Completa «alto» en pinyin",
-          "sentence": "wǒ de gēge hěn __",
+          "sentence": "wǒ de gēge hěn ___",
           "options": [
             "gāo",
             "ǎi",
-            "shuài",
-            "高 (gāo)"
+            "shuài"
           ],
           "answer": 0,
           "pair": {
@@ -288,12 +287,11 @@
           "id": "c4l2e5",
           "type": "fill",
           "prompt": "Completa «feliz» en pinyin",
-          "sentence": "jīntiān wǒ hěn __",
+          "sentence": "jīntiān wǒ hěn ___",
           "options": [
             "kāixīn",
             "shēngqì",
-            "nánguò",
-            "生气 (shēngqì)"
+            "nánguò"
           ],
           "answer": 0,
           "pair": {
@@ -463,12 +461,11 @@
           "id": "c4l3e5",
           "type": "fill",
           "prompt": "Completa «querer (deseo)» en pinyin",
-          "sentence": "wǒ __ xué zhōngwén",
+          "sentence": "wǒ ___ xué zhōngwén",
           "options": [
             "xiǎng",
             "huì",
-            "kěyǐ",
-            "宜 (yí)"
+            "kěyǐ"
           ],
           "answer": 0,
           "pair": {
@@ -640,7 +637,7 @@
           "id": "c4l4e5",
           "type": "fill",
           "prompt": "Completa la petición de repetición",
-          "sentence": "qǐng zài shuō __",
+          "sentence": "qǐng zài shuō ___",
           "options": [
             "yíbiàn",
             "shì",
@@ -1220,11 +1217,11 @@
           "id": "c4l8e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我不懂 ___ bù dǒng)",
+          "sentence": "我不懂 (wǒ bù ___)",
           "options": [
-            "(wǒ",
-            "地板",
-            "米饭"
+            "dǒng",
+            "shuō",
+            "tīng"
           ],
           "answer": 0,
           "pair": {

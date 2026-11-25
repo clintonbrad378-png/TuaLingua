@@ -220,9 +220,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Está incluido el desayuno?\"?",
           "options": [
-            "included",
-            "Check-out",
-            "I have a reservation"
+            "Is breakfast included?",
+            "I have a reservation",
+            "Key"
           ],
           "answer": 0,
           "pair": {
@@ -535,8 +535,8 @@
           "sentence": "Can I pay ___ card?",
           "options": [
             "by",
-            "Card",
-            "Can I pay by card?"
+            "with",
+            "in"
           ],
           "answer": 0,
           "pair": {
@@ -838,9 +838,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La dirección\"?",
           "options": [
-            "the",
-            "car",
-            "long"
+            "The direction",
+            "The citizen",
+            "Buy"
           ],
           "answer": 0,
           "pair": {
@@ -1288,9 +1288,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El actor\"?",
           "options": [
-            "the",
-            "Later",
-            "The actor"
+            "The actor",
+            "The word",
+            "The belt"
           ],
           "answer": 0,
           "pair": {

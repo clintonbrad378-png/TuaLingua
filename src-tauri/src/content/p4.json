@@ -51,7 +51,7 @@
           "options": [
             "Tengo dos hermanos",
             "Mi familia es grande",
-            "No lo sé"
+            "Mi madre es amable"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "Ella es muy simpática",
             "Nos vemos mañana",
-            "No lo sé"
+            "Este es mi amigo"
           ],
           "answer": 0,
           "pair": {
@@ -216,9 +216,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Nos vemos mañana\"?",
           "options": [
-            "vemos",
-            "Amigo",
-            "Pessoa"
+            "Nos vemos amanhã",
+            "Este é meu amigo",
+            "Ela é muito simpática"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Ella es joven",
             "Es muy amable",
-            "No lo sé"
+            "Él es alto"
           ],
           "answer": 0,
           "pair": {
@@ -506,7 +506,7 @@
           "options": [
             "Estoy cansado",
             "Estoy preocupado",
-            "No lo sé"
+            "Estoy feliz"
           ],
           "answer": 0,
           "pair": {
@@ -519,9 +519,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
-            "Estou",
-            "Feliz",
-            "Triste"
+            "Estou preocupado",
+            "Estou feliz",
+            "Estou cansado"
           ],
           "answer": 0,
           "pair": {
@@ -1270,9 +1270,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Sediento\"?",
           "options": [
-            "Com",
-            "Explicar",
-            "Julho"
+            "Com sede",
+            "Mês",
+            "Sal"
           ],
           "answer": 0,
           "pair": {

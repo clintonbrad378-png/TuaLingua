@@ -87,9 +87,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Me gusta el café.\"?",
           "options": [
-            "like",
-            "Bread",
-            "I would like some water, please"
+            "I like coffee.",
+            "I'm hungry",
+            "I like cheese"
           ],
           "answer": 0,
           "pair": {
@@ -237,8 +237,8 @@
           "sentence": "Can I have the ___, please?",
           "options": [
             "menu",
-            "I would like a coffee, please",
-            "Delicious"
+            "bill",
+            "table"
           ],
           "answer": 0,
           "pair": {
@@ -307,8 +307,8 @@
           "sentence": "___ you have a table for two?",
           "options": [
             "Do",
-            "Do you have a table for two?",
-            "Have"
+            "Can",
+            "Are"
           ],
           "answer": 0,
           "pair": {
@@ -841,9 +841,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El mercado\"?",
           "options": [
-            "the",
-            "reason",
-            "The dog"
+            "The market",
+            "The dog",
+            "The theatre"
           ],
           "answer": 0,
           "pair": {
@@ -991,9 +991,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El padre\"?",
           "options": [
-            "the",
-            "hiking",
-            "include"
+            "The father",
+            "The cheese",
+            "The teacher"
           ],
           "answer": 0,
           "pair": {
@@ -1442,9 +1442,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El invierno\"?",
           "options": [
-            "the",
-            "every",
-            "love"
+            "The winter",
+            "A lot",
+            "Every day"
           ],
           "answer": 0,
           "pair": {

@@ -51,7 +51,7 @@
           "options": [
             "En mi opinión, es difícil",
             "Estoy de acuerdo",
-            "No lo sé"
+            "Pienso que es una buena idea"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
-            "Sono",
-            "Idea",
-            "Opinione"
+            "Sono d'accordo",
+            "Secondo me, è difficile",
+            "Penso che sia una buona idea"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "Quiero aprender italiano",
             "Nos vemos pronto",
-            "No lo sé"
+            "Mañana voy a viajar"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +215,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
-            "vediamo",
-            "Domani",
-            "Presto"
+            "Ci vediamo presto",
+            "Domani vado a viaggiare",
+            "Voglio imparare l'italiano"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +353,7 @@
           "options": [
             "Me siento cansado",
             "Estoy preocupado",
-            "No lo sé"
+            "Estoy muy feliz"
           ],
           "answer": 0,
           "pair": {
@@ -366,9 +366,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
-            "Sono",
-            "Felice",
-            "Triste"
+            "Sono preoccupato",
+            "Mi sento stanco",
+            "Sono molto felice"
           ],
           "answer": 0,
           "pair": {
@@ -504,7 +504,7 @@
           "options": [
             "No importa",
             "Por supuesto",
-            "No lo sé"
+            "¿Podrías ayudarme?"
           ],
           "answer": 0,
           "pair": {

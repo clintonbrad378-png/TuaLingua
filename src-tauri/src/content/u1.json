@@ -81,9 +81,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Soy Ana.\"?",
           "options": [
-            "am",
-            "Hi! How are you?",
-            "are"
+            "I am Ana.",
+            "Thank you",
+            "Good morning"
           ],
           "answer": 0,
           "pair": {
@@ -225,7 +225,7 @@
           "prompt": "Traduce: «Encantado de conocerte»",
           "solution": "Nice to meet you",
           "distractors": [
-            "meet",
+            "friend",
             "Where are you from?",
             "I am 20 years old"
           ],
@@ -572,8 +572,8 @@
           "sentence": "I speak ___ English.",
           "options": [
             "a little",
-            "I speak a little",
-            "Do you speak English?"
+            "well",
+            "fluently"
           ],
           "answer": 0,
           "pair": {
@@ -698,8 +698,8 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El pato\"?",
           "options": [
-            "the",
-            "first",
+            "The duck",
+            "The son",
             "The orange"
           ],
           "answer": 0,
@@ -1298,9 +1298,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La cabeza\"?",
           "options": [
-            "the",
-            "four",
-            "best"
+            "The head",
+            "The flight",
+            "Guy"
           ],
           "answer": 0,
           "pair": {
@@ -1448,9 +1448,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El supermercado\"?",
           "options": [
-            "the",
-            "consider",
-            "The arm"
+            "The supermarket",
+            "The arm",
+            "The cousin"
           ],
           "answer": 0,
           "pair": {

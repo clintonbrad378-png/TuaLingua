@@ -6,24 +6,24 @@
   "lessons": [
     {
       "id": "c7l1",
-      "title": "职业",
-      "goal": "谈工作",
+      "title": "En el trabajo",
+      "goal": "Hablar del trabajo",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我是...」表示职业。",
-        "「我在...工作」。"
+        "Habla de profesiones y lugares de trabajo.",
+        "Fíjate en las preposiciones."
       ],
       "phrases": [
         {
-          "es": "我是老师",
+          "es": "Soy docente",
           "t": "我是老师 (wǒ shì lǎoshī)"
         },
         {
-          "es": "我在找工作",
+          "es": "Estoy buscando trabajo",
           "t": "我在找工作 (wǒ zài zhǎo gōngzuò)"
         },
         {
-          "es": "我在办公室工作",
+          "es": "Trabajo en una oficina",
           "t": "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)"
         }
       ],
@@ -31,16 +31,16 @@
         {
           "id": "c7l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我是老师»?",
+          "prompt": "¿Cómo se dice «Soy docente»?",
           "options": [
             "我是老师 (wǒ shì lǎoshī)",
             "我在找工作 (wǒ zài zhǎo gōngzuò)",
             "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)",
-            "老师 (lǎoshī)"
+            "办公室 (bàngōngshì)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我是老师",
+            "es": "Soy docente",
             "t": "我是老师 (wǒ shì lǎoshī)"
           }
         },
@@ -50,13 +50,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我在找工作 (wǒ zài zhǎo gōngzuò)",
           "options": [
-            "我在找工作",
-            "我在办公室工作",
-            "No lo sé"
+            "Estoy buscando trabajo",
+            "Soy docente",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "我在找工作",
+            "es": "Estoy buscando trabajo",
             "t": "我在找工作 (wǒ zài zhǎo gōngzuò)"
           }
         },
@@ -64,45 +64,47 @@
           "id": "c7l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我在办公室工作 ___ zài bàngōngshì gōngzuò)",
+          "sentence": "我在办公室工作 (wǒ zài ___ gōngzuò)",
           "options": [
-            "(wǒ",
-            "老师",
-            "医生"
+            "bàngōngshì",
+            "xuéxiào",
+            "yīyuàn"
           ],
           "answer": 0,
           "pair": {
-            "es": "我在办公室工作",
+            "es": "Trabajo en una oficina",
             "t": "我在办公室工作 (wǒ zài bàngōngshì gōngzuò)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c7l1e4",
           "type": "build",
-          "prompt": "Traduce: «我是老师»",
+          "prompt": "Traduce: «Soy docente»",
           "solution": "我是老师 (wǒ shì lǎoshī)",
           "distractors": [
-            "工程师",
-            "办公室"
+            "医生",
+            "工程师"
           ],
           "pair": {
-            "es": "我是老师",
+            "es": "Soy docente",
             "t": "我是老师 (wǒ shì lǎoshī)"
           }
         },
         {
           "id": "c7l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «老师»",
+          "prompt": "Escribe en el idioma destino: «El docente»",
           "solution": "老师",
           "accept": [
             "老师",
             "laoshi"
           ],
           "pair": {
-            "es": "老师",
+            "es": "El docente",
             "t": "老师 (lǎoshī)"
-          }
+          },
+          "explain": "Habla de profesiones y lugares de trabajo."
         },
         {
           "id": "c7l1e6",
@@ -110,15 +112,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "老师",
+              "es": "El docente",
               "t": "老师 (lǎoshī)"
             },
             {
-              "es": "医生",
+              "es": "El médico",
               "t": "医生 (yīshēng)"
             },
             {
-              "es": "工程师",
+              "es": "El ingeniero",
               "t": "工程师 (gōngchéngshī)"
             }
           ]
@@ -126,7 +128,7 @@
         {
           "id": "c7l1e7",
           "type": "choice",
-          "prompt": "«办公室» se traduce como...",
+          "prompt": "«La oficina» se traduce como...",
           "options": [
             "办公室 (bàngōngshì)",
             "老师 (lǎoshī)",
@@ -135,7 +137,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "办公室",
+            "es": "La oficina",
             "t": "办公室 (bàngōngshì)"
           }
         },
@@ -145,13 +147,13 @@
           "prompt": "Escucha y elige",
           "audio": "我是老师 (wǒ shì lǎoshī)",
           "options": [
-            "我是老师",
-            "我在找工作",
-            "我在办公室工作"
+            "Soy docente",
+            "Estoy buscando trabajo",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "我是老师",
+            "es": "Soy docente",
             "t": "我是老师 (wǒ shì lǎoshī)"
           }
         }
@@ -159,24 +161,24 @@
     },
     {
       "id": "c7l2",
-      "title": "办公室",
-      "goal": "办公室交流",
+      "title": "Reuniones",
+      "goal": "Coordinar tareas",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我有会议」。",
-        "「我发邮件」。"
+        "Coordina citas y tareas.",
+        "Fíjate en las expresiones de tiempo."
       ],
       "phrases": [
         {
-          "es": "我有一个会议",
+          "es": "Tengo una reunión",
           "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
         },
         {
-          "es": "我发邮件",
+          "es": "Enviaré un correo",
           "t": "我发邮件 (wǒ fā yóujiàn)"
         },
         {
-          "es": "截止日期是明天",
+          "es": "La fecha límite es mañana",
           "t": "截止日期是明天 (jiézhǐ rìqī shì míngtiān)"
         }
       ],
@@ -184,16 +186,16 @@
         {
           "id": "c7l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我有一个会议»?",
+          "prompt": "¿Cómo se dice «Tengo una reunión»?",
           "options": [
             "我有一个会议 (wǒ yǒu yī gè huìyì)",
             "我发邮件 (wǒ fā yóujiàn)",
             "截止日期是明天 (jiézhǐ rìqī shì míngtiān)",
-            "会议 (huìyì)"
+            "项目 (xiàngmù)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有一个会议",
+            "es": "Tengo una reunión",
             "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
           }
         },
@@ -203,13 +205,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我发邮件 (wǒ fā yóujiàn)",
           "options": [
-            "我发邮件",
-            "截止日期是明天",
-            "No lo sé"
+            "Enviaré un correo",
+            "Tengo una reunión",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "我发邮件",
+            "es": "Enviaré un correo",
             "t": "我发邮件 (wǒ fā yóujiàn)"
           }
         },
@@ -217,45 +219,47 @@
           "id": "c7l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "截止日期是明天 ___ rìqī shì míngtiān)",
+          "sentence": "截止日期是明天 (jiézhǐ rìqī shì ___)",
           "options": [
-            "(jiézhǐ",
-            "会议",
-            "邮件"
+            "míngtiān",
+            "zuótiān",
+            "jīntiān"
           ],
           "answer": 0,
           "pair": {
-            "es": "截止日期是明天",
+            "es": "La fecha límite es mañana",
             "t": "截止日期是明天 (jiézhǐ rìqī shì míngtiān)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c7l2e4",
           "type": "build",
-          "prompt": "Traduce: «我有一个会议»",
+          "prompt": "Traduce: «Tengo una reunión»",
           "solution": "我有一个会议 (wǒ yǒu yī gè huìyì)",
           "distractors": [
-            "截止日期",
-            "项目"
+            "邮件",
+            "截止日期"
           ],
           "pair": {
-            "es": "我有一个会议",
+            "es": "Tengo una reunión",
             "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
           }
         },
         {
           "id": "c7l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «会议»",
+          "prompt": "Escribe en el idioma destino: «La reunión»",
           "solution": "会议",
           "accept": [
             "会议",
             "huiyi"
           ],
           "pair": {
-            "es": "会议",
+            "es": "La reunión",
             "t": "会议 (huìyì)"
-          }
+          },
+          "explain": "Coordina citas y tareas."
         },
         {
           "id": "c7l2e6",
@@ -263,15 +267,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "会议",
+              "es": "La reunión",
               "t": "会议 (huìyì)"
             },
             {
-              "es": "邮件",
+              "es": "El correo",
               "t": "邮件 (yóujiàn)"
             },
             {
-              "es": "截止日期",
+              "es": "La fecha límite",
               "t": "截止日期 (jiézhǐ rìqī)"
             }
           ]
@@ -279,7 +283,7 @@
         {
           "id": "c7l2e7",
           "type": "choice",
-          "prompt": "«项目» se traduce como...",
+          "prompt": "«El proyecto» se traduce como...",
           "options": [
             "项目 (xiàngmù)",
             "会议 (huìyì)",
@@ -288,7 +292,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "项目",
+            "es": "El proyecto",
             "t": "项目 (xiàngmù)"
           }
         },
@@ -298,13 +302,13 @@
           "prompt": "Escucha y elige",
           "audio": "我有一个会议 (wǒ yǒu yī gè huìyì)",
           "options": [
-            "我有一个会议",
-            "我发邮件",
-            "截止日期是明天"
+            "Tengo una reunión",
+            "Enviaré un correo",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有一个会议",
+            "es": "Tengo una reunión",
             "t": "我有一个会议 (wǒ yǒu yī gè huìyì)"
           }
         }
@@ -312,24 +316,24 @@
     },
     {
       "id": "c7l3",
-      "title": "学校",
-      "goal": "在学校",
+      "title": "Estudiar",
+      "goal": "Hablar de exámenes y clases",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我有考试」。",
-        "「我不明白」。"
+        "Habla de exámenes y clases.",
+        "Fíjate en la negación."
       ],
       "phrases": [
         {
-          "es": "我有考试",
+          "es": "Tengo un examen",
           "t": "我有考试 (wǒ yǒu kǎoshì)"
         },
         {
-          "es": "我不明白",
+          "es": "No entiendo",
           "t": "我不明白 (wǒ bù míngbai)"
         },
         {
-          "es": "这节课很有趣",
+          "es": "La lección es interesante",
           "t": "这节课很有趣 (zhè jié kè hěn yǒuqù)"
         }
       ],
@@ -337,16 +341,16 @@
         {
           "id": "c7l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我有考试»?",
+          "prompt": "¿Cómo se dice «Tengo un examen»?",
           "options": [
             "我有考试 (wǒ yǒu kǎoshì)",
             "我不明白 (wǒ bù míngbai)",
             "这节课很有趣 (zhè jié kè hěn yǒuqù)",
-            "考试 (kǎoshì)"
+            "答案 (dá'àn)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有考试",
+            "es": "Tengo un examen",
             "t": "我有考试 (wǒ yǒu kǎoshì)"
           }
         },
@@ -356,13 +360,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我不明白 (wǒ bù míngbai)",
           "options": [
-            "我不明白",
-            "这节课很有趣",
-            "No lo sé"
+            "No entiendo",
+            "Tengo un examen",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "我不明白",
+            "es": "No entiendo",
             "t": "我不明白 (wǒ bù míngbai)"
           }
         },
@@ -370,45 +374,47 @@
           "id": "c7l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "这节课很有趣 ___ jié kè hěn yǒuqù)",
+          "sentence": "这节课很有趣 (zhè jié kè hěn ___)",
           "options": [
-            "(zhè",
-            "考试",
-            "课"
+            "yǒuqù",
+            "nán",
+            "cháng"
           ],
           "answer": 0,
           "pair": {
-            "es": "这节课很有趣",
+            "es": "La lección es interesante",
             "t": "这节课很有趣 (zhè jié kè hěn yǒuqù)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c7l3e4",
           "type": "build",
-          "prompt": "Traduce: «我有考试»",
+          "prompt": "Traduce: «Tengo un examen»",
           "solution": "我有考试 (wǒ yǒu kǎoshì)",
           "distractors": [
-            "问题",
-            "答案"
+            "课",
+            "问题"
           ],
           "pair": {
-            "es": "我有考试",
+            "es": "Tengo un examen",
             "t": "我有考试 (wǒ yǒu kǎoshì)"
           }
         },
         {
           "id": "c7l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «考试»",
+          "prompt": "Escribe en el idioma destino: «El examen»",
           "solution": "考试",
           "accept": [
             "考试",
             "kaoshi"
           ],
           "pair": {
-            "es": "考试",
+            "es": "El examen",
             "t": "考试 (kǎoshì)"
-          }
+          },
+          "explain": "Habla de exámenes y clases."
         },
         {
           "id": "c7l3e6",
@@ -416,15 +422,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "考试",
+              "es": "El examen",
               "t": "考试 (kǎoshì)"
             },
             {
-              "es": "课",
+              "es": "La lección",
               "t": "课 (kè)"
             },
             {
-              "es": "问题",
+              "es": "La pregunta",
               "t": "问题 (wèntí)"
             }
           ]
@@ -432,7 +438,7 @@
         {
           "id": "c7l3e7",
           "type": "choice",
-          "prompt": "«答案» se traduce como...",
+          "prompt": "«La respuesta» se traduce como...",
           "options": [
             "答案 (dá'àn)",
             "考试 (kǎoshì)",
@@ -441,7 +447,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "答案",
+            "es": "La respuesta",
             "t": "答案 (dá'àn)"
           }
         },
@@ -451,13 +457,13 @@
           "prompt": "Escucha y elige",
           "audio": "我有考试 (wǒ yǒu kǎoshì)",
           "options": [
-            "我有考试",
-            "我不明白",
-            "这节课很有趣"
+            "Tengo un examen",
+            "No entiendo",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "我有考试",
+            "es": "Tengo un examen",
             "t": "我有考试 (wǒ yǒu kǎoshì)"
           }
         }
@@ -465,24 +471,24 @@
     },
     {
       "id": "c7l4",
-      "title": "科技",
-      "goal": "数字生活",
+      "title": "Tecnología",
+      "goal": "Usar el móvil y aplicaciones",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「下载应用」。",
-        "「我忘了密码」。"
+        "Usa vocabulario de dispositivos.",
+        "Fíjate en las instrucciones."
       ],
       "phrases": [
         {
-          "es": "下载这个应用",
+          "es": "Descarga la aplicación",
           "t": "下载这个应用 (xiàzài zhège yìngyòng)"
         },
         {
-          "es": "我忘了密码",
+          "es": "He olvidado mi contraseña",
           "t": "我忘了密码 (wǒ wàng le mìmǎ)"
         },
         {
-          "es": "我的手机坏了",
+          "es": "Mi teléfono no funciona",
           "t": "我的手机坏了 (wǒ de shǒujī huài le)"
         }
       ],
@@ -490,16 +496,16 @@
         {
           "id": "c7l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «下载这个应用»?",
+          "prompt": "¿Cómo se dice «Descarga la aplicación»?",
           "options": [
             "下载这个应用 (xiàzài zhège yìngyòng)",
             "我忘了密码 (wǒ wàng le mìmǎ)",
             "我的手机坏了 (wǒ de shǒujī huài le)",
-            "应用 (yìngyòng)"
+            "消息 (xiāoxi)"
           ],
           "answer": 0,
           "pair": {
-            "es": "下载这个应用",
+            "es": "Descarga la aplicación",
             "t": "下载这个应用 (xiàzài zhège yìngyòng)"
           }
         },
@@ -509,13 +515,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我忘了密码 (wǒ wàng le mìmǎ)",
           "options": [
-            "我忘了密码",
-            "我的手机坏了",
-            "No lo sé"
+            "He olvidado mi contraseña",
+            "Descarga la aplicación",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "我忘了密码",
+            "es": "He olvidado mi contraseña",
             "t": "我忘了密码 (wǒ wàng le mìmǎ)"
           }
         },
@@ -523,45 +529,47 @@
           "id": "c7l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我的手机坏了 ___ de shǒujī huài le)",
+          "sentence": "我的手机坏了 (wǒ de ___ huài le)",
           "options": [
-            "(wǒ",
-            "应用",
-            "密码"
+            "shǒujī",
+            "diànnǎo",
+            "píngmù"
           ],
           "answer": 0,
           "pair": {
-            "es": "我的手机坏了",
+            "es": "Mi teléfono no funciona",
             "t": "我的手机坏了 (wǒ de shǒujī huài le)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c7l4e4",
           "type": "build",
-          "prompt": "Traduce: «下载这个应用»",
+          "prompt": "Traduce: «Descarga la aplicación»",
           "solution": "下载这个应用 (xiàzài zhège yìngyòng)",
           "distractors": [
-            "屏幕",
-            "消息"
+            "密码",
+            "屏幕"
           ],
           "pair": {
-            "es": "下载这个应用",
+            "es": "Descarga la aplicación",
             "t": "下载这个应用 (xiàzài zhège yìngyòng)"
           }
         },
         {
           "id": "c7l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «应用»",
+          "prompt": "Escribe en el idioma destino: «La aplicación»",
           "solution": "应用",
           "accept": [
             "应用",
             "yingyong"
           ],
           "pair": {
-            "es": "应用",
+            "es": "La aplicación",
             "t": "应用 (yìngyòng)"
-          }
+          },
+          "explain": "Usa vocabulario de dispositivos."
         },
         {
           "id": "c7l4e6",
@@ -569,15 +577,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "应用",
+              "es": "La aplicación",
               "t": "应用 (yìngyòng)"
             },
             {
-              "es": "密码",
+              "es": "La contraseña",
               "t": "密码 (mìmǎ)"
             },
             {
-              "es": "屏幕",
+              "es": "La pantalla",
               "t": "屏幕 (píngmù)"
             }
           ]
@@ -585,7 +593,7 @@
         {
           "id": "c7l4e7",
           "type": "choice",
-          "prompt": "«消息» se traduce como...",
+          "prompt": "«El mensaje» se traduce como...",
           "options": [
             "消息 (xiāoxi)",
             "应用 (yìngyòng)",
@@ -594,7 +602,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "消息",
+            "es": "El mensaje",
             "t": "消息 (xiāoxi)"
           }
         },
@@ -604,13 +612,13 @@
           "prompt": "Escucha y elige",
           "audio": "下载这个应用 (xiàzài zhège yìngyòng)",
           "options": [
-            "下载这个应用",
-            "我忘了密码",
-            "我的手机坏了"
+            "Descarga la aplicación",
+            "He olvidado mi contraseña",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "下载这个应用",
+            "es": "Descarga la aplicación",
             "t": "下载这个应用 (xiàzài zhège yìngyòng)"
           }
         }
@@ -674,11 +682,11 @@
           "id": "c7l5e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我不懂 ___ bù dǒng)",
+          "sentence": "我不懂 (wǒ bù ___)",
           "options": [
-            "(wǒ",
-            "窗户",
-            "星期"
+            "dǒng",
+            "shuō",
+            "tīng"
           ],
           "answer": 0,
           "pair": {
@@ -1276,9 +1284,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"No pasa nada\"?",
           "options": [
-            "(méi",
-            "瓶子",
-            "慢慢来"
+            "没关系 (méi guānxi)",
+            "瓶子 (píngzi)",
+            "慢慢来 (mànman lái)"
           ],
           "answer": 0,
           "pair": {

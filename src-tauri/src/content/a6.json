@@ -51,7 +51,7 @@
           "options": [
             "Estoy enfermo",
             "Necesito un médico",
-            "No lo sé"
+            "Me duele la cabeza"
           ],
           "answer": 0,
           "pair": {
@@ -81,7 +81,7 @@
           "prompt": "Traduce: «Me duele la cabeza»",
           "solution": "عندي ألم في الرأس",
           "distractors": [
-            "رأس",
+            "بطن",
             "مريض"
           ],
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "¿Tiene aspirina?",
             "¿Cómo se toma?",
-            "No lo sé"
+            "Necesito este medicamento"
           ],
           "answer": 0,
           "pair": {
@@ -355,7 +355,7 @@
           "options": [
             "Llame a la policía",
             "Es una emergencia",
-            "No lo sé"
+            "Ayuda"
           ],
           "answer": 0,
           "pair": {
@@ -507,7 +507,7 @@
           "options": [
             "Como sano",
             "Duermo bien",
-            "No lo sé"
+            "Hago deporte"
           ],
           "answer": 0,
           "pair": {

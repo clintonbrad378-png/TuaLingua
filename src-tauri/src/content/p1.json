@@ -51,7 +51,7 @@
           "options": [
             "Buenos días",
             "Mucho gusto",
-            "No lo sé"
+            "Por favor"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "Muchas gracias",
             "De nada",
-            "No lo sé"
+            "Por favor"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Estoy bien",
             "¿Dónde está el baño?",
-            "No lo sé"
+            "¿Cómo estás?"
           ],
           "answer": 0,
           "pair": {
@@ -506,7 +506,7 @@
           "options": [
             "Soy de España",
             "Encantado de conocerte",
-            "No lo sé"
+            "Soy estudiante"
           ],
           "answer": 0,
           "pair": {

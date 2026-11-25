@@ -51,7 +51,7 @@
           "options": [
             "Quiero aprender árabe",
             "Nos vemos pronto",
-            "No lo sé"
+            "Voy a viajar mañana"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "En mi opinión, es difícil",
             "Estoy de acuerdo",
-            "No lo sé"
+            "Creo que es una buena idea"
           ],
           "answer": 0,
           "pair": {
@@ -355,7 +355,7 @@
           "options": [
             "Juego al fútbol",
             "Escucho música",
-            "No lo sé"
+            "Me gusta leer"
           ],
           "answer": 0,
           "pair": {
@@ -507,7 +507,7 @@
           "options": [
             "Por supuesto",
             "No importa",
-            "No lo sé"
+            "¿Podría ayudarme?"
           ],
           "answer": 0,
           "pair": {

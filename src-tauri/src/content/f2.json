@@ -51,7 +51,7 @@
           "options": [
             "Desayuno en la cocina",
             "Limpio mi habitación",
-            "No lo sé"
+            "Me levanto a las siete"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "La cuenta, por favor",
             "Está delicioso",
-            "No lo sé"
+            "Quisiera agua"
           ],
           "answer": 0,
           "pair": {
@@ -216,9 +216,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Está delicioso\"?",
           "options": [
-            "C'est",
-            "Eau",
-            "Pain"
+            "C'est délicieux",
+            "Je voudrais de l'eau",
+            "L'addition, s'il vous plaît"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Es demasiado caro",
             "Quisiera esta camisa",
-            "No lo sé"
+            "¿Cuánto cuesta?"
           ],
           "answer": 0,
           "pair": {
@@ -506,7 +506,7 @@
           "options": [
             "Hoy llueve",
             "Hace buen tiempo",
-            "No lo sé"
+            "Hace calor"
           ],
           "answer": 0,
           "pair": {
@@ -519,9 +519,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Hace buen tiempo\"?",
           "options": [
-            "fait",
-            "Soleil",
-            "Pluie"
+            "Il fait beau",
+            "Il fait chaud",
+            "Il pleut aujourd'hui"
           ],
           "answer": 0,
           "pair": {

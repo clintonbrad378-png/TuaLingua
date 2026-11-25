@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "r11l1",
-      "title": "Профессии",
-      "goal": "О работе",
+      "title": "En el trabajo",
+      "goal": "Hablar del trabajo",
       "tip": [
-        "«Я работаю...»",
-        "«Я ищу работу»."
+        "Habla de profesiones y lugares de trabajo.",
+        "Fíjate en las preposiciones."
       ],
       "phrases": [
         {
-          "es": "Я работаю учителем",
+          "es": "Trabajo como docente",
           "t": "Я работаю учителем"
         },
         {
-          "es": "Я ищу работу",
+          "es": "Estoy buscando trabajo",
           "t": "Я ищу работу"
         },
         {
-          "es": "Я работаю в офисе",
+          "es": "Trabajo en una oficina",
           "t": "Я работаю в офисе"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "r11l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «я работаю учителем»?",
+          "prompt": "¿Cómo se dice «Trabajo como docente»?",
           "options": [
             "Я работаю учителем",
             "Я ищу работу",
             "Я работаю в офисе",
-            "Учитель"
+            "Офис"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я работаю учителем",
+            "es": "Trabajo como docente",
             "t": "Я работаю учителем"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я ищу работу",
           "options": [
-            "Я ищу работу",
-            "Я работаю в офисе",
-            "No lo sé"
+            "Estoy buscando trabajo",
+            "Trabajo como docente",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я ищу работу",
+            "es": "Estoy buscando trabajo",
             "t": "Я ищу работу"
           }
         },
@@ -63,45 +63,47 @@
           "id": "r11l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Я ___ в офисе",
+          "sentence": "Я работаю в ___",
           "options": [
-            "работаю",
-            "Учитель",
-            "Врач"
+            "офисе",
+            "школе",
+            "больнице"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я работаю в офисе",
+            "es": "Trabajo en una oficina",
             "t": "Я работаю в офисе"
-          }
+          },
+          "explain": "Habla de profesiones y lugares de trabajo."
         },
         {
           "id": "r11l1e4",
           "type": "build",
-          "prompt": "Traduce: «Я работаю учителем»",
+          "prompt": "Traduce: «Trabajo como docente»",
           "solution": "Я работаю учителем",
           "distractors": [
-            "Инженер",
-            "Офис"
+            "Врач",
+            "Инженер"
           ],
           "pair": {
-            "es": "Я работаю учителем",
+            "es": "Trabajo como docente",
             "t": "Я работаю учителем"
           }
         },
         {
           "id": "r11l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «учитель»",
+          "prompt": "Escribe en el idioma destino: «El docente»",
           "solution": "Учитель",
           "accept": [
             "Учитель",
             "учитель"
           ],
           "pair": {
-            "es": "Учитель",
+            "es": "El docente",
             "t": "Учитель"
-          }
+          },
+          "explain": "Fíjate en las preposiciones."
         },
         {
           "id": "r11l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Учитель",
+              "es": "El docente",
               "t": "Учитель"
             },
             {
-              "es": "Врач",
+              "es": "El médico",
               "t": "Врач"
             },
             {
-              "es": "Инженер",
+              "es": "El ingeniero",
               "t": "Инженер"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "r11l1e7",
           "type": "choice",
-          "prompt": "«Офис» se traduce como...",
+          "prompt": "«La oficina» se traduce como...",
           "options": [
             "Офис",
             "Учитель",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Офис",
+            "es": "La oficina",
             "t": "Офис"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "Я работаю учителем",
           "options": [
-            "Я работаю учителем",
-            "Я ищу работу",
-            "Я работаю в офисе"
+            "Trabajo como docente",
+            "Estoy buscando trabajo",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я работаю учителем",
+            "es": "Trabajo como docente",
             "t": "Я работаю учителем"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "r11l2",
-      "title": "Офис",
-      "goal": "В офисе",
+      "title": "Reuniones",
+      "goal": "Coordinar tareas",
       "tip": [
-        "«У меня встреча».",
-        "«Я отправлю письмо»."
+        "Coordina citas y tareas.",
+        "Fíjate en las expresiones de tiempo."
       ],
       "phrases": [
         {
-          "es": "У меня встреча",
+          "es": "Tengo una reunión",
           "t": "У меня встреча"
         },
         {
-          "es": "Я отправлю письмо",
+          "es": "Enviaré un correo",
           "t": "Я отправлю письмо"
         },
         {
-          "es": "Срок завтра",
+          "es": "La fecha límite es mañana",
           "t": "Срок завтра"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "r11l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «у меня встреча»?",
+          "prompt": "¿Cómo se dice «Tengo una reunión»?",
           "options": [
             "У меня встреча",
             "Я отправлю письмо",
             "Срок завтра",
-            "Встреча"
+            "Проект"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня встреча",
+            "es": "Tengo una reunión",
             "t": "У меня встреча"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я отправлю письмо",
           "options": [
-            "Я отправлю письмо",
-            "Срок завтра",
-            "No lo sé"
+            "Enviaré un correo",
+            "Tengo una reunión",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я отправлю письмо",
+            "es": "Enviaré un correo",
             "t": "Я отправлю письмо"
           }
         },
@@ -215,45 +217,47 @@
           "id": "r11l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ завтра",
+          "sentence": "Срок ___",
           "options": [
-            "Срок",
-            "Встреча",
-            "Письмо"
+            "завтра",
+            "сегодня",
+            "вчера"
           ],
           "answer": 0,
           "pair": {
-            "es": "Срок завтра",
+            "es": "La fecha límite es mañana",
             "t": "Срок завтра"
-          }
+          },
+          "explain": "Coordina citas y tareas."
         },
         {
           "id": "r11l2e4",
           "type": "build",
-          "prompt": "Traduce: «У меня встреча»",
+          "prompt": "Traduce: «Tengo una reunión»",
           "solution": "У меня встреча",
           "distractors": [
-            "Срок",
-            "Проект"
+            "Письмо",
+            "Срок"
           ],
           "pair": {
-            "es": "У меня встреча",
+            "es": "Tengo una reunión",
             "t": "У меня встреча"
           }
         },
         {
           "id": "r11l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «встреча»",
+          "prompt": "Escribe en el idioma destino: «La reunión»",
           "solution": "Встреча",
           "accept": [
             "Встреча",
             "встреча"
           ],
           "pair": {
-            "es": "Встреча",
+            "es": "La reunión",
             "t": "Встреча"
-          }
+          },
+          "explain": "Fíjate en las expresiones de tiempo."
         },
         {
           "id": "r11l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Встреча",
+              "es": "La reunión",
               "t": "Встреча"
             },
             {
-              "es": "Письмо",
+              "es": "El correo",
               "t": "Письмо"
             },
             {
-              "es": "Срок",
+              "es": "La fecha límite",
               "t": "Срок"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "r11l2e7",
           "type": "choice",
-          "prompt": "«Проект» se traduce como...",
+          "prompt": "«El proyecto» se traduce como...",
           "options": [
             "Проект",
             "Встреча",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Проект",
+            "es": "El proyecto",
             "t": "Проект"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "У меня встреча",
           "options": [
-            "У меня встреча",
-            "Я отправлю письмо",
-            "Срок завтра"
+            "Tengo una reunión",
+            "Enviaré un correo",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня встреча",
+            "es": "Tengo una reunión",
             "t": "У меня встреча"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "r11l3",
-      "title": "Школа",
-      "goal": "В школе",
+      "title": "Estudiar",
+      "goal": "Hablar de exámenes y clases",
       "tip": [
-        "«У меня экзамен».",
-        "«Я не понимаю»."
+        "Habla de exámenes y clases.",
+        "Fíjate en la negación."
       ],
       "phrases": [
         {
-          "es": "У меня экзамен",
+          "es": "Tengo un examen",
           "t": "У меня экзамен"
         },
         {
-          "es": "Я не понимаю",
+          "es": "No entiendo",
           "t": "Я не понимаю"
         },
         {
-          "es": "Урок интересный",
+          "es": "La lección es interesante",
           "t": "Урок интересный"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "r11l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «у меня экзамен»?",
+          "prompt": "¿Cómo se dice «Tengo un examen»?",
           "options": [
             "У меня экзамен",
             "Я не понимаю",
             "Урок интересный",
-            "Экзамен"
+            "Ответ"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня экзамен",
+            "es": "Tengo un examen",
             "t": "У меня экзамен"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я не понимаю",
           "options": [
-            "Я не понимаю",
-            "Урок интересный",
-            "No lo sé"
+            "No entiendo",
+            "Tengo un examen",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я не понимаю",
+            "es": "No entiendo",
             "t": "Я не понимаю"
           }
         },
@@ -369,43 +373,45 @@
           "prompt": "Completa la frase",
           "sentence": "___ интересный",
           "options": [
-            "Урок",
-            "Экзамен",
-            "Ответ"
+            "урок",
+            "экзамен",
+            "вопрос"
           ],
           "answer": 0,
           "pair": {
-            "es": "Урок интересный",
+            "es": "La lección es interesante",
             "t": "Урок интересный"
-          }
+          },
+          "explain": "Habla de exámenes y clases."
         },
         {
           "id": "r11l3e4",
           "type": "build",
-          "prompt": "Traduce: «У меня экзамен»",
+          "prompt": "Traduce: «Tengo un examen»",
           "solution": "У меня экзамен",
           "distractors": [
-            "Вопрос",
-            "Ответ"
+            "Урок",
+            "Вопрос"
           ],
           "pair": {
-            "es": "У меня экзамен",
+            "es": "Tengo un examen",
             "t": "У меня экзамен"
           }
         },
         {
           "id": "r11l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «экзамен»",
+          "prompt": "Escribe en el idioma destino: «El examen»",
           "solution": "Экзамен",
           "accept": [
             "Экзамен",
             "экзамен"
           ],
           "pair": {
-            "es": "Экзамен",
+            "es": "El examen",
             "t": "Экзамен"
-          }
+          },
+          "explain": "Fíjate en la negación."
         },
         {
           "id": "r11l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Экзамен",
+              "es": "El examen",
               "t": "Экзамен"
             },
             {
-              "es": "Урок",
+              "es": "La lección",
               "t": "Урок"
             },
             {
-              "es": "Вопрос",
+              "es": "La pregunta",
               "t": "Вопрос"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "r11l3e7",
           "type": "choice",
-          "prompt": "«Ответ» se traduce como...",
+          "prompt": "«La respuesta» se traduce como...",
           "options": [
             "Ответ",
             "Экзамен",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Ответ",
+            "es": "La respuesta",
             "t": "Ответ"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "У меня экзамен",
           "options": [
-            "У меня экзамен",
-            "Я не понимаю",
-            "Урок интересный"
+            "Tengo un examen",
+            "No entiendo",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "У меня экзамен",
+            "es": "Tengo un examen",
             "t": "У меня экзамен"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "r11l4",
-      "title": "Технологии",
-      "goal": "Цифровая жизнь",
+      "title": "Tecnología",
+      "goal": "Usar el móvil y aplicaciones",
       "tip": [
-        "«Скачать приложение».",
-        "«Я забыл пароль»."
+        "Usa vocabulario de dispositivos.",
+        "Fíjate en las instrucciones."
       ],
       "phrases": [
         {
-          "es": "Скачайте приложение",
+          "es": "Descarga la aplicación",
           "t": "Скачайте приложение"
         },
         {
-          "es": "Я забыл пароль",
+          "es": "He olvidado mi contraseña",
           "t": "Я забыл пароль"
         },
         {
-          "es": "Телефон не работает",
+          "es": "Mi teléfono no funciona",
           "t": "Телефон не работает"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "r11l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «скачайте приложение»?",
+          "prompt": "¿Cómo se dice «Descarga la aplicación»?",
           "options": [
             "Скачайте приложение",
             "Я забыл пароль",
             "Телефон не работает",
-            "Приложение"
+            "Сообщение"
           ],
           "answer": 0,
           "pair": {
-            "es": "Скачайте приложение",
+            "es": "Descarga la aplicación",
             "t": "Скачайте приложение"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я забыл пароль",
           "options": [
-            "Я забыл пароль",
-            "Телефон не работает",
-            "No lo sé"
+            "He olvidado mi contraseña",
+            "Descarga la aplicación",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я забыл пароль",
+            "es": "He olvidado mi contraseña",
             "t": "Я забыл пароль"
           }
         },
@@ -519,45 +525,47 @@
           "id": "r11l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Телефон ___ работает",
+          "sentence": "___ не работает",
           "options": [
-            "не",
-            "Приложение",
-            "Пароль"
+            "Телефон",
+            "Экран",
+            "Компьютер"
           ],
           "answer": 0,
           "pair": {
-            "es": "Телефон не работает",
+            "es": "Mi teléfono no funciona",
             "t": "Телефон не работает"
-          }
+          },
+          "explain": "Usa vocabulario de dispositivos."
         },
         {
           "id": "r11l4e4",
           "type": "build",
-          "prompt": "Traduce: «Скачайте приложение»",
+          "prompt": "Traduce: «Descarga la aplicación»",
           "solution": "Скачайте приложение",
           "distractors": [
-            "Экран",
-            "Сообщение"
+            "Пароль",
+            "Экран"
           ],
           "pair": {
-            "es": "Скачайте приложение",
+            "es": "Descarga la aplicación",
             "t": "Скачайте приложение"
           }
         },
         {
           "id": "r11l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «приложение»",
+          "prompt": "Escribe en el idioma destino: «La aplicación»",
           "solution": "Приложение",
           "accept": [
             "Приложение",
             "приложение"
           ],
           "pair": {
-            "es": "Приложение",
+            "es": "La aplicación",
             "t": "Приложение"
-          }
+          },
+          "explain": "Fíjate en las instrucciones."
         },
         {
           "id": "r11l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Приложение",
+              "es": "La aplicación",
               "t": "Приложение"
             },
             {
-              "es": "Пароль",
+              "es": "La contraseña",
               "t": "Пароль"
             },
             {
-              "es": "Экран",
+              "es": "La pantalla",
               "t": "Экран"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "r11l4e7",
           "type": "choice",
-          "prompt": "«Сообщение» se traduce como...",
+          "prompt": "«El mensaje» se traduce como...",
           "options": [
             "Сообщение",
             "Приложение",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Сообщение",
+            "es": "El mensaje",
             "t": "Сообщение"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Скачайте приложение",
           "options": [
-            "Скачайте приложение",
-            "Я забыл пароль",
-            "Телефон не работает"
+            "Descarga la aplicación",
+            "He olvidado mi contraseña",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "Скачайте приложение",
+            "es": "Descarga la aplicación",
             "t": "Скачайте приложение"
           }
         }
@@ -671,9 +679,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Me llamo...\"?",
           "options": [
-            "Меня",
-            "парк",
-            "чёрный"
+            "Меня зовут...",
+            "Друг",
+            "Парк"
           ],
           "answer": 0,
           "pair": {

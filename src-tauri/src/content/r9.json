@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "r9l1",
-      "title": "Дома",
-      "goal": "Домашние дела",
+      "title": "En casa",
+      "goal": "Hablar de las rutinas de casa",
       "tip": [
-        "Глаголы в настоящем времени.",
-        "«Я встаю/завтракаю» — рутина."
+        "Usa el presente para las rutinas.",
+        "Fíjate en el orden: sujeto + verbo + complemento."
       ],
       "phrases": [
         {
-          "es": "Я просыпаюсь рано",
+          "es": "Me despierto temprano",
           "t": "Я просыпаюсь рано"
         },
         {
-          "es": "Я завтракаю на кухне",
+          "es": "Desayuno en la cocina",
           "t": "Я завтракаю на кухне"
         },
         {
-          "es": "Я убираю комнату",
+          "es": "Limpio la habitación",
           "t": "Я убираю комнату"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "r9l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «я просыпаюсь рано»?",
+          "prompt": "¿Cómo se dice «Me despierto temprano»?",
           "options": [
             "Я просыпаюсь рано",
             "Я завтракаю на кухне",
             "Я убираю комнату",
-            "Кухня"
+            "Гостиная"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я просыпаюсь рано",
+            "es": "Me despierto temprano",
             "t": "Я просыпаюсь рано"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я завтракаю на кухне",
           "options": [
-            "Я завтракаю на кухне",
-            "Я убираю комнату",
-            "No lo sé"
+            "Desayuno en la cocina",
+            "Me despierto temprano",
+            "Limpio la habitación"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я завтракаю на кухне",
+            "es": "Desayuno en la cocina",
             "t": "Я завтракаю на кухне"
           }
         },
@@ -66,42 +66,44 @@
           "sentence": "Я ___ комнату",
           "options": [
             "убираю",
-            "Кухня",
-            "Спальня"
+            "завтракаю",
+            "просыпаюсь"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я убираю комнату",
+            "es": "Limpio la habitación",
             "t": "Я убираю комнату"
-          }
+          },
+          "explain": "Usa el presente para las rutinas."
         },
         {
           "id": "r9l1e4",
           "type": "build",
-          "prompt": "Traduce: «Я просыпаюсь рано»",
+          "prompt": "Traduce: «Me despierto temprano»",
           "solution": "Я просыпаюсь рано",
           "distractors": [
-            "Ванная",
-            "Гостиная"
+            "Спальня",
+            "Ванная"
           ],
           "pair": {
-            "es": "Я просыпаюсь рано",
+            "es": "Me despierto temprano",
             "t": "Я просыпаюсь рано"
           }
         },
         {
           "id": "r9l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «кухня»",
+          "prompt": "Escribe en el idioma destino: «La cocina»",
           "solution": "Кухня",
           "accept": [
             "Кухня",
             "кухня"
           ],
           "pair": {
-            "es": "Кухня",
+            "es": "La cocina",
             "t": "Кухня"
-          }
+          },
+          "explain": "Fíjate en el orden: sujeto + verbo + complemento."
         },
         {
           "id": "r9l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Кухня",
+              "es": "La cocina",
               "t": "Кухня"
             },
             {
-              "es": "Спальня",
+              "es": "El dormitorio",
               "t": "Спальня"
             },
             {
-              "es": "Ванная",
+              "es": "El baño",
               "t": "Ванная"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "r9l1e7",
           "type": "choice",
-          "prompt": "«Гостиная» se traduce como...",
+          "prompt": "«El salón» se traduce como...",
           "options": [
             "Гостиная",
             "Кухня",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Гостиная",
+            "es": "El salón",
             "t": "Гостиная"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "Я просыпаюсь рано",
           "options": [
-            "Я просыпаюсь рано",
-            "Я завтракаю на кухне",
-            "Я убираю комнату"
+            "Me despierto temprano",
+            "Desayuno en la cocina",
+            "Limpio la habitación"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я просыпаюсь рано",
+            "es": "Me despierto temprano",
             "t": "Я просыпаюсь рано"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "r9l2",
-      "title": "Покупки",
-      "goal": "В магазине",
+      "title": "De compras",
+      "goal": "Comprar ropa y objetos",
       "tip": [
-        "«Сколько стоит?» — цена.",
-        "«Я хочу...» — желание."
+        "Pregunta el precio antes de comprar.",
+        "Usa una fórmula educada para pedir."
       ],
       "phrases": [
         {
-          "es": "Сколько это стоит?",
+          "es": "¿Cuánto cuesta esto?",
           "t": "Сколько это стоит?"
         },
         {
-          "es": "Я хочу эту сумку",
+          "es": "Quiero esta bolsa",
           "t": "Я хочу эту сумку"
         },
         {
-          "es": "Это слишком дорого",
+          "es": "Es demasiado caro",
           "t": "Это слишком дорого"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "r9l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «сколько это стоит?»?",
+          "prompt": "¿Cómo se dice «¿Cuánto cuesta esto?»?",
           "options": [
             "Сколько это стоит?",
             "Я хочу эту сумку",
             "Это слишком дорого",
-            "Цена"
+            "Магазин"
           ],
           "answer": 0,
           "pair": {
-            "es": "Сколько это стоит?",
+            "es": "¿Cuánto cuesta esto?",
             "t": "Сколько это стоит?"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я хочу эту сумку",
           "options": [
-            "Я хочу эту сумку",
-            "Это слишком дорого",
-            "No lo sé"
+            "Quiero esta bolsa",
+            "¿Cuánto cuesta esto?",
+            "Es demasiado caro"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я хочу эту сумку",
+            "es": "Quiero esta bolsa",
             "t": "Я хочу эту сумку"
           }
         },
@@ -215,45 +217,47 @@
           "id": "r9l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Это ___ дорого",
+          "sentence": "Это слишком ___",
           "options": [
-            "слишком",
-            "Цена",
-            "Дёшево"
+            "дорого",
+            "дёшево",
+            "холодно"
           ],
           "answer": 0,
           "pair": {
-            "es": "Это слишком дорого",
+            "es": "Es demasiado caro",
             "t": "Это слишком дорого"
-          }
+          },
+          "explain": "Pregunta el precio antes de comprar."
         },
         {
           "id": "r9l2e4",
           "type": "build",
-          "prompt": "Traduce: «Сколько это стоит?»",
+          "prompt": "Traduce: «¿Cuánto cuesta esto?»",
           "solution": "Сколько это стоит?",
           "distractors": [
-            "Дорого",
-            "Магазин"
+            "Дёшево",
+            "Дорого"
           ],
           "pair": {
-            "es": "Сколько это стоит?",
+            "es": "¿Cuánto cuesta esto?",
             "t": "Сколько это стоит?"
           }
         },
         {
           "id": "r9l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «цена»",
+          "prompt": "Escribe en el idioma destino: «El precio»",
           "solution": "Цена",
           "accept": [
             "Цена",
             "цена"
           ],
           "pair": {
-            "es": "Цена",
+            "es": "El precio",
             "t": "Цена"
-          }
+          },
+          "explain": "Usa una fórmula educada para pedir."
         },
         {
           "id": "r9l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Цена",
+              "es": "El precio",
               "t": "Цена"
             },
             {
-              "es": "Дёшево",
+              "es": "Barato",
               "t": "Дёшево"
             },
             {
-              "es": "Дорого",
+              "es": "Caro",
               "t": "Дорого"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "r9l2e7",
           "type": "choice",
-          "prompt": "«Магазин» se traduce como...",
+          "prompt": "«La tienda» se traduce como...",
           "options": [
             "Магазин",
             "Цена",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Магазин",
+            "es": "La tienda",
             "t": "Магазин"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "Сколько это стоит?",
           "options": [
-            "Сколько это стоит?",
-            "Я хочу эту сумку",
-            "Это слишком дорого"
+            "¿Cuánto cuesta esto?",
+            "Quiero esta bolsa",
+            "Es demasiado caro"
           ],
           "answer": 0,
           "pair": {
-            "es": "Сколько это стоит?",
+            "es": "¿Cuánto cuesta esto?",
             "t": "Сколько это стоит?"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "r9l3",
-      "title": "Погода",
-      "goal": "О погоде",
+      "title": "El tiempo",
+      "goal": "Hablar del tiempo",
       "tip": [
-        "«Сегодня холодно/тепло».",
-        "«Идёт дождь»."
+        "Describe el tiempo con frases impersonales.",
+        "Fíjate en el vocabulario del clima."
       ],
       "phrases": [
         {
-          "es": "Сегодня солнечно",
+          "es": "Hoy hace sol",
           "t": "Сегодня солнечно"
         },
         {
-          "es": "Идёт дождь",
+          "es": "Ahora está lloviendo",
           "t": "Идёт дождь"
         },
         {
-          "es": "Очень холодно",
+          "es": "Hace mucho frío",
           "t": "Очень холодно"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "r9l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «сегодня солнечно»?",
+          "prompt": "¿Cómo se dice «Hoy hace sol»?",
           "options": [
             "Сегодня солнечно",
             "Идёт дождь",
             "Очень холодно",
-            "Солнечно"
+            "Ветер"
           ],
           "answer": 0,
           "pair": {
-            "es": "Сегодня солнечно",
+            "es": "Hoy hace sol",
             "t": "Сегодня солнечно"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Идёт дождь",
           "options": [
-            "Идёт дождь",
-            "Очень холодно",
-            "No lo sé"
+            "Ahora está lloviendo",
+            "Hoy hace sol",
+            "Hace mucho frío"
           ],
           "answer": 0,
           "pair": {
-            "es": "Идёт дождь",
+            "es": "Ahora está lloviendo",
             "t": "Идёт дождь"
           }
         },
@@ -367,45 +371,47 @@
           "id": "r9l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ холодно",
+          "sentence": "Очень ___",
           "options": [
-            "Очень",
-            "Солнечно",
-            "Дождь"
+            "холодно",
+            "солнечно",
+            "дождливо"
           ],
           "answer": 0,
           "pair": {
-            "es": "Очень холодно",
+            "es": "Hace mucho frío",
             "t": "Очень холодно"
-          }
+          },
+          "explain": "Describe el tiempo con frases impersonales."
         },
         {
           "id": "r9l3e4",
           "type": "build",
-          "prompt": "Traduce: «Сегодня солнечно»",
+          "prompt": "Traduce: «Hoy hace sol»",
           "solution": "Сегодня солнечно",
           "distractors": [
-            "Облачно",
-            "Ветер"
+            "Дождь",
+            "Облачно"
           ],
           "pair": {
-            "es": "Сегодня солнечно",
+            "es": "Hoy hace sol",
             "t": "Сегодня солнечно"
           }
         },
         {
           "id": "r9l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «солнечно»",
+          "prompt": "Escribe en el idioma destino: «Soleado»",
           "solution": "Солнечно",
           "accept": [
             "Солнечно",
             "солнечно"
           ],
           "pair": {
-            "es": "Солнечно",
+            "es": "Soleado",
             "t": "Солнечно"
-          }
+          },
+          "explain": "Fíjate en el vocabulario del clima."
         },
         {
           "id": "r9l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Солнечно",
+              "es": "Soleado",
               "t": "Солнечно"
             },
             {
-              "es": "Дождь",
+              "es": "Lluvioso",
               "t": "Дождь"
             },
             {
-              "es": "Облачно",
+              "es": "Nublado",
               "t": "Облачно"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "r9l3e7",
           "type": "choice",
-          "prompt": "«Ветер» se traduce como...",
+          "prompt": "«Ventoso» se traduce como...",
           "options": [
             "Ветер",
             "Солнечно",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Ветер",
+            "es": "Ventoso",
             "t": "Ветер"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "Сегодня солнечно",
           "options": [
-            "Сегодня солнечно",
-            "Идёт дождь",
-            "Очень холодно"
+            "Hoy hace sol",
+            "Ahora está lloviendo",
+            "Hace mucho frío"
           ],
           "answer": 0,
           "pair": {
-            "es": "Сегодня солнечно",
+            "es": "Hoy hace sol",
             "t": "Сегодня солнечно"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "r9l4",
-      "title": "Хобби",
-      "goal": "Увлечения",
+      "title": "Aficiones",
+      "goal": "Hablar de gustos y aficiones",
       "tip": [
-        "«Мне нравится + инфинитив».",
-        "«Я умею...» — умение."
+        "Expresa gustos y habilidades.",
+        "Fíjate en la estructura de cada frase."
       ],
       "phrases": [
         {
-          "es": "Мне нравится читать",
+          "es": "Me gusta leer",
           "t": "Мне нравится читать"
         },
         {
-          "es": "Я умею плавать",
+          "es": "Sé nadar bien",
           "t": "Я умею плавать"
         },
         {
-          "es": "Я играю на гитаре",
+          "es": "Toco la guitarra",
           "t": "Я играю на гитаре"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "r9l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «мне нравится читать»?",
+          "prompt": "¿Cómo se dice «Me gusta leer»?",
           "options": [
             "Мне нравится читать",
             "Я умею плавать",
             "Я играю на гитаре",
-            "Чтение"
+            "Спорт"
           ],
           "answer": 0,
           "pair": {
-            "es": "Мне нравится читать",
+            "es": "Me gusta leer",
             "t": "Мне нравится читать"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я умею плавать",
           "options": [
-            "Я умею плавать",
-            "Я играю на гитаре",
-            "No lo sé"
+            "Sé nadar bien",
+            "Me gusta leer",
+            "Toco la guitarra"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я умею плавать",
+            "es": "Sé nadar bien",
             "t": "Я умею плавать"
           }
         },
@@ -519,45 +525,47 @@
           "id": "r9l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "Я ___ на гитаре",
+          "sentence": "Я играю на ___",
           "options": [
-            "играю",
-            "Чтение",
-            "Плавание"
+            "гитаре",
+            "пианино",
+            "скрипке"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я играю на гитаре",
+            "es": "Toco la guitarra",
             "t": "Я играю на гитаре"
-          }
+          },
+          "explain": "Expresa gustos y habilidades."
         },
         {
           "id": "r9l4e4",
           "type": "build",
-          "prompt": "Traduce: «Мне нравится читать»",
+          "prompt": "Traduce: «Me gusta leer»",
           "solution": "Мне нравится читать",
           "distractors": [
-            "Музыка",
-            "Спорт"
+            "Плавание",
+            "Музыка"
           ],
           "pair": {
-            "es": "Мне нравится читать",
+            "es": "Me gusta leer",
             "t": "Мне нравится читать"
           }
         },
         {
           "id": "r9l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «чтение»",
+          "prompt": "Escribe en el idioma destino: «La lectura»",
           "solution": "Чтение",
           "accept": [
             "Чтение",
             "чтение"
           ],
           "pair": {
-            "es": "Чтение",
+            "es": "La lectura",
             "t": "Чтение"
-          }
+          },
+          "explain": "Fíjate en la estructura de cada frase."
         },
         {
           "id": "r9l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Чтение",
+              "es": "La lectura",
               "t": "Чтение"
             },
             {
-              "es": "Плавание",
+              "es": "La natación",
               "t": "Плавание"
             },
             {
-              "es": "Музыка",
+              "es": "La música",
               "t": "Музыка"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "r9l4e7",
           "type": "choice",
-          "prompt": "«Спорт» se traduce como...",
+          "prompt": "«El deporte» se traduce como...",
           "options": [
             "Спорт",
             "Чтение",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Спорт",
+            "es": "El deporte",
             "t": "Спорт"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Мне нравится читать",
           "options": [
-            "Мне нравится читать",
-            "Я умею плавать",
-            "Я играю на гитаре"
+            "Me gusta leer",
+            "Sé nadar bien",
+            "Toco la guitarra"
           ],
           "answer": 0,
           "pair": {
-            "es": "Мне нравится читать",
+            "es": "Me gusta leer",
             "t": "Мне нравится читать"
           }
         }
@@ -1438,7 +1446,7 @@
           "solution": "Окно",
           "distractors": [
             "большой",
-            "Минутa"
+            "Минута"
           ],
           "pair": {
             "es": "La ventana",
@@ -1466,7 +1474,7 @@
           "pairs": [
             {
               "es": "Minuto",
-              "t": "Минутa"
+              "t": "Минута"
             },
             {
               "es": "El cuello",

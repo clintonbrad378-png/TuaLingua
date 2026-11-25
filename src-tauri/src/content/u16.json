@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "u16l1",
-      "title": "Opinions",
-      "goal": "Give opinions",
+      "title": "Opiniones",
+      "goal": "Expresar acuerdo y opinión",
       "tip": [
-        "'I think that...'",
-        "'In my opinion...'"
+        "Expresa acuerdo y opinión.",
+        "Fíjate en las fórmulas de opinión."
       ],
       "phrases": [
         {
-          "es": "I think it's a good idea",
+          "es": "Creo que es una buena idea",
           "t": "I think it's a good idea"
         },
         {
-          "es": "In my opinion, it's hard",
+          "es": "En mi opinión, es difícil",
           "t": "In my opinion, it's hard"
         },
         {
-          "es": "I agree with you",
+          "es": "Estoy de acuerdo contigo",
           "t": "I agree with you"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "u16l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i think it's a good idea»?",
+          "prompt": "¿Cómo se dice «Creo que es una buena idea»?",
           "options": [
             "I think it's a good idea",
             "In my opinion, it's hard",
             "I agree with you",
-            "Idea"
+            "Solution"
           ],
           "answer": 0,
           "pair": {
-            "es": "I think it's a good idea",
+            "es": "Creo que es una buena idea",
             "t": "I think it's a good idea"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "In my opinion, it's hard",
           "options": [
-            "In my opinion, it's hard",
-            "I agree with you",
-            "No lo sé"
+            "En mi opinión, es difícil",
+            "Creo que es una buena idea",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "In my opinion, it's hard",
+            "es": "En mi opinión, es difícil",
             "t": "In my opinion, it's hard"
           }
         },
@@ -66,42 +66,44 @@
           "sentence": "I ___ with you",
           "options": [
             "agree",
-            "Idea",
-            "Opinion"
+            "disagree",
+            "talk"
           ],
           "answer": 0,
           "pair": {
-            "es": "I agree with you",
+            "es": "Estoy de acuerdo contigo",
             "t": "I agree with you"
-          }
+          },
+          "explain": "Expresa acuerdo y opinión."
         },
         {
           "id": "u16l1e4",
           "type": "build",
-          "prompt": "Traduce: «I think it's a good idea»",
+          "prompt": "Traduce: «Creo que es una buena idea»",
           "solution": "I think it's a good idea",
           "distractors": [
-            "Problem",
-            "Solution"
+            "Opinion",
+            "Problem"
           ],
           "pair": {
-            "es": "I think it's a good idea",
+            "es": "Creo que es una buena idea",
             "t": "I think it's a good idea"
           }
         },
         {
           "id": "u16l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «idea»",
+          "prompt": "Escribe en el idioma destino: «La idea»",
           "solution": "Idea",
           "accept": [
             "Idea",
             "idea"
           ],
           "pair": {
-            "es": "Idea",
+            "es": "La idea",
             "t": "Idea"
-          }
+          },
+          "explain": "Fíjate en las fórmulas de opinión."
         },
         {
           "id": "u16l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Idea",
+              "es": "La idea",
               "t": "Idea"
             },
             {
-              "es": "Opinion",
+              "es": "La opinión",
               "t": "Opinion"
             },
             {
-              "es": "Problem",
+              "es": "El problema",
               "t": "Problem"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "u16l1e7",
           "type": "choice",
-          "prompt": "«Solution» se traduce como...",
+          "prompt": "«La solución» se traduce como...",
           "options": [
             "Solution",
             "Idea",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Solution",
+            "es": "La solución",
             "t": "Solution"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "I think it's a good idea",
           "options": [
-            "I think it's a good idea",
-            "In my opinion, it's hard",
-            "I agree with you"
+            "Creo que es una buena idea",
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "I think it's a good idea",
+            "es": "Creo que es una buena idea",
             "t": "I think it's a good idea"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "u16l2",
-      "title": "Plans",
-      "goal": "Future plans",
+      "title": "Planes",
+      "goal": "Hablar del futuro",
       "tip": [
-        "Use 'going to' for plans.",
-        "'Tomorrow' for future time."
+        "Habla de planes futuros.",
+        "Fíjate en los marcadores de tiempo."
       ],
       "phrases": [
         {
-          "es": "I'm going to travel tomorrow",
+          "es": "Voy a viajar mañana",
           "t": "I'm going to travel tomorrow"
         },
         {
-          "es": "I want to learn more",
+          "es": "Quiero aprender más",
           "t": "I want to learn more"
         },
         {
-          "es": "See you soon",
+          "es": "Hasta pronto",
           "t": "See you soon"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "u16l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i'm going to travel tomorrow»?",
+          "prompt": "¿Cómo se dice «Voy a viajar mañana»?",
           "options": [
             "I'm going to travel tomorrow",
             "I want to learn more",
             "See you soon",
-            "Tomorrow"
+            "Always"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm going to travel tomorrow",
+            "es": "Voy a viajar mañana",
             "t": "I'm going to travel tomorrow"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I want to learn more",
           "options": [
-            "I want to learn more",
-            "See you soon",
-            "No lo sé"
+            "Quiero aprender más",
+            "Voy a viajar mañana",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "I want to learn more",
+            "es": "Quiero aprender más",
             "t": "I want to learn more"
           }
         },
@@ -215,45 +217,47 @@
           "id": "u16l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "See ___ soon",
+          "sentence": "See you ___",
           "options": [
-            "you",
-            "Tomorrow",
-            "Soon"
+            "soon",
+            "later",
+            "tomorrow"
           ],
           "answer": 0,
           "pair": {
-            "es": "See you soon",
+            "es": "Hasta pronto",
             "t": "See you soon"
-          }
+          },
+          "explain": "Habla de planes futuros."
         },
         {
           "id": "u16l2e4",
           "type": "build",
-          "prompt": "Traduce: «I'm going to travel tomorrow»",
+          "prompt": "Traduce: «Voy a viajar mañana»",
           "solution": "I'm going to travel tomorrow",
           "distractors": [
-            "Later",
-            "Always"
+            "Soon",
+            "Later"
           ],
           "pair": {
-            "es": "I'm going to travel tomorrow",
+            "es": "Voy a viajar mañana",
             "t": "I'm going to travel tomorrow"
           }
         },
         {
           "id": "u16l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «tomorrow»",
+          "prompt": "Escribe en el idioma destino: «Mañana»",
           "solution": "Tomorrow",
           "accept": [
             "Tomorrow",
             "tomorrow"
           ],
           "pair": {
-            "es": "Tomorrow",
+            "es": "Mañana",
             "t": "Tomorrow"
-          }
+          },
+          "explain": "Fíjate en los marcadores de tiempo."
         },
         {
           "id": "u16l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Tomorrow",
+              "es": "Mañana",
               "t": "Tomorrow"
             },
             {
-              "es": "Soon",
+              "es": "Pronto",
               "t": "Soon"
             },
             {
-              "es": "Later",
+              "es": "Más tarde",
               "t": "Later"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "u16l2e7",
           "type": "choice",
-          "prompt": "«Always» se traduce como...",
+          "prompt": "«Siempre» se traduce como...",
           "options": [
             "Always",
             "Tomorrow",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Always",
+            "es": "Siempre",
             "t": "Always"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "I'm going to travel tomorrow",
           "options": [
-            "I'm going to travel tomorrow",
-            "I want to learn more",
-            "See you soon"
+            "Voy a viajar mañana",
+            "Quiero aprender más",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm going to travel tomorrow",
+            "es": "Voy a viajar mañana",
             "t": "I'm going to travel tomorrow"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "u16l3",
-      "title": "Feelings",
-      "goal": "Express feelings",
+      "title": "Emociones",
+      "goal": "Expresar estados de ánimo",
       "tip": [
-        "'I feel...'",
-        "'I'm happy/sad/tired'."
+        "Expresa emociones.",
+        "Fíjate en el género y el número."
       ],
       "phrases": [
         {
-          "es": "I'm very happy",
+          "es": "Estoy muy feliz",
           "t": "I'm very happy"
         },
         {
-          "es": "I feel tired",
+          "es": "Me siento cansado",
           "t": "I feel tired"
         },
         {
-          "es": "I'm worried",
+          "es": "Estoy preocupado",
           "t": "I'm worried"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "u16l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i'm very happy»?",
+          "prompt": "¿Cómo se dice «Estoy muy feliz»?",
           "options": [
             "I'm very happy",
             "I feel tired",
             "I'm worried",
-            "Happy"
+            "Worried"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm very happy",
+            "es": "Estoy muy feliz",
             "t": "I'm very happy"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I feel tired",
           "options": [
-            "I feel tired",
-            "I'm worried",
-            "No lo sé"
+            "Me siento cansado",
+            "Estoy muy feliz",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "I feel tired",
+            "es": "Me siento cansado",
             "t": "I feel tired"
           }
         },
@@ -367,45 +371,47 @@
           "id": "u16l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ worried",
+          "sentence": "I'm ___",
           "options": [
-            "I'm",
-            "Happy",
-            "Sad"
+            "worried",
+            "happy",
+            "tired"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm worried",
+            "es": "Estoy preocupado",
             "t": "I'm worried"
-          }
+          },
+          "explain": "Expresa emociones."
         },
         {
           "id": "u16l3e4",
           "type": "build",
-          "prompt": "Traduce: «I'm very happy»",
+          "prompt": "Traduce: «Estoy muy feliz»",
           "solution": "I'm very happy",
           "distractors": [
-            "Tired",
-            "Worried"
+            "Sad",
+            "Tired"
           ],
           "pair": {
-            "es": "I'm very happy",
+            "es": "Estoy muy feliz",
             "t": "I'm very happy"
           }
         },
         {
           "id": "u16l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «happy»",
+          "prompt": "Escribe en el idioma destino: «Feliz»",
           "solution": "Happy",
           "accept": [
             "Happy",
             "happy"
           ],
           "pair": {
-            "es": "Happy",
+            "es": "Feliz",
             "t": "Happy"
-          }
+          },
+          "explain": "Fíjate en el género y el número."
         },
         {
           "id": "u16l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Happy",
+              "es": "Feliz",
               "t": "Happy"
             },
             {
-              "es": "Sad",
+              "es": "Triste",
               "t": "Sad"
             },
             {
-              "es": "Tired",
+              "es": "Cansado",
               "t": "Tired"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "u16l3e7",
           "type": "choice",
-          "prompt": "«Worried» se traduce como...",
+          "prompt": "«Preocupado» se traduce como...",
           "options": [
             "Worried",
             "Happy",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Worried",
+            "es": "Preocupado",
             "t": "Worried"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "I'm very happy",
           "options": [
-            "I'm very happy",
-            "I feel tired",
-            "I'm worried"
+            "Estoy muy feliz",
+            "Me siento cansado",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm very happy",
+            "es": "Estoy muy feliz",
             "t": "I'm very happy"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "u16l4",
-      "title": "Fluency",
-      "goal": "Useful phrases",
+      "title": "Pedir ayuda",
+      "goal": "Ofrecer y pedir ayuda",
       "tip": [
-        "Use connectors: so, but, also.",
-        "'Could you...?' is polite."
+        "Pide y ofrece ayuda.",
+        "Fíjate en las fórmulas de cortesía."
       ],
       "phrases": [
         {
-          "es": "Could you help me?",
+          "es": "¿Podrías ayudarme?",
           "t": "Could you help me?"
         },
         {
-          "es": "It doesn't matter",
+          "es": "No importa",
           "t": "It doesn't matter"
         },
         {
-          "es": "Of course",
+          "es": "Por supuesto",
           "t": "Of course"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "u16l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «could you help me?»?",
+          "prompt": "¿Cómo se dice «¿Podrías ayudarme?»?",
           "options": [
             "Could you help me?",
             "It doesn't matter",
             "Of course",
-            "Maybe"
+            "Together"
           ],
           "answer": 0,
           "pair": {
-            "es": "Could you help me?",
+            "es": "¿Podrías ayudarme?",
             "t": "Could you help me?"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "It doesn't matter",
           "options": [
-            "It doesn't matter",
-            "Of course",
-            "No lo sé"
+            "No importa",
+            "¿Podrías ayudarme?",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "It doesn't matter",
+            "es": "No importa",
             "t": "It doesn't matter"
           }
         },
@@ -519,45 +525,47 @@
           "id": "u16l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ course",
+          "sentence": "It doesn't ___",
           "options": [
-            "Of",
-            "Maybe",
-            "Together"
+            "matter",
+            "work",
+            "help"
           ],
           "answer": 0,
           "pair": {
-            "es": "Of course",
-            "t": "Of course"
-          }
+            "es": "No importa",
+            "t": "It doesn't matter"
+          },
+          "explain": "Pide y ofrece ayuda."
         },
         {
           "id": "u16l4e4",
           "type": "build",
-          "prompt": "Traduce: «Could you help me?»",
+          "prompt": "Traduce: «¿Podrías ayudarme?»",
           "solution": "Could you help me?",
           "distractors": [
-            "Really",
-            "Together"
+            "Maybe",
+            "Really"
           ],
           "pair": {
-            "es": "Could you help me?",
+            "es": "¿Podrías ayudarme?",
             "t": "Could you help me?"
           }
         },
         {
           "id": "u16l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «of course»",
+          "prompt": "Escribe en el idioma destino: «Por supuesto»",
           "solution": "Of course",
           "accept": [
             "Of course",
             "of course"
           ],
           "pair": {
-            "es": "Of course",
+            "es": "Por supuesto",
             "t": "Of course"
-          }
+          },
+          "explain": "Fíjate en las fórmulas de cortesía."
         },
         {
           "id": "u16l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Of course",
+              "es": "Por supuesto",
               "t": "Of course"
             },
             {
-              "es": "Maybe",
+              "es": "Quizás",
               "t": "Maybe"
             },
             {
-              "es": "Really",
+              "es": "De verdad",
               "t": "Really"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "u16l4e7",
           "type": "choice",
-          "prompt": "«Together» se traduce como...",
+          "prompt": "«Juntos» se traduce como...",
           "options": [
             "Together",
             "Of course",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Together",
+            "es": "Juntos",
             "t": "Together"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Could you help me?",
           "options": [
-            "Could you help me?",
-            "It doesn't matter",
-            "Of course"
+            "¿Podrías ayudarme?",
+            "No importa",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "Could you help me?",
+            "es": "¿Podrías ayudarme?",
             "t": "Could you help me?"
           }
         }
@@ -671,9 +679,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La chaqueta\"?",
           "options": [
-            "the",
-            "part",
-            "leave"
+            "The jacket",
+            "Excuse me",
+            "The foreigner"
           ],
           "answer": 0,
           "pair": {
@@ -971,9 +979,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La suerte\"?",
           "options": [
-            "the",
-            "offer",
-            "Member"
+            "The luck",
+            "The morning",
+            "The meeting"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1129,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La paz\"?",
           "options": [
-            "the",
-            "as",
-            "The peace"
+            "The peace",
+            "The belt",
+            "The shoes"
           ],
           "answer": 0,
           "pair": {

@@ -113,12 +113,11 @@
           "id": "c1l1e5",
           "type": "fill",
           "prompt": "Completa la pregunta de cortesía en pinyin",
-          "sentence": "nǐ __ ma?",
+          "sentence": "nǐ ___ ma?",
           "options": [
             "hǎo",
             "mà",
-            "mā",
-            "对不起 (duìbuqǐ)"
+            "mā"
           ],
           "answer": 0,
           "pair": {
@@ -293,12 +292,11 @@
           "id": "c1l2e5",
           "type": "fill",
           "prompt": "Completa «nombre» en pinyin",
-          "sentence": "nǐ jiào shénme __",
+          "sentence": "nǐ jiào shénme ___",
           "options": [
             "míngzi",
             "mā",
-            "mà",
-            "我叫 (wǒ jiào)"
+            "mà"
           ],
           "answer": 0,
           "pair": {
@@ -472,7 +470,7 @@
           "id": "c1l3e5",
           "type": "fill",
           "prompt": "Completa «papá» en pinyin",
-          "sentence": "wǒ de __ zài jiā",
+          "sentence": "wǒ de ___ zài jiā",
           "options": [
             "bàba",
             "māma",
@@ -649,12 +647,11 @@
           "id": "c1l4e5",
           "type": "fill",
           "prompt": "Completa la secuencia en pinyin",
-          "sentence": "yī èr __ sì wǔ",
+          "sentence": "yī èr ___ sì wǔ",
           "options": [
             "sān",
-            "ì",
-            "shì",
-            "三 (sān)"
+            "sì",
+            "wǔ"
           ],
           "answer": 0,
           "pair": {

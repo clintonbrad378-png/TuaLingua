@@ -80,9 +80,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Me llamo Ana\"?",
           "options": [
-            "chiamo",
-            "sono",
-            "Mi chiamo Ana"
+            "Mi chiamo Ana",
+            "Buongiorno, sono Ana",
+            "Piacere di conoscerti"
           ],
           "answer": 0,
           "pair": {
@@ -220,9 +220,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Soy de España\"?",
           "options": [
-            "Sono",
-            "Vivo a Roma",
-            "Sono di Spagna"
+            "Sono di Spagna",
+            "E tu?",
+            "Vivo a Roma"
           ],
           "answer": 0,
           "pair": {
@@ -303,9 +303,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Dónde vives?\"?",
           "options": [
-            "abiti",
             "Dove abiti?",
-            "Vivo a Madrid"
+            "E tu?",
+            "Vivo a Roma"
           ],
           "answer": 0,
           "pair": {
@@ -376,9 +376,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Tengo veinte años\"?",
           "options": [
-            "venti",
-            "due",
-            "Quattro"
+            "Ho venti anni",
+            "Ho un fratello",
+            "Quanti anni hai?"
           ],
           "answer": 0,
           "pair": {
@@ -458,9 +458,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cuántos años tienes?\"?",
           "options": [
-            "hai",
-            "ho",
-            "Cinque"
+            "Quanti anni hai?",
+            "Ho venti anni",
+            "Ho un fratello"
           ],
           "answer": 0,
           "pair": {
@@ -530,9 +530,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"No entiendo\"?",
           "options": [
-            "capisco",
             "Non capisco",
-            "Per favore"
+            "Per favore",
+            "Scusa, non capisco"
           ],
           "answer": 0,
           "pair": {

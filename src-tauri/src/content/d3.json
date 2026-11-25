@@ -51,7 +51,7 @@
           "options": [
             "La farmacia está cerca",
             "Voy al supermercado",
-            "No lo sé"
+            "¿Dónde está la estación?"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "El tren llega tarde",
             "¿Dónde está la parada?",
-            "No lo sé"
+            "Un billete a Berlín"
           ],
           "answer": 0,
           "pair": {
@@ -233,7 +233,7 @@
           "prompt": "Traduce: «Un billete a Berlín»",
           "solution": "Ein Ticket nach Berlin",
           "distractors": [
-            "Ticket",
+            "Bahnhof",
             "Haltestelle"
           ],
           "pair": {
@@ -355,7 +355,7 @@
           "options": [
             "Sigue recto",
             "Está cerca de aquí",
-            "No lo sé"
+            "Gira a la derecha"
           ],
           "answer": 0,
           "pair": {
@@ -507,7 +507,7 @@
           "options": [
             "La llave, por favor",
             "¿Hay wifi?",
-            "No lo sé"
+            "Tengo una reserva"
           ],
           "answer": 0,
           "pair": {
@@ -520,9 +520,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
-            "es",
-            "Zimmer",
-            "Schlüssel"
+            "Gibt es WLAN?",
+            "Den Schlüssel, bitte",
+            "Ich habe eine Reservierung"
           ],
           "answer": 0,
           "pair": {
@@ -536,7 +536,7 @@
           "prompt": "Traduce: «Tengo una reserva»",
           "solution": "Ich habe eine Reservierung",
           "distractors": [
-            "Reservierung",
+            "Schlüssel",
             "Rezeption"
           ],
           "pair": {

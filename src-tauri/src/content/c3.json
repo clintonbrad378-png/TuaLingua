@@ -111,12 +111,11 @@
           "id": "c3l1e5",
           "type": "fill",
           "prompt": "Completa «escuela» en pinyin",
-          "sentence": "wǒ de __ zài zhèr",
+          "sentence": "wǒ de ___ zài zhèr",
           "options": [
             "xuéxiào",
             "yīyuàn",
-            "我的学校在这儿 (wǒ de xuéxiào zài zhèr)",
-            "公园 (gōngyuán)"
+            "gōngyuán"
           ],
           "answer": 0,
           "pair": {
@@ -288,12 +287,11 @@
           "id": "c3l2e5",
           "type": "fill",
           "prompt": "Completa «estación» en pinyin",
-          "sentence": "dìtiě __ zài nǎlǐ?",
+          "sentence": "dìtiě ___ zài nǎlǐ?",
           "options": [
             "chēzhàn",
-            "我们坐地铁去 (wǒmen zuò dìtiě qù)",
             "zǒu",
-            "这 (zhè)"
+            "zuò"
           ],
           "answer": 0,
           "pair": {
@@ -467,7 +465,7 @@
           "id": "c3l3e5",
           "type": "fill",
           "prompt": "Completa «mañana» en pinyin",
-          "sentence": "__ wǒ qù xuéxiào",
+          "sentence": "___ wǒ qù xuéxiào",
           "options": [
             "míngtiān",
             "zuótiān",
@@ -643,12 +641,11 @@
           "id": "c3l4e5",
           "type": "fill",
           "prompt": "Completa «levantarse» en pinyin",
-          "sentence": "wǒ měitiān qīdiǎn __",
+          "sentence": "wǒ měitiān qīdiǎn ___",
           "options": [
             "qǐchuáng",
-            "shuì",
-            "我每天七点起床 (wǒ měitiān qī diǎn qǐchuáng)",
-            "qǐ"
+            "shuìjiào",
+            "chīfàn"
           ],
           "answer": 0,
           "pair": {

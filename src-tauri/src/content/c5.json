@@ -6,24 +6,24 @@
   "lessons": [
     {
       "id": "c5l1",
-      "title": "在家",
-      "goal": "家里的日常",
+      "title": "En casa",
+      "goal": "Hablar de las rutinas de casa",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "用「我每天...」谈日常。",
-        "时间词常放主语后。"
+        "Usa el presente para las rutinas.",
+        "Fíjate en el orden: sujeto + verbo + complemento."
       ],
       "phrases": [
         {
-          "es": "我七点起床",
+          "es": "Me levanto a las siete",
           "t": "我七点起床 (wǒ qī diǎn qǐchuáng)"
         },
         {
-          "es": "我在厨房吃早饭",
+          "es": "Desayuno en la cocina",
           "t": "我在厨房吃早饭 (wǒ zài chúfáng chī zǎofàn)"
         },
         {
-          "es": "我打扫房间",
+          "es": "Limpio la habitación",
           "t": "我打扫房间 (wǒ dǎsǎo fángjiān)"
         }
       ],
@@ -31,16 +31,16 @@
         {
           "id": "c5l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我七点起床»?",
+          "prompt": "¿Cómo se dice «Me levanto a las siete»?",
           "options": [
             "我七点起床 (wǒ qī diǎn qǐchuáng)",
             "我在厨房吃早饭 (wǒ zài chúfáng chī zǎofàn)",
             "我打扫房间 (wǒ dǎsǎo fángjiān)",
-            "厨房 (chúfáng)"
+            "客厅 (kètīng)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我七点起床",
+            "es": "Me levanto a las siete",
             "t": "我七点起床 (wǒ qī diǎn qǐchuáng)"
           }
         },
@@ -50,13 +50,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我在厨房吃早饭 (wǒ zài chúfáng chī zǎofàn)",
           "options": [
-            "我在厨房吃早饭",
-            "我打扫房间",
-            "No lo sé"
+            "Desayuno en la cocina",
+            "Me levanto a las siete",
+            "Limpio la habitación"
           ],
           "answer": 0,
           "pair": {
-            "es": "我在厨房吃早饭",
+            "es": "Desayuno en la cocina",
             "t": "我在厨房吃早饭 (wǒ zài chúfáng chī zǎofàn)"
           }
         },
@@ -64,45 +64,47 @@
           "id": "c5l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我打扫房间 ___ dǎsǎo fángjiān)",
+          "sentence": "我打扫房间 (wǒ ___ fángjiān)",
           "options": [
-            "(wǒ",
-            "厨房",
-            "卧室"
+            "dǎsǎo",
+            "qǐchuáng",
+            "chī"
           ],
           "answer": 0,
           "pair": {
-            "es": "我打扫房间",
+            "es": "Limpio la habitación",
             "t": "我打扫房间 (wǒ dǎsǎo fángjiān)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c5l1e4",
           "type": "build",
-          "prompt": "Traduce: «我七点起床»",
+          "prompt": "Traduce: «Me levanto a las siete»",
           "solution": "我七点起床 (wǒ qī diǎn qǐchuáng)",
           "distractors": [
-            "浴室",
-            "客厅"
+            "卧室",
+            "浴室"
           ],
           "pair": {
-            "es": "我七点起床",
+            "es": "Me levanto a las siete",
             "t": "我七点起床 (wǒ qī diǎn qǐchuáng)"
           }
         },
         {
           "id": "c5l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «厨房»",
+          "prompt": "Escribe en el idioma destino: «La cocina»",
           "solution": "厨房",
           "accept": [
             "厨房",
             "chufang"
           ],
           "pair": {
-            "es": "厨房",
+            "es": "La cocina",
             "t": "厨房 (chúfáng)"
-          }
+          },
+          "explain": "Usa el presente para las rutinas."
         },
         {
           "id": "c5l1e6",
@@ -110,15 +112,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "厨房",
+              "es": "La cocina",
               "t": "厨房 (chúfáng)"
             },
             {
-              "es": "卧室",
+              "es": "El dormitorio",
               "t": "卧室 (wòshì)"
             },
             {
-              "es": "浴室",
+              "es": "El baño",
               "t": "浴室 (yùshì)"
             }
           ]
@@ -126,7 +128,7 @@
         {
           "id": "c5l1e7",
           "type": "choice",
-          "prompt": "«客厅» se traduce como...",
+          "prompt": "«El salón» se traduce como...",
           "options": [
             "客厅 (kètīng)",
             "厨房 (chúfáng)",
@@ -135,7 +137,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "客厅",
+            "es": "El salón",
             "t": "客厅 (kètīng)"
           }
         },
@@ -145,13 +147,13 @@
           "prompt": "Escucha y elige",
           "audio": "我七点起床 (wǒ qī diǎn qǐchuáng)",
           "options": [
-            "我七点起床",
-            "我在厨房吃早饭",
-            "我打扫房间"
+            "Me levanto a las siete",
+            "Desayuno en la cocina",
+            "Limpio la habitación"
           ],
           "answer": 0,
           "pair": {
-            "es": "我七点起床",
+            "es": "Me levanto a las siete",
             "t": "我七点起床 (wǒ qī diǎn qǐchuáng)"
           }
         }
@@ -159,24 +161,24 @@
     },
     {
       "id": "c5l2",
-      "title": "购物",
-      "goal": "买东西",
+      "title": "De compras",
+      "goal": "Comprar ropa y objetos",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「多少钱？」问价格。",
-        "「我要...»表达想要。"
+        "Pregunta el precio antes de comprar.",
+        "Usa una fórmula educada para pedir."
       ],
       "phrases": [
         {
-          "es": "这个多少钱？",
+          "es": "¿Cuánto cuesta esto?",
           "t": "这个多少钱？(zhège duōshao qián?)"
         },
         {
-          "es": "我要这个包",
+          "es": "Quiero esta bolsa",
           "t": "我要这个包 (wǒ yào zhège bāo)"
         },
         {
-          "es": "太贵了",
+          "es": "Es demasiado caro",
           "t": "太贵了 (tài guì le)"
         }
       ],
@@ -184,16 +186,16 @@
         {
           "id": "c5l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «这个多少钱？»?",
+          "prompt": "¿Cómo se dice «¿Cuánto cuesta esto?»?",
           "options": [
             "这个多少钱？(zhège duōshao qián?)",
             "我要这个包 (wǒ yào zhège bāo)",
             "太贵了 (tài guì le)",
-            "价格 (jiàgé)"
+            "商店 (shāngdiàn)"
           ],
           "answer": 0,
           "pair": {
-            "es": "这个多少钱？",
+            "es": "¿Cuánto cuesta esto?",
             "t": "这个多少钱？(zhège duōshao qián?)"
           }
         },
@@ -203,13 +205,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我要这个包 (wǒ yào zhège bāo)",
           "options": [
-            "我要这个包",
-            "太贵了",
-            "No lo sé"
+            "Quiero esta bolsa",
+            "¿Cuánto cuesta esto?",
+            "Es demasiado caro"
           ],
           "answer": 0,
           "pair": {
-            "es": "我要这个包",
+            "es": "Quiero esta bolsa",
             "t": "我要这个包 (wǒ yào zhège bāo)"
           }
         },
@@ -217,45 +219,47 @@
           "id": "c5l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "太贵了 ___ guì le)",
+          "sentence": "太贵了 (tài ___ le)",
           "options": [
-            "(tài",
-            "价格",
-            "便宜"
+            "guì",
+            "piányi",
+            "lěng"
           ],
           "answer": 0,
           "pair": {
-            "es": "太贵了",
+            "es": "Es demasiado caro",
             "t": "太贵了 (tài guì le)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c5l2e4",
           "type": "build",
-          "prompt": "Traduce: «这个多少钱？»",
+          "prompt": "Traduce: «¿Cuánto cuesta esto?»",
           "solution": "这个多少钱？(zhège duōshao qián?)",
           "distractors": [
-            "贵",
-            "商店"
+            "便宜",
+            "贵"
           ],
           "pair": {
-            "es": "这个多少钱？",
+            "es": "¿Cuánto cuesta esto?",
             "t": "这个多少钱？(zhège duōshao qián?)"
           }
         },
         {
           "id": "c5l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «价格»",
+          "prompt": "Escribe en el idioma destino: «El precio»",
           "solution": "价格",
           "accept": [
             "价格",
             "jiage"
           ],
           "pair": {
-            "es": "价格",
+            "es": "El precio",
             "t": "价格 (jiàgé)"
-          }
+          },
+          "explain": "Pregunta el precio antes de comprar."
         },
         {
           "id": "c5l2e6",
@@ -263,15 +267,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "价格",
+              "es": "El precio",
               "t": "价格 (jiàgé)"
             },
             {
-              "es": "便宜",
+              "es": "Barato",
               "t": "便宜 (piányi)"
             },
             {
-              "es": "贵",
+              "es": "Caro",
               "t": "贵 (guì)"
             }
           ]
@@ -279,7 +283,7 @@
         {
           "id": "c5l2e7",
           "type": "choice",
-          "prompt": "«商店» se traduce como...",
+          "prompt": "«La tienda» se traduce como...",
           "options": [
             "商店 (shāngdiàn)",
             "价格 (jiàgé)",
@@ -288,7 +292,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "商店",
+            "es": "La tienda",
             "t": "商店 (shāngdiàn)"
           }
         },
@@ -298,13 +302,13 @@
           "prompt": "Escucha y elige",
           "audio": "这个多少钱？(zhège duōshao qián?)",
           "options": [
-            "这个多少钱？",
-            "我要这个包",
-            "太贵了"
+            "¿Cuánto cuesta esto?",
+            "Quiero esta bolsa",
+            "Es demasiado caro"
           ],
           "answer": 0,
           "pair": {
-            "es": "这个多少钱？",
+            "es": "¿Cuánto cuesta esto?",
             "t": "这个多少钱？(zhège duōshao qián?)"
           }
         }
@@ -312,24 +316,24 @@
     },
     {
       "id": "c5l3",
-      "title": "天气",
-      "goal": "谈天气",
+      "title": "El tiempo",
+      "goal": "Hablar del tiempo",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「今天很热/冷」。",
-        "「下雨了」表示下雨。"
+        "Describe el tiempo con frases impersonales.",
+        "Fíjate en el vocabulario del clima."
       ],
       "phrases": [
         {
-          "es": "今天很晴朗",
+          "es": "Hoy hace sol",
           "t": "今天很晴朗 (jīntiān hěn qínglǎng)"
         },
         {
-          "es": "现在下雨了",
+          "es": "Ahora está lloviendo",
           "t": "现在下雨了 (xiànzài xià yǔ le)"
         },
         {
-          "es": "很冷",
+          "es": "Hace mucho frío",
           "t": "很冷 (hěn lěng)"
         }
       ],
@@ -337,16 +341,16 @@
         {
           "id": "c5l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «今天很晴朗»?",
+          "prompt": "¿Cómo se dice «Hoy hace sol»?",
           "options": [
             "今天很晴朗 (jīntiān hěn qínglǎng)",
             "现在下雨了 (xiànzài xià yǔ le)",
             "很冷 (hěn lěng)",
-            "晴天 (qíngtiān)"
+            "刮风 (guā fēng)"
           ],
           "answer": 0,
           "pair": {
-            "es": "今天很晴朗",
+            "es": "Hoy hace sol",
             "t": "今天很晴朗 (jīntiān hěn qínglǎng)"
           }
         },
@@ -356,13 +360,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "现在下雨了 (xiànzài xià yǔ le)",
           "options": [
-            "现在下雨了",
-            "很冷",
-            "No lo sé"
+            "Ahora está lloviendo",
+            "Hoy hace sol",
+            "Hace mucho frío"
           ],
           "answer": 0,
           "pair": {
-            "es": "现在下雨了",
+            "es": "Ahora está lloviendo",
             "t": "现在下雨了 (xiànzài xià yǔ le)"
           }
         },
@@ -370,45 +374,47 @@
           "id": "c5l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "很冷 ___ lěng)",
+          "sentence": "很冷 (hěn ___)",
           "options": [
-            "(hěn",
-            "晴天",
-            "下雨"
+            "lěng",
+            "rè",
+            "nuǎn"
           ],
           "answer": 0,
           "pair": {
-            "es": "很冷",
+            "es": "Hace mucho frío",
             "t": "很冷 (hěn lěng)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c5l3e4",
           "type": "build",
-          "prompt": "Traduce: «今天很晴朗»",
+          "prompt": "Traduce: «Hoy hace sol»",
           "solution": "今天很晴朗 (jīntiān hěn qínglǎng)",
           "distractors": [
-            "多云",
-            "刮风"
+            "下雨",
+            "多云"
           ],
           "pair": {
-            "es": "今天很晴朗",
+            "es": "Hoy hace sol",
             "t": "今天很晴朗 (jīntiān hěn qínglǎng)"
           }
         },
         {
           "id": "c5l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «晴天»",
+          "prompt": "Escribe en el idioma destino: «Soleado»",
           "solution": "晴天",
           "accept": [
             "晴天",
             "qingtian"
           ],
           "pair": {
-            "es": "晴天",
+            "es": "Soleado",
             "t": "晴天 (qíngtiān)"
-          }
+          },
+          "explain": "Describe el tiempo con frases impersonales."
         },
         {
           "id": "c5l3e6",
@@ -416,15 +422,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "晴天",
+              "es": "Soleado",
               "t": "晴天 (qíngtiān)"
             },
             {
-              "es": "下雨",
+              "es": "Lluvioso",
               "t": "下雨 (xià yǔ)"
             },
             {
-              "es": "多云",
+              "es": "Nublado",
               "t": "多云 (duōyún)"
             }
           ]
@@ -432,7 +438,7 @@
         {
           "id": "c5l3e7",
           "type": "choice",
-          "prompt": "«刮风» se traduce como...",
+          "prompt": "«Ventoso» se traduce como...",
           "options": [
             "刮风 (guā fēng)",
             "晴天 (qíngtiān)",
@@ -441,7 +447,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "刮风",
+            "es": "Ventoso",
             "t": "刮风 (guā fēng)"
           }
         },
@@ -451,13 +457,13 @@
           "prompt": "Escucha y elige",
           "audio": "今天很晴朗 (jīntiān hěn qínglǎng)",
           "options": [
-            "今天很晴朗",
-            "现在下雨了",
-            "很冷"
+            "Hoy hace sol",
+            "Ahora está lloviendo",
+            "Hace mucho frío"
           ],
           "answer": 0,
           "pair": {
-            "es": "今天很晴朗",
+            "es": "Hoy hace sol",
             "t": "今天很晴朗 (jīntiān hěn qínglǎng)"
           }
         }
@@ -465,24 +471,24 @@
     },
     {
       "id": "c5l4",
-      "title": "爱好",
-      "goal": "谈爱好",
+      "title": "Aficiones",
+      "goal": "Hablar de gustos y aficiones",
       "tip": [
         "Recuerda los tonos del mandarín al pronunciar.",
-        "「我喜欢...」",
-        "「我会...」表示能力。"
+        "Expresa gustos y habilidades.",
+        "Fíjate en la estructura de cada frase."
       ],
       "phrases": [
         {
-          "es": "我喜欢看书",
+          "es": "Me gusta leer",
           "t": "我喜欢看书 (wǒ xǐhuan kàn shū)"
         },
         {
-          "es": "我会游泳",
+          "es": "Sé nadar bien",
           "t": "我会游泳 (wǒ huì yóuyǒng)"
         },
         {
-          "es": "我弹吉他",
+          "es": "Toco la guitarra",
           "t": "我弹吉他 (wǒ tán jítā)"
         }
       ],
@@ -490,16 +496,16 @@
         {
           "id": "c5l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «我喜欢看书»?",
+          "prompt": "¿Cómo se dice «Me gusta leer»?",
           "options": [
             "我喜欢看书 (wǒ xǐhuan kàn shū)",
             "我会游泳 (wǒ huì yóuyǒng)",
             "我弹吉他 (wǒ tán jítā)",
-            "看书 (kàn shū)"
+            "运动 (yùndòng)"
           ],
           "answer": 0,
           "pair": {
-            "es": "我喜欢看书",
+            "es": "Me gusta leer",
             "t": "我喜欢看书 (wǒ xǐhuan kàn shū)"
           }
         },
@@ -509,13 +515,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "我会游泳 (wǒ huì yóuyǒng)",
           "options": [
-            "我会游泳",
-            "我弹吉他",
-            "No lo sé"
+            "Sé nadar bien",
+            "Me gusta leer",
+            "Toco la guitarra"
           ],
           "answer": 0,
           "pair": {
-            "es": "我会游泳",
+            "es": "Sé nadar bien",
             "t": "我会游泳 (wǒ huì yóuyǒng)"
           }
         },
@@ -523,46 +529,47 @@
           "id": "c5l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "我弹吉他 ___ tán jítā)",
+          "sentence": "我弹吉他 (wǒ tán ___)",
           "options": [
-            "(wǒ",
-            "看书",
-            "游泳"
+            "jítā",
+            "gāngqín",
+            "yóuyǒng"
           ],
           "answer": 0,
           "pair": {
-            "es": "我弹吉他",
+            "es": "Toco la guitarra",
             "t": "我弹吉他 (wǒ tán jítā)"
-          }
+          },
+          "explain": "Recuerda los tonos del mandarín al pronunciar."
         },
         {
           "id": "c5l4e4",
           "type": "build",
-          "prompt": "Traduce: «我喜欢看书»",
+          "prompt": "Traduce: «Me gusta leer»",
           "solution": "我喜欢看书 (wǒ xǐhuan kàn shū)",
           "distractors": [
-            "音乐",
-            "运动"
+            "游泳",
+            "音乐"
           ],
           "pair": {
-            "es": "我喜欢看书",
+            "es": "Me gusta leer",
             "t": "我喜欢看书 (wǒ xǐhuan kàn shū)"
           }
         },
         {
           "id": "c5l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «看书»",
+          "prompt": "Escribe en el idioma destino: «La lectura»",
           "solution": "看书",
           "accept": [
             "看书",
-            "kan shu",
             "kanshu"
           ],
           "pair": {
-            "es": "看书",
+            "es": "La lectura",
             "t": "看书 (kàn shū)"
-          }
+          },
+          "explain": "Expresa gustos y habilidades."
         },
         {
           "id": "c5l4e6",
@@ -570,15 +577,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "看书",
+              "es": "La lectura",
               "t": "看书 (kàn shū)"
             },
             {
-              "es": "游泳",
+              "es": "La natación",
               "t": "游泳 (yóuyǒng)"
             },
             {
-              "es": "音乐",
+              "es": "La música",
               "t": "音乐 (yīnyuè)"
             }
           ]
@@ -586,7 +593,7 @@
         {
           "id": "c5l4e7",
           "type": "choice",
-          "prompt": "«运动» se traduce como...",
+          "prompt": "«El deporte» se traduce como...",
           "options": [
             "运动 (yùndòng)",
             "看书 (kàn shū)",
@@ -595,7 +602,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "运动",
+            "es": "El deporte",
             "t": "运动 (yùndòng)"
           }
         },
@@ -605,13 +612,13 @@
           "prompt": "Escucha y elige",
           "audio": "我喜欢看书 (wǒ xǐhuan kàn shū)",
           "options": [
-            "我喜欢看书",
-            "我会游泳",
-            "我弹吉他"
+            "Me gusta leer",
+            "Sé nadar bien",
+            "Toco la guitarra"
           ],
           "answer": 0,
           "pair": {
-            "es": "我喜欢看书",
+            "es": "Me gusta leer",
             "t": "我喜欢看书 (wǒ xǐhuan kàn shū)"
           }
         }

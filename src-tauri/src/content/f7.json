@@ -51,7 +51,7 @@
           "options": [
             "Quiero aprender francés",
             "Nos vemos pronto",
-            "No lo sé"
+            "Voy a viajar mañana"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
-            "À",
-            "Demain",
-            "Bientôt"
+            "À bientôt",
+            "Je vais voyager demain",
+            "Je veux apprendre le français"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "En mi opinión, es difícil",
             "Estoy de acuerdo",
-            "No lo sé"
+            "Creo que es una buena idea"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +215,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
-            "suis",
-            "Idée",
-            "Avis"
+            "Je suis d'accord",
+            "À mon avis, c'est difficile",
+            "Je pense que c'est une bonne idée"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +353,7 @@
           "options": [
             "Juego al fútbol",
             "Escucho música",
-            "No lo sé"
+            "Me gusta leer"
           ],
           "answer": 0,
           "pair": {
@@ -505,7 +505,7 @@
           "options": [
             "Por supuesto",
             "No importa",
-            "No lo sé"
+            "¿Podría ayudarme?"
           ],
           "answer": 0,
           "pair": {

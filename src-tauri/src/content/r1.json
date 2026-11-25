@@ -93,9 +93,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Soy Katia.\"?",
           "options": [
-            "Катя",
-            "Катя!",
-            "спасибо"
+            "Я Катя.",
+            "До завтра",
+            "Доброе утро"
           ],
           "answer": 0,
           "pair": {
@@ -245,9 +245,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Soy de España.\"?",
           "options": [
-            "Испании",
             "Я из Испании.",
-            "по-испански"
+            "Меня зовут",
+            "Очень приятно"
           ],
           "answer": 0,
           "pair": {
@@ -413,9 +413,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Bien, ¿y tú?\"?",
           "options": [
-            "а ты",
+            "Нормально, а ты?",
             "Как дела?",
-            "Как ваши дела?"
+            "Всё хорошо"
           ],
           "answer": 0,
           "pair": {
@@ -458,9 +458,9 @@
           "prompt": "«Добро пожаловать!» quiere decir…",
           "options": [
             "¡Bienvenido!",
-            "Как ваши дела",
-            "Всё хорошо",
-            "Как ваши дела?"
+            "¿Cómo estás?",
+            "Todo está bien",
+            "Mal, cansado"
           ],
           "answer": 0,
           "pair": {
@@ -581,8 +581,8 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¡Gracias por tu ayuda!\"?",
           "options": [
-            "Спасибо",
-            "Извините",
+            "Спасибо за помощь!",
+            "Большое спасибо",
             "Извините, я не понимаю"
           ],
           "answer": 0,
@@ -613,7 +613,7 @@
           "solution": "Извините, я не понимаю",
           "distractors": [
             "спасибо",
-            "Извини"
+            "простите"
           ],
           "pair": {
             "es": "Perdón, no entiendo",
@@ -1186,9 +1186,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cuánto cuesta?\"?",
           "options": [
-            "это",
-            "уведомление",
-            "весёлый"
+            "Сколько это стоит?",
+            "Как две капли воды",
+            "Спать"
           ],
           "answer": 0,
           "pair": {

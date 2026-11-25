@@ -74,8 +74,8 @@
           "sentence": "She ___ for the exam yesterday.",
           "options": [
             "studied",
-            "She studied for the exam yesterday.",
-            "At the weekend"
+            "passed",
+            "failed"
           ],
           "answer": 0,
           "pair": {
@@ -215,8 +215,8 @@
           "sentence": "I ___ to Rome two years ago.",
           "options": [
             "went",
-            "We saw a very good film",
-            "She made dinner for everyone."
+            "came",
+            "stayed"
           ],
           "answer": 0,
           "pair": {
@@ -319,7 +319,7 @@
           "options": [
             "was",
             "were",
-            "What were you doing at eight?"
+            "am"
           ],
           "answer": 0,
           "pair": {
@@ -628,9 +628,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La mariposa\"?",
           "options": [
-            "the",
-            "lot",
-            "thing"
+            "The butterfly",
+            "The frog",
+            "The opinion"
           ],
           "answer": 0,
           "pair": {
@@ -778,9 +778,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La tierra\"?",
           "options": [
-            "the",
-            "problem",
-            "The aunt"
+            "The earth",
+            "The aunt",
+            "The distance"
           ],
           "answer": 0,
           "pair": {
@@ -928,9 +928,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Ganar\"?",
           "options": [
-            "to",
-            "far",
-            "Six"
+            "To win",
+            "The library",
+            "Wrong"
           ],
           "answer": 0,
           "pair": {
@@ -1078,9 +1078,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La esperanza\"?",
           "options": [
-            "the",
-            "public",
-            "The leaf"
+            "The hope",
+            "The leaf",
+            "The storm"
           ],
           "answer": 0,
           "pair": {
@@ -1378,9 +1378,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La camisa\"?",
           "options": [
-            "the",
-            "to",
-            "The shirt"
+            "The shirt",
+            "The boy",
+            "The wife"
           ],
           "answer": 0,
           "pair": {

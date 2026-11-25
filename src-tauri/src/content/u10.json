@@ -177,8 +177,8 @@
           "sentence": "She said she ___ tired.",
           "options": [
             "was",
-            "They said they would come later",
-            "Told me"
+            "said",
+            "told"
           ],
           "answer": 0,
           "pair": {
@@ -782,9 +782,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El cajero automático\"?",
           "options": [
-            "cash",
-            "the",
-            "The website"
+            "The cash machine",
+            "The milk",
+            "The party"
           ],
           "answer": 0,
           "pair": {
@@ -1232,9 +1232,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El viento\"?",
           "options": [
-            "the",
-            "Where",
-            "The memory"
+            "The wind",
+            "To turn",
+            "The wine"
           ],
           "answer": 0,
           "pair": {
@@ -1382,9 +1382,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El pan\"?",
           "options": [
-            "the",
-            "some",
-            "come"
+            "The bread",
+            "The week",
+            "The plate"
           ],
           "answer": 0,
           "pair": {

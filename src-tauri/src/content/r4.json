@@ -78,8 +78,8 @@
           "sentence": "Я пью ___ на завтрак.",
           "options": [
             "кофе",
-            "Ужинаю в девять",
-            "Я пью кофе на завтрак"
+            "чай",
+            "сок"
           ],
           "answer": 0,
           "pair": {
@@ -242,9 +242,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Tengo veinte años.\"?",
           "options": [
-            "двадцать",
-            "Солнечно",
-            "Сегодня холодно"
+            "Мне двадцать лет.",
+            "Идёт снег",
+            "Идёт дождь"
           ],
           "answer": 0,
           "pair": {
@@ -408,9 +408,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Me encanta la música.\"?",
           "options": [
-            "люблю",
             "Я люблю музыку.",
-            "Мне не нравится рано вставать"
+            "Это скучно",
+            "Я обожаю музыку"
           ],
           "answer": 0,
           "pair": {
@@ -617,10 +617,10 @@
           "type": "choice",
           "prompt": "«Что ты будешь делать завтра?» pregunta…",
           "options": [
-            "Qué harás mañana",
-            "Можешь мне помочь",
-            "Встретимся в субботу?",
-            "Можешь мне помочь?"
+            "¿Qué harás mañana?",
+            "¿Podrías ayudarme?",
+            "Tengo que trabajar",
+            "Trato hecho"
           ],
           "answer": 0,
           "pair": {

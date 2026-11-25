@@ -51,7 +51,7 @@
           "options": [
             "Estoy enfermo",
             "Necesito un médico",
-            "No lo sé"
+            "Me duele la cabeza"
           ],
           "answer": 0,
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "¿Tiene aspirina?",
             "¿Cómo se toma?",
-            "No lo sé"
+            "Necesito este medicamento"
           ],
           "answer": 0,
           "pair": {
@@ -216,9 +216,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Cómo se toma?\"?",
           "options": [
-            "le",
-            "Médicament",
-            "Pharmacie"
+            "Comment le prendre ?",
+            "Avez-vous de l'aspirine ?",
+            "J'ai besoin de ce médicament"
           ],
           "answer": 0,
           "pair": {
@@ -354,7 +354,7 @@
           "options": [
             "Llame a la policía",
             "Es una emergencia",
-            "No lo sé"
+            "Ayuda"
           ],
           "answer": 0,
           "pair": {
@@ -367,9 +367,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Es una emergencia\"?",
           "options": [
-            "une",
-            "Secours",
-            "Police"
+            "C'est une urgence",
+            "Au secours !",
+            "Appelez la police"
           ],
           "answer": 0,
           "pair": {
@@ -505,7 +505,7 @@
           "options": [
             "Como sano",
             "Duermo bien",
-            "No lo sé"
+            "Hago deporte"
           ],
           "answer": 0,
           "pair": {
@@ -518,9 +518,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
-            "dors",
-            "Sport",
-            "Santé"
+            "Je dors bien",
+            "Je fais du sport",
+            "Je mange sainement"
           ],
           "answer": 0,
           "pair": {

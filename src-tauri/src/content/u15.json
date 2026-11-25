@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "u15l1",
-      "title": "Jobs",
-      "goal": "Talk about jobs",
+      "title": "En el trabajo",
+      "goal": "Hablar del trabajo",
       "tip": [
-        "'I work as...'",
-        "'I'm looking for a job'."
+        "Habla de profesiones y lugares de trabajo.",
+        "Fíjate en las preposiciones."
       ],
       "phrases": [
         {
-          "es": "I work as a teacher",
+          "es": "Trabajo como docente",
           "t": "I work as a teacher"
         },
         {
-          "es": "I'm looking for a job",
+          "es": "Estoy buscando trabajo",
           "t": "I'm looking for a job"
         },
         {
-          "es": "I work in an office",
+          "es": "Trabajo en una oficina",
           "t": "I work in an office"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "u15l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i work as a teacher»?",
+          "prompt": "¿Cómo se dice «Trabajo como docente»?",
           "options": [
             "I work as a teacher",
             "I'm looking for a job",
             "I work in an office",
-            "Teacher"
+            "Office"
           ],
           "answer": 0,
           "pair": {
-            "es": "I work as a teacher",
+            "es": "Trabajo como docente",
             "t": "I work as a teacher"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I'm looking for a job",
           "options": [
-            "I'm looking for a job",
-            "I work in an office",
-            "No lo sé"
+            "Estoy buscando trabajo",
+            "Trabajo como docente",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'm looking for a job",
+            "es": "Estoy buscando trabajo",
             "t": "I'm looking for a job"
           }
         },
@@ -63,45 +63,47 @@
           "id": "u15l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "I ___ in an office",
+          "sentence": "I work in an ___",
           "options": [
-            "work",
-            "Teacher",
-            "Doctor"
+            "office",
+            "hospital",
+            "school"
           ],
           "answer": 0,
           "pair": {
-            "es": "I work in an office",
+            "es": "Trabajo en una oficina",
             "t": "I work in an office"
-          }
+          },
+          "explain": "Habla de profesiones y lugares de trabajo."
         },
         {
           "id": "u15l1e4",
           "type": "build",
-          "prompt": "Traduce: «I work as a teacher»",
+          "prompt": "Traduce: «Trabajo como docente»",
           "solution": "I work as a teacher",
           "distractors": [
-            "Engineer",
-            "Office"
+            "Doctor",
+            "Engineer"
           ],
           "pair": {
-            "es": "I work as a teacher",
+            "es": "Trabajo como docente",
             "t": "I work as a teacher"
           }
         },
         {
           "id": "u15l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «teacher»",
+          "prompt": "Escribe en el idioma destino: «El docente»",
           "solution": "Teacher",
           "accept": [
             "Teacher",
             "teacher"
           ],
           "pair": {
-            "es": "Teacher",
+            "es": "El docente",
             "t": "Teacher"
-          }
+          },
+          "explain": "Fíjate en las preposiciones."
         },
         {
           "id": "u15l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Teacher",
+              "es": "El docente",
               "t": "Teacher"
             },
             {
-              "es": "Doctor",
+              "es": "El médico",
               "t": "Doctor"
             },
             {
-              "es": "Engineer",
+              "es": "El ingeniero",
               "t": "Engineer"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "u15l1e7",
           "type": "choice",
-          "prompt": "«Office» se traduce como...",
+          "prompt": "«La oficina» se traduce como...",
           "options": [
             "Office",
             "Teacher",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Office",
+            "es": "La oficina",
             "t": "Office"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "I work as a teacher",
           "options": [
-            "I work as a teacher",
-            "I'm looking for a job",
-            "I work in an office"
+            "Trabajo como docente",
+            "Estoy buscando trabajo",
+            "Trabajo en una oficina"
           ],
           "answer": 0,
           "pair": {
-            "es": "I work as a teacher",
+            "es": "Trabajo como docente",
             "t": "I work as a teacher"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "u15l2",
-      "title": "Office",
-      "goal": "Office communication",
+      "title": "Reuniones",
+      "goal": "Coordinar tareas",
       "tip": [
-        "'I have a meeting'.",
-        "'I'll send an email'."
+        "Coordina citas y tareas.",
+        "Fíjate en las expresiones de tiempo."
       ],
       "phrases": [
         {
-          "es": "I have a meeting",
+          "es": "Tengo una reunión",
           "t": "I have a meeting"
         },
         {
-          "es": "I'll send an email",
+          "es": "Enviaré un correo",
           "t": "I'll send an email"
         },
         {
-          "es": "The deadline is tomorrow",
+          "es": "La fecha límite es mañana",
           "t": "The deadline is tomorrow"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "u15l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i have a meeting»?",
+          "prompt": "¿Cómo se dice «Tengo una reunión»?",
           "options": [
             "I have a meeting",
             "I'll send an email",
             "The deadline is tomorrow",
-            "Meeting"
+            "Project"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have a meeting",
+            "es": "Tengo una reunión",
             "t": "I have a meeting"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I'll send an email",
           "options": [
-            "I'll send an email",
-            "The deadline is tomorrow",
-            "No lo sé"
+            "Enviaré un correo",
+            "Tengo una reunión",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "I'll send an email",
+            "es": "Enviaré un correo",
             "t": "I'll send an email"
           }
         },
@@ -215,45 +217,47 @@
           "id": "u15l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "The ___ is tomorrow",
+          "sentence": "The deadline is ___",
           "options": [
-            "deadline",
-            "Meeting",
-            "Email"
+            "tomorrow",
+            "today",
+            "Monday"
           ],
           "answer": 0,
           "pair": {
-            "es": "The deadline is tomorrow",
+            "es": "La fecha límite es mañana",
             "t": "The deadline is tomorrow"
-          }
+          },
+          "explain": "Coordina citas y tareas."
         },
         {
           "id": "u15l2e4",
           "type": "build",
-          "prompt": "Traduce: «I have a meeting»",
+          "prompt": "Traduce: «Tengo una reunión»",
           "solution": "I have a meeting",
           "distractors": [
-            "Deadline",
-            "Project"
+            "Email",
+            "Deadline"
           ],
           "pair": {
-            "es": "I have a meeting",
+            "es": "Tengo una reunión",
             "t": "I have a meeting"
           }
         },
         {
           "id": "u15l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «meeting»",
+          "prompt": "Escribe en el idioma destino: «La reunión»",
           "solution": "Meeting",
           "accept": [
             "Meeting",
             "meeting"
           ],
           "pair": {
-            "es": "Meeting",
+            "es": "La reunión",
             "t": "Meeting"
-          }
+          },
+          "explain": "Fíjate en las expresiones de tiempo."
         },
         {
           "id": "u15l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Meeting",
+              "es": "La reunión",
               "t": "Meeting"
             },
             {
-              "es": "Email",
+              "es": "El correo",
               "t": "Email"
             },
             {
-              "es": "Deadline",
+              "es": "La fecha límite",
               "t": "Deadline"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "u15l2e7",
           "type": "choice",
-          "prompt": "«Project» se traduce como...",
+          "prompt": "«El proyecto» se traduce como...",
           "options": [
             "Project",
             "Meeting",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Project",
+            "es": "El proyecto",
             "t": "Project"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "I have a meeting",
           "options": [
-            "I have a meeting",
-            "I'll send an email",
-            "The deadline is tomorrow"
+            "Tengo una reunión",
+            "Enviaré un correo",
+            "La fecha límite es mañana"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have a meeting",
+            "es": "Tengo una reunión",
             "t": "I have a meeting"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "u15l3",
-      "title": "School",
-      "goal": "At school",
+      "title": "Estudiar",
+      "goal": "Hablar de exámenes y clases",
       "tip": [
-        "'I have an exam'.",
-        "'I don't understand'."
+        "Habla de exámenes y clases.",
+        "Fíjate en la negación."
       ],
       "phrases": [
         {
-          "es": "I have an exam",
+          "es": "Tengo un examen",
           "t": "I have an exam"
         },
         {
-          "es": "I don't understand",
+          "es": "No entiendo",
           "t": "I don't understand"
         },
         {
-          "es": "The lesson is interesting",
+          "es": "La lección es interesante",
           "t": "The lesson is interesting"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "u15l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «i have an exam»?",
+          "prompt": "¿Cómo se dice «Tengo un examen»?",
           "options": [
             "I have an exam",
             "I don't understand",
             "The lesson is interesting",
-            "Exam"
+            "Answer"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have an exam",
+            "es": "Tengo un examen",
             "t": "I have an exam"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I don't understand",
           "options": [
-            "I don't understand",
-            "The lesson is interesting",
-            "No lo sé"
+            "No entiendo",
+            "Tengo un examen",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "I don't understand",
+            "es": "No entiendo",
             "t": "I don't understand"
           }
         },
@@ -370,42 +374,44 @@
           "sentence": "The ___ is interesting",
           "options": [
             "lesson",
-            "Exam",
-            "I don't understand"
+            "exam",
+            "question"
           ],
           "answer": 0,
           "pair": {
-            "es": "The lesson is interesting",
+            "es": "La lección es interesante",
             "t": "The lesson is interesting"
-          }
+          },
+          "explain": "Habla de exámenes y clases."
         },
         {
           "id": "u15l3e4",
           "type": "build",
-          "prompt": "Traduce: «I have an exam»",
+          "prompt": "Traduce: «Tengo un examen»",
           "solution": "I have an exam",
           "distractors": [
-            "Question",
-            "Answer"
+            "Lesson",
+            "Question"
           ],
           "pair": {
-            "es": "I have an exam",
+            "es": "Tengo un examen",
             "t": "I have an exam"
           }
         },
         {
           "id": "u15l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «exam»",
+          "prompt": "Escribe en el idioma destino: «El examen»",
           "solution": "Exam",
           "accept": [
             "Exam",
             "exam"
           ],
           "pair": {
-            "es": "Exam",
+            "es": "El examen",
             "t": "Exam"
-          }
+          },
+          "explain": "Fíjate en la negación."
         },
         {
           "id": "u15l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Exam",
+              "es": "El examen",
               "t": "Exam"
             },
             {
-              "es": "Lesson",
+              "es": "La lección",
               "t": "Lesson"
             },
             {
-              "es": "Question",
+              "es": "La pregunta",
               "t": "Question"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "u15l3e7",
           "type": "choice",
-          "prompt": "«Answer» se traduce como...",
+          "prompt": "«La respuesta» se traduce como...",
           "options": [
             "Answer",
             "Exam",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Answer",
+            "es": "La respuesta",
             "t": "Answer"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "I have an exam",
           "options": [
-            "I have an exam",
-            "I don't understand",
-            "The lesson is interesting"
+            "Tengo un examen",
+            "No entiendo",
+            "La lección es interesante"
           ],
           "answer": 0,
           "pair": {
-            "es": "I have an exam",
+            "es": "Tengo un examen",
             "t": "I have an exam"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "u15l4",
-      "title": "Technology",
-      "goal": "Digital life",
+      "title": "Tecnología",
+      "goal": "Usar el móvil y aplicaciones",
       "tip": [
-        "'Download the app'.",
-        "'I forgot my password'."
+        "Usa vocabulario de dispositivos.",
+        "Fíjate en las instrucciones."
       ],
       "phrases": [
         {
-          "es": "Download the app",
+          "es": "Descarga la aplicación",
           "t": "Download the app"
         },
         {
-          "es": "I forgot my password",
+          "es": "He olvidado mi contraseña",
           "t": "I forgot my password"
         },
         {
-          "es": "My phone isn't working",
+          "es": "Mi teléfono no funciona",
           "t": "My phone isn't working"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "u15l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «download the app»?",
+          "prompt": "¿Cómo se dice «Descarga la aplicación»?",
           "options": [
             "Download the app",
             "I forgot my password",
             "My phone isn't working",
-            "App"
+            "Message"
           ],
           "answer": 0,
           "pair": {
-            "es": "Download the app",
+            "es": "Descarga la aplicación",
             "t": "Download the app"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "I forgot my password",
           "options": [
-            "I forgot my password",
-            "My phone isn't working",
-            "No lo sé"
+            "He olvidado mi contraseña",
+            "Descarga la aplicación",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "I forgot my password",
+            "es": "He olvidado mi contraseña",
             "t": "I forgot my password"
           }
         },
@@ -522,42 +528,44 @@
           "sentence": "My ___ isn't working",
           "options": [
             "phone",
-            "App",
-            "Password"
+            "screen",
+            "app"
           ],
           "answer": 0,
           "pair": {
-            "es": "My phone isn't working",
+            "es": "Mi teléfono no funciona",
             "t": "My phone isn't working"
-          }
+          },
+          "explain": "Usa vocabulario de dispositivos."
         },
         {
           "id": "u15l4e4",
           "type": "build",
-          "prompt": "Traduce: «Download the app»",
+          "prompt": "Traduce: «Descarga la aplicación»",
           "solution": "Download the app",
           "distractors": [
-            "Screen",
-            "Message"
+            "Password",
+            "Screen"
           ],
           "pair": {
-            "es": "Download the app",
+            "es": "Descarga la aplicación",
             "t": "Download the app"
           }
         },
         {
           "id": "u15l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «app»",
+          "prompt": "Escribe en el idioma destino: «La aplicación»",
           "solution": "App",
           "accept": [
             "App",
             "app"
           ],
           "pair": {
-            "es": "App",
+            "es": "La aplicación",
             "t": "App"
-          }
+          },
+          "explain": "Fíjate en las instrucciones."
         },
         {
           "id": "u15l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "App",
+              "es": "La aplicación",
               "t": "App"
             },
             {
-              "es": "Password",
+              "es": "La contraseña",
               "t": "Password"
             },
             {
-              "es": "Screen",
+              "es": "La pantalla",
               "t": "Screen"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "u15l4e7",
           "type": "choice",
-          "prompt": "«Message» se traduce como...",
+          "prompt": "«El mensaje» se traduce como...",
           "options": [
             "Message",
             "App",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Message",
+            "es": "El mensaje",
             "t": "Message"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Download the app",
           "options": [
-            "Download the app",
-            "I forgot my password",
-            "My phone isn't working"
+            "Descarga la aplicación",
+            "He olvidado mi contraseña",
+            "Mi teléfono no funciona"
           ],
           "answer": 0,
           "pair": {
-            "es": "Download the app",
+            "es": "Descarga la aplicación",
             "t": "Download the app"
           }
         }
@@ -671,9 +679,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El presidente\"?",
           "options": [
-            "the",
-            "hear",
-            "The coffee"
+            "The president",
+            "The map",
+            "The hope"
           ],
           "answer": 0,
           "pair": {
@@ -821,9 +829,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¡Hasta luego!\"?",
           "options": [
-            "you",
-            "the",
-            "The plane"
+            "See you later!",
+            "The ear",
+            "To sell"
           ],
           "answer": 0,
           "pair": {
@@ -971,9 +979,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El pescado\"?",
           "options": [
-            "fish",
-            "the",
-            "The turtle"
+            "The fish (food)",
+            "The email",
+            "The party"
           ],
           "answer": 0,
           "pair": {
@@ -1121,8 +1129,8 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El ordenador\"?",
           "options": [
-            "the",
-            "Wednesday",
+            "The computer",
+            "The recipe",
             "The player"
           ],
           "answer": 0,
@@ -1271,9 +1279,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Mezclar\"?",
           "options": [
-            "to",
-            "the",
-            "keep"
+            "To mix",
+            "The fridge",
+            "The podcast"
           ],
           "answer": 0,
           "pair": {
@@ -1421,9 +1429,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El aceite\"?",
           "options": [
-            "the",
-            "jealous",
-            "To grill"
+            "The oil",
+            "The car",
+            "Excuse me"
           ],
           "answer": 0,
           "pair": {

@@ -406,7 +406,7 @@
           "options": [
             "on",
             "in",
-            "What time is it?"
+            "at"
           ],
           "answer": 0,
           "pair": {
@@ -522,8 +522,8 @@
           "sentence": "I'm ___ right now.",
           "options": [
             "busy",
-            "Now",
-            "Do you have time tomorrow?"
+            "free",
+            "ready"
           ],
           "answer": 0,
           "pair": {
@@ -842,9 +842,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Perder\"?",
           "options": [
-            "to",
-            "consider",
-            "idea"
+            "To lose",
+            "To chat",
+            "The uncle"
           ],
           "answer": 0,
           "pair": {
@@ -1292,9 +1292,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La camiseta\"?",
           "options": [
-            "the",
-            "company",
-            "force"
+            "The t-shirt",
+            "To sleep",
+            "Afraid"
           ],
           "answer": 0,
           "pair": {
@@ -1442,9 +1442,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El silencio\"?",
           "options": [
-            "the",
-            "running",
-            "Hiking"
+            "The silence",
+            "The band",
+            "The moon"
           ],
           "answer": 0,
           "pair": {

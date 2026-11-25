@@ -412,9 +412,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"¿Puedo pagar con tarjeta?\"?",
           "options": [
-            "Можно",
-            "Дорого",
-            "Наличными"
+            "Можно заплатить картой?",
+            "Это дёшево",
+            "Сколько стоит?"
           ],
           "answer": 0,
           "pair": {

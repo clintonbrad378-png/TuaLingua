@@ -6,23 +6,23 @@
   "lessons": [
     {
       "id": "r12l1",
-      "title": "Мнения",
-      "goal": "Выражать мнение",
+      "title": "Opiniones",
+      "goal": "Expresar acuerdo y opinión",
       "tip": [
-        "«Я думаю, что...»",
-        "«По моему мнению...»"
+        "Expresa acuerdo y opinión.",
+        "Fíjate en las fórmulas de opinión."
       ],
       "phrases": [
         {
-          "es": "Я думаю, это хорошая идея",
+          "es": "Creo que es una buena idea",
           "t": "Я думаю, это хорошая идея"
         },
         {
-          "es": "По моему мнению, это трудно",
+          "es": "En mi opinión, es difícil",
           "t": "По моему мнению, это трудно"
         },
         {
-          "es": "Я согласен",
+          "es": "Estoy de acuerdo contigo",
           "t": "Я согласен"
         }
       ],
@@ -30,16 +30,16 @@
         {
           "id": "r12l1e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «я думаю, это хорошая идея»?",
+          "prompt": "¿Cómo se dice «Creo que es una buena idea»?",
           "options": [
             "Я думаю, это хорошая идея",
             "По моему мнению, это трудно",
             "Я согласен",
-            "Идея"
+            "Решение"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я думаю, это хорошая идея",
+            "es": "Creo que es una buena idea",
             "t": "Я думаю, это хорошая идея"
           }
         },
@@ -49,13 +49,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "По моему мнению, это трудно",
           "options": [
-            "По моему мнению, это трудно",
-            "Я согласен",
-            "No lo sé"
+            "En mi opinión, es difícil",
+            "Creo que es una buena idea",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "По моему мнению, это трудно",
+            "es": "En mi opinión, es difícil",
             "t": "По моему мнению, это трудно"
           }
         },
@@ -63,45 +63,47 @@
           "id": "r12l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ согласен",
+          "sentence": "Я ___",
           "options": [
-            "Я",
-            "Идея",
-            "Мнение"
+            "согласен",
+            "против",
+            "уверен"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я согласен",
+            "es": "Estoy de acuerdo contigo",
             "t": "Я согласен"
-          }
+          },
+          "explain": "Expresa acuerdo y opinión."
         },
         {
           "id": "r12l1e4",
           "type": "build",
-          "prompt": "Traduce: «Я думаю, это хорошая идея»",
+          "prompt": "Traduce: «Creo que es una buena idea»",
           "solution": "Я думаю, это хорошая идея",
           "distractors": [
-            "Проблема",
-            "Решение"
+            "Мнение",
+            "Проблема"
           ],
           "pair": {
-            "es": "Я думаю, это хорошая идея",
+            "es": "Creo que es una buena idea",
             "t": "Я думаю, это хорошая идея"
           }
         },
         {
           "id": "r12l1e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «идея»",
+          "prompt": "Escribe en el idioma destino: «La idea»",
           "solution": "Идея",
           "accept": [
             "Идея",
             "идея"
           ],
           "pair": {
-            "es": "Идея",
+            "es": "La idea",
             "t": "Идея"
-          }
+          },
+          "explain": "Fíjate en las fórmulas de opinión."
         },
         {
           "id": "r12l1e6",
@@ -109,15 +111,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Идея",
+              "es": "La idea",
               "t": "Идея"
             },
             {
-              "es": "Мнение",
+              "es": "La opinión",
               "t": "Мнение"
             },
             {
-              "es": "Проблема",
+              "es": "El problema",
               "t": "Проблема"
             }
           ]
@@ -125,7 +127,7 @@
         {
           "id": "r12l1e7",
           "type": "choice",
-          "prompt": "«Решение» se traduce como...",
+          "prompt": "«La solución» se traduce como...",
           "options": [
             "Решение",
             "Идея",
@@ -134,7 +136,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Решение",
+            "es": "La solución",
             "t": "Решение"
           }
         },
@@ -144,13 +146,13 @@
           "prompt": "Escucha y elige",
           "audio": "Я думаю, это хорошая идея",
           "options": [
-            "Я думаю, это хорошая идея",
-            "По моему мнению, это трудно",
-            "Я согласен"
+            "Creo que es una buena idea",
+            "En mi opinión, es difícil",
+            "Estoy de acuerdo contigo"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я думаю, это хорошая идея",
+            "es": "Creo que es una buena idea",
             "t": "Я думаю, это хорошая идея"
           }
         }
@@ -158,23 +160,23 @@
     },
     {
       "id": "r12l2",
-      "title": "Планы",
-      "goal": "Планы на будущее",
+      "title": "Planes",
+      "goal": "Hablar del futuro",
       "tip": [
-        "«Завтра я...»",
-        "«Я хочу...»"
+        "Habla de planes futuros.",
+        "Fíjate en los marcadores de tiempo."
       ],
       "phrases": [
         {
-          "es": "Завтра я поеду путешествовать",
+          "es": "Voy a viajar mañana",
           "t": "Завтра я поеду путешествовать"
         },
         {
-          "es": "Я хочу учиться больше",
+          "es": "Quiero aprender más",
           "t": "Я хочу учиться больше"
         },
         {
-          "es": "До скорого",
+          "es": "Hasta pronto",
           "t": "До скорого"
         }
       ],
@@ -182,16 +184,16 @@
         {
           "id": "r12l2e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «завтра я поеду путешествовать»?",
+          "prompt": "¿Cómo se dice «Voy a viajar mañana»?",
           "options": [
             "Завтра я поеду путешествовать",
             "Я хочу учиться больше",
             "До скорого",
-            "Завтра"
+            "Всегда"
           ],
           "answer": 0,
           "pair": {
-            "es": "Завтра я поеду путешествовать",
+            "es": "Voy a viajar mañana",
             "t": "Завтра я поеду путешествовать"
           }
         },
@@ -201,13 +203,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я хочу учиться больше",
           "options": [
-            "Я хочу учиться больше",
-            "До скорого",
-            "No lo sé"
+            "Quiero aprender más",
+            "Voy a viajar mañana",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я хочу учиться больше",
+            "es": "Quiero aprender más",
             "t": "Я хочу учиться больше"
           }
         },
@@ -215,45 +217,47 @@
           "id": "r12l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ скорого",
+          "sentence": "До ___",
           "options": [
-            "До",
-            "Завтра",
-            "Скоро"
+            "скорого",
+            "завтра",
+            "вечера"
           ],
           "answer": 0,
           "pair": {
-            "es": "До скорого",
+            "es": "Hasta pronto",
             "t": "До скорого"
-          }
+          },
+          "explain": "Habla de planes futuros."
         },
         {
           "id": "r12l2e4",
           "type": "build",
-          "prompt": "Traduce: «Завтра я поеду путешествовать»",
+          "prompt": "Traduce: «Voy a viajar mañana»",
           "solution": "Завтра я поеду путешествовать",
           "distractors": [
-            "Позже",
-            "Всегда"
+            "Скоро",
+            "Позже"
           ],
           "pair": {
-            "es": "Завтра я поеду путешествовать",
+            "es": "Voy a viajar mañana",
             "t": "Завтра я поеду путешествовать"
           }
         },
         {
           "id": "r12l2e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «завтра»",
+          "prompt": "Escribe en el idioma destino: «Mañana»",
           "solution": "Завтра",
           "accept": [
             "Завтра",
             "завтра"
           ],
           "pair": {
-            "es": "Завтра",
+            "es": "Mañana",
             "t": "Завтра"
-          }
+          },
+          "explain": "Fíjate en los marcadores de tiempo."
         },
         {
           "id": "r12l2e6",
@@ -261,15 +265,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Завтра",
+              "es": "Mañana",
               "t": "Завтра"
             },
             {
-              "es": "Скоро",
+              "es": "Pronto",
               "t": "Скоро"
             },
             {
-              "es": "Позже",
+              "es": "Más tarde",
               "t": "Позже"
             }
           ]
@@ -277,7 +281,7 @@
         {
           "id": "r12l2e7",
           "type": "choice",
-          "prompt": "«Всегда» se traduce como...",
+          "prompt": "«Siempre» se traduce como...",
           "options": [
             "Всегда",
             "Завтра",
@@ -286,7 +290,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Всегда",
+            "es": "Siempre",
             "t": "Всегда"
           }
         },
@@ -296,13 +300,13 @@
           "prompt": "Escucha y elige",
           "audio": "Завтра я поеду путешествовать",
           "options": [
-            "Завтра я поеду путешествовать",
-            "Я хочу учиться больше",
-            "До скорого"
+            "Voy a viajar mañana",
+            "Quiero aprender más",
+            "Hasta pronto"
           ],
           "answer": 0,
           "pair": {
-            "es": "Завтра я поеду путешествовать",
+            "es": "Voy a viajar mañana",
             "t": "Завтра я поеду путешествовать"
           }
         }
@@ -310,23 +314,23 @@
     },
     {
       "id": "r12l3",
-      "title": "Чувства",
-      "goal": "Эмоции",
+      "title": "Emociones",
+      "goal": "Expresar estados de ánimo",
       "tip": [
-        "«Я счастлив/грустный».",
-        "«Я чувствую себя...»"
+        "Expresa emociones.",
+        "Fíjate en el género y el número."
       ],
       "phrases": [
         {
-          "es": "Я очень счастлив",
+          "es": "Estoy muy feliz",
           "t": "Я очень счастлив"
         },
         {
-          "es": "Я чувствую усталость",
+          "es": "Me siento cansado",
           "t": "Я чувствую усталость"
         },
         {
-          "es": "Я волнуюсь",
+          "es": "Estoy preocupado",
           "t": "Я волнуюсь"
         }
       ],
@@ -334,16 +338,16 @@
         {
           "id": "r12l3e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «я очень счастлив»?",
+          "prompt": "¿Cómo se dice «Estoy muy feliz»?",
           "options": [
             "Я очень счастлив",
             "Я чувствую усталость",
             "Я волнуюсь",
-            "Счастливый"
+            "Взволнованный"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я очень счастлив",
+            "es": "Estoy muy feliz",
             "t": "Я очень счастлив"
           }
         },
@@ -353,13 +357,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Я чувствую усталость",
           "options": [
-            "Я чувствую усталость",
-            "Я волнуюсь",
-            "No lo sé"
+            "Me siento cansado",
+            "Estoy muy feliz",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я чувствую усталость",
+            "es": "Me siento cansado",
             "t": "Я чувствую усталость"
           }
         },
@@ -367,45 +371,47 @@
           "id": "r12l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___ волнуюсь",
+          "sentence": "Я ___",
           "options": [
-            "Я",
-            "Счастливый",
-            "Грустный"
+            "волнуюсь",
+            "радуюсь",
+            "устаю"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я волнуюсь",
+            "es": "Estoy preocupado",
             "t": "Я волнуюсь"
-          }
+          },
+          "explain": "Expresa emociones."
         },
         {
           "id": "r12l3e4",
           "type": "build",
-          "prompt": "Traduce: «Я очень счастлив»",
+          "prompt": "Traduce: «Estoy muy feliz»",
           "solution": "Я очень счастлив",
           "distractors": [
-            "Усталый",
-            "Взволнованный"
+            "Грустный",
+            "Усталый"
           ],
           "pair": {
-            "es": "Я очень счастлив",
+            "es": "Estoy muy feliz",
             "t": "Я очень счастлив"
           }
         },
         {
           "id": "r12l3e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «счастливый»",
+          "prompt": "Escribe en el idioma destino: «Feliz»",
           "solution": "Счастливый",
           "accept": [
             "Счастливый",
             "счастливый"
           ],
           "pair": {
-            "es": "Счастливый",
+            "es": "Feliz",
             "t": "Счастливый"
-          }
+          },
+          "explain": "Fíjate en el género y el número."
         },
         {
           "id": "r12l3e6",
@@ -413,15 +419,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Счастливый",
+              "es": "Feliz",
               "t": "Счастливый"
             },
             {
-              "es": "Грустный",
+              "es": "Triste",
               "t": "Грустный"
             },
             {
-              "es": "Усталый",
+              "es": "Cansado",
               "t": "Усталый"
             }
           ]
@@ -429,7 +435,7 @@
         {
           "id": "r12l3e7",
           "type": "choice",
-          "prompt": "«Взволнованный» se traduce como...",
+          "prompt": "«Preocupado» se traduce como...",
           "options": [
             "Взволнованный",
             "Счастливый",
@@ -438,7 +444,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Взволнованный",
+            "es": "Preocupado",
             "t": "Взволнованный"
           }
         },
@@ -448,13 +454,13 @@
           "prompt": "Escucha y elige",
           "audio": "Я очень счастлив",
           "options": [
-            "Я очень счастлив",
-            "Я чувствую усталость",
-            "Я волнуюсь"
+            "Estoy muy feliz",
+            "Me siento cansado",
+            "Estoy preocupado"
           ],
           "answer": 0,
           "pair": {
-            "es": "Я очень счастлив",
+            "es": "Estoy muy feliz",
             "t": "Я очень счастлив"
           }
         }
@@ -462,23 +468,23 @@
     },
     {
       "id": "r12l4",
-      "title": "Свободная речь",
-      "goal": "Полезные фразы",
+      "title": "Pedir ayuda",
+      "goal": "Ofrecer y pedir ayuda",
       "tip": [
-        "Союзы: поэтому, но, тоже.",
-        "«Не могли бы вы...?» — вежливо."
+        "Pide y ofrece ayuda.",
+        "Fíjate en las fórmulas de cortesía."
       ],
       "phrases": [
         {
-          "es": "Не могли бы вы помочь?",
+          "es": "¿Podrías ayudarme?",
           "t": "Не могли бы вы помочь?"
         },
         {
-          "es": "Ничего страшного",
+          "es": "No importa",
           "t": "Ничего страшного"
         },
         {
-          "es": "Конечно",
+          "es": "Por supuesto",
           "t": "Конечно"
         }
       ],
@@ -486,16 +492,16 @@
         {
           "id": "r12l4e1",
           "type": "choice",
-          "prompt": "¿Cómo se dice «не могли бы вы помочь?»?",
+          "prompt": "¿Cómo se dice «¿Podrías ayudarme?»?",
           "options": [
             "Не могли бы вы помочь?",
             "Ничего страшного",
             "Конечно",
-            "Может быть"
+            "Вместе"
           ],
           "answer": 0,
           "pair": {
-            "es": "Не могли бы вы помочь?",
+            "es": "¿Podrías ayudarme?",
             "t": "Не могли бы вы помочь?"
           }
         },
@@ -505,13 +511,13 @@
           "prompt": "Escucha y elige la traducción",
           "audio": "Ничего страшного",
           "options": [
-            "Ничего страшного",
-            "Конечно",
-            "No lo sé"
+            "No importa",
+            "¿Podrías ayudarme?",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "Ничего страшного",
+            "es": "No importa",
             "t": "Ничего страшного"
           }
         },
@@ -519,45 +525,47 @@
           "id": "r12l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "___",
+          "sentence": "Ничего ___",
           "options": [
-            "Конечно",
-            "Может",
-            "Вместе"
+            "страшного",
+            "важного",
+            "сложного"
           ],
           "answer": 0,
           "pair": {
-            "es": "Конечно",
-            "t": "Конечно"
-          }
+            "es": "No importa",
+            "t": "Ничего страшного"
+          },
+          "explain": "Pide y ofrece ayuda."
         },
         {
           "id": "r12l4e4",
           "type": "build",
-          "prompt": "Traduce: «Не могли бы вы помочь?»",
+          "prompt": "Traduce: «¿Podrías ayudarme?»",
           "solution": "Не могли бы вы помочь?",
           "distractors": [
-            "Правда",
-            "Вместе"
+            "Может быть",
+            "Правда"
           ],
           "pair": {
-            "es": "Не могли бы вы помочь?",
+            "es": "¿Podrías ayudarme?",
             "t": "Не могли бы вы помочь?"
           }
         },
         {
           "id": "r12l4e5",
           "type": "type",
-          "prompt": "Escribe en el idioma destino: «конечно»",
+          "prompt": "Escribe en el idioma destino: «Por supuesto»",
           "solution": "Конечно",
           "accept": [
             "Конечно",
             "конечно"
           ],
           "pair": {
-            "es": "Конечно",
+            "es": "Por supuesto",
             "t": "Конечно"
-          }
+          },
+          "explain": "Fíjate en las fórmulas de cortesía."
         },
         {
           "id": "r12l4e6",
@@ -565,15 +573,15 @@
           "prompt": "Une las parejas",
           "pairs": [
             {
-              "es": "Конечно",
+              "es": "Por supuesto",
               "t": "Конечно"
             },
             {
-              "es": "Может быть",
+              "es": "Quizás",
               "t": "Может быть"
             },
             {
-              "es": "Правда",
+              "es": "De verdad",
               "t": "Правда"
             }
           ]
@@ -581,7 +589,7 @@
         {
           "id": "r12l4e7",
           "type": "choice",
-          "prompt": "«Вместе» se traduce como...",
+          "prompt": "«Juntos» se traduce como...",
           "options": [
             "Вместе",
             "Конечно",
@@ -590,7 +598,7 @@
           ],
           "answer": 0,
           "pair": {
-            "es": "Вместе",
+            "es": "Juntos",
             "t": "Вместе"
           }
         },
@@ -600,13 +608,13 @@
           "prompt": "Escucha y elige",
           "audio": "Не могли бы вы помочь?",
           "options": [
-            "Не могли бы вы помочь?",
-            "Ничего страшного",
-            "Конечно"
+            "¿Podrías ayudarme?",
+            "No importa",
+            "Por supuesto"
           ],
           "answer": 0,
           "pair": {
-            "es": "Не могли бы вы помочь?",
+            "es": "¿Podrías ayudarme?",
             "t": "Не могли бы вы помочь?"
           }
         }

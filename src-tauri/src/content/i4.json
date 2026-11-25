@@ -147,9 +147,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Prefiero el té\"?",
           "options": [
-            "Preferisco",
-            "Musica",
-            "Mi piace la musica"
+            "Preferisco il tè",
+            "Non mi piace",
+            "Mi piace la pizza"
           ],
           "answer": 0,
           "pair": {
@@ -219,9 +219,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy aprendiendo italiano\"?",
           "options": [
-            "imparando",
             "Sto imparando l'italiano",
-            "imparare"
+            "Lavoro in un ufficio",
+            "Studio perché mi piace"
           ],
           "answer": 0,
           "pair": {
@@ -303,8 +303,8 @@
           "sentence": "Lavoro in un ___",
           "options": [
             "ufficio",
-            "Perché",
-            "Lavoro in un ufficio"
+            "ospedale",
+            "negozio"
           ],
           "answer": 0,
           "pair": {
@@ -530,9 +530,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"He visitado Roma\"?",
           "options": [
-            "visitato",
+            "Ho visitato Roma",
             "Voglio tornare",
-            "Esperienza"
+            "È stata una bella esperienza"
           ],
           "answer": 0,
           "pair": {

@@ -177,7 +177,7 @@
           "options": [
             "Although",
             "Despite",
-            "Although he was tired, he kept working"
+            "Because"
           ],
           "answer": 0,
           "pair": {
@@ -491,7 +491,7 @@
           "solution": "Not only does she speak English but also French",
           "distractors": [
             "You're coming to the party, aren't you?",
-            "only"
+            "never"
           ],
           "pair": {
             "es": "No solo habla inglés sino también francés",
@@ -1079,9 +1079,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"El plátano\"?",
           "options": [
-            "the",
-            "The direction",
-            "The pain"
+            "The banana",
+            "The sun",
+            "The fog"
           ],
           "answer": 0,
           "pair": {
@@ -1379,9 +1379,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Recordar\"?",
           "options": [
-            "to",
-            "the",
-            "Healthy"
+            "To remember",
+            "The pan",
+            "The fear"
           ],
           "answer": 0,
           "pair": {

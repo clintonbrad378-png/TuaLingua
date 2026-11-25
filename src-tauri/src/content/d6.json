@@ -51,7 +51,7 @@
           "options": [
             "Estoy enfermo",
             "Necesito un médico",
-            "No lo sé"
+            "Me duele la cabeza"
           ],
           "answer": 0,
           "pair": {
@@ -81,7 +81,7 @@
           "prompt": "Traduce: «Me duele la cabeza»",
           "solution": "Ich habe Kopfschmerzen",
           "distractors": [
-            "Kopf",
+            "Zahn",
             "Krank"
           ],
           "pair": {
@@ -203,7 +203,7 @@
           "options": [
             "¿Tiene aspirina?",
             "¿Cómo se toma?",
-            "No lo sé"
+            "Necesito este medicamento"
           ],
           "answer": 0,
           "pair": {
@@ -339,7 +339,7 @@
             "Hilfe!",
             "Rufen Sie die Polizei",
             "Es ist ein Notfall",
-            "Hilfe"
+            "Gefahr"
           ],
           "answer": 0,
           "pair": {
@@ -355,7 +355,7 @@
           "options": [
             "Llame a la policía",
             "Es una emergencia",
-            "No lo sé"
+            "Ayuda"
           ],
           "answer": 0,
           "pair": {
@@ -507,7 +507,7 @@
           "options": [
             "Como sano",
             "Duermo bien",
-            "No lo sé"
+            "Hago deporte"
           ],
           "answer": 0,
           "pair": {
@@ -520,9 +520,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
-            "schlafe",
-            "Sport",
-            "Gesundheit"
+            "Ich schlafe gut",
+            "Ich esse gesund",
+            "Ich treibe Sport"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +970,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Muchas gracias\"?",
           "options": [
-            "Vielen",
-            "Benutzen",
-            "Können"
+            "Vielen Dank",
+            "Können Sie das wiederholen?",
+            "Herz"
           ],
           "answer": 0,
           "pair": {

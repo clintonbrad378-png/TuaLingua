@@ -51,7 +51,7 @@
           "options": [
             "Quiero aprender alemán",
             "Nos vemos pronto",
-            "No lo sé"
+            "Voy a viajar mañana"
           ],
           "answer": 0,
           "pair": {
@@ -64,9 +64,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
-            "Bis",
-            "Morgen",
-            "Bald"
+            "Bis bald",
+            "Ich werde morgen reisen",
+            "Ich möchte Deutsch lernen"
           ],
           "answer": 0,
           "pair": {
@@ -202,7 +202,7 @@
           "options": [
             "En mi opinión, es difícil",
             "Estoy de acuerdo",
-            "No lo sé"
+            "Creo que es una buena idea"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +215,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
-            "stimme",
-            "Idee",
-            "Meinung"
+            "Ich stimme zu",
+            "Ich denke, das ist eine gute Idee",
+            "Meiner Meinung nach ist es schwierig"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +353,7 @@
           "options": [
             "Juego al fútbol",
             "Escucho música",
-            "No lo sé"
+            "Me gusta leer"
           ],
           "answer": 0,
           "pair": {
@@ -366,9 +366,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Escucho música\"?",
           "options": [
-            "höre",
-            "Lesen",
-            "Fußball"
+            "Ich höre Musik",
+            "Ich lese gern",
+            "Ich spiele Fußball"
           ],
           "answer": 0,
           "pair": {
@@ -504,7 +504,7 @@
           "options": [
             "Por supuesto",
             "No importa",
-            "No lo sé"
+            "¿Podría ayudarme?"
           ],
           "answer": 0,
           "pair": {
@@ -517,9 +517,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"No importa\"?",
           "options": [
-            "Macht",
-            "Natürlich",
-            "Vielleicht"
+            "Macht nichts",
+            "Könnten Sie mir helfen?",
+            "Zusammen"
           ],
           "answer": 0,
           "pair": {

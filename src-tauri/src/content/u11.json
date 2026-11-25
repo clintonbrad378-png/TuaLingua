@@ -35,8 +35,8 @@
           "sentence": "By next year, I ___ have finished my degree.",
           "options": [
             "will",
-            "By next year, I will have finished my degree.",
-            "Will be + -ing"
+            "would",
+            "can"
           ],
           "answer": 0,
           "pair": {
@@ -176,8 +176,8 @@
           "sentence": "It ___ said that the polar ice is melting.",
           "options": [
             "is",
-            "He is believed to be one of the best scientists.",
-            "Reportedly"
+            "was",
+            "has"
           ],
           "answer": 0,
           "pair": {
@@ -628,9 +628,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"Comprar\"?",
           "options": [
-            "to",
-            "party",
-            "purple"
+            "To buy",
+            "The watch",
+            "The seller"
           ],
           "answer": 0,
           "pair": {
@@ -1378,9 +1378,9 @@
           "type": "choice",
           "prompt": "¿Cómo se dice \"La cabeza\"?",
           "options": [
-            "the",
-            "close",
-            "consider"
+            "The head",
+            "The cow",
+            "The mountain"
           ],
           "answer": 0,
           "pair": {
