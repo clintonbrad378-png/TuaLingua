@@ -57,13 +57,19 @@ class TtsPlugin(private val activity: Activity) : Plugin(activity) {
     private val mainHandler = Handler(Looper.getMainLooper())
     private val handles = ConcurrentHashMap<String, EngineHandle>()
     private val executor = Executors.newSingleThreadExecutor()
+    @Volatile private var cachedDefaultEngine: String? = null
 
     init {
+        executor.execute { cachedDefaultEngine = queryDefaultEnginePkg() }
         getOrCreateHandle(null)
     }
 
     private fun defaultEnginePkg(): String? {
-        handles.values.firstOrNull { it.ready }?.engine?.defaultEngine?.let { return it }
+        handles.values.firstOrNull { it.ready }?.engine?.defaultEngine?.let { cachedDefaultEngine = it; return it }
+        return cachedDefaultEngine
+    }
+
+    private fun queryDefaultEnginePkg(): String? {
         return try {
             val ctx = activity.applicationContext
             val pm = ctx.packageManager
