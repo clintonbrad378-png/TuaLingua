@@ -200,6 +200,11 @@ function webSpeechAvailable() {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
+function webSpeechUsable() {
+  // On Android WebView, speechSynthesis.getVoices() can block the UI thread.
+  return webSpeechAvailable() && !(inTauri && isAndroid);
+}
+
 function shouldUseNative() {
   if (enginePref === "web") return false;
   if (enginePref === "native") return inTauri;
@@ -208,6 +213,7 @@ function shouldUseNative() {
 
 function shouldUseWebFallback() {
   if (enginePref === "native") return false;
+  if (inTauri && isAndroid) return false;
   return webSpeechAvailable();
 }
 
@@ -251,7 +257,7 @@ export async function listTtsVoices(): Promise<TtsVoice[]> {
       /* noop */
     }
   }
-  if (webSpeechAvailable()) {
+  if (webSpeechUsable()) {
     for (const v of window.speechSynthesis.getVoices()) {
       out.push({
         id: `web:${v.voiceURI || v.name}`,
@@ -294,7 +300,7 @@ function pickWebVoice(): SpeechSynthesisVoice | null {
 }
 
 export function warmUpVoices() {
-  if (!webSpeechAvailable()) return;
+  if (!webSpeechUsable()) return;
   if (!voicesReady) {
     voicesReady = true;
     window.speechSynthesis.onvoiceschanged = () => {
