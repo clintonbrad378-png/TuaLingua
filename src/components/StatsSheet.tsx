@@ -1,19 +1,23 @@
 import { useEffect, useRef, useState } from "react";
-import type { ProgressState, SrsCard, Unit } from "../types";
-import { plural, setUiLang, UI_LANGS, levelTitle, uiLang, t, useUiLang } from "../i18n";
+import type { LangProfile, LanguageInfo, ProgressState, SrsCard, Unit } from "../types";
+import { plural, setUiLang, UI_LANGS, levelTitle, uiLang, targetLangName, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
 import {
   getTtsEngine,
+  getTtsNativeEngine,
   getTtsRate,
   getTtsVoicePref,
+  listTtsEngines,
   listTtsVoices,
   setTtsEngine,
+  setTtsNativeEngine,
   setTtsRate,
   setTtsVoicePref,
   testTts,
   getTtsError,
   subscribeAudio,
   type TtsEngine,
+  type TtsEngineInfo,
   type TtsVoice,
 } from "../lib/audio";
 import { langBcp47 } from "../lib/langs";
@@ -66,6 +70,8 @@ function calendarCells(history: { day: string; xp: number }[], goal: number) {
 
 export default function StatsSheet({
   units,
+  langs,
+  profile,
   progress,
   dueSoon,
   onClose,
@@ -75,6 +81,8 @@ export default function StatsSheet({
   onImport,
 }: {
   units: Unit[];
+  langs: LanguageInfo[];
+  profile: LangProfile[] | null;
   progress: ProgressState;
   dueSoon: SrsCard[] | null;
   onClose: () => void;
@@ -92,9 +100,11 @@ export default function StatsSheet({
   const [toast, setToast] = useState<string | null>(null);
   const [uiSelect, setUiSelect] = useState<ReturnType<typeof uiLang>>(uiLang());
   const [ttsEngine, setTtsEngineState] = useState<TtsEngine>(() => getTtsEngine());
+  const [ttsNativeEngine, setTtsNativeEngineState] = useState<string>(() => getTtsNativeEngine());
   const [ttsRate, setTtsRateState] = useState<number>(() => getTtsRate());
   const [ttsVoice, setTtsVoiceState] = useState<string>(() => getTtsVoicePref());
   const [ttsVoices, setTtsVoices] = useState<TtsVoice[]>([]);
+  const [ttsEngines, setTtsEngines] = useState<TtsEngineInfo[]>([]);
   const [ttsError, setTtsError] = useState<string | null>(() => getTtsError());
   const [theme, setTheme] = useState<Theme>(() => {
     const v = localStorage.getItem("tl-theme");
@@ -113,9 +123,15 @@ export default function StatsSheet({
 
   useEffect(() => {
     let alive = true;
+    void listTtsEngines().then((e) => { if (alive) setTtsEngines(e); });
+    return () => { alive = false; };
+  }, []);
+
+  useEffect(() => {
+    let alive = true;
     void listTtsVoices().then((v) => { if (alive) setTtsVoices(v); });
     return () => { alive = false; };
-  }, [ttsEngine, progress.lang]);
+  }, [ttsEngine, ttsNativeEngine, progress.lang]);
 
   useSheetFocus(sheetRef, true, onClose);
 
@@ -197,6 +213,45 @@ export default function StatsSheet({
         aria-label={t("st.title")}
       >
         <h2>{t("st.title")}</h2>
+
+        <p className="sheet-label">{t("st.profile")}</p>
+        <div className="profile-card">
+          <div className="profile-top">
+            <div>
+              <strong>{targetLangName(progress.lang)}</strong>
+              <p className="profile-sub">{t("st.profile_current")}</p>
+            </div>
+            <span className="level-badge">{t("st.level_short", { n: progress.level })}</span>
+          </div>
+          <div className="profile-stats">
+            <span><b>{progress.words_learned}</b> {t("st.words")}</span>
+            <span><b>{lessonsDone}</b> {t("st.total_lessons")}</span>
+            <span><b>{progress.xp}</b> {t("st.xp_total")}</span>
+          </div>
+        </div>
+        {profile && profile.length > 0 && (
+          <div className="profile-langs">
+            {profile
+              .slice()
+              .sort((a, b) => (b.lang === progress.lang ? 1 : 0) - (a.lang === progress.lang ? 1 : 0) || b.words_learned - a.words_learned)
+              .map((p) => {
+                const info = langs.find((l) => l.id === p.lang);
+                const max = Math.max(1, ...profile.map((x) => x.words_learned));
+                const pct = Math.round((p.words_learned / max) * 100);
+                return (
+                  <div className={`profile-lang ${p.lang === progress.lang ? "current" : ""}`} key={p.lang}>
+                    <div className="profile-lang-top">
+                      <span>{info?.emoji} {targetLangName(p.lang)}</span>
+                      <small>{p.words_learned} {t("st.words")} · {p.lessons_done} {t("st.lessons_short")}</small>
+                    </div>
+                    <div className="ubar" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
+                      <span style={{ width: `${pct}%` }} />
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+        )}
 
         <div className="level-card">
           <div className="level-top">
@@ -341,6 +396,26 @@ export default function StatsSheet({
               ))}
             </div>
           </div>
+          {ttsEngines.length > 0 && (
+            <div className="set-row set-col">
+              <span className="set-name">{t("st.tts_native_engine")}</span>
+              <select
+                className="set-select"
+                value={ttsNativeEngine}
+                onChange={(e) => {
+                  setTtsNativeEngineState(e.target.value);
+                  setTtsVoiceState("");
+                  setTtsNativeEngine(e.target.value);
+                }}
+                aria-label={t("st.tts_native_engine")}
+              >
+                <option value="">{t("st.tts_engine_default")}</option>
+                {ttsEngines.map((e) => (
+                  <option key={e.id} value={e.id}>{e.label}</option>
+                ))}
+              </select>
+            </div>
+          )}
           <div className="set-row set-col">
             <span className="set-name">{t("st.tts_voice")}</span>
             <select
@@ -357,7 +432,7 @@ export default function StatsSheet({
                 })
                 .map((v) => (
                   <option key={`${v.engine}:${v.id}`} value={v.engine === "web" ? `web:${v.id.replace(/^web:/, "")}` : v.id}>
-                    {v.name} ({v.engine})
+                    {v.name}{v.engine === "web" ? " (web)" : ""}
                   </option>
                 ))}
             </select>

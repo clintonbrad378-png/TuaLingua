@@ -740,8 +740,8 @@
           "options": [
             "海 (hǎi)",
             "下午 (xiàwǔ)",
-            "十 (shí)",
-            "先生 (xiānsheng)"
+            "窗户 (chuānghu)",
+            "星期 (xīngqī)"
           ],
           "answer": 0,
           "pair": {
@@ -823,9 +823,8 @@
         },
         {
           "id": "c7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (tiàowǔ)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bailar\"?",
           "options": [
             "跳舞",
             "右",
@@ -892,7 +891,7 @@
             "东 (dōng)",
             "晚上好 (wǎnshanghǎo)",
             "轻 (qīng)",
-            "太阳镜 (tàiyángjìng)"
+            "请问 (qǐngwèn)"
           ],
           "answer": 0,
           "pair": {
@@ -974,9 +973,8 @@
         },
         {
           "id": "c7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (jiàgé)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Precio\"?",
           "options": [
             "价格",
             "旁边",
@@ -1042,8 +1040,8 @@
           "options": [
             "厨房 (chúfáng)",
             "黑色 (hēisè)",
-            "墙 (qiáng)",
-            "学校 (xuéxiào)"
+            "价格 (jiàgé)",
+            "旁边 (pángbiān)"
           ],
           "answer": 0,
           "pair": {
@@ -1125,9 +1123,8 @@
         },
         {
           "id": "c7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yàoshi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Llave\"?",
           "options": [
             "钥匙",
             "蛇",
@@ -1193,8 +1190,8 @@
           "options": [
             "那里 (nàlǐ)",
             "难 (nán)",
-            "便宜 (piányi)",
-            "玩 (wán)"
+            "信用卡 (xìnyòngkǎ)",
+            "红色 (hóngsè)"
           ],
           "answer": 0,
           "pair": {
@@ -1276,9 +1273,8 @@
         },
         {
           "id": "c7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "没关系 ___ guānxi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No pasa nada\"?",
           "options": [
             "(méi",
             "瓶子",
@@ -1345,8 +1341,8 @@
           "options": [
             "星期 (xīngqī)",
             "地图 (dìtú)",
-            "问题 (wèntí)",
-            "啤酒 (píjiǔ)"
+            "请再说一遍 (qǐng zài shuō yíbiàn)",
+            "你好 (nǐ hǎo)"
           ],
           "answer": 0,
           "pair": {
@@ -1428,9 +1424,8 @@
         },
         {
           "id": "c7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (rènào)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Animado\"?",
           "options": [
             "热闹",
             "知道",
@@ -1496,8 +1491,8 @@
           "options": [
             "电脑 (diànnǎo)",
             "博物馆 (bówùguǎn)",
-            "伞 (sǎn)",
-            "晚安 (wǎn’ān)"
+            "桥 (qiáo)",
+            "知道 (zhīdào)"
           ],
           "answer": 0,
           "pair": {

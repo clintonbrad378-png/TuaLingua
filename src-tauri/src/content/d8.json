@@ -61,9 +61,8 @@
         },
         {
           "id": "d8l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Es ___ lecker",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estaba delicioso\"?",
           "options": [
             "war",
             "Tisch",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Huevo\"?",
           "options": [
             "Ei",
             "Trocken",
@@ -736,8 +734,8 @@
           "options": [
             "Gute Nacht",
             "Vielleicht",
-            "Sehen",
-            "Käse"
+            "Sagen",
+            "Zug"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d8l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Entregar\"?",
           "options": [
             "Liefern",
             "Mittagessen",
@@ -887,8 +884,8 @@
           "options": [
             "Schicken",
             "Ohne",
-            "Tee",
-            "Universität"
+            "Straße",
+            "Liefern"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cuchillo\"?",
           "options": [
             "Messer",
             "Apfel",
@@ -1038,8 +1034,8 @@
           "options": [
             "Beginnen",
             "Fisch",
-            "Ich habe mich verlaufen",
-            "Schließen"
+            "Auto",
+            "Messer"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d8l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Clase\"?",
           "options": [
             "Klasse",
             "Küche",
@@ -1189,8 +1184,8 @@
           "options": [
             "Mieten",
             "Zuhören",
-            "Ehemann",
-            "Langsam"
+            "Ich liebe dich",
+            "Dieser"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Lluvia\"?",
           "options": [
             "Regen",
             "Zehn",
@@ -1340,8 +1334,8 @@
           "options": [
             "Fünf",
             "Rechnung",
-            "Warten",
-            "Himmel"
+            "Haben",
+            "Regen"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Verde\"?",
           "options": [
             "Grün",
             "Können",
@@ -1491,8 +1484,8 @@
           "options": [
             "Mal",
             "Februar",
-            "Haar",
-            "Süden"
+            "Ticket",
+            "Sport"
           ],
           "answer": 0,
           "pair": {

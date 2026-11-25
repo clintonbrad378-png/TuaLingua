@@ -33,9 +33,9 @@
           "prompt": "¿Cómo se dice «hola»?",
           "options": [
             "Hello",
-            "Bye",
-            "Please",
-            "Sorry"
+            "Thank you",
+            "Goodbye",
+            "Good morning"
           ],
           "answer": 0,
           "pair": {
@@ -50,9 +50,9 @@
           "prompt": "«Good morning» es…",
           "options": [
             "Buenos días",
-            "Buenas noches",
-            "Buenas tardes",
-            "Hasta luego"
+            "Good morning",
+            "Good morning! How are you?",
+            "See you tomorrow"
           ],
           "answer": 0,
           "pair": {
@@ -78,12 +78,11 @@
         },
         {
           "id": "u1l1e4",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "I ___ Ana.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Soy Ana.\"?",
           "options": [
             "am",
-            "is",
+            "Hi! How are you?",
             "are"
           ],
           "answer": 0,
@@ -99,7 +98,7 @@
           "prompt": "Traduce: «Nos vemos mañana»",
           "solution": "See you tomorrow",
           "distractors": [
-            "today",
+            "Thank you",
             "goodbye"
           ],
           "pair": {
@@ -131,7 +130,7 @@
             "Goodbye",
             "Hello",
             "Good morning",
-            "Nice to meet you"
+            "Thank you"
           ],
           "answer": 0,
           "pair": {
@@ -193,9 +192,9 @@
           "prompt": "¿Cómo se dice «Me llamo Ana»?",
           "options": [
             "My name is Ana",
-            "I have Ana",
+            "My name is Carlos. I'm from Mexico.",
             "You are Ana",
-            "Ana is me"
+            "I am 20 years old"
           ],
           "answer": 0,
           "pair": {
@@ -227,8 +226,8 @@
           "solution": "Nice to meet you",
           "distractors": [
             "meet",
-            "too",
-            "good"
+            "Where are you from?",
+            "I am 20 years old"
           ],
           "pair": {
             "es": "Encantado de conocerte",
@@ -272,9 +271,9 @@
           "prompt": "«I'm 20 years old» significa…",
           "options": [
             "Tengo 20 años",
-            "Soy el número 20",
-            "Tengo 20 euros",
-            "Cumplo años en 20 días"
+            "My name is Carlos. I'm from Mexico.",
+            "I am from Spain.",
+            "I am from…"
           ],
           "answer": 0,
           "pair": {
@@ -353,7 +352,7 @@
           "prompt": "¿Cómo se dice «por favor»?",
           "options": [
             "Please",
-            "Thanks",
+            "Thank you very much",
             "Sorry",
             "Welcome"
           ],
@@ -369,9 +368,9 @@
           "prompt": "«You're welcome» se usa cuando…",
           "options": [
             "Alguien te da las gracias",
-            "Alguien te saluda",
-            "Te despides",
-            "Pides perdón"
+            "No problem",
+            "Excuse me, can you help me?",
+            "Excuse me, where is the bathroom?"
           ],
           "answer": 0,
           "pair": {
@@ -401,7 +400,7 @@
           "solution": "Excuse me can you help me",
           "distractors": [
             "sorry",
-            "halp"
+            "You're welcome"
           ],
           "pair": {
             "es": "Perdón, ¿me puedes ayudar?",
@@ -447,9 +446,9 @@
           "prompt": "«No problem» significa…",
           "options": [
             "No hay problema",
-            "No entiendo",
-            "Nunca",
-            "No es posible"
+            "No problem",
+            "Excuse me, where is the bathroom?",
+            "Sorry"
           ],
           "answer": 0,
           "pair": {
@@ -512,7 +511,7 @@
           "options": [
             "I don't understand",
             "I don't know",
-            "I can't hear",
+            "I speak a little",
             "I understand"
           ],
           "answer": 0,
@@ -544,7 +543,7 @@
           "prompt": "Traduce: «¿Puedes repetir, por favor?»",
           "solution": "Can you repeat please",
           "distractors": [
-            "say",
+            "Do you understand?",
             "speak"
           ],
           "pair": {
@@ -573,8 +572,8 @@
           "sentence": "I speak ___ English.",
           "options": [
             "a little",
-            "a few",
-            "many"
+            "I speak a little",
+            "Do you speak English?"
           ],
           "answer": 0,
           "pair": {
@@ -589,9 +588,9 @@
           "prompt": "«What does it mean?» significa…",
           "options": [
             "¿Qué significa?",
-            "¿Qué quieres decir?",
-            "¿Qué hora es?",
-            "¿Qué haces?"
+            "I speak a little",
+            "Do you understand?",
+            "A little"
           ],
           "answer": 0,
           "pair": {
@@ -628,9 +627,9 @@
           "prompt": "«I don't know» es…",
           "options": [
             "No sé",
-            "No entiendo",
-            "No quiero",
-            "No puedo"
+            "Do you speak English?",
+            "Do you understand?",
+            "A little"
           ],
           "answer": 0,
           "pair": {
@@ -696,13 +695,12 @@
         },
         {
           "id": "u1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ duck",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pato\"?",
           "options": [
             "the",
             "first",
-            "thex"
+            "The orange"
           ],
           "answer": 0,
           "pair": {
@@ -764,8 +762,8 @@
           "options": [
             "the son",
             "four",
-            "watch",
-            "few"
+            "Almost",
+            "Thursday"
           ],
           "answer": 0,
           "pair": {
@@ -847,13 +845,12 @@
         },
         {
           "id": "u1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Decir\"?",
           "options": [
             "say",
             "the",
-            "sayx"
+            "Own"
           ],
           "answer": 0,
           "pair": {
@@ -915,8 +912,8 @@
           "options": [
             "own",
             "the fish (food)",
-            "when",
-            "change"
+            "The plant",
+            "July"
           ],
           "answer": 0,
           "pair": {
@@ -998,13 +995,12 @@
         },
         {
           "id": "u1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Noche\"?",
           "options": [
             "night",
             "the",
-            "nightx"
+            "The exam"
           ],
           "answer": 0,
           "pair": {
@@ -1066,8 +1062,8 @@
           "options": [
             "minute",
             "the scarf",
-            "the temperature",
-            "I am sorry"
+            "The head",
+            "Night"
           ],
           "answer": 0,
           "pair": {
@@ -1149,13 +1145,12 @@
         },
         {
           "id": "u1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mundo\"?",
           "options": [
             "world",
             "the",
-            "worldx"
+            "The ingredient"
           ],
           "answer": 0,
           "pair": {
@@ -1217,8 +1212,8 @@
           "options": [
             "some",
             "the movie",
-            "the university",
-            "side"
+            "Lead",
+            "The flower"
           ],
           "answer": 0,
           "pair": {
@@ -1300,9 +1295,8 @@
         },
         {
           "id": "u1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ head",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La cabeza\"?",
           "options": [
             "the",
             "four",
@@ -1368,8 +1362,8 @@
           "options": [
             "also",
             "on",
-            "the cheese",
-            "the news"
+            "The flat",
+            "Guy"
           ],
           "answer": 0,
           "pair": {
@@ -1451,13 +1445,12 @@
         },
         {
           "id": "u1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ supermarket",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El supermercado\"?",
           "options": [
             "the",
             "consider",
-            "thex"
+            "The arm"
           ],
           "answer": 0,
           "pair": {
@@ -1519,8 +1512,8 @@
           "options": [
             "the arm",
             "the finger",
-            "the spring",
-            "the cake"
+            "The forest",
+            "The supermarket"
           ],
           "answer": 0,
           "pair": {

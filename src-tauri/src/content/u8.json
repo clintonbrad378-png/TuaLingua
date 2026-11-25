@@ -36,7 +36,7 @@
           "options": [
             "has",
             "have",
-            "is"
+            "Lately"
           ],
           "answer": 0,
           "pair": {
@@ -51,8 +51,8 @@
           "prompt": "I'm tired because I ___ all day.",
           "options": [
             "have been studying",
-            "studied",
-            "study"
+            "Lately",
+            "For"
           ],
           "answer": 0,
           "pair": {
@@ -67,7 +67,7 @@
           "prompt": "Traduce: «Llevo esperando desde las nueve»",
           "solution": "I have been waiting since nine",
           "distractors": [
-            "wait",
+            "How long have you been learning German?",
             "for"
           ],
           "pair": {
@@ -136,7 +136,7 @@
           "options": [
             "have",
             "has",
-            "did"
+            "I have been studying"
           ],
           "answer": 0,
           "pair": {
@@ -178,8 +178,8 @@
           "sentence": "I enjoy ___ new languages.",
           "options": [
             "learning",
-            "to learn",
-            "learn"
+            "Finish",
+            "Want"
           ],
           "answer": 0,
           "pair": {
@@ -194,7 +194,7 @@
           "prompt": "She decided ___ a new course.",
           "options": [
             "to start",
-            "starting",
+            "Learning",
             "start"
           ],
           "answer": 0,
@@ -210,8 +210,8 @@
           "prompt": "Traduce: «He decidido buscar un nuevo trabajo»",
           "solution": "I have decided to look for a new job",
           "distractors": [
-            "looking",
-            "deciding"
+            "Want",
+            "Learning"
           ],
           "pair": {
             "es": "He decidido buscar un nuevo trabajo",
@@ -374,7 +374,7 @@
           "prompt": "Traduce: «Ella montó su propia empresa»",
           "solution": "She set up her own company",
           "distractors": [
-            "sit",
+            "Fill in",
             "up to"
           ],
           "pair": {
@@ -417,7 +417,7 @@
           "prompt": "The company will ___ five new engineers.",
           "options": [
             "take on",
-            "take off",
+            "Carry out",
             "take up"
           ],
           "answer": 0,
@@ -477,7 +477,7 @@
           "options": [
             "at",
             "in",
-            "on"
+            "I can deal with difficult clients"
           ],
           "answer": 0,
           "pair": {
@@ -492,7 +492,7 @@
           "prompt": "Traduce: «Estoy interesado en el puesto»",
           "solution": "I am interested in the position",
           "distractors": [
-            "interesting",
+            "She is responsible for the marketing team.",
             "for"
           ],
           "pair": {
@@ -560,8 +560,8 @@
           "prompt": "We need someone who can ___ with pressure.",
           "options": [
             "deal",
-            "do",
-            "make"
+            "In my last job I was in charge of customer service.",
+            "In charge of"
           ],
           "answer": 0,
           "pair": {
@@ -628,13 +628,12 @@
         },
         {
           "id": "u8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ girl",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La chica\"?",
           "options": [
             "the",
             "to",
-            "thex"
+            "To draw"
           ],
           "answer": 0,
           "pair": {
@@ -696,8 +695,8 @@
           "options": [
             "moment",
             "the jam",
-            "the sweater",
-            "the knee"
+            "With",
+            "The girl"
           ],
           "answer": 0,
           "pair": {
@@ -779,9 +778,8 @@
         },
         {
           "id": "u8l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Primero\"?",
           "options": [
             "first",
             "to",
@@ -847,8 +845,8 @@
           "options": [
             "kind",
             "the room",
-            "reach",
-            "the dog"
+            "First",
+            "To open"
           ],
           "answer": 0,
           "pair": {
@@ -930,9 +928,8 @@
         },
         {
           "id": "u8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ director",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El director\"?",
           "options": [
             "the",
             "send",
@@ -998,8 +995,8 @@
           "options": [
             "research",
             "free",
-            "close",
-            "the sister"
+            "The price",
+            "The director"
           ],
           "answer": 0,
           "pair": {
@@ -1081,9 +1078,8 @@
         },
         {
           "id": "u8l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Rápidamente\"?",
           "options": [
             "quickly",
             "excuse",
@@ -1149,8 +1145,8 @@
           "options": [
             "the cousin",
             "say",
-            "the hope",
-            "the email"
+            "Wait",
+            "Build"
           ],
           "answer": 0,
           "pair": {
@@ -1232,13 +1228,12 @@
         },
         {
           "id": "u8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ mood",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El ánimo\"?",
           "options": [
             "the",
             "meet",
-            "thex"
+            "The square"
           ],
           "answer": 0,
           "pair": {
@@ -1300,8 +1295,8 @@
           "options": [
             "ask",
             "the turtle",
-            "call",
-            "in"
+            "The goal",
+            "To eat"
           ],
           "answer": 0,
           "pair": {
@@ -1383,13 +1378,12 @@
         },
         {
           "id": "u8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ night",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La noche\"?",
           "options": [
             "the",
             "yesterday",
-            "thex"
+            "Own"
           ],
           "answer": 0,
           "pair": {
@@ -1451,8 +1445,8 @@
           "options": [
             "the camera",
             "January",
-            "water",
-            "so"
+            "Own",
+            "Yesterday"
           ],
           "answer": 0,
           "pair": {

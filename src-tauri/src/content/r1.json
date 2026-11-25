@@ -45,9 +45,9 @@
           "prompt": "«Привет» significa…",
           "options": [
             "Hola",
-            "Adiós",
-            "Gracias",
-            "Buenas tardes"
+            "Привет",
+            "Доброе утро",
+            "Я Катя."
           ],
           "answer": 0,
           "pair": {
@@ -63,8 +63,8 @@
           "options": [
             "Доброе утро",
             "До свидания",
-            "Один",
-            "Большой"
+            "Добрый день",
+            "Хорошо, спасибо"
           ],
           "answer": 0,
           "pair": {
@@ -90,9 +90,8 @@
         },
         {
           "id": "r1l1e4",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Я ___.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Soy Katia.\"?",
           "options": [
             "Катя",
             "Катя!",
@@ -111,7 +110,7 @@
           "prompt": "Traduce: «Hasta mañana»",
           "solution": "До завтра",
           "distractors": [
-            "сегодня",
+            "Хорошо, спасибо",
             "спасибо"
           ],
           "pair": {
@@ -139,9 +138,9 @@
           "prompt": "«До свидания» es…",
           "options": [
             "Adiós",
-            "Hola",
-            "Gracias",
-            "Por favor"
+            "Хорошо, спасибо",
+            "Доброе утро",
+            "До завтра"
           ],
           "answer": 0,
           "pair": {
@@ -215,9 +214,9 @@
           "prompt": "«Меня зовут Ана» significa…",
           "options": [
             "Me llamo Ana",
-            "¿Cómo te llamas?",
-            "Soy de España",
-            "Hasta luego"
+            "Я из Испании",
+            "Меня зовут",
+            "Как вас зовут?"
           ],
           "answer": 0,
           "pair": {
@@ -243,12 +242,11 @@
         },
         {
           "id": "r1l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Я из ___.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Soy de España.\"?",
           "options": [
             "Испании",
-            "Испания",
+            "Я из Испании.",
             "по-испански"
           ],
           "answer": 0,
@@ -264,8 +262,8 @@
           "prompt": "Traduce: «Encantado de conocerte»",
           "solution": "Очень приятно",
           "distractors": [
-            "спасибо",
-            "пока"
+            "Я из Испании",
+            "Ты говоришь по-испански?"
           ],
           "pair": {
             "es": "Encantado de conocerte",
@@ -292,9 +290,9 @@
           "prompt": "«Очень приятно» corresponde a…",
           "options": [
             "Encantado de conocerte",
-            "Buenos días",
-            "Un poco",
-            "Es verdad"
+            "Как тебя зовут?",
+            "Как вас зовут?",
+            "Меня зовут"
           ],
           "answer": 0,
           "pair": {
@@ -332,8 +330,8 @@
           "options": [
             "Как вас зовут?",
             "Как тебя зовут?",
-            "Как дела?",
-            "Что это?"
+            "Очень приятно",
+            "Я из Испании"
           ],
           "answer": 0,
           "pair": {
@@ -384,9 +382,9 @@
           "prompt": "«Как дела?» significa…",
           "options": [
             "¿Qué tal?",
-            "¿Quién es?",
-            "¿De dónde eres?",
-            "¡Nos vemos!"
+            "Плохо, устал",
+            "Всё хорошо, спасибо",
+            "Нормально, а ты?"
           ],
           "answer": 0,
           "pair": {
@@ -412,13 +410,12 @@
         },
         {
           "id": "r1l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Нормально, ___.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bien, ¿y tú?\"?",
           "options": [
             "а ты",
-            "так ты",
-            "не ты"
+            "Как дела?",
+            "Как ваши дела?"
           ],
           "answer": 0,
           "pair": {
@@ -461,9 +458,9 @@
           "prompt": "«Добро пожаловать!» quiere decir…",
           "options": [
             "¡Bienvenido!",
-            "¡Buenas noches!",
-            "¡Cuídate!",
-            "¡Qué bien!"
+            "Как ваши дела",
+            "Всё хорошо",
+            "Как ваши дела?"
           ],
           "answer": 0,
           "pair": {
@@ -553,9 +550,9 @@
           "prompt": "«Большое спасибо» significa…",
           "options": [
             "Mil gracias",
-            "De nada",
-            "Perdón",
-            "Por favor"
+            "Спасибо за помощь!",
+            "Большое спасибо",
+            "Извините, где остановка?"
           ],
           "answer": 0,
           "pair": {
@@ -581,13 +578,12 @@
         },
         {
           "id": "r1l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ за помощь!",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¡Gracias por tu ayuda!\"?",
           "options": [
             "Спасибо",
-            "Медленно",
-            "Всегда"
+            "Извините",
+            "Извините, я не понимаю"
           ],
           "answer": 0,
           "pair": {
@@ -617,7 +613,7 @@
           "solution": "Извините, я не понимаю",
           "distractors": [
             "спасибо",
-            "говорить"
+            "Извини"
           ],
           "pair": {
             "es": "Perdón, no entiendo",
@@ -669,9 +665,9 @@
           "prompt": "«Разрешите?» se usa para…",
           "options": [
             "Pedir permiso y pasar",
-            "Pedir la hora",
-            "Preguntar el nombre",
-            "Preguntar el precio"
+            "Извините, где остановка?",
+            "Спасибо",
+            "Разрешите?"
           ],
           "answer": 0,
           "pair": {
@@ -737,9 +733,8 @@
         },
         {
           "id": "r1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La consigna\"?",
           "options": [
             "задание",
             "Момент",
@@ -805,8 +800,8 @@
           "options": [
             "Птица",
             "Пытаться",
-            "симптом",
-            "площадь"
+            "Трудный",
+            "Момент"
           ],
           "answer": 0,
           "pair": {
@@ -888,9 +883,8 @@
         },
         {
           "id": "r1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pan\"?",
           "options": [
             "Хлеб",
             "говорить",
@@ -956,8 +950,8 @@
           "options": [
             "мир",
             "остановка",
-            "пассажир",
-            "год"
+            "Алгоритм",
+            "Лицо"
           ],
           "answer": 0,
           "pair": {
@@ -1039,9 +1033,8 @@
         },
         {
           "id": "r1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El gato\"?",
           "options": [
             "кошка",
             "уверенный",
@@ -1107,8 +1100,8 @@
           "options": [
             "Кто",
             "университет",
-            "Плавать",
-            "Смотреть"
+            "Играть",
+            "Сметана"
           ],
           "answer": 0,
           "pair": {
@@ -1190,9 +1183,8 @@
         },
         {
           "id": "r1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Сколько ___ стоит?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cuánto cuesta?\"?",
           "options": [
             "это",
             "уведомление",
@@ -1258,8 +1250,8 @@
           "options": [
             "спать",
             "Быстро",
-            "корова",
-            "аллергия"
+            "Сколько это стоит?",
+            "Как две капли воды"
           ],
           "answer": 0,
           "pair": {
@@ -1341,9 +1333,8 @@
         },
         {
           "id": "r1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cinco\"?",
           "options": [
             "пять",
             "бабушка",
@@ -1409,8 +1400,8 @@
           "options": [
             "зима",
             "Много",
-            "Смотреть",
-            "тепло"
+            "Белый",
+            "Волк"
           ],
           "answer": 0,
           "pair": {
@@ -1492,9 +1483,8 @@
         },
         {
           "id": "r1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nueve\"?",
           "options": [
             "девять",
             "Нравиться",
@@ -1560,8 +1550,8 @@
           "options": [
             "юбка",
             "библиотека",
-            "Тоже",
-            "рубашка"
+            "Девять",
+            "Мочь"
           ],
           "answer": 0,
           "pair": {

@@ -61,9 +61,8 @@
         },
         {
           "id": "d1l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ mich",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mucho gusto\"?",
           "options": [
             "Freut",
             "Hallo",
@@ -213,9 +212,8 @@
         },
         {
           "id": "d1l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ schön",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De nada\"?",
           "options": [
             "Bitte",
             "Entschuldigung",
@@ -668,9 +666,8 @@
         },
         {
           "id": "d1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hombre\"?",
           "options": [
             "Mann",
             "Fisch",
@@ -736,8 +733,8 @@
           "options": [
             "Helfen",
             "Einfach",
-            "Sechs",
-            "Kochen"
+            "Hoffen",
+            "Zug"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +816,8 @@
         },
         {
           "id": "d1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hermano\"?",
           "options": [
             "Bruder",
             "Hähnchen",
@@ -887,8 +883,8 @@
           "options": [
             "E-Mail",
             "Dort",
-            "Antworten",
-            "Arzt"
+            "Hähnchen",
+            "Bruder"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "d1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pesado\"?",
           "options": [
             "Schwer",
             "Wenig",
@@ -1038,8 +1033,8 @@
           "options": [
             "Messer",
             "Schmerz",
-            "Weil",
-            "Person"
+            "Schwarz",
+            "Niemand"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "d1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Problema\"?",
           "options": [
             "Problem",
             "Wenig",
@@ -1189,8 +1183,8 @@
           "options": [
             "Antwort",
             "Geben",
-            "Breit",
-            "Gelb"
+            "Zwanzig",
+            "Laut"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "d1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Triste\"?",
           "options": [
             "Traurig",
             "Mit",
@@ -1340,8 +1333,8 @@
           "options": [
             "Gelb",
             "Teil",
-            "Zimmer",
-            "Verstehen"
+            "Körper",
+            "Schule"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "d1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nuestro\"?",
           "options": [
             "Unser",
             "Schlecht",
@@ -1491,8 +1483,8 @@
           "options": [
             "Trocken",
             "Dein",
-            "Hören",
-            "Ändern"
+            "Schlecht",
+            "Viel"
           ],
           "answer": 0,
           "pair": {

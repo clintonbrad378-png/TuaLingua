@@ -35,7 +35,7 @@
             "Ciao",
             "Grazie",
             "Prego",
-            "Sera"
+            "Piacere"
           ],
           "answer": 0,
           "pair": {
@@ -49,9 +49,9 @@
           "prompt": "«Buongiorno» significa…",
           "options": [
             "Buenos días",
-            "Buenas noches",
-            "Adiós",
-            "Perdón"
+            "Piacere",
+            "Prego",
+            "Mi chiamo Ana"
           ],
           "answer": 0,
           "pair": {
@@ -77,13 +77,12 @@
         },
         {
           "id": "i1l1e4",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Mi ___ Ana.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Me llamo Ana\"?",
           "options": [
             "chiamo",
             "sono",
-            "hai"
+            "Mi chiamo Ana"
           ],
           "answer": 0,
           "pair": {
@@ -98,7 +97,7 @@
           "prompt": "Traduce: «Buenos días, soy Ana»",
           "solution": "Buongiorno, sono Ana",
           "distractors": [
-            "notte",
+            "Per favore",
             "chiamo"
           ],
           "pair": {
@@ -150,8 +149,8 @@
           "options": [
             "Prego",
             "Ciao",
-            "Nome",
-            "Notte"
+            "Arrivederci",
+            "Piacere"
           ],
           "answer": 0,
           "pair": {
@@ -190,9 +189,9 @@
           "prompt": "¿Cómo dices «Soy de España»?",
           "options": [
             "Sono di Spagna",
-            "Ho Spagna",
-            "Vado Spagna",
-            "Sei di Spagna"
+            "Vivo",
+            "Vivo a Madrid",
+            "Spagna"
           ],
           "answer": 0,
           "pair": {
@@ -218,13 +217,12 @@
         },
         {
           "id": "i1l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ di Spagna.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Soy de España\"?",
           "options": [
             "Sono",
-            "Sei",
-            "Ho"
+            "Vivo a Roma",
+            "Sono di Spagna"
           ],
           "answer": 0,
           "pair": {
@@ -290,9 +288,9 @@
           "prompt": "«Dove abiti?» significa…",
           "options": [
             "¿Dónde vives?",
-            "¿Cómo te llamas?",
-            "¿Qué haces?",
-            "¿Cuántos años tienes?"
+            "Sono",
+            "E tu?",
+            "Dove abiti?"
           ],
           "answer": 0,
           "pair": {
@@ -302,13 +300,12 @@
         },
         {
           "id": "i1l2e8",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Dove ___?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Dónde vives?\"?",
           "options": [
             "abiti",
-            "abito",
-            "abita"
+            "Dove abiti?",
+            "Vivo a Madrid"
           ],
           "answer": 0,
           "pair": {
@@ -348,9 +345,9 @@
           "prompt": "«Ho venti anni» significa…",
           "options": [
             "Tengo veinte años",
-            "Tengo dos años",
-            "Tengo doce años",
-            "Tengo treinta años"
+            "Due",
+            "Cinque",
+            "Avere"
           ],
           "answer": 0,
           "pair": {
@@ -376,13 +373,12 @@
         },
         {
           "id": "i1l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ho ___ anni.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo veinte años\"?",
           "options": [
             "venti",
             "due",
-            "sono"
+            "Quattro"
           ],
           "answer": 0,
           "pair": {
@@ -396,8 +392,8 @@
           "prompt": "Traduce: «Tengo un hermano»",
           "solution": "Ho un fratello",
           "distractors": [
-            "sorella",
-            "sono"
+            "Tre",
+            "Due"
           ],
           "pair": {
             "es": "Tengo un hermano",
@@ -447,9 +443,9 @@
           "prompt": "Para la edad en italiano usas…",
           "options": [
             "avere (tener)",
-            "essere (ser)",
-            "andare (ir)",
-            "fare (hacer)"
+            "Ho un fratello",
+            "Quanti anni hai?",
+            "Quattro"
           ],
           "answer": 0,
           "pair": {
@@ -459,13 +455,12 @@
         },
         {
           "id": "i1l3e8",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Quanti anni ___?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cuántos años tienes?\"?",
           "options": [
             "hai",
             "ho",
-            "ha"
+            "Cinque"
           ],
           "answer": 0,
           "pair": {
@@ -504,9 +499,9 @@
           "prompt": "«Non capisco» significa…",
           "options": [
             "No entiendo",
-            "No quiero",
-            "No tengo",
-            "No voy"
+            "Scusa, non capisco",
+            "Scusa",
+            "Per favore"
           ],
           "answer": 0,
           "pair": {
@@ -532,13 +527,12 @@
         },
         {
           "id": "i1l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Non ___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No entiendo\"?",
           "options": [
             "capisco",
-            "capisci",
-            "capire"
+            "Non capisco",
+            "Per favore"
           ],
           "answer": 0,
           "pair": {
@@ -552,7 +546,7 @@
           "prompt": "Traduce: «Disculpa, no entiendo»",
           "solution": "Scusa, non capisco",
           "distractors": [
-            "grazie",
+            "Puoi ripetere, per favore?",
             "prego"
           ],
           "pair": {
@@ -603,9 +597,9 @@
           "prompt": "¿Qué dices si no oíste bien?",
           "options": [
             "Puoi ripetere, per favore?",
-            "Buongiorno",
-            "Mi chiamo Ana",
-            "Ho venti anni"
+            "Per favore",
+            "Prego",
+            "Non capisco"
           ],
           "answer": 0,
           "pair": {
@@ -687,9 +681,8 @@
         },
         {
           "id": "i1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Palabra\"?",
           "options": [
             "Parola",
             "Sei",
@@ -755,8 +748,8 @@
           "options": [
             "Alzarsi",
             "Pomeriggio",
-            "Aperto",
-            "Schermo"
+            "Amore",
+            "Parola"
           ],
           "answer": 0,
           "pair": {
@@ -838,9 +831,8 @@
         },
         {
           "id": "i1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Grupo\"?",
           "options": [
             "Gruppo",
             "Seguire",
@@ -906,8 +898,8 @@
           "options": [
             "Pioggia",
             "Cantare",
-            "Partire",
-            "Morire"
+            "Gruppo",
+            "Gatto"
           ],
           "answer": 0,
           "pair": {
@@ -989,9 +981,8 @@
         },
         {
           "id": "i1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Intentar/Probar\"?",
           "options": [
             "Provare",
             "Classe",
@@ -1057,8 +1048,8 @@
           "options": [
             "Film",
             "Correre",
-            "camera",
-            "Usare"
+            "Amica",
+            "Vicino"
           ],
           "answer": 0,
           "pair": {
@@ -1140,9 +1131,8 @@
         },
         {
           "id": "i1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Convertirse\"?",
           "options": [
             "Diventare",
             "Quattro",
@@ -1208,8 +1198,8 @@
           "options": [
             "Dormire",
             "formaggio",
-            "Fiore",
-            "Quanto costa?"
+            "Dolore",
+            "Rispondere"
           ],
           "answer": 0,
           "pair": {
@@ -1291,9 +1281,8 @@
         },
         {
           "id": "i1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Zapatos\"?",
           "options": [
             "Scarpe",
             "Ricevere",
@@ -1359,8 +1348,8 @@
           "options": [
             "Dicembre",
             "piccolo",
-            "Costruire",
-            "Anche"
+            "Puoi ripetere?",
+            "Scarpe"
           ],
           "answer": 0,
           "pair": {
@@ -1510,8 +1499,8 @@
           "options": [
             "Cucinare",
             "Stanza",
-            "Calze",
-            "museo"
+            "Sei",
+            "Grigio"
           ],
           "answer": 0,
           "pair": {

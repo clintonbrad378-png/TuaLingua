@@ -61,9 +61,8 @@
         },
         {
           "id": "f8l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ délicieux",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estaba delicioso\"?",
           "options": [
             "C'était",
             "Table",
@@ -213,9 +212,8 @@
         },
         {
           "id": "f8l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "J'ai ___ valise",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo una maleta\"?",
           "options": [
             "une",
             "Porte",
@@ -517,9 +515,8 @@
         },
         {
           "id": "f8l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "À ___ prochaine",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hasta la próxima\"?",
           "options": [
             "la",
             "Plaisir",
@@ -668,9 +665,8 @@
         },
         {
           "id": "f8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mes\"?",
           "options": [
             "Mois",
             "Toucher",
@@ -736,8 +732,8 @@
           "options": [
             "Jeune",
             "Chemise",
-            "Sans",
-            "Court"
+            "Chambre",
+            "Améliorer"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +815,8 @@
         },
         {
           "id": "f8l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Poner\"?",
           "options": [
             "Mettre",
             "Qui",
@@ -887,8 +882,8 @@
           "options": [
             "Hôpital",
             "Petit-déjeuner",
-            "Dent",
-            "Sentir"
+            "Bière",
+            "Doigt"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +965,8 @@
         },
         {
           "id": "f8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Subir\"?",
           "options": [
             "Monter",
             "Vieux",
@@ -1038,8 +1032,8 @@
           "options": [
             "Santé !",
             "J'ai besoin d'aide",
-            "Je ne comprends pas",
-            "Facile"
+            "Monter",
+            "Vieux"
           ],
           "answer": 0,
           "pair": {
@@ -1189,8 +1183,8 @@
           "options": [
             "Jouer",
             "J'ai besoin d'aide",
-            "Lourd",
-            "Construire"
+            "Neige",
+            "Animal"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "f8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Carne\"?",
           "options": [
             "Viande",
             "Riche",
@@ -1340,8 +1333,8 @@
           "options": [
             "Septembre",
             "Danser",
-            "Droite",
-            "Garder"
+            "Long",
+            "Viande"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "f8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De acuerdo\"?",
           "options": [
             "D'accord",
             "Chapeau",
@@ -1491,8 +1483,8 @@
           "options": [
             "Deux",
             "Salle de bain",
-            "Cuisiner",
-            "Noir"
+            "Monde",
+            "Leur"
           ],
           "answer": 0,
           "pair": {

@@ -213,9 +213,8 @@
         },
         {
           "id": "p6l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ tomar?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cómo se toma?\"?",
           "options": [
             "Como",
             "Remédio",
@@ -365,9 +364,8 @@
         },
         {
           "id": "p6l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "É ___ emergência",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Es una emergencia\"?",
           "options": [
             "uma",
             "Socorro",
@@ -517,9 +515,8 @@
         },
         {
           "id": "p6l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Eu ___ bem",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
             "durmo",
             "Esporte",
@@ -668,9 +665,8 @@
         },
         {
           "id": "p6l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Decir\"?",
           "options": [
             "Dizer",
             "Ontem",
@@ -736,8 +732,8 @@
           "options": [
             "Livre",
             "Mês",
-            "Hora",
-            "Trabalho"
+            "Preciso de ajuda",
+            "Março"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +815,8 @@
         },
         {
           "id": "p6l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Libro\"?",
           "options": [
             "Livro",
             "Sorrir",
@@ -887,8 +882,8 @@
           "options": [
             "Você fala inglês?",
             "Pintar",
-            "Algo",
-            "Quanto custa?"
+            "Dormir",
+            "Escrever"
           ],
           "answer": 0,
           "pair": {
@@ -1038,8 +1033,8 @@
           "options": [
             "Estar",
             "Número",
-            "Aula",
-            "Molhado"
+            "Entre",
+            "Visitar"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "p6l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Empezar\"?",
           "options": [
             "Começar",
             "Com",
@@ -1189,8 +1183,8 @@
           "options": [
             "Vir",
             "Este",
-            "Estou perdido",
-            "Animal"
+            "Copo",
+            "Rir"
           ],
           "answer": 0,
           "pair": {
@@ -1340,8 +1334,8 @@
           "options": [
             "Seu",
             "Nada",
-            "Ocupado",
-            "Sal"
+            "Hora",
+            "Animal"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "p6l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ciudad\"?",
           "options": [
             "Cidade",
             "Cansado",
@@ -1491,8 +1484,8 @@
           "options": [
             "Farmácia",
             "Janeiro",
-            "Cardápio",
-            "Amiga"
+            "Corpo",
+            "Ano"
           ],
           "answer": 0,
           "pair": {

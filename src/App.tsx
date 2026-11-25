@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import type {
   DictCategory,
   Exercise,
+  LangProfile,
   LanguageInfo,
   Lesson,
   Phrase,
@@ -12,7 +13,7 @@ import type {
   Unit,
   VocabWord,
 } from "./types";
-import { api, buildFlashExercises, buildReview, poolOf } from "./api";
+import { api, buildFlashExercises, buildReview, lessonTeachPhrases, poolOf } from "./api";
 import { DEFAULT_LANG, langOf } from "./lib/langs";
 import { markActivated, setVoiceLanguage, warmUpVoices } from "./lib/audio";
 import { t as tr, useUiLang } from "./i18n";
@@ -51,15 +52,15 @@ export default function App() {
   const [statsOpen, setStatsOpen] = useState(false);
   const [welcomeOpen, setWelcomeOpen] = useState(false);
   const [dueSoon, setDueSoon] = useState<SrsCard[] | null>(null);
+  const [profile, setProfile] = useState<LangProfile[] | null>(null);
   const [lang, setLang] = useState(DEFAULT_LANG);
   const [switching, setSwitching] = useState<string | null>(null);
 
-  // Bienvenida: solo en primer uso (nunca se repite).
+  // Onboarding: solo en primer uso real, antes de que el usuario haya practicado.
   useEffect(() => {
     if (!progress) return;
     if (progress.total_answers > 0) return;
     if (localStorage.getItem("tl-welcome")) return;
-    localStorage.setItem("tl-welcome", "1");
     setWelcomeOpen(true);
   }, [progress]);
 
@@ -118,10 +119,9 @@ export default function App() {
   function handleStats() {
     setStatsOpen(true);
     setDueSoon(null);
-    api
-      .review(6)
-      .then(setDueSoon)
-      .catch(() => setDueSoon([]));
+    setProfile(null);
+    api.review(6).then(setDueSoon).catch(() => setDueSoon([]));
+    api.profile().then(setProfile).catch(() => setProfile([]));
   }
 
   async function handleSwitchLanguage() {
@@ -251,6 +251,21 @@ export default function App() {
       .then((persist) => setDeck(persist))
       .catch(() => setDeck(rollback));
     void refreshProgress();
+  }
+
+  function addCustomDeckCard(es: string, t: string) {
+    const card = { es: es.trim(), t: t.trim() };
+    if (!card.es || !card.t) return false;
+    const key = (p: Phrase) => `${p.es.toLowerCase()}|${p.t.toLowerCase()}`;
+    let rollback: Phrase[] = [];
+    setDeck((prev) => {
+      rollback = prev;
+      if (prev.some((p) => key(p) === key(card))) return prev;
+      return [...prev, card];
+    });
+    api.addDeckMany([card]).then((persist) => setDeck(persist)).catch(() => setDeck(rollback));
+    void refreshProgress();
+    return true;
   }
 
   async function handleFlashQuizFinish(
@@ -415,6 +430,7 @@ export default function App() {
               void refreshProgress();
             }}
             onAddAll={addAllToDeck}
+            onAddCustom={addCustomDeckCard}
             onOpenDictionary={() => setScreen({ name: "dictionary" })}
             onStartQuiz={startFlashQuiz}
           />
@@ -443,7 +459,7 @@ export default function App() {
               title: screen.lesson.title,
               goal: screen.lesson.goal,
               tip: screen.lesson.tip,
-              phrases: screen.lesson.phrases,
+              phrases: lessonTeachPhrases(screen.lesson),
             }}
             exercises={screen.lesson.exercises}
             onExit={() => setScreen({ name: "home" })}
@@ -498,11 +514,37 @@ export default function App() {
           />
         )}
 
-        {welcomeOpen && <Welcome onClose={() => setWelcomeOpen(false)} />}
+        {welcomeOpen && (
+          <Welcome
+            langs={langs}
+            current={lang}
+            onPick={(id) => {
+              localStorage.setItem("tl-welcome", "1");
+              setWelcomeOpen(false);
+              if (id !== lang) {
+                setSwitching(id);
+                void (async () => {
+                  try {
+                    const p = await api.setLanguage(id);
+                    setProgress(p);
+                    setLang(langOf(p.lang).id);
+                    setSwitching(null);
+                    await load();
+                  } catch (e) {
+                    setError(String(e));
+                    setSwitching(null);
+                  }
+                })();
+              }
+            }}
+          />
+        )}
 
         {statsOpen && progress && (
           <StatsSheet
             units={units}
+            langs={langs}
+            profile={profile}
             progress={progress}
             dueSoon={dueSoon}
             onClose={() => {

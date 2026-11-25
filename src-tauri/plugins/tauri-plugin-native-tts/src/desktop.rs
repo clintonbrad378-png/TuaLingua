@@ -1,7 +1,7 @@
 use serde::de::DeserializeOwned;
 use tauri::{plugin::PluginApi, AppHandle, Runtime};
 
-use crate::models::{SpeakRequest, TtsStatus, VoiceInfo};
+use crate::models::{EngineInfo, SpeakRequest, TtsStatus, VoiceInfo};
 
 pub fn init<R: Runtime, C: DeserializeOwned>(
     app: &AppHandle<R>,
@@ -54,7 +54,7 @@ impl<R: Runtime> NativeTts<R> {
         }
     }
 
-    pub async fn voices(&self) -> crate::Result<Vec<VoiceInfo>> {
+    pub async fn voices(&self, _engine: Option<String>) -> crate::Result<Vec<VoiceInfo>> {
         #[cfg(target_os = "windows")]
         {
             let voices = tauri::async_runtime::spawn_blocking(|| {
@@ -81,6 +81,10 @@ impl<R: Runtime> NativeTts<R> {
         {
             Ok(vec![])
         }
+    }
+
+    pub async fn engines(&self) -> crate::Result<Vec<EngineInfo>> {
+        Ok(vec![])
     }
 }
 

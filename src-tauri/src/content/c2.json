@@ -45,9 +45,9 @@
           "prompt": "«面» significa…",
           "options": [
             "Fideos",
-            "Carne",
-            "Huevo",
-            "Agua"
+            "我想吃饭 (wǒ xiǎng chīfàn)",
+            "饭 (fàn)",
+            "鸡蛋 (jīdàn)"
           ],
           "answer": 0,
           "pair": {
@@ -116,8 +116,8 @@
           "options": [
             "ròu",
             "yú",
-            "mā",
-            "shuǐ"
+            "鱼 (yú)",
+            "这个菜没有肉 (zhège cài méiyǒu ròu)"
           ],
           "answer": 0,
           "pair": {
@@ -224,9 +224,9 @@
           "prompt": "«菜单» significa…",
           "options": [
             "La carta",
-            "La cuenta",
-            "El camarero",
-            "Un té"
+            "菜单 (càidān)",
+            "我想点菜 (wǒ xiǎng diǎncài)",
+            "好吃 (hǎochī)"
           ],
           "answer": 0,
           "pair": {
@@ -293,9 +293,9 @@
           "sentence": "wǒ xiǎng __ chá",
           "options": [
             "hē",
-            "chī",
-            "mǎi",
-            "kàn"
+            "爸 (bà)",
+            "喝 (hē)",
+            "菜单 (càidān)"
           ],
           "answer": 0,
           "pair": {
@@ -403,9 +403,9 @@
           "prompt": "«水» significa…",
           "options": [
             "Agua",
-            "Té",
-            "Café",
-            "Leche"
+            "茶 (chá)",
+            "不 (bù)",
+            "咖啡 (kāfēi)"
           ],
           "answer": 0,
           "pair": {
@@ -471,9 +471,9 @@
           "sentence": "qǐng gěi wǒ yì __",
           "options": [
             "bēi chá",
-            "chī",
-            "ròu",
-            "jiā"
+            "请给我一杯茶 (qǐng gěi wǒ yì bēi chá)",
+            "咖啡 (kāfēi)",
+            "我不喜欢咖啡 (wǒ bù xǐhuan kāfēi)"
           ],
           "answer": 0,
           "pair": {
@@ -580,9 +580,9 @@
           "prompt": "«多少钱» significa…",
           "options": [
             "¿Cuánto vale?",
-            "¿Dónde está?",
-            "¿Qué hora es?",
-            "¿Cómo te llamas?"
+            "这太贵了 (zhè tài guì le)",
+            "块 (kuài)",
+            "这个多少钱 (zhège duōshao qián)"
           ],
           "answer": 0,
           "pair": {
@@ -649,9 +649,9 @@
           "sentence": "zhège __ qián?",
           "options": [
             "duōshao",
-            "hǎo",
-            "chī",
-            "zài"
+            "这太贵了 (zhè tài guì le)",
+            "块 (kuài)",
+            "贵 (guì)"
           ],
           "answer": 0,
           "pair": {
@@ -773,9 +773,8 @@
         },
         {
           "id": "c2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (zuìhòu)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Finalmente\"?",
           "options": [
             "最后",
             "小时",
@@ -841,8 +840,8 @@
           "options": [
             "教堂 (jiàotáng)",
             "经理 (jīnglǐ)",
-            "牙 (yá)",
-            "晚上好 (wǎnshanghǎo)"
+            "黑色 (hēisè)",
+            "最后 (zuìhòu)"
           ],
           "answer": 0,
           "pair": {
@@ -924,9 +923,8 @@
         },
         {
           "id": "c2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yuèliang)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Luna\"?",
           "options": [
             "月亮",
             "我",
@@ -992,8 +990,8 @@
           "options": [
             "狗 (gǒu)",
             "公司 (gōngsī)",
-            "夏天 (xiàtiān)",
-            "礼物 (lǐwù)"
+            "月亮 (yuèliang)",
+            "我 (wǒ)"
           ],
           "answer": 0,
           "pair": {
@@ -1075,9 +1073,8 @@
         },
         {
           "id": "c2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (líng)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cero\"?",
           "options": [
             "零",
             "或者",
@@ -1143,8 +1140,8 @@
           "options": [
             "猪肉 (zhūròu)",
             "然后 (ránhòu)",
-            "参观 (cānguān)",
-            "旧 (jiù)"
+            "里面 (lǐmiàn)",
+            "先 (xiān)"
           ],
           "answer": 0,
           "pair": {
@@ -1226,9 +1223,8 @@
         },
         {
           "id": "c2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (jiǎo)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pie\"?",
           "options": [
             "脚",
             "太好了",
@@ -1294,8 +1290,8 @@
           "options": [
             "中国 (Zhōngguó)",
             "打扫 (dǎsǎo)",
-            "健康 (jiànkāng)",
-            "现在 (xiànzài)"
+            "你好吗？(nǐ hǎo ma?)",
+            "虽然 (suīrán)"
           ],
           "answer": 0,
           "pair": {
@@ -1377,9 +1373,8 @@
         },
         {
           "id": "c2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (tūrán)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De repente\"?",
           "options": [
             "突然",
             "快",
@@ -1449,8 +1444,8 @@
           "options": [
             "你好吗 (nǐ hǎo ma)",
             "找 (zhǎo)",
-            "时间 (shíjiān)",
-            "自行车 (zìxíngchē)"
+            "快 (kuài)",
+            "突然 (tūrán)"
           ],
           "answer": 0,
           "pair": {
@@ -1532,9 +1527,8 @@
         },
         {
           "id": "c2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (lǎoshī)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Profesor\"?",
           "options": [
             "老师",
             "请说慢一点",
@@ -1601,8 +1595,8 @@
           "options": [
             "狗 (gǒu)",
             "矮 (ǎi)",
-            "百 (bǎi)",
-            "重 (zhòng)"
+            "太阳 (tàiyáng)",
+            "很多 (hěnduō)"
           ],
           "answer": 0,
           "pair": {

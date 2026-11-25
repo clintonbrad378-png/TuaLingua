@@ -61,9 +61,8 @@
         },
         {
           "id": "f7l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ bientôt",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
             "À",
             "Demain",
@@ -213,9 +212,8 @@
         },
         {
           "id": "f7l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Je ___ d'accord",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
             "suis",
             "Idée",
@@ -491,7 +489,7 @@
             "Pourriez-vous m'aider ?",
             "Bien sûr",
             "Ce n'est pas grave",
-            "Bien sûr"
+            "Peut-être"
           ],
           "answer": 0,
           "pair": {
@@ -668,9 +666,8 @@
         },
         {
           "id": "f7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ver\"?",
           "options": [
             "Voir",
             "Encore",
@@ -736,8 +733,8 @@
           "options": [
             "Tard",
             "À demain",
-            "Mettre",
-            "Enfant"
+            "Juillet",
+            "Pharmacie"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +816,8 @@
         },
         {
           "id": "f7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mesa\"?",
           "options": [
             "Table",
             "Je",
@@ -887,8 +883,8 @@
           "options": [
             "Soleil",
             "Deuxième",
-            "Se sentir",
-            "Tu"
+            "Semaine",
+            "Rapide"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "f7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vivir\"?",
           "options": [
             "Vivre",
             "Je",
@@ -1038,8 +1033,8 @@
           "options": [
             "Leur",
             "Chemise",
-            "Mois",
-            "Finir"
+            "Dimanche",
+            "Léger"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "f7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Este/Ese\"?",
           "options": [
             "Ce",
             "J'ai",
@@ -1189,8 +1183,8 @@
           "options": [
             "Merci beaucoup",
             "Chaque",
-            "Ça va bien",
-            "Entier"
+            "Dix",
+            "Conduire"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "f7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Aprender\"?",
           "options": [
             "Apprendre",
             "Bientôt",
@@ -1340,8 +1333,8 @@
           "options": [
             "Lait",
             "Refuser",
-            "Cœur",
-            "Assez"
+            "Apprendre",
+            "Entendre"
           ],
           "answer": 0,
           "pair": {
@@ -1491,8 +1484,8 @@
           "options": [
             "Demander",
             "Occupé",
-            "Dernier",
-            "Ami"
+            "Haut",
+            "Et"
           ],
           "answer": 0,
           "pair": {

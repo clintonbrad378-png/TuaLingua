@@ -1,10 +1,15 @@
-use serde::de::DeserializeOwned;
+use serde::{de::DeserializeOwned, Serialize};
 use tauri::{
     plugin::{PluginApi, PluginHandle},
     AppHandle, Runtime,
 };
 
-use crate::models::{SpeakRequest, TtsStatus, VoiceInfo};
+use crate::models::{EngineInfo, SpeakRequest, TtsStatus, VoiceInfo};
+
+#[derive(Serialize)]
+struct VoicesRequest {
+    engine: Option<String>,
+}
 
 const ANDROID_PACKAGE: &str = "com.tualingua.tts";
 const ANDROID_CLASS: &str = "TtsPlugin";
@@ -41,9 +46,16 @@ impl<R: Runtime> NativeTts<R> {
             .map_err(Into::into)
     }
 
-    pub async fn voices(&self) -> crate::Result<Vec<VoiceInfo>> {
+    pub async fn voices(&self, engine: Option<String>) -> crate::Result<Vec<VoiceInfo>> {
         self.0
-            .run_mobile_plugin_async("voices", ())
+            .run_mobile_plugin_async("voices", VoicesRequest { engine })
+            .await
+            .map_err(Into::into)
+    }
+
+    pub async fn engines(&self) -> crate::Result<Vec<EngineInfo>> {
+        self.0
+            .run_mobile_plugin_async("engines", ())
             .await
             .map_err(Into::into)
     }

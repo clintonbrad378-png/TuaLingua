@@ -8,6 +8,7 @@ Permite usar la voz TTS nativa del dispositivo
 - `allow-stop`
 - `allow-status`
 - `allow-voices`
+- `allow-engines`
 
 ## Permission Table
 
@@ -17,6 +18,32 @@ Permite usar la voz TTS nativa del dispositivo
 <th>Description</th>
 </tr>
 
+
+<tr>
+<td>
+
+`native-tts:allow-engines`
+
+</td>
+<td>
+
+Enables the engines command without any pre-configured scope.
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+`native-tts:deny-engines`
+
+</td>
+<td>
+
+Denies the engines command without any pre-configured scope.
+
+</td>
+</tr>
 
 <tr>
 <td>

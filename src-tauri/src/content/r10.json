@@ -668,9 +668,8 @@
         },
         {
           "id": "r10l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pregunta\"?",
           "options": [
             "Вопрос",
             "ухо",
@@ -736,8 +735,8 @@
           "options": [
             "коричневый",
             "вчера",
-            "Использовать",
-            "сестра"
+            "Взять себя в руки",
+            "Лечение"
           ],
           "answer": 0,
           "pair": {
@@ -887,7 +886,7 @@
           "options": [
             "сдача",
             "река",
-            "природа",
+            "Быть",
             "В"
           ],
           "answer": 0,
@@ -970,9 +969,8 @@
         },
         {
           "id": "r10l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El certificado\"?",
           "options": [
             "сертификат",
             "шапка",
@@ -1038,8 +1036,8 @@
           "options": [
             "весёлый",
             "завтра",
-            "красивый",
-            "банк"
+            "Семья",
+            "Шапка"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1119,8 @@
         },
         {
           "id": "r10l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Fácil, ligero\"?",
           "options": [
             "лёгкий",
             "мебель",
@@ -1189,8 +1186,8 @@
           "options": [
             "обувь",
             "посуда",
-            "джинсы",
-            "обновить"
+            "Надёжный",
+            "Мебель"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1269,8 @@
         },
         {
           "id": "r10l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El mensaje\"?",
           "options": [
             "сообщение",
             "мост",
@@ -1340,8 +1336,8 @@
           "options": [
             "плохой",
             "И",
-            "серый",
-            "корова"
+            "Они",
+            "Сообщение"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1419,8 @@
         },
         {
           "id": "r10l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El niño\"?",
           "options": [
             "ребёнок",
             "больница",
@@ -1491,8 +1486,8 @@
           "options": [
             "Получать",
             "напиток",
-            "занятый",
-            "прямой"
+            "Больница",
+            "Делать"
           ],
           "answer": 0,
           "pair": {

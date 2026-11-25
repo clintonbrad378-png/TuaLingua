@@ -15,15 +15,15 @@
       "phrases": [
         {
           "es": "Hola, me llamo Ana",
-          "t": "مرحبًا، اسمي آنا (marhaban, ismī Ana)"
+          "t": "مرحبًا، اسمي آنا"
         },
         {
           "es": "Buenos días",
-          "t": "صباح الخير (ṣabāḥ al-khayr)"
+          "t": "صباح الخير"
         },
         {
           "es": "Mucho gusto",
-          "t": "تشرفنا (tasharrafnā)"
+          "t": "تشرفنا"
         }
       ],
       "exercises": [
@@ -32,22 +32,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «hola, me llamo ana»?",
           "options": [
-            "مرحبًا، اسمي آنا (marhaban, ismī Ana)",
-            "صباح الخير (ṣabāḥ al-khayr)",
-            "تشرفنا (tasharrafnā)",
-            "مرحبًا (marhaban)"
+            "مرحبًا، اسمي آنا",
+            "صباح الخير",
+            "تشرفنا",
+            "مرحبًا"
           ],
           "answer": 0,
           "pair": {
             "es": "Hola, me llamo Ana",
-            "t": "مرحبًا، اسمي آنا (marhaban, ismī Ana)"
+            "t": "مرحبًا، اسمي آنا"
           }
         },
         {
           "id": "a1l1e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "صباح الخير (ṣabāḥ al-khayr)",
+          "audio": "صباح الخير",
           "options": [
             "Buenos días",
             "Mucho gusto",
@@ -56,14 +56,13 @@
           "answer": 0,
           "pair": {
             "es": "Buenos días",
-            "t": "صباح الخير (ṣabāḥ al-khayr)"
+            "t": "صباح الخير"
           }
         },
         {
           "id": "a1l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (tasharrafnā)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mucho gusto\"?",
           "options": [
             "تشرفنا",
             "مرحبًا",
@@ -72,35 +71,35 @@
           "answer": 0,
           "pair": {
             "es": "Mucho gusto",
-            "t": "تشرفنا (tasharrafnā)"
+            "t": "تشرفنا"
           }
         },
         {
           "id": "a1l1e4",
           "type": "build",
           "prompt": "Traduce: «Hola, me llamo Ana»",
-          "solution": "مرحبًا، اسمي آنا (marhaban, ismī Ana)",
+          "solution": "مرحبًا، اسمي آنا",
           "distractors": [
             "شكرًا",
             "من"
           ],
           "pair": {
             "es": "Hola, me llamo Ana",
-            "t": "مرحبًا، اسمي آنا (marhaban, ismī Ana)"
+            "t": "مرحبًا، اسمي آنا"
           }
         },
         {
           "id": "a1l1e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «hola»",
-          "solution": "مرحبًا (marhaban)",
+          "solution": "مرحبًا",
           "accept": [
-            "مرحبًا (marhaban)",
-            "مرحبًا (marhaban)"
+            "مرحبًا",
+            "مرحبًا"
           ],
           "pair": {
             "es": "Hola",
-            "t": "مرحبًا (marhaban)"
+            "t": "مرحبًا"
           }
         },
         {
@@ -110,15 +109,15 @@
           "pairs": [
             {
               "es": "Hola",
-              "t": "مرحبًا (marhaban)"
+              "t": "مرحبًا"
             },
             {
               "es": "Adiós",
-              "t": "مع السلامة (maʿa as-salāma)"
+              "t": "مع السلامة"
             },
             {
               "es": "Gracias",
-              "t": "شكرًا (shukran)"
+              "t": "شكرًا"
             }
           ]
         },
@@ -127,22 +126,22 @@
           "type": "choice",
           "prompt": "«Por favor» se traduce como...",
           "options": [
-            "من فضلك (min faḍlik)",
-            "مرحبًا (marhaban)",
-            "مع السلامة (maʿa as-salāma)",
-            "شكرًا (shukran)"
+            "من فضلك",
+            "مرحبًا",
+            "مع السلامة",
+            "شكرًا"
           ],
           "answer": 0,
           "pair": {
             "es": "Por favor",
-            "t": "من فضلك (min faḍlik)"
+            "t": "من فضلك"
           }
         },
         {
           "id": "a1l1e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "مرحبًا، اسمي آنا (marhaban, ismī Ana)",
+          "audio": "مرحبًا، اسمي آنا",
           "options": [
             "Hola, me llamo Ana",
             "Buenos días",
@@ -151,7 +150,7 @@
           "answer": 0,
           "pair": {
             "es": "Hola, me llamo Ana",
-            "t": "مرحبًا، اسمي آنا (marhaban, ismī Ana)"
+            "t": "مرحبًا، اسمي آنا"
           }
         }
       ]
@@ -167,15 +166,15 @@
       "phrases": [
         {
           "es": "Por favor",
-          "t": "من فضلك (min faḍlik)"
+          "t": "من فضلك"
         },
         {
           "es": "Muchas gracias",
-          "t": "شكرًا جزيلًا (shukran jazīlan)"
+          "t": "شكرًا جزيلًا"
         },
         {
           "es": "De nada",
-          "t": "عفوًا (ʿafwan)"
+          "t": "عفوًا"
         }
       ],
       "exercises": [
@@ -184,22 +183,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «por favor»?",
           "options": [
-            "من فضلك (min faḍlik)",
-            "شكرًا جزيلًا (shukran jazīlan)",
-            "عفوًا (ʿafwan)",
-            "عذرًا (ʿudhran)"
+            "من فضلك",
+            "شكرًا جزيلًا",
+            "عفوًا",
+            "عذرًا"
           ],
           "answer": 0,
           "pair": {
             "es": "Por favor",
-            "t": "من فضلك (min faḍlik)"
+            "t": "من فضلك"
           }
         },
         {
           "id": "a1l2e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "شكرًا جزيلًا (shukran jazīlan)",
+          "audio": "شكرًا جزيلًا",
           "options": [
             "Muchas gracias",
             "De nada",
@@ -208,14 +207,13 @@
           "answer": 0,
           "pair": {
             "es": "Muchas gracias",
-            "t": "شكرًا جزيلًا (shukran jazīlan)"
+            "t": "شكرًا جزيلًا"
           }
         },
         {
           "id": "a1l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (ʿafwan)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De nada\"?",
           "options": [
             "عفوًا",
             "عذرًا",
@@ -224,35 +222,35 @@
           "answer": 0,
           "pair": {
             "es": "De nada",
-            "t": "عفوًا (ʿafwan)"
+            "t": "عفوًا"
           }
         },
         {
           "id": "a1l2e4",
           "type": "build",
           "prompt": "Traduce: «Por favor»",
-          "solution": "من فضلك (min faḍlik)",
+          "solution": "من فضلك",
           "distractors": [
             "نعم",
             "لا"
           ],
           "pair": {
             "es": "Por favor",
-            "t": "من فضلك (min faḍlik)"
+            "t": "من فضلك"
           }
         },
         {
           "id": "a1l2e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «disculpe»",
-          "solution": "عذرًا (ʿudhran)",
+          "solution": "عذرًا",
           "accept": [
-            "عذرًا (ʿudhran)",
-            "عذرًا (ʿudhran)"
+            "عذرًا",
+            "عذرًا"
           ],
           "pair": {
             "es": "Disculpe",
-            "t": "عذرًا (ʿudhran)"
+            "t": "عذرًا"
           }
         },
         {
@@ -262,15 +260,15 @@
           "pairs": [
             {
               "es": "Disculpe",
-              "t": "عذرًا (ʿudhran)"
+              "t": "عذرًا"
             },
             {
               "es": "Lo siento",
-              "t": "آسف (āsif)"
+              "t": "آسف"
             },
             {
               "es": "Sí",
-              "t": "نعم (naʿam)"
+              "t": "نعم"
             }
           ]
         },
@@ -279,22 +277,22 @@
           "type": "choice",
           "prompt": "«No» se traduce como...",
           "options": [
-            "لا (lā)",
-            "عذرًا (ʿudhran)",
-            "آسف (āsif)",
-            "نعم (naʿam)"
+            "لا",
+            "عذرًا",
+            "آسف",
+            "نعم"
           ],
           "answer": 0,
           "pair": {
             "es": "No",
-            "t": "لا (lā)"
+            "t": "لا"
           }
         },
         {
           "id": "a1l2e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "من فضلك (min faḍlik)",
+          "audio": "من فضلك",
           "options": [
             "Por favor",
             "Muchas gracias",
@@ -303,7 +301,7 @@
           "answer": 0,
           "pair": {
             "es": "Por favor",
-            "t": "من فضلك (min faḍlik)"
+            "t": "من فضلك"
           }
         }
       ]
@@ -319,15 +317,15 @@
       "phrases": [
         {
           "es": "¿Cómo estás?",
-          "t": "كيف حالك؟ (kayfa ḥāluka?)"
+          "t": "كيف حالك؟"
         },
         {
           "es": "Estoy bien",
-          "t": "أنا بخير (anā bikhayr)"
+          "t": "أنا بخير"
         },
         {
           "es": "¿Dónde está el baño?",
-          "t": "أين الحمام؟ (ayna al-ḥammām?)"
+          "t": "أين الحمام؟"
         }
       ],
       "exercises": [
@@ -336,22 +334,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «¿cómo estás?»?",
           "options": [
-            "كيف حالك؟ (kayfa ḥāluka?)",
-            "أنا بخير (anā bikhayr)",
-            "أين الحمام؟ (ayna al-ḥammām?)",
-            "أين (ayna)"
+            "كيف حالك؟",
+            "أنا بخير",
+            "أين الحمام؟",
+            "أين"
           ],
           "answer": 0,
           "pair": {
             "es": "¿Cómo estás?",
-            "t": "كيف حالك؟ (kayfa ḥāluka?)"
+            "t": "كيف حالك؟"
           }
         },
         {
           "id": "a1l3e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "أنا بخير (anā bikhayr)",
+          "audio": "أنا بخير",
           "options": [
             "Estoy bien",
             "¿Dónde está el baño?",
@@ -360,14 +358,14 @@
           "answer": 0,
           "pair": {
             "es": "Estoy bien",
-            "t": "أنا بخير (anā bikhayr)"
+            "t": "أنا بخير"
           }
         },
         {
           "id": "a1l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "أين ___ (ayna al-ḥammām?)",
+          "sentence": "أين ___",
           "options": [
             "الحمام؟",
             "أين",
@@ -376,35 +374,35 @@
           "answer": 0,
           "pair": {
             "es": "¿Dónde está el baño?",
-            "t": "أين الحمام؟ (ayna al-ḥammām?)"
+            "t": "أين الحمام؟"
           }
         },
         {
           "id": "a1l3e4",
           "type": "build",
           "prompt": "Traduce: «¿Cómo estás?»",
-          "solution": "كيف حالك؟ (kayfa ḥāluka?)",
+          "solution": "كيف حالك؟",
           "distractors": [
             "ماذا",
             "من"
           ],
           "pair": {
             "es": "¿Cómo estás?",
-            "t": "كيف حالك؟ (kayfa ḥāluka?)"
+            "t": "كيف حالك؟"
           }
         },
         {
           "id": "a1l3e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «dónde»",
-          "solution": "أين (ayna)",
+          "solution": "أين",
           "accept": [
-            "أين (ayna)",
-            "أين (ayna)"
+            "أين",
+            "أين"
           ],
           "pair": {
             "es": "Dónde",
-            "t": "أين (ayna)"
+            "t": "أين"
           }
         },
         {
@@ -414,15 +412,15 @@
           "pairs": [
             {
               "es": "Dónde",
-              "t": "أين (ayna)"
+              "t": "أين"
             },
             {
               "es": "Cuándo",
-              "t": "متى (matā)"
+              "t": "متى"
             },
             {
               "es": "Qué",
-              "t": "ماذا (mādhā)"
+              "t": "ماذا"
             }
           ]
         },
@@ -431,22 +429,22 @@
           "type": "choice",
           "prompt": "«Quién» se traduce como...",
           "options": [
-            "من (man)",
-            "أين (ayna)",
-            "متى (matā)",
-            "ماذا (mādhā)"
+            "من",
+            "أين",
+            "متى",
+            "ماذا"
           ],
           "answer": 0,
           "pair": {
             "es": "Quién",
-            "t": "من (man)"
+            "t": "من"
           }
         },
         {
           "id": "a1l3e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "كيف حالك؟ (kayfa ḥāluka?)",
+          "audio": "كيف حالك؟",
           "options": [
             "¿Cómo estás?",
             "Estoy bien",
@@ -455,7 +453,7 @@
           "answer": 0,
           "pair": {
             "es": "¿Cómo estás?",
-            "t": "كيف حالك؟ (kayfa ḥāluka?)"
+            "t": "كيف حالك؟"
           }
         }
       ]
@@ -471,15 +469,15 @@
       "phrases": [
         {
           "es": "Soy estudiante",
-          "t": "أنا طالب (anā ṭālib)"
+          "t": "أنا طالب"
         },
         {
           "es": "Soy de España",
-          "t": "أنا من إسبانيا (anā min Isbānyā)"
+          "t": "أنا من إسبانيا"
         },
         {
           "es": "Encantado de conocerte",
-          "t": "تشرفنا بمعرفتك (tasharrafnā bimaʿrifatika)"
+          "t": "تشرفنا بمعرفتك"
         }
       ],
       "exercises": [
@@ -488,22 +486,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «soy estudiante»?",
           "options": [
-            "أنا طالب (anā ṭālib)",
-            "أنا من إسبانيا (anā min Isbānyā)",
-            "تشرفنا بمعرفتك (tasharrafnā bimaʿrifatika)",
-            "طالب (ṭālib)"
+            "أنا طالب",
+            "أنا من إسبانيا",
+            "تشرفنا بمعرفتك",
+            "طالب"
           ],
           "answer": 0,
           "pair": {
             "es": "Soy estudiante",
-            "t": "أنا طالب (anā ṭālib)"
+            "t": "أنا طالب"
           }
         },
         {
           "id": "a1l4e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "أنا من إسبانيا (anā min Isbānyā)",
+          "audio": "أنا من إسبانيا",
           "options": [
             "Soy de España",
             "Encantado de conocerte",
@@ -512,14 +510,14 @@
           "answer": 0,
           "pair": {
             "es": "Soy de España",
-            "t": "أنا من إسبانيا (anā min Isbānyā)"
+            "t": "أنا من إسبانيا"
           }
         },
         {
           "id": "a1l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "تشرفنا ___ (tasharrafnā bimaʿrifatika)",
+          "sentence": "تشرفنا ___",
           "options": [
             "بمعرفتك",
             "طالب",
@@ -528,35 +526,35 @@
           "answer": 0,
           "pair": {
             "es": "Encantado de conocerte",
-            "t": "تشرفنا بمعرفتك (tasharrafnā bimaʿrifatika)"
+            "t": "تشرفنا بمعرفتك"
           }
         },
         {
           "id": "a1l4e4",
           "type": "build",
           "prompt": "Traduce: «Soy estudiante»",
-          "solution": "أنا طالب (anā ṭālib)",
+          "solution": "أنا طالب",
           "distractors": [
             "صديق",
             "اسم"
           ],
           "pair": {
             "es": "Soy estudiante",
-            "t": "أنا طالب (anā ṭālib)"
+            "t": "أنا طالب"
           }
         },
         {
           "id": "a1l4e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «estudiante»",
-          "solution": "طالب (ṭālib)",
+          "solution": "طالب",
           "accept": [
-            "طالب (ṭālib)",
-            "طالب (ṭālib)"
+            "طالب",
+            "طالب"
           ],
           "pair": {
             "es": "Estudiante",
-            "t": "طالب (ṭālib)"
+            "t": "طالب"
           }
         },
         {
@@ -566,15 +564,15 @@
           "pairs": [
             {
               "es": "Estudiante",
-              "t": "طالب (ṭālib)"
+              "t": "طالب"
             },
             {
               "es": "Profesor",
-              "t": "معلم (muʿallim)"
+              "t": "معلم"
             },
             {
               "es": "Amigo",
-              "t": "صديق (ṣadīq)"
+              "t": "صديق"
             }
           ]
         },
@@ -583,22 +581,22 @@
           "type": "choice",
           "prompt": "«Nombre» se traduce como...",
           "options": [
-            "اسم (ism)",
-            "طالب (ṭālib)",
-            "معلم (muʿallim)",
-            "صديق (ṣadīq)"
+            "اسم",
+            "طالب",
+            "معلم",
+            "صديق"
           ],
           "answer": 0,
           "pair": {
             "es": "Nombre",
-            "t": "اسم (ism)"
+            "t": "اسم"
           }
         },
         {
           "id": "a1l4e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "أنا طالب (anā ṭālib)",
+          "audio": "أنا طالب",
           "options": [
             "Soy estudiante",
             "Soy de España",
@@ -607,7 +605,7 @@
           "answer": 0,
           "pair": {
             "es": "Soy estudiante",
-            "t": "أنا طالب (anā ṭālib)"
+            "t": "أنا طالب"
           }
         }
       ]
@@ -622,15 +620,15 @@
       "phrases": [
         {
           "es": "Rico",
-          "t": "غني (ghanī)"
+          "t": "غني"
         },
         {
           "es": "Minuto",
-          "t": "دقيقة (daqīqa)"
+          "t": "دقيقة"
         },
         {
           "es": "Verdura",
-          "t": "خضار (khuḍār)"
+          "t": "خضار"
         }
       ],
       "exercises": [
@@ -639,22 +637,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Rico»?",
           "options": [
-            "غني (ghanī)",
-            "دقيقة (daqīqa)",
-            "خضار (khuḍār)",
-            "سكر (sukkar)"
+            "غني",
+            "دقيقة",
+            "خضار",
+            "سكر"
           ],
           "answer": 0,
           "pair": {
             "es": "Rico",
-            "t": "غني (ghanī)"
+            "t": "غني"
           }
         },
         {
           "id": "a1l5e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "دقيقة (daqīqa)",
+          "audio": "دقيقة",
           "options": [
             "Minuto",
             "Verdura",
@@ -663,14 +661,13 @@
           "answer": 0,
           "pair": {
             "es": "Minuto",
-            "t": "دقيقة (daqīqa)"
+            "t": "دقيقة"
           }
         },
         {
           "id": "a1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (khuḍār)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Verdura\"?",
           "options": [
             "خضار",
             "سكر",
@@ -679,35 +676,35 @@
           "answer": 0,
           "pair": {
             "es": "Verdura",
-            "t": "خضار (khuḍār)"
+            "t": "خضار"
           }
         },
         {
           "id": "a1l5e4",
           "type": "build",
           "prompt": "Traduce: «Azúcar»",
-          "solution": "سكر (sukkar)",
+          "solution": "سكر",
           "distractors": [
             "أحيانًا",
             "فستان"
           ],
           "pair": {
             "es": "Azúcar",
-            "t": "سكر (sukkar)"
+            "t": "سكر"
           }
         },
         {
           "id": "a1l5e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «a veces»",
-          "solution": "أحيانًا (aḥyānan)",
+          "solution": "أحيانًا",
           "accept": [
-            "أحيانًا (aḥyānan)",
-            "أحيانًا (aḥyānan)"
+            "أحيانًا",
+            "أحيانًا"
           ],
           "pair": {
             "es": "A veces",
-            "t": "أحيانًا (aḥyānan)"
+            "t": "أحيانًا"
           }
         },
         {
@@ -717,15 +714,15 @@
           "pairs": [
             {
               "es": "Vestido",
-              "t": "فستان (fustān)"
+              "t": "فستان"
             },
             {
               "es": "Partir/Salir",
-              "t": "غادر (ghādara)"
+              "t": "غادر"
             },
             {
               "es": "Similar",
-              "t": "متشابه (mutashābih)"
+              "t": "متشابه"
             }
           ]
         },
@@ -734,22 +731,22 @@
           "type": "choice",
           "prompt": "«Duermo» se traduce como...",
           "options": [
-            "أنام (anām)",
-            "لون (lawn)",
-            "شكرًا (shukran)",
-            "أدفع (adfaʿ)"
+            "أنام",
+            "لون",
+            "غني",
+            "دقيقة"
           ],
           "answer": 0,
           "pair": {
             "es": "Duermo",
-            "t": "أنام (anām)"
+            "t": "أنام"
           }
         },
         {
           "id": "a1l5e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "لون (lawn)",
+          "audio": "لون",
           "options": [
             "Color",
             "Gracias",
@@ -758,7 +755,7 @@
           "answer": 0,
           "pair": {
             "es": "Color",
-            "t": "لون (lawn)"
+            "t": "لون"
           }
         }
       ]
@@ -773,15 +770,15 @@
       "phrases": [
         {
           "es": "Boca",
-          "t": "فم (fam)"
+          "t": "فم"
         },
         {
           "es": "Tiempo",
-          "t": "وقت (waqt)"
+          "t": "وقت"
         },
         {
           "es": "Esperar",
-          "t": "انتظر (intaẓara)"
+          "t": "انتظر"
         }
       ],
       "exercises": [
@@ -790,22 +787,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Boca»?",
           "options": [
-            "فم (fam)",
-            "وقت (waqt)",
-            "انتظر (intaẓara)",
-            "برتقالي (burtuqālī)"
+            "فم",
+            "وقت",
+            "انتظر",
+            "برتقالي"
           ],
           "answer": 0,
           "pair": {
             "es": "Boca",
-            "t": "فم (fam)"
+            "t": "فم"
           }
         },
         {
           "id": "a1l6e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "وقت (waqt)",
+          "audio": "وقت",
           "options": [
             "Tiempo",
             "Esperar",
@@ -814,14 +811,13 @@
           "answer": 0,
           "pair": {
             "es": "Tiempo",
-            "t": "وقت (waqt)"
+            "t": "وقت"
           }
         },
         {
           "id": "a1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (intaẓara)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Esperar\"?",
           "options": [
             "انتظر",
             "برتقالي",
@@ -830,35 +826,35 @@
           "answer": 0,
           "pair": {
             "es": "Esperar",
-            "t": "انتظر (intaẓara)"
+            "t": "انتظر"
           }
         },
         {
           "id": "a1l6e4",
           "type": "build",
           "prompt": "Traduce: «Naranja»",
-          "solution": "برتقالي (burtuqālī)",
+          "solution": "برتقالي",
           "distractors": [
             "أغلق",
             "تحت"
           ],
           "pair": {
             "es": "Naranja",
-            "t": "برتقالي (burtuqālī)"
+            "t": "برتقالي"
           }
         },
         {
           "id": "a1l6e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «cerrar»",
-          "solution": "أغلق (aghlaqa)",
+          "solution": "أغلق",
           "accept": [
-            "أغلق (aghlaqa)",
-            "أغلق (aghlaqa)"
+            "أغلق",
+            "أغلق"
           ],
           "pair": {
             "es": "Cerrar",
-            "t": "أغلق (aghlaqa)"
+            "t": "أغلق"
           }
         },
         {
@@ -868,15 +864,15 @@
           "pairs": [
             {
               "es": "Debajo",
-              "t": "تحت (taḥt)"
+              "t": "تحت"
             },
             {
               "es": "Internet",
-              "t": "إنترنت (intarnet)"
+              "t": "إنترنت"
             },
             {
               "es": "Enojado",
-              "t": "غاضب (ghāḍib)"
+              "t": "غاضب"
             }
           ]
         },
@@ -885,22 +881,22 @@
           "type": "choice",
           "prompt": "«Cara» se traduce como...",
           "options": [
-            "وجه (wajh)",
-            "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
-            "أسود (aswad)",
-            "داخل (dākhil)"
+            "وجه",
+            "هل يمكنك مساعدتي؟",
+            "برتقالي",
+            "فم"
           ],
           "answer": 0,
           "pair": {
             "es": "Cara",
-            "t": "وجه (wajh)"
+            "t": "وجه"
           }
         },
         {
           "id": "a1l6e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)",
+          "audio": "هل يمكنك مساعدتي؟",
           "options": [
             "¿Puedes ayudarme?",
             "Negro",
@@ -909,7 +905,7 @@
           "answer": 0,
           "pair": {
             "es": "¿Puedes ayudarme?",
-            "t": "هل يمكنك مساعدتي؟ (hal yumkinuk musāʿadatī?)"
+            "t": "هل يمكنك مساعدتي؟"
           }
         }
       ]
@@ -924,15 +920,15 @@
       "phrases": [
         {
           "es": "País",
-          "t": "بلد (balad)"
+          "t": "بلد"
         },
         {
           "es": "Correo electrónico",
-          "t": "بريد إلكتروني (barīd iliktrūnī)"
+          "t": "بريد إلكتروني"
         },
         {
           "es": "Me siento",
-          "t": "أجلس (ajlis)"
+          "t": "أجلس"
         }
       ],
       "exercises": [
@@ -941,22 +937,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «País»?",
           "options": [
-            "بلد (balad)",
-            "بريد إلكتروني (barīd iliktrūnī)",
-            "أجلس (ajlis)",
-            "أراد (arāda)"
+            "بلد",
+            "بريد إلكتروني",
+            "أجلس",
+            "أراد"
           ],
           "answer": 0,
           "pair": {
             "es": "País",
-            "t": "بلد (balad)"
+            "t": "بلد"
           }
         },
         {
           "id": "a1l7e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "بريد إلكتروني (barīd iliktrūnī)",
+          "audio": "بريد إلكتروني",
           "options": [
             "Correo electrónico",
             "Me siento",
@@ -965,14 +961,13 @@
           "answer": 0,
           "pair": {
             "es": "Correo electrónico",
-            "t": "بريد إلكتروني (barīd iliktrūnī)"
+            "t": "بريد إلكتروني"
           }
         },
         {
           "id": "a1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (ajlis)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Me siento\"?",
           "options": [
             "أجلس",
             "أراد",
@@ -981,35 +976,35 @@
           "answer": 0,
           "pair": {
             "es": "Me siento",
-            "t": "أجلس (ajlis)"
+            "t": "أجلس"
           }
         },
         {
           "id": "a1l7e4",
           "type": "build",
           "prompt": "Traduce: «Querer»",
-          "solution": "أراد (arāda)",
+          "solution": "أراد",
           "distractors": [
             "مدينة",
             "حلم"
           ],
           "pair": {
             "es": "Querer",
-            "t": "أراد (arāda)"
+            "t": "أراد"
           }
         },
         {
           "id": "a1l7e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «ciudad»",
-          "solution": "مدينة (madīna)",
+          "solution": "مدينة",
           "accept": [
-            "مدينة (madīna)",
-            "مدينة (madīna)"
+            "مدينة",
+            "مدينة"
           ],
           "pair": {
             "es": "Ciudad",
-            "t": "مدينة (madīna)"
+            "t": "مدينة"
           }
         },
         {
@@ -1019,15 +1014,15 @@
           "pairs": [
             {
               "es": "Soñar",
-              "t": "حلم (ḥalama)"
+              "t": "حلم"
             },
             {
               "es": "Agua",
-              "t": "ماء (māʾ)"
+              "t": "ماء"
             },
             {
               "es": "Pobre",
-              "t": "فقير (faqīr)"
+              "t": "فقير"
             }
           ]
         },
@@ -1036,22 +1031,22 @@
           "type": "choice",
           "prompt": "«Bueno» se traduce como...",
           "options": [
-            "جيد (jayyid)",
-            "خلف (khalf)",
-            "أنا موافق (anā muwāfiq)",
-            "سيئ (sayyiʾ)"
+            "جيد",
+            "خلف",
+            "بلد",
+            "أجلس"
           ],
           "answer": 0,
           "pair": {
             "es": "Bueno",
-            "t": "جيد (jayyid)"
+            "t": "جيد"
           }
         },
         {
           "id": "a1l7e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "خلف (khalf)",
+          "audio": "خلف",
           "options": [
             "Detrás",
             "Estoy de acuerdo",
@@ -1060,7 +1055,7 @@
           "answer": 0,
           "pair": {
             "es": "Detrás",
-            "t": "خلف (khalf)"
+            "t": "خلف"
           }
         }
       ]
@@ -1075,15 +1070,15 @@
       "phrases": [
         {
           "es": "Autobús",
-          "t": "حافلة (ḥāfila)"
+          "t": "حافلة"
         },
         {
           "es": "La paz sea contigo",
-          "t": "السلام عليكم (as-salāmu ʿalaykum)"
+          "t": "السلام عليكم"
         },
         {
           "es": "Listo",
-          "t": "جاهز (jāhiz)"
+          "t": "جاهز"
         }
       ],
       "exercises": [
@@ -1092,22 +1087,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Autobús»?",
           "options": [
-            "حافلة (ḥāfila)",
-            "السلام عليكم (as-salāmu ʿalaykum)",
-            "جاهز (jāhiz)",
-            "تقريبًا (taqrīban)"
+            "حافلة",
+            "السلام عليكم",
+            "جاهز",
+            "تقريبًا"
           ],
           "answer": 0,
           "pair": {
             "es": "Autobús",
-            "t": "حافلة (ḥāfila)"
+            "t": "حافلة"
           }
         },
         {
           "id": "a1l8e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "السلام عليكم (as-salāmu ʿalaykum)",
+          "audio": "السلام عليكم",
           "options": [
             "La paz sea contigo",
             "Listo",
@@ -1116,14 +1111,13 @@
           "answer": 0,
           "pair": {
             "es": "La paz sea contigo",
-            "t": "السلام عليكم (as-salāmu ʿalaykum)"
+            "t": "السلام عليكم"
           }
         },
         {
           "id": "a1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (jāhiz)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Listo\"?",
           "options": [
             "جاهز",
             "تقريبًا",
@@ -1132,35 +1126,35 @@
           "answer": 0,
           "pair": {
             "es": "Listo",
-            "t": "جاهز (jāhiz)"
+            "t": "جاهز"
           }
         },
         {
           "id": "a1l8e4",
           "type": "build",
           "prompt": "Traduce: «Casi»",
-          "solution": "تقريبًا (taqrīban)",
+          "solution": "تقريبًا",
           "distractors": [
             "صباح",
             "تعب"
           ],
           "pair": {
             "es": "Casi",
-            "t": "تقريبًا (taqrīban)"
+            "t": "تقريبًا"
           }
         },
         {
           "id": "a1l8e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «mañana (día)»",
-          "solution": "صباح (ṣabāḥ)",
+          "solution": "صباح",
           "accept": [
-            "صباح (ṣabāḥ)",
-            "صباح (ṣabāḥ)"
+            "صباح",
+            "صباح"
           ],
           "pair": {
             "es": "Mañana (día)",
-            "t": "صباح (ṣabāḥ)"
+            "t": "صباح"
           }
         },
         {
@@ -1170,15 +1164,15 @@
           "pairs": [
             {
               "es": "Cansado",
-              "t": "تعب (taʿib)"
+              "t": "تعب"
             },
             {
               "es": "Y contigo la paz",
-              "t": "وعليكم السلام (wa ʿalaykum as-salām)"
+              "t": "وعليكم السلام"
             },
             {
               "es": "¿Dónde estoy?",
-              "t": "أين أنا؟ (ayna anā?)"
+              "t": "أين أنا؟"
             }
           ]
         },
@@ -1187,22 +1181,22 @@
           "type": "choice",
           "prompt": "«Terminar» se traduce como...",
           "options": [
-            "انتهى (intahā)",
-            "فبراير (fibrāyir)",
-            "ضحك (ḍaḥika)",
-            "فندق (funduq)"
+            "انتهى",
+            "فبراير",
+            "تعب",
+            "حافلة"
           ],
           "answer": 0,
           "pair": {
             "es": "Terminar",
-            "t": "انتهى (intahā)"
+            "t": "انتهى"
           }
         },
         {
           "id": "a1l8e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "فبراير (fibrāyir)",
+          "audio": "فبراير",
           "options": [
             "Febrero",
             "Reír",
@@ -1211,7 +1205,7 @@
           "answer": 0,
           "pair": {
             "es": "Febrero",
-            "t": "فبراير (fibrāyir)"
+            "t": "فبراير"
           }
         }
       ]
@@ -1226,15 +1220,15 @@
       "phrases": [
         {
           "es": "Pierna",
-          "t": "ساق (sāq)"
+          "t": "ساق"
         },
         {
           "es": "Hambriento",
-          "t": "جائع (jāʾiʿ)"
+          "t": "جائع"
         },
         {
           "es": "No lo sé",
-          "t": "لا أعرف (lā aʿrif)"
+          "t": "لا أعرف"
         }
       ],
       "exercises": [
@@ -1243,22 +1237,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Pierna»?",
           "options": [
-            "ساق (sāq)",
-            "جائع (jāʾiʿ)",
-            "لا أعرف (lā aʿrif)",
-            "جدة (jadda)"
+            "ساق",
+            "جائع",
+            "لا أعرف",
+            "جدة"
           ],
           "answer": 0,
           "pair": {
             "es": "Pierna",
-            "t": "ساق (sāq)"
+            "t": "ساق"
           }
         },
         {
           "id": "a1l9e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "جائع (jāʾiʿ)",
+          "audio": "جائع",
           "options": [
             "Hambriento",
             "No lo sé",
@@ -1267,14 +1261,14 @@
           "answer": 0,
           "pair": {
             "es": "Hambriento",
-            "t": "جائع (jāʾiʿ)"
+            "t": "جائع"
           }
         },
         {
           "id": "a1l9e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "لا ___ (lā aʿrif)",
+          "sentence": "لا ___",
           "options": [
             "أعرف",
             "جدة",
@@ -1283,35 +1277,35 @@
           "answer": 0,
           "pair": {
             "es": "No lo sé",
-            "t": "لا أعرف (lā aʿrif)"
+            "t": "لا أعرف"
           }
         },
         {
           "id": "a1l9e4",
           "type": "build",
           "prompt": "Traduce: «Abuela»",
-          "solution": "جدة (jadda)",
+          "solution": "جدة",
           "distractors": [
             "أسافر",
             "شراب"
           ],
           "pair": {
             "es": "Abuela",
-            "t": "جدة (jadda)"
+            "t": "جدة"
           }
         },
         {
           "id": "a1l9e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «viajo»",
-          "solution": "أسافر (usāfir)",
+          "solution": "أسافر",
           "accept": [
-            "أسافر (usāfir)",
-            "أسافر (usāfir)"
+            "أسافر",
+            "أسافر"
           ],
           "pair": {
             "es": "Viajo",
-            "t": "أسافر (usāfir)"
+            "t": "أسافر"
           }
         },
         {
@@ -1321,15 +1315,15 @@
           "pairs": [
             {
               "es": "Bebida",
-              "t": "شراب (sharāb)"
+              "t": "شراب"
             },
             {
               "es": "Mensaje",
-              "t": "رسالة (risāla)"
+              "t": "رسالة"
             },
             {
               "es": "Oficina",
-              "t": "مكتب (maktab)"
+              "t": "مكتب"
             }
           ]
         },
@@ -1338,22 +1332,22 @@
           "type": "choice",
           "prompt": "«Dos» se traduce como...",
           "options": [
-            "اثنان (ithnān)",
-            "غنى (ghannā)",
-            "رقم (raqm)",
-            "حيوان (ḥayawān)"
+            "اثنان",
+            "غنى",
+            "ساق",
+            "جدة"
           ],
           "answer": 0,
           "pair": {
             "es": "Dos",
-            "t": "اثنان (ithnān)"
+            "t": "اثنان"
           }
         },
         {
           "id": "a1l9e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "غنى (ghannā)",
+          "audio": "غنى",
           "options": [
             "Cantar",
             "Número",
@@ -1362,7 +1356,7 @@
           "answer": 0,
           "pair": {
             "es": "Cantar",
-            "t": "غنى (ghannā)"
+            "t": "غنى"
           }
         }
       ]
@@ -1377,15 +1371,15 @@
       "phrases": [
         {
           "es": "Cambiar",
-          "t": "غير (ghayyara)"
+          "t": "غير"
         },
         {
           "es": "Lluvia",
-          "t": "مطر (maṭar)"
+          "t": "مطر"
         },
         {
           "es": "Café",
-          "t": "قهوة (qahwa)"
+          "t": "قهوة"
         }
       ],
       "exercises": [
@@ -1394,22 +1388,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Cambiar»?",
           "options": [
-            "غير (ghayyara)",
-            "مطر (maṭar)",
-            "قهوة (qahwa)",
-            "سافر (sāfara)"
+            "غير",
+            "مطر",
+            "قهوة",
+            "سافر"
           ],
           "answer": 0,
           "pair": {
             "es": "Cambiar",
-            "t": "غير (ghayyara)"
+            "t": "غير"
           }
         },
         {
           "id": "a1l10e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "مطر (maṭar)",
+          "audio": "مطر",
           "options": [
             "Lluvia",
             "Café",
@@ -1418,14 +1412,13 @@
           "answer": 0,
           "pair": {
             "es": "Lluvia",
-            "t": "مطر (maṭar)"
+            "t": "مطر"
           }
         },
         {
           "id": "a1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (qahwa)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Café\"?",
           "options": [
             "قهوة",
             "سافر",
@@ -1434,35 +1427,35 @@
           "answer": 0,
           "pair": {
             "es": "Café",
-            "t": "قهوة (qahwa)"
+            "t": "قهوة"
           }
         },
         {
           "id": "a1l10e4",
           "type": "build",
           "prompt": "Traduce: «Viajar»",
-          "solution": "سافر (sāfara)",
+          "solution": "سافر",
           "distractors": [
             "هي",
             "نزل"
           ],
           "pair": {
             "es": "Viajar",
-            "t": "سافر (sāfara)"
+            "t": "سافر"
           }
         },
         {
           "id": "a1l10e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «ella»",
-          "solution": "هي (hiya)",
+          "solution": "هي",
           "accept": [
-            "هي (hiya)",
-            "هي (hiya)"
+            "هي",
+            "هي"
           ],
           "pair": {
             "es": "Ella",
-            "t": "هي (hiya)"
+            "t": "هي"
           }
         },
         {
@@ -1472,15 +1465,15 @@
           "pairs": [
             {
               "es": "Bajar",
-              "t": "نزل (nazala)"
+              "t": "نزل"
             },
             {
               "es": "Ensalada",
-              "t": "سلطة (salaṭa)"
+              "t": "سلطة"
             },
             {
               "es": "En",
-              "t": "في (fī)"
+              "t": "في"
             }
           ]
         },
@@ -1489,22 +1482,22 @@
           "type": "choice",
           "prompt": "«Hora» se traduce como...",
           "options": [
-            "ساعة (sāʿa)",
-            "وجد (wajada)",
-            "إنترنت (intarnet)",
-            "كان (kāna)"
+            "ساعة",
+            "وجد",
+            "سلطة",
+            "مطر"
           ],
           "answer": 0,
           "pair": {
             "es": "Hora",
-            "t": "ساعة (sāʿa)"
+            "t": "ساعة"
           }
         },
         {
           "id": "a1l10e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "وجد (wajada)",
+          "audio": "وجد",
           "options": [
             "Encontrar",
             "Internet",
@@ -1513,7 +1506,7 @@
           "answer": 0,
           "pair": {
             "es": "Encontrar",
-            "t": "وجد (wajada)"
+            "t": "وجد"
           }
         }
       ]

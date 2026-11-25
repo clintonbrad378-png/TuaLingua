@@ -61,9 +61,8 @@
         },
         {
           "id": "p1l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mucho gusto\"?",
           "options": [
             "Prazer",
             "Olá",
@@ -736,8 +735,8 @@
           "options": [
             "Grupo",
             "Livre",
-            "Quebrar",
-            "Sal"
+            "Estreito",
+            "Jogo"
           ],
           "answer": 0,
           "pair": {
@@ -887,8 +886,8 @@
           "options": [
             "Inverno",
             "Xícara",
-            "Escrever",
-            "Rosto"
+            "Eu",
+            "Na frente"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +969,8 @@
         },
         {
           "id": "p1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Huevo\"?",
           "options": [
             "Ovo",
             "Estação",
@@ -1038,8 +1036,8 @@
           "options": [
             "Janela",
             "Setembro",
-            "Montanha",
-            "Senha"
+            "Em breve",
+            "Hora"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1119,8 @@
         },
         {
           "id": "p1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Invitar\"?",
           "options": [
             "Convidar",
             "Trem",
@@ -1189,8 +1186,8 @@
           "options": [
             "Cama",
             "Garfo",
-            "Noite",
-            "Finalmente"
+            "Limpar",
+            "Cachorro"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1269,8 @@
         },
         {
           "id": "p1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Noche\"?",
           "options": [
             "Noite",
             "Cortar",
@@ -1340,8 +1336,8 @@
           "options": [
             "Parede",
             "Pesado",
-            "Tempo",
-            "Ainda"
+            "Tarde",
+            "Rio"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1419,8 @@
         },
         {
           "id": "p1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Llorar\"?",
           "options": [
             "Chorar",
             "Mesa",
@@ -1491,8 +1486,8 @@
           "options": [
             "Cedo",
             "Tudo bem",
-            "Ou",
-            "Tocar"
+            "Leve",
+            "Falso"
           ],
           "answer": 0,
           "pair": {

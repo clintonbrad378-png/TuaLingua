@@ -177,7 +177,7 @@
           "options": [
             "Although",
             "Despite",
-            "However"
+            "Although he was tired, he kept working"
           ],
           "answer": 0,
           "pair": {
@@ -209,7 +209,7 @@
           "solution": "Despite being difficult I passed",
           "distractors": [
             "although",
-            "hard"
+            "Although he was tired, he kept working"
           ],
           "pair": {
             "es": "A pesar de ser difícil, aprobé",
@@ -357,7 +357,7 @@
           "options": [
             "in",
             "on",
-            "at"
+            "We need to make a decision soon"
           ],
           "answer": 0,
           "pair": {
@@ -373,7 +373,7 @@
           "solution": "I have made great progress this year",
           "distractors": [
             "did",
-            "progresses"
+            "Book the tickets in advance"
           ],
           "pair": {
             "es": "He hecho grandes progresos este año",
@@ -474,8 +474,8 @@
           "prompt": "You're coming to the party, ___?",
           "options": [
             "aren't you",
-            "are you",
-            "do you"
+            "Not only does she speak English, but also French",
+            "If I had accepted, I would be happy now"
           ],
           "answer": 0,
           "pair": {
@@ -490,7 +490,7 @@
           "prompt": "Traduce: «No solo habla inglés sino también francés»",
           "solution": "Not only does she speak English but also French",
           "distractors": [
-            "speaks",
+            "You're coming to the party, aren't you?",
             "only"
           ],
           "pair": {
@@ -536,7 +536,7 @@
           "options": [
             "have I seen",
             "I have seen",
-            "I saw"
+            "As long as"
           ],
           "answer": 0,
           "pair": {
@@ -626,9 +626,8 @@
         },
         {
           "id": "u12l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Algún/algunos\"?",
           "options": [
             "some",
             "the",
@@ -694,8 +693,8 @@
           "options": [
             "eye",
             "the solution",
-            "the sun",
-            "again"
+            "The guitar",
+            "Some"
           ],
           "answer": 0,
           "pair": {
@@ -777,9 +776,8 @@
         },
         {
           "id": "u12l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Usar\"?",
           "options": [
             "use",
             "the",
@@ -845,8 +843,8 @@
           "options": [
             "the driver",
             "the boy",
-            "the headphones",
-            "here"
+            "The credit card",
+            "To have"
           ],
           "answer": 0,
           "pair": {
@@ -928,9 +926,8 @@
         },
         {
           "id": "u12l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Rojo\"?",
           "options": [
             "red",
             "force",
@@ -996,8 +993,8 @@
           "options": [
             "try",
             "the strawberry",
-            "the friend",
-            "put"
+            "The aunt",
+            "New"
           ],
           "answer": 0,
           "pair": {
@@ -1079,13 +1076,12 @@
         },
         {
           "id": "u12l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ banana",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El plátano\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "The direction",
+            "The pain"
           ],
           "answer": 0,
           "pair": {
@@ -1147,8 +1143,8 @@
           "options": [
             "the library",
             "to work",
-            "few",
-            "almost"
+            "The direction",
+            "The fog"
           ],
           "answer": 0,
           "pair": {
@@ -1230,9 +1226,8 @@
         },
         {
           "id": "u12l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cerca/cercano\"?",
           "options": [
             "close",
             "basketball",
@@ -1298,8 +1293,8 @@
           "options": [
             "the actor",
             "public",
-            "the stranger",
-            "history"
+            "Basketball",
+            "Close"
           ],
           "answer": 0,
           "pair": {
@@ -1381,13 +1376,12 @@
         },
         {
           "id": "u12l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ remember",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Recordar\"?",
           "options": [
             "to",
             "the",
-            "tox"
+            "Healthy"
           ],
           "answer": 0,
           "pair": {
@@ -1449,8 +1443,8 @@
           "options": [
             "the visa",
             "healthy",
-            "the fire",
-            "twenty"
+            "Side",
+            "Two"
           ],
           "answer": 0,
           "pair": {

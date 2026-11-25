@@ -15,6 +15,7 @@ export default function Flashcards({
   onToggle,
   onClear,
   onAddAll,
+  onAddCustom,
   onOpenDictionary,
   onStartQuiz,
 }: {
@@ -24,6 +25,7 @@ export default function Flashcards({
   onToggle: (phrase: Phrase) => void;
   onClear: () => void;
   onAddAll: (words: Phrase[]) => void;
+  onAddCustom: (es: string, t: string) => boolean;
   onOpenDictionary: () => void;
   onStartQuiz: (words: VocabWord[]) => void;
 }) {
@@ -31,6 +33,10 @@ export default function Flashcards({
   const [source, setSource] = useState(DECK_SOURCE);
   const [studying, setStudying] = useState(false);
   const [confirming, setConfirming] = useState(false);
+  const [adding, setAdding] = useState(false);
+  const [newEs, setNewEs] = useState("");
+  const [newT, setNewT] = useState("");
+  const [addErr, setAddErr] = useState<string | null>(null);
   const studyRef = useRef(Date.now());
 
   const posOf = useMemo(() => {
@@ -116,6 +122,30 @@ export default function Flashcards({
           </button>
         ))}
       </div>
+
+      {isDeck && (
+        <div className="fc-add-custom">
+          {!adding ? (
+            <button className="btn ghost" onClick={() => { setAdding(true); setAddErr(null); }}>
+              <IconPlus size={16}/> {t("f.custom_add")}
+            </button>
+          ) : (
+            <form className="fc-add-form" onSubmit={(e) => {
+              e.preventDefault();
+              if (!newEs.trim() || !newT.trim()) { setAddErr(t("f.custom_err")); return; }
+              if (onAddCustom(newEs, newT)) { setNewEs(""); setNewT(""); setAddErr(null); setAdding(false); }
+            }}>
+              <input className="set-select" value={newEs} onChange={(e) => setNewEs(e.target.value)} placeholder={t("f.custom_es")} aria-label={t("f.custom_es")} />
+              <input className="set-select" value={newT} onChange={(e) => setNewT(e.target.value)} placeholder={t("f.custom_t")} aria-label={t("f.custom_t")} />
+              {addErr && <p className="sheet-hint warn">{addErr}</p>}
+              <div className="set-ctl">
+                <button className="btn btn-primary" type="submit">{t("f.custom_save")}</button>
+                <button className="btn ghost" type="button" onClick={() => { setAdding(false); setAddErr(null); }}>{t("f.custom_cancel")}</button>
+              </div>
+            </form>
+          )}
+        </div>
+      )}
 
       {isDeck && deck.length === 0 ? (
         <div className="fc-empty">

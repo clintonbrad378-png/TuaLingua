@@ -45,9 +45,9 @@
           "prompt": "«Три» es el número…",
           "options": [
             "Tres",
-            "Dos",
-            "Uno",
-            "Cinco"
+            "Ноль",
+            "Четыре",
+            "Один, два, три"
           ],
           "answer": 0,
           "pair": {
@@ -78,8 +78,8 @@
           "sentence": "Два ___ два — четыре",
           "options": [
             "и",
-            "а ты",
-            "не"
+            "Два",
+            "Один"
           ],
           "answer": 0,
           "pair": {
@@ -107,9 +107,9 @@
           "prompt": "«Пять» es…",
           "options": [
             "Cinco",
-            "Cuatro",
-            "Tres",
-            "Seis"
+            "Три",
+            "У меня два билета",
+            "Четыре"
           ],
           "answer": 0,
           "pair": {
@@ -123,8 +123,8 @@
           "prompt": "Traduce: «Tengo dos billetes»",
           "solution": "У меня два билета",
           "distractors": [
-            "есть",
-            "спасибо"
+            "Три",
+            "Один, два, три"
           ],
           "pair": {
             "es": "Tengo dos billetes",
@@ -213,9 +213,9 @@
           "prompt": "«Десять» es…",
           "options": [
             "Diez",
-            "Cien",
-            "Nueve",
-            "Once"
+            "Восемь",
+            "Семь",
+            "У меня два билета"
           ],
           "answer": 0,
           "pair": {
@@ -246,8 +246,8 @@
           "sentence": "В кафе было ___ человек.",
           "options": [
             "десять",
-            "спасибо",
-            "всегда"
+            "Восемь",
+            "Мне семь лет"
           ],
           "answer": 0,
           "pair": {
@@ -275,9 +275,9 @@
           "prompt": "«Сколько?» significa…",
           "options": [
             "¿Cuántos?",
-            "¿Dónde?",
+            "Семь, восемь, девять, десять",
             "¿Por qué?",
-            "¡Qué bien!"
+            "У меня два билета"
           ],
           "answer": 0,
           "pair": {
@@ -292,7 +292,7 @@
           "solution": "Мне семь лет",
           "distractors": [
             "я",
-            "пять"
+            "У меня два билета"
           ],
           "pair": {
             "es": "Tengo siete años",
@@ -328,9 +328,9 @@
           "prompt": "«У меня два билета» significa…",
           "options": [
             "Tengo dos billetes",
-            "Tengo dos hijos",
-            "Soy el número dos",
-            "Faltan dos"
+            "Сколько?",
+            "Мне семь лет",
+            "У меня два билета"
           ],
           "answer": 0,
           "pair": {
@@ -381,9 +381,9 @@
           "prompt": "«Сколько стоит?» significa…",
           "options": [
             "¿Cuánto cuesta?",
-            "¿Dónde está?",
-            "¿Quién es?",
-            "¿Cuánto tiempo?"
+            "Наличными",
+            "Чек, пожалуйста",
+            "Это слишком дорого"
           ],
           "answer": 0,
           "pair": {
@@ -409,13 +409,12 @@
         },
         {
           "id": "r2l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ заплатить картой?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Puedo pagar con tarjeta?\"?",
           "options": [
             "Можно",
             "Дорого",
-            "Медленно"
+            "Наличными"
           ],
           "answer": 0,
           "pair": {
@@ -444,7 +443,7 @@
           "solution": "Чек, пожалуйста",
           "distractors": [
             "дорого",
-            "вода"
+            "Сколько стоит?"
           ],
           "pair": {
             "es": "El ticket, por favor",
@@ -457,9 +456,9 @@
           "prompt": "«Это дёшево» quiere decir…",
           "options": [
             "Es barato",
-            "Es caro",
-            "Es grande",
-            "Es pequeño"
+            "Чек, пожалуйста",
+            "Это слишком дорого",
+            "Сколько?"
           ],
           "answer": 0,
           "pair": {
@@ -549,9 +548,9 @@
           "prompt": "«Счёт, пожалуйста» significa…",
           "options": [
             "La cuenta, por favor",
-            "La carta, por favor",
-            "El agua, por favor",
-            "El pan, por favor"
+            "Счёт, пожалуйста",
+            "Я не понимаю",
+            "У вас есть вода?"
           ],
           "answer": 0,
           "pair": {
@@ -583,7 +582,7 @@
           "options": [
             "воды",
             "вода",
-            "по воде"
+            "Медленнее, пожалуйста"
           ],
           "answer": 0,
           "pair": {
@@ -612,8 +611,8 @@
           "prompt": "Traduce: «¿Cómo se escribe»",
           "solution": "Как это пишется?",
           "distractors": [
-            "где",
-            "спасибо"
+            "Я хочу это, пожалуйста",
+            "Я не понимаю"
           ],
           "pair": {
             "es": "¿Cómo se escribe?",
@@ -626,9 +625,9 @@
           "prompt": "«У вас есть вода?» pregunta…",
           "options": [
             "Si hay agua",
-            "Si está fría",
-            "Si es caro",
-            "Si tiene gas"
+            "Медленнее, пожалуйста",
+            "Я хочу это, пожалуйста",
+            "Как это пишется?"
           ],
           "answer": 0,
           "pair": {
@@ -731,9 +730,8 @@
         },
         {
           "id": "r2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El museo\"?",
           "options": [
             "музей",
             "порядок",
@@ -799,8 +797,8 @@
           "options": [
             "Мало",
             "помогать",
-            "чёрный",
-            "поздно"
+            "Потому что",
+            "Мебель"
           ],
           "answer": 0,
           "pair": {
@@ -882,9 +880,8 @@
         },
         {
           "id": "r2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Comprar\"?",
           "options": [
             "Покупать",
             "абонемент",
@@ -950,8 +947,8 @@
           "options": [
             "как дела?",
             "взять себя в руки",
-            "светофор",
-            "Рядом"
+            "Спина",
+            "Автобус"
           ],
           "answer": 0,
           "pair": {
@@ -1033,9 +1030,8 @@
         },
         {
           "id": "r2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El mono\"?",
           "options": [
             "обезьяна",
             "грустный",
@@ -1101,8 +1097,8 @@
           "options": [
             "мороз",
             "полдник",
-            "Что",
-            "полиция"
+            "Ехать",
+            "Тысяча"
           ],
           "answer": 0,
           "pair": {
@@ -1184,9 +1180,8 @@
         },
         {
           "id": "r2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El año\"?",
           "options": [
             "год",
             "Помнить",
@@ -1252,8 +1247,8 @@
           "options": [
             "ночь",
             "жёлтый",
-            "Показывать",
-            "Как"
+            "Лёгкий",
+            "Плохой"
           ],
           "answer": 0,
           "pair": {
@@ -1335,9 +1330,8 @@
         },
         {
           "id": "r2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pueblo (gente)\"?",
           "options": [
             "народ",
             "уведомление",
@@ -1403,8 +1397,8 @@
           "options": [
             "Медленный",
             "театр",
-            "магазин",
-            "палец"
+            "Уведомление",
+            "Супермаркет"
           ],
           "answer": 0,
           "pair": {
@@ -1486,9 +1480,8 @@
         },
         {
           "id": "r2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Feliz\"?",
           "options": [
             "Счастливый",
             "Отвечать",
@@ -1554,8 +1547,8 @@
           "options": [
             "полёт",
             "час",
-            "собака",
-            "спасибо"
+            "Нравиться",
+            "Отвечать"
           ],
           "answer": 0,
           "pair": {

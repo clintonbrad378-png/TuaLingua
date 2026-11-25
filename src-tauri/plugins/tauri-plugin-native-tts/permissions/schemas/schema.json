@@ -295,6 +295,18 @@
       "type": "string",
       "oneOf": [
         {
+          "description": "Enables the engines command without any pre-configured scope.",
+          "type": "string",
+          "const": "allow-engines",
+          "markdownDescription": "Enables the engines command without any pre-configured scope."
+        },
+        {
+          "description": "Denies the engines command without any pre-configured scope.",
+          "type": "string",
+          "const": "deny-engines",
+          "markdownDescription": "Denies the engines command without any pre-configured scope."
+        },
+        {
           "description": "Enables the speak command without any pre-configured scope.",
           "type": "string",
           "const": "allow-speak",
@@ -343,10 +355,10 @@
           "markdownDescription": "Denies the voices command without any pre-configured scope."
         },
         {
-          "description": "Permite usar la voz TTS nativa del dispositivo\n#### This default permission set includes:\n\n- `allow-speak`\n- `allow-stop`\n- `allow-status`\n- `allow-voices`",
+          "description": "Permite usar la voz TTS nativa del dispositivo\n#### This default permission set includes:\n\n- `allow-speak`\n- `allow-stop`\n- `allow-status`\n- `allow-voices`\n- `allow-engines`",
           "type": "string",
           "const": "default",
-          "markdownDescription": "Permite usar la voz TTS nativa del dispositivo\n#### This default permission set includes:\n\n- `allow-speak`\n- `allow-stop`\n- `allow-status`\n- `allow-voices`"
+          "markdownDescription": "Permite usar la voz TTS nativa del dispositivo\n#### This default permission set includes:\n\n- `allow-speak`\n- `allow-stop`\n- `allow-status`\n- `allow-voices`\n- `allow-engines`"
         }
       ]
     }

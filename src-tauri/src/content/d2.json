@@ -213,9 +213,8 @@
         },
         {
           "id": "d2l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Es ___ lecker",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Está delicioso\"?",
           "options": [
             "ist",
             "Wasser",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nada\"?",
           "options": [
             "Nichts",
             "Es",
@@ -736,8 +734,8 @@
           "options": [
             "Wand",
             "Dezember",
-            "Freitag",
-            "Eltern"
+            "Jemand",
+            "Aber"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Escuela\"?",
           "options": [
             "Schule",
             "Mann",
@@ -887,8 +884,8 @@
           "options": [
             "Kleid",
             "Januar",
-            "Lesen",
-            "Gehen"
+            "Normalerweise",
+            "Garten"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nariz\"?",
           "options": [
             "Nase",
             "Osten",
@@ -1038,8 +1034,8 @@
           "options": [
             "September",
             "Schwer",
-            "Dort",
-            "Winter"
+            "Schreiben",
+            "Zehn"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mensaje\"?",
           "options": [
             "Nachricht",
             "Frage",
@@ -1189,8 +1184,8 @@
           "options": [
             "Schicken",
             "Hundert",
-            "Reparieren",
-            "Wir"
+            "Glas",
+            "Frage"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Aeropuerto\"?",
           "options": [
             "Flughafen",
             "Mai",
@@ -1340,8 +1334,8 @@
           "options": [
             "Freund",
             "Arbeit",
-            "Lachen",
-            "Besonders"
+            "Arzt",
+            "Mai"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Problema\"?",
           "options": [
             "Problem",
             "Abendessen",
@@ -1491,8 +1484,8 @@
           "options": [
             "Vier",
             "Drei",
-            "Lehrer",
-            "Mit"
+            "Jahr",
+            "Medizin"
           ],
           "answer": 0,
           "pair": {

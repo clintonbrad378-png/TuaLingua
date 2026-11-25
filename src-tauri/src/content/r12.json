@@ -491,7 +491,7 @@
             "Не могли бы вы помочь?",
             "Ничего страшного",
             "Конечно",
-            "Конечно"
+            "Может быть"
           ],
           "answer": 0,
           "pair": {
@@ -523,7 +523,7 @@
           "options": [
             "Конечно",
             "Может",
-            "ok"
+            "Вместе"
           ],
           "answer": 0,
           "pair": {
@@ -668,9 +668,8 @@
         },
         {
           "id": "r12l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La naturaleza\"?",
           "options": [
             "природа",
             "театр",
@@ -736,8 +735,8 @@
           "options": [
             "Слово",
             "Много",
-            "год",
-            "командировка"
+            "Надёжный",
+            "Природа"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "r12l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El caballo\"?",
           "options": [
             "лошадь",
             "платье",
@@ -887,8 +885,8 @@
           "options": [
             "Начинать",
             "сто",
-            "пока",
-            "бабочка"
+            "Опоздать",
+            "Чай"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "r12l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No\"?",
           "options": [
             "Нет",
             "Проблема",
@@ -1038,8 +1035,8 @@
           "options": [
             "шарф",
             "счёт",
-            "настроение",
-            "тёплый"
+            "Проблема",
+            "Проценты"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "r12l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cuándo\"?",
           "options": [
             "Когда",
             "жаль",
@@ -1189,8 +1185,8 @@
           "options": [
             "сложный",
             "трудный",
-            "жена",
-            "Часто"
+            "Закуска",
+            "Когда"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "r12l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tramitar\"?",
           "options": [
             "оформить",
             "кровать",
@@ -1340,8 +1335,8 @@
           "options": [
             "трудный",
             "Никогда",
-            "плохой",
-            "видеть"
+            "Оформить",
+            "Менять"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1418,8 @@
         },
         {
           "id": "r12l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El alquiler\"?",
           "options": [
             "аренда",
             "тепло",
@@ -1491,8 +1485,8 @@
           "options": [
             "солнце",
             "Внутри",
-            "музей",
-            "Место"
+            "Иметь",
+            "Мама"
           ],
           "answer": 0,
           "pair": {

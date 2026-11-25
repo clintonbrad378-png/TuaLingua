@@ -61,9 +61,8 @@
         },
         {
           "id": "p8l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ delicioso",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estaba delicioso\"?",
           "options": [
             "Estava",
             "Mesa",
@@ -213,9 +212,8 @@
         },
         {
           "id": "p8l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Tenho ___ mala",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo una maleta\"?",
           "options": [
             "uma",
             "Portão",
@@ -517,9 +515,8 @@
         },
         {
           "id": "p8l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Até ___ próxima",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hasta la próxima\"?",
           "options": [
             "a",
             "Prazer",
@@ -668,9 +665,8 @@
         },
         {
           "id": "p8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Leer\"?",
           "options": [
             "Ler",
             "Verde",
@@ -736,8 +732,8 @@
           "options": [
             "Tentar",
             "Azul",
-            "Porque",
-            "Outubro"
+            "Entender",
+            "Último"
           ],
           "answer": 0,
           "pair": {
@@ -887,8 +883,8 @@
           "options": [
             "Leite",
             "Abril",
-            "Frio",
-            "Seguir"
+            "Em breve",
+            "Esperar"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "p8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Eu ___ amo",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Te quiero\"?",
           "options": [
             "te",
             "Aqui",
@@ -1038,7 +1033,7 @@
           "options": [
             "Tudo bem",
             "Preparar",
-            "Receber",
+            "Morrer",
             "Por que"
           ],
           "answer": 0,
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "p8l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Dónde\"?",
           "options": [
             "Onde",
             "Novo",
@@ -1189,8 +1183,8 @@
           "options": [
             "Avó",
             "Professor",
-            "Deixar",
-            "Crescer"
+            "Hotel",
+            "Novo"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "p8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Morir\"?",
           "options": [
             "Morrer",
             "Largo",
@@ -1340,8 +1333,8 @@
           "options": [
             "Novo",
             "Barato",
-            "Amarelo",
-            "Falar"
+            "Largo",
+            "Aeroporto"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "p8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Jardín\"?",
           "options": [
             "Jardim",
             "Loja",
@@ -1491,8 +1483,8 @@
           "options": [
             "Bolsa",
             "Curto",
-            "Tarde",
-            "Trabalhar"
+            "Rico",
+            "Loja"
           ],
           "answer": 0,
           "pair": {

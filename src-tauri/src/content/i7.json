@@ -61,9 +61,8 @@
         },
         {
           "id": "i7l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ lavoro",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Busco trabajo\"?",
           "options": [
             "Cerco",
             "Insegnante",
@@ -668,9 +667,8 @@
         },
         {
           "id": "i7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Qué\"?",
           "options": [
             "Cosa",
             "Possibile",
@@ -736,8 +734,8 @@
           "options": [
             "Dove",
             "buono",
-            "Dente",
-            "Piede"
+            "Va bene",
+            "Persona"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "i7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Despertarse\"?",
           "options": [
             "Svegliarsi",
             "Riconoscere",
@@ -887,8 +884,8 @@
           "options": [
             "Luna",
             "Ristorante",
-            "ospedale",
-            "Insieme"
+            "Animale",
+            "Cantare"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "i7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nariz\"?",
           "options": [
             "Naso",
             "Agosto",
@@ -1038,8 +1034,8 @@
           "options": [
             "Freddo",
             "dolore",
-            "domani",
-            "Mattina"
+            "Facile",
+            "Persona"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "i7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cuando\"?",
           "options": [
             "Quando",
             "Idea",
@@ -1189,8 +1184,8 @@
           "options": [
             "Ciao",
             "Scegliere",
-            "Notizia",
-            "Mercoledì"
+            "Sopra",
+            "Povero"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "i7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Sentarse\"?",
           "options": [
             "Sedersi",
             "Vuoto",
@@ -1340,8 +1334,8 @@
           "options": [
             "Nero",
             "Ricevere",
-            "Tra",
-            "finestra"
+            "Vuoto",
+            "Viola"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "i7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Padres\"?",
           "options": [
             "Genitori",
             "Tanto",
@@ -1491,8 +1484,8 @@
           "options": [
             "Finire",
             "Vestito",
-            "arrivo",
-            "Dente"
+            "Pantaloni",
+            "Stanco"
           ],
           "answer": 0,
           "pair": {

@@ -61,9 +61,8 @@
         },
         {
           "id": "d7l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ bald",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
             "Bis",
             "Morgen",
@@ -213,9 +212,8 @@
         },
         {
           "id": "d7l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ich ___ zu",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
             "stimme",
             "Idee",
@@ -365,9 +363,8 @@
         },
         {
           "id": "d7l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ich ___ Musik",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Escucho música\"?",
           "options": [
             "höre",
             "Lesen",
@@ -491,7 +488,7 @@
             "Könnten Sie mir helfen?",
             "Natürlich",
             "Macht nichts",
-            "Natürlich"
+            "Vielleicht"
           ],
           "answer": 0,
           "pair": {
@@ -517,9 +514,8 @@
         },
         {
           "id": "d7l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ nichts",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No importa\"?",
           "options": [
             "Macht",
             "Natürlich",
@@ -668,9 +664,8 @@
         },
         {
           "id": "d7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nueve\"?",
           "options": [
             "Neun",
             "Ich",
@@ -736,8 +731,8 @@
           "options": [
             "Großmutter",
             "Machen",
-            "Vielleicht",
-            "Telefon"
+            "Riechen",
+            "Ich habe mich verlaufen"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +814,8 @@
         },
         {
           "id": "d7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Besar\"?",
           "options": [
             "Küssen",
             "Für",
@@ -887,8 +881,8 @@
           "options": [
             "Badezimmer",
             "Brechen",
-            "Kommen",
-            "Fisch"
+            "Wann",
+            "Zwanzig"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +964,8 @@
         },
         {
           "id": "d7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hijo\"?",
           "options": [
             "Sohn",
             "Wissen",
@@ -1038,8 +1031,8 @@
           "options": [
             "Blume",
             "Flughafen",
-            "Schlecht",
-            "Mal"
+            "Nacht",
+            "Nichts"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1114,8 @@
         },
         {
           "id": "d7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ella/Ellos\"?",
           "options": [
             "Sie",
             "Sonntag",
@@ -1189,8 +1181,8 @@
           "options": [
             "Winter",
             "Zeit",
-            "Chef",
-            "Samstag"
+            "Schwer",
+            "Bekommen"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1264,8 @@
         },
         {
           "id": "d7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mujer\"?",
           "options": [
             "Frau",
             "Wachsen",
@@ -1340,8 +1331,8 @@
           "options": [
             "Krank",
             "Leicht",
-            "Milch",
-            "Körper"
+            "Sein",
+            "Schwester"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1414,8 @@
         },
         {
           "id": "d7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mayo\"?",
           "options": [
             "Mai",
             "E-Mail",
@@ -1491,8 +1481,8 @@
           "options": [
             "Öffentlich",
             "Hoffen",
-            "Wenig",
-            "Nein"
+            "April",
+            "Weiß"
           ],
           "answer": 0,
           "pair": {

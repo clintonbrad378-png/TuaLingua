@@ -58,7 +58,7 @@
           "options": [
             "watched",
             "visited",
-            "played"
+            "I worked late yesterday"
           ],
           "answer": 0,
           "pair": {
@@ -74,8 +74,8 @@
           "sentence": "She ___ for the exam yesterday.",
           "options": [
             "studied",
-            "studies",
-            "studying"
+            "She studied for the exam yesterday.",
+            "At the weekend"
           ],
           "answer": 0,
           "pair": {
@@ -90,8 +90,8 @@
           "prompt": "Traduce: «Trabajé en un hotel el año pasado»",
           "solution": "I worked in a hotel last year",
           "distractors": [
-            "works",
-            "next"
+            "Last week",
+            "I worked late yesterday"
           ],
           "pair": {
             "es": "Trabajé en un hotel el año pasado",
@@ -133,8 +133,8 @@
           "prompt": "¿Qué pregunta es correcta?",
           "options": [
             "Did you go to the party?",
-            "Did you went to the party?",
-            "Did you goes to the party?"
+            "We visited my grandparents last weekend.",
+            "She studied for the exam yesterday."
           ],
           "answer": 0,
           "pair": {
@@ -199,7 +199,7 @@
           "options": [
             "made",
             "took",
-            "did"
+            "We saw a very good film"
           ],
           "answer": 0,
           "pair": {
@@ -215,8 +215,8 @@
           "sentence": "I ___ to Rome two years ago.",
           "options": [
             "went",
-            "goed",
-            "gone"
+            "We saw a very good film",
+            "She made dinner for everyone."
           ],
           "answer": 0,
           "pair": {
@@ -231,8 +231,8 @@
           "prompt": "Traduce: «Perdí el tren esta mañana»",
           "solution": "I missed the train this morning",
           "distractors": [
-            "lose",
-            "losed"
+            "Took",
+            "We saw a very good film"
           ],
           "pair": {
             "es": "Perdí el tren esta mañana",
@@ -275,8 +275,8 @@
           "prompt": "I ___ watch TV yesterday.",
           "options": [
             "didn't",
-            "don't",
-            "not"
+            "She made dinner for everyone.",
+            "I went to the cinema with Marta"
           ],
           "answer": 0,
           "pair": {
@@ -319,7 +319,7 @@
           "options": [
             "was",
             "were",
-            "am"
+            "What were you doing at eight?"
           ],
           "answer": 0,
           "pair": {
@@ -334,8 +334,8 @@
           "prompt": "While we ___ , we saw a deer.",
           "options": [
             "were walking",
-            "walked",
-            "walk"
+            "What were you doing at nine?",
+            "At that moment"
           ],
           "answer": 0,
           "pair": {
@@ -350,8 +350,8 @@
           "prompt": "Traduce: «Estaba durmiendo cuando sonó el teléfono»",
           "solution": "I was sleeping when the phone rang",
           "distractors": [
-            "sounds",
-            "slept"
+            "While we were walking, we saw a deer.",
+            "I was cooking when you called me"
           ],
           "pair": {
             "es": "Estaba durmiendo cuando sonó el teléfono",
@@ -394,7 +394,7 @@
           "options": [
             "were",
             "was",
-            "did"
+            "I was cooking when you called me"
           ],
           "answer": 0,
           "pair": {
@@ -482,8 +482,8 @@
           "sentence": "I ___ to live in Madrid.",
           "options": [
             "used",
-            "use",
-            "using"
+            "Finally",
+            "After that"
           ],
           "answer": 0,
           "pair": {
@@ -498,8 +498,8 @@
           "prompt": "«Solía correr por las mañanas» es…",
           "options": [
             "I used to run in the mornings",
-            "I use to ran in the mornings",
-            "I am used run in the mornings"
+            "Finally, we all went back home",
+            "First we went to the market and then we ate"
           ],
           "answer": 0,
           "pair": {
@@ -514,8 +514,8 @@
           "prompt": "Traduce: «Primero fuimos al mercado y luego comimos»",
           "solution": "First we went to the market and then we ate",
           "distractors": [
-            "than",
-            "lately"
+            "Finally, we all went back home",
+            "After that"
           ],
           "pair": {
             "es": "Primero fuimos al mercado y luego comimos",
@@ -558,7 +558,7 @@
           "options": [
             "Finally",
             "First",
-            "Suddenly"
+            "Finally, we all went back home"
           ],
           "answer": 0,
           "pair": {
@@ -625,9 +625,8 @@
         },
         {
           "id": "u5l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ butterfly",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La mariposa\"?",
           "options": [
             "the",
             "lot",
@@ -693,8 +692,8 @@
           "options": [
             "the mouse (computer)",
             "the opinion",
-            "country",
-            "more"
+            "The butterfly",
+            "The rainbow"
           ],
           "answer": 0,
           "pair": {
@@ -776,13 +775,12 @@
         },
         {
           "id": "u5l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ earth",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La tierra\"?",
           "options": [
             "the",
             "problem",
-            "thex"
+            "The aunt"
           ],
           "answer": 0,
           "pair": {
@@ -844,8 +842,8 @@
           "options": [
             "natural",
             "the distance",
-            "young",
-            "the airport"
+            "Some",
+            "Spend"
           ],
           "answer": 0,
           "pair": {
@@ -927,13 +925,12 @@
         },
         {
           "id": "u5l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ win",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ganar\"?",
           "options": [
             "to",
             "far",
-            "tox"
+            "Six"
           ],
           "answer": 0,
           "pair": {
@@ -995,8 +992,8 @@
           "options": [
             "teacher",
             "six",
-            "as",
-            "to know"
+            "The concert",
+            "The library"
           ],
           "answer": 0,
           "pair": {
@@ -1078,13 +1075,12 @@
         },
         {
           "id": "u5l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ hope",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La esperanza\"?",
           "options": [
             "the",
             "public",
-            "thex"
+            "The leaf"
           ],
           "answer": 0,
           "pair": {
@@ -1146,8 +1142,8 @@
           "options": [
             "the storm",
             "near",
-            "the laptop",
-            "the star"
+            "The leaf",
+            "The sea"
           ],
           "answer": 0,
           "pair": {
@@ -1229,9 +1225,8 @@
         },
         {
           "id": "u5l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hombre\"?",
           "options": [
             "man",
             "the",
@@ -1297,8 +1292,8 @@
           "options": [
             "never",
             "January",
-            "the cash",
-            "the metro"
+            "Purple",
+            "Man"
           ],
           "answer": 0,
           "pair": {
@@ -1380,13 +1375,12 @@
         },
         {
           "id": "u5l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ shirt",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La camisa\"?",
           "options": [
             "the",
             "to",
-            "thex"
+            "The shirt"
           ],
           "answer": 0,
           "pair": {
@@ -1448,8 +1442,8 @@
           "options": [
             "the magazine",
             "to train",
-            "the sister",
-            "spicy"
+            "The boy",
+            "The shirt"
           ],
           "answer": 0,
           "pair": {

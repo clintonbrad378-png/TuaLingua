@@ -2,7 +2,7 @@ mod catalog;
 mod dictionary;
 mod progress;
 
-use progress::{Db, PhraseDto, RoundResult, SessionSummary, SrsCardDto};
+use progress::{Db, LangProfile, PhraseDto, RoundResult, SessionSummary, SrsCardDto};
 use serde::Serialize;
 use serde_json::Value;
 use std::path::PathBuf;
@@ -121,6 +121,11 @@ fn get_progress(state: State<'_, AppState>) -> Res<Value> {
 }
 
 #[tauri::command]
+fn get_profile(state: State<'_, AppState>) -> Res<Vec<LangProfile>> {
+    Ok(lock_db(&state)?.profile())
+}
+
+#[tauri::command]
 fn complete_lesson(
     state: State<'_, AppState>,
     lesson_id: String,
@@ -234,6 +239,7 @@ pub fn run() {
             add_deck_many,
             clear_deck,
             get_progress,
+            get_profile,
             complete_lesson,
             submit_review,
             get_review,

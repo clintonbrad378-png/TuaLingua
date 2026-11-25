@@ -35,7 +35,7 @@
             "Bonjour, je m'appelle Ana",
             "Bonjour",
             "Enchanté",
-            "Bonjour"
+            "Au revoir"
           ],
           "answer": 0,
           "pair": {
@@ -61,9 +61,8 @@
         },
         {
           "id": "f1l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mucho gusto\"?",
           "options": [
             "Enchanté",
             "Bonjour",
@@ -213,9 +212,8 @@
         },
         {
           "id": "f1l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ rien",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De nada\"?",
           "options": [
             "De",
             "Excusez-moi",
@@ -668,9 +666,8 @@
         },
         {
           "id": "f1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Parlez-vous ___ ?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Habla inglés?\"?",
           "options": [
             "anglais",
             "Elle",
@@ -736,8 +733,8 @@
           "options": [
             "Mardi",
             "Manteau",
-            "Pays",
-            "Juin"
+            "Pantalon",
+            "Rien"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +816,8 @@
         },
         {
           "id": "f1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Allí\"?",
           "options": [
             "Là",
             "Payer",
@@ -887,8 +883,8 @@
           "options": [
             "Trois",
             "Essayer",
-            "Courir",
-            "Commencer"
+            "Parce que",
+            "À tout à l'heure"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "f1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ancho\"?",
           "options": [
             "Large",
             "Mille",
@@ -1038,8 +1033,8 @@
           "options": [
             "Manger",
             "Fermer",
-            "Juillet",
-            "Dormir"
+            "Mois",
+            "Maintenant"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "f1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Creer\"?",
           "options": [
             "Croire",
             "Se",
@@ -1189,8 +1183,8 @@
           "options": [
             "Bonne chance",
             "Content",
-            "Quarante",
-            "Salade"
+            "Fille",
+            "Banque"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "f1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Llamarse\"?",
           "options": [
             "S'appeler",
             "Aéroport",
@@ -1340,8 +1333,8 @@
           "options": [
             "École",
             "Entrée",
-            "Janvier",
-            "Dessus"
+            "Aéroport",
+            "Voir"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "f1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ellos (obj)\"?",
           "options": [
             "Eux",
             "Surtout",
@@ -1491,8 +1483,8 @@
           "options": [
             "Enfant",
             "Zéro",
-            "Après-midi",
-            "Améliorer"
+            "Surtout",
+            "Se promener"
           ],
           "answer": 0,
           "pair": {

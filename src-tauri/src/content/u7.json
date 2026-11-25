@@ -51,8 +51,8 @@
           "prompt": "Look at those clouds! It ___ rain.",
           "options": [
             "is going to",
-            "will going to",
-            "goes to"
+            "We are going to move to a bigger flat next month.",
+            "Next month"
           ],
           "answer": 0,
           "pair": {
@@ -67,8 +67,8 @@
           "prompt": "Traduce: «¿Qué vas a hacer mañana?»",
           "solution": "What are you going to do tomorrow",
           "distractors": [
-            "will",
-            "does"
+            "Next month",
+            "It's going to rain, there are black clouds"
           ],
           "pair": {
             "es": "¿Qué vas a hacer mañana?",
@@ -177,8 +177,8 @@
           "sentence": "I think robots ___ do all the housework.",
           "options": [
             "will",
-            "would",
-            "wills"
+            "She probably won't come — she's exhausted.",
+            "OK, I will answer it."
           ],
           "answer": 0,
           "pair": {
@@ -193,8 +193,8 @@
           "prompt": "El teléfono suena. — OK, I ___ answer it.",
           "options": [
             "will",
-            "am going to",
-            "am answering"
+            "Don't worry, I will call you",
+            "She probably won't come — she's exhausted."
           ],
           "answer": 0,
           "pair": {
@@ -209,8 +209,8 @@
           "prompt": "Traduce: «No te preocupes, te llamaré»",
           "solution": "Don't worry I will call you",
           "distractors": [
-            "worrying",
-            "called"
+            "Won't",
+            "I think robots will do all the housework."
           ],
           "pair": {
             "es": "No te preocupes, te llamaré",
@@ -254,7 +254,7 @@
           "options": [
             "won't",
             "will",
-            "is"
+            "She probably won't come — she's exhausted."
           ],
           "answer": 0,
           "pair": {
@@ -313,8 +313,8 @@
           "sentence": "If it ___ tomorrow, we will stay at home.",
           "options": [
             "rains",
-            "will rain",
-            "rained"
+            "Unless",
+            "If"
           ],
           "answer": 0,
           "pair": {
@@ -330,7 +330,7 @@
           "options": [
             "unless",
             "if",
-            "when"
+            "If you finish early, we will go to the cinema"
           ],
           "answer": 0,
           "pair": {
@@ -345,8 +345,8 @@
           "prompt": "Traduce: «Si terminas pronto, iremos al cine»",
           "solution": "If you finish early we will go to the cinema",
           "distractors": [
-            "finished",
-            "would"
+            "If you study hard, you will pass the exam.",
+            "If you study, you will pass"
           ],
           "pair": {
             "es": "Si terminas pronto, iremos al cine",
@@ -389,7 +389,7 @@
           "options": [
             "will pass",
             "pass",
-            "passed"
+            "Unless"
           ],
           "answer": 0,
           "pair": {
@@ -455,7 +455,7 @@
           "options": [
             "get",
             "will get",
-            "got"
+            "Wait until the light turns green."
           ],
           "answer": 0,
           "pair": {
@@ -470,8 +470,8 @@
           "prompt": "Wait until the light ___ green.",
           "options": [
             "turns",
-            "will turn",
-            "turned"
+            "Would you like to have dinner on Friday?",
+            "We won't leave until the rain stops."
           ],
           "answer": 0,
           "pair": {
@@ -486,8 +486,8 @@
           "prompt": "Traduce: «Te enviaré un mensaje en cuanto llegue»",
           "solution": "I will send you a message as soon as I arrive",
           "distractors": [
-            "arrived",
-            "sending"
+            "I'll call you when I get to the hotel",
+            "Would you like to come to the cinema with us?"
           ],
           "pair": {
             "es": "Te enviaré un mensaje en cuanto llegue",
@@ -529,8 +529,8 @@
           "prompt": "We won't leave ___ the rain stops.",
           "options": [
             "until",
-            "while",
-            "since"
+            "I will call you when I get home.",
+            "I'll call you when I get to the hotel"
           ],
           "answer": 0,
           "pair": {
@@ -547,7 +547,7 @@
           "options": [
             "Would",
             "Will",
-            "Do"
+            "I will send you a message as soon as I arrive"
           ],
           "answer": 0,
           "pair": {
@@ -614,13 +614,12 @@
         },
         {
           "id": "u7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ dog",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El perro\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "The jam",
+            "The suitcase"
           ],
           "answer": 0,
           "pair": {
@@ -682,8 +681,8 @@
           "options": [
             "the medicine",
             "the keys",
-            "football",
-            "tomorrow"
+            "Two",
+            "The jam"
           ],
           "answer": 0,
           "pair": {
@@ -765,9 +764,8 @@
         },
         {
           "id": "u7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La natación\"?",
           "options": [
             "swimming",
             "the",
@@ -833,8 +831,8 @@
           "options": [
             "the week",
             "the arm",
-            "the desk",
-            "the checkout"
+            "To laugh",
+            "Yes"
           ],
           "answer": 0,
           "pair": {
@@ -916,9 +914,8 @@
         },
         {
           "id": "u7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ mix",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mezclar\"?",
           "options": [
             "to",
             "the",
@@ -984,8 +981,8 @@
           "options": [
             "the wind",
             "after",
-            "the password",
-            "the passport"
+            "Education",
+            "The table"
           ],
           "answer": 0,
           "pair": {
@@ -1067,9 +1064,8 @@
         },
         {
           "id": "u7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Intentar\"?",
           "options": [
             "try",
             "these",
@@ -1135,8 +1131,8 @@
           "options": [
             "I think so",
             "your",
-            "nervous",
-            "show"
+            "The monkey",
+            "The movie"
           ],
           "answer": 0,
           "pair": {
@@ -1218,9 +1214,8 @@
         },
         {
           "id": "u7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ chat",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Charlar\"?",
           "options": [
             "to",
             "sour",
@@ -1286,8 +1281,8 @@
           "options": [
             "the poem",
             "best",
-            "How much is it?",
-            "the oil"
+            "Good",
+            "The soup"
           ],
           "answer": 0,
           "pair": {
@@ -1369,9 +1364,8 @@
         },
         {
           "id": "u7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Salir/dejar\"?",
           "options": [
             "leave",
             "the",
@@ -1437,8 +1431,8 @@
           "options": [
             "show",
             "the stranger",
-            "those",
-            "the country"
+            "The queue",
+            "Put"
           ],
           "answer": 0,
           "pair": {

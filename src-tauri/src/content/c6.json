@@ -672,9 +672,8 @@
         },
         {
           "id": "c6l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yòu)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Derecha\"?",
           "options": [
             "右",
             "月",
@@ -740,8 +739,8 @@
           "options": [
             "老虎 (lǎohǔ)",
             "看 (kàn)",
-            "衬衣 (chènyī)",
-            "快点 (kuài diǎn)"
+            "右 (yòu)",
+            "花园 (huāyuán)"
           ],
           "answer": 0,
           "pair": {
@@ -823,9 +822,8 @@
         },
         {
           "id": "c6l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (zěnme)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cómo\"?",
           "options": [
             "怎么",
             "得到",
@@ -892,8 +890,8 @@
           "options": [
             "蔬菜 (shūcài)",
             "穿 (chuān)",
-            "突然 (tūrán)",
-            "健康 (jiànkāng)"
+            "鸡 (jī)",
+            "月 (yuè)"
           ],
           "answer": 0,
           "pair": {
@@ -975,9 +973,8 @@
         },
         {
           "id": "c6l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (shuō)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hablar, decir\"?",
           "options": [
             "说",
             "希望",
@@ -1043,8 +1040,8 @@
           "options": [
             "记得 (jìde)",
             "旁边 (pángbiān)",
-            "水果 (shuǐguǒ)",
-            "天 (tiān)"
+            "走 (zǒu)",
+            "说 (shuō)"
           ],
           "answer": 0,
           "pair": {
@@ -1126,9 +1123,8 @@
         },
         {
           "id": "c6l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (tàiyángjìng)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Gafas de sol\"?",
           "options": [
             "太阳镜",
             "最后",
@@ -1195,8 +1191,8 @@
           "options": [
             "女儿 (nǚ'ér)",
             "热 (rè)",
-            "学 (xué)",
-            "香蕉 (xiāngjiāo)"
+            "裙子 (qúnzi)",
+            "太阳镜 (tàiyángjìng)"
           ],
           "answer": 0,
           "pair": {
@@ -1278,9 +1274,8 @@
         },
         {
           "id": "c6l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¡Ayuda!\"?",
           "options": [
             "救命！(jiùmìng!)",
             "我叫...",
@@ -1346,8 +1341,8 @@
           "options": [
             "袜子 (wàzi)",
             "手表 (shǒubiǎo)",
-            "正确 (zhèngquè)",
-            "小时 (xiǎoshí)"
+            "男孩 (nánhái)",
+            "站 (zhàn)"
           ],
           "answer": 0,
           "pair": {
@@ -1429,9 +1424,8 @@
         },
         {
           "id": "c6l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (míngzi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nombre\"?",
           "options": [
             "名字",
             "放",
@@ -1497,8 +1491,8 @@
           "options": [
             "钱包 (qiánbāo)",
             "我不知道 (wǒ bù zhīdào)",
-            "工作 (gōngzuò)",
-            "欢迎 (huānyíng)"
+            "叫 (jiào)",
+            "椅子 (yǐzi)"
           ],
           "answer": 0,
           "pair": {

@@ -495,7 +495,7 @@
             "你能帮我吗？(nǐ néng bāng wǒ ma?)",
             "没关系 (méi guānxi)",
             "当然 (dāngrán)",
-            "当然 (dāngrán)"
+            "也许 (yěxǔ)"
           ],
           "answer": 0,
           "pair": {
@@ -527,7 +527,7 @@
           "options": [
             "当然",
             "也许",
-            "ok"
+            "也许 (yěxǔ)"
           ],
           "answer": 0,
           "pair": {
@@ -672,9 +672,8 @@
         },
         {
           "id": "c8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (chēzhàn)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estación\"?",
           "options": [
             "车站",
             "休息",
@@ -741,8 +740,8 @@
           "options": [
             "得到 (dédào)",
             "那 (nà)",
-            "兔子 (tùzi)",
-            "脏 (zāng)"
+            "在哪里？(zài nǎlǐ?)",
+            "我知道 (wǒ zhīdào)"
           ],
           "answer": 0,
           "pair": {
@@ -824,9 +823,8 @@
         },
         {
           "id": "c8l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (dài)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Llevar/Traer\"?",
           "options": [
             "带",
             "南",
@@ -892,8 +890,8 @@
           "options": [
             "太阳镜 (tàiyángjìng)",
             "鞋子 (xiézi)",
-            "床 (chuáng)",
-            "到 (dào)"
+            "在 (zài)",
+            "带 (dài)"
           ],
           "answer": 0,
           "pair": {
@@ -975,9 +973,8 @@
         },
         {
           "id": "c8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "你好吗？(nǐ ___ ma?)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cómo estás?\"?",
           "options": [
             "hǎo",
             "左",
@@ -1043,8 +1040,8 @@
           "options": [
             "离开 (líkāi)",
             "包 (bāo)",
-            "最后 (zuìhòu)",
-            "千 (qiān)"
+            "坏 (huài)",
+            "我不懂 (wǒ bù dǒng)"
           ],
           "answer": 0,
           "pair": {
@@ -1126,9 +1123,8 @@
         },
         {
           "id": "c8l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yáchǐ)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Diente\"?",
           "options": [
             "牙齿",
             "洗",
@@ -1194,8 +1190,8 @@
           "options": [
             "重要 (zhòngyào)",
             "参观 (cānguān)",
-            "小心 (xiǎoxīn)",
-            "哪里 (nǎlǐ)"
+            "鱼 (yú)",
+            "坏 (huài)"
           ],
           "answer": 0,
           "pair": {
@@ -1277,9 +1273,8 @@
         },
         {
           "id": "c8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (zhīdào)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Saber\"?",
           "options": [
             "知道",
             "猫",
@@ -1345,8 +1340,8 @@
           "options": [
             "八 (bā)",
             "睡觉 (shuìjiào)",
-            "鱼 (yú)",
-            "好主意 (hǎo zhǔyi)"
+            "忙 (máng)",
+            "猫 (māo)"
           ],
           "answer": 0,
           "pair": {
@@ -1428,9 +1423,8 @@
         },
         {
           "id": "c8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (xiǎoxīn)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cuidado\"?",
           "options": [
             "小心",
             "或者",
@@ -1497,8 +1491,8 @@
           "options": [
             "早饭 (zǎofàn)",
             "应该 (yīnggāi)",
-            "这里 (zhèlǐ)",
-            "去 (qù)"
+            "地铁 (dìtiě)",
+            "帽子 (màozi)"
           ],
           "answer": 0,
           "pair": {

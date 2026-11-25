@@ -61,9 +61,8 @@
         },
         {
           "id": "i5l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Pulisco ___ casa",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Limpio la casa\"?",
           "options": [
             "la",
             "Alzarsi",
@@ -213,9 +212,8 @@
         },
         {
           "id": "i5l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "È ___ caro",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Es demasiado caro\"?",
           "options": [
             "troppo",
             "Economico",
@@ -365,9 +363,8 @@
         },
         {
           "id": "i5l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Fa ___ tempo",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hace buen tiempo\"?",
           "options": [
             "bel",
             "Sole",
@@ -517,9 +514,8 @@
         },
         {
           "id": "i5l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Gioco ___ calcio",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Juego al fútbol\"?",
           "options": [
             "a",
             "Cantare",
@@ -668,9 +664,8 @@
         },
         {
           "id": "i5l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Miedo\"?",
           "options": [
             "Paura",
             "farmacia",
@@ -736,8 +731,8 @@
           "options": [
             "Guardare",
             "Blu",
-            "Veloce",
-            "Occupato"
+            "Casa",
+            "Acqua"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +814,8 @@
         },
         {
           "id": "i5l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Querer\"?",
           "options": [
             "volere",
             "Rosa",
@@ -887,8 +881,8 @@
           "options": [
             "bene",
             "Pagare",
-            "caffè",
-            "Crescere"
+            "Volere",
+            "Aria"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +964,8 @@
         },
         {
           "id": "i5l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Adiós (formal)\"?",
           "options": [
             "Arrivederci",
             "In",
@@ -1038,8 +1031,8 @@
           "options": [
             "adesso",
             "Chiedere",
-            "Ancora",
-            "Mi chiamo..."
+            "Non mi piace",
+            "Lavarsi"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1114,8 @@
         },
         {
           "id": "i5l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Diciembre\"?",
           "options": [
             "Dicembre",
             "Sei",
@@ -1189,8 +1181,8 @@
           "options": [
             "Raccontare",
             "Menu",
-            "Iniziare",
-            "mela"
+            "Prima",
+            "Come ti chiami?"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1264,8 @@
         },
         {
           "id": "i5l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Gato\"?",
           "options": [
             "Gatto",
             "Parco",
@@ -1340,8 +1331,8 @@
           "options": [
             "pane",
             "Davvero",
-            "Macchina",
-            "Rifiutare"
+            "Tre",
+            "Ponte"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1414,8 @@
         },
         {
           "id": "i5l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ fortuna",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Buena suerte\"?",
           "options": [
             "Buona",
             "Difficile",
@@ -1491,8 +1481,8 @@
           "options": [
             "Solo",
             "Momento",
-            "Sognare",
-            "Banca"
+            "Cappotto",
+            "Gamba"
           ],
           "answer": 0,
           "pair": {

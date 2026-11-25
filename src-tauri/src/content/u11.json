@@ -35,8 +35,8 @@
           "sentence": "By next year, I ___ have finished my degree.",
           "options": [
             "will",
-            "would",
-            "am"
+            "By next year, I will have finished my degree.",
+            "Will be + -ing"
           ],
           "answer": 0,
           "pair": {
@@ -67,8 +67,8 @@
           "prompt": "Traduce: «Para 2050 habremos reducido las emisiones»",
           "solution": "By 2050 we will have reduced emissions",
           "distractors": [
-            "until",
-            "reducing"
+            "By 2040, electric cars will have replaced diesel.",
+            "By next year, I will have finished my degree."
           ],
           "pair": {
             "es": "Para 2050 habremos reducido las emisiones",
@@ -110,7 +110,7 @@
           "prompt": "Don't call at 8 — we ___ be having dinner.",
           "options": [
             "will",
-            "would",
+            "By next year, I will have finished my degree.",
             "have"
           ],
           "answer": 0,
@@ -176,8 +176,8 @@
           "sentence": "It ___ said that the polar ice is melting.",
           "options": [
             "is",
-            "does",
-            "says"
+            "He is believed to be one of the best scientists.",
+            "Reportedly"
           ],
           "answer": 0,
           "pair": {
@@ -192,8 +192,8 @@
           "prompt": "He ___ to be one of the best scientists.",
           "options": [
             "is believed",
-            "believes",
-            "is believing"
+            "Reportedly",
+            "The company is reported to be in trouble."
           ],
           "answer": 0,
           "pair": {
@@ -208,7 +208,7 @@
           "prompt": "Traduce: «Se espera que la ley cambie pronto»",
           "solution": "The law is expected to change soon",
           "distractors": [
-            "expects",
+            "He is believed to be one of the best scientists.",
             "changing"
           ],
           "pair": {
@@ -275,8 +275,8 @@
           "prompt": "The company ___ to be in trouble.",
           "options": [
             "is reported",
-            "reports",
-            "reporting"
+            "He is believed to be one of the best scientists.",
+            "It is believed"
           ],
           "answer": 0,
           "pair": {
@@ -342,7 +342,7 @@
           "options": [
             "due",
             "lead",
-            "result"
+            "Carbon emissions"
           ],
           "answer": 0,
           "pair": {
@@ -373,8 +373,8 @@
           "prompt": "Traduce: «El reciclaje reduce los residuos»",
           "solution": "Recycling reduces waste",
           "distractors": [
-            "reduce",
-            "wasting"
+            "Renewable energy",
+            "Cutting down forests leads to more flooding."
           ],
           "pair": {
             "es": "El reciclaje reduce los residuos",
@@ -416,7 +416,7 @@
           "prompt": "Rising sea levels are a consequence ___ melting ice.",
           "options": [
             "of",
-            "for",
+            "Fossil fuels",
             "to"
           ],
           "answer": 0,
@@ -460,7 +460,7 @@
           "options": [
             "as",
             "so",
-            "such"
+            "So that"
           ],
           "answer": 0,
           "pair": {
@@ -475,7 +475,7 @@
           "prompt": "We recycle ___ to protect the planet.",
           "options": [
             "in order",
-            "for",
+            "You can go out as long as you finish your homework.",
             "so that"
           ],
           "answer": 0,
@@ -491,8 +491,8 @@
           "prompt": "Traduce: «Iré siempre que tú vengas conmigo»",
           "solution": "I will go as long as you come with me",
           "distractors": [
-            "although",
-            "while"
+            "We will go as long as it doesn't rain",
+            "Provided that everyone helps, we can solve this problem."
           ],
           "pair": {
             "es": "Iré siempre que tú vengas conmigo",
@@ -534,7 +534,7 @@
           "prompt": "Turn off the lights ___ save energy.",
           "options": [
             "to",
-            "for",
+            "Turn off the lights to save energy.",
             "so"
           ],
           "answer": 0,
@@ -625,9 +625,8 @@
         },
         {
           "id": "u11l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ buy",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Comprar\"?",
           "options": [
             "to",
             "party",
@@ -693,8 +692,8 @@
           "options": [
             "Do you speak English?",
             "the problem",
-            "clear",
-            "art"
+            "The watch",
+            "The seller"
           ],
           "answer": 0,
           "pair": {
@@ -776,9 +775,8 @@
         },
         {
           "id": "u11l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Parte\"?",
           "options": [
             "part",
             "the",
@@ -844,8 +842,8 @@
           "options": [
             "the truth",
             "the snow",
-            "the fever",
-            "to play"
+            "Or",
+            "The cake"
           ],
           "answer": 0,
           "pair": {
@@ -927,13 +925,12 @@
         },
         {
           "id": "u11l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Poner\"?",
           "options": [
             "put",
             "the",
-            "putx"
+            "Small"
           ],
           "answer": 0,
           "pair": {
@@ -995,8 +992,8 @@
           "options": [
             "small",
             "the chicken",
-            "the jeans",
-            "the battery"
+            "The actress",
+            "Really"
           ],
           "answer": 0,
           "pair": {
@@ -1078,13 +1075,12 @@
         },
         {
           "id": "u11l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Historia\"?",
           "options": [
             "history",
             "the",
-            "historyx"
+            "Me"
           ],
           "answer": 0,
           "pair": {
@@ -1146,8 +1142,8 @@
           "options": [
             "the solution",
             "to use",
-            "result",
-            "fast"
+            "Me",
+            "The roundabout"
           ],
           "answer": 0,
           "pair": {
@@ -1229,9 +1225,8 @@
         },
         {
           "id": "u11l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bonito\"?",
           "options": [
             "beautiful",
             "poor",
@@ -1297,8 +1292,8 @@
           "options": [
             "stop",
             "the credit card",
-            "the answer",
-            "the mouse"
+            "Up",
+            "The sea"
           ],
           "answer": 0,
           "pair": {
@@ -1380,9 +1375,8 @@
         },
         {
           "id": "u11l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ head",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La cabeza\"?",
           "options": [
             "the",
             "close",
@@ -1448,8 +1442,8 @@
           "options": [
             "most",
             "the temperature",
-            "the glass (drink)",
-            "the meat"
+            "The mountain",
+            "The cow"
           ],
           "answer": 0,
           "pair": {

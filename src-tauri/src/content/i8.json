@@ -61,9 +61,8 @@
         },
         {
           "id": "i8l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ d'accordo",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
             "Sono",
             "Idea",
@@ -213,9 +212,8 @@
         },
         {
           "id": "i8l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ci ___ presto",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
             "vediamo",
             "Domani",
@@ -365,9 +363,8 @@
         },
         {
           "id": "i8l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ preoccupato",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
             "Sono",
             "Felice",
@@ -491,7 +488,7 @@
             "Potresti aiutarmi?",
             "Non importa",
             "Certo",
-            "Certo"
+            "Forse"
           ],
           "answer": 0,
           "pair": {
@@ -517,12 +514,11 @@
         },
         {
           "id": "i8l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ ",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Por supuesto\"?",
           "options": [
             "Certo",
-            "Certo",
+            "Potresti aiutarmi?",
             "Forse"
           ],
           "answer": 0,
@@ -668,9 +664,8 @@
         },
         {
           "id": "i8l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tía\"?",
           "options": [
             "Zia",
             "essere",
@@ -736,8 +731,8 @@
           "options": [
             "Cena",
             "Ottobre",
-            "farmacia",
-            "Comprare"
+            "Pochi",
+            "Maglietta"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +814,8 @@
         },
         {
           "id": "i8l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cada\"?",
           "options": [
             "Ogni",
             "Soldi",
@@ -887,8 +881,8 @@
           "options": [
             "Entrare",
             "Viso",
-            "Cane",
-            "Ristorante"
+            "Ogni",
+            "Potere"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +964,8 @@
         },
         {
           "id": "i8l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Familia\"?",
           "options": [
             "famiglia",
             "Iniziare",
@@ -1038,8 +1031,8 @@
           "options": [
             "Lunedì",
             "Spiegare",
-            "Gioco",
-            "Gamba"
+            "Lavarsi",
+            "Iniziare"
           ],
           "answer": 0,
           "pair": {
@@ -1189,8 +1182,8 @@
           "options": [
             "Cappotto",
             "Buonasera",
-            "Di",
-            "Trovare"
+            "Veloce",
+            "Uscire"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1265,8 @@
         },
         {
           "id": "i8l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Montaña\"?",
           "options": [
             "Montagna",
             "Aprire",
@@ -1340,8 +1332,8 @@
           "options": [
             "Ci vediamo",
             "Benvenuto",
-            "Piangere",
-            "Anno"
+            "Cena",
+            "Aprire"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1415,8 @@
         },
         {
           "id": "i8l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Todo\"?",
           "options": [
             "Tutto",
             "Piatto",
@@ -1491,8 +1482,8 @@
           "options": [
             "Orecchio",
             "Ultimo",
-            "Mi scusi",
-            "Giocare"
+            "E",
+            "Aeroporto"
           ],
           "answer": 0,
           "pair": {

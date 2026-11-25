@@ -668,9 +668,8 @@
         },
         {
           "id": "f5l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Corazón\"?",
           "options": [
             "Cœur",
             "Non",
@@ -736,8 +735,8 @@
           "options": [
             "Regarder",
             "Se coucher",
-            "Pouvez-vous m'aider ?",
-            "Je ne sais pas"
+            "Personne",
+            "À bientôt"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "f5l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Libro\"?",
           "options": [
             "Livre",
             "Se",
@@ -887,8 +885,8 @@
           "options": [
             "Aller",
             "Argent",
-            "Grand",
-            "Remplir"
+            "Vin",
+            "Livre"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "f5l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hospital\"?",
           "options": [
             "Hôpital",
             "Devant",
@@ -1038,8 +1035,8 @@
           "options": [
             "Se sentir",
             "Client",
-            "Ce",
-            "Se promener"
+            "Sortir",
+            "Légume"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "f5l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Decir\"?",
           "options": [
             "Dire",
             "Nécessaire",
@@ -1189,8 +1185,8 @@
           "options": [
             "Essayer",
             "Comment",
-            "Parce que",
-            "Sept"
+            "S'habiller",
+            "Fâché"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "f5l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Encantado\"?",
           "options": [
             "Enchanté",
             "Banane",
@@ -1340,8 +1335,8 @@
           "options": [
             "Boire",
             "Dent",
-            "Feu",
-            "Finalement"
+            "Cinquante",
+            "Tôt"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1418,8 @@
         },
         {
           "id": "f5l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vida\"?",
           "options": [
             "Vie",
             "Se",
@@ -1491,8 +1485,8 @@
           "options": [
             "S'appeler",
             "Apprendre",
-            "Essayer",
-            "Combien ça coûte ?"
+            "Lourd",
+            "Vêtement"
           ],
           "answer": 0,
           "pair": {

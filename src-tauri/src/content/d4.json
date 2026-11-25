@@ -517,9 +517,8 @@
         },
         {
           "id": "d4l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ich ___ besorgt",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
             "bin",
             "Glücklich",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vivir\"?",
           "options": [
             "Leben",
             "Haus",
@@ -736,8 +734,8 @@
           "options": [
             "Sauber",
             "Teuer",
-            "Hose",
-            "Weich"
+            "Sohn",
+            "Grün"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Corto\"?",
           "options": [
             "Kurz",
             "Ich",
@@ -887,8 +884,8 @@
           "options": [
             "Haar",
             "Beginnen",
-            "Telefon",
-            "Flugzeug"
+            "Kurz",
+            "Ich verstehe nicht"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d4l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Padres\"?",
           "options": [
             "Eltern",
             "Heute",
@@ -1038,8 +1034,8 @@
           "options": [
             "Malen",
             "Nachmittag",
-            "Träumen",
-            "Hart"
+            "Sonntag",
+            "Heute"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d4l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Persona\"?",
           "options": [
             "Person",
             "Stadt",
@@ -1189,8 +1184,8 @@
           "options": [
             "Dein",
             "Mai",
-            "Acht",
-            "Glas"
+            "Vogel",
+            "Heiß"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mañana\"?",
           "options": [
             "Morgen",
             "Junge",
@@ -1340,8 +1334,8 @@
           "options": [
             "Tür",
             "Fallen",
-            "Sieben",
-            "Laufen"
+            "Morgen",
+            "Junge"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Avión\"?",
           "options": [
             "Flugzeug",
             "Berühren",
@@ -1491,8 +1484,8 @@
           "options": [
             "Steigen",
             "Sie",
-            "Salz",
-            "Weiß"
+            "Donnerstag",
+            "Wahr"
           ],
           "answer": 0,
           "pair": {

@@ -46,9 +46,9 @@
           "prompt": "«聪明» significa…",
           "options": [
             "Inteligente",
-            "Alto",
-            "Guapo",
-            "Joven"
+            "他很高 (tā hěn gāo)",
+            "师 (shī)",
+            "帅 (shuài)"
           ],
           "answer": 0,
           "pair": {
@@ -115,7 +115,7 @@
             "gāo",
             "ǎi",
             "shuài",
-            "le"
+            "高 (gāo)"
           ],
           "answer": 0,
           "pair": {
@@ -222,9 +222,9 @@
           "prompt": "«生气» significa…",
           "options": [
             "Enfadado",
-            "Feliz",
-            "Triste",
-            "Cansado"
+            "生气 (shēngqì)",
+            "开心 (kāixīn)",
+            "没关系 (méi guānxi)"
           ],
           "answer": 0,
           "pair": {
@@ -293,7 +293,7 @@
             "kāixīn",
             "shēngqì",
             "nánguò",
-            "máng"
+            "生气 (shēngqì)"
           ],
           "answer": 0,
           "pair": {
@@ -399,9 +399,9 @@
           "prompt": "«可以» significa…",
           "options": [
             "Poder (permiso)",
-            "Saber hacer",
-            "Querer (deseo)",
-            "Juntos"
+            "我们走吧 (wǒmen zǒu ba)",
+            "想 (xiǎng)",
+            "宜 (yí)"
           ],
           "answer": 0,
           "pair": {
@@ -468,7 +468,7 @@
             "xiǎng",
             "huì",
             "kěyǐ",
-            "shì"
+            "宜 (yí)"
           ],
           "answer": 0,
           "pair": {
@@ -575,9 +575,9 @@
           "prompt": "«没问题» significa…",
           "options": [
             "Sin problema",
-            "No lo entiendo",
-            "Buena suerte",
-            "Cuidado"
+            "很高兴认识你 (hěn gāoxìng rènshi nǐ)",
+            "史 (shǐ)",
+            "请再说一遍 (qǐng zài shuō yíbiàn)"
           ],
           "answer": 0,
           "pair": {
@@ -591,7 +591,7 @@
           "prompt": "¿Cómo pides que hable más lento?",
           "options": [
             "请说慢一点 (qǐng shuō màn yìdiǎn)",
-            "我自己来 (wǒ zìjǐ lái)",
+            "请再说一遍 (qǐng zài shuō yíbiàn)",
             "没问题 (méi wèntí)",
             "祝你好运 (zhù nǐ hǎo yùn)"
           ],
@@ -767,9 +767,8 @@
         },
         {
           "id": "c4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (wǔ)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cinco\"?",
           "options": [
             "五",
             "土豆",
@@ -836,8 +835,8 @@
           "options": [
             "旧 (jiù)",
             "真的吗？(zhēnde ma?)",
-            "还 (hái)",
-            "完全 (wánquán)"
+            "叫 (jiào)",
+            "嘴 (zuǐ)"
           ],
           "answer": 0,
           "pair": {
@@ -919,9 +918,8 @@
         },
         {
           "id": "c4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (hǎi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mar\"?",
           "options": [
             "海",
             "四",
@@ -987,8 +985,8 @@
           "options": [
             "时间 (shíjiān)",
             "洋葱 (yángcōng)",
-            "最后 (zuìhòu)",
-            "香蕉 (xiāngjiāo)"
+            "成为 (chéngwéi)",
+            "海 (hǎi)"
           ],
           "answer": 0,
           "pair": {
@@ -1070,9 +1068,8 @@
         },
         {
           "id": "c4l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (xiāngjiāo)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Banano\"?",
           "options": [
             "香蕉",
             "路",
@@ -1138,8 +1135,8 @@
           "options": [
             "机场 (jīchǎng)",
             "鼻子 (bízi)",
-            "告诉 (gàosu)",
-            "学生 (xuésheng)"
+            "香蕉 (xiāngjiāo)",
+            "请问 (qǐngwèn)"
           ],
           "answer": 0,
           "pair": {
@@ -1289,8 +1286,8 @@
           "options": [
             "吵 (chǎo)",
             "我们 (wǒmen)",
-            "提高 (tígāo)",
-            "腿 (tuǐ)"
+            "我不懂 (wǒ bù dǒng)",
+            "后面 (hòumiàn)"
           ],
           "answer": 0,
           "pair": {
@@ -1372,9 +1369,8 @@
         },
         {
           "id": "c4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (xūyào)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Necesitar\"?",
           "options": [
             "需要",
             "一些",
@@ -1440,8 +1436,8 @@
           "options": [
             "我知道了 (wǒ zhīdào le)",
             "女儿 (nǚ’ér)",
-            "买 (mǎi)",
-            "猪肉 (zhūròu)"
+            "需要 (xūyào)",
+            "健康 (jiànkāng)"
           ],
           "answer": 0,
           "pair": {
@@ -1523,9 +1519,8 @@
         },
         {
           "id": "c4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (hàomǎ)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Número\"?",
           "options": [
             "号码",
             "参观",
@@ -1591,8 +1586,8 @@
           "options": [
             "先 (xiān)",
             "钥匙 (yàoshi)",
-            "楼 (lóu)",
-            "奶酪 (nǎilào)"
+            "同意 (tóngyì)",
+            "旧 (jiù)"
           ],
           "answer": 0,
           "pair": {

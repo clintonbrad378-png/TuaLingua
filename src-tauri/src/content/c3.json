@@ -46,9 +46,9 @@
           "prompt": "«学校» significa…",
           "options": [
             "Escuela",
-            "Hospital",
-            "Tienda",
-            "Parque"
+            "医院 (yīyuàn)",
+            "在 (zài)",
+            "公园 (gōngyuán)"
           ],
           "answer": 0,
           "pair": {
@@ -115,8 +115,8 @@
           "options": [
             "xuéxiào",
             "yīyuàn",
-            "chá",
-            "qián"
+            "我的学校在这儿 (wǒ de xuéxiào zài zhèr)",
+            "公园 (gōngyuán)"
           ],
           "answer": 0,
           "pair": {
@@ -223,9 +223,9 @@
           "prompt": "«地铁» significa…",
           "options": [
             "Metro",
-            "Autobús",
-            "Taxi",
-            "A pie"
+            "坐 (zuò)",
+            "走 (zǒu)",
+            "地铁 (dìtiě)"
           ],
           "answer": 0,
           "pair": {
@@ -241,7 +241,7 @@
             "走 (zǒu)",
             "坐 (zuò)",
             "在 (zài)",
-            "买 (mǎi)"
+            "地铁 (dìtiě)"
           ],
           "answer": 0,
           "pair": {
@@ -291,9 +291,9 @@
           "sentence": "dìtiě __ zài nǎlǐ?",
           "options": [
             "chēzhàn",
-            "gōngyuán",
+            "我们坐地铁去 (wǒmen zuò dìtiě qù)",
             "zǒu",
-            "shāngdiàn"
+            "这 (zhè)"
           ],
           "answer": 0,
           "pair": {
@@ -401,9 +401,9 @@
           "prompt": "«明天» significa…",
           "options": [
             "Mañana",
-            "Ayer",
-            "Hoy",
-            "Ahora"
+            "明天 (míngtiān)",
+            "点 (diǎn)",
+            "今天 (jīntiān)"
           ],
           "answer": 0,
           "pair": {
@@ -419,7 +419,7 @@
             "现在 (xiànzài)",
             "今天 (jīntiān)",
             "昨天 (zuótiān)",
-            "几点 (jǐ diǎn)"
+            "四 (sì)"
           ],
           "answer": 0,
           "pair": {
@@ -579,9 +579,9 @@
           "prompt": "«累» significa…",
           "options": [
             "Cansado",
-            "Ocupado",
-            "Contento",
-            "Dormir"
+            "睡 (shuì)",
+            "早上 (zǎoshang)",
+            "忙 (máng)"
           ],
           "answer": 0,
           "pair": {
@@ -596,8 +596,8 @@
           "options": [
             "晚上 (wǎnshang)",
             "早上 (zǎoshang)",
-            "现在 (xiànzài)",
-            "睡觉 (shuìjiào)"
+            "我每天七点起床 (wǒ měitiān qī diǎn qǐchuáng)",
+            "忙 (máng)"
           ],
           "answer": 0,
           "pair": {
@@ -647,7 +647,7 @@
           "options": [
             "qǐchuáng",
             "shuì",
-            "zǒu",
+            "我每天七点起床 (wǒ měitiān qī diǎn qǐchuáng)",
             "qǐ"
           ],
           "answer": 0,
@@ -664,7 +664,7 @@
           "solution": "我 要 睡觉",
           "distractors": [
             "吃",
-            "妈妈"
+            "我很累 (wǒ hěn lèi)"
           ],
           "pair": {
             "es": "Voy a dormir",
@@ -771,9 +771,8 @@
         },
         {
           "id": "c3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (bīngqílín)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Helado\"?",
           "options": [
             "冰淇淋",
             "轻",
@@ -839,8 +838,8 @@
           "options": [
             "洗 (xǐ)",
             "短 (duǎn)",
-            "电梯 (diàntī)",
-            "能 (néng)"
+            "冰淇淋 (bīngqílín)",
+            "我的中文不好 (wǒ de Zhōngwén bù hǎo)"
           ],
           "answer": 0,
           "pair": {
@@ -922,9 +921,8 @@
         },
         {
           "id": "c3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (ānquán)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Seguro\"?",
           "options": [
             "安全",
             "蔬菜",
@@ -990,8 +988,8 @@
           "options": [
             "认识 (rènshi)",
             "我明白了 (wǒ míngbai le)",
-            "容易 (róngyì)",
-            "已经 (yǐjīng)"
+            "愿意 (yuànyì)",
+            "安全 (ānquán)"
           ],
           "answer": 0,
           "pair": {
@@ -1073,9 +1071,8 @@
         },
         {
           "id": "c3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yīzhí)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Siempre/Continuamente\"?",
           "options": [
             "一直",
             "飞机",
@@ -1142,8 +1139,8 @@
           "options": [
             "汤 (tāng)",
             "加油 (jiāyóu)",
-            "医生 (yīshēng)",
-            "贵 (guì)"
+            "吃 (chī)",
+            "当然可以 (dāngrán kěyǐ)"
           ],
           "answer": 0,
           "pair": {
@@ -1225,9 +1222,8 @@
         },
         {
           "id": "c3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (fāxiàn)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Descubrir\"?",
           "options": [
             "发现",
             "一样",
@@ -1293,8 +1289,8 @@
           "options": [
             "或者 (huòzhě)",
             "请进 (qǐng jìn)",
-            "姐姐 (jiějie)",
-            "事情 (shìqing)"
+            "一样 (yīyàng)",
+            "可乐 (kělè)"
           ],
           "answer": 0,
           "pair": {
@@ -1376,9 +1372,8 @@
         },
         {
           "id": "c3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (wénhuà)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cultura\"?",
           "options": [
             "文化",
             "对面",
@@ -1444,8 +1439,8 @@
           "options": [
             "耳朵 (ěrduo)",
             "快点 (kuài diǎn)",
-            "故事 (gùshi)",
-            "新闻 (xīnwén)"
+            "树 (shù)",
+            "橙子 (chéngzi)"
           ],
           "answer": 0,
           "pair": {
@@ -1527,9 +1522,8 @@
         },
         {
           "id": "c3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (huòzhě)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"O\"?",
           "options": [
             "或者",
             "惊讶",
@@ -1595,8 +1589,8 @@
           "options": [
             "太好了 (tài hǎo le)",
             "到 (dào)",
-            "西班牙 (Xībānyá)",
-            "帮助 (bāngzhù)"
+            "筷子 (kuàizi)",
+            "同事 (tóngshì)"
           ],
           "answer": 0,
           "pair": {

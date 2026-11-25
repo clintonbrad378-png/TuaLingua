@@ -45,9 +45,9 @@
           "prompt": "«Где метро?» significa…",
           "options": [
             "¿Dónde está el metro?",
-            "¿Cuándo viene el metro?",
-            "¿Por qué se cierra el metro?",
-            "¿Cuánto cuesta el metro?"
+            "Остановка",
+            "Это далеко",
+            "Здесь"
           ],
           "answer": 0,
           "pair": {
@@ -107,8 +107,8 @@
           "prompt": "Traduce: «¿Dónde está el metro»",
           "solution": "Где метро?",
           "distractors": [
-            "как",
-            "спасибо"
+            "Это далеко",
+            "Остановка"
           ],
           "pair": {
             "es": "¿Dónde está el metro?",
@@ -121,9 +121,9 @@
           "prompt": "¿Cuál significa «Это далеко»?",
           "options": [
             "Está lejos",
-            "Está cerca",
-            "Está cerrado",
-            "Está roto"
+            "Остановка здесь",
+            "Здесь",
+            "Это близко"
           ],
           "answer": 0,
           "pair": {
@@ -213,9 +213,9 @@
           "prompt": "«Налево» es…",
           "options": [
             "A la izquierda",
-            "A la derecha",
-            "Todo recto",
-            "A la vuelta"
+            "Направо",
+            "Угол",
+            "В десять"
           ],
           "answer": 0,
           "pair": {
@@ -241,13 +241,12 @@
         },
         {
           "id": "r3l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___, потом налево.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Todo recto y después a la izquierda.\"?",
           "options": [
             "Прямо",
-            "Слева",
-            "Стоять"
+            "Направо",
+            "В десять"
           ],
           "answer": 0,
           "pair": {
@@ -276,8 +275,8 @@
           "prompt": "Traduce: «Todo recto»",
           "solution": "Прямо",
           "distractors": [
-            "нельзя",
-            "вам"
+            "Направо",
+            "Угол"
           ],
           "pair": {
             "es": "Todo recto",
@@ -290,9 +289,9 @@
           "prompt": "«В десять» es…",
           "options": [
             "A las diez",
-            "Diez veces",
-            "En la década",
-            "Diez años"
+            "Угол",
+            "Угол, потом прямо",
+            "В десять"
           ],
           "answer": 0,
           "pair": {
@@ -382,9 +381,9 @@
           "prompt": "«Сестра» significa…",
           "options": [
             "Hermana",
-            "Hermano",
-            "Madre",
-            "Abuela"
+            "У меня есть брат и сестра",
+            "У меня есть кот",
+            "Сестра"
           ],
           "answer": 0,
           "pair": {
@@ -410,13 +409,12 @@
         },
         {
           "id": "r3l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ есть кот.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo un gato.\"?",
           "options": [
             "У меня",
             "Я есть",
-            "Мне"
+            "Сестра"
           ],
           "answer": 0,
           "pair": {
@@ -445,8 +443,8 @@
           "prompt": "Traduce: «Tengo un hermano»",
           "solution": "У меня есть брат",
           "distractors": [
-            "нет",
-            "хочу"
+            "У меня есть кот",
+            "Папа"
           ],
           "pair": {
             "es": "Tengo un hermano",
@@ -459,9 +457,9 @@
           "prompt": "«Папа» es…",
           "options": [
             "El papá",
-            "La mamá",
-            "El hijo",
-            "El nieto"
+            "У меня есть кот.",
+            "Сестра",
+            "Моя семья"
           ],
           "answer": 0,
           "pair": {
@@ -549,9 +547,9 @@
           "prompt": "«Вода» significa…",
           "options": [
             "Agua",
-            "Vino",
-            "Leche",
-            "Comida"
+            "Вода",
+            "Я голоден",
+            "Хлеб"
           ],
           "answer": 0,
           "pair": {
@@ -577,13 +575,12 @@
         },
         {
           "id": "r3l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Я очень ___.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo mucha hambre.\"?",
           "options": [
             "голоден",
             "вода",
-            "первый"
+            "Кофе с молоком"
           ],
           "answer": 0,
           "pair": {
@@ -611,7 +608,7 @@
           "prompt": "Traduce: «¡Que aproveche»",
           "solution": "Приятного аппетита!",
           "distractors": [
-            "спасибо",
+            "Кофе с молоком, пожалуйста",
             "вода"
           ],
           "pair": {
@@ -625,9 +622,9 @@
           "prompt": "«Хлеб» es…",
           "options": [
             "Pan",
-            "Café",
-            "Té",
-            "Leche"
+            "Хлеб",
+            "Я очень голоден.",
+            "Кофе с молоком"
           ],
           "answer": 0,
           "pair": {
@@ -732,9 +729,8 @@
         },
         {
           "id": "r3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Viejo\"?",
           "options": [
             "старый",
             "кожа",
@@ -800,8 +796,8 @@
           "options": [
             "весна",
             "чёрный",
-            "радуга",
-            "Если"
+            "Переживать",
+            "Облачный"
           ],
           "answer": 0,
           "pair": {
@@ -883,9 +879,8 @@
         },
         {
           "id": "r3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ir (a pie)\"?",
           "options": [
             "идти",
             "Понимать",
@@ -951,8 +946,8 @@
           "options": [
             "Кто-то",
             "сметана",
-            "кроме того",
-            "Ходить"
+            "Идти",
+            "Уведомление"
           ],
           "answer": 0,
           "pair": {
@@ -1034,9 +1029,8 @@
         },
         {
           "id": "r3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Enfermo\"?",
           "options": [
             "больной",
             "банк",
@@ -1102,8 +1096,8 @@
           "options": [
             "таблетка",
             "тётя",
-            "аптека",
-            "поздно"
+            "Работать",
+            "Метро"
           ],
           "answer": 0,
           "pair": {
@@ -1185,9 +1179,8 @@
         },
         {
           "id": "r3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El depósito\"?",
           "options": [
             "вклад",
             "полёт",
@@ -1253,8 +1246,8 @@
           "options": [
             "Потому что",
             "шарф",
-            "куртка",
-            "Ещё"
+            "Стаж",
+            "Он"
           ],
           "answer": 0,
           "pair": {
@@ -1336,9 +1329,8 @@
         },
         {
           "id": "r3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Los padres\"?",
           "options": [
             "родители",
             "сдавать",
@@ -1404,8 +1396,8 @@
           "options": [
             "Горячий",
             "кухня",
-            "вечер",
-            "подготовиться"
+            "Пить",
+            "Вкусный"
           ],
           "answer": 0,
           "pair": {
@@ -1487,9 +1479,8 @@
         },
         {
           "id": "r3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La sucursal\"?",
           "options": [
             "отделение",
             "Показывать",
@@ -1555,8 +1546,8 @@
           "options": [
             "Рыба",
             "жёлтый",
-            "Строить",
-            "парк"
+            "Успешный",
+            "Показывать"
           ],
           "answer": 0,
           "pair": {

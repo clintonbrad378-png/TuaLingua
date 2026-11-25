@@ -668,13 +668,12 @@
         },
         {
           "id": "u13l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ hair",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pelo\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "The joke",
+            "Bored"
           ],
           "answer": 0,
           "pair": {
@@ -736,8 +735,8 @@
           "options": [
             "bored",
             "I am sorry",
-            "the queue",
-            "to eat breakfast"
+            "Friday",
+            "Create"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "u13l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Esperar\"?",
           "options": [
             "wait",
             "play",
@@ -887,8 +885,8 @@
           "options": [
             "the conversation",
             "there",
-            "mother",
-            "the joy"
+            "Wait",
+            "Job"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "u13l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mitad\"?",
           "options": [
             "half",
             "the",
@@ -1038,8 +1035,8 @@
           "options": [
             "the friend",
             "to like",
-            "teacher",
-            "the ingredient"
+            "Half",
+            "The strawberry"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "u13l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Jugar/tocar\"?",
           "options": [
             "play",
             "the",
@@ -1189,8 +1185,8 @@
           "options": [
             "the face",
             "stand",
-            "watch",
-            "the president"
+            "Ready",
+            "Play"
           ],
           "answer": 0,
           "pair": {
@@ -1272,13 +1268,12 @@
         },
         {
           "id": "u13l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ hand",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La mano\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "The ticket",
+            "Them"
           ],
           "answer": 0,
           "pair": {
@@ -1340,8 +1335,8 @@
           "options": [
             "the ticket",
             "the juice",
-            "the umbrella",
-            "the actor"
+            "The bathroom",
+            "School"
           ],
           "answer": 0,
           "pair": {
@@ -1423,13 +1418,12 @@
         },
         {
           "id": "u13l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ family",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La familia\"?",
           "options": [
             "the",
             "we",
-            "thex"
+            "The wife"
           ],
           "answer": 0,
           "pair": {
@@ -1491,8 +1485,8 @@
           "options": [
             "the class",
             "raise",
-            "or",
-            "level"
+            "The wife",
+            "Place"
           ],
           "answer": 0,
           "pair": {

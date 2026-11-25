@@ -45,9 +45,9 @@
           "prompt": "«Я встаю в семь» significa…",
           "options": [
             "Me levanto a las siete",
-            "Voy a las siete",
-            "Trabajo a las siete",
-            "Duermo a las siete"
+            "В одиннадцать ложусь спать",
+            "Утром я работаю",
+            "Ужинаю в девять"
           ],
           "answer": 0,
           "pair": {
@@ -78,8 +78,8 @@
           "sentence": "Я пью ___ на завтрак.",
           "options": [
             "кофе",
-            "работать",
-            "прямо"
+            "Ужинаю в девять",
+            "Я пью кофе на завтрак"
           ],
           "answer": 0,
           "pair": {
@@ -108,7 +108,7 @@
           "solution": "Я встаю в семь",
           "distractors": [
             "девять",
-            "вечером"
+            "Я пью кофе на завтрак"
           ],
           "pair": {
             "es": "Me levanto a las siete",
@@ -121,9 +121,9 @@
           "prompt": "«Я учу русский каждый день» dice que…",
           "options": [
             "Estudia ruso cada día",
-            "Enseña ruso a otros",
-            "Odio el ruso",
-            "Aprendió ayer"
+            "Я учу русский каждый день",
+            "Ужинаю в девять",
+            "Я встаю в семь"
           ],
           "answer": 0,
           "pair": {
@@ -211,9 +211,9 @@
           "prompt": "«Идёт дождь» significa…",
           "options": [
             "Está lloviendo",
-            "Está nevando",
-            "Hace sol",
-            "Hace viento"
+            "Холодно",
+            "Мне двадцать лет.",
+            "Жарко"
           ],
           "answer": 0,
           "pair": {
@@ -239,13 +239,12 @@
         },
         {
           "id": "r4l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Мне ___ лет.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tengo veinte años.\"?",
           "options": [
             "двадцать",
-            "дважды",
-            "работать"
+            "Солнечно",
+            "Сегодня холодно"
           ],
           "answer": 0,
           "pair": {
@@ -275,7 +274,7 @@
           "solution": "Идёт дождь",
           "distractors": [
             "холодно",
-            "ветер"
+            "Мне двадцать лет."
           ],
           "pair": {
             "es": "Está lloviendo",
@@ -288,9 +287,9 @@
           "prompt": "«Мне двадцать пять лет» significa…",
           "options": [
             "Tengo veinticinco años",
-            "Me faltan veinticinco años",
-            "Tendré veinticinco años",
-            "Vivo hace veinticinco años"
+            "Мне двадцать лет.",
+            "Жарко",
+            "Сегодня холодно"
           ],
           "answer": 0,
           "pair": {
@@ -378,9 +377,9 @@
           "prompt": "«Мне нравится эта книга» significa…",
           "options": [
             "Me gusta este libro",
-            "Este libro es mío",
-            "No tengo este libro",
-            "Debo este libro"
+            "Мне не нравится рано вставать",
+            "Я обожаю музыку",
+            "Мне нравится эта книга"
           ],
           "answer": 0,
           "pair": {
@@ -406,13 +405,12 @@
         },
         {
           "id": "r4l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Я ___ музыку.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Me encanta la música.\"?",
           "options": [
             "люблю",
-            "спасибо",
-            "работаю"
+            "Я люблю музыку.",
+            "Мне не нравится рано вставать"
           ],
           "answer": 0,
           "pair": {
@@ -441,7 +439,7 @@
           "solution": "Я предпочитаю кино",
           "distractors": [
             "скучно",
-            "эту"
+            "Я обожаю музыку"
           ],
           "pair": {
             "es": "Prefiero el cine",
@@ -454,9 +452,9 @@
           "prompt": "«Это скучно» quiere decir…",
           "options": [
             "Es aburrido",
-            "Es interesante",
-            "Es importante",
-            "Es complicado"
+            "Я люблю музыку.",
+            "Я обожаю музыку",
+            "Это скучно"
           ],
           "answer": 0,
           "pair": {
@@ -544,9 +542,9 @@
           "prompt": "«Мне надо работать» significa…",
           "options": [
             "Tengo que trabajar",
-            "Quiero trabajar",
-            "Puedo trabajar",
-            "Ya trabajé"
+            "Договорились",
+            "Что ты будешь делать завтра?",
+            "Я хочу поехать в Москву."
           ],
           "answer": 0,
           "pair": {
@@ -577,8 +575,8 @@
           "sentence": "Я хочу ___ в Москву.",
           "options": [
             "поехать",
-            "давать",
-            "всегда"
+            "Можешь мне помочь",
+            "Встретимся в субботу?"
           ],
           "answer": 0,
           "pair": {
@@ -606,8 +604,8 @@
           "prompt": "Traduce: «Trato hecho»",
           "solution": "Договорились",
           "distractors": [
-            "сейчас",
-            "можно"
+            "Я хочу поехать в Москву",
+            "Что ты будешь делать завтра?"
           ],
           "pair": {
             "es": "Trato hecho",
@@ -620,9 +618,9 @@
           "prompt": "«Что ты будешь делать завтра?» pregunta…",
           "options": [
             "Qué harás mañana",
-            "Qué hiciste ayer",
-            "Cuándo empiezas",
-            "A dónde vas hoy"
+            "Можешь мне помочь",
+            "Встретимся в субботу?",
+            "Можешь мне помочь?"
           ],
           "answer": 0,
           "pair": {
@@ -725,9 +723,8 @@
         },
         {
           "id": "r4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La lámpara\"?",
           "options": [
             "лампа",
             "пельмени",
@@ -793,8 +790,8 @@
           "options": [
             "Мыть",
             "два",
-            "аккаунт",
-            "почта"
+            "Мочь",
+            "Сразу"
           ],
           "answer": 0,
           "pair": {
@@ -876,9 +873,8 @@
         },
         {
           "id": "r4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Encontrar\"?",
           "options": [
             "Находить",
             "Чистить",
@@ -944,8 +940,8 @@
           "options": [
             "слышать",
             "шапка",
-            "жить",
-            "граница"
+            "Сколько это стоит?",
+            "Чистить"
           ],
           "answer": 0,
           "pair": {
@@ -1027,9 +1023,8 @@
         },
         {
           "id": "r4l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La oreja\"?",
           "options": [
             "ухо",
             "мышь",
@@ -1095,8 +1090,8 @@
           "options": [
             "река",
             "весёлый",
-            "прививка",
-            "аудирование"
+            "Помогать",
+            "Имя"
           ],
           "answer": 0,
           "pair": {
@@ -1178,9 +1173,8 @@
         },
         {
           "id": "r4l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Agua\"?",
           "options": [
             "Вода",
             "Открытый",
@@ -1246,8 +1240,8 @@
           "options": [
             "солнце",
             "каша",
-            "жена",
-            "гречка"
+            "Когда",
+            "Перрон"
           ],
           "answer": 0,
           "pair": {
@@ -1329,9 +1323,8 @@
         },
         {
           "id": "r4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Frío\"?",
           "options": [
             "холодный",
             "месяц",
@@ -1397,8 +1390,8 @@
           "options": [
             "Мы",
             "Книга",
-            "ребёнок",
-            "приложение"
+            "Командировка",
+            "Месяц"
           ],
           "answer": 0,
           "pair": {
@@ -1480,9 +1473,8 @@
         },
         {
           "id": "r4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La serpiente\"?",
           "options": [
             "змея",
             "не",
@@ -1548,8 +1540,8 @@
           "options": [
             "автобус",
             "Получать",
-            "солнце",
-            "театр"
+            "Юбка",
+            "Добрый вечер"
           ],
           "answer": 0,
           "pair": {

@@ -46,9 +46,9 @@
           "prompt": "«谢谢» significa…",
           "options": [
             "Gracias",
-            "Adiós",
-            "Perdón",
-            "Hola"
+            "对不起 (duìbuqǐ)",
+            "妈 (mā)",
+            "你好吗 (nǐ hǎo ma)"
           ],
           "answer": 0,
           "pair": {
@@ -118,7 +118,7 @@
             "hǎo",
             "mà",
             "mā",
-            "shì"
+            "对不起 (duìbuqǐ)"
           ],
           "answer": 0,
           "pair": {
@@ -227,9 +227,9 @@
           "prompt": "«我» significa…",
           "options": [
             "Yo",
-            "Tú",
-            "Nombre",
-            "Correcto"
+            "麻 (má)",
+            "你叫什么名字 (nǐ jiào shénme míngzi)",
+            "对 (duì)"
           ],
           "answer": 0,
           "pair": {
@@ -298,7 +298,7 @@
             "míngzi",
             "mā",
             "mà",
-            "shì"
+            "我叫 (wǒ jiào)"
           ],
           "answer": 0,
           "pair": {
@@ -405,9 +405,9 @@
           "prompt": "«妈妈» significa…",
           "options": [
             "Mamá",
-            "Hijo",
-            "Casa",
-            "Hermana menor"
+            "哥哥 (gēge)",
+            "我的爸爸在家 (wǒ de bàba zài jiā)",
+            "儿子 (érzi)"
           ],
           "answer": 0,
           "pair": {
@@ -583,9 +583,9 @@
           "prompt": "«五» significa…",
           "options": [
             "Cinco",
-            "Siete",
-            "Diez",
-            "Dos"
+            "三 (sān)",
+            "一 (yī)",
+            "几个人 (jǐ ge rén)"
           ],
           "answer": 0,
           "pair": {
@@ -654,7 +654,7 @@
             "sān",
             "ì",
             "shì",
-            "liù"
+            "三 (sān)"
           ],
           "answer": 0,
           "pair": {
@@ -776,9 +776,8 @@
         },
         {
           "id": "c1l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (niánqīng)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Joven\"?",
           "options": [
             "年轻",
             "鸡蛋",
@@ -844,8 +843,8 @@
           "options": [
             "盘子 (pánzi)",
             "牛 (niú)",
-            "她 (tā)",
-            "选择 (xuǎnzé)"
+            "千 (qiān)",
+            "问题 (wèntí)"
           ],
           "answer": 0,
           "pair": {
@@ -927,9 +926,8 @@
         },
         {
           "id": "c1l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (tùzi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Conejo\"?",
           "options": [
             "兔子",
             "黑色",
@@ -995,8 +993,8 @@
           "options": [
             "祝你好运 (zhù nǐ hǎoyùn)",
             "哪里 (nǎlǐ)",
-            "买东西 (mǎi dōngxi)",
-            "经常 (jīngcháng)"
+            "盐 (yán)",
+            "水 (shuǐ)"
           ],
           "answer": 0,
           "pair": {
@@ -1078,9 +1076,8 @@
         },
         {
           "id": "c1l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (yīnyuè)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Música\"?",
           "options": [
             "音乐",
             "夏天",
@@ -1146,8 +1143,8 @@
           "options": [
             "特别 (tèbié)",
             "最后 (zuìhòu)",
-            "左边 (zuǒbiān)",
-            "喝 (hē)"
+            "晚 (wǎn)",
+            "音乐 (yīnyuè)"
           ],
           "answer": 0,
           "pair": {
@@ -1229,9 +1226,8 @@
         },
         {
           "id": "c1l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (bīng)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hielo\"?",
           "options": [
             "冰",
             "先生",
@@ -1297,8 +1293,8 @@
           "options": [
             "脚 (jiǎo)",
             "哪里 (nǎlǐ)",
-            "知道 (zhīdào)",
-            "放 (fàng)"
+            "右边 (yòubiān)",
+            "盐 (yán)"
           ],
           "answer": 0,
           "pair": {
@@ -1380,9 +1376,8 @@
         },
         {
           "id": "c1l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (bù)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No\"?",
           "options": [
             "不",
             "自行车",
@@ -1448,8 +1443,8 @@
           "options": [
             "跳舞 (tiàowǔ)",
             "晚上 (wǎnshang)",
-            "难 (nán)",
-            "厕所在哪里？(cèsuǒ zài nǎlǐ?)"
+            "自行车 (zìxíngchē)",
+            "我需要 (wǒ xūyào)"
           ],
           "answer": 0,
           "pair": {
@@ -1531,9 +1526,8 @@
         },
         {
           "id": "c1l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (jiǎo)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pie\"?",
           "options": [
             "脚",
             "月亮",
@@ -1599,8 +1593,8 @@
           "options": [
             "香蕉 (xiāngjiāo)",
             "服务员 (fúwùyuán)",
-            "听 (tīng)",
-            "比如 (bǐrú)"
+            "上班 (shàngbān)",
+            "北 (běi)"
           ],
           "answer": 0,
           "pair": {

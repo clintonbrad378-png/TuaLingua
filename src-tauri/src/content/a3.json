@@ -15,15 +15,15 @@
       "phrases": [
         {
           "es": "¿Dónde está la estación?",
-          "t": "أين المحطة؟ (ayna al-maḥaṭṭa?)"
+          "t": "أين المحطة؟"
         },
         {
           "es": "La farmacia está cerca",
-          "t": "الصيدلية قريبة (aṣ-ṣaydaliyya qarība)"
+          "t": "الصيدلية قريبة"
         },
         {
           "es": "Voy al supermercado",
-          "t": "أذهب إلى السوق (adhhab ilā as-sūq)"
+          "t": "أذهب إلى السوق"
         }
       ],
       "exercises": [
@@ -32,22 +32,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «¿dónde está la estación?»?",
           "options": [
-            "أين المحطة؟ (ayna al-maḥaṭṭa?)",
-            "الصيدلية قريبة (aṣ-ṣaydaliyya qarība)",
-            "أذهب إلى السوق (adhhab ilā as-sūq)",
-            "محطة (maḥaṭṭa)"
+            "أين المحطة؟",
+            "الصيدلية قريبة",
+            "أذهب إلى السوق",
+            "محطة"
           ],
           "answer": 0,
           "pair": {
             "es": "¿Dónde está la estación?",
-            "t": "أين المحطة؟ (ayna al-maḥaṭṭa?)"
+            "t": "أين المحطة؟"
           }
         },
         {
           "id": "a3l1e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "الصيدلية قريبة (aṣ-ṣaydaliyya qarība)",
+          "audio": "الصيدلية قريبة",
           "options": [
             "La farmacia está cerca",
             "Voy al supermercado",
@@ -56,14 +56,14 @@
           "answer": 0,
           "pair": {
             "es": "La farmacia está cerca",
-            "t": "الصيدلية قريبة (aṣ-ṣaydaliyya qarība)"
+            "t": "الصيدلية قريبة"
           }
         },
         {
           "id": "a3l1e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "أذهب ___ السوق (adhhab ilā as-sūq)",
+          "sentence": "أذهب ___ السوق",
           "options": [
             "إلى",
             "محطة",
@@ -72,35 +72,35 @@
           "answer": 0,
           "pair": {
             "es": "Voy al supermercado",
-            "t": "أذهب إلى السوق (adhhab ilā as-sūq)"
+            "t": "أذهب إلى السوق"
           }
         },
         {
           "id": "a3l1e4",
           "type": "build",
           "prompt": "Traduce: «¿Dónde está la estación?»",
-          "solution": "أين المحطة؟ (ayna al-maḥaṭṭa?)",
+          "solution": "أين المحطة؟",
           "distractors": [
             "بنك",
             "حديقة"
           ],
           "pair": {
             "es": "¿Dónde está la estación?",
-            "t": "أين المحطة؟ (ayna al-maḥaṭṭa?)"
+            "t": "أين المحطة؟"
           }
         },
         {
           "id": "a3l1e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «estación»",
-          "solution": "محطة (maḥaṭṭa)",
+          "solution": "محطة",
           "accept": [
-            "محطة (maḥaṭṭa)",
-            "محطة (maḥaṭṭa)"
+            "محطة",
+            "محطة"
           ],
           "pair": {
             "es": "Estación",
-            "t": "محطة (maḥaṭṭa)"
+            "t": "محطة"
           }
         },
         {
@@ -110,15 +110,15 @@
           "pairs": [
             {
               "es": "Estación",
-              "t": "محطة (maḥaṭṭa)"
+              "t": "محطة"
             },
             {
               "es": "Farmacia",
-              "t": "صيدلية (ṣaydaliyya)"
+              "t": "صيدلية"
             },
             {
               "es": "Banco",
-              "t": "بنك (bank)"
+              "t": "بنك"
             }
           ]
         },
@@ -127,22 +127,22 @@
           "type": "choice",
           "prompt": "«Parque» se traduce como...",
           "options": [
-            "حديقة (ḥadīqa)",
-            "محطة (maḥaṭṭa)",
-            "صيدلية (ṣaydaliyya)",
-            "بنك (bank)"
+            "حديقة",
+            "محطة",
+            "صيدلية",
+            "بنك"
           ],
           "answer": 0,
           "pair": {
             "es": "Parque",
-            "t": "حديقة (ḥadīqa)"
+            "t": "حديقة"
           }
         },
         {
           "id": "a3l1e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "أين المحطة؟ (ayna al-maḥaṭṭa?)",
+          "audio": "أين المحطة؟",
           "options": [
             "¿Dónde está la estación?",
             "La farmacia está cerca",
@@ -151,7 +151,7 @@
           "answer": 0,
           "pair": {
             "es": "¿Dónde está la estación?",
-            "t": "أين المحطة؟ (ayna al-maḥaṭṭa?)"
+            "t": "أين المحطة؟"
           }
         }
       ]
@@ -167,15 +167,15 @@
       "phrases": [
         {
           "es": "Un billete para El Cairo",
-          "t": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)"
+          "t": "تذكرة إلى القاهرة"
         },
         {
           "es": "El tren llega tarde",
-          "t": "القطار متأخر (al-qiṭār mutaʾakhkhir)"
+          "t": "القطار متأخر"
         },
         {
           "es": "¿Dónde está la parada?",
-          "t": "أين الموقف؟ (ayna al-mawqif?)"
+          "t": "أين الموقف؟"
         }
       ],
       "exercises": [
@@ -184,22 +184,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «un billete para el cairo»?",
           "options": [
-            "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)",
-            "القطار متأخر (al-qiṭār mutaʾakhkhir)",
-            "أين الموقف؟ (ayna al-mawqif?)",
-            "قطار (qiṭār)"
+            "تذكرة إلى القاهرة",
+            "القطار متأخر",
+            "أين الموقف؟",
+            "قطار"
           ],
           "answer": 0,
           "pair": {
             "es": "Un billete para El Cairo",
-            "t": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)"
+            "t": "تذكرة إلى القاهرة"
           }
         },
         {
           "id": "a3l2e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "القطار متأخر (al-qiṭār mutaʾakhkhir)",
+          "audio": "القطار متأخر",
           "options": [
             "El tren llega tarde",
             "¿Dónde está la parada?",
@@ -208,14 +208,14 @@
           "answer": 0,
           "pair": {
             "es": "El tren llega tarde",
-            "t": "القطار متأخر (al-qiṭār mutaʾakhkhir)"
+            "t": "القطار متأخر"
           }
         },
         {
           "id": "a3l2e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "أين ___ (ayna al-mawqif?)",
+          "sentence": "أين ___",
           "options": [
             "الموقف؟",
             "قطار",
@@ -224,35 +224,35 @@
           "answer": 0,
           "pair": {
             "es": "¿Dónde está la parada?",
-            "t": "أين الموقف؟ (ayna al-mawqif?)"
+            "t": "أين الموقف؟"
           }
         },
         {
           "id": "a3l2e4",
           "type": "build",
           "prompt": "Traduce: «Un billete para El Cairo»",
-          "solution": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)",
+          "solution": "تذكرة إلى القاهرة",
           "distractors": [
             "تذكرة",
             "موقف"
           ],
           "pair": {
             "es": "Un billete para El Cairo",
-            "t": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)"
+            "t": "تذكرة إلى القاهرة"
           }
         },
         {
           "id": "a3l2e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «tren»",
-          "solution": "قطار (qiṭār)",
+          "solution": "قطار",
           "accept": [
-            "قطار (qiṭār)",
-            "قطار (qiṭār)"
+            "قطار",
+            "قطار"
           ],
           "pair": {
             "es": "Tren",
-            "t": "قطار (qiṭār)"
+            "t": "قطار"
           }
         },
         {
@@ -262,15 +262,15 @@
           "pairs": [
             {
               "es": "Tren",
-              "t": "قطار (qiṭār)"
+              "t": "قطار"
             },
             {
               "es": "Autobús",
-              "t": "حافلة (ḥāfila)"
+              "t": "حافلة"
             },
             {
               "es": "Billete",
-              "t": "تذكرة (tadhkara)"
+              "t": "تذكرة"
             }
           ]
         },
@@ -279,22 +279,22 @@
           "type": "choice",
           "prompt": "«Parada» se traduce como...",
           "options": [
-            "موقف (mawqif)",
-            "قطار (qiṭār)",
-            "حافلة (ḥāfila)",
-            "تذكرة (tadhkara)"
+            "موقف",
+            "قطار",
+            "حافلة",
+            "تذكرة"
           ],
           "answer": 0,
           "pair": {
             "es": "Parada",
-            "t": "موقف (mawqif)"
+            "t": "موقف"
           }
         },
         {
           "id": "a3l2e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)",
+          "audio": "تذكرة إلى القاهرة",
           "options": [
             "Un billete para El Cairo",
             "El tren llega tarde",
@@ -303,7 +303,7 @@
           "answer": 0,
           "pair": {
             "es": "Un billete para El Cairo",
-            "t": "تذكرة إلى القاهرة (tadhkara ilā al-Qāhira)"
+            "t": "تذكرة إلى القاهرة"
           }
         }
       ]
@@ -319,15 +319,15 @@
       "phrases": [
         {
           "es": "Gira a la derecha",
-          "t": "انعطف يمينًا (inʿaṭif yamīnan)"
+          "t": "انعطف يمينًا"
         },
         {
           "es": "Sigue recto",
-          "t": "امشِ مباشرة (imshi mubāsharatan)"
+          "t": "امشِ مباشرة"
         },
         {
           "es": "Está cerca de aquí",
-          "t": "إنه قريب من هنا (innahu qarīb min hunā)"
+          "t": "إنه قريب من هنا"
         }
       ],
       "exercises": [
@@ -336,22 +336,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «gira a la derecha»?",
           "options": [
-            "انعطف يمينًا (inʿaṭif yamīnan)",
-            "امشِ مباشرة (imshi mubāsharatan)",
-            "إنه قريب من هنا (innahu qarīb min hunā)",
-            "يمين (yamīn)"
+            "انعطف يمينًا",
+            "امشِ مباشرة",
+            "إنه قريب من هنا",
+            "يمين"
           ],
           "answer": 0,
           "pair": {
             "es": "Gira a la derecha",
-            "t": "انعطف يمينًا (inʿaṭif yamīnan)"
+            "t": "انعطف يمينًا"
           }
         },
         {
           "id": "a3l3e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "امشِ مباشرة (imshi mubāsharatan)",
+          "audio": "امشِ مباشرة",
           "options": [
             "Sigue recto",
             "Está cerca de aquí",
@@ -360,14 +360,14 @@
           "answer": 0,
           "pair": {
             "es": "Sigue recto",
-            "t": "امشِ مباشرة (imshi mubāsharatan)"
+            "t": "امشِ مباشرة"
           }
         },
         {
           "id": "a3l3e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "إنه ___ من هنا (innahu qarīb min hunā)",
+          "sentence": "إنه ___ من هنا",
           "options": [
             "قريب",
             "يمين",
@@ -376,35 +376,35 @@
           "answer": 0,
           "pair": {
             "es": "Está cerca de aquí",
-            "t": "إنه قريب من هنا (innahu qarīb min hunā)"
+            "t": "إنه قريب من هنا"
           }
         },
         {
           "id": "a3l3e4",
           "type": "build",
           "prompt": "Traduce: «Gira a la derecha»",
-          "solution": "انعطف يمينًا (inʿaṭif yamīnan)",
+          "solution": "انعطف يمينًا",
           "distractors": [
             "مباشرة",
             "قريب"
           ],
           "pair": {
             "es": "Gira a la derecha",
-            "t": "انعطف يمينًا (inʿaṭif yamīnan)"
+            "t": "انعطف يمينًا"
           }
         },
         {
           "id": "a3l3e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «derecha»",
-          "solution": "يمين (yamīn)",
+          "solution": "يمين",
           "accept": [
-            "يمين (yamīn)",
-            "يمين (yamīn)"
+            "يمين",
+            "يمين"
           ],
           "pair": {
             "es": "Derecha",
-            "t": "يمين (yamīn)"
+            "t": "يمين"
           }
         },
         {
@@ -414,15 +414,15 @@
           "pairs": [
             {
               "es": "Derecha",
-              "t": "يمين (yamīn)"
+              "t": "يمين"
             },
             {
               "es": "Izquierda",
-              "t": "يسار (yasār)"
+              "t": "يسار"
             },
             {
               "es": "Recto",
-              "t": "مباشرة (mubāsharatan)"
+              "t": "مباشرة"
             }
           ]
         },
@@ -431,22 +431,22 @@
           "type": "choice",
           "prompt": "«Cerca» se traduce como...",
           "options": [
-            "قريب (qarīb)",
-            "يمين (yamīn)",
-            "يسار (yasār)",
-            "مباشرة (mubāsharatan)"
+            "قريب",
+            "يمين",
+            "يسار",
+            "مباشرة"
           ],
           "answer": 0,
           "pair": {
             "es": "Cerca",
-            "t": "قريب (qarīb)"
+            "t": "قريب"
           }
         },
         {
           "id": "a3l3e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "انعطف يمينًا (inʿaṭif yamīnan)",
+          "audio": "انعطف يمينًا",
           "options": [
             "Gira a la derecha",
             "Sigue recto",
@@ -455,7 +455,7 @@
           "answer": 0,
           "pair": {
             "es": "Gira a la derecha",
-            "t": "انعطف يمينًا (inʿaṭif yamīnan)"
+            "t": "انعطف يمينًا"
           }
         }
       ]
@@ -471,15 +471,15 @@
       "phrases": [
         {
           "es": "Tengo una reserva",
-          "t": "لدي حجز (ladayya ḥajz)"
+          "t": "لدي حجز"
         },
         {
           "es": "La llave, por favor",
-          "t": "المفتاح من فضلك (al-miftāḥ min faḍlik)"
+          "t": "المفتاح من فضلك"
         },
         {
           "es": "¿Hay wifi?",
-          "t": "هل يوجد واي فاي؟ (hal yūjad wāy fāy?)"
+          "t": "هل يوجد واي فاي؟"
         }
       ],
       "exercises": [
@@ -488,22 +488,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «tengo una reserva»?",
           "options": [
-            "لدي حجز (ladayya ḥajz)",
-            "المفتاح من فضلك (al-miftāḥ min faḍlik)",
-            "هل يوجد واي فاي؟ (hal yūjad wāy fāy?)",
-            "غرفة (ghurfa)"
+            "لدي حجز",
+            "المفتاح من فضلك",
+            "هل يوجد واي فاي؟",
+            "غرفة"
           ],
           "answer": 0,
           "pair": {
             "es": "Tengo una reserva",
-            "t": "لدي حجز (ladayya ḥajz)"
+            "t": "لدي حجز"
           }
         },
         {
           "id": "a3l4e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "المفتاح من فضلك (al-miftāḥ min faḍlik)",
+          "audio": "المفتاح من فضلك",
           "options": [
             "La llave, por favor",
             "¿Hay wifi?",
@@ -512,14 +512,14 @@
           "answer": 0,
           "pair": {
             "es": "La llave, por favor",
-            "t": "المفتاح من فضلك (al-miftāḥ min faḍlik)"
+            "t": "المفتاح من فضلك"
           }
         },
         {
           "id": "a3l4e3",
           "type": "fill",
           "prompt": "Completa la frase",
-          "sentence": "هل ___ واي فاي؟ (hal yūjad wāy fāy?)",
+          "sentence": "هل ___ واي فاي؟",
           "options": [
             "يوجد",
             "غرفة",
@@ -528,35 +528,35 @@
           "answer": 0,
           "pair": {
             "es": "¿Hay wifi?",
-            "t": "هل يوجد واي فاي؟ (hal yūjad wāy fāy?)"
+            "t": "هل يوجد واي فاي؟"
           }
         },
         {
           "id": "a3l4e4",
           "type": "build",
           "prompt": "Traduce: «Tengo una reserva»",
-          "solution": "لدي حجز (ladayya ḥajz)",
+          "solution": "لدي حجز",
           "distractors": [
             "حجز",
             "استقبال"
           ],
           "pair": {
             "es": "Tengo una reserva",
-            "t": "لدي حجز (ladayya ḥajz)"
+            "t": "لدي حجز"
           }
         },
         {
           "id": "a3l4e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «habitación»",
-          "solution": "غرفة (ghurfa)",
+          "solution": "غرفة",
           "accept": [
-            "غرفة (ghurfa)",
-            "غرفة (ghurfa)"
+            "غرفة",
+            "غرفة"
           ],
           "pair": {
             "es": "Habitación",
-            "t": "غرفة (ghurfa)"
+            "t": "غرفة"
           }
         },
         {
@@ -566,15 +566,15 @@
           "pairs": [
             {
               "es": "Habitación",
-              "t": "غرفة (ghurfa)"
+              "t": "غرفة"
             },
             {
               "es": "Llave",
-              "t": "مفتاح (miftāḥ)"
+              "t": "مفتاح"
             },
             {
               "es": "Reserva",
-              "t": "حجز (ḥajz)"
+              "t": "حجز"
             }
           ]
         },
@@ -583,22 +583,22 @@
           "type": "choice",
           "prompt": "«Recepción» se traduce como...",
           "options": [
-            "استقبال (istiqbāl)",
-            "غرفة (ghurfa)",
-            "مفتاح (miftāḥ)",
-            "حجز (ḥajz)"
+            "استقبال",
+            "غرفة",
+            "مفتاح",
+            "حجز"
           ],
           "answer": 0,
           "pair": {
             "es": "Recepción",
-            "t": "استقبال (istiqbāl)"
+            "t": "استقبال"
           }
         },
         {
           "id": "a3l4e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "لدي حجز (ladayya ḥajz)",
+          "audio": "لدي حجز",
           "options": [
             "Tengo una reserva",
             "La llave, por favor",
@@ -607,7 +607,7 @@
           "answer": 0,
           "pair": {
             "es": "Tengo una reserva",
-            "t": "لدي حجز (ladayya ḥajz)"
+            "t": "لدي حجز"
           }
         }
       ]
@@ -622,15 +622,15 @@
       "phrases": [
         {
           "es": "Puente",
-          "t": "جسر (jisr)"
+          "t": "جسر"
         },
         {
           "es": "Simple",
-          "t": "بسيط (basīṭ)"
+          "t": "بسيط"
         },
         {
           "es": "Necesito",
-          "t": "أحتاج (aḥtāj)"
+          "t": "أحتاج"
         }
       ],
       "exercises": [
@@ -639,22 +639,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Puente»?",
           "options": [
-            "جسر (jisr)",
-            "بسيط (basīṭ)",
-            "أحتاج (aḥtāj)",
-            "هو (huwa)"
+            "جسر",
+            "بسيط",
+            "أحتاج",
+            "هو"
           ],
           "answer": 0,
           "pair": {
             "es": "Puente",
-            "t": "جسر (jisr)"
+            "t": "جسر"
           }
         },
         {
           "id": "a3l5e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "بسيط (basīṭ)",
+          "audio": "بسيط",
           "options": [
             "Simple",
             "Necesito",
@@ -663,14 +663,13 @@
           "answer": 0,
           "pair": {
             "es": "Simple",
-            "t": "بسيط (basīṭ)"
+            "t": "بسيط"
           }
         },
         {
           "id": "a3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (aḥtāj)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Necesito\"?",
           "options": [
             "أحتاج",
             "هو",
@@ -679,35 +678,35 @@
           "answer": 0,
           "pair": {
             "es": "Necesito",
-            "t": "أحتاج (aḥtāj)"
+            "t": "أحتاج"
           }
         },
         {
           "id": "a3l5e4",
           "type": "build",
           "prompt": "Traduce: «Él»",
-          "solution": "هو (huwa)",
+          "solution": "هو",
           "distractors": [
             "جديد",
             "يوم"
           ],
           "pair": {
             "es": "Él",
-            "t": "هو (huwa)"
+            "t": "هو"
           }
         },
         {
           "id": "a3l5e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «nuevo»",
-          "solution": "جديد (jadīd)",
+          "solution": "جديد",
           "accept": [
-            "جديد (jadīd)",
-            "جديد (jadīd)"
+            "جديد",
+            "جديد"
           ],
           "pair": {
             "es": "Nuevo",
-            "t": "جديد (jadīd)"
+            "t": "جديد"
           }
         },
         {
@@ -717,15 +716,15 @@
           "pairs": [
             {
               "es": "Día",
-              "t": "يوم (yawm)"
+              "t": "يوم"
             },
             {
               "es": "Grande",
-              "t": "كبير (kabīr)"
+              "t": "كبير"
             },
             {
               "es": "Mejorar",
-              "t": "حسّن (ḥassana)"
+              "t": "حسّن"
             }
           ]
         },
@@ -734,22 +733,22 @@
           "type": "choice",
           "prompt": "«Cocina» se traduce como...",
           "options": [
-            "مطبخ (maṭbakh)",
-            "طعام (ṭaʿām)",
-            "صديق (ṣadīq)",
-            "مكان (makān)"
+            "مطبخ",
+            "طعام",
+            "أحتاج",
+            "جديد"
           ],
           "answer": 0,
           "pair": {
             "es": "Cocina",
-            "t": "مطبخ (maṭbakh)"
+            "t": "مطبخ"
           }
         },
         {
           "id": "a3l5e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "طعام (ṭaʿām)",
+          "audio": "طعام",
           "options": [
             "Comida",
             "Amigo",
@@ -758,7 +757,7 @@
           "answer": 0,
           "pair": {
             "es": "Comida",
-            "t": "طعام (ṭaʿām)"
+            "t": "طعام"
           }
         }
       ]
@@ -773,15 +772,15 @@
       "phrases": [
         {
           "es": "Termino",
-          "t": "أنهي (unhī)"
+          "t": "أنهي"
         },
         {
           "es": "Cuesta",
-          "t": "أكلف (ukallif)"
+          "t": "أكلف"
         },
         {
           "es": "Importante",
-          "t": "مهم (muhimm)"
+          "t": "مهم"
         }
       ],
       "exercises": [
@@ -790,22 +789,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Termino»?",
           "options": [
-            "أنهي (unhī)",
-            "أكلف (ukallif)",
-            "مهم (muhimm)",
-            "ضحك (ḍaḥika)"
+            "أنهي",
+            "أكلف",
+            "مهم",
+            "ضحك"
           ],
           "answer": 0,
           "pair": {
             "es": "Termino",
-            "t": "أنهي (unhī)"
+            "t": "أنهي"
           }
         },
         {
           "id": "a3l6e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "أكلف (ukallif)",
+          "audio": "أكلف",
           "options": [
             "Cuesta",
             "Importante",
@@ -814,14 +813,13 @@
           "answer": 0,
           "pair": {
             "es": "Cuesta",
-            "t": "أكلف (ukallif)"
+            "t": "أكلف"
           }
         },
         {
           "id": "a3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (muhimm)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Importante\"?",
           "options": [
             "مهم",
             "ضحك",
@@ -830,35 +828,35 @@
           "answer": 0,
           "pair": {
             "es": "Importante",
-            "t": "مهم (muhimm)"
+            "t": "مهم"
           }
         },
         {
           "id": "a3l6e4",
           "type": "build",
           "prompt": "Traduce: «Reír»",
-          "solution": "ضحك (ḍaḥika)",
+          "solution": "ضحك",
           "distractors": [
             "حسنًا",
             "أنسى"
           ],
           "pair": {
             "es": "Reír",
-            "t": "ضحك (ḍaḥika)"
+            "t": "ضحك"
           }
         },
         {
           "id": "a3l6e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «está bien»",
-          "solution": "حسنًا (ḥasanan)",
+          "solution": "حسنًا",
           "accept": [
-            "حسنًا (ḥasanan)",
-            "حسنًا (ḥasanan)"
+            "حسنًا",
+            "حسنًا"
           ],
           "pair": {
             "es": "Está bien",
-            "t": "حسنًا (ḥasanan)"
+            "t": "حسنًا"
           }
         },
         {
@@ -868,15 +866,15 @@
           "pairs": [
             {
               "es": "Olvido",
-              "t": "أنسى (ansā)"
+              "t": "أنسى"
             },
             {
               "es": "Abril",
-              "t": "أبريل (abrīl)"
+              "t": "أبريل"
             },
             {
               "es": "Olvidar",
-              "t": "نسي (nasiya)"
+              "t": "نسي"
             }
           ]
         },
@@ -885,22 +883,22 @@
           "type": "choice",
           "prompt": "«Detrás» se traduce como...",
           "options": [
-            "خلف (khalf)",
-            "أحب (uḥibb)",
-            "مفتاح (miftāḥ)",
-            "فتح (fataḥa)"
+            "خلف",
+            "أحب",
+            "حسنًا",
+            "أنسى"
           ],
           "answer": 0,
           "pair": {
             "es": "Detrás",
-            "t": "خلف (khalf)"
+            "t": "خلف"
           }
         },
         {
           "id": "a3l6e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "أحب (uḥibb)",
+          "audio": "أحب",
           "options": [
             "Amar",
             "Llave",
@@ -909,7 +907,7 @@
           "answer": 0,
           "pair": {
             "es": "Amar",
-            "t": "أحب (uḥibb)"
+            "t": "أحب"
           }
         }
       ]
@@ -924,15 +922,15 @@
       "phrases": [
         {
           "es": "Jugar",
-          "t": "لعب (laʿiba)"
+          "t": "لعب"
         },
         {
           "es": "Cerrado",
-          "t": "مغلق (mughlaq)"
+          "t": "مغلق"
         },
         {
           "es": "Animal",
-          "t": "حيوان (ḥayawān)"
+          "t": "حيوان"
         }
       ],
       "exercises": [
@@ -941,22 +939,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Jugar»?",
           "options": [
-            "لعب (laʿiba)",
-            "مغلق (mughlaq)",
-            "حيوان (ḥayawān)",
-            "أين أنا؟ (ayna anā?)"
+            "لعب",
+            "مغلق",
+            "حيوان",
+            "أين أنا؟"
           ],
           "answer": 0,
           "pair": {
             "es": "Jugar",
-            "t": "لعب (laʿiba)"
+            "t": "لعب"
           }
         },
         {
           "id": "a3l7e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "مغلق (mughlaq)",
+          "audio": "مغلق",
           "options": [
             "Cerrado",
             "Animal",
@@ -965,14 +963,13 @@
           "answer": 0,
           "pair": {
             "es": "Cerrado",
-            "t": "مغلق (mughlaq)"
+            "t": "مغلق"
           }
         },
         {
           "id": "a3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (ḥayawān)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Animal\"?",
           "options": [
             "حيوان",
             "أين",
@@ -981,35 +978,35 @@
           "answer": 0,
           "pair": {
             "es": "Animal",
-            "t": "حيوان (ḥayawān)"
+            "t": "حيوان"
           }
         },
         {
           "id": "a3l7e4",
           "type": "build",
           "prompt": "Traduce: «¿Dónde estoy?»",
-          "solution": "أين أنا؟ (ayna anā?)",
+          "solution": "أين أنا؟",
           "distractors": [
             "ظهر",
             "بنى"
           ],
           "pair": {
             "es": "¿Dónde estoy?",
-            "t": "أين أنا؟ (ayna anā?)"
+            "t": "أين أنا؟"
           }
         },
         {
           "id": "a3l7e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «mediodía»",
-          "solution": "ظهر (ẓuhr)",
+          "solution": "ظهر",
           "accept": [
-            "ظهر (ẓuhr)",
-            "ظهر (ẓuhr)"
+            "ظهر",
+            "ظهر"
           ],
           "pair": {
             "es": "Mediodía",
-            "t": "ظهر (ẓuhr)"
+            "t": "ظهر"
           }
         },
         {
@@ -1019,15 +1016,15 @@
           "pairs": [
             {
               "es": "Construir",
-              "t": "بنى (banā)"
+              "t": "بنى"
             },
             {
               "es": "Familia/Padres",
-              "t": "أهل (ahl)"
+              "t": "أهل"
             },
             {
               "es": "Sucio",
-              "t": "وسخ (wasikh)"
+              "t": "وسخ"
             }
           ]
         },
@@ -1036,22 +1033,22 @@
           "type": "choice",
           "prompt": "«Pagar» se traduce como...",
           "options": [
-            "دفع (dafaʿa)",
-            "عاش (ʿāsha)",
-            "سنة (sana)",
-            "سمح (samaḥa)"
+            "دفع",
+            "عاش",
+            "لعب",
+            "حيوان"
           ],
           "answer": 0,
           "pair": {
             "es": "Pagar",
-            "t": "دفع (dafaʿa)"
+            "t": "دفع"
           }
         },
         {
           "id": "a3l7e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "عاش (ʿāsha)",
+          "audio": "عاش",
           "options": [
             "Vivir",
             "Año",
@@ -1060,7 +1057,7 @@
           "answer": 0,
           "pair": {
             "es": "Vivir",
-            "t": "عاش (ʿāsha)"
+            "t": "عاش"
           }
         }
       ]
@@ -1075,15 +1072,15 @@
       "phrases": [
         {
           "es": "Leer",
-          "t": "قرأ (qaraʾa)"
+          "t": "قرأ"
         },
         {
           "es": "¿Cuánto cuesta?",
-          "t": "كم السعر؟ (kam as-siʿr?)"
+          "t": "كم السعر؟"
         },
         {
           "es": "A/Hacia",
-          "t": "إلى (ilā)"
+          "t": "إلى"
         }
       ],
       "exercises": [
@@ -1092,22 +1089,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Leer»?",
           "options": [
-            "قرأ (qaraʾa)",
-            "كم السعر؟ (kam as-siʿr?)",
-            "إلى (ilā)",
-            "بنت (bint)"
+            "قرأ",
+            "كم السعر؟",
+            "إلى",
+            "بنت"
           ],
           "answer": 0,
           "pair": {
             "es": "Leer",
-            "t": "قرأ (qaraʾa)"
+            "t": "قرأ"
           }
         },
         {
           "id": "a3l8e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "كم السعر؟ (kam as-siʿr?)",
+          "audio": "كم السعر؟",
           "options": [
             "¿Cuánto cuesta?",
             "A/Hacia",
@@ -1116,14 +1113,13 @@
           "answer": 0,
           "pair": {
             "es": "¿Cuánto cuesta?",
-            "t": "كم السعر؟ (kam as-siʿr?)"
+            "t": "كم السعر؟"
           }
         },
         {
           "id": "a3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (ilā)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"A/Hacia\"?",
           "options": [
             "إلى",
             "بنت",
@@ -1132,35 +1128,35 @@
           "answer": 0,
           "pair": {
             "es": "A/Hacia",
-            "t": "إلى (ilā)"
+            "t": "إلى"
           }
         },
         {
           "id": "a3l8e4",
           "type": "build",
           "prompt": "Traduce: «Chica/Niña»",
-          "solution": "بنت (bint)",
+          "solution": "بنت",
           "distractors": [
             "وقت",
             "لا"
           ],
           "pair": {
             "es": "Chica/Niña",
-            "t": "بنت (bint)"
+            "t": "بنت"
           }
         },
         {
           "id": "a3l8e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «tiempo»",
-          "solution": "وقت (waqt)",
+          "solution": "وقت",
           "accept": [
-            "وقت (waqt)",
-            "وقت (waqt)"
+            "وقت",
+            "وقت"
           ],
           "pair": {
             "es": "Tiempo",
-            "t": "وقت (waqt)"
+            "t": "وقت"
           }
         },
         {
@@ -1170,15 +1166,15 @@
           "pairs": [
             {
               "es": "No pasa nada",
-              "t": "لا بأس (lā baʾs)"
+              "t": "لا بأس"
             },
             {
               "es": "Cortar",
-              "t": "قطع (qaṭaʿa)"
+              "t": "قطع"
             },
             {
               "es": "Quién",
-              "t": "من (man)"
+              "t": "من"
             }
           ]
         },
@@ -1187,22 +1183,22 @@
           "type": "choice",
           "prompt": "«Mensaje» se traduce como...",
           "options": [
-            "رسالة (risāla)",
-            "أذن (udhun)",
-            "تشرفنا (tasharrafnā)",
-            "ثلج (thalj)"
+            "رسالة",
+            "أذن",
+            "إلى",
+            "كم السعر؟"
           ],
           "answer": 0,
           "pair": {
             "es": "Mensaje",
-            "t": "رسالة (risāla)"
+            "t": "رسالة"
           }
         },
         {
           "id": "a3l8e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "أذن (udhun)",
+          "audio": "أذن",
           "options": [
             "Oreja",
             "Encantado",
@@ -1211,7 +1207,7 @@
           "answer": 0,
           "pair": {
             "es": "Oreja",
-            "t": "أذن (udhun)"
+            "t": "أذن"
           }
         }
       ]
@@ -1226,15 +1222,15 @@
       "phrases": [
         {
           "es": "No pasa nada",
-          "t": "لا بأس (lā baʾs)"
+          "t": "لا بأس"
         },
         {
           "es": "Canción",
-          "t": "أغنية (ughniya)"
+          "t": "أغنية"
         },
         {
           "es": "Juego",
-          "t": "لعبة (luʿba)"
+          "t": "لعبة"
         }
       ],
       "exercises": [
@@ -1243,22 +1239,22 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «No pasa nada»?",
           "options": [
-            "لا بأس (lā baʾs)",
-            "أغنية (ughniya)",
-            "لعبة (luʿba)",
-            "أتذكر (atadhakkar)"
+            "لا بأس",
+            "أغنية",
+            "لعبة",
+            "أتذكر"
           ],
           "answer": 0,
           "pair": {
             "es": "No pasa nada",
-            "t": "لا بأس (lā baʾs)"
+            "t": "لا بأس"
           }
         },
         {
           "id": "a3l9e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "أغنية (ughniya)",
+          "audio": "أغنية",
           "options": [
             "Canción",
             "Juego",
@@ -1267,14 +1263,13 @@
           "answer": 0,
           "pair": {
             "es": "Canción",
-            "t": "أغنية (ughniya)"
+            "t": "أغنية"
           }
         },
         {
           "id": "a3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (luʿba)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Juego\"?",
           "options": [
             "لعبة",
             "أتذكر",
@@ -1283,35 +1278,35 @@
           "answer": 0,
           "pair": {
             "es": "Juego",
-            "t": "لعبة (luʿba)"
+            "t": "لعبة"
           }
         },
         {
           "id": "a3l9e4",
           "type": "build",
           "prompt": "Traduce: «Recuerdo»",
-          "solution": "أتذكر (atadhakkar)",
+          "solution": "أتذكر",
           "distractors": [
             "أنا",
             "اتصل"
           ],
           "pair": {
             "es": "Recuerdo",
-            "t": "أتذكر (atadhakkar)"
+            "t": "أتذكر"
           }
         },
         {
           "id": "a3l9e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «estoy bien»",
-          "solution": "أنا بخير (anā bikhayr)",
+          "solution": "أنا بخير",
           "accept": [
-            "أنا بخير (anā bikhayr)",
-            "أنا بخير (anā bikhayr)"
+            "أنا بخير",
+            "أنا بخير"
           ],
           "pair": {
             "es": "Estoy bien",
-            "t": "أنا بخير (anā bikhayr)"
+            "t": "أنا بخير"
           }
         },
         {
@@ -1321,15 +1316,15 @@
           "pairs": [
             {
               "es": "Llamar",
-              "t": "اتصل (ittaṣala)"
+              "t": "اتصل"
             },
             {
               "es": "Brazo",
-              "t": "ذراع (dhirāʿ)"
+              "t": "ذراع"
             },
             {
               "es": "Luna",
-              "t": "قمر (qamar)"
+              "t": "قمر"
             }
           ]
         },
@@ -1338,22 +1333,22 @@
           "type": "choice",
           "prompt": "«Cosa/Algo» se traduce como...",
           "options": [
-            "شيء (shayʾ)",
-            "أزرق (azraq)",
-            "تكلم (takallama)",
-            "مكتب (maktab)"
+            "شيء",
+            "أزرق",
+            "قمر",
+            "اتصل"
           ],
           "answer": 0,
           "pair": {
             "es": "Cosa/Algo",
-            "t": "شيء (shayʾ)"
+            "t": "شيء"
           }
         },
         {
           "id": "a3l9e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "أزرق (azraq)",
+          "audio": "أزرق",
           "options": [
             "Azul",
             "Hablar",
@@ -1362,7 +1357,7 @@
           "answer": 0,
           "pair": {
             "es": "Azul",
-            "t": "أزرق (azraq)"
+            "t": "أزرق"
           }
         }
       ]
@@ -1377,15 +1372,15 @@
       "phrases": [
         {
           "es": "Deporte",
-          "t": "رياضة (riyāḍa)"
+          "t": "رياضة"
         },
         {
           "es": "Tú (m)",
-          "t": "أنت (anta)"
+          "t": "أنت"
         },
         {
           "es": "Verdura",
-          "t": "خضار (khuḍār)"
+          "t": "خضار"
         }
       ],
       "exercises": [
@@ -1394,38 +1389,37 @@
           "type": "choice",
           "prompt": "¿Cómo se dice «Deporte»?",
           "options": [
-            "رياضة (riyāḍa)",
-            "أنت (anta)",
-            "خضار (khuḍār)",
-            "أزرق (azraq)"
+            "رياضة",
+            "أنت",
+            "خضار",
+            "أزرق"
           ],
           "answer": 0,
           "pair": {
             "es": "Deporte",
-            "t": "رياضة (riyāḍa)"
+            "t": "رياضة"
           }
         },
         {
           "id": "a3l10e2",
           "type": "listen",
           "prompt": "Escucha y elige la traducción",
-          "audio": "أنت (anta)",
+          "audio": "أنت",
           "options": [
-            "Tú (m)",
+            "Tú",
             "Verdura",
             "Azul"
           ],
           "answer": 0,
           "pair": {
             "es": "Tú (m)",
-            "t": "أنت (anta)"
+            "t": "أنت"
           }
         },
         {
           "id": "a3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (khuḍār)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Verdura\"?",
           "options": [
             "خضار",
             "أزرق",
@@ -1434,35 +1428,35 @@
           "answer": 0,
           "pair": {
             "es": "Verdura",
-            "t": "خضار (khuḍār)"
+            "t": "خضار"
           }
         },
         {
           "id": "a3l10e4",
           "type": "build",
           "prompt": "Traduce: «Azul»",
-          "solution": "أزرق (azraq)",
+          "solution": "أزرق",
           "distractors": [
             "لاحقًا",
             "برتقالي"
           ],
           "pair": {
             "es": "Azul",
-            "t": "أزرق (azraq)"
+            "t": "أزرق"
           }
         },
         {
           "id": "a3l10e5",
           "type": "type",
           "prompt": "Escribe en el idioma destino: «más tarde»",
-          "solution": "لاحقًا (lāḥiqan)",
+          "solution": "لاحقًا",
           "accept": [
-            "لاحقًا (lāḥiqan)",
-            "لاحقًا (lāḥiqan)"
+            "لاحقًا",
+            "لاحقًا"
           ],
           "pair": {
             "es": "Más tarde",
-            "t": "لاحقًا (lāḥiqan)"
+            "t": "لاحقًا"
           }
         },
         {
@@ -1472,15 +1466,15 @@
           "pairs": [
             {
               "es": "Naranja",
-              "t": "برتقالي (burtuqālī)"
+              "t": "برتقالي"
             },
             {
               "es": "Tener (haber en)",
-              "t": "عند (ʿinda)"
+              "t": "عند"
             },
             {
               "es": "Diferente",
-              "t": "مختلف (mukhtalif)"
+              "t": "مختلف"
             }
           ]
         },
@@ -1489,22 +1483,22 @@
           "type": "choice",
           "prompt": "«Decir» se traduce como...",
           "options": [
-            "قال (qāla)",
-            "بعد الظهر (baʿd al-ẓuhr)",
-            "أكل (akala)",
-            "فندق (funduq)"
+            "قال",
+            "بعد الظهر",
+            "رياضة",
+            "عند"
           ],
           "answer": 0,
           "pair": {
             "es": "Decir",
-            "t": "قال (qāla)"
+            "t": "قال"
           }
         },
         {
           "id": "a3l10e8",
           "type": "listen",
           "prompt": "Escucha y elige",
-          "audio": "بعد الظهر (baʿd al-ẓuhr)",
+          "audio": "بعد الظهر",
           "options": [
             "Tarde",
             "Comer",
@@ -1513,7 +1507,7 @@
           "answer": 0,
           "pair": {
             "es": "Tarde",
-            "t": "بعد الظهر (baʿd al-ẓuhr)"
+            "t": "بعد الظهر"
           }
         }
       ]

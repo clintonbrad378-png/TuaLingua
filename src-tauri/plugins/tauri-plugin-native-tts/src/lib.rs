@@ -13,7 +13,7 @@ mod desktop;
 mod mobile;
 
 pub use error::{Error, Result};
-pub use models::{SpeakRequest, TtsStatus, VoiceInfo};
+pub use models::{EngineInfo, SpeakRequest, TtsStatus, VoiceInfo};
 
 #[cfg(not(all(mobile, target_os = "android")))]
 use desktop::NativeTts;
@@ -36,7 +36,8 @@ pub fn init<R: Runtime>() -> TauriPlugin<R> {
             commands::speak,
             commands::stop,
             commands::status,
-            commands::voices
+            commands::voices,
+            commands::engines
         ])
         .setup(|app, api| {
             #[cfg(all(mobile, target_os = "android"))]

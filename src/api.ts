@@ -2,6 +2,7 @@ import { invoke } from "@tauri-apps/api/core";
 import type {
   DictCategory,
   Exercise,
+  LangProfile,
   LanguageInfo,
   Phrase,
   ProgressState,
@@ -35,6 +36,7 @@ export const api = {
     ),
   clearDeck: () => invoke<Phrase[]>("clear_deck"),
   progress: () => invoke<ProgressState>("get_progress"),
+  profile: () => invoke<LangProfile[]>("get_profile"),
   setDailyGoal: (goal: number) =>
     invoke<ProgressState>("set_daily_goal", { goal }),
   completeLesson: (
@@ -90,6 +92,25 @@ export function poolOf(units: Unit[]): Phrase[] {
     }
   }
   return pool;
+}
+
+/** Vocabulario mostrado en la preclase: frases de la lección + todo par usado en ejercicios. */
+export function lessonTeachPhrases(lesson: { phrases: Phrase[]; exercises: Exercise[] }): Phrase[] {
+  const out: Phrase[] = [];
+  const seen = new Set<string>();
+  const push = (p?: Phrase | null) => {
+    if (!p?.t || !p?.es) return;
+    const key = p.t.toLowerCase().trim();
+    if (!key || seen.has(key)) return;
+    seen.add(key);
+    out.push({ es: p.es, t: p.t });
+  };
+  lesson.phrases.forEach(push);
+  for (const ex of lesson.exercises) {
+    push(ex.pair);
+    if (ex.type === "match") ex.pairs.forEach(push);
+  }
+  return out;
 }
 
 export const FLASH_BATCH = 12;

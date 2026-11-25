@@ -61,9 +61,8 @@
         },
         {
           "id": "p7l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ logo",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nos vemos pronto\"?",
           "options": [
             "Até",
             "Amanhã",
@@ -213,9 +212,8 @@
         },
         {
           "id": "p7l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ concordo",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy de acuerdo\"?",
           "options": [
             "Eu",
             "Ideia",
@@ -365,9 +363,8 @@
         },
         {
           "id": "p7l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Eu ___ música",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Escucho música\"?",
           "options": [
             "ouço",
             "Ler",
@@ -491,7 +488,7 @@
             "Você poderia me ajudar?",
             "Claro",
             "Não importa",
-            "Claro"
+            "Talvez"
           ],
           "answer": 0,
           "pair": {
@@ -517,9 +514,8 @@
         },
         {
           "id": "p7l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ importa",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No importa\"?",
           "options": [
             "Não",
             "Claro",
@@ -668,9 +664,8 @@
         },
         {
           "id": "p7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Lo siento\"?",
           "options": [
             "Desculpa",
             "Como",
@@ -736,8 +731,8 @@
           "options": [
             "Água",
             "Tentar",
-            "Calça",
-            "Até mais"
+            "Minuto",
+            "Desculpa"
           ],
           "answer": 0,
           "pair": {
@@ -887,8 +882,8 @@
           "options": [
             "Estou bem",
             "Sopa",
-            "Escola",
-            "Domingo"
+            "Açúcar",
+            "Abrir"
           ],
           "answer": 0,
           "pair": {
@@ -1038,8 +1033,8 @@
           "options": [
             "Parte",
             "Oferecer",
-            "Palavra",
-            "Não sei"
+            "Mensagem",
+            "Abaixo"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "p7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Gris\"?",
           "options": [
             "Cinza",
             "Branco",
@@ -1189,8 +1183,8 @@
           "options": [
             "Leve",
             "Frio",
-            "Ano",
-            "Morrer"
+            "Chorar",
+            "Inverno"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "p7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Clase\"?",
           "options": [
             "Aula",
             "Estou",
@@ -1340,8 +1333,8 @@
           "options": [
             "Pegar",
             "Adicionar",
-            "Remédio",
-            "Simples"
+            "Xícara",
+            "Esvaziar"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "p7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Malo\"?",
           "options": [
             "Mau",
             "Viajar",
@@ -1491,8 +1483,8 @@
           "options": [
             "Trabalho",
             "Fechado",
-            "Dois",
-            "Ela"
+            "Dançar",
+            "Meias"
           ],
           "answer": 0,
           "pair": {

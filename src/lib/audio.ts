@@ -3,9 +3,11 @@ import { langBcp47, langOf } from "./langs";
 
 export type TtsEngine = "auto" | "native" | "web";
 export type TtsVoice = { id: string; name: string; lang: string; default?: boolean; engine: "native" | "web" };
+export type TtsEngineInfo = { id: string; label: string; default?: boolean };
 export type TtsStatus = { available: boolean; engine: "native" | "web" | "none"; error?: string | null };
 
 const ENGINE_KEY = "tl-tts-engine";
+const NATIVE_ENGINE_KEY = "tl-tts-native-engine";
 const VOICE_KEY = "tl-tts-voice";
 const RATE_KEY = "tl-tts-rate";
 
@@ -13,6 +15,7 @@ let ctx: AudioContext | null = null;
 let muted = false;
 let voiceLang = "en";
 let enginePref: TtsEngine = readEngine();
+let nativeEnginePref: string = typeof localStorage !== "undefined" ? localStorage.getItem(NATIVE_ENGINE_KEY) ?? "" : "";
 let voicePref: string = typeof localStorage !== "undefined" ? localStorage.getItem(VOICE_KEY) ?? "" : "";
 let ratePref: number = readRate();
 let lastError: string | null = null;
@@ -69,6 +72,20 @@ export function getTtsEngine(): TtsEngine {
 export function setTtsEngine(v: TtsEngine) {
   enginePref = v;
   if (typeof localStorage !== "undefined") localStorage.setItem(ENGINE_KEY, v);
+  emit();
+}
+
+export function getTtsNativeEngine() {
+  return nativeEnginePref;
+}
+
+export function setTtsNativeEngine(id: string) {
+  nativeEnginePref = id;
+  voicePref = ""; // voice IDs differ across engines
+  if (typeof localStorage !== "undefined") {
+    localStorage.setItem(NATIVE_ENGINE_KEY, id);
+    localStorage.setItem(VOICE_KEY, "");
+  }
   emit();
 }
 
@@ -206,13 +223,26 @@ export async function getNativeTtsStatus(): Promise<TtsStatus> {
   }
 }
 
+export async function listTtsEngines(): Promise<TtsEngineInfo[]> {
+  if (!inTauri) return [];
+  try {
+    const res = await invoke<TtsEngineInfo[] | { engines?: TtsEngineInfo[] }>(
+      "plugin:native-tts|engines",
+    );
+    return Array.isArray(res) ? res : res.engines ?? [];
+  } catch {
+    return [];
+  }
+}
+
 export async function listTtsVoices(): Promise<TtsVoice[]> {
   const out: TtsVoice[] = [];
   if (inTauri) {
     try {
-      const native = await invoke<Array<{ id: string; name: string; lang: string; default?: boolean }> | { voices?: Array<{ id: string; name: string; lang: string; default?: boolean }> }>(
-        "plugin:native-tts|voices",
-      );
+      const native = await invoke<
+        Array<{ id: string; name: string; lang: string; default?: boolean }> |
+        { voices?: Array<{ id: string; name: string; lang: string; default?: boolean }> }
+      >("plugin:native-tts|voices", nativeEnginePref ? { engine: nativeEnginePref } : {});
       const list = Array.isArray(native) ? native : native.voices ?? [];
       for (const v of list) {
         out.push({ ...v, engine: "native" });
@@ -314,6 +344,7 @@ async function speakNative(text: string, rate: number) {
     lang: langBcp47(voiceLang),
     rate,
     voiceId,
+    engine: nativeEnginePref || null,
   });
 }
 

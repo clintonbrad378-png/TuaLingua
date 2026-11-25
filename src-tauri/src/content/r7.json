@@ -45,9 +45,9 @@
           "prompt": "¿Cómo se dice «la junta» (formal)?",
           "options": [
             "совещание",
-            "прогул",
-            "обед",
-            "подвал"
+            "Дедлайн в пятницу",
+            "Совещание переносится на завтра",
+            "Можешь подключиться к звонку?"
           ],
           "answer": 0,
           "pair": {
@@ -61,9 +61,9 @@
           "prompt": "«Командировка» significa:",
           "options": [
             "viaje de trabajo",
-            "vacaciones",
-            "día libre",
-            "jubilación"
+            "Совещание",
+            "Дедлайн в пятницу",
+            "Задержка"
           ],
           "answer": 0,
           "pair": {
@@ -95,8 +95,8 @@
           "sentence": "Я работаю из дома ___ в неделю.",
           "options": [
             "два дня",
-            "двух днях",
-            "двоим дням"
+            "Задержка",
+            "Совещание переносится на завтра"
           ],
           "answer": 0,
           "pair": {
@@ -134,8 +134,8 @@
           "prompt": "Traduce: «El horario flexible mejora la productividad»",
           "solution": "Гибкий график повышает производительность",
           "distractors": [
-            "понижает",
-            "едва"
+            "Командировка",
+            "Руководитель"
           ],
           "pair": {
             "es": "El horario flexible mejora la productividad",
@@ -198,9 +198,9 @@
           "prompt": "«У меня болит голова» significa:",
           "options": [
             "Me duele la cabeza",
-            "Me molesta la luz",
-            "Tengo fiebre alta",
-            "Me duele el estómago"
+            "У меня болит голова",
+            "У меня болит горло и есть температура",
+            "Принимай таблетки после еды"
           ],
           "answer": 0,
           "pair": {
@@ -232,8 +232,8 @@
           "sentence": "Принимай ___ после еды.",
           "options": [
             "таблетки",
-            "таблетку",
-            "по таблетке"
+            "Принимай таблетки после еды",
+            "Кашель"
           ],
           "answer": 0,
           "pair": {
@@ -270,8 +270,8 @@
           "prompt": "Traduce: «La tos empeora por la noche»",
           "solution": "Кашель усиливается ночью",
           "distractors": [
-            "утром",
-            "слабеет"
+            "Аптеки сегодня открыты?",
+            "Принимай таблетки после еды"
           ],
           "pair": {
             "es": "La tos empeora por la noche",
@@ -297,9 +297,9 @@
           "prompt": "«Диагноз меня успокоил» significa:",
           "options": [
             "El diagnóstico me tranquilizó",
-            "El diagnóstico me asustó",
-            "Cambié de diagnóstico",
-            "El diagnóstico tardó mucho"
+            "Аптеки сегодня открыты?",
+            "У меня болит голова",
+            "Температура"
           ],
           "answer": 0,
           "pair": {
@@ -350,9 +350,9 @@
           "prompt": "«Билет туда и обратно» significa:",
           "options": [
             "billete de ida y vuelta",
-            "un asiento solo",
-            "billete de niño",
-            "tarjeta de crédito"
+            "Билет туда и обратно",
+            "Поезд отправляется рано утром",
+            "Вагон"
           ],
           "answer": 0,
           "pair": {
@@ -385,7 +385,7 @@
           "options": [
             "две",
             "два",
-            "двух"
+            "Отель рядом с железнодорожным вокзалом"
           ],
           "answer": 0,
           "pair": {
@@ -423,8 +423,8 @@
           "prompt": "Traduce: «El control de pasaportes dura veinte minutos»",
           "solution": "Паспортный контроль длится двадцать минут",
           "distractors": [
-            "секунды",
-            "вчера"
+            "Вагон",
+            "Багаж"
           ],
           "pair": {
             "es": "El control de pasaportes dura veinte minutos",
@@ -450,9 +450,9 @@
           "prompt": "«Мой чемодан потерялся в пути» significa:",
           "options": [
             "Mi maleta se perdió por el camino",
-            "Mi maleta llegó a tiempo",
-            "Dejé la maleta en el hotel",
-            "La maleta está llena"
+            "Мой чемодан потерялся в пути",
+            "Я забронировал номер на две ночи",
+            "Багаж"
           ],
           "answer": 0,
           "pair": {
@@ -503,9 +503,9 @@
           "prompt": "¿Qué significa «справка»?",
           "options": [
             "certificado",
-            "queja",
-            "firma",
-            "copia"
+            "Подпись",
+            "Заявление",
+            "Анкета"
           ],
           "answer": 0,
           "pair": {
@@ -519,9 +519,9 @@
           "prompt": "«Ваше заявление отклонили» significa:",
           "options": [
             "Su solicitud fue rechazada",
-            "Su solicitud fue aprobada",
-            "Hemos enviado su solicitud",
-            "Su solicitud sigue en trámite"
+            "Подпись",
+            "Копия документа",
+            "Приложи копии документов"
           ],
           "answer": 0,
           "pair": {
@@ -548,13 +548,12 @@
         },
         {
           "id": "r7l4e4",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Анкета заполняется ___.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El formulario se rellena con bolígrafo\"?",
           "options": [
             "ручкой",
-            "ручка",
-            "по ручке"
+            "Приложи копии документов",
+            "Ваше заявление отклонили"
           ],
           "answer": 0,
           "pair": {
@@ -592,8 +591,8 @@
           "prompt": "Traduce: «La cita es el lunes a las diez»",
           "solution": "Приём в понедельник в десять часов",
           "distractors": [
-            "в пятницу",
-            "дважды"
+            "Анкета заполняется ручкой",
+            "Где здесь надо расписаться?"
           ],
           "pair": {
             "es": "La cita es el lunes a las diez",
@@ -671,9 +670,8 @@
         },
         {
           "id": "r7l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Construir\"?",
           "options": [
             "Строить",
             "родители",
@@ -739,8 +737,8 @@
           "options": [
             "Много",
             "Отвечать",
-            "история",
-            "Усталый"
+            "Сердце",
+            "Строить"
           ],
           "answer": 0,
           "pair": {
@@ -822,9 +820,8 @@
         },
         {
           "id": "r7l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Interesante\"?",
           "options": [
             "интересный",
             "Использовать",
@@ -890,8 +887,8 @@
           "options": [
             "видеть",
             "Терять",
-            "туча",
-            "Ответ"
+            "Сумка",
+            "Родители"
           ],
           "answer": 0,
           "pair": {
@@ -973,9 +970,8 @@
         },
         {
           "id": "r7l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El abuelo\"?",
           "options": [
             "дедушка",
             "неделя",
@@ -1041,8 +1037,8 @@
           "options": [
             "ошибка",
             "змея",
-            "зонт",
-            "тем не менее"
+            "Неделя",
+            "Дедушка"
           ],
           "answer": 0,
           "pair": {
@@ -1124,9 +1120,8 @@
         },
         {
           "id": "r7l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"No\"?",
           "options": [
             "Нет",
             "корова",
@@ -1192,8 +1187,8 @@
           "options": [
             "где здесь туалет?",
             "сдавать",
-            "сложный",
-            "дверь"
+            "Писать",
+            "Паспорт"
           ],
           "answer": 0,
           "pair": {
@@ -1275,9 +1270,8 @@
         },
         {
           "id": "r7l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Té\"?",
           "options": [
             "Чай",
             "влажный",
@@ -1343,8 +1337,8 @@
           "options": [
             "ресторан",
             "Есть",
-            "снегопад",
-            "дождь"
+            "Весёлый",
+            "Хороший"
           ],
           "answer": 0,
           "pair": {
@@ -1426,9 +1420,8 @@
         },
         {
           "id": "r7l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Árbol\"?",
           "options": [
             "Дерево",
             "Цветок",
@@ -1494,8 +1487,8 @@
           "options": [
             "Место",
             "десять",
-            "Там",
-            "курица"
+            "Утро",
+            "Поликлиника"
           ],
           "answer": 0,
           "pair": {

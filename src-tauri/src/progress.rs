@@ -129,6 +129,16 @@ pub struct ProgressState {
     pub history: Vec<DayXp>,
 }
 
+#[derive(Serialize, Deserialize, Clone)]
+pub struct LangProfile {
+    pub lang: String,
+    pub words_learned: u32,
+    pub srs_count: u32,
+    pub due_count: u32,
+    pub deck_count: u32,
+    pub lessons_done: u32,
+}
+
 /// Igual que [`ProgressState`] pero con referencias, para serializar el
 /// snapshot sin clonar el mapa de lecciones (la ruta caliente de IPC).
 #[derive(Serialize)]
@@ -208,6 +218,21 @@ fn card_key(lang: &str, es: &str, t: &str) -> String {
         es.trim().to_lowercase(),
         t.trim().to_lowercase()
     )
+}
+
+fn lesson_lang(id: &str) -> Option<&'static str> {
+    let b = id.as_bytes().first().copied()? as char;
+    Some(match b {
+        'u' => "en",
+        'r' => "ru",
+        'c' => "zh",
+        'f' => "fr",
+        'a' => "ar",
+        'd' => "de",
+        'p' => "pt",
+        'i' => "it",
+        _ => return None,
+    })
 }
 
 fn level_needed(level: u32) -> u32 {
@@ -592,6 +617,32 @@ impl Db {
             lang: &self.lang,
             history: self.history_window(),
         }
+    }
+
+    pub fn profile(&self) -> Vec<LangProfile> {
+        let mut langs: Vec<String> = crate::catalog::languages().iter().map(|l| l.id.clone()).collect();
+        // include any langs present in data but not in catalog
+        for c in self.srs.values() {
+            if !langs.iter().any(|l| l == &c.lang) { langs.push(c.lang.clone()); }
+        }
+        for c in &self.deck {
+            if !langs.iter().any(|l| l == &c.lang) { langs.push(c.lang.clone()); }
+        }
+        let mut out = Vec::new();
+        for lang in langs {
+            let words_learned = self.words_learned(&lang);
+            let srs_count = self.srs.values().filter(|c| c.lang == lang).count() as u32;
+            let due_count = {
+                let t = today().to_string();
+                self.srs.values().filter(|c| c.lang == lang && c.due <= t).count() as u32
+            };
+            let deck_count = self.deck.iter().filter(|c| c.lang == lang).count() as u32;
+            let lessons_done = self.lessons.iter().filter(|(id, lp)| lp.stars > 0 && lesson_lang(id).as_deref() == Some(lang.as_str())).count() as u32;
+            let active = words_learned > 0 || srs_count > 0 || deck_count > 0 || lessons_done > 0 || self.lang == lang;
+            if !active { continue; }
+            out.push(LangProfile { lang, words_learned, srs_count, due_count, deck_count, lessons_done });
+        }
+        out
     }
 
     pub fn session(

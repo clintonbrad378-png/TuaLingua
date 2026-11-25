@@ -1,3 +1,7 @@
+export function stripLatinParens(s: string): string {
+  return s.replace(/\s*\([^)]*[A-Za-z][^)]*\)/g, "").replace(/\s{2,}/g, " ").trim();
+}
+
 export function normalize(s: string): string {
   return s
     .toLowerCase()
@@ -6,6 +10,10 @@ export function normalize(s: string): string {
     .replace(/[¿?¡!.,;:«»"“”'’]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+export function normalizeAnswer(s: string): string {
+  return normalize(stripLatinParens(s));
 }
 
 export function mulberry32(seed: number) {

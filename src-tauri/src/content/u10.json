@@ -36,7 +36,7 @@
           "options": [
             "was",
             "were",
-            "did"
+            "Is used"
           ],
           "answer": 0,
           "pair": {
@@ -67,7 +67,7 @@
           "prompt": "Traduce: «Estos teléfonos se fabrican en China»",
           "solution": "These phones are made in China",
           "distractors": [
-            "making",
+            "Is used",
             "was"
           ],
           "pair": {
@@ -112,7 +112,7 @@
           "options": [
             "is",
             "was",
-            "has"
+            "This bridge was built in 1890."
           ],
           "answer": 0,
           "pair": {
@@ -177,8 +177,8 @@
           "sentence": "She said she ___ tired.",
           "options": [
             "was",
-            "is",
-            "were"
+            "They said they would come later",
+            "Told me"
           ],
           "answer": 0,
           "pair": {
@@ -194,7 +194,7 @@
           "options": [
             "told",
             "said",
-            "talked"
+            "He told me he was busy."
           ],
           "answer": 0,
           "pair": {
@@ -209,8 +209,8 @@
           "prompt": "Traduce: «Dijo que llegaría pronto»",
           "solution": "He said he would arrive soon",
           "distractors": [
-            "will",
-            "arrives"
+            "She told me she had lived in Canada",
+            "He told me he was busy."
           ],
           "pair": {
             "es": "Dijo que llegaría pronto",
@@ -254,8 +254,8 @@
           "prompt": "«I am happy» → He said he ___ happy.",
           "options": [
             "was",
-            "is",
-            "be"
+            "He said he was tired",
+            "Told me"
           ],
           "answer": 0,
           "pair": {
@@ -336,7 +336,7 @@
           "prompt": "If we had left earlier, we ___ the train.",
           "options": [
             "wouldn't have missed",
-            "wouldn't miss",
+            "I would have gone",
             "hadn't missed"
           ],
           "answer": 0,
@@ -352,8 +352,8 @@
           "prompt": "Traduce: «Si hubiera sabido la respuesta, te la habría dicho»",
           "solution": "If I had known the answer I would have told you",
           "distractors": [
-            "knew",
-            "will"
+            "If she had studied more, she would have passed.",
+            "If I had known, I would have helped."
           ],
           "pair": {
             "es": "Si hubiera sabido la respuesta, te la habría dicho",
@@ -397,7 +397,7 @@
           "prompt": "I ___ have called you if I had known.",
           "options": [
             "would",
-            "will",
+            "I would have gone",
             "had"
           ],
           "answer": 0,
@@ -486,7 +486,7 @@
           "sentence": "We had to ___ the meeting until Friday.",
           "options": [
             "put off",
-            "put on",
+            "Bring up",
             "put out"
           ],
           "answer": 0,
@@ -502,8 +502,8 @@
           "prompt": "She ___ a brilliant idea.",
           "options": [
             "came up with",
-            "came across",
-            "came back"
+            "According to the report, sales have increased.",
+            "We need a new idea: can you come up with something?"
           ],
           "answer": 0,
           "pair": {
@@ -518,8 +518,8 @@
           "prompt": "Traduce: «Investigarán el problema pronto»",
           "solution": "They will look into the problem soon",
           "distractors": [
-            "looking",
-            "after"
+            "We are going to put off the meeting",
+            "We need a new idea: can you come up with something?"
           ],
           "pair": {
             "es": "Investigarán el problema pronto",
@@ -561,7 +561,7 @@
           "prompt": "The war ___ out in 1939.",
           "options": [
             "broke",
-            "took",
+            "We had to put off the meeting until Friday.",
             "put"
           ],
           "answer": 0,
@@ -629,9 +629,8 @@
         },
         {
           "id": "u10l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pocos\"?",
           "options": [
             "few",
             "week",
@@ -697,8 +696,8 @@
           "options": [
             "the recipe",
             "to work",
-            "to fry",
-            "face"
+            "Door",
+            "The letter (alphabet)"
           ],
           "answer": 0,
           "pair": {
@@ -780,13 +779,12 @@
         },
         {
           "id": "u10l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "the ___ machine",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El cajero automático\"?",
           "options": [
             "cash",
             "the",
-            "cashx"
+            "The website"
           ],
           "answer": 0,
           "pair": {
@@ -848,8 +846,8 @@
           "options": [
             "the website",
             "the class",
-            "the petrol station",
-            "the mother"
+            "The living room",
+            "The party"
           ],
           "answer": 0,
           "pair": {
@@ -931,9 +929,8 @@
         },
         {
           "id": "u10l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Sí\"?",
           "options": [
             "yes",
             "most",
@@ -999,8 +996,8 @@
           "options": [
             "to draw",
             "to chat",
-            "the turtle",
-            "the dessert"
+            "The hand",
+            "Man"
           ],
           "answer": 0,
           "pair": {
@@ -1082,9 +1079,8 @@
         },
         {
           "id": "u10l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Delicioso\"?",
           "options": [
             "delicious",
             "on",
@@ -1150,8 +1146,8 @@
           "options": [
             "the cloud",
             "the ticket",
-            "again",
-            "the guitar"
+            "The surprise",
+            "Yesterday"
           ],
           "answer": 0,
           "pair": {
@@ -1233,13 +1229,12 @@
         },
         {
           "id": "u10l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ wind",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El viento\"?",
           "options": [
             "the",
             "Where",
-            "thex"
+            "The memory"
           ],
           "answer": 0,
           "pair": {
@@ -1301,8 +1296,8 @@
           "options": [
             "together",
             "to turn",
-            "find",
-            "how"
+            "The office",
+            "The wind"
           ],
           "answer": 0,
           "pair": {
@@ -1384,9 +1379,8 @@
         },
         {
           "id": "u10l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ bread",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El pan\"?",
           "options": [
             "the",
             "some",
@@ -1452,8 +1446,8 @@
           "options": [
             "to invite",
             "low",
-            "love",
-            "the beach"
+            "Seem",
+            "Come"
           ],
           "answer": 0,
           "pair": {

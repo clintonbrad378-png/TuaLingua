@@ -517,9 +517,8 @@
         },
         {
           "id": "f4l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Je ___ inquiet",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy preocupado\"?",
           "options": [
             "suis",
             "Heureux",
@@ -668,9 +667,8 @@
         },
         {
           "id": "f4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Jueves\"?",
           "options": [
             "Jeudi",
             "Visage",
@@ -736,8 +734,8 @@
           "options": [
             "Il",
             "Rire",
-            "Perdre",
-            "Rivière"
+            "Jeudi",
+            "Au revoir"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "f4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Sobre todo\"?",
           "options": [
             "Surtout",
             "Chapeau",
@@ -887,8 +884,8 @@
           "options": [
             "Prêt",
             "Hôtel",
-            "Ordinateur",
-            "Dehors"
+            "Gauche",
+            "Loin"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "f4l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Maleta\"?",
           "options": [
             "Valise",
             "Naître",
@@ -1038,8 +1034,8 @@
           "options": [
             "Moi",
             "Garçon",
-            "Arrêter",
-            "Bleu"
+            "Bientôt",
+            "Soir"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "f4l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Soñar\"?",
           "options": [
             "Rêver",
             "Personne",
@@ -1189,8 +1184,8 @@
           "options": [
             "Doux",
             "Doigt",
-            "Proche",
-            "Jour"
+            "Restaurant",
+            "Froid"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "f4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mantequilla\"?",
           "options": [
             "Beurre",
             "Année",
@@ -1340,8 +1334,8 @@
           "options": [
             "Bien sûr",
             "Vendredi",
-            "Pareil",
-            "Février"
+            "Trouver",
+            "Bonsoir"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "f4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estación\"?",
           "options": [
             "Gare",
             "Que",
@@ -1491,8 +1484,8 @@
           "options": [
             "Rien",
             "Seconde",
-            "Dehors",
-            "Avril"
+            "Garçon",
+            "Pays"
           ],
           "answer": 0,
           "pair": {

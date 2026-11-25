@@ -668,9 +668,8 @@
         },
         {
           "id": "r9l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Claro\"?",
           "options": [
             "конечно",
             "Мы",
@@ -736,8 +735,8 @@
           "options": [
             "стул",
             "искать",
-            "розовый",
-            "Цветок"
+            "Платить",
+            "Мало"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "r9l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Luego\"?",
           "options": [
             "потом",
             "дождь",
@@ -887,8 +885,8 @@
           "options": [
             "улица",
             "граница",
-            "Открытый",
-            "быстрый"
+            "Наверное",
+            "Счёт"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "r9l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Fuera\"?",
           "options": [
             "Снаружи",
             "Может",
@@ -1038,8 +1035,8 @@
           "options": [
             "скачать",
             "полиция",
-            "рука",
-            "змея"
+            "Играть",
+            "Снаружи"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "r9l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El cero\"?",
           "options": [
             "ноль",
             "Усталый",
@@ -1189,8 +1185,8 @@
           "options": [
             "Уже",
             "утро",
-            "ехать",
-            "внук"
+            "Усталый",
+            "Сын"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "r9l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bueno\"?",
           "options": [
             "хороший",
             "багаж",
@@ -1340,8 +1335,8 @@
           "options": [
             "симптом",
             "успешный",
-            "Или",
-            "настроение"
+            "Хороший",
+            "Всё"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1418,8 @@
         },
         {
           "id": "r9l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El verano\"?",
           "options": [
             "лето",
             "окно",
@@ -1491,8 +1485,8 @@
           "options": [
             "Книга",
             "лёгкий",
-            "сообщение",
-            "пробка"
+            "Кожа",
+            "Дешёвый"
           ],
           "answer": 0,
           "pair": {

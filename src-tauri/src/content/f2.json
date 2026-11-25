@@ -213,9 +213,8 @@
         },
         {
           "id": "f2l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ délicieux",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Está delicioso\"?",
           "options": [
             "C'est",
             "Eau",
@@ -517,9 +516,8 @@
         },
         {
           "id": "f2l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Il ___ beau",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hace buen tiempo\"?",
           "options": [
             "fait",
             "Soleil",
@@ -668,9 +666,8 @@
         },
         {
           "id": "f2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bonito\"?",
           "options": [
             "Beau",
             "Mer",
@@ -736,8 +733,8 @@
           "options": [
             "Huit",
             "Ciel",
-            "Content",
-            "Dimanche"
+            "Mer",
+            "Fatigué"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +816,8 @@
         },
         {
           "id": "f2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Querer\"?",
           "options": [
             "Vouloir",
             "Fleur",
@@ -887,8 +883,8 @@
           "options": [
             "Arbre",
             "Toi",
-            "Mon",
-            "Couper"
+            "Vouloir",
+            "Fleur"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "f2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Esta/Esa\"?",
           "options": [
             "Cette",
             "Tête",
@@ -1038,8 +1033,8 @@
           "options": [
             "Faux",
             "Gauche",
-            "Client",
-            "Améliorer"
+            "Cette",
+            "Là"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "f2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pronto\"?",
           "options": [
             "Bientôt",
             "Oiseau",
@@ -1189,8 +1183,8 @@
           "options": [
             "Entrer",
             "Voisin",
-            "Orange",
-            "Commencer"
+            "Rêver",
+            "À bientôt"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "f2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cinco\"?",
           "options": [
             "Cinq",
             "Quelque",
@@ -1340,8 +1333,8 @@
           "options": [
             "Hôpital",
             "Expliquer",
-            "Sale",
-            "Assez"
+            "Croire",
+            "Rouge"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "f2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Viernes\"?",
           "options": [
             "Vendredi",
             "Bière",
@@ -1491,8 +1483,8 @@
           "options": [
             "Janvier",
             "Amie",
-            "Possible",
-            "Pardon"
+            "Vendredi",
+            "Bière"
           ],
           "answer": 0,
           "pair": {

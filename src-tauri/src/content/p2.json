@@ -736,8 +736,8 @@
           "options": [
             "Pouco",
             "Talvez",
-            "Esperar",
-            "Tudo bem"
+            "Mau",
+            "Pássaro"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +819,8 @@
         },
         {
           "id": "p2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Febrero\"?",
           "options": [
             "Fevereiro",
             "Avó",
@@ -887,8 +886,8 @@
           "options": [
             "Quente",
             "Não",
-            "Explicar",
-            "Pouco"
+            "Escritório",
+            "Frio"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +969,8 @@
         },
         {
           "id": "p2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Puente\"?",
           "options": [
             "Ponte",
             "Aeroporto",
@@ -1038,8 +1036,8 @@
           "options": [
             "Estar",
             "Universidade",
-            "Frequentemente",
-            "Peixe"
+            "Ponte",
+            "Aeroporto"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1119,8 @@
         },
         {
           "id": "p2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Siete\"?",
           "options": [
             "Sete",
             "Pássaro",
@@ -1189,8 +1186,8 @@
           "options": [
             "E-mail",
             "Feliz",
-            "Subir",
-            "Computador"
+            "Rir",
+            "Pássaro"
           ],
           "answer": 0,
           "pair": {
@@ -1340,8 +1337,8 @@
           "options": [
             "Perna",
             "Rua",
-            "Peixe",
-            "Tarde"
+            "Cantar",
+            "Norte"
           ],
           "answer": 0,
           "pair": {
@@ -1491,8 +1488,8 @@
           "options": [
             "Pedir",
             "Vir",
-            "Alguém",
-            "Hospital"
+            "Chuva",
+            "Atrás"
           ],
           "answer": 0,
           "pair": {

@@ -1,6 +1,6 @@
 use tauri::{command, AppHandle, Runtime};
 
-use crate::models::{SpeakRequest, TtsStatus, VoiceInfo};
+use crate::models::{EngineInfo, SpeakRequest, TtsStatus, VoiceInfo};
 use crate::{NativeTtsExt, Result};
 
 #[command]
@@ -10,6 +10,7 @@ pub(crate) async fn speak<R: Runtime>(
     lang: Option<String>,
     rate: Option<f64>,
     voice_id: Option<String>,
+    engine: Option<String>,
 ) -> Result<()> {
     app.native_tts()
         .speak(SpeakRequest {
@@ -17,6 +18,7 @@ pub(crate) async fn speak<R: Runtime>(
             lang,
             rate,
             voice_id,
+            engine,
         })
         .await
 }
@@ -32,6 +34,14 @@ pub(crate) async fn status<R: Runtime>(app: AppHandle<R>) -> Result<TtsStatus> {
 }
 
 #[command]
-pub(crate) async fn voices<R: Runtime>(app: AppHandle<R>) -> Result<Vec<VoiceInfo>> {
-    app.native_tts().voices().await
+pub(crate) async fn voices<R: Runtime>(
+    app: AppHandle<R>,
+    engine: Option<String>,
+) -> Result<Vec<VoiceInfo>> {
+    app.native_tts().voices(engine).await
+}
+
+#[command]
+pub(crate) async fn engines<R: Runtime>(app: AppHandle<R>) -> Result<Vec<EngineInfo>> {
+    app.native_tts().engines().await
 }

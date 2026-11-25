@@ -371,7 +371,7 @@
           "options": [
             "Урок",
             "Экзамен",
-            "ok"
+            "Ответ"
           ],
           "answer": 0,
           "pair": {
@@ -668,9 +668,8 @@
         },
         {
           "id": "r11l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ зовут...",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Me llamo...\"?",
           "options": [
             "Меня",
             "парк",
@@ -736,8 +735,8 @@
           "options": [
             "уволить",
             "Место",
-            "весёлый",
-            "старый"
+            "Друг",
+            "Парк"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "r11l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cielo\"?",
           "options": [
             "Небо",
             "Привет",
@@ -887,8 +885,8 @@
           "options": [
             "интересный",
             "с удовольствием",
-            "видеть",
-            "Такой же"
+            "Сдача",
+            "Лес"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "r11l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El sentimiento\"?",
           "options": [
             "чувство",
             "медведь",
@@ -1038,8 +1035,8 @@
           "options": [
             "учиться",
             "вчера",
-            "язык",
-            "снег"
+            "Слышать",
+            "Заплатить"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "r11l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El suéter\"?",
           "options": [
             "свитер",
             "абонемент",
@@ -1189,8 +1185,8 @@
           "options": [
             "месяц",
             "курица",
-            "голубой",
-            "трамвай"
+            "Дядя",
+            "Слушать"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "r11l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cambiar\"?",
           "options": [
             "Менять",
             "дом",
@@ -1340,8 +1335,8 @@
           "options": [
             "Когда",
             "скидка",
-            "палец",
-            "Книга"
+            "Остановка",
+            "Менять"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1418,8 @@
         },
         {
           "id": "r11l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El depósito\"?",
           "options": [
             "вклад",
             "подготовиться",
@@ -1491,8 +1485,8 @@
           "options": [
             "пробовать",
             "Имя",
-            "Это",
-            "Или"
+            "Осмотр",
+            "Перрон"
           ],
           "answer": 0,
           "pair": {

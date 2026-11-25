@@ -213,9 +213,8 @@
         },
         {
           "id": "f3l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Où ___ l'arrêt ?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Dónde está la parada?\"?",
           "options": [
             "est",
             "Train",
@@ -365,9 +364,8 @@
         },
         {
           "id": "f3l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "C'est ___ d'ici",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Está cerca de aquí\"?",
           "options": [
             "près",
             "Droite",
@@ -668,9 +666,8 @@
         },
         {
           "id": "f3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cielo\"?",
           "options": [
             "Ciel",
             "Devenir",
@@ -736,8 +733,8 @@
           "options": [
             "Numéro",
             "Surtout",
-            "Poulet",
-            "Facile"
+            "À demain",
+            "Spécial"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +816,8 @@
         },
         {
           "id": "f3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pollo\"?",
           "options": [
             "Poulet",
             "Idée",
@@ -887,8 +883,8 @@
           "options": [
             "Voyager",
             "Comprendre",
-            "Écrire",
-            "Je ne sais pas"
+            "Mardi",
+            "Là"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +966,8 @@
         },
         {
           "id": "f3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Treinta\"?",
           "options": [
             "Trente",
             "Doigt",
@@ -1038,8 +1033,8 @@
           "options": [
             "Pouvoir",
             "Mai",
-            "Parlez-vous anglais ?",
-            "Bonsoir"
+            "Juillet",
+            "Doigt"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1116,8 @@
         },
         {
           "id": "f3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Aquí\"?",
           "options": [
             "Ici",
             "Décider",
@@ -1189,8 +1183,8 @@
           "options": [
             "Septembre",
             "Visage",
-            "Fleur",
-            "Monter"
+            "Bientôt",
+            "Recevoir"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1266,8 @@
         },
         {
           "id": "f3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pagar\"?",
           "options": [
             "Payer",
             "Partie",
@@ -1340,8 +1333,8 @@
           "options": [
             "Petit",
             "Client",
-            "Boire",
-            "Thé"
+            "Blanc",
+            "Valise"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1416,8 @@
         },
         {
           "id": "f3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Lleno\"?",
           "options": [
             "Plein",
             "Chaise",
@@ -1491,8 +1483,8 @@
           "options": [
             "Gagner",
             "Propre",
-            "Arriver",
-            "Large"
+            "Dos",
+            "Plein"
           ],
           "answer": 0,
           "pair": {

@@ -33,9 +33,9 @@
           "prompt": "«Mi piace la pizza» significa…",
           "options": [
             "Me gusta la pizza",
-            "Quiero pizza",
-            "Hago pizza",
-            "Veo pizza"
+            "Amo",
+            "Mi piace la pizza",
+            "Mi piace"
           ],
           "answer": 0,
           "pair": {
@@ -66,8 +66,8 @@
           "sentence": "Mi ___ la musica.",
           "options": [
             "piace",
-            "piacciono",
-            "piaci"
+            "Musica",
+            "Preferisco il tè"
           ],
           "answer": 0,
           "pair": {
@@ -81,8 +81,8 @@
           "prompt": "Traduce: «Prefiero el té»",
           "solution": "Preferisco il tè",
           "distractors": [
-            "caffè",
-            "acqua"
+            "Non mi piace",
+            "Mi piace la pizza"
           ],
           "pair": {
             "es": "Prefiero el té",
@@ -134,7 +134,7 @@
             "Non mi piace",
             "Mi piace",
             "Preferisco",
-            "Voglio"
+            "Mi piace la pizza"
           ],
           "answer": 0,
           "pair": {
@@ -144,13 +144,12 @@
         },
         {
           "id": "i4l1e8",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ il tè.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Prefiero el té\"?",
           "options": [
             "Preferisco",
-            "Preferisci",
-            "Preferisce"
+            "Musica",
+            "Mi piace la musica"
           ],
           "answer": 0,
           "pair": {
@@ -189,9 +188,9 @@
           "prompt": "«Sto imparando l'italiano» significa…",
           "options": [
             "Estoy aprendiendo italiano",
-            "Hablo italiano perfecto",
-            "Enseño italiano",
-            "Olvido italiano"
+            "Perché",
+            "Imparare",
+            "Studio perché mi piace"
           ],
           "answer": 0,
           "pair": {
@@ -217,12 +216,11 @@
         },
         {
           "id": "i4l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Sto ___ l'italiano.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy aprendiendo italiano\"?",
           "options": [
             "imparando",
-            "imparo",
+            "Sto imparando l'italiano",
             "imparare"
           ],
           "answer": 0,
@@ -238,7 +236,7 @@
           "solution": "Studio perché mi piace",
           "distractors": [
             "lavoro",
-            "domani"
+            "Lavoro in un ufficio"
           ],
           "pair": {
             "es": "Estudio porque me gusta",
@@ -288,9 +286,9 @@
           "prompt": "«Perché» se usa para…",
           "options": [
             "explicar la razón",
-            "preguntar la hora",
-            "saludar",
-            "pedir comida"
+            "Capire",
+            "Studio perché mi piace",
+            "Lavoro in un ufficio"
           ],
           "answer": 0,
           "pair": {
@@ -305,8 +303,8 @@
           "sentence": "Lavoro in un ___",
           "options": [
             "ufficio",
-            "stazione",
-            "bagno"
+            "Perché",
+            "Lavoro in un ufficio"
           ],
           "answer": 0,
           "pair": {
@@ -345,9 +343,9 @@
           "prompt": "«Ti va di prendere un caffè?» es…",
           "options": [
             "¿Te apetece tomar un café?",
-            "¿Quieres vender un café?",
-            "¿Dónde está el café?",
-            "¿Cuánto cuesta el café?"
+            "Ci vediamo alle otto",
+            "Va bene!",
+            "Certo!"
           ],
           "answer": 0,
           "pair": {
@@ -378,8 +376,8 @@
           "sentence": "Ci vediamo alle ___",
           "options": [
             "otto",
-            "sei",
-            "nove"
+            "Va bene!",
+            "Forse"
           ],
           "answer": 0,
           "pair": {
@@ -444,9 +442,9 @@
           "prompt": "Para aceptar un plan puedes decir…",
           "options": [
             "Va bene!",
-            "Non capisco",
-            "È lontano",
-            "Troppo caro"
+            "Insieme",
+            "Stasera",
+            "Certo!"
           ],
           "answer": 0,
           "pair": {
@@ -461,8 +459,8 @@
           "sentence": "Ti ___ di prendere un caffè?",
           "options": [
             "va",
-            "vai",
-            "vado"
+            "Certo",
+            "Insieme"
           ],
           "answer": 0,
           "pair": {
@@ -501,9 +499,9 @@
           "prompt": "«Ho visitato Roma» significa…",
           "options": [
             "He visitado Roma",
-            "Visitaré Roma",
-            "Vivo en Roma",
-            "Estoy en Roma"
+            "È stata una bella esperienza",
+            "Voglio tornare",
+            "Esperienza"
           ],
           "answer": 0,
           "pair": {
@@ -529,13 +527,12 @@
         },
         {
           "id": "i4l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ho ___ Roma.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"He visitado Roma\"?",
           "options": [
             "visitato",
-            "visito",
-            "visitare"
+            "Voglio tornare",
+            "Esperienza"
           ],
           "answer": 0,
           "pair": {
@@ -549,8 +546,8 @@
           "prompt": "Traduce: «Quiero volver»",
           "solution": "Voglio tornare",
           "distractors": [
-            "partire",
-            "mangiare"
+            "Esperienza",
+            "È stata una bella esperienza"
           ],
           "pair": {
             "es": "Quiero volver",
@@ -600,9 +597,9 @@
           "prompt": "«È stata una bella esperienza» expresa…",
           "options": [
             "una experiencia positiva",
-            "una dirección",
-            "un precio",
-            "una hora"
+            "Esperienza",
+            "Ieri",
+            "Ho visitato Roma"
           ],
           "answer": 0,
           "pair": {
@@ -617,8 +614,8 @@
           "sentence": "È stata una bella ___",
           "options": [
             "esperienza",
-            "stazione",
-            "chiave"
+            "Viaggio",
+            "Ho visitato Roma"
           ],
           "answer": 0,
           "pair": {
@@ -684,9 +681,8 @@
         },
         {
           "id": "i4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Decidir\"?",
           "options": [
             "Decidere",
             "Piacere",
@@ -752,8 +748,8 @@
           "options": [
             "Giardino",
             "Vestito",
-            "Chiedere",
-            "Facile"
+            "Per favore",
+            "Piacere"
           ],
           "answer": 0,
           "pair": {
@@ -835,9 +831,8 @@
         },
         {
           "id": "i4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Largo\"?",
           "options": [
             "Lungo",
             "lavorare",
@@ -903,8 +898,8 @@
           "options": [
             "Sale",
             "Ho sete",
-            "Falso",
-            "Verde"
+            "Lì",
+            "Lungo"
           ],
           "answer": 0,
           "pair": {
@@ -1054,8 +1049,8 @@
           "options": [
             "Dove",
             "Stanco",
-            "Mano",
-            "camera"
+            "Senza",
+            "Vino"
           ],
           "answer": 0,
           "pair": {
@@ -1137,9 +1132,8 @@
         },
         {
           "id": "i4l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Octubre\"?",
           "options": [
             "Ottobre",
             "centro",
@@ -1205,8 +1199,8 @@
           "options": [
             "Con",
             "Mi piace",
-            "Guardare",
-            "Calze"
+            "Ottobre",
+            "Momento"
           ],
           "answer": 0,
           "pair": {
@@ -1288,9 +1282,8 @@
         },
         {
           "id": "i4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Pantalla\"?",
           "options": [
             "Schermo",
             "Cielo",
@@ -1356,8 +1349,8 @@
           "options": [
             "Disegnare",
             "Scusa",
-            "mai",
-            "Scendere"
+            "Pomeriggio",
+            "Zero"
           ],
           "answer": 0,
           "pair": {
@@ -1439,9 +1432,8 @@
         },
         {
           "id": "i4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vivir\"?",
           "options": [
             "Vivere",
             "Scuola",
@@ -1507,8 +1499,8 @@
           "options": [
             "Salute!",
             "Mi scusi",
-            "Insegnare",
-            "Frutta"
+            "Pensare",
+            "Dove"
           ],
           "answer": 0,
           "pair": {

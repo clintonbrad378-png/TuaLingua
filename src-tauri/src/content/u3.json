@@ -56,9 +56,9 @@
           "prompt": "«Chicken» es…",
           "options": [
             "pollo",
-            "queso",
-            "carne",
-            "pescado"
+            "I like coffee.",
+            "Apple",
+            "I like cheese"
           ],
           "answer": 0,
           "pair": {
@@ -84,13 +84,12 @@
         },
         {
           "id": "u3l1e4",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "I ___ coffee.",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Me gusta el café.\"?",
           "options": [
             "like",
-            "likes",
-            "liking"
+            "Bread",
+            "I would like some water, please"
           ],
           "answer": 0,
           "pair": {
@@ -118,8 +117,8 @@
           "prompt": "Traduce: «Me gusta el queso»",
           "solution": "I like cheese",
           "distractors": [
-            "likes",
-            "the"
+            "Chicken",
+            "Rice"
           ],
           "pair": {
             "es": "Me gusta el queso",
@@ -132,9 +131,9 @@
           "prompt": "«I'm hungry» significa…",
           "options": [
             "Tengo hambre",
-            "Tengo sed",
-            "Estoy cansado",
-            "Quiero cocinar"
+            "Tea",
+            "Rice",
+            "Milk"
           ],
           "answer": 0,
           "pair": {
@@ -149,7 +148,7 @@
           "options": [
             "Table",
             "Rice",
-            "Egg",
+            "Do you want water?",
             "Bread"
           ],
           "answer": 0,
@@ -192,7 +191,7 @@
             "The bill, please",
             "The menu, please",
             "A table, please",
-            "The ticket, please"
+            "Can I have the menu, please?"
           ],
           "answer": 0,
           "pair": {
@@ -223,7 +222,7 @@
           "prompt": "Traduce: «Quisiera un café, por favor»",
           "solution": "I would like a coffee please",
           "distractors": [
-            "want",
+            "Knife",
             "the"
           ],
           "pair": {
@@ -238,8 +237,8 @@
           "sentence": "Can I have the ___, please?",
           "options": [
             "menu",
-            "letter",
-            "paper"
+            "I would like a coffee, please",
+            "Delicious"
           ],
           "answer": 0,
           "pair": {
@@ -268,9 +267,9 @@
           "prompt": "«It's delicious» significa…",
           "options": [
             "Está delicioso",
-            "Está frío",
-            "Está picante",
-            "Es caro"
+            "Table",
+            "Knife",
+            "I would like a coffee"
           ],
           "answer": 0,
           "pair": {
@@ -308,7 +307,7 @@
           "sentence": "___ you have a table for two?",
           "options": [
             "Do",
-            "Are",
+            "Do you have a table for two?",
             "Have"
           ],
           "answer": 0,
@@ -372,9 +371,9 @@
           "prompt": "«Breakfast» es…",
           "options": [
             "desayuno",
-            "cena",
-            "postre",
-            "comida"
+            "Breakfast",
+            "Lunch",
+            "I have breakfast at eight"
           ],
           "answer": 0,
           "pair": {
@@ -405,8 +404,8 @@
           "sentence": "I ___ dinner at nine.",
           "options": [
             "have",
-            "eat",
-            "take"
+            "Eggs and toast",
+            "Lunch"
           ],
           "answer": 0,
           "pair": {
@@ -434,8 +433,8 @@
           "prompt": "Traduce: «Desayuno a las ocho»",
           "solution": "I have breakfast at eight",
           "distractors": [
-            "eat",
-            "in"
+            "I have dinner at nine",
+            "Snack"
           ],
           "pair": {
             "es": "Desayuno a las ocho",
@@ -448,9 +447,9 @@
           "prompt": "«I'm thirsty» significa…",
           "options": [
             "Tengo sed",
-            "Tengo hambre",
-            "Estoy cansado",
-            "Quiero dormir"
+            "Dinner",
+            "I have dinner at nine",
+            "I have lunch at two"
           ],
           "answer": 0,
           "pair": {
@@ -464,8 +463,8 @@
           "prompt": "¿Qué se desayuna normalmente? Elige en inglés:",
           "options": [
             "Eggs and toast",
-            "Steak and salad",
-            "Soup and rice"
+            "Snack",
+            "I have breakfast at eight"
           ],
           "answer": 0,
           "pair": {
@@ -505,9 +504,9 @@
           "prompt": "«I don't eat meat» significa…",
           "options": [
             "No como carne",
-            "No me gusta la carne",
-            "No quiero carne hoy",
-            "Como poca carne"
+            "I'm vegetarian",
+            "Spicy",
+            "I prefer"
           ],
           "answer": 0,
           "pair": {
@@ -537,7 +536,7 @@
           "options": [
             "don't",
             "no",
-            "not"
+            "Spicy"
           ],
           "answer": 0,
           "pair": {
@@ -552,8 +551,8 @@
           "prompt": "Traduce: «¿Es picante?»",
           "solution": "Is it spicy",
           "distractors": [
-            "Does",
-            "hot"
+            "I don't eat meat",
+            "Healthy"
           ],
           "pair": {
             "es": "¿Es picante?",
@@ -582,9 +581,9 @@
           "prompt": "«Sweet» y «salty» son…",
           "options": [
             "dulce y salado",
-            "salado y dulce",
-            "ácido y dulce",
-            "picante y dulce"
+            "I prefer",
+            "I'm vegetarian",
+            "I don't eat meat"
           ],
           "answer": 0,
           "pair": {
@@ -621,9 +620,9 @@
           "prompt": "«I prefer tea» significa…",
           "options": [
             "Prefiero el té",
-            "Odio el té",
-            "Quiero té",
-            "No quiero té"
+            "I'm vegetarian",
+            "I don't eat meat.",
+            "Salty"
           ],
           "answer": 0,
           "pair": {
@@ -689,9 +688,8 @@
         },
         {
           "id": "u3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Quizás\"?",
           "options": [
             "maybe",
             "big",
@@ -757,8 +755,8 @@
           "options": [
             "most",
             "See you later!",
-            "the hope",
-            "the movie"
+            "Have",
+            "Walk"
           ],
           "answer": 0,
           "pair": {
@@ -840,13 +838,12 @@
         },
         {
           "id": "u3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ market",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El mercado\"?",
           "options": [
             "the",
             "reason",
-            "thex"
+            "The dog"
           ],
           "answer": 0,
           "pair": {
@@ -908,8 +905,8 @@
           "options": [
             "half",
             "name",
-            "the traffic light",
-            "July"
+            "To drive",
+            "Level"
           ],
           "answer": 0,
           "pair": {
@@ -991,9 +988,8 @@
         },
         {
           "id": "u3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ father",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El padre\"?",
           "options": [
             "the",
             "hiking",
@@ -1059,8 +1055,8 @@
           "options": [
             "the cheese",
             "free",
-            "lot",
-            "feel"
+            "Important",
+            "The teacher"
           ],
           "answer": 0,
           "pair": {
@@ -1210,8 +1206,8 @@
           "options": [
             "you are welcome",
             "How are you?",
-            "him",
-            "find"
+            "Just",
+            "Could you repeat that?"
           ],
           "answer": 0,
           "pair": {
@@ -1293,13 +1289,12 @@
         },
         {
           "id": "u3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mucho/lote\"?",
           "options": [
             "lot",
             "the",
-            "lotx"
+            "The map"
           ],
           "answer": 0,
           "pair": {
@@ -1361,8 +1356,8 @@
           "options": [
             "to spend",
             "the earth",
-            "the doctor",
-            "nine"
+            "The police",
+            "The series"
           ],
           "answer": 0,
           "pair": {
@@ -1444,9 +1439,8 @@
         },
         {
           "id": "u3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ winter",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El invierno\"?",
           "options": [
             "the",
             "every",
@@ -1512,8 +1506,8 @@
           "options": [
             "a lot",
             "and",
-            "to understand",
-            "create"
+            "Every day",
+            "Sour"
           ],
           "answer": 0,
           "pair": {

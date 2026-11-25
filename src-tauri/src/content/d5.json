@@ -61,9 +61,8 @@
         },
         {
           "id": "d5l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ich ___ Arbeit",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Busco trabajo\"?",
           "options": [
             "suche",
             "Lehrer",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d5l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Izquierda\"?",
           "options": [
             "Links",
             "Offen",
@@ -736,8 +734,8 @@
           "options": [
             "Sonntag",
             "Tee",
-            "Träumen",
-            "Wirklich"
+            "Milch",
+            "Offen"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d5l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Sábado\"?",
           "options": [
             "Samstag",
             "Frei",
@@ -887,8 +884,8 @@
           "options": [
             "Ich spreche ein bisschen Deutsch",
             "Mai",
-            "Sechs",
-            "Dein"
+            "Normalerweise",
+            "Erzählen"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d5l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Té\"?",
           "options": [
             "Tee",
             "Fast",
@@ -1038,8 +1034,8 @@
           "options": [
             "Bezahlen",
             "Vier",
-            "Kalt",
-            "Gehen"
+            "Fast",
+            "Teil"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d5l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Farmacia\"?",
           "options": [
             "Apotheke",
             "Jahr",
@@ -1189,8 +1184,8 @@
           "options": [
             "Können Sie das wiederholen?",
             "Park",
-            "Jeder",
-            "Sonntag"
+            "Bis bald",
+            "Blau"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d5l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Domingo\"?",
           "options": [
             "Sonntag",
             "Bereit",
@@ -1340,8 +1334,8 @@
           "options": [
             "Zehn",
             "Steigen",
-            "Und",
-            "Füllen"
+            "Draußen",
+            "Bus"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d5l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Beber\"?",
           "options": [
             "Trinken",
             "Wählen",
@@ -1491,8 +1484,8 @@
           "options": [
             "Frühling",
             "Zwei",
-            "Brücke",
-            "Und"
+            "Zimmer",
+            "Problem"
           ],
           "answer": 0,
           "pair": {

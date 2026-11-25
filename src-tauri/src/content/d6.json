@@ -517,9 +517,8 @@
         },
         {
           "id": "d6l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Ich ___ gut",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
             "schlafe",
             "Sport",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d6l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Marzo\"?",
           "options": [
             "März",
             "Schlafen",
@@ -736,8 +734,8 @@
           "options": [
             "Abend",
             "Tschüss",
-            "Banane",
-            "Lächeln"
+            "Viel Glück",
+            "Haus"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d6l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Café\"?",
           "options": [
             "Kaffee",
             "Glas",
@@ -887,8 +884,8 @@
           "options": [
             "Milch",
             "Prüfung",
-            "Sie",
-            "Traurig"
+            "Zeit",
+            "Kaffee"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d6l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ Dank",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Muchas gracias\"?",
           "options": [
             "Vielen",
             "Benutzen",
@@ -1038,8 +1034,8 @@
           "options": [
             "Teuer",
             "Herz",
-            "Junge",
-            "Trinken"
+            "Normal",
+            "Vielen Dank"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d6l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Flor\"?",
           "options": [
             "Blume",
             "Universität",
@@ -1189,8 +1184,8 @@
           "options": [
             "Auf Wiedersehen",
             "Bitte",
-            "Draußen",
-            "Hose"
+            "Blume",
+            "Ich verstehe nicht"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d6l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Primero\"?",
           "options": [
             "Erster",
             "Guten",
@@ -1340,8 +1334,8 @@
           "options": [
             "Farbe",
             "Wählen",
-            "Montag",
-            "Wie geht's?"
+            "Warum",
+            "Acht"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d6l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Palabra\"?",
           "options": [
             "Wort",
             "Zeichnen",
@@ -1491,8 +1484,8 @@
           "options": [
             "Danke",
             "Computer",
-            "Hallo",
-            "Erzählen"
+            "Denken",
+            "Karte"
           ],
           "answer": 0,
           "pair": {

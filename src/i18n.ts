@@ -165,6 +165,12 @@ const ES: Table = {
   "f.remove": "Quitar del mazo",
   "f.clear": "Vaciar mazo",
   "f.confirm": "¿Seguro? Toca otra vez",
+  "f.custom_add": "Añadir palabra propia",
+  "f.custom_es": "Español",
+  "f.custom_t": "Palabra / frase",
+  "f.custom_save": "Guardar",
+  "f.custom_cancel": "Cancelar",
+  "f.custom_err": "Completa ambos campos",
   "f.reveal": "Toca para ver la palabra",
   "f.listen_btn": "Escuchar",
   "f.prev": "Anterior",
@@ -180,6 +186,9 @@ const ES: Table = {
   "unit.lesson_one": "lección",
   "unit.lesson_many": "lecciones",
   "st.title": "Tu progreso",
+  "st.profile": "Perfil",
+  "st.profile_current": "Idioma actual",
+  "st.lessons_short": "lecciones",
   "st.level_short": "Nv {n}",
   "st.xp_total": "XP total",
   "st.streak": "Racha actual",
@@ -215,22 +224,23 @@ const ES: Table = {
   "st.tts_engine_auto": "Auto",
   "st.tts_engine_native": "Nativo",
   "st.tts_engine_web": "Web",
+  "st.tts_native_engine": "Motor del sistema",
+  "st.tts_engine_default": "Predeterminado del sistema",
   "st.tts_voice": "Voz",
   "st.tts_voice_default": "Predeterminada",
   "st.tts_rate": "Velocidad",
   "st.tts_test": "Probar voz",
-  "st.tts_hint": "En Android usa el motor del sistema. En Windows/desktop usa voz nativa o Web Speech según disponibilidad.",
+  "st.tts_hint": "En Android puedes elegir el motor del sistema (ej. Google o Samsung) y sus voces. En desktop usa voz nativa/Web Speech según disponibilidad.",
   "st.tts_error": "Error TTS",
   "st.xp_trend": "Tendencia de XP (90 días)",
   "st.cal_legend": "Niveles de actividad",
   "st.total_lessons": "Lecciones completadas",
   "s.grade": "Grado de precisión",
 
-  // Bienvenida (primer uso)
-  "w.title": "¡Bienvenido!",
-  "w.text":
-    "Aprende idiomas desde el español con ejercicios prácticos, audio flexible y un enfoque en crear frases útiles.",
-  "w.start": "¡Empezar a estudiar!",
+  // Bienvenida / onboarding (primer uso)
+  "w.title": "¿Qué idioma quieres aprender?",
+  "w.text": "Elige un idioma para empezar. Podrás cambiarlo después desde la pantalla principal.",
+  "w.start": "Empezar",
 };
 
 const EN: Table = {
@@ -373,6 +383,12 @@ const EN: Table = {
   "f.remove": "Remove from deck",
   "f.clear": "Clear deck",
   "f.confirm": "Sure? Tap again",
+  "f.custom_add": "Add your own word",
+  "f.custom_es": "Spanish",
+  "f.custom_t": "Word / phrase",
+  "f.custom_save": "Save",
+  "f.custom_cancel": "Cancel",
+  "f.custom_err": "Fill in both fields",
   "f.reveal": "Tap to reveal the word",
   "f.listen_btn": "Listen",
   "f.prev": "Previous",
@@ -385,6 +401,9 @@ const EN: Table = {
   "f.card_many": "cards",
 
   "st.title": "Your progress",
+  "st.profile": "Profile",
+  "st.profile_current": "Current language",
+  "st.lessons_short": "lessons",
   "unit.lesson_one": "lesson",
   "unit.lesson_many": "lessons",
   "st.level_short": "Lv {n}",
@@ -422,22 +441,23 @@ const EN: Table = {
   "st.tts_engine_auto": "Auto",
   "st.tts_engine_native": "Native",
   "st.tts_engine_web": "Web",
+  "st.tts_native_engine": "System engine",
+  "st.tts_engine_default": "System default",
   "st.tts_voice": "Voice",
   "st.tts_voice_default": "Default",
   "st.tts_rate": "Speed",
   "st.tts_test": "Test voice",
-  "st.tts_hint": "Android uses the system TTS engine. Windows/desktop uses native voice or Web Speech when available.",
+  "st.tts_hint": "On Android you can choose the system engine (e.g. Google or Samsung) and its voices. Desktop uses native/Web Speech when available.",
   "st.tts_error": "TTS error",
   "st.xp_trend": "XP trend (90 days)",
   "st.cal_legend": "Activity levels",
   "st.total_lessons": "Lessons completed",
   "s.grade": "Accuracy grade",
 
-  // Welcome (first run)
-  "w.title": "Welcome!",
-  "w.text":
-    "Learn languages from Spanish with practical exercises, flexible audio, and a focus on building useful phrases.",
-  "w.start": "Let's get started!",
+  // Welcome / onboarding (first run)
+  "w.title": "Which language do you want to learn?",
+  "w.text": "Pick a language to get started. You can change it later from the home screen.",
+  "w.start": "Start",
 };
 
 const TABLES: Record<UiLang, Table> = {

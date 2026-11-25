@@ -673,9 +673,8 @@
         },
         {
           "id": "c5l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (kū)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Llorar\"?",
           "options": [
             "哭",
             "高兴",
@@ -741,8 +740,8 @@
           "options": [
             "门 (mén)",
             "空 (kōng)",
-            "我要这个 (wǒ yào zhège)",
-            "如果 (rúguǒ)"
+            "鼻子 (bízi)",
+            "就 (jiù)"
           ],
           "answer": 0,
           "pair": {
@@ -824,9 +823,8 @@
         },
         {
           "id": "c5l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (diàntī)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ascensor\"?",
           "options": [
             "电梯",
             "吵",
@@ -892,8 +890,8 @@
           "options": [
             "漂亮 (piàoliang)",
             "用 (yòng)",
-            "愿意 (yuànyì)",
-            "杯子 (bēizi)"
+            "因为 (yīnwèi)",
+            "太阳 (tàiyáng)"
           ],
           "answer": 0,
           "pair": {
@@ -975,9 +973,8 @@
         },
         {
           "id": "c5l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (gāngcái)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hace un momento\"?",
           "options": [
             "刚才",
             "我明白了",
@@ -1043,8 +1040,8 @@
           "options": [
             "办公室 (bàngōngshì)",
             "教堂 (jiàotáng)",
-            "买东西 (mǎi dōngxi)",
-            "早 (zǎo)"
+            "很 (hěn)",
+            "香蕉 (xiāngjiāo)"
           ],
           "answer": 0,
           "pair": {
@@ -1126,9 +1123,8 @@
         },
         {
           "id": "c5l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (gěi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Dar\"?",
           "options": [
             "给",
             "吃",
@@ -1194,8 +1190,8 @@
           "options": [
             "夏天 (xiàtiān)",
             "成为 (chéngwéi)",
-            "蔬菜 (shūcài)",
-            "钱包 (qiánbāo)"
+            "吃 (chī)",
+            "狗 (gǒu)"
           ],
           "answer": 0,
           "pair": {
@@ -1277,9 +1273,8 @@
         },
         {
           "id": "c5l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (chē)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Coche\"?",
           "options": [
             "车",
             "我要这个",
@@ -1345,8 +1340,8 @@
           "options": [
             "来 (lái)",
             "容易 (róngyì)",
-            "做饭 (zuòfàn)",
-            "请进 (qǐng jìn)"
+            "学 (xué)",
+            "房间 (fángjiān)"
           ],
           "answer": 0,
           "pair": {
@@ -1428,9 +1423,8 @@
         },
         {
           "id": "c5l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ (bǎi)",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cien\"?",
           "options": [
             "百",
             "穿",
@@ -1496,8 +1490,8 @@
           "options": [
             "喂 (wèi)",
             "和 (hé)",
-            "声音 (shēngyīn)",
-            "黄色 (huángsè)"
+            "百 (bǎi)",
+            "穿 (chuān)"
           ],
           "answer": 0,
           "pair": {

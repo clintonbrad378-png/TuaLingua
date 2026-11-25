@@ -67,7 +67,7 @@
           "options": [
             "treno",
             "Autobus",
-            "bene"
+            "Dov'è la stazione?"
           ],
           "answer": 0,
           "pair": {
@@ -213,9 +213,8 @@
         },
         {
           "id": "i6l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "C'è ___ wifi?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
             "il",
             "Camera",
@@ -365,9 +364,8 @@
         },
         {
           "id": "i6l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ vicino",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Está cerca\"?",
           "options": [
             "È",
             "Destra",
@@ -668,9 +666,8 @@
         },
         {
           "id": "i6l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mar\"?",
           "options": [
             "Mare",
             "parlare",
@@ -736,8 +733,8 @@
           "options": [
             "Prendere",
             "Giovedì",
-            "conto",
-            "Sera"
+            "Mare",
+            "Sto bene"
           ],
           "answer": 0,
           "pair": {
@@ -887,8 +884,8 @@
           "options": [
             "Internet",
             "Per",
-            "Ciao",
-            "Mezzo"
+            "Verde",
+            "Dare"
           ],
           "answer": 0,
           "pair": {
@@ -1038,8 +1035,8 @@
           "options": [
             "Lì",
             "Davvero",
-            "Esame",
-            "Pantaloni"
+            "Nuovo",
+            "Ci vediamo"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1118,8 @@
         },
         {
           "id": "i6l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Querer\"?",
           "options": [
             "volere",
             "Dentro",
@@ -1189,8 +1185,8 @@
           "options": [
             "Mese",
             "domani",
-            "Lingua",
-            "Finire"
+            "Dolore",
+            "Pubblico"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "i6l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Casi\"?",
           "options": [
             "Quasi",
             "Tra",
@@ -1340,8 +1335,8 @@
           "options": [
             "fratello",
             "Usare",
-            "sempre",
-            "Triste"
+            "Oggi",
+            "Studiare"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1418,8 @@
         },
         {
           "id": "i6l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ninguno\"?",
           "options": [
             "Nessuno",
             "Comprare",
@@ -1491,8 +1485,8 @@
           "options": [
             "malato",
             "capire",
-            "Uscire",
-            "Quaranta"
+            "Veloce",
+            "Tenere"
           ],
           "answer": 0,
           "pair": {

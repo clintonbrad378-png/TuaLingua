@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Exercise, RoundResult, TeachIntro } from "../types";
 import { sfx, speak, vibrate } from "../lib/audio";
-import { normalize, seedOf, shuffled, tokenize } from "../lib/text";
+import { normalizeAnswer, seedOf, shuffled, tokenize } from "../lib/text";
 import { IconX, IconVolume, IconCheck } from "../components/icons";
 import { randomPraise, targetLangName, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
@@ -499,7 +499,7 @@ function BuildExercise({
     const value = chosen
       .map((id) => tokens.find((tk) => tk.id === id)?.text ?? "")
       .join(" ");
-    const ok = normalize(value) === normalize(ex.solution);
+    const ok = normalizeAnswer(value) === normalizeAnswer(ex.solution);
     onResult(ok, {
       answerText: ex.solution,
       explain: ex.explain,
@@ -679,12 +679,12 @@ function TypeExercise({
   const [value, setValue] = useState("");
 
   function check() {
-    const typed = normalize(value);
+    const typed = normalizeAnswer(value);
     // Enter vacío no debe contar como intento fallido.
     if (!typed.length) return;
     const ok =
       typed.length > 0 &&
-      (ex.accept.some((a) => normalize(a) === typed) || normalize(ex.solution) === typed);
+      (ex.accept.some((a) => normalizeAnswer(a) === typed) || normalizeAnswer(ex.solution) === typed);
     onResult(ok, {
       answerText: ex.solution,
       explain: ex.explain,

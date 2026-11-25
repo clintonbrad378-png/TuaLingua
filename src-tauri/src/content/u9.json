@@ -35,8 +35,8 @@
           "sentence": "If I ___ more money, I would travel.",
           "options": [
             "had",
-            "have",
-            "would have"
+            "If I were you, I would talk to her",
+            "If I were you, I would study harder."
           ],
           "answer": 0,
           "pair": {
@@ -51,8 +51,8 @@
           "prompt": "If I ___ you, I would apologise.",
           "options": [
             "were",
-            "was being",
-            "am"
+            "She would be happier if she changed her job.",
+            "If I were you"
           ],
           "answer": 0,
           "pair": {
@@ -67,8 +67,8 @@
           "prompt": "Traduce: «¿Qué harías si pudieras vivir en cualquier país?»",
           "solution": "What would you do if you could live in any country",
           "distractors": [
-            "can",
-            "will"
+            "If I were you, I would talk to her",
+            "If I were you, I would study harder."
           ],
           "pair": {
             "es": "¿Qué harías si pudieras vivir en cualquier país?",
@@ -110,8 +110,8 @@
           "prompt": "She would be happier if she ___ her job.",
           "options": [
             "changed",
-            "would change",
-            "changes"
+            "She would be happier if she changed her job.",
+            "If I were you, I would apologise."
           ],
           "answer": 0,
           "pair": {
@@ -318,7 +318,7 @@
           "options": [
             "must",
             "can't",
-            "should"
+            "Can't be"
           ],
           "answer": 0,
           "pair": {
@@ -349,7 +349,7 @@
           "prompt": "Traduce: «Puede que vayamos a Grecia este año»",
           "solution": "We might go to Greece this year",
           "distractors": [
-            "maybe",
+            "It might rain tomorrow",
             "must"
           ],
           "pair": {
@@ -482,8 +482,8 @@
           "sentence": "It's expensive. ___ , it's the best option.",
           "options": [
             "However",
-            "For example",
-            "Because"
+            "On the one hand it's cheap; on the other hand, it's far away.",
+            "On the other hand"
           ],
           "answer": 0,
           "pair": {
@@ -498,8 +498,8 @@
           "prompt": "«Por lo tanto» es…",
           "options": [
             "therefore",
-            "purpose",
-            "precisely"
+            "On the one hand it's cheap; on the other hand, it's far away.",
+            "However"
           ],
           "answer": 0,
           "pair": {
@@ -514,8 +514,8 @@
           "prompt": "Traduce: «En mi opinión, el examen fue justo»",
           "solution": "In my opinion the exam was fair",
           "distractors": [
-            "opinions",
-            "since"
+            "He didn't study. Therefore, he failed.",
+            "Therefore"
           ],
           "pair": {
             "es": "En mi opinión, el examen fue justo",
@@ -557,8 +557,8 @@
           "prompt": "He didn't study. ___ , he failed.",
           "options": [
             "Therefore",
-            "Although",
-            "Despite"
+            "In my opinion, the exam was fair",
+            "On the one hand it's useful; on the other hand, it's expensive"
           ],
           "answer": 0,
           "pair": {
@@ -625,13 +625,12 @@
         },
         {
           "id": "u9l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ eye",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El ojo\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "To cook",
+            "Into"
           ],
           "answer": 0,
           "pair": {
@@ -693,8 +692,8 @@
           "options": [
             "the table",
             "to cook",
-            "the traffic light",
-            "the website"
+            "The coach",
+            "The pain"
           ],
           "answer": 0,
           "pair": {
@@ -776,9 +775,8 @@
         },
         {
           "id": "u9l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cierto\"?",
           "options": [
             "certain",
             "the",
@@ -844,8 +842,8 @@
           "options": [
             "the class",
             "the checkout",
-            "Where are you from?",
-            "not"
+            "The night",
+            "Certain"
           ],
           "answer": 0,
           "pair": {
@@ -927,9 +925,8 @@
         },
         {
           "id": "u9l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Él\"?",
           "options": [
             "he",
             "try",
@@ -995,8 +992,8 @@
           "options": [
             "the actress",
             "the highway",
-            "me",
-            "the band"
+            "He",
+            "Honest"
           ],
           "answer": 0,
           "pair": {
@@ -1078,13 +1075,12 @@
         },
         {
           "id": "u9l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ brother",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El hermano\"?",
           "options": [
             "the",
             "give",
-            "thex"
+            "The brother"
           ],
           "answer": 0,
           "pair": {
@@ -1146,8 +1142,8 @@
           "options": [
             "at",
             "the forest",
-            "How old are you?",
-            "Do you speak English?"
+            "The doctor",
+            "Hot"
           ],
           "answer": 0,
           "pair": {
@@ -1229,9 +1225,8 @@
         },
         {
           "id": "u9l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ message",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El mensaje\"?",
           "options": [
             "the",
             "woman",
@@ -1297,8 +1292,8 @@
           "options": [
             "open",
             "need",
-            "if",
-            "the hope"
+            "Back",
+            "Woman"
           ],
           "answer": 0,
           "pair": {
@@ -1380,13 +1375,12 @@
         },
         {
           "id": "u9l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ water",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El agua\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "School",
+            "The water"
           ],
           "answer": 0,
           "pair": {
@@ -1448,8 +1442,8 @@
           "options": [
             "fast",
             "the weekend",
-            "already",
-            "tall"
+            "The water",
+            "School"
           ],
           "answer": 0,
           "pair": {

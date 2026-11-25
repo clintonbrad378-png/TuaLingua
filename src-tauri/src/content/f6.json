@@ -213,9 +213,8 @@
         },
         {
           "id": "f6l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Comment ___ prendre ?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cómo se toma?\"?",
           "options": [
             "le",
             "Médicament",
@@ -365,9 +364,8 @@
         },
         {
           "id": "f6l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "C'est ___ urgence",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Es una emergencia\"?",
           "options": [
             "une",
             "Secours",
@@ -517,9 +515,8 @@
         },
         {
           "id": "f6l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Je ___ bien",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Duermo bien\"?",
           "options": [
             "dors",
             "Sport",
@@ -668,9 +665,8 @@
         },
         {
           "id": "f6l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Suave\"?",
           "options": [
             "Doux",
             "Mercredi",
@@ -736,8 +732,8 @@
           "options": [
             "Un",
             "Pied",
-            "S'habiller",
-            "Chaud"
+            "Ouvert",
+            "Mercredi"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +815,8 @@
         },
         {
           "id": "f6l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Otro\"?",
           "options": [
             "Autre",
             "Payer",
@@ -887,8 +882,8 @@
           "options": [
             "Spécial",
             "Finalement",
-            "Vent",
-            "D'accord"
+            "Payer",
+            "De rien"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +965,8 @@
         },
         {
           "id": "f6l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cantar\"?",
           "options": [
             "Chanter",
             "Soupe",
@@ -1038,8 +1032,8 @@
           "options": [
             "Casser",
             "Permettre",
-            "Robe",
-            "Corps"
+            "Manteau",
+            "Grand"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1115,8 @@
         },
         {
           "id": "f6l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vida\"?",
           "options": [
             "Vie",
             "Salade",
@@ -1189,8 +1182,8 @@
           "options": [
             "Père",
             "Bonsoir",
-            "Ami",
-            "Fille"
+            "Sortir",
+            "Soir"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1265,8 @@
         },
         {
           "id": "f6l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Gente\"?",
           "options": [
             "Gens",
             "Main",
@@ -1340,8 +1332,8 @@
           "options": [
             "Parce que",
             "Enfant",
-            "Gare",
-            "Rose"
+            "Seconde",
+            "Main"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1415,8 @@
         },
         {
           "id": "f6l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Construir\"?",
           "options": [
             "Construire",
             "Aéroport",
@@ -1491,8 +1482,8 @@
           "options": [
             "Menu",
             "Neuf",
-            "Comment",
-            "Rien"
+            "Oreille",
+            "Nous"
           ],
           "answer": 0,
           "pair": {

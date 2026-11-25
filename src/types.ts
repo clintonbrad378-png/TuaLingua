@@ -98,6 +98,15 @@ export type ProgressState = {
   history: HistoryDay[];
 };
 
+export type LangProfile = {
+  lang: string;
+  words_learned: number;
+  srs_count: number;
+  due_count: number;
+  deck_count: number;
+  lessons_done: number;
+};
+
 export type SessionSummary = {
   xp_gained: number;
   total_xp: number;

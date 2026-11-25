@@ -33,9 +33,9 @@
           "prompt": "¿Cuál es «cinco»?",
           "options": [
             "Five",
-            "Four",
-            "Nine",
-            "Fifteen"
+            "I have two sisters",
+            "I'm twenty years old",
+            "There are seven days in a week."
           ],
           "answer": 0,
           "pair": {
@@ -89,8 +89,8 @@
           "sentence": "There are ___ days in a week.",
           "options": [
             "seven",
-            "six",
-            "seventeen"
+            "Two coffees, please",
+            "Ten"
           ],
           "answer": 0,
           "pair": {
@@ -119,7 +119,7 @@
           "prompt": "Traduce: «Tengo dos hermanas»",
           "solution": "I have two sisters",
           "distractors": [
-            "has",
+            "One",
             "three"
           ],
           "pair": {
@@ -150,9 +150,9 @@
           "prompt": "Completa la serie: eleven, twelve, ___, fourteen",
           "options": [
             "thirteen",
-            "fifteen",
-            "thirty",
-            "forty"
+            "Twelve",
+            "There are seven people",
+            "I have three brothers"
           ],
           "answer": 0,
           "pair": {
@@ -238,8 +238,8 @@
           "sentence": "___ much is it?",
           "options": [
             "How",
-            "What",
-            "Who"
+            "Thirty",
+            "One hundred"
           ],
           "answer": 0,
           "pair": {
@@ -254,7 +254,7 @@
           "prompt": "Traduce: «Es veinte dólares»",
           "solution": "It is twenty dollars",
           "distractors": [
-            "are",
+            "Fifty",
             "thirty"
           ],
           "pair": {
@@ -307,9 +307,9 @@
           "prompt": "¿Cómo se dice «45»?",
           "options": [
             "Forty-five",
-            "Fourteen-five",
-            "Four-five",
-            "Fifty-four"
+            "It's too expensive",
+            "One thousand",
+            "It is twenty dollars"
           ],
           "answer": 0,
           "pair": {
@@ -372,9 +372,9 @@
           "prompt": "«Thursday» es…",
           "options": [
             "jueves",
-            "martes",
-            "sábado",
-            "miércoles"
+            "Wednesday",
+            "Half past seven",
+            "Thursday"
           ],
           "answer": 0,
           "pair": {
@@ -406,7 +406,7 @@
           "options": [
             "on",
             "in",
-            "at"
+            "What time is it?"
           ],
           "answer": 0,
           "pair": {
@@ -434,8 +434,8 @@
           "prompt": "Traduce: «¿Qué hora es?»",
           "solution": "What time is it",
           "distractors": [
-            "hour",
-            "now"
+            "Friday",
+            "Today"
           ],
           "pair": {
             "es": "¿Qué hora es?",
@@ -448,9 +448,9 @@
           "prompt": "«In the morning» significa…",
           "options": [
             "Por la mañana",
-            "Por la tarde",
-            "Por la noche",
-            "Al mediodía"
+            "Wednesday",
+            "See you on Monday!",
+            "Half past seven"
           ],
           "answer": 0,
           "pair": {
@@ -464,9 +464,9 @@
           "prompt": "«Tomorrow» y «yesterday» son…",
           "options": [
             "mañana y ayer",
-            "ayer y mañana",
-            "hoy y ayer",
-            "mañana y ahora"
+            "What time is it?",
+            "See you on Monday!",
+            "In the morning"
           ],
           "answer": 0,
           "pair": {
@@ -505,8 +505,8 @@
           "prompt": "¿Cómo se dice «la semana que viene»?",
           "options": [
             "Next week",
-            "Last week",
-            "This week",
+            "Yesterday",
+            "Tomorrow",
             "Tomorrow week"
           ],
           "answer": 0,
@@ -522,8 +522,8 @@
           "sentence": "I'm ___ right now.",
           "options": [
             "busy",
-            "occupied",
-            "working"
+            "Now",
+            "Do you have time tomorrow?"
           ],
           "answer": 0,
           "pair": {
@@ -538,8 +538,8 @@
           "prompt": "Traduce: «Quedamos a las cinco»",
           "solution": "Let's meet at five",
           "distractors": [
-            "in",
-            "to"
+            "Today",
+            "Do you have time on Friday?"
           ],
           "pair": {
             "es": "Quedamos a las cinco",
@@ -581,9 +581,9 @@
           "prompt": "«Do you have time on Friday?» significa…",
           "options": [
             "¿Tienes tiempo el viernes?",
-            "¿A qué hora es el viernes?",
-            "¿Trabajas el viernes?",
-            "¿Vienes el viernes?"
+            "Let's meet at six.",
+            "I'm busy right now",
+            "Do you have time on Friday?"
           ],
           "answer": 0,
           "pair": {
@@ -622,7 +622,7 @@
           "options": [
             "at",
             "on",
-            "in"
+            "Tomorrow"
           ],
           "answer": 0,
           "pair": {
@@ -689,9 +689,8 @@
         },
         {
           "id": "u2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Arriba\"?",
           "options": [
             "up",
             "win",
@@ -757,8 +756,8 @@
           "options": [
             "hot",
             "to grill",
-            "and",
-            "the summer"
+            "December",
+            "Eight"
           ],
           "answer": 0,
           "pair": {
@@ -840,9 +839,8 @@
         },
         {
           "id": "u2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ lose",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Perder\"?",
           "options": [
             "to",
             "consider",
@@ -908,8 +906,8 @@
           "options": [
             "the uncle",
             "to chat",
-            "the grape",
-            "the fish"
+            "Yellow",
+            "Consider"
           ],
           "answer": 0,
           "pair": {
@@ -991,9 +989,8 @@
         },
         {
           "id": "u2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ser/estar\"?",
           "options": [
             "be",
             "difficult",
@@ -1059,8 +1056,8 @@
           "options": [
             "of course",
             "we",
-            "tall",
-            "the roundabout"
+            "The memory",
+            "Difficult"
           ],
           "answer": 0,
           "pair": {
@@ -1142,9 +1139,8 @@
         },
         {
           "id": "u2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Malo\"?",
           "options": [
             "bad",
             "game",
@@ -1210,8 +1206,8 @@
           "options": [
             "generous",
             "the gift",
-            "some",
-            "the t-shirt"
+            "Week",
+            "Just"
           ],
           "answer": 0,
           "pair": {
@@ -1293,9 +1289,8 @@
         },
         {
           "id": "u2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ t-shirt",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La camiseta\"?",
           "options": [
             "the",
             "company",
@@ -1361,8 +1356,8 @@
           "options": [
             "best",
             "afraid",
-            "the internet",
-            "the sale"
+            "Company",
+            "Almost sure"
           ],
           "answer": 0,
           "pair": {
@@ -1444,13 +1439,12 @@
         },
         {
           "id": "u2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ silence",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El silencio\"?",
           "options": [
             "the",
             "running",
-            "thex"
+            "Hiking"
           ],
           "answer": 0,
           "pair": {
@@ -1512,8 +1506,8 @@
           "options": [
             "the moon",
             "hiking",
-            "the person",
-            "mean"
+            "Reason",
+            "The novel"
           ],
           "answer": 0,
           "pair": {

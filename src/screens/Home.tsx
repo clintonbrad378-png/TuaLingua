@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { LanguageInfo, Lesson, ProgressState, Unit } from "../types";
 import { setMuted, speak } from "../lib/audio";
+import { lessonTeachPhrases } from "../api";
 import { langOf } from "../lib/langs";
 import { plural, targetLangName, t, useUiLang } from "../i18n";
 import { useSheetFocus } from "../lib/focus";
@@ -239,8 +240,8 @@ export default function Home({
               {preview.lesson.tip.map((tip, i) => <li key={i}><span className="tip-dot"/> {tip}</li>)}
             </ul>
             <p className="sheet-label">{t("home.key_phrases")}</p>
-            {preview.lesson.phrases.map((p, i) => (
-              <div className="phrase" key={i}>
+            {lessonTeachPhrases(preview.lesson).map((p, i) => (
+              <div className="phrase" key={`${p.t}-${i}`}>
                 <div>
                   <p className="p-es">{p.es}</p>
                   <p className="p-en">{p.t}</p>

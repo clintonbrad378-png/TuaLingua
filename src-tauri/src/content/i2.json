@@ -33,9 +33,9 @@
           "prompt": "«Vorrei un caffè, per favore» significa…",
           "options": [
             "Quisiera un café, por favor",
-            "Tengo un café",
-            "Hago café",
-            "¿Dónde está el café?"
+            "Il conto, per favore",
+            "Acqua",
+            "Vorrei dell'acqua, per favore"
           ],
           "answer": 0,
           "pair": {
@@ -66,8 +66,8 @@
           "sentence": "___ un caffè, per favore.",
           "options": [
             "Vorrei",
-            "Sono",
-            "Vado"
+            "Conto",
+            "Vorrei un caffè, per favore"
           ],
           "answer": 0,
           "pair": {
@@ -132,8 +132,8 @@
           "prompt": "Para pedir con educación puedes usar…",
           "options": [
             "Vorrei",
-            "Sono",
-            "Ieri",
+            "Per favore",
+            "Vorrei dell'acqua",
             "Là"
           ],
           "answer": 0,
@@ -189,9 +189,9 @@
           "prompt": "«Quanto costa?» significa…",
           "options": [
             "¿Cuánto cuesta?",
-            "¿Cuánto tiempo?",
-            "¿Cuántos años?",
-            "¿Dónde está?"
+            "Formaggio",
+            "Quanto costa?",
+            "Vorrei un chilo di mele"
           ],
           "answer": 0,
           "pair": {
@@ -217,13 +217,12 @@
         },
         {
           "id": "i2l2e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Quanto ___?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Cuánto cuesta?\"?",
           "options": [
             "costa",
-            "costi",
-            "costare"
+            "Vorrei un chilo di mele",
+            "Pane"
           ],
           "answer": 0,
           "pair": {
@@ -237,8 +236,8 @@
           "prompt": "Traduce: «Quisiera un kilo de manzanas»",
           "solution": "Vorrei un chilo di mele",
           "distractors": [
-            "acqua",
-            "conto"
+            "Formaggio",
+            "Mela"
           ],
           "pair": {
             "es": "Quisiera un kilo de manzanas",
@@ -288,9 +287,9 @@
           "prompt": "«Mele» son…",
           "options": [
             "manzanas",
-            "leches",
-            "panes",
-            "quesos"
+            "Mele",
+            "È troppo caro",
+            "Pane"
           ],
           "answer": 0,
           "pair": {
@@ -300,12 +299,11 @@
         },
         {
           "id": "i2l2e8",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "È troppo ___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Es demasiado caro\"?",
           "options": [
             "caro",
-            "caffè",
+            "Formaggio",
             "chilo"
           ],
           "answer": 0,
@@ -345,9 +343,9 @@
           "prompt": "«Mi sveglio alle sette» significa…",
           "options": [
             "Me despierto a las siete",
-            "Me acuesto a las siete",
-            "Como a las siete",
-            "Salgo a las siete"
+            "Faccio colazione a casa",
+            "Svegliarsi",
+            "Mangiare"
           ],
           "answer": 0,
           "pair": {
@@ -378,8 +376,8 @@
           "sentence": "Faccio ___ a casa.",
           "options": [
             "colazione",
-            "conto",
-            "caffè"
+            "Mi sveglio alle sette",
+            "Svegliarsi"
           ],
           "answer": 0,
           "pair": {
@@ -394,7 +392,7 @@
           "solution": "Vado al lavoro",
           "distractors": [
             "casa",
-            "scuola"
+            "Dormire"
           ],
           "pair": {
             "es": "Voy al trabajo",
@@ -444,9 +442,9 @@
           "prompt": "«Faccio colazione» es…",
           "options": [
             "Desayuno",
-            "Ceno",
-            "Duermo",
-            "Pago"
+            "Vado al lavoro",
+            "Mi sveglio alle sette",
+            "Mangiare"
           ],
           "answer": 0,
           "pair": {
@@ -461,8 +459,8 @@
           "sentence": "Mi ___ alle sette.",
           "options": [
             "sveglio",
-            "sveglia",
-            "svegli"
+            "Svegliarsi",
+            "Mi sveglio alle sette"
           ],
           "answer": 0,
           "pair": {
@@ -501,9 +499,9 @@
           "prompt": "«Dov'è il bagno?» significa…",
           "options": [
             "¿Dónde está el baño?",
-            "¿Dónde está la cocina?",
-            "¿Dónde está la mesa?",
-            "¿Dónde está la puerta?"
+            "Chiave",
+            "Tavolo",
+            "Dov'è il bagno?"
           ],
           "answer": 0,
           "pair": {
@@ -529,13 +527,12 @@
         },
         {
           "id": "i2l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Dov'è il ___?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Dónde está el baño?\"?",
           "options": [
             "bagno",
-            "pane",
-            "caffè"
+            "Cucina",
+            "La chiave"
           ],
           "answer": 0,
           "pair": {
@@ -600,9 +597,9 @@
           "prompt": "«La chiave» es…",
           "options": [
             "la llave",
-            "la silla",
-            "la ventana",
-            "la puerta"
+            "Chiave",
+            "Dov'è il bagno?",
+            "Tavolo"
           ],
           "answer": 0,
           "pair": {
@@ -617,8 +614,8 @@
           "sentence": "La cucina è ___",
           "options": [
             "grande",
-            "grandi",
-            "granda"
+            "La chiave è sul tavolo",
+            "Casa"
           ],
           "answer": 0,
           "pair": {
@@ -684,9 +681,8 @@
         },
         {
           "id": "i2l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cada\"?",
           "options": [
             "Ogni",
             "Paura",
@@ -752,8 +748,8 @@
           "options": [
             "Salire",
             "Ho sete",
-            "Anche",
-            "Lavare"
+            "Tutto",
+            "Dove"
           ],
           "answer": 0,
           "pair": {
@@ -835,9 +831,8 @@
         },
         {
           "id": "i2l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Viento\"?",
           "options": [
             "Vento",
             "Password",
@@ -903,8 +898,8 @@
           "options": [
             "Genitori",
             "Senza",
-            "letto",
-            "Pomeriggio"
+            "Rimuovere",
+            "Colazione"
           ],
           "answer": 0,
           "pair": {
@@ -986,9 +981,8 @@
         },
         {
           "id": "i2l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Limpiar\"?",
           "options": [
             "Pulire",
             "Ma",
@@ -1054,8 +1048,8 @@
           "options": [
             "Figlia",
             "Scarpe",
-            "fare",
-            "figlio"
+            "Freddo",
+            "Strada"
           ],
           "answer": 0,
           "pair": {
@@ -1137,9 +1131,8 @@
         },
         {
           "id": "i2l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Tocar/Sonar\"?",
           "options": [
             "Suonare",
             "Otto",
@@ -1205,8 +1198,8 @@
           "options": [
             "mela",
             "sedia",
-            "A che ora?",
-            "In"
+            "Occupato",
+            "Lontano"
           ],
           "answer": 0,
           "pair": {
@@ -1288,9 +1281,8 @@
         },
         {
           "id": "i2l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mapa\"?",
           "options": [
             "mappa",
             "ricetta",
@@ -1356,8 +1348,8 @@
           "options": [
             "Dove",
             "Pensare",
-            "Chi",
-            "Buongiorno"
+            "Dicembre",
+            "Voce"
           ],
           "answer": 0,
           "pair": {
@@ -1439,9 +1431,8 @@
         },
         {
           "id": "i2l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Luz\"?",
           "options": [
             "Luce",
             "Triste",
@@ -1507,8 +1498,8 @@
           "options": [
             "adesso",
             "Quattro",
-            "Rosso",
-            "Agosto"
+            "Marito",
+            "Triste"
           ],
           "answer": 0,
           "pair": {

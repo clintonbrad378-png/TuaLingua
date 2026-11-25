@@ -668,13 +668,12 @@
         },
         {
           "id": "u14l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ tongue",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La lengua\"?",
           "options": [
             "the",
             "I",
-            "thex"
+            "Low"
           ],
           "answer": 0,
           "pair": {
@@ -736,8 +735,8 @@
           "options": [
             "keep",
             "the homework",
-            "the sofa",
-            "swimming"
+            "To start",
+            "The goal"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +818,8 @@
         },
         {
           "id": "u14l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Julio\"?",
           "options": [
             "July",
             "other",
@@ -887,8 +885,8 @@
           "options": [
             "to sell",
             "the holiday",
-            "consider",
-            "to go"
+            "Say",
+            "The elephant"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +968,8 @@
         },
         {
           "id": "u14l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Mitad\"?",
           "options": [
             "half",
             "to",
@@ -1038,8 +1035,8 @@
           "options": [
             "so",
             "few",
-            "case",
-            "minute"
+            "Not",
+            "The news"
           ],
           "answer": 0,
           "pair": {
@@ -1121,13 +1118,12 @@
         },
         {
           "id": "u14l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ jeans",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Los vaqueros\"?",
           "options": [
             "the",
             "ready",
-            "thex"
+            "Great"
           ],
           "answer": 0,
           "pair": {
@@ -1189,8 +1185,8 @@
           "options": [
             "great",
             "to know",
-            "black",
-            "to fry"
+            "The salt",
+            "In"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "u14l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Ojo\"?",
           "options": [
             "eye",
             "word",
@@ -1340,8 +1335,8 @@
           "options": [
             "the tooth",
             "thin",
-            "try",
-            "the belt"
+            "The conversation",
+            "The girl"
           ],
           "answer": 0,
           "pair": {
@@ -1423,13 +1418,12 @@
         },
         {
           "id": "u14l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ citizen",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El ciudadano\"?",
           "options": [
             "the",
             "start",
-            "thex"
+            "Stay"
           ],
           "answer": 0,
           "pair": {
@@ -1491,8 +1485,8 @@
           "options": [
             "Sunday",
             "cold",
-            "the ingredient",
-            "idea"
+            "The noise",
+            "Stay"
           ],
           "answer": 0,
           "pair": {

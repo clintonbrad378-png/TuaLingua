@@ -517,9 +517,8 @@
         },
         {
           "id": "d3l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Gibt ___ WLAN?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
             "es",
             "Zimmer",
@@ -668,9 +667,8 @@
         },
         {
           "id": "d3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Naranja\"?",
           "options": [
             "Orange",
             "Schneiden",
@@ -736,8 +734,8 @@
           "options": [
             "Minute",
             "Salat",
-            "Braun",
-            "Bald"
+            "Arm",
+            "Hören"
           ],
           "answer": 0,
           "pair": {
@@ -819,9 +817,8 @@
         },
         {
           "id": "d3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Muy\"?",
           "options": [
             "Sehr",
             "Erklären",
@@ -887,8 +884,8 @@
           "options": [
             "Himmel",
             "Bald",
-            "Billig",
-            "Film"
+            "Wann",
+            "April"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +967,8 @@
         },
         {
           "id": "d3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Silla\"?",
           "options": [
             "Stuhl",
             "Niedrig",
@@ -1038,8 +1034,8 @@
           "options": [
             "Sicher",
             "Wütend",
-            "Zucker",
-            "Großvater"
+            "Fisch",
+            "Hähnchen"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1117,8 @@
         },
         {
           "id": "d3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Nueve\"?",
           "options": [
             "Neun",
             "Flughafen",
@@ -1189,8 +1184,8 @@
           "options": [
             "Tasse",
             "Nein",
-            "Krankenschwester",
-            "Bleiben"
+            "Nächster",
+            "Tochter"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1267,8 @@
         },
         {
           "id": "d3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Vaciar\"?",
           "options": [
             "Leeren",
             "Normalerweise",
@@ -1340,8 +1334,8 @@
           "options": [
             "Folgen",
             "Endlich",
-            "April",
-            "Besonders"
+            "Braun",
+            "Hundert"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1417,8 @@
         },
         {
           "id": "d3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Bienvenido\"?",
           "options": [
             "Willkommen",
             "Arbeit",
@@ -1491,8 +1484,8 @@
           "options": [
             "Ei",
             "Draußen",
-            "Morgen",
-            "Schlecht"
+            "Arbeit",
+            "Hund"
           ],
           "answer": 0,
           "pair": {

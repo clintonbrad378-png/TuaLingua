@@ -56,9 +56,9 @@
           "prompt": "«Gate» es…",
           "options": [
             "la puerta de embarque",
-            "la pista",
-            "la maleta",
-            "el asiento"
+            "Here is my passport",
+            "Where is my luggage?",
+            "My flight is delayed"
           ],
           "answer": 0,
           "pair": {
@@ -89,8 +89,8 @@
           "sentence": "Where ___ my luggage?",
           "options": [
             "is",
-            "are",
-            "am"
+            "Luggage",
+            "Gate"
           ],
           "answer": 0,
           "pair": {
@@ -118,7 +118,7 @@
           "prompt": "Traduce: «Aquí está mi pasaporte»",
           "solution": "Here is my passport",
           "distractors": [
-            "are",
+            "Luggage",
             "ticket"
           ],
           "pair": {
@@ -132,9 +132,9 @@
           "prompt": "«Boarding pass» significa…",
           "options": [
             "tarjeta de embarque",
-            "pasaporte",
-            "billete de tren",
-            "maleta de mano"
+            "Passport",
+            "Gate",
+            "Luggage"
           ],
           "answer": 0,
           "pair": {
@@ -148,8 +148,8 @@
           "prompt": "«The plane takes off at six» = el avión…",
           "options": [
             "despega a las seis",
-            "aterriza a las seis",
-            "se retrasa hasta las seis"
+            "Boarding pass",
+            "Ticket"
           ],
           "answer": 0,
           "pair": {
@@ -189,9 +189,9 @@
           "prompt": "«Key» es…",
           "options": [
             "llave",
-            "habitación",
-            "cama",
-            "ascensor"
+            "What time is check-out?",
+            "Key",
+            "I have a reservation"
           ],
           "answer": 0,
           "pair": {
@@ -217,13 +217,12 @@
         },
         {
           "id": "u4l2e3",
-          "type": "fill",
-          "prompt": "Completa la pregunta",
-          "sentence": "Is breakfast ___?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Está incluido el desayuno?\"?",
           "options": [
             "included",
-            "include",
-            "including"
+            "Check-out",
+            "I have a reservation"
           ],
           "answer": 0,
           "pair": {
@@ -238,8 +237,8 @@
           "prompt": "Traduce: «Tengo una reserva»",
           "solution": "I have a reservation",
           "distractors": [
-            "had",
-            "the"
+            "Check-out",
+            "Key"
           ],
           "pair": {
             "es": "Tengo una reserva",
@@ -265,9 +264,9 @@
           "prompt": "«Elevator» significa…",
           "options": [
             "ascensor",
-            "escalera",
-            "pasillo",
-            "lavabo"
+            "Key",
+            "Check-out",
+            "Room"
           ],
           "answer": 0,
           "pair": {
@@ -305,9 +304,9 @@
           "prompt": "«Check-out» es…",
           "options": [
             "dejar la habitación (salida)",
-            "llegar al hotel",
-            "pagar la cena",
-            "pedir la llave"
+            "Night",
+            "Key",
+            "Check-out"
           ],
           "answer": 0,
           "pair": {
@@ -346,9 +345,9 @@
           "prompt": "«Turn right» es…",
           "options": [
             "gira a la derecha",
-            "gira a la izquierda",
-            "sigue recto",
-            "para aquí"
+            "Far",
+            "Near",
+            "Where is the bathroom?"
           ],
           "answer": 0,
           "pair": {
@@ -380,7 +379,7 @@
           "options": [
             "left",
             "the left",
-            "leftly"
+            "Far"
           ],
           "answer": 0,
           "pair": {
@@ -409,8 +408,8 @@
           "prompt": "Traduce: «¿Dónde está el baño?»",
           "solution": "Where is the bathroom",
           "distractors": [
-            "What",
-            "toilet"
+            "Left",
+            "Near"
           ],
           "pair": {
             "es": "¿Dónde está el baño?",
@@ -423,9 +422,9 @@
           "prompt": "«It's next to the bank» significa…",
           "options": [
             "Está al lado del banco",
-            "Está lejos del banco",
-            "Está detrás del banco",
-            "Está dentro del banco"
+            "Straight",
+            "It's next to the bank",
+            "Turn left at the corner."
           ],
           "answer": 0,
           "pair": {
@@ -462,9 +461,9 @@
           "prompt": "«Go straight» significa…",
           "options": [
             "sigue recto",
-            "gira",
+            "Turn left at the corner.",
             "para",
-            "vuelve"
+            "Where is the bathroom?"
           ],
           "answer": 0,
           "pair": {
@@ -503,8 +502,8 @@
           "prompt": "¿Cómo preguntas el precio?",
           "options": [
             "How much is it?",
-            "How many is it?",
-            "What cost?",
+            "Cash",
+            "Receipt",
             "How price is it?"
           ],
           "answer": 0,
@@ -536,8 +535,8 @@
           "sentence": "Can I pay ___ card?",
           "options": [
             "by",
-            "with",
-            "in"
+            "Card",
+            "Can I pay by card?"
           ],
           "answer": 0,
           "pair": {
@@ -552,8 +551,8 @@
           "prompt": "Traduce: «Me lo llevo»",
           "solution": "I'll take it",
           "distractors": [
-            "want",
-            "this"
+            "How much is it?",
+            "Price"
           ],
           "pair": {
             "es": "Me lo llevo",
@@ -579,9 +578,9 @@
           "prompt": "«Expensive» es…",
           "options": [
             "caro",
-            "barato",
-            "grande",
-            "nuevo"
+            "Receipt",
+            "Expensive",
+            "Size"
           ],
           "answer": 0,
           "pair": {
@@ -618,9 +617,9 @@
           "prompt": "«I'm just looking, thanks» significa…",
           "options": [
             "Solo estoy mirando, gracias",
-            "Solo quiero pagar, gracias",
-            "Estoy buscando trabajo",
-            "Solo tengo efectivo"
+            "How much is it?",
+            "Can I pay by card?",
+            "Expensive"
           ],
           "answer": 0,
           "pair": {
@@ -686,9 +685,8 @@
         },
         {
           "id": "u4l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Construir\"?",
           "options": [
             "build",
             "speak",
@@ -754,8 +752,8 @@
           "options": [
             "very",
             "the woman",
-            "real",
-            "difficult"
+            "No",
+            "Angry"
           ],
           "answer": 0,
           "pair": {
@@ -837,9 +835,8 @@
         },
         {
           "id": "u4l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ direction",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La dirección\"?",
           "options": [
             "the",
             "car",
@@ -905,8 +902,8 @@
           "options": [
             "head",
             "short",
-            "seven",
-            "the wind"
+            "The butterfly",
+            "Buy"
           ],
           "answer": 0,
           "pair": {
@@ -988,9 +985,8 @@
         },
         {
           "id": "u4l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cara\"?",
           "options": [
             "face",
             "to",
@@ -1056,8 +1052,8 @@
           "options": [
             "these",
             "the colleague",
-            "home",
-            "the flight"
+            "Walk",
+            "The shop"
           ],
           "answer": 0,
           "pair": {
@@ -1139,9 +1135,8 @@
         },
         {
           "id": "u4l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Leer\"?",
           "options": [
             "read",
             "the",
@@ -1207,8 +1202,8 @@
           "options": [
             "the bar",
             "stop",
-            "the series",
-            "the photo"
+            "The restaurant",
+            "The pot"
           ],
           "answer": 0,
           "pair": {
@@ -1290,13 +1285,12 @@
         },
         {
           "id": "u4l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ actor",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"El actor\"?",
           "options": [
             "the",
-            "thex",
-            "thex"
+            "Later",
+            "The actor"
           ],
           "answer": 0,
           "pair": {
@@ -1358,8 +1352,8 @@
           "options": [
             "the song",
             "the watch",
-            "the language",
-            "to take"
+            "The belt",
+            "The word"
           ],
           "answer": 0,
           "pair": {
@@ -1441,9 +1435,8 @@
         },
         {
           "id": "u4l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cuándo\"?",
           "options": [
             "when",
             "hour",
@@ -1509,8 +1502,8 @@
           "options": [
             "still",
             "the letter",
-            "red",
-            "to sleep"
+            "When",
+            "The jeans"
           ],
           "answer": 0,
           "pair": {

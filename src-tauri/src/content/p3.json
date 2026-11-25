@@ -61,9 +61,8 @@
         },
         {
           "id": "p3l1e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Vou ___ supermercado",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Voy al supermercado\"?",
           "options": [
             "ao",
             "Estação",
@@ -365,9 +364,8 @@
         },
         {
           "id": "p3l3e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "Fica ___ daqui",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Está cerca de aquí\"?",
           "options": [
             "perto",
             "Direita",
@@ -517,9 +515,8 @@
         },
         {
           "id": "p3l4e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ wi-fi?",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"¿Hay wifi?\"?",
           "options": [
             "Tem",
             "Quarto",
@@ -668,9 +665,8 @@
         },
         {
           "id": "p3l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Baño\"?",
           "options": [
             "Banheiro",
             "Terminar",
@@ -736,7 +732,7 @@
           "options": [
             "Marido",
             "Triste",
-            "Preciso de ajuda",
+            "Acreditar",
             "Por que"
           ],
           "answer": 0,
@@ -819,9 +815,8 @@
         },
         {
           "id": "p3l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Hola\"?",
           "options": [
             "Olá",
             "Molhado",
@@ -887,8 +882,8 @@
           "options": [
             "Aceitar",
             "Conta",
-            "Livro",
-            "Terça-feira"
+            "Longo",
+            "Olá"
           ],
           "answer": 0,
           "pair": {
@@ -970,9 +965,8 @@
         },
         {
           "id": "p3l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ bem",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Estoy bien\"?",
           "options": [
             "Estou",
             "Banana",
@@ -1038,8 +1032,8 @@
           "options": [
             "Mala",
             "Igual",
-            "Olho",
-            "Sozinho"
+            "Pegar",
+            "Cidade"
           ],
           "answer": 0,
           "pair": {
@@ -1121,9 +1115,8 @@
         },
         {
           "id": "p3l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Cerrado\"?",
           "options": [
             "Fechado",
             "Quanto",
@@ -1189,8 +1182,8 @@
           "options": [
             "Farmácia",
             "Semana",
-            "Atrás",
-            "Cozinhar"
+            "Subir",
+            "Alguns"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1265,8 @@
         },
         {
           "id": "p3l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Viejo\"?",
           "options": [
             "Velho",
             "Decidir",
@@ -1340,8 +1332,8 @@
           "options": [
             "Sozinho",
             "Estar",
-            "Bom",
-            "Senha"
+            "Este",
+            "Manhã"
           ],
           "answer": 0,
           "pair": {
@@ -1423,9 +1415,8 @@
         },
         {
           "id": "p3l10e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"De verdad\"?",
           "options": [
             "Realmente",
             "Porta",
@@ -1491,8 +1482,8 @@
           "options": [
             "Alguns",
             "Olhar",
-            "Levar",
-            "Legume"
+            "Falar",
+            "Perder"
           ],
           "answer": 0,
           "pair": {

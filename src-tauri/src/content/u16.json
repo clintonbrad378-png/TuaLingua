@@ -491,7 +491,7 @@
             "Could you help me?",
             "It doesn't matter",
             "Of course",
-            "Of course"
+            "Maybe"
           ],
           "answer": 0,
           "pair": {
@@ -523,7 +523,7 @@
           "options": [
             "Of",
             "Maybe",
-            "ok"
+            "Together"
           ],
           "answer": 0,
           "pair": {
@@ -668,9 +668,8 @@
         },
         {
           "id": "u16l5e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ jacket",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La chaqueta\"?",
           "options": [
             "the",
             "part",
@@ -736,8 +735,8 @@
           "options": [
             "moment",
             "tall",
-            "why",
-            "special"
+            "The jacket",
+            "The baby"
           ],
           "answer": 0,
           "pair": {
@@ -819,13 +818,12 @@
         },
         {
           "id": "u16l6e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Sobre/acerca de\"?",
           "options": [
             "about",
             "the",
-            "aboutx"
+            "The movie"
           ],
           "answer": 0,
           "pair": {
@@ -887,8 +885,8 @@
           "options": [
             "warm",
             "the party",
-            "the sky",
-            "the train"
+            "We",
+            "Common"
           ],
           "answer": 0,
           "pair": {
@@ -970,13 +968,12 @@
         },
         {
           "id": "u16l7e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ luck",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La suerte\"?",
           "options": [
             "the",
             "offer",
-            "thex"
+            "Member"
           ],
           "answer": 0,
           "pair": {
@@ -1038,8 +1035,8 @@
           "options": [
             "the meeting",
             "the traffic light",
-            "the shoulder",
-            "let"
+            "Stop",
+            "Lead"
           ],
           "answer": 0,
           "pair": {
@@ -1121,13 +1118,12 @@
         },
         {
           "id": "u16l8e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___ peace",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"La paz\"?",
           "options": [
             "the",
             "as",
-            "thex"
+            "The peace"
           ],
           "answer": 0,
           "pair": {
@@ -1189,8 +1185,8 @@
           "options": [
             "week",
             "the belt",
-            "the reason",
-            "to paint"
+            "The shoes",
+            "The autumn"
           ],
           "answer": 0,
           "pair": {
@@ -1272,9 +1268,8 @@
         },
         {
           "id": "u16l9e3",
-          "type": "fill",
-          "prompt": "Completa la frase",
-          "sentence": "___",
+          "type": "choice",
+          "prompt": "¿Cómo se dice \"Crear\"?",
           "options": [
             "create",
             "the",
@@ -1340,8 +1335,8 @@
           "options": [
             "appear",
             "to",
-            "late",
-            "the bus"
+            "Work",
+            "Serve"
           ],
           "answer": 0,
           "pair": {
@@ -1491,8 +1486,8 @@
           "options": [
             "the chocolate",
             "love",
-            "the plate",
-            "these"
+            "Or",
+            "Be"
           ],
           "answer": 0,
           "pair": {
