@@ -123,14 +123,18 @@ export default function StatsSheet({
 
   useEffect(() => {
     let alive = true;
-    void listTtsEngines().then((e) => { if (alive) setTtsEngines(e); });
-    return () => { alive = false; };
+    const t = window.setTimeout(() => {
+      void listTtsEngines().then((e) => { if (alive) setTtsEngines(e); }).catch(() => { if (alive) setTtsEngines([]); });
+    }, 0);
+    return () => { alive = false; window.clearTimeout(t); };
   }, []);
 
   useEffect(() => {
     let alive = true;
-    void listTtsVoices().then((v) => { if (alive) setTtsVoices(v); });
-    return () => { alive = false; };
+    const t = window.setTimeout(() => {
+      void listTtsVoices().then((v) => { if (alive) setTtsVoices(v); }).catch(() => { if (alive) setTtsVoices([]); });
+    }, 0);
+    return () => { alive = false; window.clearTimeout(t); };
   }, [ttsEngine, ttsNativeEngine, progress.lang]);
 
   useSheetFocus(sheetRef, true, onClose);
